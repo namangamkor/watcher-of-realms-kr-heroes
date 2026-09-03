@@ -139,7 +139,15 @@ const installModal = document.querySelector("#installModal");
 const installModalBody = document.querySelector("#installModalBody");
 const installModalAction = document.querySelector("#installModalAction");
 
-const isIOS = /iphone|ipad|ipod/i.test(window.navigator.userAgent);
+const ua = window.navigator.userAgent || "";
+const isIOS = /iphone|ipad|ipod/i.test(ua);
+const isAndroid = /android/i.test(ua);
+const isKakaoInApp = /KAKAOTALK/i.test(ua);
+const isAndroidWebView = /;\s*wv\)/i.test(ua) || /\bwv\b/i.test(ua);
+const isOtherInApp =
+  /NAVER|Instagram|FBAN|FBAV|Line\/|DaumApps|everytimeApp/i.test(ua);
+const isInAppBrowser = isKakaoInApp || isAndroidWebView || isOtherInApp;
+
 const isStandalone =
   window.matchMedia("(display-mode: standalone)").matches ||
   window.navigator.standalone === true;
@@ -150,23 +158,47 @@ function openInstallModal(mode = "install") {
   installModal.hidden = false;
   document.body.classList.add("modal-open");
 
+  if (mode === "inapp") {
+    installModalBody.innerHTML = `
+      <p><strong>지금은 앱 안의 브라우저로 열려 있어서 바로 설치할 수 없습니다.</strong></p>
+      <p>현재 화면의 <strong>⋮ 메뉴</strong>를 누른 뒤
+      <strong>Chrome에서 열기</strong> 또는 <strong>다른 브라우저에서 열기</strong>를 선택하세요.</p>
+      <p>Chrome에서 이 사이트를 다시 열고 <strong>폰에 도감 추가</strong>를 누르면 설치할 수 있습니다.</p>
+      <p class="install-note">카카오톡, 일부 메신저·앱 내부 브라우저에서는 PWA 설치 기능이 제한될 수 있습니다.</p>
+    `;
+    installModalAction.textContent = "확인";
+    return;
+  }
+
   if (mode === "ios") {
     installModalBody.innerHTML = `
-      <p>아이폰·아이패드 Safari에서는 아래 순서로 추가할 수 있습니다.</p>
+      <p>아이폰·아이패드에서는 <strong>Safari</strong>로 열어주세요.</p>
       <ol>
-        <li>Safari 아래쪽의 <strong>공유 버튼</strong>을 누릅니다.</li>
+        <li>Safari의 <strong>공유 버튼</strong>을 누릅니다.</li>
         <li><strong>홈 화면에 추가</strong>를 선택합니다.</li>
         <li>오른쪽 위 <strong>추가</strong>를 누르면 완료됩니다.</li>
       </ol>
     `;
     installModalAction.textContent = "확인";
-  } else {
-    installModalBody.innerHTML = `
-      <p>홈 화면에 <strong>나만겜 영웅도감</strong> 아이콘을 추가하고 앱처럼 바로 실행할 수 있습니다.</p>
-      <p class="install-note">설치해도 별도 회원가입은 필요하지 않습니다.</p>
-    `;
-    installModalAction.textContent = deferredInstallPrompt ? "지금 설치" : "확인";
+    return;
   }
+
+  if (mode === "manual") {
+    installModalBody.innerHTML = `
+      <p>브라우저가 자동 설치창을 아직 준비하지 않았습니다.</p>
+      <p>Chrome 오른쪽 위 <strong>⋮ 메뉴</strong>에서
+      <strong>앱 설치</strong> 또는 <strong>홈 화면에 추가</strong>를 선택해보세요.</p>
+      <p class="install-note">잠시 후 페이지를 새로고침하면 설치 버튼이 활성화되는 경우도 있습니다.</p>
+    `;
+    installModalAction.textContent = "확인";
+    return;
+  }
+
+  installModalBody.innerHTML = `
+    <p>홈 화면에 <strong>나만겜 영웅도감</strong> 아이콘을 추가하고 앱처럼 바로 실행할 수 있습니다.</p>
+    <p class="install-note">설치해도 별도 회원가입은 필요하지 않습니다.</p>
+  `;
+  installModalAction.textContent = "지금 설치";
 }
 
 function closeInstallModal() {
@@ -178,6 +210,7 @@ function closeInstallModal() {
 window.addEventListener("beforeinstallprompt", (event) => {
   event.preventDefault();
   deferredInstallPrompt = event;
+
   if (installAppButton && !isStandalone) {
     installAppButton.classList.add("ready");
   }
@@ -186,6 +219,7 @@ window.addEventListener("beforeinstallprompt", (event) => {
 window.addEventListener("appinstalled", () => {
   deferredInstallPrompt = null;
   closeInstallModal();
+
   if (installAppButton) {
     installAppButton.classList.add("installed");
     installAppButton.innerHTML = "<span>✓ 설치됨</span>";
@@ -198,8 +232,13 @@ if (installAppButton) {
     installAppButton.innerHTML = "<span>✓ 설치됨</span>";
   }
 
-  installAppButton.addEventListener("click", async () => {
+  installAppButton.addEventListener("click", () => {
     if (isStandalone) return;
+
+    if (isInAppBrowser) {
+      openInstallModal("inapp");
+      return;
+    }
 
     if (isIOS) {
       openInstallModal("ios");
@@ -211,23 +250,29 @@ if (installAppButton) {
       return;
     }
 
-    openInstallModal("install");
+    openInstallModal("manual");
   });
 }
 
 if (installModalAction) {
   installModalAction.addEventListener("click", async () => {
-    if (isIOS || !deferredInstallPrompt) {
+    if (
+      isInAppBrowser ||
+      isIOS ||
+      !deferredInstallPrompt ||
+      installModalAction.textContent !== "지금 설치"
+    ) {
       closeInstallModal();
       return;
     }
 
     const promptEvent = deferredInstallPrompt;
-    deferredInstallPrompt = null;
     closeInstallModal();
 
     await promptEvent.prompt();
     await promptEvent.userChoice;
+
+    deferredInstallPrompt = null;
   });
 }
 
