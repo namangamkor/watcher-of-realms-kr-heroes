@@ -424,6 +424,7 @@ h1 span { color:#abb5c5; }
 .tag.legendary { color:#f3cf79; }
 .tag.epic { color:#c59cff; }
 .tag.rare { color:#7eb6ff; }
+.tag.common { color:#d7e0e8; }
 .tag.unknown { color:#9aa4b6; }
 .tag.dual {
   border:1px solid rgba(135,181,255,.24);
@@ -672,5 +673,43 @@ body.modal-open {
   }
   .install-modal-card {
     padding:26px 20px 20px;
+  }
+}
+
+
+/* v2.5 — faction cards: 3 columns desktop, 2 tablet, 1 mobile */
+.faction-tabs {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 14px !important;
+  align-items: stretch;
+  overflow: visible !important;
+}
+
+.faction-tabs .faction-card,
+.faction-tabs .faction-coming {
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  box-sizing: border-box;
+}
+
+.faction-tabs .faction-card {
+  min-height: 112px;
+}
+
+@media (max-width: 900px) {
+  .faction-tabs {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .faction-tabs {
+    grid-template-columns: 1fr !important;
+  }
+
+  .faction-tabs .faction-card {
+    min-height: 96px;
   }
 }

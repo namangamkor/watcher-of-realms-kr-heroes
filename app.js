@@ -59,6 +59,11 @@ const factionMeta = {
     kr: "최고 중재자",
     en: "Supreme Arbiters",
     total: 22
+  },
+  "unnamable": {
+    kr: "알 수 없는 자",
+    en: "Unnamable",
+    total: 2
   }
 };
 
@@ -236,7 +241,7 @@ function render() {
   }
 }
 
-fetch("./heroes.json?v=2.3")
+fetch("./heroes.json?v=2.5")
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
