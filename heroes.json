@@ -211,7 +211,7 @@
         "factionEn": "Unnamable",
         "lord": false,
         "sortOrder": 1,
-        "portrait": "./unnamable-01-ajax.webp"
+        "portrait": "./unnamable-hq-01-ajax.webp"
       }
     ]
   },
@@ -6066,7 +6066,7 @@
         "factionEn": "Unnamable",
         "lord": false,
         "sortOrder": 2,
-        "portrait": "./unnamable-02-ymiret.webp"
+        "portrait": "./unnamable-hq-02-ymiret.webp"
       }
     ]
   },
