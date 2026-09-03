@@ -1263,3 +1263,17 @@ body.modal-open {
     radial-gradient(circle at 12% 50%, rgba(240,202,114,.16), transparent 30%),
     linear-gradient(90deg, rgba(229,189,105,.13), rgba(229,189,105,.025) 62%, transparent);
 }
+
+
+/* v2.6.6 — align primary control widths
+   Search and faction selector use one 820px content width.
+   Creator banner intentionally remains wider as a branding block. */
+.searchbox,
+.faction-select-shell {
+  width: 100%;
+  max-width: 820px;
+}
+
+.faction-select-shell {
+  width: 100%;
+}
