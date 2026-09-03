@@ -426,3 +426,23 @@
 - 나만겜 제작/유튜브 배너는 기존 와이드 폭을 그대로 유지
 - 모바일에서는 두 UI 모두 화면 폭 100% 사용
 - 캐시 버전 `v2.6.6`으로 갱신
+
+
+## v2.6.7 변경 — Google 검색 노출 기본 SEO 적용
+
+- 검색 결과용 `<title>` 및 `meta description` 강화
+- Googlebot/검색엔진 색인 허용 메타 태그 추가
+- canonical URL을 `https://watcher-of-realms-kr-heroes.pages.dev/`로 고정
+- Open Graph / Twitter 공유 메타데이터 추가
+- schema.org `WebSite` + `CollectionPage` JSON-LD 구조화 데이터 추가
+- 화면 설명 문구에 `워처 오브 렐름(Watcher of Realms)` 키워드 명시
+- `robots.txt` 신규 추가
+- `sitemap.xml` 신규 추가
+- 나만겜 YouTube 공식 연결 주소: `https://www.youtube.com/@namangamkor`
+- 캐시 버전 `v2.6.7`로 갱신
+
+### Google Search Console 등록 후
+1. URL 접두어 속성으로 `https://watcher-of-realms-kr-heroes.pages.dev/` 추가
+2. Google이 제공하는 HTML 태그 또는 HTML 파일로 소유권 인증
+3. Sitemap 메뉴에서 `sitemap.xml` 제출
+4. URL 검사에서 메인 URL 색인 생성 요청
