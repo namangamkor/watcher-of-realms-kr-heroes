@@ -303,7 +303,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 13,
-        "portrait": "./supreme-arbiters-13-alistair.webp"
+        "portrait": "./supreme-arbiters-hq-13-alistair.webp"
       }
     ]
   },
@@ -1134,7 +1134,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 18,
-        "portrait": "./supreme-arbiters-18-cassiel.webp"
+        "portrait": "./supreme-arbiters-hq-18-cassiel.webp"
       }
     ]
   },
@@ -1215,7 +1215,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 11,
-        "portrait": "./supreme-arbiters-11-constance.webp"
+        "portrait": "./supreme-arbiters-hq-11-constance.webp"
       }
     ]
   },
@@ -1935,7 +1935,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": true,
         "sortOrder": 3,
-        "portrait": "./supreme-arbiters-03-elysia.webp"
+        "portrait": "./supreme-arbiters-hq-03-elysia.webp"
       }
     ]
   },
@@ -1995,7 +1995,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 16,
-        "portrait": "./supreme-arbiters-16-erlang-shen.webp"
+        "portrait": "./supreme-arbiters-hq-16-erlang-shen.webp"
       }
     ]
   },
@@ -2069,7 +2069,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 7,
-        "portrait": "./supreme-arbiters-07-eunomia.webp"
+        "portrait": "./supreme-arbiters-hq-07-eunomia.webp"
       }
     ]
   },
@@ -2122,7 +2122,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 20,
-        "portrait": "./supreme-arbiters-20-ezio-auditore.webp"
+        "portrait": "./supreme-arbiters-hq-20-ezio-auditore.webp"
       }
     ]
   },
@@ -2758,7 +2758,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 14,
-        "portrait": "./supreme-arbiters-14-ingrid.webp"
+        "portrait": "./supreme-arbiters-hq-14-ingrid.webp"
       }
     ]
   },
@@ -2788,7 +2788,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 17,
-        "portrait": "./supreme-arbiters-17-init.webp"
+        "portrait": "./supreme-arbiters-hq-17-init.webp"
       }
     ]
   },
@@ -2902,7 +2902,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 6,
-        "portrait": "./supreme-arbiters-06-jeera.webp"
+        "portrait": "./supreme-arbiters-hq-06-jeera.webp"
       }
     ]
   },
@@ -3055,7 +3055,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 15,
-        "portrait": "./supreme-arbiters-15-kane.webp"
+        "portrait": "./supreme-arbiters-hq-15-kane.webp"
       }
     ]
   },
@@ -3085,7 +3085,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 21,
-        "portrait": "./supreme-arbiters-21-kassandra.webp"
+        "portrait": "./supreme-arbiters-hq-21-kassandra.webp"
       }
     ]
   },
@@ -3118,7 +3118,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 10,
-        "portrait": "./supreme-arbiters-10-khadgrim.webp"
+        "portrait": "./supreme-arbiters-hq-10-khadgrim.webp"
       }
     ]
   },
@@ -3334,7 +3334,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 9,
-        "portrait": "./supreme-arbiters-09-lady-alexandra.webp"
+        "portrait": "./supreme-arbiters-hq-09-lady-alexandra.webp"
       }
     ]
   },
@@ -3457,7 +3457,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 19,
-        "portrait": "./supreme-arbiters-19-leikan.webp"
+        "portrait": "./supreme-arbiters-hq-19-leikan.webp"
       }
     ]
   },
@@ -4411,7 +4411,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": true,
         "sortOrder": 1,
-        "portrait": "./supreme-arbiters-01-oren.webp"
+        "portrait": "./supreme-arbiters-hq-01-oren.webp"
       }
     ]
   },
@@ -4483,7 +4483,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 5,
-        "portrait": "./supreme-arbiters-05-pelagios.webp"
+        "portrait": "./supreme-arbiters-hq-05-pelagios.webp"
       }
     ]
   },
@@ -4536,7 +4536,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": true,
         "sortOrder": 2,
-        "portrait": "./supreme-arbiters-02-praetus.webp"
+        "portrait": "./supreme-arbiters-hq-02-praetus.webp"
       }
     ]
   },
@@ -5160,7 +5160,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 22,
-        "portrait": "./supreme-arbiters-22-su-yue.webp"
+        "portrait": "./supreme-arbiters-hq-22-su-yue.webp"
       }
     ]
   },
@@ -5322,7 +5322,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 12,
-        "portrait": "./supreme-arbiters-12-thallen.webp"
+        "portrait": "./supreme-arbiters-hq-12-thallen.webp"
       }
     ]
   },
@@ -5529,7 +5529,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 8,
-        "portrait": "./supreme-arbiters-08-valara.webp"
+        "portrait": "./supreme-arbiters-hq-08-valara.webp"
       }
     ]
   },
@@ -5610,7 +5610,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 4,
-        "portrait": "./supreme-arbiters-04-valkyra.webp"
+        "portrait": "./supreme-arbiters-hq-04-valkyra.webp"
       }
     ]
   },
