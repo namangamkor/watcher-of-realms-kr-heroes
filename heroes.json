@@ -1348,7 +1348,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "north-throne"
+      "north-throne",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -1358,6 +1359,14 @@
         "lord": false,
         "sortOrder": 16,
         "portrait": "./north-throne-16-ardea.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 14,
+        "portrait": "./chaos-dominion-14-ardea.webp"
       }
     ]
   },
@@ -1659,7 +1668,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "north-throne"
+      "north-throne",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -1669,6 +1679,14 @@
         "lord": false,
         "sortOrder": 30,
         "portrait": "./north-throne-30-lu-bu.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 22,
+        "portrait": "./chaos-dominion-22-lu-bu.webp"
       }
     ]
   },
@@ -2232,7 +2250,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "nightmare-council"
+      "nightmare-council",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -2242,6 +2261,14 @@
         "lord": false,
         "sortOrder": 11,
         "portrait": "./nightmare-council-11-lugaru.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 5,
+        "portrait": "./chaos-dominion-05-lugaru.webp"
       }
     ]
   },
@@ -2253,7 +2280,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "nightmare-council"
+      "nightmare-council",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -2263,6 +2291,14 @@
         "lord": false,
         "sortOrder": 12,
         "portrait": "./nightmare-council-12-valeriya.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 7,
+        "portrait": "./chaos-dominion-07-valeriya.webp"
       }
     ]
   },
@@ -2295,7 +2331,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "nightmare-council"
+      "nightmare-council",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -2305,6 +2342,14 @@
         "lord": false,
         "sortOrder": 14,
         "portrait": "./nightmare-council-14-gisele.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 9,
+        "portrait": "./chaos-dominion-09-gisele.webp"
       }
     ]
   },
@@ -2358,7 +2403,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "nightmare-council"
+      "nightmare-council",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -2368,6 +2414,14 @@
         "lord": false,
         "sortOrder": 17,
         "portrait": "./nightmare-council-17-admiral-claw.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 16,
+        "portrait": "./chaos-dominion-16-admiral-claw.webp"
       }
     ]
   },
@@ -2451,7 +2505,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "nightmare-council"
+      "nightmare-council",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -2461,6 +2516,14 @@
         "lord": false,
         "sortOrder": 22,
         "portrait": "./nightmare-council-22-sergei.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 18,
+        "portrait": "./chaos-dominion-18-sergei.webp"
       }
     ]
   },
@@ -2790,7 +2853,8 @@
     "class": "전사",
     "rarity": "에픽",
     "factions": [
-      "nightmare-council"
+      "nightmare-council",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -2800,6 +2864,14 @@
         "lord": false,
         "sortOrder": 38,
         "portrait": "./nightmare-council-38-vladov.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": true,
+        "sortOrder": 4,
+        "portrait": "./chaos-dominion-04-vladov.webp"
       }
     ]
   },
@@ -3042,7 +3114,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "cursed-cult"
+      "cursed-cult",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -3052,6 +3125,14 @@
         "lord": false,
         "sortOrder": 12,
         "portrait": "./cursed-cult-12-cerberus.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 8,
+        "portrait": "./chaos-dominion-08-cerberus.webp"
       }
     ]
   },
@@ -3084,7 +3165,8 @@
     "class": "힐러",
     "rarity": "전설",
     "factions": [
-      "cursed-cult"
+      "cursed-cult",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -3094,6 +3176,14 @@
         "lord": false,
         "sortOrder": 14,
         "portrait": "./cursed-cult-14-carnelian.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 12,
+        "portrait": "./chaos-dominion-12-carnelian.webp"
       }
     ]
   },
@@ -3105,7 +3195,8 @@
     "class": "마법사",
     "rarity": "전설",
     "factions": [
-      "cursed-cult"
+      "cursed-cult",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -3115,6 +3206,14 @@
         "lord": false,
         "sortOrder": 15,
         "portrait": "./cursed-cult-15-durza.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 13,
+        "portrait": "./chaos-dominion-13-durza.webp"
       }
     ]
   },
@@ -3126,7 +3225,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "cursed-cult"
+      "cursed-cult",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -3136,6 +3236,14 @@
         "lord": false,
         "sortOrder": 16,
         "portrait": "./cursed-cult-16-uredin.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 15,
+        "portrait": "./chaos-dominion-15-uredin.webp"
       }
     ]
   },
@@ -3342,7 +3450,8 @@
     "class": "마법사",
     "rarity": "전설",
     "factions": [
-      "cursed-cult"
+      "cursed-cult",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -3352,6 +3461,14 @@
         "lord": false,
         "sortOrder": 26,
         "portrait": "./cursed-cult-26-pierre.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 19,
+        "portrait": "./chaos-dominion-19-pierre.webp"
       }
     ]
   },
@@ -3498,7 +3615,8 @@
     "class": "수호자",
     "rarity": "에픽",
     "factions": [
-      "cursed-cult"
+      "cursed-cult",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -3507,6 +3625,14 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 36,
+        "portrait": "./cursed-cult-36-jorge.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 25,
         "portrait": "./cursed-cult-36-jorge.webp"
       }
     ]
@@ -3519,7 +3645,8 @@
     "class": "전사",
     "rarity": "에픽",
     "factions": [
-      "cursed-cult"
+      "cursed-cult",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -3528,6 +3655,14 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 37,
+        "portrait": "./cursed-cult-37-atrox.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 26,
         "portrait": "./cursed-cult-37-atrox.webp"
       }
     ]
@@ -3885,7 +4020,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "infernal-blast"
+      "infernal-blast",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -3895,6 +4031,14 @@
         "lord": false,
         "sortOrder": 16,
         "portrait": "./infernal-blast-16-gul-drak.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 17,
+        "portrait": "./chaos-dominion-17-guldrak.webp"
       }
     ]
   },
@@ -3978,7 +4122,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "infernal-blast"
+      "infernal-blast",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -3988,6 +4133,14 @@
         "lord": false,
         "sortOrder": 20,
         "portrait": "./infernal-blast-20-gretchen.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 21,
+        "portrait": "./chaos-dominion-21-gretchen.webp"
       }
     ]
   },
@@ -4383,7 +4536,8 @@
     "class": "궁수",
     "rarity": "전설",
     "factions": [
-      "star-piercers"
+      "star-piercers",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -4393,6 +4547,14 @@
         "lord": false,
         "sortOrder": 9,
         "portrait": "./star-piercers-09-sargak.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 11,
+        "portrait": "./chaos-dominion-11-sargak.webp"
       }
     ]
   },
@@ -4611,7 +4773,8 @@
     "class": "궁수",
     "rarity": "전설",
     "factions": [
-      "star-piercers"
+      "star-piercers",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -4621,6 +4784,14 @@
         "lord": false,
         "sortOrder": 24,
         "portrait": "./star-piercers-24-sythra.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 23,
+        "portrait": "./chaos-dominion-23-sythra.webp"
       }
     ]
   },
@@ -4632,7 +4803,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "star-piercers"
+      "star-piercers",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -4642,6 +4814,14 @@
         "lord": false,
         "sortOrder": 25,
         "portrait": "./star-piercers-25-count-dracula.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 24,
+        "portrait": "./chaos-dominion-24-count-dracula.webp"
       }
     ]
   },
@@ -4809,7 +4989,8 @@
     "class": "궁수",
     "rarity": "에픽",
     "factions": [
-      "star-piercers"
+      "star-piercers",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -4818,6 +4999,14 @@
         "factionEn": "Star Piercers",
         "lord": false,
         "sortOrder": 40,
+        "portrait": "./star-piercers-40-vargus.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 27,
         "portrait": "./star-piercers-40-vargus.webp"
       }
     ]
@@ -5061,7 +5250,8 @@
     "class": "힐러",
     "rarity": "전설",
     "factions": [
-      "esoteria-order"
+      "esoteria-order",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -5071,6 +5261,14 @@
         "lord": false,
         "sortOrder": 9,
         "portrait": "./esoteria-order-09-dassomi.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 6,
+        "portrait": "./chaos-dominion-06-dassomi.webp"
       }
     ]
   },
@@ -5124,7 +5322,8 @@
     "class": "마법사",
     "rarity": "전설",
     "factions": [
-      "esoteria-order"
+      "esoteria-order",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -5134,6 +5333,14 @@
         "lord": false,
         "sortOrder": 12,
         "portrait": "./esoteria-order-12-kaede.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 10,
+        "portrait": "./chaos-dominion-10-kaede.webp"
       }
     ]
   },
@@ -5271,7 +5478,8 @@
     "class": "마법사",
     "rarity": "전설",
     "factions": [
-      "esoteria-order"
+      "esoteria-order",
+      "chaos-dominion"
     ],
     "memberships": [
       {
@@ -5281,6 +5489,14 @@
         "lord": false,
         "sortOrder": 28,
         "portrait": "./esoteria-order-28-varro-draccus.webp"
+      },
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 20,
+        "portrait": "./chaos-dominion-20-varro-draccus.webp"
       }
     ]
   },
@@ -5575,6 +5791,69 @@
         "lord": false,
         "sortOrder": 48,
         "portrait": "./esoteria-order-48-gonkba.webp"
+      }
+    ]
+  },
+  {
+    "id": "ghan",
+    "nameKr": "가안",
+    "nameEn": "Ghan",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "전설",
+    "factions": [
+      "chaos-dominion"
+    ],
+    "memberships": [
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": true,
+        "sortOrder": 1,
+        "portrait": "./chaos-dominion-01-ghan.webp"
+      }
+    ]
+  },
+  {
+    "id": "valderon",
+    "nameKr": "와엘드론",
+    "nameEn": "Valderon",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "chaos-dominion"
+    ],
+    "memberships": [
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": true,
+        "sortOrder": 2,
+        "portrait": "./chaos-dominion-02-valderon.webp"
+      }
+    ]
+  },
+  {
+    "id": "jezebelle",
+    "nameKr": "지제벨",
+    "nameEn": "Jezebelle",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "chaos-dominion"
+    ],
+    "memberships": [
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": true,
+        "sortOrder": 3,
+        "portrait": "./chaos-dominion-03-jezebelle.webp"
       }
     ]
   }

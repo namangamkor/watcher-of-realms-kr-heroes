@@ -49,6 +49,11 @@ const factionMeta = {
     kr: "비법회",
     en: "Esoteria Order",
     total: 48
+  },
+  "chaos-dominion": {
+    kr: "혼돈 정복자",
+    en: "Chaos Dominion",
+    total: 27
   }
 };
 
@@ -226,7 +231,7 @@ function render() {
   }
 }
 
-fetch("./heroes.json?v=2.1")
+fetch("./heroes.json?v=2.2")
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
