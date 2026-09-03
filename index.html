@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="나만겜이 제작·운영하는 워처 오브 렐름 한영 영웅도감. 한국명과 영문명을 빠르게 검색하고 진영별로 확인하세요." />
   <title>워처 오브 렐름 한영 영웅도감 | 나만겜</title>
+  <meta name="theme-color" content="#090c12" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="나만겜 영웅도감" />
+  <link rel="apple-touch-icon" href="./icon-192.png" />
+  <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
@@ -19,6 +25,10 @@
       </div>
       <div class="topbar-actions">
         <span class="creator-mini">NAMANGAM ARCHIVE</span>
+        <button id="installAppButton" class="install-app-button" type="button">
+          <span class="install-phone">▣</span>
+          <span>폰에 도감 추가</span>
+        </button>
         <span class="beta">BETA</span>
       </div>
     </div>
@@ -37,6 +47,10 @@
       </div>
 
       <aside class="creator-banner" aria-label="나만겜 유튜브 안내">
+        <div class="creator-mascot-wrap">
+          <img class="creator-mascot" src="./namangam-subscribe.png" alt="구독 말풍선이 있는 나만겜 이모티콘" />
+        </div>
+
         <div class="creator-banner-copy">
           <span class="creator-label">CREATED &amp; CURATED BY</span>
           <div class="creator-title-row">
@@ -150,6 +164,18 @@
       </a>
     </div>
   </footer>
+
+  <div id="installModal" class="install-modal" hidden>
+    <div class="install-modal-backdrop" data-close-install></div>
+    <div class="install-modal-card" role="dialog" aria-modal="true" aria-labelledby="installModalTitle">
+      <button class="install-modal-close" type="button" data-close-install aria-label="닫기">×</button>
+      <img src="./icon-192.png" alt="" class="install-modal-icon" />
+      <p class="section-kicker">MOBILE APP</p>
+      <h2 id="installModalTitle">나만겜 영웅도감을<br>홈 화면에 추가하세요.</h2>
+      <div id="installModalBody" class="install-modal-body"></div>
+      <button id="installModalAction" class="install-modal-action" type="button">설치하기</button>
+    </div>
+  </div>
 
   <script src="./app.js"></script>
 </body>
