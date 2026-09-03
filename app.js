@@ -29,6 +29,11 @@ const factionMeta = {
     kr: "악몽 의회",
     en: "Nightmare Council",
     total: 39
+  },
+  "cursed-cult": {
+    kr: "저주신교",
+    en: "Cursed Cult",
+    total: 40
   }
 };
 
@@ -205,7 +210,7 @@ function render() {
   }
 }
 
-fetch("./heroes.json?v=1.7")
+fetch("./heroes.json?v=1.8")
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();

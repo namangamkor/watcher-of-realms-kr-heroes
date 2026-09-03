@@ -670,7 +670,8 @@
     "class": "전사",
     "rarity": "에픽",
     "factions": [
-      "watch-guard"
+      "watch-guard",
+      "cursed-cult"
     ],
     "memberships": [
       {
@@ -680,6 +681,14 @@
         "lord": false,
         "sortOrder": 30,
         "portrait": "./cyrene.webp"
+      },
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 31,
+        "portrait": "./cursed-cult-31-cyrene.webp"
       }
     ]
   },
@@ -835,7 +844,8 @@
     "class": "마법사",
     "rarity": "에픽",
     "factions": [
-      "watch-guard"
+      "watch-guard",
+      "cursed-cult"
     ],
     "memberships": [
       {
@@ -845,6 +855,14 @@
         "lord": false,
         "sortOrder": 37,
         "portrait": "./eona.webp"
+      },
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 33,
+        "portrait": "./cursed-cult-33-eona.webp"
       }
     ]
   },
@@ -877,7 +895,8 @@
     "class": "마법사",
     "rarity": "레어",
     "factions": [
-      "watch-guard"
+      "watch-guard",
+      "cursed-cult"
     ],
     "memberships": [
       {
@@ -887,6 +906,14 @@
         "lord": false,
         "sortOrder": 39,
         "portrait": "./niro.webp"
+      },
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": true,
+        "sortOrder": 6,
+        "portrait": "./cursed-cult-06-niro.webp"
       }
     ]
   },
@@ -1318,7 +1345,8 @@
     "class": "수호자",
     "rarity": "전설",
     "factions": [
-      "north-throne"
+      "north-throne",
+      "cursed-cult"
     ],
     "memberships": [
       {
@@ -1328,6 +1356,14 @@
         "lord": false,
         "sortOrder": 21,
         "portrait": "./north-throne-21-malvira.webp"
+      },
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 17,
+        "portrait": "./cursed-cult-17-malvira.webp"
       }
     ]
   },
@@ -2482,7 +2518,8 @@
     "class": "전사",
     "rarity": "에픽",
     "factions": [
-      "nightmare-council"
+      "nightmare-council",
+      "cursed-cult"
     ],
     "memberships": [
       {
@@ -2492,6 +2529,14 @@
         "lord": false,
         "sortOrder": 35,
         "portrait": "./nightmare-council-35-greed.webp"
+      },
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 32,
+        "portrait": "./cursed-cult-32-greed.webp"
       }
     ]
   },
@@ -2576,6 +2621,741 @@
         "lord": false,
         "sortOrder": 39,
         "portrait": "./nightmare-council-39-sorzus.webp"
+      }
+    ]
+  },
+  {
+    "id": "morrigan",
+    "nameKr": "모리건",
+    "nameEn": "Morrigan",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": true,
+        "sortOrder": 1,
+        "portrait": "./cursed-cult-01-morrigan.webp"
+      }
+    ]
+  },
+  {
+    "id": "demi",
+    "nameKr": "데미",
+    "nameEn": "Demi",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": true,
+        "sortOrder": 2,
+        "portrait": "./cursed-cult-02-demi.webp"
+      }
+    ]
+  },
+  {
+    "id": "ezareth",
+    "nameKr": "에사레스",
+    "nameEn": "Ezareth",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": true,
+        "sortOrder": 3,
+        "portrait": "./cursed-cult-03-ezareth.webp"
+      }
+    ]
+  },
+  {
+    "id": "aeon",
+    "nameKr": "이안",
+    "nameEn": "Aeon",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "에픽",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": true,
+        "sortOrder": 4,
+        "portrait": "./cursed-cult-04-aeon.webp"
+      }
+    ]
+  },
+  {
+    "id": "abyss",
+    "nameKr": "아비스",
+    "nameEn": "Abyss",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "에픽",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": true,
+        "sortOrder": 5,
+        "portrait": "./cursed-cult-05-abyss.webp"
+      }
+    ]
+  },
+  {
+    "id": "carosa",
+    "nameKr": "카로사",
+    "nameEn": "Carosa",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 7,
+        "portrait": "./cursed-cult-07-carosa.webp"
+      }
+    ]
+  },
+  {
+    "id": "captain-reve",
+    "nameKr": "리프선장",
+    "nameEn": "Captain Reve",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 8,
+        "portrait": "./cursed-cult-08-captain-reve.webp"
+      }
+    ]
+  },
+  {
+    "id": "laseer",
+    "nameKr": "레이저",
+    "nameEn": "Laseer",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 9,
+        "portrait": "./cursed-cult-09-laseer.webp"
+      }
+    ]
+  },
+  {
+    "id": "zelus",
+    "nameKr": "제로스",
+    "nameEn": "Zelus",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 10,
+        "portrait": "./cursed-cult-10-zelus.webp"
+      }
+    ]
+  },
+  {
+    "id": "kria",
+    "nameKr": "클리아",
+    "nameEn": "Kria",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 11,
+        "portrait": "./cursed-cult-11-kria.webp"
+      }
+    ]
+  },
+  {
+    "id": "cerberus",
+    "nameKr": "세브로스",
+    "nameEn": "Cerberus",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 12,
+        "portrait": "./cursed-cult-12-cerberus.webp"
+      }
+    ]
+  },
+  {
+    "id": "vierna",
+    "nameKr": "베르나",
+    "nameEn": "Vierna",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 13,
+        "portrait": "./cursed-cult-13-vierna.webp"
+      }
+    ]
+  },
+  {
+    "id": "carnelian",
+    "nameKr": "카헬리안",
+    "nameEn": "Carnelian",
+    "aliases": [],
+    "class": "힐러",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 14,
+        "portrait": "./cursed-cult-14-carnelian.webp"
+      }
+    ]
+  },
+  {
+    "id": "durza",
+    "nameKr": "두르가",
+    "nameEn": "Durza",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 15,
+        "portrait": "./cursed-cult-15-durza.webp"
+      }
+    ]
+  },
+  {
+    "id": "uredin",
+    "nameKr": "우레딘",
+    "nameEn": "Uredin",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 16,
+        "portrait": "./cursed-cult-16-uredin.webp"
+      }
+    ]
+  },
+  {
+    "id": "beelzebub",
+    "nameKr": "바알세불",
+    "nameEn": "Beelzebub",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 18,
+        "portrait": "./cursed-cult-18-beelzebub.webp"
+      }
+    ]
+  },
+  {
+    "id": "magda",
+    "nameKr": "마그다",
+    "nameEn": "Magda",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 19,
+        "portrait": "./cursed-cult-19-magda.webp"
+      }
+    ]
+  },
+  {
+    "id": "beatrix",
+    "nameKr": "베아트릭스",
+    "nameEn": "Beatrix",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 20,
+        "portrait": "./cursed-cult-20-beatrix.webp"
+      }
+    ]
+  },
+  {
+    "id": "xaris",
+    "nameKr": "자리스",
+    "nameEn": "Xaris",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 21,
+        "portrait": "./cursed-cult-21-xaris.webp"
+      }
+    ]
+  },
+  {
+    "id": "artemis",
+    "nameKr": "아르테미스",
+    "nameEn": "Artemis",
+    "aliases": [],
+    "class": "힐러",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 22,
+        "portrait": "./cursed-cult-22-artemis.webp"
+      }
+    ]
+  },
+  {
+    "id": "dahlia",
+    "nameKr": "달리아",
+    "nameEn": "Dahlia",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 23,
+        "portrait": "./cursed-cult-23-dahlia.webp"
+      }
+    ]
+  },
+  {
+    "id": "anora",
+    "nameKr": "아노라",
+    "nameEn": "Anora",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 24,
+        "portrait": "./cursed-cult-24-anora.webp"
+      }
+    ]
+  },
+  {
+    "id": "velisse",
+    "nameKr": "벨리스",
+    "nameEn": "Velisse",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 25,
+        "portrait": "./cursed-cult-25-velisse.webp"
+      }
+    ]
+  },
+  {
+    "id": "pierre",
+    "nameKr": "피에르",
+    "nameEn": "Pierre",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 26,
+        "portrait": "./cursed-cult-26-pierre.webp"
+      }
+    ]
+  },
+  {
+    "id": "aurelius-gale",
+    "nameKr": "아우렐리우스",
+    "nameEn": "Aurelius Gale",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 27,
+        "portrait": "./cursed-cult-27-aurelius-gale.webp"
+      }
+    ]
+  },
+  {
+    "id": "knight-arlott",
+    "nameKr": "알로트",
+    "nameEn": "Knight Arlott",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 28,
+        "portrait": "./cursed-cult-28-knight-arlott.webp"
+      }
+    ]
+  },
+  {
+    "id": "vlad-draculea",
+    "nameKr": "블라드3세",
+    "nameEn": "Vlad Draculea",
+    "aliases": [],
+    "class": "전술마스터",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 29,
+        "portrait": "./cursed-cult-29-vlad-draculea.webp"
+      }
+    ]
+  },
+  {
+    "id": "rosalia",
+    "nameKr": "로살리아",
+    "nameEn": "Rosalia",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 30,
+        "portrait": "./cursed-cult-30-rosalia.webp"
+      }
+    ]
+  },
+  {
+    "id": "hollow",
+    "nameKr": "할로우",
+    "nameEn": "Hollow",
+    "aliases": [],
+    "class": "힐러",
+    "rarity": "에픽",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 34,
+        "portrait": "./cursed-cult-34-hollow.webp"
+      }
+    ]
+  },
+  {
+    "id": "osiren",
+    "nameKr": "오스렌",
+    "nameEn": "Osiren",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "에픽",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 35,
+        "portrait": "./cursed-cult-35-osiren.webp"
+      }
+    ]
+  },
+  {
+    "id": "jorge",
+    "nameKr": "조지",
+    "nameEn": "Jorge",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "에픽",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 36,
+        "portrait": "./cursed-cult-36-jorge.webp"
+      }
+    ]
+  },
+  {
+    "id": "atrox",
+    "nameKr": "아테로크스",
+    "nameEn": "Atrox",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "에픽",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 37,
+        "portrait": "./cursed-cult-37-atrox.webp"
+      }
+    ]
+  },
+  {
+    "id": "thunkles",
+    "nameKr": "상크",
+    "nameEn": "Thunkles",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "에픽",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 38,
+        "portrait": "./cursed-cult-38-thunkles.webp"
+      }
+    ]
+  },
+  {
+    "id": "voltus",
+    "nameKr": "볼타스",
+    "nameEn": "Voltus",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "레어",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 39,
+        "portrait": "./cursed-cult-39-voltus.webp"
+      }
+    ]
+  },
+  {
+    "id": "elukas",
+    "nameKr": "우르카스",
+    "nameEn": "Elukas",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "레어",
+    "factions": [
+      "cursed-cult"
+    ],
+    "memberships": [
+      {
+        "faction": "cursed-cult",
+        "factionKr": "저주신교",
+        "factionEn": "Cursed Cult",
+        "lord": false,
+        "sortOrder": 40,
+        "portrait": "./cursed-cult-40-elukas.webp"
       }
     ]
   }
