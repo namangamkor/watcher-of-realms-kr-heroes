@@ -37,7 +37,7 @@
         "factionEn": "Cursed Cult",
         "lord": true,
         "sortOrder": 5,
-        "portrait": "./cursed-cult-05-abyss.webp"
+        "portrait": "./cursed-cult-hq-05-abyss.webp"
       }
     ]
   },
@@ -109,7 +109,7 @@
         "factionEn": "Cursed Cult",
         "lord": true,
         "sortOrder": 4,
-        "portrait": "./cursed-cult-04-aeon.webp"
+        "portrait": "./cursed-cult-hq-04-aeon.webp"
       }
     ]
   },
@@ -346,7 +346,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 24,
-        "portrait": "./cursed-cult-24-anora.webp"
+        "portrait": "./cursed-cult-hq-24-anora.webp"
       },
       {
         "faction": "esoteria-order",
@@ -510,7 +510,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 22,
-        "portrait": "./cursed-cult-22-artemis.webp"
+        "portrait": "./cursed-cult-hq-22-artemis.webp"
       }
     ]
   },
@@ -562,7 +562,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 37,
-        "portrait": "./cursed-cult-37-atrox.webp"
+        "portrait": "./cursed-cult-hq-37-atrox.webp"
       },
       {
         "faction": "chaos-dominion",
@@ -591,7 +591,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 27,
-        "portrait": "./cursed-cult-27-aurelius-gale.webp"
+        "portrait": "./cursed-cult-hq-27-aurelius-gale.webp"
       }
     ]
   },
@@ -778,7 +778,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 20,
-        "portrait": "./cursed-cult-20-beatrix.webp"
+        "portrait": "./cursed-cult-hq-20-beatrix.webp"
       },
       {
         "faction": "esoteria-order",
@@ -807,7 +807,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 18,
-        "portrait": "./cursed-cult-18-beelzebub.webp"
+        "portrait": "./cursed-cult-hq-18-beelzebub.webp"
       }
     ]
   },
@@ -1053,7 +1053,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 8,
-        "portrait": "./cursed-cult-08-captain-reve.webp"
+        "portrait": "./cursed-cult-hq-08-captain-reve.webp"
       }
     ]
   },
@@ -1075,7 +1075,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 14,
-        "portrait": "./cursed-cult-14-carnelian.webp"
+        "portrait": "./cursed-cult-hq-14-carnelian.webp"
       },
       {
         "faction": "chaos-dominion",
@@ -1104,7 +1104,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 7,
-        "portrait": "./cursed-cult-07-carosa.webp"
+        "portrait": "./cursed-cult-hq-07-carosa.webp"
       }
     ]
   },
@@ -1156,7 +1156,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 12,
-        "portrait": "./cursed-cult-12-cerberus.webp"
+        "portrait": "./cursed-cult-hq-12-cerberus.webp"
       },
       {
         "faction": "chaos-dominion",
@@ -1359,7 +1359,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 31,
-        "portrait": "./cursed-cult-31-cyrene.webp"
+        "portrait": "./cursed-cult-hq-31-cyrene.webp"
       }
     ]
   },
@@ -1444,7 +1444,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 23,
-        "portrait": "./cursed-cult-23-dahlia.webp"
+        "portrait": "./cursed-cult-hq-23-dahlia.webp"
       },
       {
         "faction": "esoteria-order",
@@ -1566,7 +1566,7 @@
         "factionEn": "Cursed Cult",
         "lord": true,
         "sortOrder": 2,
-        "portrait": "./cursed-cult-02-demi.webp"
+        "portrait": "./cursed-cult-hq-02-demi.webp"
       }
     ]
   },
@@ -1741,7 +1741,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 15,
-        "portrait": "./cursed-cult-15-durza.webp"
+        "portrait": "./cursed-cult-hq-15-durza.webp"
       },
       {
         "faction": "chaos-dominion",
@@ -1914,7 +1914,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 40,
-        "portrait": "./cursed-cult-40-elukas.webp"
+        "portrait": "./cursed-cult-hq-40-elukas.webp"
       }
     ]
   },
@@ -1965,7 +1965,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 33,
-        "portrait": "./cursed-cult-33-eona.webp"
+        "portrait": "./cursed-cult-hq-33-eona.webp"
       }
     ]
   },
@@ -2090,7 +2090,7 @@
         "factionEn": "Cursed Cult",
         "lord": true,
         "sortOrder": 3,
-        "portrait": "./cursed-cult-03-ezareth.webp"
+        "portrait": "./cursed-cult-hq-03-ezareth.webp"
       }
     ]
   },
@@ -2422,7 +2422,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 32,
-        "portrait": "./cursed-cult-32-greed.webp"
+        "portrait": "./cursed-cult-hq-32-greed.webp"
       }
     ]
   },
@@ -2677,7 +2677,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 34,
-        "portrait": "./cursed-cult-34-hollow.webp"
+        "portrait": "./cursed-cult-hq-34-hollow.webp"
       }
     ]
   },
@@ -2945,7 +2945,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 36,
-        "portrait": "./cursed-cult-36-jorge.webp"
+        "portrait": "./cursed-cult-hq-36-jorge.webp"
       },
       {
         "faction": "chaos-dominion",
@@ -3233,7 +3233,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 28,
-        "portrait": "./cursed-cult-28-knight-arlott.webp"
+        "portrait": "./cursed-cult-hq-28-knight-arlott.webp"
       },
       {
         "faction": "infernal-blast",
@@ -3283,7 +3283,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 11,
-        "portrait": "./cursed-cult-11-kria.webp"
+        "portrait": "./cursed-cult-hq-11-kria.webp"
       }
     ]
   },
@@ -3385,7 +3385,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 9,
-        "portrait": "./cursed-cult-09-laseer.webp"
+        "portrait": "./cursed-cult-hq-09-laseer.webp"
       }
     ]
   },
@@ -3805,7 +3805,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 19,
-        "portrait": "./cursed-cult-19-magda.webp"
+        "portrait": "./cursed-cult-hq-19-magda.webp"
       }
     ]
   },
@@ -3886,7 +3886,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 17,
-        "portrait": "./cursed-cult-17-malvira.webp"
+        "portrait": "./cursed-cult-hq-17-malvira.webp"
       }
     ]
   },
@@ -4072,7 +4072,7 @@
         "factionEn": "Cursed Cult",
         "lord": true,
         "sortOrder": 1,
-        "portrait": "./cursed-cult-01-morrigan.webp"
+        "portrait": "./cursed-cult-hq-01-morrigan.webp"
       }
     ]
   },
@@ -4246,7 +4246,7 @@
         "factionEn": "Cursed Cult",
         "lord": true,
         "sortOrder": 6,
-        "portrait": "./cursed-cult-06-niro.webp"
+        "portrait": "./cursed-cult-hq-06-niro.webp"
       }
     ]
   },
@@ -4453,7 +4453,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 35,
-        "portrait": "./cursed-cult-35-osiren.webp"
+        "portrait": "./cursed-cult-hq-35-osiren.webp"
       }
     ]
   },
@@ -4505,7 +4505,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 26,
-        "portrait": "./cursed-cult-26-pierre.webp"
+        "portrait": "./cursed-cult-hq-26-pierre.webp"
       },
       {
         "faction": "chaos-dominion",
@@ -4746,7 +4746,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 30,
-        "portrait": "./cursed-cult-30-rosalia.webp"
+        "portrait": "./cursed-cult-hq-30-rosalia.webp"
       }
     ]
   },
@@ -5364,7 +5364,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 38,
-        "portrait": "./cursed-cult-38-thunkles.webp"
+        "portrait": "./cursed-cult-hq-38-thunkles.webp"
       }
     ]
   },
@@ -5491,7 +5491,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 16,
-        "portrait": "./cursed-cult-16-uredin.webp"
+        "portrait": "./cursed-cult-hq-16-uredin.webp"
       },
       {
         "faction": "chaos-dominion",
@@ -5691,7 +5691,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 25,
-        "portrait": "./cursed-cult-25-velisse.webp"
+        "portrait": "./cursed-cult-hq-25-velisse.webp"
       }
     ]
   },
@@ -5754,7 +5754,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 13,
-        "portrait": "./cursed-cult-13-vierna.webp"
+        "portrait": "./cursed-cult-hq-13-vierna.webp"
       }
     ]
   },
@@ -5817,7 +5817,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 29,
-        "portrait": "./cursed-cult-29-vlad-draculea.webp"
+        "portrait": "./cursed-cult-hq-29-vlad-draculea.webp"
       }
     ]
   },
@@ -5889,7 +5889,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 39,
-        "portrait": "./cursed-cult-39-voltus.webp"
+        "portrait": "./cursed-cult-hq-39-voltus.webp"
       }
     ]
   },
@@ -6003,7 +6003,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 21,
-        "portrait": "./cursed-cult-21-xaris.webp"
+        "portrait": "./cursed-cult-hq-21-xaris.webp"
       }
     ]
   },
@@ -6117,7 +6117,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 10,
-        "portrait": "./cursed-cult-10-zelus.webp"
+        "portrait": "./cursed-cult-hq-10-zelus.webp"
       }
     ]
   },
