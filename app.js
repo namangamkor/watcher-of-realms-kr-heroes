@@ -60,12 +60,25 @@ function getMembership(hero, factionId) {
   );
 }
 
-function card(hero, membership) {
-  const initial = (hero.nameEn || hero.nameKr).trim().charAt(0).toUpperCase();
-  const isDualFaction = (hero.memberships || []).length > 1;
-  const factionNames = (hero.memberships || [])
-    .map((item) => item.factionKr)
+function getPrimaryMembership(hero) {
+  return (hero.memberships || [])[0] || null;
+}
+
+function getFactionNames(hero) {
+  return (hero.memberships || [])
+    .map((membership) => membership.factionKr)
+    .filter(Boolean)
     .join(" · ");
+}
+
+function card(hero, membership, searchMode = false) {
+  const initial = (hero.nameEn || hero.nameKr).trim().charAt(0).toUpperCase();
+  const memberships = hero.memberships || [];
+  const isMultiFaction = memberships.length > 1;
+  const factionNames = getFactionNames(hero);
+  const showLord = searchMode
+    ? memberships.some((item) => item.lord)
+    : Boolean(membership?.lord);
 
   return `
     <article class="hero-card">
@@ -76,18 +89,36 @@ function card(hero, membership) {
       </div>
       <div class="card-body">
         <div class="card-topline">
-          ${membership?.lord ? '<span class="tag lord">영주</span>' : ''}
+          ${showLord ? '<span class="tag lord">영주</span>' : ''}
           <span class="tag ${rarityClass(hero.rarity)}">${hero.rarity}</span>
-          ${isDualFaction
+          ${isMultiFaction
             ? `<span class="tag dual" title="${factionNames}">이중 진영</span>`
             : ''}
         </div>
         <h3>${hero.nameKr}</h3>
         <p class="en">${hero.nameEn}</p>
-        <p class="meta">${hero.class} · ${membership?.factionKr || ""}</p>
+        <p class="meta">${hero.class} · ${searchMode ? factionNames : (membership?.factionKr || "")}</p>
       </div>
     </article>
   `;
+}
+
+function setAllFilters() {
+  active.rarity = "all";
+  active.class = "all";
+
+  document.querySelectorAll(".filter").forEach((button) => {
+    button.classList.toggle("active", button.dataset.value === "all");
+  });
+}
+
+function setFactionButtonState(searchMode) {
+  factionButtons.forEach((button) => {
+    button.classList.toggle(
+      "active",
+      !searchMode && button.dataset.faction === currentFaction
+    );
+  });
 }
 
 function updateFactionHeader(meta) {
@@ -101,8 +132,48 @@ function updateFactionHeader(meta) {
   }
 }
 
+function updateSearchHeader(query, resultCount) {
+  if (rosterKicker) rosterKicker.textContent = "HERO SEARCH";
+  if (rosterTitle) rosterTitle.textContent = "영웅 검색 결과";
+  if (totalCount) totalCount.textContent = heroes.length;
+
+  if (resultSummary) {
+    resultSummary.textContent =
+      `"${query}" 검색 결과 ${resultCount}명 · 등록 영웅 ${heroes.length}명`;
+  }
+
+  if (dataNote) {
+    dataNote.textContent =
+      "전 진영 통합 검색 · 이중 진영 영웅은 한 번만 표시되고 모든 소속 진영을 함께 보여줍니다.";
+  }
+}
+
 function render() {
-  const query = searchInput.value;
+  const query = searchInput.value.trim();
+  const isSearchMode = Boolean(query);
+
+  setFactionButtonState(isSearchMode);
+
+  if (isSearchMode) {
+    const filtered = heroes
+      .filter((hero) =>
+        matchesSearch(hero, query) &&
+        (active.rarity === "all" || hero.rarity === active.rarity) &&
+        (active.class === "all" || hero.class === active.class)
+      )
+      .sort((a, b) => a.nameKr.localeCompare(b.nameKr, "ko"));
+
+    updateSearchHeader(query, filtered.length);
+
+    heroGrid.innerHTML = filtered
+      .map((hero) => card(hero, getPrimaryMembership(hero), true))
+      .join("");
+
+    emptyState.hidden = filtered.length !== 0;
+    visibleCount.textContent = filtered.length;
+    return;
+  }
+
   const meta = factionMeta[currentFaction];
 
   const filtered = heroes
@@ -112,7 +183,6 @@ function render() {
     }))
     .filter(({ hero, membership }) =>
       Boolean(membership) &&
-      matchesSearch(hero, query) &&
       (active.rarity === "all" || hero.rarity === active.rarity) &&
       (active.class === "all" || hero.class === active.class)
     )
@@ -121,13 +191,13 @@ function render() {
   updateFactionHeader(meta);
 
   heroGrid.innerHTML = filtered
-    .map(({ hero, membership }) => card(hero, membership))
+    .map(({ hero, membership }) => card(hero, membership, false))
     .join("");
 
   emptyState.hidden = filtered.length !== 0;
   visibleCount.textContent = filtered.length;
 
-  if (query.trim() || active.rarity !== "all" || active.class !== "all") {
+  if (active.rarity !== "all" || active.class !== "all") {
     resultSummary.textContent =
       `조건에 맞는 영웅 ${filtered.length}명 · 전체 등록 ${meta.total}명`;
   } else {
@@ -135,7 +205,7 @@ function render() {
   }
 }
 
-fetch("./heroes.json?v=1.6")
+fetch("./heroes.json?v=1.7")
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
@@ -152,22 +222,10 @@ fetch("./heroes.json?v=1.6")
 searchInput.addEventListener("input", () => {
   const query = searchInput.value.trim();
 
-  // 이름 검색을 시작하는 순간 기존 희귀도/직업 필터를 전체로 초기화.
+  // 이름 검색은 전 진영 통합 검색 모드.
+  // 검색을 시작하는 순간 기존 희귀도/직업 필터를 전체로 초기화한다.
   if (query) {
-    active.rarity = "all";
-    active.class = "all";
-
-    document
-      .querySelectorAll('.filter[data-filter-type="rarity"]')
-      .forEach((button) => {
-        button.classList.toggle("active", button.dataset.value === "all");
-      });
-
-    document
-      .querySelectorAll('.filter[data-filter-type="class"]')
-      .forEach((button) => {
-        button.classList.toggle("active", button.dataset.value === "all");
-      });
+    setAllFilters();
   }
 
   render();
@@ -175,6 +233,7 @@ searchInput.addEventListener("input", () => {
 
 clearSearch.addEventListener("click", () => {
   searchInput.value = "";
+  setAllFilters();
   render();
   searchInput.focus();
 });
@@ -198,14 +257,12 @@ factionButtons.forEach((button) => {
   button.addEventListener("click", () => {
     currentFaction = button.dataset.faction;
 
-    factionButtons.forEach((candidate) =>
-      candidate.classList.toggle("active", candidate === button)
-    );
-
+    // 진영 버튼을 누르면 검색 모드를 종료하고 해당 진영 도감으로 이동한다.
+    searchInput.value = "";
+    setAllFilters();
     render();
   });
 });
-
 
 
 // ---------------------------
