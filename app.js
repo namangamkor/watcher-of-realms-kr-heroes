@@ -8,7 +8,14 @@ const resultSummary = document.querySelector("#resultSummary");
 const rosterKicker = document.querySelector("#rosterKicker");
 const rosterTitle = document.querySelector("#rosterTitle");
 const dataNote = document.querySelector("#dataNote");
-const factionButtons = document.querySelectorAll(".faction-card[data-faction]");
+const factionSelectShell = document.querySelector("#factionSelectShell");
+const factionSelectButton = document.querySelector("#factionSelectButton");
+const factionSelectMenu = document.querySelector("#factionSelectMenu");
+const factionSelectKr = document.querySelector("#factionSelectKr");
+const factionSelectEn = document.querySelector("#factionSelectEn");
+const factionSelectCount = document.querySelector("#factionSelectCount");
+const factionSelectEmblem = document.querySelector("#factionSelectEmblem");
+const factionOptions = document.querySelectorAll(".faction-option[data-faction]");
 
 let heroes = [];
 let currentFaction = "watch-guard";
@@ -148,14 +155,52 @@ function setAllFilters() {
   });
 }
 
-function setFactionButtonState(searchMode) {
-  factionButtons.forEach((button) => {
-    const isActive =
-      !searchMode && button.dataset.faction === currentFaction;
+function updateFactionSelectState(searchMode = false) {
+  const meta = factionMeta[currentFaction];
+  const selectedOption = Array.from(factionOptions).find(
+    (option) => option.dataset.faction === currentFaction
+  );
 
-    button.classList.toggle("active", isActive);
-    button.setAttribute("aria-pressed", isActive ? "true" : "false");
+  if (factionSelectKr) factionSelectKr.textContent = meta.kr;
+  if (factionSelectEn) factionSelectEn.textContent = meta.en;
+  if (factionSelectCount) {
+    factionSelectCount.textContent = searchMode
+      ? "전 진영 검색 중"
+      : `${meta.total} / ${meta.total} 등록`;
+  }
+  if (factionSelectEmblem && selectedOption) {
+    factionSelectEmblem.textContent = selectedOption.dataset.emblem || "✦";
+  }
+
+  factionOptions.forEach((option) => {
+    const isSelected = option.dataset.faction === currentFaction;
+    option.classList.toggle("selected", isSelected);
+    option.setAttribute("aria-selected", isSelected ? "true" : "false");
   });
+
+  if (factionSelectButton) {
+    factionSelectButton.classList.toggle("search-mode", searchMode);
+  }
+}
+
+function closeFactionSelect() {
+  if (!factionSelectMenu || !factionSelectButton) return;
+  factionSelectMenu.hidden = true;
+  factionSelectButton.setAttribute("aria-expanded", "false");
+  factionSelectShell?.classList.remove("open");
+}
+
+function openFactionSelect() {
+  if (!factionSelectMenu || !factionSelectButton) return;
+  factionSelectMenu.hidden = false;
+  factionSelectButton.setAttribute("aria-expanded", "true");
+  factionSelectShell?.classList.add("open");
+}
+
+function toggleFactionSelect() {
+  if (!factionSelectMenu) return;
+  if (factionSelectMenu.hidden) openFactionSelect();
+  else closeFactionSelect();
 }
 
 function updateFactionHeader(meta) {
@@ -189,7 +234,7 @@ function render() {
   const query = searchInput.value.trim();
   const isSearchMode = Boolean(query);
 
-  setFactionButtonState(isSearchMode);
+  updateFactionSelectState(isSearchMode);
 
   if (isSearchMode) {
     const filtered = heroes
@@ -242,7 +287,7 @@ function render() {
   }
 }
 
-fetch("./heroes.json?v=2.6.3")
+fetch("./heroes.json?v=2.6.4")
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
@@ -290,17 +335,39 @@ document.querySelectorAll(".filter").forEach((button) => {
   });
 });
 
-factionButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    currentFaction = button.dataset.faction;
+if (factionSelectButton) {
+  factionSelectButton.addEventListener("click", (event) => {
+    event.stopPropagation();
+    toggleFactionSelect();
+  });
+}
 
-    // 진영 버튼을 누르면 검색 모드를 종료하고 해당 진영 도감으로 이동한다.
+factionOptions.forEach((option) => {
+  option.addEventListener("click", () => {
+    currentFaction = option.dataset.faction;
+
+    // 진영 선택 시 검색/필터를 초기화하고 선택한 진영의 도감으로 전환한다.
     searchInput.value = "";
     setAllFilters();
+    closeFactionSelect();
     render();
+
+    // 선택 후 영웅 목록 시작부가 자연스럽게 이어지도록 너무 과한 스크롤은 하지 않는다.
+    document.querySelector(".roster")?.scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
   });
 });
 
+document.addEventListener("click", (event) => {
+  if (
+    factionSelectShell &&
+    !factionSelectShell.contains(event.target)
+  ) {
+    closeFactionSelect();
+  }
+});
 
 // ---------------------------
 // PWA install / home-screen flow
@@ -454,8 +521,12 @@ document.querySelectorAll("[data-close-install]").forEach((el) => {
 });
 
 document.addEventListener("keydown", (event) => {
-  if (event.key === "Escape" && installModal && !installModal.hidden) {
-    closeInstallModal();
+  if (event.key === "Escape") {
+    closeFactionSelect();
+
+    if (installModal && !installModal.hidden) {
+      closeInstallModal();
+    }
   }
 });
 

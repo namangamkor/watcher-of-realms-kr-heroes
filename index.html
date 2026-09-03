@@ -10,8 +10,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="나만겜 영웅도감" />
   <link rel="apple-touch-icon" href="./icon-192.png" />
-  <link rel="manifest" href="./manifest.webmanifest?v=2.6.3" />
-  <link rel="stylesheet" href="./styles.css?v=2.6.3" />
+  <link rel="manifest" href="./manifest.webmanifest?v=2.6.4" />
+  <link rel="stylesheet" href="./styles.css?v=2.6.4" />
 </head>
 <body>
   <header class="topbar">
@@ -37,7 +37,17 @@
   <main>
     <section class="hero wrap">
       <p class="eyebrow">WATCHER OF REALMS · KR / EN HERO INDEX</p>
-<aside class="creator-banner" aria-label="나만겜 유튜브 안내">
+
+      <h1>한국 이름과 해외 이름,<br><span>이제 헷갈리지 않게.</span></h1>
+      <p class="lead">한국명·영문명을 바로 검색하고 진영별로 확인하세요.</p>
+
+      <div class="searchbox">
+        <span class="search-icon">⌕</span>
+        <input id="searchInput" type="search" placeholder="예: Eivor, 에이보르, DiaoChan, 초선" autocomplete="off" />
+        <button id="clearSearch" type="button">초기화</button>
+      </div>
+
+      <aside class="creator-banner" aria-label="나만겜 유튜브 안내">
         <div class="creator-mascot-wrap">
           <img class="creator-mascot" src="./namangam-subscribe.png" alt="구독 말풍선이 있는 나만겜 이모티콘" />
         </div>
@@ -70,14 +80,6 @@
           <span class="cta-arrow">↗</span>
         </a>
       </aside>
-      <h1>한국 이름과 해외 이름,<br><span>이제 헷갈리지 않게.</span></h1>
-      <p class="lead">한국명·영문명을 바로 검색하고 진영별로 확인하세요.</p>
-
-      <div class="searchbox">
-        <span class="search-icon">⌕</span>
-        <input id="searchInput" type="search" placeholder="예: Eivor, 에이보르, DiaoChan, 초선" autocomplete="off" />
-        <button id="clearSearch" type="button">초기화</button>
-      </div>
     </section>
 
     <section class="wrap faction-section">
@@ -88,88 +90,105 @@
         </div>
       </div>
 
-      <div class="faction-tabs">
-        <button class="faction-card active" data-faction="watch-guard" data-faction-kr="파수꾼 소대" data-faction-en="Watch Guard" data-total="40">
-          <span class="faction-emblem">✦</span>
-          <span>
-            <strong>파수꾼 소대</strong>
-            <small>Watch Guard</small>
+      <div class="faction-select-shell" id="factionSelectShell">
+        <span class="faction-select-label">진영 선택</span>
+
+        <button
+          id="factionSelectButton"
+          class="faction-select-button"
+          type="button"
+          aria-haspopup="listbox"
+          aria-expanded="false"
+          aria-controls="factionSelectMenu"
+        >
+          <span id="factionSelectEmblem" class="faction-select-emblem">✦</span>
+          <span class="faction-select-current">
+            <strong id="factionSelectKr">파수꾼 소대</strong>
+            <small id="factionSelectEn">Watch Guard</small>
           </span>
-          <b>40 / 40 등록</b>
+          <span id="factionSelectCount" class="faction-select-count">40 / 40 등록</span>
+          <span class="faction-select-chevron" aria-hidden="true">⌄</span>
         </button>
-        <button class="faction-card" data-faction="north-throne" data-faction-kr="북쪽 경계 왕좌" data-faction-en="North Throne" data-total="49">
-          <span class="faction-emblem">❖</span>
-          <span>
-            <strong>북쪽 경계 왕좌</strong>
-            <small>North Throne</small>
-          </span>
-          <b>49 / 49 등록</b>
-        </button>
-        <button class="faction-card" data-faction="nightmare-council" data-faction-kr="악몽 의회" data-faction-en="Nightmare Council" data-total="39">
-          <span class="faction-emblem">◈</span>
-          <span>
-            <strong>악몽 의회</strong>
-            <small>Nightmare Council</small>
-          </span>
-          <b>39 / 39 등록</b>
-        </button>
-        <button class="faction-card" data-faction="cursed-cult" data-faction-kr="저주신교" data-faction-en="Cursed Cult" data-total="40">
-          <span class="faction-emblem">✦</span>
-          <span>
-            <strong>저주신교</strong>
-            <small>Cursed Cult</small>
-          </span>
-          <b>40 / 40 등록</b>
-        </button>
-        <button class="faction-card" data-faction="infernal-blast" data-faction-kr="연옥 폭파" data-faction-en="Infernal Blast" data-total="33">
-          <span class="faction-emblem">✹</span>
-          <span>
-            <strong>연옥 폭파</strong>
-            <small>Infernal Blast</small>
-          </span>
-          <b>33 / 33 등록</b>
-        </button>
-        <button class="faction-card" data-faction="star-piercers" data-faction-kr="관성의 화살" data-faction-en="Star Piercers" data-total="44">
-          <span class="faction-emblem">✶</span>
-          <span>
-            <strong>관성의 화살</strong>
-            <small>Star Piercers</small>
-          </span>
-          <b>44 / 44 등록</b>
-        </button>
-        <button class="faction-card" data-faction="esoteria-order" data-faction-kr="비법회" data-faction-en="Esoteria Order" data-total="48">
-          <span class="faction-emblem">❖</span>
-          <span>
-            <strong>비법회</strong>
-            <small>Esoteria Order</small>
-          </span>
-          <b>48 / 48 등록</b>
-        </button>
-        <button class="faction-card" data-faction="chaos-dominion" data-faction-kr="혼돈 정복자" data-faction-en="Chaos Dominion" data-total="27">
-          <span class="faction-emblem">⚔</span>
-          <span>
-            <strong>혼돈 정복자</strong>
-            <small>Chaos Dominion</small>
-          </span>
-          <b>27 / 27 등록</b>
-        </button>
-        <button class="faction-card" data-faction="supreme-arbiters" data-faction-kr="최고 중재자" data-faction-en="Supreme Arbiters" data-total="22">
-          <span class="faction-emblem">✪</span>
-          <span>
-            <strong>최고 중재자</strong>
-            <small>Supreme Arbiters</small>
-          </span>
-          <b>22 / 22 등록</b>
-        </button>
-        <button class="faction-card" data-faction="unnamable" data-faction-kr="알 수 없는 자" data-faction-en="Unnamable" data-total="2">
-          <span class="faction-emblem">∞</span>
-          <span>
-            <strong>알 수 없는 자</strong>
-            <small>Unnamable</small>
-          </span>
-          <b>2 / 2 등록</b>
-        </button>
-        <div class="faction-coming">다른 진영은 순차 추가 예정</div>
+
+        <div
+          id="factionSelectMenu"
+          class="faction-select-menu"
+          role="listbox"
+          aria-label="진영 선택"
+          hidden
+        >
+          <button class="faction-option selected" type="button" role="option" aria-selected="true"
+            data-faction="watch-guard" data-emblem="✦">
+            <span class="faction-option-emblem">✦</span>
+            <span class="faction-option-copy"><strong>파수꾼 소대</strong><small>Watch Guard</small></span>
+            <span class="faction-option-count">40명</span><span class="faction-option-check">✓</span>
+          </button>
+
+          <button class="faction-option" type="button" role="option" aria-selected="false"
+            data-faction="north-throne" data-emblem="❖">
+            <span class="faction-option-emblem">❖</span>
+            <span class="faction-option-copy"><strong>북쪽 경계 왕좌</strong><small>North Throne</small></span>
+            <span class="faction-option-count">49명</span><span class="faction-option-check">✓</span>
+          </button>
+
+          <button class="faction-option" type="button" role="option" aria-selected="false"
+            data-faction="nightmare-council" data-emblem="◈">
+            <span class="faction-option-emblem">◈</span>
+            <span class="faction-option-copy"><strong>악몽 의회</strong><small>Nightmare Council</small></span>
+            <span class="faction-option-count">39명</span><span class="faction-option-check">✓</span>
+          </button>
+
+          <button class="faction-option" type="button" role="option" aria-selected="false"
+            data-faction="cursed-cult" data-emblem="✦">
+            <span class="faction-option-emblem">✦</span>
+            <span class="faction-option-copy"><strong>저주신교</strong><small>Cursed Cult</small></span>
+            <span class="faction-option-count">40명</span><span class="faction-option-check">✓</span>
+          </button>
+
+          <button class="faction-option" type="button" role="option" aria-selected="false"
+            data-faction="infernal-blast" data-emblem="✹">
+            <span class="faction-option-emblem">✹</span>
+            <span class="faction-option-copy"><strong>연옥 폭파</strong><small>Infernal Blast</small></span>
+            <span class="faction-option-count">33명</span><span class="faction-option-check">✓</span>
+          </button>
+
+          <button class="faction-option" type="button" role="option" aria-selected="false"
+            data-faction="star-piercers" data-emblem="✶">
+            <span class="faction-option-emblem">✶</span>
+            <span class="faction-option-copy"><strong>관성의 화살</strong><small>Star Piercers</small></span>
+            <span class="faction-option-count">44명</span><span class="faction-option-check">✓</span>
+          </button>
+
+          <button class="faction-option" type="button" role="option" aria-selected="false"
+            data-faction="esoteria-order" data-emblem="❖">
+            <span class="faction-option-emblem">❖</span>
+            <span class="faction-option-copy"><strong>비법회</strong><small>Esoteria Order</small></span>
+            <span class="faction-option-count">48명</span><span class="faction-option-check">✓</span>
+          </button>
+
+          <button class="faction-option" type="button" role="option" aria-selected="false"
+            data-faction="chaos-dominion" data-emblem="⚔">
+            <span class="faction-option-emblem">⚔</span>
+            <span class="faction-option-copy"><strong>혼돈 정복자</strong><small>Chaos Dominion</small></span>
+            <span class="faction-option-count">27명</span><span class="faction-option-check">✓</span>
+          </button>
+
+          <button class="faction-option" type="button" role="option" aria-selected="false"
+            data-faction="supreme-arbiters" data-emblem="✪">
+            <span class="faction-option-emblem">✪</span>
+            <span class="faction-option-copy"><strong>최고 중재자</strong><small>Supreme Arbiters</small></span>
+            <span class="faction-option-count">22명</span><span class="faction-option-check">✓</span>
+          </button>
+
+          <button class="faction-option" type="button" role="option" aria-selected="false"
+            data-faction="unnamable" data-emblem="∞">
+            <span class="faction-option-emblem">∞</span>
+            <span class="faction-option-copy"><strong>알 수 없는 자</strong><small>Unnamable</small></span>
+            <span class="faction-option-count">2명</span><span class="faction-option-check">✓</span>
+          </button>
+        </div>
+
+        <p class="faction-select-hint">진영을 선택하면 해당 영웅 도감으로 바로 이동합니다.</p>
       </div>
     </section>
 
@@ -249,6 +268,6 @@
     </div>
   </div>
 
-  <script src="./app.js?v=2.6.3"></script>
+  <script src="./app.js?v=2.6.4"></script>
 </body>
 </html>
