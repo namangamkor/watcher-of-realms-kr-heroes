@@ -67,7 +67,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 16,
-        "portrait": "./chaos-dominion-16-admiral-claw.webp"
+        "portrait": "./chaos-dominion-hq-16-admiral-claw.webp"
       }
     ]
   },
@@ -426,7 +426,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 14,
-        "portrait": "./chaos-dominion-14-ardea.webp"
+        "portrait": "./chaos-dominion-hq-14-ardea.webp"
       }
     ]
   },
@@ -570,7 +570,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 26,
-        "portrait": "./cursed-cult-37-atrox.webp"
+        "portrait": "./chaos-dominion-hq-26-atrox.webp"
       }
     ]
   },
@@ -1083,7 +1083,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 12,
-        "portrait": "./chaos-dominion-12-carnelian.webp"
+        "portrait": "./chaos-dominion-hq-12-carnelian.webp"
       }
     ]
   },
@@ -1164,7 +1164,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 8,
-        "portrait": "./chaos-dominion-08-cerberus.webp"
+        "portrait": "./chaos-dominion-hq-08-cerberus.webp"
       }
     ]
   },
@@ -1266,7 +1266,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 24,
-        "portrait": "./chaos-dominion-24-count-dracula.webp"
+        "portrait": "./chaos-dominion-hq-24-count-dracula.webp"
       }
     ]
   },
@@ -1524,7 +1524,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 6,
-        "portrait": "./chaos-dominion-06-dassomi.webp"
+        "portrait": "./chaos-dominion-hq-06-dassomi.webp"
       }
     ]
   },
@@ -1749,7 +1749,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 13,
-        "portrait": "./chaos-dominion-13-durza.webp"
+        "portrait": "./chaos-dominion-hq-13-durza.webp"
       }
     ]
   },
@@ -2278,7 +2278,7 @@
         "factionEn": "Chaos Dominion",
         "lord": true,
         "sortOrder": 1,
-        "portrait": "./chaos-dominion-01-ghan.webp"
+        "portrait": "./chaos-dominion-hq-01-ghan.webp"
       }
     ]
   },
@@ -2308,7 +2308,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 9,
-        "portrait": "./chaos-dominion-09-gisele.webp"
+        "portrait": "./chaos-dominion-hq-09-gisele.webp"
       }
     ]
   },
@@ -2452,7 +2452,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 21,
-        "portrait": "./chaos-dominion-21-gretchen.webp"
+        "portrait": "./chaos-dominion-hq-21-gretchen.webp"
       }
     ]
   },
@@ -2542,7 +2542,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 17,
-        "portrait": "./chaos-dominion-17-guldrak.webp"
+        "portrait": "./chaos-dominion-hq-17-gul-drak.webp"
       }
     ]
   },
@@ -2923,7 +2923,7 @@
         "factionEn": "Chaos Dominion",
         "lord": true,
         "sortOrder": 3,
-        "portrait": "./chaos-dominion-03-jezebelle.webp"
+        "portrait": "./chaos-dominion-hq-03-jezebelle.webp"
       }
     ]
   },
@@ -2953,7 +2953,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 25,
-        "portrait": "./cursed-cult-36-jorge.webp"
+        "portrait": "./chaos-dominion-hq-25-jorge.webp"
       }
     ]
   },
@@ -2983,7 +2983,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 10,
-        "portrait": "./chaos-dominion-10-kaede.webp"
+        "portrait": "./chaos-dominion-hq-10-kaede.webp"
       }
     ]
   },
@@ -3619,7 +3619,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 22,
-        "portrait": "./chaos-dominion-22-lu-bu.webp"
+        "portrait": "./chaos-dominion-hq-22-lu-bu.webp"
       }
     ]
   },
@@ -3670,7 +3670,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 5,
-        "portrait": "./chaos-dominion-05-lugaru.webp"
+        "portrait": "./chaos-dominion-hq-05-lugaru.webp"
       }
     ]
   },
@@ -4513,7 +4513,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 19,
-        "portrait": "./chaos-dominion-19-pierre.webp"
+        "portrait": "./chaos-dominion-hq-19-pierre.webp"
       }
     ]
   },
@@ -4860,7 +4860,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 11,
-        "portrait": "./chaos-dominion-11-sargak.webp"
+        "portrait": "./chaos-dominion-hq-11-sargak.webp"
       }
     ]
   },
@@ -4974,7 +4974,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 18,
-        "portrait": "./chaos-dominion-18-sergei.webp"
+        "portrait": "./chaos-dominion-hq-18-sergei.webp"
       }
     ]
   },
@@ -5220,7 +5220,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 23,
-        "portrait": "./chaos-dominion-23-sythra.webp"
+        "portrait": "./chaos-dominion-hq-23-sythra.webp"
       }
     ]
   },
@@ -5499,7 +5499,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 15,
-        "portrait": "./chaos-dominion-15-uredin.webp"
+        "portrait": "./chaos-dominion-hq-15-uredin.webp"
       }
     ]
   },
@@ -5550,7 +5550,7 @@
         "factionEn": "Chaos Dominion",
         "lord": true,
         "sortOrder": 2,
-        "portrait": "./chaos-dominion-02-valderon.webp"
+        "portrait": "./chaos-dominion-hq-02-valderon.webp"
       }
     ]
   },
@@ -5580,7 +5580,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 7,
-        "portrait": "./chaos-dominion-07-valeriya.webp"
+        "portrait": "./chaos-dominion-hq-07-valeriya.webp"
       }
     ]
   },
@@ -5640,7 +5640,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 27,
-        "portrait": "./star-piercers-40-vargus.webp"
+        "portrait": "./chaos-dominion-hq-27-vargus.webp"
       }
     ]
   },
@@ -5670,7 +5670,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 20,
-        "portrait": "./chaos-dominion-20-varro-draccus.webp"
+        "portrait": "./chaos-dominion-hq-20-varro-draccus.webp"
       }
     ]
   },
@@ -5847,7 +5847,7 @@
         "factionEn": "Chaos Dominion",
         "lord": true,
         "sortOrder": 4,
-        "portrait": "./chaos-dominion-04-vladov.webp"
+        "portrait": "./chaos-dominion-hq-04-vladov.webp"
       }
     ]
   },
