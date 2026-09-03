@@ -713,3 +713,98 @@ body.modal-open {
     min-height: 96px;
   }
 }
+
+
+/* v2.5.2 — compact faction grid
+   Goal: keep the 3-column faction overview while revealing the hero roster
+   within the first desktop viewport. */
+.faction-section {
+  padding: 10px 0 24px !important;
+}
+
+.section-title h2 {
+  font-size: 25px !important;
+}
+
+.faction-tabs {
+  margin-top: 12px !important;
+  gap: 10px !important;
+}
+
+.faction-tabs .faction-card {
+  min-height: 76px !important;
+  padding: 11px 14px !important;
+  gap: 11px !important;
+  border-radius: 13px !important;
+}
+
+.faction-tabs .faction-card strong {
+  font-size: 15px !important;
+  line-height: 1.22;
+}
+
+.faction-tabs .faction-card small {
+  margin-top: 2px !important;
+  font-size: 12px !important;
+}
+
+.faction-tabs .faction-card b {
+  font-size: 11px !important;
+  white-space: nowrap;
+}
+
+.faction-tabs .faction-emblem {
+  width: 36px !important;
+  height: 36px !important;
+  min-width: 36px;
+  border-radius: 10px !important;
+  font-size: 14px;
+}
+
+.faction-tabs .faction-coming {
+  min-height: 54px !important;
+  padding: 10px 14px !important;
+  font-size: 12px !important;
+  border-radius: 13px !important;
+}
+
+.roster {
+  padding: 22px 0 64px !important;
+}
+
+.roster-head h2 {
+  font-size: 25px !important;
+}
+
+.roster-head p:last-child {
+  margin-top: 5px !important;
+}
+
+@media (max-width: 900px) {
+  .faction-tabs .faction-card {
+    min-height: 72px !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .faction-section {
+    padding-bottom: 20px !important;
+  }
+
+  .faction-tabs {
+    gap: 8px !important;
+  }
+
+  .faction-tabs .faction-card {
+    min-height: 68px !important;
+    padding: 10px 12px !important;
+  }
+
+  .faction-tabs .faction-coming {
+    min-height: 46px !important;
+  }
+
+  .roster {
+    padding-top: 18px !important;
+  }
+}
