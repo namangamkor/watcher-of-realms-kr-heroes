@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="워처 오브 렐름 한국명과 영문명을 빠르게 매칭하는 한영 영웅도감" />
-  <title>워처 오브 렐름 한영 영웅도감</title>
+  <meta name="description" content="나만겜이 제작·운영하는 워처 오브 렐름 한영 영웅도감. 한국명과 영문명을 빠르게 검색하고 진영별로 확인하세요." />
+  <title>워처 오브 렐름 한영 영웅도감 | 나만겜</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
@@ -14,10 +14,13 @@
         <span class="brand-mark">W</span>
         <div>
           <strong>워처 오브 렐름 한영 영웅도감</strong>
-          <small>by 나만겜</small>
+          <small>나만겜 제작 · 운영</small>
         </div>
       </div>
-      <span class="beta">BETA</span>
+      <div class="topbar-actions">
+        <span class="creator-mini">NAMANGAM ARCHIVE</span>
+        <span class="beta">BETA</span>
+      </div>
     </div>
   </header>
 
@@ -32,6 +35,36 @@
         <input id="searchInput" type="search" placeholder="예: Eivor, 에이보르, DiaoChan, 초선" autocomplete="off" />
         <button id="clearSearch" type="button">초기화</button>
       </div>
+
+      <aside class="creator-banner" aria-label="나만겜 유튜브 안내">
+        <div class="creator-banner-copy">
+          <span class="creator-label">CREATED &amp; CURATED BY</span>
+          <div class="creator-title-row">
+            <strong>나만겜</strong>
+            <span class="fan-badge">비공식 팬사이트</span>
+          </div>
+          <p>이 영웅도감은 나만겜이 직접 제작·정리하고 있습니다. 영웅 공략과 최신 워처 오브 렐름 콘텐츠는 유튜브에서 이어서 확인하세요.</p>
+        </div>
+
+        <a
+          class="youtube-cta"
+          href="https://www.youtube.com/@namangam_kor"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="나만겜 유튜브 채널 새 창에서 열기"
+        >
+          <span class="youtube-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" role="img">
+              <path d="M21.58 7.19a2.99 2.99 0 0 0-2.1-2.12C17.62 4.56 12 4.56 12 4.56s-5.62 0-7.48.51a2.99 2.99 0 0 0-2.1 2.12C1.91 9.06 1.91 12 1.91 12s0 2.94.51 4.81a2.99 2.99 0 0 0 2.1 2.12c1.86.51 7.48.51 7.48.51s5.62 0 7.48-.51a2.99 2.99 0 0 0 2.1-2.12c.51-1.87.51-4.81.51-4.81s0-2.94-.51-4.81ZM9.94 15.27V8.73L15.58 12l-5.64 3.27Z"/>
+            </svg>
+          </span>
+          <span>
+            <small>공략은 여기에서</small>
+            <strong>나만겜 유튜브 바로가기</strong>
+          </span>
+          <span class="cta-arrow">↗</span>
+        </a>
+      </aside>
     </section>
 
     <section class="wrap faction-section">
@@ -101,7 +134,21 @@
   </main>
 
   <footer>
-    <div class="wrap">워처 오브 렐름 한영 영웅도감 · by 나만겜</div>
+    <div class="wrap footer-inner">
+      <div class="footer-copy">
+        <strong>워처 오브 렐름 한영 영웅도감</strong>
+        <p>나만겜이 직접 제작·운영하는 비공식 팬사이트입니다.</p>
+        <small>게임 내 이미지·명칭 등 관련 권리는 각 권리자에게 있습니다.</small>
+      </div>
+      <a
+        class="footer-youtube"
+        href="https://www.youtube.com/@namangam_kor"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        나만겜 YouTube <span>↗</span>
+      </a>
+    </div>
   </footer>
 
   <script src="./app.js"></script>
