@@ -34,6 +34,11 @@ const factionMeta = {
     kr: "저주신교",
     en: "Cursed Cult",
     total: 40
+  },
+  "infernal-blast": {
+    kr: "연옥 폭파",
+    en: "Infernal Blast",
+    total: 33
   }
 };
 
@@ -210,7 +215,7 @@ function render() {
   }
 }
 
-fetch("./heroes.json?v=1.8")
+fetch("./heroes.json?v=1.9")
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();

@@ -112,7 +112,8 @@
     "class": "힐러",
     "rarity": "전설",
     "factions": [
-      "watch-guard"
+      "watch-guard",
+      "infernal-blast"
     ],
     "memberships": [
       {
@@ -122,6 +123,14 @@
         "lord": false,
         "sortOrder": 6,
         "portrait": "./diaochan.webp"
+      },
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 7,
+        "portrait": "./infernal-blast-07-diaochan.webp"
       }
     ]
   },
@@ -607,7 +616,8 @@
     "class": "전술마스터",
     "rarity": "전설",
     "factions": [
-      "watch-guard"
+      "watch-guard",
+      "infernal-blast"
     ],
     "memberships": [
       {
@@ -617,6 +627,14 @@
         "lord": false,
         "sortOrder": 27,
         "portrait": "./cainan.webp"
+      },
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 23,
+        "portrait": "./infernal-blast-23-cainan.webp"
       }
     ]
   },
@@ -649,7 +667,8 @@
     "class": "마법사",
     "rarity": "에픽",
     "factions": [
-      "watch-guard"
+      "watch-guard",
+      "infernal-blast"
     ],
     "memberships": [
       {
@@ -659,6 +678,14 @@
         "lord": false,
         "sortOrder": 29,
         "portrait": "./soleil.webp"
+      },
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 25,
+        "portrait": "./infernal-blast-25-soleil.webp"
       }
     ]
   },
@@ -1072,7 +1099,8 @@
     "class": "마법사",
     "rarity": "전설",
     "factions": [
-      "north-throne"
+      "north-throne",
+      "infernal-blast"
     ],
     "memberships": [
       {
@@ -1082,6 +1110,14 @@
         "lord": false,
         "sortOrder": 7,
         "portrait": "./north-throne-07-nocturne.webp"
+      },
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 4,
+        "portrait": "./infernal-blast-04-nocturne.webp"
       }
     ]
   },
@@ -1699,7 +1735,8 @@
     "class": "궁수",
     "rarity": "에픽",
     "factions": [
-      "north-throne"
+      "north-throne",
+      "infernal-blast"
     ],
     "memberships": [
       {
@@ -1709,6 +1746,14 @@
         "lord": false,
         "sortOrder": 40,
         "portrait": "./north-throne-40-brunor.webp"
+      },
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 28,
+        "portrait": "./infernal-blast-28-brunor.webp"
       }
     ]
   },
@@ -3157,7 +3202,8 @@
     "class": "수호자",
     "rarity": "전설",
     "factions": [
-      "cursed-cult"
+      "cursed-cult",
+      "infernal-blast"
     ],
     "memberships": [
       {
@@ -3167,6 +3213,14 @@
         "lord": false,
         "sortOrder": 28,
         "portrait": "./cursed-cult-28-knight-arlott.webp"
+      },
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 22,
+        "portrait": "./infernal-blast-22-knight-arlott.webp"
       }
     ]
   },
@@ -3356,6 +3410,573 @@
         "lord": false,
         "sortOrder": 40,
         "portrait": "./cursed-cult-40-elukas.webp"
+      }
+    ]
+  },
+  {
+    "id": "solcadens",
+    "nameKr": "솔카덴스",
+    "nameEn": "Solcadens",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": true,
+        "sortOrder": 1,
+        "portrait": "./infernal-blast-01-solcadens.webp"
+      }
+    ]
+  },
+  {
+    "id": "twinfiend",
+    "nameKr": "트윈즈",
+    "nameEn": "Twinfiend",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": true,
+        "sortOrder": 2,
+        "portrait": "./infernal-blast-02-twinfiend.webp"
+      }
+    ]
+  },
+  {
+    "id": "pyros",
+    "nameKr": "파로스",
+    "nameEn": "Pyros",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "에픽",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": true,
+        "sortOrder": 3,
+        "portrait": "./infernal-blast-03-pyros.webp"
+      }
+    ]
+  },
+  {
+    "id": "zilitu",
+    "nameKr": "제리엘",
+    "nameEn": "Zilitu",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 5,
+        "portrait": "./infernal-blast-05-zilitu.webp"
+      }
+    ]
+  },
+  {
+    "id": "orim",
+    "nameKr": "오림",
+    "nameEn": "Orim",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "전설",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 6,
+        "portrait": "./infernal-blast-06-orim.webp"
+      }
+    ]
+  },
+  {
+    "id": "setram",
+    "nameKr": "사트라무",
+    "nameEn": "Setram",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 8,
+        "portrait": "./infernal-blast-08-setram.webp"
+      }
+    ]
+  },
+  {
+    "id": "aylin",
+    "nameKr": "에일린",
+    "nameEn": "Aylin",
+    "aliases": [],
+    "class": "힐러",
+    "rarity": "전설",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 9,
+        "portrait": "./infernal-blast-09-aylin.webp"
+      }
+    ]
+  },
+  {
+    "id": "ferssi",
+    "nameKr": "페르시",
+    "nameEn": "Ferssi",
+    "aliases": [],
+    "class": "힐러",
+    "rarity": "전설",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 10,
+        "portrait": "./infernal-blast-10-ferssi.webp"
+      }
+    ]
+  },
+  {
+    "id": "hex",
+    "nameKr": "헥스",
+    "nameEn": "Hex",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 11,
+        "portrait": "./infernal-blast-11-hex.webp"
+      }
+    ]
+  },
+  {
+    "id": "myca",
+    "nameKr": "마이카",
+    "nameEn": "Myca",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 12,
+        "portrait": "./infernal-blast-12-myca.webp"
+      }
+    ]
+  },
+  {
+    "id": "anai",
+    "nameKr": "아나이",
+    "nameEn": "Anai",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 13,
+        "portrait": "./infernal-blast-13-anai.webp"
+      }
+    ]
+  },
+  {
+    "id": "xena",
+    "nameKr": "젠나",
+    "nameEn": "Xena",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 14,
+        "portrait": "./infernal-blast-14-xena.webp"
+      }
+    ]
+  },
+  {
+    "id": "lord-phineas",
+    "nameKr": "악마군주피니아스",
+    "nameEn": "Lord Phineas",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 15,
+        "portrait": "./infernal-blast-15-lord-phineas.webp"
+      }
+    ]
+  },
+  {
+    "id": "gul-drak",
+    "nameKr": "굴드락",
+    "nameEn": "Gul'Drak",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 16,
+        "portrait": "./infernal-blast-16-gul-drak.webp"
+      }
+    ]
+  },
+  {
+    "id": "janus-grismore",
+    "nameKr": "제누스",
+    "nameEn": "Janus Grismore",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 17,
+        "portrait": "./infernal-blast-17-janus-grismore.webp"
+      }
+    ]
+  },
+  {
+    "id": "violetta-vane",
+    "nameKr": "비올레타베인",
+    "nameEn": "Violetta Vane",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 18,
+        "portrait": "./infernal-blast-18-violetta-vane.webp"
+      }
+    ]
+  },
+  {
+    "id": "malrik",
+    "nameKr": "말리크",
+    "nameEn": "Malrik",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 19,
+        "portrait": "./infernal-blast-19-malrik.webp"
+      }
+    ]
+  },
+  {
+    "id": "gretchen",
+    "nameKr": "그레첸",
+    "nameEn": "Gretchen",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 20,
+        "portrait": "./infernal-blast-20-gretchen.webp"
+      }
+    ]
+  },
+  {
+    "id": "lyra",
+    "nameKr": "라이라",
+    "nameEn": "Lyra",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 21,
+        "portrait": "./infernal-blast-21-lyra.webp"
+      }
+    ]
+  },
+  {
+    "id": "gu-shi",
+    "nameKr": "고결",
+    "nameEn": "Gu Shi",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 24,
+        "portrait": "./infernal-blast-24-gu-shi.webp"
+      }
+    ]
+  },
+  {
+    "id": "dolores",
+    "nameKr": "델로레스",
+    "nameEn": "Dolores",
+    "aliases": [],
+    "class": "힐러",
+    "rarity": "에픽",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 26,
+        "portrait": "./infernal-blast-26-dolores.webp"
+      }
+    ]
+  },
+  {
+    "id": "scorch",
+    "nameKr": "스코치",
+    "nameEn": "Scorch",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "에픽",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 27,
+        "portrait": "./infernal-blast-27-scorch.webp"
+      }
+    ]
+  },
+  {
+    "id": "titus",
+    "nameKr": "티투스",
+    "nameEn": "Titus",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "에픽",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 29,
+        "portrait": "./infernal-blast-29-titus.webp"
+      }
+    ]
+  },
+  {
+    "id": "imani",
+    "nameKr": "엘마",
+    "nameEn": "Imani",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "에픽",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 30,
+        "portrait": "./infernal-blast-30-imani.webp"
+      }
+    ]
+  },
+  {
+    "id": "azzoth",
+    "nameKr": "아토스",
+    "nameEn": "Azzoth",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "에픽",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 31,
+        "portrait": "./infernal-blast-31-azzoth.webp"
+      }
+    ]
+  },
+  {
+    "id": "morene",
+    "nameKr": "모레이나",
+    "nameEn": "Morene",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "레어",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 32,
+        "portrait": "./infernal-blast-32-morene.webp"
+      }
+    ]
+  },
+  {
+    "id": "autumn",
+    "nameKr": "오드무",
+    "nameEn": "Autumn",
+    "aliases": [],
+    "class": "힐러",
+    "rarity": "레어",
+    "factions": [
+      "infernal-blast"
+    ],
+    "memberships": [
+      {
+        "faction": "infernal-blast",
+        "factionKr": "연옥 폭파",
+        "factionEn": "Infernal Blast",
+        "lord": false,
+        "sortOrder": 33,
+        "portrait": "./infernal-blast-33-autumn.webp"
       }
     ]
   }
