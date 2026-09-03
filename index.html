@@ -3,55 +3,105 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="워처 오브 렐름 한국명과 영문명을 빠르게 매칭하는 영웅도감" />
+  <meta name="description" content="워처 오브 렐름 한국명과 영문명을 빠르게 매칭하는 한영 영웅도감" />
   <title>워처 오브 렐름 한영 영웅도감</title>
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <header class="hero">
-    <div class="hero-inner">
-      <p class="eyebrow">WATCHER OF REALMS · KR HERO INDEX</p>
-      <h1>워처 오브 렐름<br />한영 영웅도감</h1>
-      <p class="subtitle">해외 공략에서 본 영웅을 한국 서버 이름으로 빠르게 찾아보세요.</p>
-
-      <div class="search-wrap">
-        <span class="search-icon">⌕</span>
-        <input
-          id="searchInput"
-          type="search"
-          placeholder="예: Valderon, 발데론, 와엘드론"
-          autocomplete="off"
-        />
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <div class="brand">
+        <span class="brand-mark">W</span>
+        <div>
+          <strong>워처 오브 렐름 한영 영웅도감</strong>
+          <small>by 나만겜</small>
+        </div>
       </div>
-
-      <div class="stats">
-        <span id="heroCount">0명의 영웅</span>
-        <span>·</span>
-        <span>한국명 · 영문명 · 별칭 검색</span>
-      </div>
+      <span class="beta">BETA</span>
     </div>
   </header>
 
-  <main class="container">
-    <section class="section-head">
-      <div>
-        <h2>영웅 목록</h2>
-        <p id="resultText">전체 영웅을 표시하고 있습니다.</p>
+  <main>
+    <section class="hero wrap">
+      <p class="eyebrow">WATCHER OF REALMS · KR / EN HERO INDEX</p>
+      <h1>해외 이름을 보면<br><span>한국 이름이 바로 보이게.</span></h1>
+      <p class="lead">한국명·영문명을 검색하거나 진영별 도감으로 둘러보세요.</p>
+
+      <div class="searchbox">
+        <span class="search-icon">⌕</span>
+        <input id="searchInput" type="search" placeholder="예: Eivor, 에이보르, DiaoChan, 초선" autocomplete="off" />
+        <button id="clearSearch" type="button">초기화</button>
       </div>
-      <button id="clearButton" class="ghost-button" type="button">검색 초기화</button>
     </section>
 
-    <section id="heroGrid" class="hero-grid" aria-live="polite"></section>
+    <section class="wrap faction-section">
+      <div class="section-title">
+        <div>
+          <p class="section-kicker">FACTIONS</p>
+          <h2>진영별 영웅도감</h2>
+        </div>
+      </div>
 
-    <section id="emptyState" class="empty-state" hidden>
-      <div class="empty-icon">?</div>
-      <h3>검색 결과가 없습니다.</h3>
-      <p>한국명, 영문명 또는 별칭으로 다시 검색해보세요.</p>
+      <div class="faction-tabs">
+        <button class="faction-card active" data-faction="watch-guard">
+          <span class="faction-emblem">✦</span>
+          <span>
+            <strong>파수꾼 소대</strong>
+            <small>Watch Guard</small>
+          </span>
+          <b>40 / 40 등록</b>
+        </button>
+        <div class="faction-coming">다른 진영은 순차 추가 예정</div>
+      </div>
+    </section>
+
+    <section class="wrap roster">
+      <div class="roster-head">
+        <div>
+          <p class="section-kicker">WATCH GUARD</p>
+          <h2>파수꾼 소대</h2>
+          <p id="resultSummary">파수꾼 소대 영웅 40명 등록 완료</p>
+        </div>
+        <div class="count-badge"><strong id="visibleCount">40</strong><span>/ 40</span></div>
+      </div>
+
+      <div class="filters">
+        <div class="filter-group">
+          <span>희귀도</span>
+          <button class="filter active" data-filter-type="rarity" data-value="all">전체</button>
+          <button class="filter" data-filter-type="rarity" data-value="전설">전설</button>
+          <button class="filter" data-filter-type="rarity" data-value="에픽">에픽</button>
+          <button class="filter" data-filter-type="rarity" data-value="레어">레어</button>
+          <button class="filter" data-filter-type="rarity" data-value="미입력">미입력</button>
+        </div>
+
+        <div class="filter-group">
+          <span>직업</span>
+          <button class="filter active" data-filter-type="class" data-value="all">전체</button>
+          <button class="filter" data-filter-type="class" data-value="전사">전사</button>
+          <button class="filter" data-filter-type="class" data-value="궁수">궁수</button>
+          <button class="filter" data-filter-type="class" data-value="마법사">마법사</button>
+          <button class="filter" data-filter-type="class" data-value="힐러">힐러</button>
+          <button class="filter" data-filter-type="class" data-value="수호자">수호자</button>
+          <button class="filter" data-filter-type="class" data-value="전술마스터">전술마스터</button>
+        </div>
+      </div>
+
+      <div id="heroGrid" class="hero-grid" aria-live="polite"></div>
+
+      <div id="emptyState" class="empty" hidden>
+        <strong>검색 결과가 없습니다.</strong>
+        <span>다른 이름이나 필터를 사용해보세요.</span>
+      </div>
+
+      <div class="data-note">
+        파수꾼 소대 40명 등록 완료 · 한국명과 영문명을 함께 검색할 수 있습니다.
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>워처 오브 렐름 한영 영웅도감 · by 나만겜</p>
+    <div class="wrap">워처 오브 렐름 한영 영웅도감 · by 나만겜</div>
   </footer>
 
   <script src="./app.js"></script>

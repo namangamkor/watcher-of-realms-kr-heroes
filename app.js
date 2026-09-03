@@ -1,84 +1,106 @@
-const heroGrid = document.querySelector("#heroGrid");
 const searchInput = document.querySelector("#searchInput");
-const clearButton = document.querySelector("#clearButton");
+const clearSearch = document.querySelector("#clearSearch");
+const heroGrid = document.querySelector("#heroGrid");
 const emptyState = document.querySelector("#emptyState");
-const resultText = document.querySelector("#resultText");
-const heroCount = document.querySelector("#heroCount");
+const visibleCount = document.querySelector("#visibleCount");
+const resultSummary = document.querySelector("#resultSummary");
 
 let heroes = [];
+const active = { rarity: "all", class: "all" };
 
 const normalize = (value = "") =>
-  value
-    .toString()
-    .toLowerCase()
-    .normalize("NFKC")
-    .replace(/\s+/g, "")
-    .trim();
+  value.toString().toLowerCase().normalize("NFKC").replace(/\s+/g, "").trim();
 
-function matchesHero(hero, query) {
+function matchesSearch(hero, query) {
   if (!query) return true;
-
   const haystack = [
     hero.nameKr,
     hero.nameEn,
-    ...(hero.aliases || []),
-  ]
-    .map(normalize)
-    .join(" ");
-
+    ...(hero.aliases || [])
+  ].map(normalize).join(" ");
   return haystack.includes(normalize(query));
 }
 
-function heroCard(hero) {
-  const aliases = hero.aliases?.length
-    ? `별칭: ${hero.aliases.join(" · ")}`
-    : "등록된 별칭 없음";
+function rarityClass(rarity) {
+  if (rarity === "전설") return "legendary";
+  if (rarity === "에픽") return "epic";
+  if (rarity === "레어") return "rare";
+  return "unknown";
+}
 
-  const initial = (hero.nameEn || hero.nameKr || "?").trim().charAt(0).toUpperCase();
-
+function card(hero) {
+  const initial = (hero.nameEn || hero.nameKr).trim().charAt(0).toUpperCase();
   return `
     <article class="hero-card">
-      <div class="initial">${initial}</div>
-      <h3>${hero.nameKr}</h3>
-      <p class="english-name">${hero.nameEn}</p>
-      <p class="aliases">${aliases}</p>
+      <div class="card-visual">
+        ${hero.portrait
+          ? `<img src="${hero.portrait}" alt="${hero.nameKr} (${hero.nameEn}) 영웅 카드" loading="lazy">`
+          : `<span>${initial}</span>`}
+      </div>
+      <div class="card-body">
+        <div class="card-topline">
+          ${hero.lord ? '<span class="tag lord">영주</span>' : ''}
+          <span class="tag ${rarityClass(hero.rarity)}">${hero.rarity}</span>
+        </div>
+        <h3>${hero.nameKr}</h3>
+        <p class="en">${hero.nameEn}</p>
+        <p class="meta">${hero.class} · ${hero.factionKr}</p>
+      </div>
     </article>
   `;
 }
 
 function render() {
   const query = searchInput.value;
-  const filtered = heroes.filter((hero) => matchesHero(hero, query));
+  const filtered = heroes.filter(hero =>
+    hero.faction === "watch-guard" &&
+    matchesSearch(hero, query) &&
+    (active.rarity === "all" || hero.rarity === active.rarity) &&
+    (active.class === "all" || hero.class === active.class)
+  );
 
-  heroGrid.innerHTML = filtered.map(heroCard).join("");
+  heroGrid.innerHTML = filtered.map(card).join("");
   emptyState.hidden = filtered.length !== 0;
+  visibleCount.textContent = filtered.length;
 
-  if (query.trim()) {
-    resultText.textContent = `"${query}" 검색 결과 ${filtered.length}명`;
+  if (query.trim() || active.rarity !== "all" || active.class !== "all") {
+    resultSummary.textContent = `조건에 맞는 영웅 ${filtered.length}명 · 전체 등록 40명`;
   } else {
-    resultText.textContent = "전체 영웅을 표시하고 있습니다.";
+    resultSummary.textContent = "파수꾼 소대 영웅 40명 등록 완료";
   }
 }
 
 fetch("./heroes.json")
-  .then((response) => {
-    if (!response.ok) throw new Error("영웅 데이터를 불러오지 못했습니다.");
-    return response.json();
+  .then(r => {
+    if (!r.ok) throw new Error("heroes.json load failed");
+    return r.json();
   })
-  .then((data) => {
-    heroes = data;
-    heroCount.textContent = `${heroes.length}명의 영웅`;
+  .then(data => {
+    heroes = data.sort((a,b) => a.sortOrder - b.sortOrder);
     render();
   })
-  .catch((error) => {
-    console.error(error);
-    resultText.textContent = "영웅 데이터를 불러오는 중 오류가 발생했습니다.";
+  .catch(err => {
+    console.error(err);
+    resultSummary.textContent = "영웅 데이터를 불러오지 못했습니다.";
   });
 
 searchInput.addEventListener("input", render);
 
-clearButton.addEventListener("click", () => {
+clearSearch.addEventListener("click", () => {
   searchInput.value = "";
-  searchInput.focus();
   render();
+  searchInput.focus();
+});
+
+document.querySelectorAll(".filter").forEach(button => {
+  button.addEventListener("click", () => {
+    const type = button.dataset.filterType;
+    active[type] = button.dataset.value;
+
+    document
+      .querySelectorAll(`.filter[data-filter-type="${type}"]`)
+      .forEach(b => b.classList.toggle("active", b === button));
+
+    render();
+  });
 });
