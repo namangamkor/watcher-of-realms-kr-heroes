@@ -139,7 +139,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 23,
-        "portrait": "./esoteria-order-23-aeris.webp"
+        "portrait": "./esoteria-hq-23-aeris.webp"
       }
     ]
   },
@@ -169,7 +169,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 44,
-        "portrait": "./esoteria-order-44-ai.webp"
+        "portrait": "./esoteria-hq-44-ai.webp"
       }
     ]
   },
@@ -354,7 +354,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 24,
-        "portrait": "./esoteria-order-24-anora.webp"
+        "portrait": "./esoteria-hq-24-anora.webp"
       }
     ]
   },
@@ -447,7 +447,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 38,
-        "portrait": "./esoteria-order-38-ardeth.webp"
+        "portrait": "./esoteria-hq-38-ardeth.webp"
       }
     ]
   },
@@ -786,7 +786,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 20,
-        "portrait": "./esoteria-order-20-beatrix.webp"
+        "portrait": "./esoteria-hq-20-beatrix.webp"
       }
     ]
   },
@@ -837,7 +837,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 14,
-        "portrait": "./esoteria-order-14-boreas.webp"
+        "portrait": "./esoteria-hq-14-boreas.webp"
       }
     ]
   },
@@ -1185,7 +1185,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 33,
-        "portrait": "./esoteria-order-33-clarissa.webp"
+        "portrait": "./esoteria-hq-33-clarissa.webp"
       }
     ]
   },
@@ -1329,7 +1329,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 36,
-        "portrait": "./esoteria-order-36-cyclone.webp"
+        "portrait": "./esoteria-hq-36-cyclone.webp"
       }
     ]
   },
@@ -1380,7 +1380,7 @@
         "factionEn": "Esoteria Order",
         "lord": true,
         "sortOrder": 1,
-        "portrait": "./esoteria-order-01-cyrus.webp"
+        "portrait": "./esoteria-hq-01-cyrus.webp"
       }
     ]
   },
@@ -1452,7 +1452,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 22,
-        "portrait": "./esoteria-order-22-dahlia.webp"
+        "portrait": "./esoteria-hq-22-dahlia.webp"
       }
     ]
   },
@@ -1516,7 +1516,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 9,
-        "portrait": "./esoteria-order-09-dassomi.webp"
+        "portrait": "./esoteria-hq-09-dassomi.webp"
       },
       {
         "faction": "chaos-dominion",
@@ -1893,7 +1893,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 6,
-        "portrait": "./esoteria-order-06-elowyn.webp"
+        "portrait": "./esoteria-hq-06-elowyn.webp"
       }
     ]
   },
@@ -2143,7 +2143,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 11,
-        "portrait": "./esoteria-order-11-ezryn.webp"
+        "portrait": "./esoteria-hq-11-ezryn.webp"
       }
     ]
   },
@@ -2164,7 +2164,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 45,
-        "portrait": "./esoteria-order-45-faelin.webp"
+        "portrait": "./esoteria-hq-45-faelin.webp"
       }
     ]
   },
@@ -2194,7 +2194,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 13,
-        "portrait": "./esoteria-order-13-falcia.webp"
+        "portrait": "./esoteria-hq-13-falcia.webp"
       }
     ]
   },
@@ -2257,7 +2257,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 47,
-        "portrait": "./esoteria-order-47-filippa.webp"
+        "portrait": "./esoteria-hq-47-filippa.webp"
       }
     ]
   },
@@ -2371,7 +2371,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 48,
-        "portrait": "./esoteria-order-48-gonkba.webp"
+        "portrait": "./esoteria-hq-48-gonkba.webp"
       }
     ]
   },
@@ -2392,7 +2392,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 31,
-        "portrait": "./esoteria-order-31-graves-greybeard.webp"
+        "portrait": "./esoteria-hq-31-graves-greybeard.webp"
       }
     ]
   },
@@ -2626,7 +2626,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 15,
-        "portrait": "./esoteria-order-15-helga.webp"
+        "portrait": "./esoteria-hq-15-helga.webp"
       }
     ]
   },
@@ -2780,7 +2780,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 26,
-        "portrait": "./esoteria-order-26-init.webp"
+        "portrait": "./esoteria-hq-26-init.webp"
       },
       {
         "faction": "supreme-arbiters",
@@ -2851,7 +2851,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 40,
-        "portrait": "./esoteria-order-40-janqhar.webp"
+        "portrait": "./esoteria-hq-40-janqhar.webp"
       }
     ]
   },
@@ -2975,7 +2975,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 12,
-        "portrait": "./esoteria-order-12-kaede.webp"
+        "portrait": "./esoteria-hq-12-kaede.webp"
       },
       {
         "faction": "chaos-dominion",
@@ -3025,7 +3025,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 43,
-        "portrait": "./esoteria-order-43-kalina.webp"
+        "portrait": "./esoteria-hq-43-kalina.webp"
       }
     ]
   },
@@ -3139,7 +3139,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 10,
-        "portrait": "./esoteria-order-10-khamet.webp"
+        "portrait": "./esoteria-hq-10-khamet.webp"
       }
     ]
   },
@@ -3406,7 +3406,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 37,
-        "portrait": "./esoteria-order-37-laurel.webp"
+        "portrait": "./esoteria-hq-37-laurel.webp"
       }
     ]
   },
@@ -3538,7 +3538,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 39,
-        "portrait": "./esoteria-order-39-lili.webp"
+        "portrait": "./esoteria-hq-39-lili.webp"
       }
     ]
   },
@@ -3784,7 +3784,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 30,
-        "portrait": "./esoteria-order-30-lyra.webp"
+        "portrait": "./esoteria-hq-30-lyra.webp"
       }
     ]
   },
@@ -3856,7 +3856,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 29,
-        "portrait": "./esoteria-order-29-malrik.webp"
+        "portrait": "./esoteria-hq-29-malrik.webp"
       }
     ]
   },
@@ -4051,7 +4051,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 32,
-        "portrait": "./esoteria-order-32-moriden.webp"
+        "portrait": "./esoteria-hq-32-moriden.webp"
       }
     ]
   },
@@ -4114,7 +4114,7 @@
         "factionEn": "Esoteria Order",
         "lord": true,
         "sortOrder": 3,
-        "portrait": "./esoteria-order-03-nastya.webp"
+        "portrait": "./esoteria-hq-03-nastya.webp"
       }
     ]
   },
@@ -4144,7 +4144,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 34,
-        "portrait": "./esoteria-order-34-nauvras.webp"
+        "portrait": "./esoteria-hq-34-nauvras.webp"
       }
     ]
   },
@@ -4165,7 +4165,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 35,
-        "portrait": "./esoteria-order-35-nazeem.webp"
+        "portrait": "./esoteria-hq-35-nazeem.webp"
       }
     ]
   },
@@ -4195,7 +4195,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 27,
-        "portrait": "./esoteria-order-27-ne-zha.webp"
+        "portrait": "./esoteria-hq-27-ne-zha.webp"
       }
     ]
   },
@@ -4216,7 +4216,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 25,
-        "portrait": "./esoteria-order-25-nerissa.webp"
+        "portrait": "./esoteria-hq-25-nerissa.webp"
       }
     ]
   },
@@ -4267,7 +4267,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 42,
-        "portrait": "./esoteria-order-42-nisalt.webp"
+        "portrait": "./esoteria-hq-42-nisalt.webp"
       }
     ]
   },
@@ -4348,7 +4348,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 17,
-        "portrait": "./esoteria-order-17-numera.webp"
+        "portrait": "./esoteria-hq-17-numera.webp"
       }
     ]
   },
@@ -4578,7 +4578,7 @@
         "factionEn": "Esoteria Order",
         "lord": true,
         "sortOrder": 4,
-        "portrait": "./esoteria-order-04-raiden.webp"
+        "portrait": "./esoteria-hq-04-raiden.webp"
       }
     ]
   },
@@ -4902,7 +4902,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 7,
-        "portrait": "./esoteria-order-07-selene.webp"
+        "portrait": "./esoteria-hq-07-selene.webp"
       }
     ]
   },
@@ -4923,7 +4923,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 41,
-        "portrait": "./esoteria-order-41-selkath.webp"
+        "portrait": "./esoteria-hq-41-selkath.webp"
       }
     ]
   },
@@ -4944,7 +4944,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 18,
-        "portrait": "./esoteria-order-18-serephina.webp"
+        "portrait": "./esoteria-hq-18-serephina.webp"
       }
     ]
   },
@@ -5314,7 +5314,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 19,
-        "portrait": "./esoteria-order-19-thallen.webp"
+        "portrait": "./esoteria-hq-19-thallen.webp"
       },
       {
         "faction": "supreme-arbiters",
@@ -5427,7 +5427,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 8,
-        "portrait": "./esoteria-order-08-trusk.webp"
+        "portrait": "./esoteria-hq-08-trusk.webp"
       }
     ]
   },
@@ -5521,7 +5521,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 16,
-        "portrait": "./esoteria-order-16-valara.webp"
+        "portrait": "./esoteria-hq-16-valara.webp"
       },
       {
         "faction": "supreme-arbiters",
@@ -5662,7 +5662,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 28,
-        "portrait": "./esoteria-order-28-varro-draccus.webp"
+        "portrait": "./esoteria-hq-28-varro-draccus.webp"
       },
       {
         "faction": "chaos-dominion",
@@ -5712,7 +5712,7 @@
         "factionEn": "Esoteria Order",
         "lord": true,
         "sortOrder": 2,
-        "portrait": "./esoteria-order-02-venoma.webp"
+        "portrait": "./esoteria-hq-02-venoma.webp"
       }
     ]
   },
@@ -5796,7 +5796,7 @@
         "factionEn": "Esoteria Order",
         "lord": true,
         "sortOrder": 5,
-        "portrait": "./esoteria-order-05-vixera.webp"
+        "portrait": "./esoteria-hq-05-vixera.webp"
       }
     ]
   },
@@ -5919,7 +5919,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 21,
-        "portrait": "./esoteria-order-21-vorn.webp"
+        "portrait": "./esoteria-hq-21-vorn.webp"
       }
     ]
   },
@@ -6024,7 +6024,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 46,
-        "portrait": "./esoteria-order-46-xasny.webp"
+        "portrait": "./esoteria-hq-46-xasny.webp"
       }
     ]
   },
