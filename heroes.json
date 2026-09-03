@@ -324,7 +324,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 13,
-        "portrait": "./infernal-blast-13-anai.webp"
+        "portrait": "./infernal-blast-hq-13-anai.webp"
       }
     ]
   },
@@ -612,7 +612,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 33,
-        "portrait": "./infernal-blast-33-autumn.webp"
+        "portrait": "./infernal-blast-hq-33-autumn.webp"
       }
     ]
   },
@@ -663,7 +663,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 9,
-        "portrait": "./infernal-blast-09-aylin.webp"
+        "portrait": "./infernal-blast-hq-09-aylin.webp"
       }
     ]
   },
@@ -705,7 +705,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 31,
-        "portrait": "./infernal-blast-31-azzoth.webp"
+        "portrait": "./infernal-blast-hq-31-azzoth.webp"
       }
     ]
   },
@@ -939,7 +939,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 28,
-        "portrait": "./infernal-blast-28-brunor.webp"
+        "portrait": "./infernal-blast-hq-28-brunor.webp"
       }
     ]
   },
@@ -969,7 +969,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 23,
-        "portrait": "./infernal-blast-23-cainan.webp"
+        "portrait": "./infernal-blast-hq-23-cainan.webp"
       }
     ]
   },
@@ -1596,7 +1596,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 7,
-        "portrait": "./infernal-blast-07-diaochan.webp"
+        "portrait": "./infernal-blast-hq-07-diaochan.webp"
       }
     ]
   },
@@ -1617,7 +1617,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 26,
-        "portrait": "./infernal-blast-26-dolores.webp"
+        "portrait": "./infernal-blast-hq-26-dolores.webp"
       }
     ]
   },
@@ -2236,7 +2236,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 10,
-        "portrait": "./infernal-blast-10-ferssi.webp"
+        "portrait": "./infernal-blast-hq-10-ferssi.webp"
       }
     ]
   },
@@ -2444,7 +2444,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 20,
-        "portrait": "./infernal-blast-20-gretchen.webp"
+        "portrait": "./infernal-blast-hq-20-gretchen.webp"
       },
       {
         "faction": "chaos-dominion",
@@ -2474,7 +2474,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 24,
-        "portrait": "./infernal-blast-24-gu-shi.webp"
+        "portrait": "./infernal-blast-hq-24-gu-shi.webp"
       },
       {
         "faction": "star-piercers",
@@ -2534,7 +2534,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 16,
-        "portrait": "./infernal-blast-16-gul-drak.webp"
+        "portrait": "./infernal-blast-hq-16-gul-drak.webp"
       },
       {
         "faction": "chaos-dominion",
@@ -2648,7 +2648,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 11,
-        "portrait": "./infernal-blast-11-hex.webp"
+        "portrait": "./infernal-blast-hq-11-hex.webp"
       },
       {
         "faction": "star-piercers",
@@ -2728,7 +2728,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 30,
-        "portrait": "./infernal-blast-30-imani.webp"
+        "portrait": "./infernal-blast-hq-30-imani.webp"
       }
     ]
   },
@@ -2872,7 +2872,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 17,
-        "portrait": "./infernal-blast-17-janus-grismore.webp"
+        "portrait": "./infernal-blast-hq-17-janus-grismore.webp"
       }
     ]
   },
@@ -3241,7 +3241,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 22,
-        "portrait": "./infernal-blast-22-knight-arlott.webp"
+        "portrait": "./infernal-blast-hq-22-knight-arlott.webp"
       }
     ]
   },
@@ -3589,7 +3589,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 15,
-        "portrait": "./infernal-blast-15-lord-phineas.webp"
+        "portrait": "./infernal-blast-hq-15-lord-phineas.webp"
       }
     ]
   },
@@ -3776,7 +3776,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 21,
-        "portrait": "./infernal-blast-21-lyra.webp"
+        "portrait": "./infernal-blast-hq-21-lyra.webp"
       },
       {
         "faction": "esoteria-order",
@@ -3848,7 +3848,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 19,
-        "portrait": "./infernal-blast-19-malrik.webp"
+        "portrait": "./infernal-blast-hq-19-malrik.webp"
       },
       {
         "faction": "esoteria-order",
@@ -4013,7 +4013,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 32,
-        "portrait": "./infernal-blast-32-morene.webp"
+        "portrait": "./infernal-blast-hq-32-morene.webp"
       },
       {
         "faction": "star-piercers",
@@ -4093,7 +4093,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 12,
-        "portrait": "./infernal-blast-12-myca.webp"
+        "portrait": "./infernal-blast-hq-12-myca.webp"
       }
     ]
   },
@@ -4318,7 +4318,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 4,
-        "portrait": "./infernal-blast-04-nocturne.webp"
+        "portrait": "./infernal-blast-hq-04-nocturne.webp"
       }
     ]
   },
@@ -4432,7 +4432,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 6,
-        "portrait": "./infernal-blast-06-orim.webp"
+        "portrait": "./infernal-blast-hq-06-orim.webp"
       }
     ]
   },
@@ -4557,7 +4557,7 @@
         "factionEn": "Infernal Blast",
         "lord": true,
         "sortOrder": 3,
-        "portrait": "./infernal-blast-03-pyros.webp"
+        "portrait": "./infernal-blast-hq-03-pyros.webp"
       }
     ]
   },
@@ -4881,7 +4881,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 27,
-        "portrait": "./infernal-blast-27-scorch.webp"
+        "portrait": "./infernal-blast-hq-27-scorch.webp"
       }
     ]
   },
@@ -4995,7 +4995,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 8,
-        "portrait": "./infernal-blast-08-setram.webp"
+        "portrait": "./infernal-blast-hq-08-setram.webp"
       }
     ]
   },
@@ -5079,7 +5079,7 @@
         "factionEn": "Infernal Blast",
         "lord": true,
         "sortOrder": 1,
-        "portrait": "./infernal-blast-01-solcadens.webp"
+        "portrait": "./infernal-blast-hq-01-solcadens.webp"
       }
     ]
   },
@@ -5109,7 +5109,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 25,
-        "portrait": "./infernal-blast-25-soleil.webp"
+        "portrait": "./infernal-blast-hq-25-soleil.webp"
       }
     ]
   },
@@ -5385,7 +5385,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 29,
-        "portrait": "./infernal-blast-29-titus.webp"
+        "portrait": "./infernal-blast-hq-29-titus.webp"
       }
     ]
   },
@@ -5448,7 +5448,7 @@
         "factionEn": "Infernal Blast",
         "lord": true,
         "sortOrder": 2,
-        "portrait": "./infernal-blast-02-twinfiend.webp"
+        "portrait": "./infernal-blast-hq-02-twinfiend.webp"
       }
     ]
   },
@@ -5775,7 +5775,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 18,
-        "portrait": "./infernal-blast-18-violetta-vane.webp"
+        "portrait": "./infernal-blast-hq-18-violetta-vane.webp"
       }
     ]
   },
@@ -6045,7 +6045,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 14,
-        "portrait": "./infernal-blast-14-xena.webp"
+        "portrait": "./infernal-blast-hq-14-xena.webp"
       }
     ]
   },
@@ -6138,7 +6138,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 5,
-        "portrait": "./infernal-blast-05-zilitu.webp"
+        "portrait": "./infernal-blast-hq-05-zilitu.webp"
       }
     ]
   }
