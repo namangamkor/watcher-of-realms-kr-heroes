@@ -10,8 +10,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="나만겜 영웅도감" />
   <link rel="apple-touch-icon" href="./icon-192.png" />
-  <link rel="manifest" href="./manifest.webmanifest?v=2.6.4" />
-  <link rel="stylesheet" href="./styles.css?v=2.6.4" />
+  <link rel="manifest" href="./manifest.webmanifest?v=2.6.5" />
+  <link rel="stylesheet" href="./styles.css?v=2.6.5" />
 </head>
 <body>
   <header class="topbar">
@@ -101,12 +101,12 @@
           aria-expanded="false"
           aria-controls="factionSelectMenu"
         >
-          <span id="factionSelectEmblem" class="faction-select-emblem">✦</span>
+          <span id="factionSelectEmblem" class="faction-select-emblem">◎</span>
           <span class="faction-select-current">
-            <strong id="factionSelectKr">파수꾼 소대</strong>
-            <small id="factionSelectEn">Watch Guard</small>
+            <strong id="factionSelectKr">전체 영웅</strong>
+            <small id="factionSelectEn">All Heroes</small>
           </span>
-          <span id="factionSelectCount" class="faction-select-count">40 / 40 등록</span>
+          <span id="factionSelectCount" class="faction-select-count">253명 등록</span>
           <span class="faction-select-chevron" aria-hidden="true">⌄</span>
         </button>
 
@@ -117,7 +117,14 @@
           aria-label="진영 선택"
           hidden
         >
-          <button class="faction-option selected" type="button" role="option" aria-selected="true"
+          <button class="faction-option faction-option-all selected" type="button" role="option" aria-selected="true"
+            data-faction="all" data-emblem="◎">
+            <span class="faction-option-emblem">◎</span>
+            <span class="faction-option-copy"><strong>전체 영웅</strong><small>All Heroes</small></span>
+            <span id="allHeroesOptionCount" class="faction-option-count">253명</span><span class="faction-option-check">✓</span>
+          </button>
+
+          <button class="faction-option" type="button" role="option" aria-selected="false"
             data-faction="watch-guard" data-emblem="✦">
             <span class="faction-option-emblem">✦</span>
             <span class="faction-option-copy"><strong>파수꾼 소대</strong><small>Watch Guard</small></span>
@@ -188,18 +195,18 @@
           </button>
         </div>
 
-        <p class="faction-select-hint">진영을 선택하면 해당 영웅 도감으로 바로 이동합니다.</p>
+        <p class="faction-select-hint">전체 영웅 또는 진영을 선택해 도감을 탐색할 수 있습니다.</p>
       </div>
     </section>
 
     <section class="wrap roster">
       <div class="roster-head">
         <div>
-          <p id="rosterKicker" class="section-kicker">WATCH GUARD</p>
-          <h2 id="rosterTitle">파수꾼 소대</h2>
-          <p id="resultSummary">파수꾼 소대 영웅 40명 등록 완료</p>
+          <p id="rosterKicker" class="section-kicker">ALL HEROES</p>
+          <h2 id="rosterTitle">전체 영웅</h2>
+          <p id="resultSummary">고유 영웅 253명 등록 완료</p>
         </div>
-        <div class="count-badge"><strong id="visibleCount">40</strong><span>/ <span id="totalCount">40</span></span></div>
+        <div class="count-badge"><strong id="visibleCount">253</strong><span>/ <span id="totalCount">253</span></span></div>
       </div>
 
       <div class="filters">
@@ -268,6 +275,6 @@
     </div>
   </div>
 
-  <script src="./app.js?v=2.6.4"></script>
+  <script src="./app.js?v=2.6.5"></script>
 </body>
 </html>

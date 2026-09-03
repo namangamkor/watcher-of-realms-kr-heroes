@@ -18,10 +18,15 @@ const factionSelectEmblem = document.querySelector("#factionSelectEmblem");
 const factionOptions = document.querySelectorAll(".faction-option[data-faction]");
 
 let heroes = [];
-let currentFaction = "watch-guard";
+let currentFaction = "all";
 const active = { rarity: "all", class: "all" };
 
 const factionMeta = {
+  "all": {
+    kr: "전체 영웅",
+    en: "All Heroes",
+    total: 0
+  },
   "watch-guard": {
     kr: "파수꾼 소대",
     en: "Watch Guard",
@@ -160,17 +165,24 @@ function updateFactionSelectState(searchMode = false) {
   const selectedOption = Array.from(factionOptions).find(
     (option) => option.dataset.faction === currentFaction
   );
+  const resolvedTotal =
+    currentFaction === "all" ? heroes.length : meta.total;
 
   if (factionSelectKr) factionSelectKr.textContent = meta.kr;
   if (factionSelectEn) factionSelectEn.textContent = meta.en;
   if (factionSelectCount) {
     factionSelectCount.textContent = searchMode
       ? "전 진영 검색 중"
-      : `${meta.total} / ${meta.total} 등록`;
+      : currentFaction === "all"
+        ? `${resolvedTotal}명 등록`
+        : `${resolvedTotal} / ${resolvedTotal} 등록`;
   }
   if (factionSelectEmblem && selectedOption) {
-    factionSelectEmblem.textContent = selectedOption.dataset.emblem || "✦";
+    factionSelectEmblem.textContent = selectedOption.dataset.emblem || "◎";
   }
+
+  const allCount = document.querySelector("#allHeroesOptionCount");
+  if (allCount) allCount.textContent = `${heroes.length}명`;
 
   factionOptions.forEach((option) => {
     const isSelected = option.dataset.faction === currentFaction;
@@ -211,6 +223,26 @@ function updateFactionHeader(meta) {
   if (dataNote) {
     dataNote.textContent =
       `${meta.kr} ${meta.total}명 등록 완료 · 이중 진영 영웅도 각 진영에서 정상 표시됩니다.`;
+  }
+}
+
+function updateAllHeroesHeader(resultCount) {
+  if (rosterKicker) rosterKicker.textContent = "ALL HEROES";
+  if (rosterTitle) rosterTitle.textContent = "전체 영웅";
+  if (totalCount) totalCount.textContent = heroes.length;
+
+  if (resultSummary) {
+    if (active.rarity !== "all" || active.class !== "all") {
+      resultSummary.textContent =
+        `조건에 맞는 영웅 ${resultCount}명 · 고유 영웅 ${heroes.length}명`;
+    } else {
+      resultSummary.textContent = `고유 영웅 ${heroes.length}명 등록 완료`;
+    }
+  }
+
+  if (dataNote) {
+    dataNote.textContent =
+      "전체 영웅 모드 · 이중 진영 영웅은 한 번만 표시되고 모든 소속 진영을 함께 보여줍니다.";
   }
 }
 
@@ -256,6 +288,25 @@ function render() {
     return;
   }
 
+  if (currentFaction === "all") {
+    const filtered = heroes
+      .filter((hero) =>
+        (active.rarity === "all" || hero.rarity === active.rarity) &&
+        (active.class === "all" || hero.class === active.class)
+      )
+      .sort((a, b) => a.nameKr.localeCompare(b.nameKr, "ko"));
+
+    updateAllHeroesHeader(filtered.length);
+
+    heroGrid.innerHTML = filtered
+      .map((hero) => card(hero, getPrimaryMembership(hero), true))
+      .join("");
+
+    emptyState.hidden = filtered.length !== 0;
+    visibleCount.textContent = filtered.length;
+    return;
+  }
+
   const meta = factionMeta[currentFaction];
 
   const filtered = heroes
@@ -287,13 +338,14 @@ function render() {
   }
 }
 
-fetch("./heroes.json?v=2.6.4")
+fetch("./heroes.json?v=2.6.5")
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
   })
   .then((data) => {
     heroes = data;
+    factionMeta.all.total = heroes.length;
     render();
   })
   .catch((error) => {

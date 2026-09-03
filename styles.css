@@ -1230,3 +1230,36 @@ body.modal-open {
     max-height: 62vh;
   }
 }
+
+
+/* v2.6.5 — All Heroes option */
+.faction-option-all {
+  margin-bottom: 7px !important;
+  border-bottom-color: rgba(229,189,105,.18);
+}
+
+.faction-option-all::after {
+  content: "";
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: -5px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(229,189,105,.28),
+    transparent
+  );
+}
+
+.faction-option-all .faction-option-emblem,
+.faction-select-button:not(.search-mode) .faction-select-emblem {
+  font-weight: 900;
+}
+
+.faction-option-all.selected {
+  background:
+    radial-gradient(circle at 12% 50%, rgba(240,202,114,.16), transparent 30%),
+    linear-gradient(90deg, rgba(229,189,105,.13), rgba(229,189,105,.025) 62%, transparent);
+}
