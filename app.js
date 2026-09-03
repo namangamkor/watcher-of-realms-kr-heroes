@@ -39,6 +39,16 @@ const factionMeta = {
     kr: "연옥 폭파",
     en: "Infernal Blast",
     total: 33
+  },
+  "star-piercers": {
+    kr: "관성의 화살",
+    en: "Star Piercers",
+    total: 44
+  },
+  "esoteria-order": {
+    kr: "비법회",
+    en: "Esoteria Order",
+    total: 48
   }
 };
 
@@ -61,6 +71,7 @@ function rarityClass(rarity) {
   if (rarity === "전설") return "legendary";
   if (rarity === "에픽") return "epic";
   if (rarity === "레어") return "rare";
+  if (rarity === "일반") return "common";
   return "unknown";
 }
 
@@ -215,7 +226,7 @@ function render() {
   }
 }
 
-fetch("./heroes.json?v=1.9.1")
+fetch("./heroes.json?v=2.1")
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();

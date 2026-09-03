@@ -214,7 +214,8 @@
     "class": "궁수",
     "rarity": "전설",
     "factions": [
-      "watch-guard"
+      "watch-guard",
+      "star-piercers"
     ],
     "memberships": [
       {
@@ -224,6 +225,14 @@
         "lord": false,
         "sortOrder": 10,
         "portrait": "./alaura.webp"
+      },
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 16,
+        "portrait": "./star-piercers-16-alaura.webp"
       }
     ]
   },
@@ -328,7 +337,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "watch-guard"
+      "watch-guard",
+      "esoteria-order"
     ],
     "memberships": [
       {
@@ -338,6 +348,14 @@
         "lord": false,
         "sortOrder": 15,
         "portrait": "./aeris.webp"
+      },
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 23,
+        "portrait": "./esoteria-order-23-aeris.webp"
       }
     ]
   },
@@ -370,7 +388,8 @@
     "class": "궁수",
     "rarity": "전설",
     "factions": [
-      "watch-guard"
+      "watch-guard",
+      "star-piercers"
     ],
     "memberships": [
       {
@@ -380,6 +399,14 @@
         "lord": false,
         "sortOrder": 17,
         "portrait": "./talin.webp"
+      },
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 20,
+        "portrait": "./star-piercers-20-talin.webp"
       }
     ]
   },
@@ -442,7 +469,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "watch-guard"
+      "watch-guard",
+      "esoteria-order"
     ],
     "memberships": [
       {
@@ -452,6 +480,14 @@
         "lord": false,
         "sortOrder": 20,
         "portrait": "./ne-zha.webp"
+      },
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 27,
+        "portrait": "./esoteria-order-27-ne-zha.webp"
       }
     ]
   },
@@ -646,7 +682,8 @@
     "class": "궁수",
     "rarity": "에픽",
     "factions": [
-      "watch-guard"
+      "watch-guard",
+      "star-piercers"
     ],
     "memberships": [
       {
@@ -656,6 +693,14 @@
         "lord": false,
         "sortOrder": 28,
         "portrait": "./brienne.webp"
+      },
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 32,
+        "portrait": "./star-piercers-32-brienne.webp"
       }
     ]
   },
@@ -757,7 +802,8 @@
     "class": "수호자",
     "rarity": "에픽",
     "factions": [
-      "watch-guard"
+      "watch-guard",
+      "star-piercers"
     ],
     "memberships": [
       {
@@ -767,6 +813,14 @@
         "lord": false,
         "sortOrder": 32,
         "portrait": "./livian.webp"
+      },
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 33,
+        "portrait": "./star-piercers-33-livian.webp"
       }
     ]
   },
@@ -850,7 +904,8 @@
     "class": "궁수",
     "rarity": "에픽",
     "factions": [
-      "watch-guard"
+      "watch-guard",
+      "star-piercers"
     ],
     "memberships": [
       {
@@ -860,6 +915,14 @@
         "lord": false,
         "sortOrder": 36,
         "portrait": "./idril.webp"
+      },
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 35,
+        "portrait": "./star-piercers-35-idril.webp"
       }
     ]
   },
@@ -1255,7 +1318,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "north-throne"
+      "north-throne",
+      "esoteria-order"
     ],
     "memberships": [
       {
@@ -1265,6 +1329,14 @@
         "lord": false,
         "sortOrder": 14,
         "portrait": "./north-throne-14-falcia.webp"
+      },
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 13,
+        "portrait": "./esoteria-order-13-falcia.webp"
       }
     ]
   },
@@ -1297,7 +1369,8 @@
     "class": "마법사",
     "rarity": "전설",
     "factions": [
-      "north-throne"
+      "north-throne",
+      "esoteria-order"
     ],
     "memberships": [
       {
@@ -1307,6 +1380,14 @@
         "lord": false,
         "sortOrder": 17,
         "portrait": "./north-throne-17-boreas.webp"
+      },
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 14,
+        "portrait": "./esoteria-order-14-boreas.webp"
       }
     ]
   },
@@ -1428,11 +1509,14 @@
     "id": "akirastar",
     "nameKr": "아키라",
     "nameEn": "AkiraStar",
-    "aliases": [],
+    "aliases": [
+      "Akira"
+    ],
     "class": "궁수",
     "rarity": "전설",
     "factions": [
-      "north-throne"
+      "north-throne",
+      "star-piercers"
     ],
     "memberships": [
       {
@@ -1442,6 +1526,14 @@
         "lord": false,
         "sortOrder": 23,
         "portrait": "./north-throne-23-akirastar.webp"
+      },
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 18,
+        "portrait": "./star-piercers-18-akirastar.webp"
       }
     ]
   },
@@ -1630,7 +1722,8 @@
     "class": "마법사",
     "rarity": "전설",
     "factions": [
-      "north-throne"
+      "north-throne",
+      "star-piercers"
     ],
     "memberships": [
       {
@@ -1640,6 +1733,14 @@
         "lord": false,
         "sortOrder": 34,
         "portrait": "./north-throne-34-lady-mina.webp"
+      },
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 27,
+        "portrait": "./star-piercers-27-lady-mina.webp"
       }
     ]
   },
@@ -1870,7 +1971,8 @@
     "class": "마법사",
     "rarity": "에픽",
     "factions": [
-      "north-throne"
+      "north-throne",
+      "esoteria-order"
     ],
     "memberships": [
       {
@@ -1880,6 +1982,14 @@
         "lord": false,
         "sortOrder": 48,
         "portrait": "./north-throne-48-ai.webp"
+      },
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 44,
+        "portrait": "./esoteria-order-44-ai.webp"
       }
     ]
   },
@@ -2311,7 +2421,8 @@
     "class": "궁수",
     "rarity": "전설",
     "factions": [
-      "nightmare-council"
+      "nightmare-council",
+      "star-piercers"
     ],
     "memberships": [
       {
@@ -2321,6 +2432,14 @@
         "lord": false,
         "sortOrder": 21,
         "portrait": "./nightmare-council-21-yuri.webp"
+      },
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 19,
+        "portrait": "./star-piercers-19-yuri.webp"
       }
     ]
   },
@@ -2395,7 +2514,8 @@
     "class": "전술마스터",
     "rarity": "전설",
     "factions": [
-      "nightmare-council"
+      "nightmare-council",
+      "esoteria-order"
     ],
     "memberships": [
       {
@@ -2405,6 +2525,14 @@
         "lord": false,
         "sortOrder": 27,
         "portrait": "./nightmare-council-27-moriden.webp"
+      },
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 32,
+        "portrait": "./esoteria-order-32-moriden.webp"
       }
     ]
   },
@@ -2416,7 +2544,8 @@
     "class": "궁수",
     "rarity": "전설",
     "factions": [
-      "nightmare-council"
+      "nightmare-council",
+      "star-piercers"
     ],
     "memberships": [
       {
@@ -2426,6 +2555,14 @@
         "lord": false,
         "sortOrder": 28,
         "portrait": "./nightmare-council-28-dr-van-helsing.webp"
+      },
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 26,
+        "portrait": "./star-piercers-26-dr-van-helsing.webp"
       }
     ]
   },
@@ -2437,7 +2574,8 @@
     "class": "궁수",
     "rarity": "전설",
     "factions": [
-      "nightmare-council"
+      "nightmare-council",
+      "star-piercers"
     ],
     "memberships": [
       {
@@ -2447,6 +2585,14 @@
         "lord": false,
         "sortOrder": 29,
         "portrait": "./nightmare-council-29-bayek.webp"
+      },
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 28,
+        "portrait": "./star-piercers-28-bayek.webp"
       }
     ]
   },
@@ -2521,7 +2667,8 @@
     "class": "마법사",
     "rarity": "에픽",
     "factions": [
-      "nightmare-council"
+      "nightmare-council",
+      "esoteria-order"
     ],
     "memberships": [
       {
@@ -2531,6 +2678,14 @@
         "lord": false,
         "sortOrder": 33,
         "portrait": "./nightmare-council-33-nauvras.webp"
+      },
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 34,
+        "portrait": "./esoteria-order-34-nauvras.webp"
       }
     ]
   },
@@ -3034,7 +3189,8 @@
     "class": "마법사",
     "rarity": "전설",
     "factions": [
-      "cursed-cult"
+      "cursed-cult",
+      "esoteria-order"
     ],
     "memberships": [
       {
@@ -3044,6 +3200,14 @@
         "lord": false,
         "sortOrder": 20,
         "portrait": "./cursed-cult-20-beatrix.webp"
+      },
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 20,
+        "portrait": "./esoteria-order-20-beatrix.webp"
       }
     ]
   },
@@ -3097,7 +3261,8 @@
     "class": "마법사",
     "rarity": "전설",
     "factions": [
-      "cursed-cult"
+      "cursed-cult",
+      "esoteria-order"
     ],
     "memberships": [
       {
@@ -3107,6 +3272,14 @@
         "lord": false,
         "sortOrder": 23,
         "portrait": "./cursed-cult-23-dahlia.webp"
+      },
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 22,
+        "portrait": "./esoteria-order-22-dahlia.webp"
       }
     ]
   },
@@ -3118,7 +3291,8 @@
     "class": "마법사",
     "rarity": "전설",
     "factions": [
-      "cursed-cult"
+      "cursed-cult",
+      "esoteria-order"
     ],
     "memberships": [
       {
@@ -3128,6 +3302,14 @@
         "lord": false,
         "sortOrder": 24,
         "portrait": "./cursed-cult-24-anora.webp"
+      },
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 24,
+        "portrait": "./esoteria-order-24-anora.webp"
       }
     ]
   },
@@ -3589,7 +3771,8 @@
     "class": "궁수",
     "rarity": "전설",
     "factions": [
-      "infernal-blast"
+      "infernal-blast",
+      "star-piercers"
     ],
     "memberships": [
       {
@@ -3599,6 +3782,14 @@
         "lord": false,
         "sortOrder": 11,
         "portrait": "./infernal-blast-11-hex.webp"
+      },
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 10,
+        "portrait": "./star-piercers-10-hex.webp"
       }
     ]
   },
@@ -3757,7 +3948,8 @@
     "class": "마법사",
     "rarity": "전설",
     "factions": [
-      "infernal-blast"
+      "infernal-blast",
+      "esoteria-order"
     ],
     "memberships": [
       {
@@ -3767,6 +3959,14 @@
         "lord": false,
         "sortOrder": 19,
         "portrait": "./infernal-blast-19-malrik.webp"
+      },
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 29,
+        "portrait": "./esoteria-order-29-malrik.webp"
       }
     ]
   },
@@ -3799,7 +3999,8 @@
     "class": "마법사",
     "rarity": "전설",
     "factions": [
-      "infernal-blast"
+      "infernal-blast",
+      "esoteria-order"
     ],
     "memberships": [
       {
@@ -3809,6 +4010,14 @@
         "lord": false,
         "sortOrder": 21,
         "portrait": "./infernal-blast-21-lyra.webp"
+      },
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 30,
+        "portrait": "./esoteria-order-30-lyra.webp"
       }
     ]
   },
@@ -3820,7 +4029,8 @@
     "class": "궁수",
     "rarity": "전설",
     "factions": [
-      "infernal-blast"
+      "infernal-blast",
+      "star-piercers"
     ],
     "memberships": [
       {
@@ -3830,6 +4040,14 @@
         "lord": false,
         "sortOrder": 24,
         "portrait": "./infernal-blast-24-gu-shi.webp"
+      },
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 31,
+        "portrait": "./star-piercers-31-gu-shi.webp"
       }
     ]
   },
@@ -3946,7 +4164,8 @@
     "class": "궁수",
     "rarity": "레어",
     "factions": [
-      "infernal-blast"
+      "infernal-blast",
+      "star-piercers"
     ],
     "memberships": [
       {
@@ -3956,6 +4175,14 @@
         "lord": false,
         "sortOrder": 32,
         "portrait": "./infernal-blast-32-morene.webp"
+      },
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 41,
+        "portrait": "./star-piercers-41-morene.webp"
       }
     ]
   },
@@ -3977,6 +4204,1377 @@
         "lord": false,
         "sortOrder": 33,
         "portrait": "./infernal-blast-33-autumn.webp"
+      }
+    ]
+  },
+  {
+    "id": "aracha",
+    "nameKr": "아라샤",
+    "nameEn": "Aracha",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": true,
+        "sortOrder": 1,
+        "portrait": "./star-piercers-01-aracha.webp"
+      }
+    ]
+  },
+  {
+    "id": "iovar",
+    "nameKr": "이보엘",
+    "nameEn": "Iovar",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": true,
+        "sortOrder": 2,
+        "portrait": "./star-piercers-02-iovar.webp"
+      }
+    ]
+  },
+  {
+    "id": "eliza",
+    "nameKr": "일라샤",
+    "nameEn": "Eliza",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "에픽",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": true,
+        "sortOrder": 3,
+        "portrait": "./star-piercers-03-eliza.webp"
+      }
+    ]
+  },
+  {
+    "id": "luneria",
+    "nameKr": "루나레아",
+    "nameEn": "Luneria",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "에픽",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": true,
+        "sortOrder": 4,
+        "portrait": "./star-piercers-04-luneria.webp"
+      }
+    ]
+  },
+  {
+    "id": "calypso",
+    "nameKr": "칼립소",
+    "nameEn": "Calypso",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 5,
+        "portrait": "./star-piercers-05-calypso.webp"
+      }
+    ]
+  },
+  {
+    "id": "nyx",
+    "nameKr": "닉스",
+    "nameEn": "Nyx",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 6,
+        "portrait": "./star-piercers-06-nyx.webp"
+      }
+    ]
+  },
+  {
+    "id": "apsan",
+    "nameKr": "에프사",
+    "nameEn": "Apsan",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 7,
+        "portrait": "./star-piercers-07-apsan.webp"
+      }
+    ]
+  },
+  {
+    "id": "silas",
+    "nameKr": "세라스",
+    "nameEn": "Silas",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 8,
+        "portrait": "./star-piercers-08-silas.webp"
+      }
+    ]
+  },
+  {
+    "id": "sargak",
+    "nameKr": "사가스",
+    "nameEn": "Sargak",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 9,
+        "portrait": "./star-piercers-09-sargak.webp"
+      }
+    ]
+  },
+  {
+    "id": "kai",
+    "nameKr": "켄",
+    "nameEn": "Kai",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 11,
+        "portrait": "./star-piercers-11-kai.webp"
+      }
+    ]
+  },
+  {
+    "id": "pelagios",
+    "nameKr": "펠라기우스",
+    "nameEn": "Pelagios",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 12,
+        "portrait": "./star-piercers-12-pelagios.webp"
+      }
+    ]
+  },
+  {
+    "id": "numera",
+    "nameKr": "누메라",
+    "nameEn": "Numera",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "star-piercers",
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 13,
+        "portrait": "./star-piercers-13-numera.webp"
+      },
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 17,
+        "portrait": "./esoteria-order-17-numera.webp"
+      }
+    ]
+  },
+  {
+    "id": "lady-alexandra",
+    "nameKr": "알렉산드라부인",
+    "nameEn": "Lady Alexandra",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 14,
+        "portrait": "./star-piercers-14-lady-alexandra.webp"
+      }
+    ]
+  },
+  {
+    "id": "razaak",
+    "nameKr": "레자겔",
+    "nameEn": "Razaak",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 15,
+        "portrait": "./star-piercers-15-razaak.webp"
+      }
+    ]
+  },
+  {
+    "id": "vorn",
+    "nameKr": "페르네",
+    "nameEn": "Vorn",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "star-piercers",
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 17,
+        "portrait": "./star-piercers-17-vorn.webp"
+      },
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 21,
+        "portrait": "./esoteria-order-21-vorn.webp"
+      }
+    ]
+  },
+  {
+    "id": "erlang-shen",
+    "nameKr": "이랑신",
+    "nameEn": "Erlang Shen",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "전설",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 21,
+        "portrait": "./star-piercers-21-erlang-shen.webp"
+      }
+    ]
+  },
+  {
+    "id": "talula",
+    "nameKr": "타롤라",
+    "nameEn": "Talula",
+    "aliases": [],
+    "class": "힐러",
+    "rarity": "전설",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 22,
+        "portrait": "./star-piercers-22-talula.webp"
+      }
+    ]
+  },
+  {
+    "id": "ruen-hollow",
+    "nameKr": "루은호로",
+    "nameEn": "Ruen Hollow",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 23,
+        "portrait": "./star-piercers-23-ruen-hollow.webp"
+      }
+    ]
+  },
+  {
+    "id": "sythra",
+    "nameKr": "시슬라",
+    "nameEn": "Sythra",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 24,
+        "portrait": "./star-piercers-24-sythra.webp"
+      }
+    ]
+  },
+  {
+    "id": "count-dracula",
+    "nameKr": "드라큘라",
+    "nameEn": "Count Dracula",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 25,
+        "portrait": "./star-piercers-25-count-dracula.webp"
+      }
+    ]
+  },
+  {
+    "id": "corven",
+    "nameKr": "코원",
+    "nameEn": "Corven",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 29,
+        "portrait": "./star-piercers-29-corven.webp"
+      }
+    ]
+  },
+  {
+    "id": "vera",
+    "nameKr": "베라",
+    "nameEn": "Vera",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 30,
+        "portrait": "./star-piercers-30-vera.webp"
+      }
+    ]
+  },
+  {
+    "id": "theowin",
+    "nameKr": "디오웬",
+    "nameEn": "Theowin",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "에픽",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 34,
+        "portrait": "./star-piercers-34-theowin.webp"
+      }
+    ]
+  },
+  {
+    "id": "tazira",
+    "nameKr": "타즈라",
+    "nameEn": "Tazira",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "에픽",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 36,
+        "portrait": "./star-piercers-36-tazira.webp"
+      }
+    ]
+  },
+  {
+    "id": "lili",
+    "nameKr": "릴리",
+    "nameEn": "Lili",
+    "aliases": [],
+    "class": "힐러",
+    "rarity": "에픽",
+    "factions": [
+      "star-piercers",
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 37,
+        "portrait": "./star-piercers-37-lili.webp"
+      },
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 39,
+        "portrait": "./esoteria-order-39-lili.webp"
+      }
+    ]
+  },
+  {
+    "id": "nissandei",
+    "nameKr": "니상드",
+    "nameEn": "Nissandei",
+    "aliases": [],
+    "class": "힐러",
+    "rarity": "에픽",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 38,
+        "portrait": "./star-piercers-38-nissandei.webp"
+      }
+    ]
+  },
+  {
+    "id": "esme",
+    "nameKr": "에스미",
+    "nameEn": "Esme",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "에픽",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 39,
+        "portrait": "./star-piercers-39-esme.webp"
+      }
+    ]
+  },
+  {
+    "id": "vargus",
+    "nameKr": "바르가스",
+    "nameEn": "Vargus",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "에픽",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 40,
+        "portrait": "./star-piercers-40-vargus.webp"
+      }
+    ]
+  },
+  {
+    "id": "drogo",
+    "nameKr": "드로고",
+    "nameEn": "Drogo",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "레어",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 42,
+        "portrait": "./star-piercers-42-drogo.webp"
+      }
+    ]
+  },
+  {
+    "id": "cutter",
+    "nameKr": "커터",
+    "nameEn": "cutter",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "일반",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 43,
+        "portrait": "./star-piercers-43-cutter.webp"
+      }
+    ]
+  },
+  {
+    "id": "liam",
+    "nameKr": "리암",
+    "nameEn": "Liam",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "일반",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 44,
+        "portrait": "./star-piercers-44-liam.webp"
+      }
+    ]
+  },
+  {
+    "id": "cyrus",
+    "nameKr": "키로스",
+    "nameEn": "Cyrus",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "전설",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": true,
+        "sortOrder": 1,
+        "portrait": "./esoteria-order-01-cyrus.webp"
+      }
+    ]
+  },
+  {
+    "id": "venoma",
+    "nameKr": "베노마",
+    "nameEn": "Venoma",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": true,
+        "sortOrder": 2,
+        "portrait": "./esoteria-order-02-venoma.webp"
+      }
+    ]
+  },
+  {
+    "id": "nastya",
+    "nameKr": "나스티야",
+    "nameEn": "Nastya",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": true,
+        "sortOrder": 3,
+        "portrait": "./esoteria-order-03-nastya.webp"
+      }
+    ]
+  },
+  {
+    "id": "raiden",
+    "nameKr": "레이든",
+    "nameEn": "Raiden",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "에픽",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": true,
+        "sortOrder": 4,
+        "portrait": "./esoteria-order-04-raiden.webp"
+      }
+    ]
+  },
+  {
+    "id": "vixera",
+    "nameKr": "베신라",
+    "nameEn": "Vixera",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "에픽",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": true,
+        "sortOrder": 5,
+        "portrait": "./esoteria-order-05-vixera.webp"
+      }
+    ]
+  },
+  {
+    "id": "elowyn",
+    "nameKr": "엘로윈",
+    "nameEn": "Elowyn",
+    "aliases": [],
+    "class": "힐러",
+    "rarity": "전설",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 6,
+        "portrait": "./esoteria-order-06-elowyn.webp"
+      }
+    ]
+  },
+  {
+    "id": "selene",
+    "nameKr": "셀레네",
+    "nameEn": "Selene",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 7,
+        "portrait": "./esoteria-order-07-selene.webp"
+      }
+    ]
+  },
+  {
+    "id": "trusk",
+    "nameKr": "트룩스",
+    "nameEn": "Trusk",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "전설",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 8,
+        "portrait": "./esoteria-order-08-trusk.webp"
+      }
+    ]
+  },
+  {
+    "id": "dassomi",
+    "nameKr": "다스미",
+    "nameEn": "Dassomi",
+    "aliases": [],
+    "class": "힐러",
+    "rarity": "전설",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 9,
+        "portrait": "./esoteria-order-09-dassomi.webp"
+      }
+    ]
+  },
+  {
+    "id": "khamet",
+    "nameKr": "카메트",
+    "nameEn": "Khamet",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 10,
+        "portrait": "./esoteria-order-10-khamet.webp"
+      }
+    ]
+  },
+  {
+    "id": "ezryn",
+    "nameKr": "에젠",
+    "nameEn": "Ezryn",
+    "aliases": [],
+    "class": "힐러",
+    "rarity": "전설",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 11,
+        "portrait": "./esoteria-order-11-ezryn.webp"
+      }
+    ]
+  },
+  {
+    "id": "kaede",
+    "nameKr": "카에드",
+    "nameEn": "Kaede",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 12,
+        "portrait": "./esoteria-order-12-kaede.webp"
+      }
+    ]
+  },
+  {
+    "id": "helga",
+    "nameKr": "헬가",
+    "nameEn": "Helga",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 15,
+        "portrait": "./esoteria-order-15-helga.webp"
+      }
+    ]
+  },
+  {
+    "id": "valara",
+    "nameKr": "발레리아",
+    "nameEn": "Valara",
+    "aliases": [],
+    "class": "전술마스터",
+    "rarity": "전설",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 16,
+        "portrait": "./esoteria-order-16-valara.webp"
+      }
+    ]
+  },
+  {
+    "id": "serephina",
+    "nameKr": "세레피나",
+    "nameEn": "Serephina",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 18,
+        "portrait": "./esoteria-order-18-serephina.webp"
+      }
+    ]
+  },
+  {
+    "id": "thallen",
+    "nameKr": "탈렌",
+    "nameEn": "Thallen",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 19,
+        "portrait": "./esoteria-order-19-thallen.webp"
+      }
+    ]
+  },
+  {
+    "id": "nerissa",
+    "nameKr": "네리사",
+    "nameEn": "Nerissa",
+    "aliases": [],
+    "class": "힐러",
+    "rarity": "전설",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 25,
+        "portrait": "./esoteria-order-25-nerissa.webp"
+      }
+    ]
+  },
+  {
+    "id": "init",
+    "nameKr": "이니트",
+    "nameEn": "Init",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 26,
+        "portrait": "./esoteria-order-26-init.webp"
+      }
+    ]
+  },
+  {
+    "id": "varro-draccus",
+    "nameKr": "바로드라쿠스",
+    "nameEn": "Varro Draccus",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 28,
+        "portrait": "./esoteria-order-28-varro-draccus.webp"
+      }
+    ]
+  },
+  {
+    "id": "graves-greybeard",
+    "nameKr": "해골그림자회색수염",
+    "nameEn": "Graves Greybeard",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "전설",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 31,
+        "portrait": "./esoteria-order-31-graves-greybeard.webp"
+      }
+    ]
+  },
+  {
+    "id": "clarissa",
+    "nameKr": "클라리사",
+    "nameEn": "Clarissa",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 33,
+        "portrait": "./esoteria-order-33-clarissa.webp"
+      }
+    ]
+  },
+  {
+    "id": "nazeem",
+    "nameKr": "나짐",
+    "nameEn": "Nazeem",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "에픽",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 35,
+        "portrait": "./esoteria-order-35-nazeem.webp"
+      }
+    ]
+  },
+  {
+    "id": "cyclone",
+    "nameKr": "세크론",
+    "nameEn": "Cyclone",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "에픽",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 36,
+        "portrait": "./esoteria-order-36-cyclone.webp"
+      }
+    ]
+  },
+  {
+    "id": "laurel",
+    "nameKr": "라우렐",
+    "nameEn": "Laurel",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "에픽",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 37,
+        "portrait": "./esoteria-order-37-laurel.webp"
+      }
+    ]
+  },
+  {
+    "id": "ardeth",
+    "nameKr": "알더스",
+    "nameEn": "Ardeth",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "에픽",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 38,
+        "portrait": "./esoteria-order-38-ardeth.webp"
+      }
+    ]
+  },
+  {
+    "id": "janqhar",
+    "nameKr": "젠카이어",
+    "nameEn": "Janqhar",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "에픽",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 40,
+        "portrait": "./esoteria-order-40-janqhar.webp"
+      }
+    ]
+  },
+  {
+    "id": "selkath",
+    "nameKr": "셀카스",
+    "nameEn": "Selkath",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "에픽",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 41,
+        "portrait": "./esoteria-order-41-selkath.webp"
+      }
+    ]
+  },
+  {
+    "id": "nisalt",
+    "nameKr": "나사트",
+    "nameEn": "Nisalt",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "에픽",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 42,
+        "portrait": "./esoteria-order-42-nisalt.webp"
+      }
+    ]
+  },
+  {
+    "id": "kalina",
+    "nameKr": "카리넬",
+    "nameEn": "Kalina",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "에픽",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 43,
+        "portrait": "./esoteria-order-43-kalina.webp"
+      }
+    ]
+  },
+  {
+    "id": "faelin",
+    "nameKr": "페이린",
+    "nameEn": "Faelin",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "에픽",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 45,
+        "portrait": "./esoteria-order-45-faelin.webp"
+      }
+    ]
+  },
+  {
+    "id": "xasny",
+    "nameKr": "사스니",
+    "nameEn": "Xasny",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "에픽",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 46,
+        "portrait": "./esoteria-order-46-xasny.webp"
+      }
+    ]
+  },
+  {
+    "id": "filippa",
+    "nameKr": "필리파",
+    "nameEn": "Filippa",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "에픽",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 47,
+        "portrait": "./esoteria-order-47-filippa.webp"
+      }
+    ]
+  },
+  {
+    "id": "gonkba",
+    "nameKr": "군바",
+    "nameEn": "Gonkba",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "레어",
+    "factions": [
+      "esoteria-order"
+    ],
+    "memberships": [
+      {
+        "faction": "esoteria-order",
+        "factionKr": "비법회",
+        "factionEn": "Esoteria Order",
+        "lord": false,
+        "sortOrder": 48,
+        "portrait": "./esoteria-order-48-gonkba.webp"
       }
     ]
   }
