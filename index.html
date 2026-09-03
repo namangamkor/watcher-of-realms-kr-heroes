@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="워처 오브 렐름 한국명과 영문명을 빠르게 매칭하는 영웅도감" />
+  <title>워처 오브 렐름 한영 영웅도감</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">WATCHER OF REALMS · KR HERO INDEX</p>
+      <h1>워처 오브 렐름<br />한영 영웅도감</h1>
+      <p class="subtitle">해외 공략에서 본 영웅을 한국 서버 이름으로 빠르게 찾아보세요.</p>
+
+      <div class="search-wrap">
+        <span class="search-icon">⌕</span>
+        <input
+          id="searchInput"
+          type="search"
+          placeholder="예: Valderon, 발데론, 와엘드론"
+          autocomplete="off"
+        />
+      </div>
+
+      <div class="stats">
+        <span id="heroCount">0명의 영웅</span>
+        <span>·</span>
+        <span>한국명 · 영문명 · 별칭 검색</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section-head">
+      <div>
+        <h2>영웅 목록</h2>
+        <p id="resultText">전체 영웅을 표시하고 있습니다.</p>
+      </div>
+      <button id="clearButton" class="ghost-button" type="button">검색 초기화</button>
+    </section>
+
+    <section id="heroGrid" class="hero-grid" aria-live="polite"></section>
+
+    <section id="emptyState" class="empty-state" hidden>
+      <div class="empty-icon">?</div>
+      <h3>검색 결과가 없습니다.</h3>
+      <p>한국명, 영문명 또는 별칭으로 다시 검색해보세요.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>워처 오브 렐름 한영 영웅도감 · by 나만겜</p>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+[
+  {
+    "id": "valderon",
+    "nameKr": "발데론",
+    "nameEn": "Valderon",
+    "aliases": [
+      "발더론",
+      "와엘드론"
+    ]
+  },
+  {
+    "id": "ezio",
+    "nameKr": "에지오",
+    "nameEn": "Ezio",
+    "aliases": [
+      "에치오"
+    ]
+  },
+  {
+    "id": "kassandra",
+    "nameKr": "카산드라",
+    "nameEn": "Kassandra",
+    "aliases": []
+  },
+  {
+    "id": "eivor",
+    "nameKr": "에이보르",
+    "nameEn": "Eivor",
+    "aliases": []
+  },
+  {
+    "id": "bayek",
+    "nameKr": "바예크",
+    "nameEn": "Bayek",
+    "aliases": []
+  },
+  {
+    "id": "evie-frye",
+    "nameKr": "이비 프라이",
+    "nameEn": "Evie Frye",
+    "aliases": [
+      "이비프라이"
+    ]
+  }
+]
