@@ -150,10 +150,11 @@ function setAllFilters() {
 
 function setFactionButtonState(searchMode) {
   factionButtons.forEach((button) => {
-    button.classList.toggle(
-      "active",
-      !searchMode && button.dataset.faction === currentFaction
-    );
+    const isActive =
+      !searchMode && button.dataset.faction === currentFaction;
+
+    button.classList.toggle("active", isActive);
+    button.setAttribute("aria-pressed", isActive ? "true" : "false");
   });
 }
 
@@ -241,7 +242,7 @@ function render() {
   }
 }
 
-fetch("./heroes.json?v=2.6.2")
+fetch("./heroes.json?v=2.6.3")
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
