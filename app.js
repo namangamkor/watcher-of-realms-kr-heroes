@@ -24,6 +24,11 @@ const factionMeta = {
     kr: "북쪽 경계 왕좌",
     en: "North Throne",
     total: 49
+  },
+  "nightmare-council": {
+    kr: "악몽 의회",
+    en: "Nightmare Council",
+    total: 39
   }
 };
 
@@ -130,7 +135,7 @@ function render() {
   }
 }
 
-fetch("./heroes.json")
+fetch("./heroes.json?v=1.6")
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();

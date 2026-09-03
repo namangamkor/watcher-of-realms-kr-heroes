@@ -268,7 +268,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "watch-guard"
+      "watch-guard",
+      "nightmare-council"
     ],
     "memberships": [
       {
@@ -278,6 +279,14 @@
         "lord": false,
         "sortOrder": 13,
         "portrait": "./kigiri.webp"
+      },
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 20,
+        "portrait": "./nightmare-council-20-kigiri.webp"
       }
     ]
   },
@@ -394,7 +403,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "watch-guard"
+      "watch-guard",
+      "nightmare-council"
     ],
     "memberships": [
       {
@@ -404,6 +414,14 @@
         "lord": false,
         "sortOrder": 19,
         "portrait": "./sun-wukong.webp"
+      },
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 23,
+        "portrait": "./nightmare-council-23-sun-wukong.webp"
       }
     ]
   },
@@ -1447,7 +1465,8 @@
     "class": "전술마스터",
     "rarity": "전설",
     "factions": [
-      "north-throne"
+      "north-throne",
+      "nightmare-council"
     ],
     "memberships": [
       {
@@ -1457,6 +1476,14 @@
         "lord": false,
         "sortOrder": 29,
         "portrait": "./north-throne-29-astrael.webp"
+      },
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 24,
+        "portrait": "./nightmare-council-24-astrael.webp"
       }
     ]
   },
@@ -1793,6 +1820,762 @@
         "lord": false,
         "sortOrder": 49,
         "portrait": "./north-throne-49-harpun.webp"
+      }
+    ]
+  },
+  {
+    "id": "torodor",
+    "nameKr": "톨레도",
+    "nameEn": "Torodor",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": true,
+        "sortOrder": 1,
+        "portrait": "./nightmare-council-01-torodor.webp"
+      }
+    ]
+  },
+  {
+    "id": "rygar",
+    "nameKr": "레고",
+    "nameEn": "Rygar",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": true,
+        "sortOrder": 2,
+        "portrait": "./nightmare-council-02-rygar.webp"
+      }
+    ]
+  },
+  {
+    "id": "wrath",
+    "nameKr": "격노",
+    "nameEn": "Wrath",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "에픽",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": true,
+        "sortOrder": 3,
+        "portrait": "./nightmare-council-03-wrath.webp"
+      }
+    ]
+  },
+  {
+    "id": "salazar",
+    "nameKr": "살라잘",
+    "nameEn": "Salazar",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 4,
+        "portrait": "./nightmare-council-04-salazar.webp"
+      }
+    ]
+  },
+  {
+    "id": "hatssut",
+    "nameKr": "하츠트",
+    "nameEn": "Hatssut",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 5,
+        "portrait": "./nightmare-council-05-hatssut.webp"
+      }
+    ]
+  },
+  {
+    "id": "volka",
+    "nameKr": "볼카",
+    "nameEn": "Volka",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 6,
+        "portrait": "./nightmare-council-06-volka.webp"
+      }
+    ]
+  },
+  {
+    "id": "ares",
+    "nameKr": "아레스",
+    "nameEn": "Ares",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 7,
+        "portrait": "./nightmare-council-07-ares.webp"
+      }
+    ]
+  },
+  {
+    "id": "arrogance",
+    "nameKr": "오만",
+    "nameEn": "Arrogance",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 8,
+        "portrait": "./nightmare-council-08-arrogance.webp"
+      }
+    ]
+  },
+  {
+    "id": "abomination",
+    "nameKr": "증오",
+    "nameEn": "Abomination",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 9,
+        "portrait": "./nightmare-council-09-abomination.webp"
+      }
+    ]
+  },
+  {
+    "id": "maw",
+    "nameKr": "마우",
+    "nameEn": "Maw",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 10,
+        "portrait": "./nightmare-council-10-maw.webp"
+      }
+    ]
+  },
+  {
+    "id": "lugaru",
+    "nameKr": "루가르",
+    "nameEn": "Lugaru",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 11,
+        "portrait": "./nightmare-council-11-lugaru.webp"
+      }
+    ]
+  },
+  {
+    "id": "valeriya",
+    "nameKr": "발레리야",
+    "nameEn": "Valeriya",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 12,
+        "portrait": "./nightmare-council-12-valeriya.webp"
+      }
+    ]
+  },
+  {
+    "id": "azhor",
+    "nameKr": "아젤",
+    "nameEn": "Azhor",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 13,
+        "portrait": "./nightmare-council-13-azhor.webp"
+      }
+    ]
+  },
+  {
+    "id": "gisele",
+    "nameKr": "지젤",
+    "nameEn": "Gisele",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 14,
+        "portrait": "./nightmare-council-14-gisele.webp"
+      }
+    ]
+  },
+  {
+    "id": "raizan",
+    "nameKr": "썬더",
+    "nameEn": "Raizan",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 15,
+        "portrait": "./nightmare-council-15-raizan.webp"
+      }
+    ]
+  },
+  {
+    "id": "magmus",
+    "nameKr": "마그누스",
+    "nameEn": "Magmus",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 16,
+        "portrait": "./nightmare-council-16-magmus.webp"
+      }
+    ]
+  },
+  {
+    "id": "admiral-claw",
+    "nameKr": "크로우장군",
+    "nameEn": "Admiral Claw",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 17,
+        "portrait": "./nightmare-council-17-admiral-claw.webp"
+      }
+    ]
+  },
+  {
+    "id": "kineza",
+    "nameKr": "카니샤",
+    "nameEn": "Kineza",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 18,
+        "portrait": "./nightmare-council-18-kineza.webp"
+      }
+    ]
+  },
+  {
+    "id": "lust",
+    "nameKr": "러스트",
+    "nameEn": "Lust",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 19,
+        "portrait": "./nightmare-council-19-lust.webp"
+      }
+    ]
+  },
+  {
+    "id": "yuri",
+    "nameKr": "유리",
+    "nameEn": "Yuri",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 21,
+        "portrait": "./nightmare-council-21-yuri.webp"
+      }
+    ]
+  },
+  {
+    "id": "sergei",
+    "nameKr": "세르게이",
+    "nameEn": "Sergei",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 22,
+        "portrait": "./nightmare-council-22-sergei.webp"
+      }
+    ]
+  },
+  {
+    "id": "leikan",
+    "nameKr": "레이칸",
+    "nameEn": "Leikan",
+    "aliases": [],
+    "class": "전술마스터",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 25,
+        "portrait": "./nightmare-council-25-leikan.webp"
+      }
+    ]
+  },
+  {
+    "id": "twyla",
+    "nameKr": "트윌라",
+    "nameEn": "Twyla",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 26,
+        "portrait": "./nightmare-council-26-twyla.webp"
+      }
+    ]
+  },
+  {
+    "id": "moriden",
+    "nameKr": "모리던",
+    "nameEn": "Moriden",
+    "aliases": [],
+    "class": "전술마스터",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 27,
+        "portrait": "./nightmare-council-27-moriden.webp"
+      }
+    ]
+  },
+  {
+    "id": "dr-van-helsing",
+    "nameKr": "반헬싱",
+    "nameEn": "Dr. Van Helsing",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 28,
+        "portrait": "./nightmare-council-28-dr-van-helsing.webp"
+      }
+    ]
+  },
+  {
+    "id": "bayek",
+    "nameKr": "바예크",
+    "nameEn": "Bayek",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 29,
+        "portrait": "./nightmare-council-29-bayek.webp"
+      }
+    ]
+  },
+  {
+    "id": "komodo",
+    "nameKr": "코모도",
+    "nameEn": "Komodo",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "에픽",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 30,
+        "portrait": "./nightmare-council-30-komodo.webp"
+      }
+    ]
+  },
+  {
+    "id": "gluttony",
+    "nameKr": "포셸",
+    "nameEn": "Gluttony",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "에픽",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 31,
+        "portrait": "./nightmare-council-31-gluttony.webp"
+      }
+    ]
+  },
+  {
+    "id": "baron",
+    "nameKr": "바론",
+    "nameEn": "Baron",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "에픽",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 32,
+        "portrait": "./nightmare-council-32-baron.webp"
+      }
+    ]
+  },
+  {
+    "id": "nauvras",
+    "nameKr": "나블레스",
+    "nameEn": "Nauvras",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "에픽",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 33,
+        "portrait": "./nightmare-council-33-nauvras.webp"
+      }
+    ]
+  },
+  {
+    "id": "daemon",
+    "nameKr": "디몽",
+    "nameEn": "Daemon",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "에픽",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 34,
+        "portrait": "./nightmare-council-34-daemon.webp"
+      }
+    ]
+  },
+  {
+    "id": "greed",
+    "nameKr": "탐욕",
+    "nameEn": "Greed",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "에픽",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 35,
+        "portrait": "./nightmare-council-35-greed.webp"
+      }
+    ]
+  },
+  {
+    "id": "deimos",
+    "nameKr": "데모스",
+    "nameEn": "Deimos",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "에픽",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 36,
+        "portrait": "./nightmare-council-36-deimos.webp"
+      }
+    ]
+  },
+  {
+    "id": "drayga",
+    "nameKr": "드레가",
+    "nameEn": "Drayga",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "에픽",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 37,
+        "portrait": "./nightmare-council-37-drayga.webp"
+      }
+    ]
+  },
+  {
+    "id": "vladov",
+    "nameKr": "블라도프",
+    "nameEn": "Vladov",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "에픽",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 38,
+        "portrait": "./nightmare-council-38-vladov.webp"
+      }
+    ]
+  },
+  {
+    "id": "sorzus",
+    "nameKr": "소르제스",
+    "nameEn": "Sorzus",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "에픽",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": false,
+        "sortOrder": 39,
+        "portrait": "./nightmare-council-39-sorzus.webp"
       }
     ]
   }
