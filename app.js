@@ -3,21 +3,42 @@ const clearSearch = document.querySelector("#clearSearch");
 const heroGrid = document.querySelector("#heroGrid");
 const emptyState = document.querySelector("#emptyState");
 const visibleCount = document.querySelector("#visibleCount");
+const totalCount = document.querySelector("#totalCount");
 const resultSummary = document.querySelector("#resultSummary");
+const rosterKicker = document.querySelector("#rosterKicker");
+const rosterTitle = document.querySelector("#rosterTitle");
+const dataNote = document.querySelector("#dataNote");
+const factionButtons = document.querySelectorAll(".faction-card[data-faction]");
 
 let heroes = [];
+let currentFaction = "watch-guard";
 const active = { rarity: "all", class: "all" };
+
+const factionMeta = {
+  "watch-guard": {
+    kr: "파수꾼 소대",
+    en: "Watch Guard",
+    total: 40
+  },
+  "north-throne": {
+    kr: "북쪽 경계 왕좌",
+    en: "North Throne",
+    total: 49
+  }
+};
 
 const normalize = (value = "") =>
   value.toString().toLowerCase().normalize("NFKC").replace(/\s+/g, "").trim();
 
 function matchesSearch(hero, query) {
   if (!query) return true;
+
   const haystack = [
     hero.nameKr,
     hero.nameEn,
     ...(hero.aliases || [])
   ].map(normalize).join(" ");
+
   return haystack.includes(normalize(query));
 }
 
@@ -28,59 +49,98 @@ function rarityClass(rarity) {
   return "unknown";
 }
 
-function card(hero) {
+function getMembership(hero, factionId) {
+  return (hero.memberships || []).find(
+    (membership) => membership.faction === factionId
+  );
+}
+
+function card(hero, membership) {
   const initial = (hero.nameEn || hero.nameKr).trim().charAt(0).toUpperCase();
+  const isDualFaction = (hero.memberships || []).length > 1;
+  const factionNames = (hero.memberships || [])
+    .map((item) => item.factionKr)
+    .join(" · ");
+
   return `
     <article class="hero-card">
       <div class="card-visual">
-        ${hero.portrait
-          ? `<img src="${hero.portrait}" alt="${hero.nameKr} (${hero.nameEn}) 영웅 카드" loading="lazy">`
+        ${membership?.portrait
+          ? `<img src="${membership.portrait}" alt="${hero.nameKr} (${hero.nameEn}) 영웅 카드" loading="lazy">`
           : `<span>${initial}</span>`}
       </div>
       <div class="card-body">
         <div class="card-topline">
-          ${hero.lord ? '<span class="tag lord">영주</span>' : ''}
+          ${membership?.lord ? '<span class="tag lord">영주</span>' : ''}
           <span class="tag ${rarityClass(hero.rarity)}">${hero.rarity}</span>
+          ${isDualFaction
+            ? `<span class="tag dual" title="${factionNames}">이중 진영</span>`
+            : ''}
         </div>
         <h3>${hero.nameKr}</h3>
         <p class="en">${hero.nameEn}</p>
-        <p class="meta">${hero.class} · ${hero.factionKr}</p>
+        <p class="meta">${hero.class} · ${membership?.factionKr || ""}</p>
       </div>
     </article>
   `;
 }
 
+function updateFactionHeader(meta) {
+  if (rosterKicker) rosterKicker.textContent = meta.en.toUpperCase();
+  if (rosterTitle) rosterTitle.textContent = meta.kr;
+  if (totalCount) totalCount.textContent = meta.total;
+
+  if (dataNote) {
+    dataNote.textContent =
+      `${meta.kr} ${meta.total}명 등록 완료 · 이중 진영 영웅도 각 진영에서 정상 표시됩니다.`;
+  }
+}
+
 function render() {
   const query = searchInput.value;
-  const filtered = heroes.filter(hero =>
-    hero.faction === "watch-guard" &&
-    matchesSearch(hero, query) &&
-    (active.rarity === "all" || hero.rarity === active.rarity) &&
-    (active.class === "all" || hero.class === active.class)
-  );
+  const meta = factionMeta[currentFaction];
 
-  heroGrid.innerHTML = filtered.map(card).join("");
+  const filtered = heroes
+    .map((hero) => ({
+      hero,
+      membership: getMembership(hero, currentFaction)
+    }))
+    .filter(({ hero, membership }) =>
+      Boolean(membership) &&
+      matchesSearch(hero, query) &&
+      (active.rarity === "all" || hero.rarity === active.rarity) &&
+      (active.class === "all" || hero.class === active.class)
+    )
+    .sort((a, b) => a.membership.sortOrder - b.membership.sortOrder);
+
+  updateFactionHeader(meta);
+
+  heroGrid.innerHTML = filtered
+    .map(({ hero, membership }) => card(hero, membership))
+    .join("");
+
   emptyState.hidden = filtered.length !== 0;
   visibleCount.textContent = filtered.length;
 
   if (query.trim() || active.rarity !== "all" || active.class !== "all") {
-    resultSummary.textContent = `조건에 맞는 영웅 ${filtered.length}명 · 전체 등록 40명`;
+    resultSummary.textContent =
+      `조건에 맞는 영웅 ${filtered.length}명 · 전체 등록 ${meta.total}명`;
   } else {
-    resultSummary.textContent = "파수꾼 소대 영웅 40명 등록 완료";
+    resultSummary.textContent = `${meta.kr} 영웅 ${meta.total}명 등록 완료`;
   }
 }
 
 fetch("./heroes.json")
-  .then(r => {
-    if (!r.ok) throw new Error("heroes.json load failed");
-    return r.json();
+  .then((response) => {
+    if (!response.ok) throw new Error("heroes.json load failed");
+    return response.json();
   })
-  .then(data => {
-    heroes = data.sort((a,b) => a.sortOrder - b.sortOrder);
+  .then((data) => {
+    heroes = data;
     render();
   })
-  .catch(err => {
-    console.error(err);
+  .catch((error) => {
+    console.error(error);
     resultSummary.textContent = "영웅 데이터를 불러오지 못했습니다.";
   });
 
@@ -88,7 +148,6 @@ searchInput.addEventListener("input", () => {
   const query = searchInput.value.trim();
 
   // 이름 검색을 시작하는 순간 기존 희귀도/직업 필터를 전체로 초기화.
-  // 필터 때문에 검색 대상 영웅이 숨는 상황을 방지한다.
   if (query) {
     active.rarity = "all";
     active.class = "all";
@@ -115,18 +174,33 @@ clearSearch.addEventListener("click", () => {
   searchInput.focus();
 });
 
-document.querySelectorAll(".filter").forEach(button => {
+document.querySelectorAll(".filter").forEach((button) => {
   button.addEventListener("click", () => {
     const type = button.dataset.filterType;
     active[type] = button.dataset.value;
 
     document
       .querySelectorAll(`.filter[data-filter-type="${type}"]`)
-      .forEach(b => b.classList.toggle("active", b === button));
+      .forEach((candidate) =>
+        candidate.classList.toggle("active", candidate === button)
+      );
 
     render();
   });
 });
+
+factionButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    currentFaction = button.dataset.faction;
+
+    factionButtons.forEach((candidate) =>
+      candidate.classList.toggle("active", candidate === button)
+    );
+
+    render();
+  });
+});
+
 
 
 // ---------------------------

@@ -4,559 +4,1796 @@
     "nameKr": "라야",
     "nameEn": "Laya",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": true,
     "class": "힐러",
     "rarity": "전설",
-    "portrait": "./laya.webp",
-    "sortOrder": 1
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": true,
+        "sortOrder": 1,
+        "portrait": "./laya.webp"
+      }
+    ]
   },
   {
     "id": "ingrid",
     "nameKr": "잉그리드",
     "nameEn": "Ingrid",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": true,
     "class": "마법사",
     "rarity": "전설",
-    "portrait": "./ingrid.webp",
-    "sortOrder": 2
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": true,
+        "sortOrder": 2,
+        "portrait": "./ingrid.webp"
+      }
+    ]
   },
   {
     "id": "ain",
     "nameKr": "아인",
     "nameEn": "Ain",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": true,
     "class": "전사",
     "rarity": "에픽",
-    "portrait": "./ain.webp",
-    "sortOrder": 3
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": true,
+        "sortOrder": 3,
+        "portrait": "./ain.webp"
+      }
+    ]
   },
   {
     "id": "borut",
     "nameKr": "브루트",
     "nameEn": "Borut",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": true,
     "class": "전사",
     "rarity": "레어",
-    "portrait": "./borut.webp",
-    "sortOrder": 4
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": true,
+        "sortOrder": 4,
+        "portrait": "./borut.webp"
+      }
+    ]
   },
   {
     "id": "regulus",
     "nameKr": "레굴라스",
     "nameEn": "Regulus",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "수호자",
     "rarity": "전설",
-    "portrait": "./regulus.webp",
-    "sortOrder": 5
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 5,
+        "portrait": "./regulus.webp"
+      }
+    ]
   },
   {
     "id": "diaochan",
     "nameKr": "초선",
     "nameEn": "DiaoChan",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "힐러",
     "rarity": "전설",
-    "portrait": "./diaochan.webp",
-    "sortOrder": 6
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 6,
+        "portrait": "./diaochan.webp"
+      }
+    ]
   },
   {
     "id": "crach",
     "nameKr": "크레시",
     "nameEn": "Crach",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "궁수",
     "rarity": "전설",
-    "portrait": "./crach.webp",
-    "sortOrder": 7
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 7,
+        "portrait": "./crach.webp"
+      }
+    ]
   },
   {
     "id": "eirlys",
     "nameKr": "에일리스",
     "nameEn": "Eirlys",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "힐러",
     "rarity": "전설",
-    "portrait": "./eirlys.webp",
-    "sortOrder": 8
+    "factions": [
+      "watch-guard",
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 8,
+        "portrait": "./eirlys.webp"
+      },
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 15,
+        "portrait": "./north-throne-15-eirlys.webp"
+      }
+    ]
   },
   {
     "id": "eunomia",
     "nameKr": "유노미아",
     "nameEn": "Eunomia",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "힐러",
     "rarity": "전설",
-    "portrait": "./eunomia.webp",
-    "sortOrder": 9
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 9,
+        "portrait": "./eunomia.webp"
+      }
+    ]
   },
   {
     "id": "alaura",
     "nameKr": "엘로라",
     "nameEn": "Alaura",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "궁수",
     "rarity": "전설",
-    "portrait": "./alaura.webp",
-    "sortOrder": 10
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 10,
+        "portrait": "./alaura.webp"
+      }
+    ]
   },
   {
     "id": "constance",
     "nameKr": "콘스탄스",
     "nameEn": "Constance",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "수호자",
     "rarity": "전설",
-    "portrait": "./constance.webp",
-    "sortOrder": 11
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 11,
+        "portrait": "./constance.webp"
+      }
+    ]
   },
   {
     "id": "alistair",
     "nameKr": "오리스테",
     "nameEn": "Alistair",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "마법사",
     "rarity": "전설",
-    "portrait": "./alistair.webp",
-    "sortOrder": 12
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 12,
+        "portrait": "./alistair.webp"
+      }
+    ]
   },
   {
     "id": "kigiri",
     "nameKr": "키기리",
     "nameEn": "Kigiri",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "전사",
     "rarity": "전설",
-    "portrait": "./kigiri.webp",
-    "sortOrder": 13
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 13,
+        "portrait": "./kigiri.webp"
+      }
+    ]
   },
   {
     "id": "lucius",
     "nameKr": "루시우스",
     "nameEn": "Lucius",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "궁수",
     "rarity": "전설",
-    "portrait": "./lucius.webp",
-    "sortOrder": 14
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 14,
+        "portrait": "./lucius.webp"
+      }
+    ]
   },
   {
     "id": "aeris",
     "nameKr": "아에리스",
     "nameEn": "Aeris",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "전사",
     "rarity": "전설",
-    "portrait": "./aeris.webp",
-    "sortOrder": 15
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 15,
+        "portrait": "./aeris.webp"
+      }
+    ]
   },
   {
     "id": "calista",
     "nameKr": "카리스타",
     "nameEn": "Calista",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "전사",
     "rarity": "전설",
-    "portrait": "./calista.webp",
-    "sortOrder": 16
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 16,
+        "portrait": "./calista.webp"
+      }
+    ]
   },
   {
     "id": "talin",
     "nameKr": "타린",
     "nameEn": "Talin",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "궁수",
     "rarity": "전설",
-    "portrait": "./talin.webp",
-    "sortOrder": 17
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 17,
+        "portrait": "./talin.webp"
+      }
+    ]
   },
   {
     "id": "edith",
     "nameKr": "에디스",
     "nameEn": "Edith",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "수호자",
     "rarity": "전설",
-    "portrait": "./edith.webp",
-    "sortOrder": 18
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 18,
+        "portrait": "./edith.webp"
+      }
+    ]
   },
   {
     "id": "sun-wukong",
     "nameKr": "손오공",
     "nameEn": "Sun Wukong",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "전사",
     "rarity": "전설",
-    "portrait": "./sun-wukong.webp",
-    "sortOrder": 19
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 19,
+        "portrait": "./sun-wukong.webp"
+      }
+    ]
   },
   {
     "id": "ne-zha",
     "nameKr": "나타",
     "nameEn": "Ne Zha",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "전사",
     "rarity": "전설",
-    "portrait": "./ne-zha.webp",
-    "sortOrder": 20
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 20,
+        "portrait": "./ne-zha.webp"
+      }
+    ]
   },
   {
     "id": "guan-yu",
     "nameKr": "관우",
     "nameEn": "Guan Yu",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "전술마스터",
     "rarity": "전설",
-    "portrait": "./guan-yu.webp",
-    "sortOrder": 21
+    "factions": [
+      "watch-guard",
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 21,
+        "portrait": "./guan-yu.webp"
+      },
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 28,
+        "portrait": "./north-throne-28-guan-yu.webp"
+      }
+    ]
   },
   {
     "id": "draelyn",
     "nameKr": "드레린",
     "nameEn": "Draelyn",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "수호자",
     "rarity": "전설",
-    "portrait": "./draelyn.webp",
-    "sortOrder": 22
+    "factions": [
+      "watch-guard",
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 22,
+        "portrait": "./draelyn.webp"
+      },
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 32,
+        "portrait": "./north-throne-32-draelyn.webp"
+      }
+    ]
   },
   {
     "id": "ezio-auditore",
     "nameKr": "에지오 아디토레",
     "nameEn": "Ezio Auditore",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "전술마스터",
     "rarity": "전설",
-    "portrait": "./ezio-auditore.webp",
-    "sortOrder": 23
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 23,
+        "portrait": "./ezio-auditore.webp"
+      }
+    ]
   },
   {
     "id": "eivor-varinsdottir",
     "nameKr": "에이보르",
     "nameEn": "Eivor Varinsdottir",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "전사",
     "rarity": "전설",
-    "portrait": "./eivor-varinsdottir.webp",
-    "sortOrder": 24
+    "factions": [
+      "watch-guard",
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 24,
+        "portrait": "./eivor-varinsdottir.webp"
+      },
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 35,
+        "portrait": "./north-throne-35-eivor-varinsdottir.webp"
+      }
+    ]
   },
   {
     "id": "kassandra",
     "nameKr": "카산드라",
     "nameEn": "Kassandra",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "전사",
     "rarity": "전설",
-    "portrait": "./kassandra.webp",
-    "sortOrder": 25
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 25,
+        "portrait": "./kassandra.webp"
+      }
+    ]
   },
   {
     "id": "dane",
     "nameKr": "어둠의총사데인",
     "nameEn": "Dane",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "전사",
     "rarity": "전설",
-    "portrait": "./dane.webp",
-    "sortOrder": 26
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 26,
+        "portrait": "./dane.webp"
+      }
+    ]
   },
   {
     "id": "cainan",
     "nameKr": "카이난",
     "nameEn": "Cainan",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "전술마스터",
     "rarity": "전설",
-    "portrait": "./cainan.webp",
-    "sortOrder": 27
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 27,
+        "portrait": "./cainan.webp"
+      }
+    ]
   },
   {
     "id": "brienne",
     "nameKr": "브레이니",
     "nameEn": "Brienne",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "궁수",
     "rarity": "에픽",
-    "portrait": "./brienne.webp",
-    "sortOrder": 28
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 28,
+        "portrait": "./brienne.webp"
+      }
+    ]
   },
   {
     "id": "soleil",
     "nameKr": "소레일",
     "nameEn": "Soleil",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "마법사",
     "rarity": "에픽",
-    "portrait": "./soleil.webp",
-    "sortOrder": 29
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 29,
+        "portrait": "./soleil.webp"
+      }
+    ]
   },
   {
     "id": "cyrene",
     "nameKr": "셀레니",
     "nameEn": "Cyrene",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "전사",
     "rarity": "에픽",
-    "portrait": "./cyrene.webp",
-    "sortOrder": 30
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 30,
+        "portrait": "./cyrene.webp"
+      }
+    ]
   },
   {
     "id": "lightlocke",
     "nameKr": "라트로크",
     "nameEn": "Lightlocke",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "힐러",
     "rarity": "에픽",
-    "portrait": "./lightlocke.webp",
-    "sortOrder": 31
+    "factions": [
+      "watch-guard",
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 31,
+        "portrait": "./lightlocke.webp"
+      },
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 41,
+        "portrait": "./north-throne-41-lightlocke.webp"
+      }
+    ]
   },
   {
     "id": "livian",
     "nameKr": "리비안",
     "nameEn": "Livian",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "수호자",
     "rarity": "에픽",
-    "portrait": "./livian.webp",
-    "sortOrder": 32
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 32,
+        "portrait": "./livian.webp"
+      }
+    ]
   },
   {
     "id": "dalyn",
     "nameKr": "달린",
     "nameEn": "Dalyn",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "전사",
     "rarity": "에픽",
-    "portrait": "./dalyn.webp",
-    "sortOrder": 33
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 33,
+        "portrait": "./dalyn.webp"
+      }
+    ]
   },
   {
     "id": "meriel",
     "nameKr": "메리엘",
     "nameEn": "Meriel",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "수호자",
     "rarity": "에픽",
-    "portrait": "./meriel.webp",
-    "sortOrder": 34
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 34,
+        "portrait": "./meriel.webp"
+      }
+    ]
   },
   {
     "id": "aveline",
     "nameKr": "에블린",
     "nameEn": "Aveline",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "수호자",
     "rarity": "에픽",
-    "portrait": "./aveline.webp",
-    "sortOrder": 35
+    "factions": [
+      "watch-guard",
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 35,
+        "portrait": "./aveline.webp"
+      },
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 44,
+        "portrait": "./north-throne-44-aveline.webp"
+      }
+    ]
   },
   {
     "id": "idril",
     "nameKr": "가드리엘",
     "nameEn": "Idril",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "궁수",
     "rarity": "에픽",
-    "portrait": "./idril.webp",
-    "sortOrder": 36
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 36,
+        "portrait": "./idril.webp"
+      }
+    ]
   },
   {
     "id": "eona",
     "nameKr": "이오나",
     "nameEn": "Eona",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "마법사",
     "rarity": "에픽",
-    "portrait": "./eona.webp",
-    "sortOrder": 37
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 37,
+        "portrait": "./eona.webp"
+      }
+    ]
   },
   {
     "id": "rex",
     "nameKr": "렉스",
     "nameEn": "Rex",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "수호자",
     "rarity": "레어",
-    "portrait": "./rex.webp",
-    "sortOrder": 38
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 38,
+        "portrait": "./rex.webp"
+      }
+    ]
   },
   {
     "id": "niro",
     "nameKr": "네로",
     "nameEn": "Niro",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "마법사",
     "rarity": "레어",
-    "portrait": "./niro.webp",
-    "sortOrder": 39
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 39,
+        "portrait": "./niro.webp"
+      }
+    ]
   },
   {
     "id": "camille",
     "nameKr": "카미엘",
     "nameEn": "Camille",
     "aliases": [],
-    "faction": "watch-guard",
-    "factionKr": "파수꾼 소대",
-    "factionEn": "Watch Guard",
-    "lord": false,
     "class": "힐러",
     "rarity": "레어",
-    "portrait": "./camille.webp",
-    "sortOrder": 40
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 40,
+        "portrait": "./camille.webp"
+      }
+    ]
+  },
+  {
+    "id": "king-harz",
+    "nameKr": "킹할츠",
+    "nameEn": "King Harz",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": true,
+        "sortOrder": 1,
+        "portrait": "./north-throne-01-king-harz.webp"
+      }
+    ]
+  },
+  {
+    "id": "elddr",
+    "nameKr": "에르드",
+    "nameEn": "Elddr",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": true,
+        "sortOrder": 2,
+        "portrait": "./north-throne-02-elddr.webp"
+      }
+    ]
+  },
+  {
+    "id": "rivenhald",
+    "nameKr": "레이븐홀드",
+    "nameEn": "Rivenhald",
+    "aliases": [],
+    "class": "전술마스터",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": true,
+        "sortOrder": 3,
+        "portrait": "./north-throne-03-rivenhald.webp"
+      }
+    ]
+  },
+  {
+    "id": "isolde",
+    "nameKr": "이졸데",
+    "nameEn": "Isolde",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "에픽",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": true,
+        "sortOrder": 4,
+        "portrait": "./north-throne-04-isolde.webp"
+      }
+    ]
+  },
+  {
+    "id": "rork",
+    "nameKr": "로크",
+    "nameEn": "Rork",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "에픽",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": true,
+        "sortOrder": 5,
+        "portrait": "./north-throne-05-rork.webp"
+      }
+    ]
+  },
+  {
+    "id": "dagna",
+    "nameKr": "다그나",
+    "nameEn": "Dagna",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "레어",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": true,
+        "sortOrder": 6,
+        "portrait": "./north-throne-06-dagna.webp"
+      }
+    ]
+  },
+  {
+    "id": "nocturne",
+    "nameKr": "녹턴",
+    "nameEn": "Nocturne",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 7,
+        "portrait": "./north-throne-07-nocturne.webp"
+      }
+    ]
+  },
+  {
+    "id": "valkyra",
+    "nameKr": "바크라",
+    "nameEn": "Valkyra",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 8,
+        "portrait": "./north-throne-08-valkyra.webp"
+      }
+    ]
+  },
+  {
+    "id": "shamir",
+    "nameKr": "샤미르",
+    "nameEn": "Shamir",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 9,
+        "portrait": "./north-throne-09-shamir.webp"
+      }
+    ]
+  },
+  {
+    "id": "krodor",
+    "nameKr": "크로돌",
+    "nameEn": "Krodor",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 10,
+        "portrait": "./north-throne-10-krodor.webp"
+      }
+    ]
+  },
+  {
+    "id": "fenris",
+    "nameKr": "펜리스",
+    "nameEn": "Fenris",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 11,
+        "portrait": "./north-throne-11-fenris.webp"
+      }
+    ]
+  },
+  {
+    "id": "gwendolyn",
+    "nameKr": "그웬돌린",
+    "nameEn": "Gwendolyn",
+    "aliases": [],
+    "class": "힐러",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 12,
+        "portrait": "./north-throne-12-gwendolyn.webp"
+      }
+    ]
+  },
+  {
+    "id": "sadie",
+    "nameKr": "사티",
+    "nameEn": "Sadie",
+    "aliases": [],
+    "class": "힐러",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 13,
+        "portrait": "./north-throne-13-sadie.webp"
+      }
+    ]
+  },
+  {
+    "id": "falcia",
+    "nameKr": "페르샤",
+    "nameEn": "Falcia",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 14,
+        "portrait": "./north-throne-14-falcia.webp"
+      }
+    ]
+  },
+  {
+    "id": "ardea",
+    "nameKr": "알다이야",
+    "nameEn": "Ardea",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 16,
+        "portrait": "./north-throne-16-ardea.webp"
+      }
+    ]
+  },
+  {
+    "id": "boreas",
+    "nameKr": "포레스",
+    "nameEn": "Boreas",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 17,
+        "portrait": "./north-throne-17-boreas.webp"
+      }
+    ]
+  },
+  {
+    "id": "brokkir",
+    "nameKr": "브로켈",
+    "nameEn": "Brokkir",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 18,
+        "portrait": "./north-throne-18-brokkir.webp"
+      }
+    ]
+  },
+  {
+    "id": "jeera",
+    "nameKr": "젤라",
+    "nameEn": "Jeera",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 19,
+        "portrait": "./north-throne-19-jeera.webp"
+      }
+    ]
+  },
+  {
+    "id": "lynx",
+    "nameKr": "릴크스",
+    "nameEn": "Lynx",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 20,
+        "portrait": "./north-throne-20-lynx.webp"
+      }
+    ]
+  },
+  {
+    "id": "malvira",
+    "nameKr": "말비라",
+    "nameEn": "Malvira",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 21,
+        "portrait": "./north-throne-21-malvira.webp"
+      }
+    ]
+  },
+  {
+    "id": "khadgrim",
+    "nameKr": "카드그림",
+    "nameEn": "Khadgrim",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 22,
+        "portrait": "./north-throne-22-khadgrim.webp"
+      }
+    ]
+  },
+  {
+    "id": "akirastar",
+    "nameKr": "아키라",
+    "nameEn": "AkiraStar",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 23,
+        "portrait": "./north-throne-23-akirastar.webp"
+      }
+    ]
+  },
+  {
+    "id": "kane",
+    "nameKr": "케인",
+    "nameEn": "Kane",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 24,
+        "portrait": "./north-throne-24-kane.webp"
+      }
+    ]
+  },
+  {
+    "id": "glacius",
+    "nameKr": "그레시우스",
+    "nameEn": "Glacius",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 25,
+        "portrait": "./north-throne-25-glacius.webp"
+      }
+    ]
+  },
+  {
+    "id": "lulu",
+    "nameKr": "루루",
+    "nameEn": "Lulu",
+    "aliases": [],
+    "class": "전술마스터",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 26,
+        "portrait": "./north-throne-26-lulu.webp"
+      }
+    ]
+  },
+  {
+    "id": "solaris",
+    "nameKr": "솔라리스",
+    "nameEn": "Solaris",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 27,
+        "portrait": "./north-throne-27-solaris.webp"
+      }
+    ]
+  },
+  {
+    "id": "astrael",
+    "nameKr": "아스트레이",
+    "nameEn": "Astrael",
+    "aliases": [],
+    "class": "전술마스터",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 29,
+        "portrait": "./north-throne-29-astrael.webp"
+      }
+    ]
+  },
+  {
+    "id": "lu-bu",
+    "nameKr": "여포",
+    "nameEn": "Lu Bu",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 30,
+        "portrait": "./north-throne-30-lu-bu.webp"
+      }
+    ]
+  },
+  {
+    "id": "cassiel",
+    "nameKr": "카시르",
+    "nameEn": "Cassiel",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 31,
+        "portrait": "./north-throne-31-cassiel.webp"
+      }
+    ]
+  },
+  {
+    "id": "aedrin",
+    "nameKr": "에드린",
+    "nameEn": "Aedrin",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 33,
+        "portrait": "./north-throne-33-aedrin.webp"
+      }
+    ]
+  },
+  {
+    "id": "lady-mina",
+    "nameKr": "미나",
+    "nameEn": "Lady Mina",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 34,
+        "portrait": "./north-throne-34-lady-mina.webp"
+      }
+    ]
+  },
+  {
+    "id": "su-yue",
+    "nameKr": "소설백",
+    "nameEn": "Su Yue",
+    "aliases": [],
+    "class": "전술마스터",
+    "rarity": "전설",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 36,
+        "portrait": "./north-throne-36-su-yue.webp"
+      }
+    ]
+  },
+  {
+    "id": "marri",
+    "nameKr": "마리엘",
+    "nameEn": "Marri",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "에픽",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 37,
+        "portrait": "./north-throne-37-marri.webp"
+      }
+    ]
+  },
+  {
+    "id": "maul",
+    "nameKr": "모르",
+    "nameEn": "Maul",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "에픽",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 38,
+        "portrait": "./north-throne-38-maul.webp"
+      }
+    ]
+  },
+  {
+    "id": "vortex",
+    "nameKr": "와엘",
+    "nameEn": "Vortex",
+    "aliases": [],
+    "class": "힐러",
+    "rarity": "에픽",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 39,
+        "portrait": "./north-throne-39-vortex.webp"
+      }
+    ]
+  },
+  {
+    "id": "brunor",
+    "nameKr": "브루노",
+    "nameEn": "Brunor",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "에픽",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 40,
+        "portrait": "./north-throne-40-brunor.webp"
+      }
+    ]
+  },
+  {
+    "id": "olague",
+    "nameKr": "오라그",
+    "nameEn": "Olague",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "에픽",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 42,
+        "portrait": "./north-throne-42-olague.webp"
+      }
+    ]
+  },
+  {
+    "id": "voroth",
+    "nameKr": "워로스",
+    "nameEn": "Voroth",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "에픽",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 43,
+        "portrait": "./north-throne-43-voroth.webp"
+      }
+    ]
+  },
+  {
+    "id": "estrid",
+    "nameKr": "이스트리드",
+    "nameEn": "Estrid",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "에픽",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 45,
+        "portrait": "./north-throne-45-estrid.webp"
+      }
+    ]
+  },
+  {
+    "id": "midan",
+    "nameKr": "미덴",
+    "nameEn": "Midan",
+    "aliases": [],
+    "class": "힐러",
+    "rarity": "에픽",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 46,
+        "portrait": "./north-throne-46-midan.webp"
+      }
+    ]
+  },
+  {
+    "id": "rhox",
+    "nameKr": "로크스",
+    "nameEn": "Rhox",
+    "aliases": [],
+    "class": "수호자",
+    "rarity": "에픽",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 47,
+        "portrait": "./north-throne-47-rhox.webp"
+      }
+    ]
+  },
+  {
+    "id": "ai",
+    "nameKr": "엘",
+    "nameEn": "Ai",
+    "aliases": [],
+    "class": "마법사",
+    "rarity": "에픽",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 48,
+        "portrait": "./north-throne-48-ai.webp"
+      }
+    ]
+  },
+  {
+    "id": "harpun",
+    "nameKr": "하르벤",
+    "nameEn": "Harpun",
+    "aliases": [],
+    "class": "궁수",
+    "rarity": "에픽",
+    "factions": [
+      "north-throne"
+    ],
+    "memberships": [
+      {
+        "faction": "north-throne",
+        "factionKr": "북쪽 경계 왕좌",
+        "factionEn": "North Throne",
+        "lord": false,
+        "sortOrder": 49,
+        "portrait": "./north-throne-49-harpun.webp"
+      }
+    ]
   }
 ]

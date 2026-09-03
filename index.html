@@ -90,13 +90,21 @@
       </div>
 
       <div class="faction-tabs">
-        <button class="faction-card active" data-faction="watch-guard">
+        <button class="faction-card active" data-faction="watch-guard" data-faction-kr="파수꾼 소대" data-faction-en="Watch Guard" data-total="40">
           <span class="faction-emblem">✦</span>
           <span>
             <strong>파수꾼 소대</strong>
             <small>Watch Guard</small>
           </span>
           <b>40 / 40 등록</b>
+        </button>
+        <button class="faction-card" data-faction="north-throne" data-faction-kr="북쪽 경계 왕좌" data-faction-en="North Throne" data-total="49">
+          <span class="faction-emblem">❖</span>
+          <span>
+            <strong>북쪽 경계 왕좌</strong>
+            <small>North Throne</small>
+          </span>
+          <b>49 / 49 등록</b>
         </button>
         <div class="faction-coming">다른 진영은 순차 추가 예정</div>
       </div>
@@ -105,11 +113,11 @@
     <section class="wrap roster">
       <div class="roster-head">
         <div>
-          <p class="section-kicker">WATCH GUARD</p>
-          <h2>파수꾼 소대</h2>
+          <p id="rosterKicker" class="section-kicker">WATCH GUARD</p>
+          <h2 id="rosterTitle">파수꾼 소대</h2>
           <p id="resultSummary">파수꾼 소대 영웅 40명 등록 완료</p>
         </div>
-        <div class="count-badge"><strong id="visibleCount">40</strong><span>/ 40</span></div>
+        <div class="count-badge"><strong id="visibleCount">40</strong><span>/ <span id="totalCount">40</span></span></div>
       </div>
 
       <div class="filters">
@@ -141,7 +149,7 @@
         <span>다른 이름이나 필터를 사용해보세요.</span>
       </div>
 
-      <div class="data-note">
+      <div id="dataNote" class="data-note">
         파수꾼 소대 40명 등록 완료 · 한국명과 영문명을 함께 검색할 수 있습니다.
       </div>
     </section>

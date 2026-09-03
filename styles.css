@@ -425,6 +425,11 @@ h1 span { color:#abb5c5; }
 .tag.epic { color:#c59cff; }
 .tag.rare { color:#7eb6ff; }
 .tag.unknown { color:#9aa4b6; }
+.tag.dual {
+  border:1px solid rgba(135,181,255,.24);
+  background:rgba(77,122,194,.10);
+  color:#a9c9ff;
+}
 
 .hero-card h3 {
   margin:0;
