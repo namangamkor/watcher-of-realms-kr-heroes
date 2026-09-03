@@ -201,3 +201,41 @@
 
 - 직업 표기 충돌 메모 (기존 전역 직업값 유지)
   - 발레리야 / Valeriya: 기존 `전사` vs 이번 입력 `전술마스터`
+
+
+## v2.3 변경 — 최고 중재자(Supreme Arbiters) 22명 추가
+
+- 신규 진영 `최고 중재자 (Supreme Arbiters)` 추가
+- 총 22명 등록 완료
+- 신규/미등록 영웅 3명 추가
+  - 오렌 / Oren
+  - 플레트스 / Praetus
+  - 에릴시아 / Elysia
+- 기존 영웅은 중복 생성하지 않고 최고 중재자 소속만 추가
+  - 바크라 / Valkyra
+  - 펠라기우스 / Pelagios
+  - 젤라 / Jeera
+  - 유노미아 / Eunomia
+  - 발레리아 / Valara
+  - 알렉산드라부인 / Lady Alexandra
+  - 카드그림 / Khadgrim
+  - 콘스탄스 / Constance
+  - 탈렌 / Thallen
+  - 오리스테 / Alistair
+  - 잉그리드 / Ingrid
+  - 케인 / Kane
+  - 이랑신 / Erlang Shen
+  - 이니트 / Init
+  - 카시르 / Cassiel
+  - 레이칸 / Leikan
+  - 에지오 아디토레 / Ezio Auditore
+  - 카산드라 / Kassandra
+  - 소설백 / Su Yue
+- 최고 중재자 전용 초상화 파일 22장 추가
+  - 신규 3명은 제공된 스크린샷에서 크롭
+  - 나머지 19명은 기존 등록 초상화를 재사용해 최고 중재자 전용 파일명으로 복제
+- 검색 편의를 위해 별칭 추가
+  - `유노미야` → 유노미아
+  - `defenderS` → 카드그림
+  - `에지오아디토레` → 에지오 아디토레
+- 캐시 버전 상향: `v2.3`

@@ -28,7 +28,8 @@
     "class": "마법사",
     "rarity": "전설",
     "factions": [
-      "watch-guard"
+      "watch-guard",
+      "supreme-arbiters"
     ],
     "memberships": [
       {
@@ -38,6 +39,14 @@
         "lord": true,
         "sortOrder": 2,
         "portrait": "./ingrid.webp"
+      },
+      {
+        "faction": "supreme-arbiters",
+        "factionKr": "최고 중재자",
+        "factionEn": "Supreme Arbiters",
+        "lord": false,
+        "sortOrder": 14,
+        "portrait": "./supreme-arbiters-14-ingrid.webp"
       }
     ]
   },
@@ -189,11 +198,14 @@
     "id": "eunomia",
     "nameKr": "유노미아",
     "nameEn": "Eunomia",
-    "aliases": [],
+    "aliases": [
+      "유노미야"
+    ],
     "class": "힐러",
     "rarity": "전설",
     "factions": [
-      "watch-guard"
+      "watch-guard",
+      "supreme-arbiters"
     ],
     "memberships": [
       {
@@ -203,6 +215,14 @@
         "lord": false,
         "sortOrder": 9,
         "portrait": "./eunomia.webp"
+      },
+      {
+        "faction": "supreme-arbiters",
+        "factionKr": "최고 중재자",
+        "factionEn": "Supreme Arbiters",
+        "lord": false,
+        "sortOrder": 7,
+        "portrait": "./supreme-arbiters-07-eunomia.webp"
       }
     ]
   },
@@ -244,7 +264,8 @@
     "class": "수호자",
     "rarity": "전설",
     "factions": [
-      "watch-guard"
+      "watch-guard",
+      "supreme-arbiters"
     ],
     "memberships": [
       {
@@ -254,6 +275,14 @@
         "lord": false,
         "sortOrder": 11,
         "portrait": "./constance.webp"
+      },
+      {
+        "faction": "supreme-arbiters",
+        "factionKr": "최고 중재자",
+        "factionEn": "Supreme Arbiters",
+        "lord": false,
+        "sortOrder": 11,
+        "portrait": "./supreme-arbiters-11-constance.webp"
       }
     ]
   },
@@ -265,7 +294,8 @@
     "class": "마법사",
     "rarity": "전설",
     "factions": [
-      "watch-guard"
+      "watch-guard",
+      "supreme-arbiters"
     ],
     "memberships": [
       {
@@ -275,6 +305,14 @@
         "lord": false,
         "sortOrder": 12,
         "portrait": "./alistair.webp"
+      },
+      {
+        "faction": "supreme-arbiters",
+        "factionKr": "최고 중재자",
+        "factionEn": "Supreme Arbiters",
+        "lord": false,
+        "sortOrder": 13,
+        "portrait": "./supreme-arbiters-13-alistair.webp"
       }
     ]
   },
@@ -555,11 +593,14 @@
     "id": "ezio-auditore",
     "nameKr": "에지오 아디토레",
     "nameEn": "Ezio Auditore",
-    "aliases": [],
+    "aliases": [
+      "에지오아디토레"
+    ],
     "class": "전술마스터",
     "rarity": "전설",
     "factions": [
-      "watch-guard"
+      "watch-guard",
+      "supreme-arbiters"
     ],
     "memberships": [
       {
@@ -569,6 +610,14 @@
         "lord": false,
         "sortOrder": 23,
         "portrait": "./ezio-auditore.webp"
+      },
+      {
+        "faction": "supreme-arbiters",
+        "factionKr": "최고 중재자",
+        "factionEn": "Supreme Arbiters",
+        "lord": false,
+        "sortOrder": 20,
+        "portrait": "./supreme-arbiters-20-ezio-auditore.webp"
       }
     ]
   },
@@ -610,7 +659,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "watch-guard"
+      "watch-guard",
+      "supreme-arbiters"
     ],
     "memberships": [
       {
@@ -620,6 +670,14 @@
         "lord": false,
         "sortOrder": 25,
         "portrait": "./kassandra.webp"
+      },
+      {
+        "faction": "supreme-arbiters",
+        "factionKr": "최고 중재자",
+        "factionEn": "Supreme Arbiters",
+        "lord": false,
+        "sortOrder": 21,
+        "portrait": "./supreme-arbiters-21-kassandra.webp"
       }
     ]
   },
@@ -1192,7 +1250,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "north-throne"
+      "north-throne",
+      "supreme-arbiters"
     ],
     "memberships": [
       {
@@ -1202,6 +1261,14 @@
         "lord": false,
         "sortOrder": 8,
         "portrait": "./north-throne-08-valkyra.webp"
+      },
+      {
+        "faction": "supreme-arbiters",
+        "factionKr": "최고 중재자",
+        "factionEn": "Supreme Arbiters",
+        "lord": false,
+        "sortOrder": 4,
+        "portrait": "./supreme-arbiters-04-valkyra.webp"
       }
     ]
   },
@@ -1429,7 +1496,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "north-throne"
+      "north-throne",
+      "supreme-arbiters"
     ],
     "memberships": [
       {
@@ -1439,6 +1507,14 @@
         "lord": false,
         "sortOrder": 19,
         "portrait": "./north-throne-19-jeera.webp"
+      },
+      {
+        "faction": "supreme-arbiters",
+        "factionKr": "최고 중재자",
+        "factionEn": "Supreme Arbiters",
+        "lord": false,
+        "sortOrder": 6,
+        "portrait": "./supreme-arbiters-06-jeera.webp"
       }
     ]
   },
@@ -1497,11 +1573,15 @@
     "id": "khadgrim",
     "nameKr": "카드그림",
     "nameEn": "Khadgrim",
-    "aliases": [],
+    "aliases": [
+      "defenderS",
+      "Defender S"
+    ],
     "class": "수호자",
     "rarity": "전설",
     "factions": [
-      "north-throne"
+      "north-throne",
+      "supreme-arbiters"
     ],
     "memberships": [
       {
@@ -1511,6 +1591,14 @@
         "lord": false,
         "sortOrder": 22,
         "portrait": "./north-throne-22-khadgrim.webp"
+      },
+      {
+        "faction": "supreme-arbiters",
+        "factionKr": "최고 중재자",
+        "factionEn": "Supreme Arbiters",
+        "lord": false,
+        "sortOrder": 10,
+        "portrait": "./supreme-arbiters-10-khadgrim.webp"
       }
     ]
   },
@@ -1554,7 +1642,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "north-throne"
+      "north-throne",
+      "supreme-arbiters"
     ],
     "memberships": [
       {
@@ -1564,6 +1653,14 @@
         "lord": false,
         "sortOrder": 24,
         "portrait": "./north-throne-24-kane.webp"
+      },
+      {
+        "faction": "supreme-arbiters",
+        "factionKr": "최고 중재자",
+        "factionEn": "Supreme Arbiters",
+        "lord": false,
+        "sortOrder": 15,
+        "portrait": "./supreme-arbiters-15-kane.webp"
       }
     ]
   },
@@ -1698,7 +1795,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "north-throne"
+      "north-throne",
+      "supreme-arbiters"
     ],
     "memberships": [
       {
@@ -1708,6 +1806,14 @@
         "lord": false,
         "sortOrder": 31,
         "portrait": "./north-throne-31-cassiel.webp"
+      },
+      {
+        "faction": "supreme-arbiters",
+        "factionKr": "최고 중재자",
+        "factionEn": "Supreme Arbiters",
+        "lord": false,
+        "sortOrder": 18,
+        "portrait": "./supreme-arbiters-18-cassiel.webp"
       }
     ]
   },
@@ -1770,7 +1876,8 @@
     "class": "전술마스터",
     "rarity": "전설",
     "factions": [
-      "north-throne"
+      "north-throne",
+      "supreme-arbiters"
     ],
     "memberships": [
       {
@@ -1780,6 +1887,14 @@
         "lord": false,
         "sortOrder": 36,
         "portrait": "./north-throne-36-su-yue.webp"
+      },
+      {
+        "faction": "supreme-arbiters",
+        "factionKr": "최고 중재자",
+        "factionEn": "Supreme Arbiters",
+        "lord": false,
+        "sortOrder": 22,
+        "portrait": "./supreme-arbiters-22-su-yue.webp"
       }
     ]
   },
@@ -2535,7 +2650,8 @@
     "class": "전술마스터",
     "rarity": "전설",
     "factions": [
-      "nightmare-council"
+      "nightmare-council",
+      "supreme-arbiters"
     ],
     "memberships": [
       {
@@ -2545,6 +2661,14 @@
         "lord": false,
         "sortOrder": 25,
         "portrait": "./nightmare-council-25-leikan.webp"
+      },
+      {
+        "faction": "supreme-arbiters",
+        "factionKr": "최고 중재자",
+        "factionEn": "Supreme Arbiters",
+        "lord": false,
+        "sortOrder": 19,
+        "portrait": "./supreme-arbiters-19-leikan.webp"
       }
     ]
   },
@@ -4587,7 +4711,8 @@
     "class": "궁수",
     "rarity": "전설",
     "factions": [
-      "star-piercers"
+      "star-piercers",
+      "supreme-arbiters"
     ],
     "memberships": [
       {
@@ -4597,6 +4722,14 @@
         "lord": false,
         "sortOrder": 12,
         "portrait": "./star-piercers-12-pelagios.webp"
+      },
+      {
+        "faction": "supreme-arbiters",
+        "factionKr": "최고 중재자",
+        "factionEn": "Supreme Arbiters",
+        "lord": false,
+        "sortOrder": 5,
+        "portrait": "./supreme-arbiters-05-pelagios.webp"
       }
     ]
   },
@@ -4638,7 +4771,8 @@
     "class": "궁수",
     "rarity": "전설",
     "factions": [
-      "star-piercers"
+      "star-piercers",
+      "supreme-arbiters"
     ],
     "memberships": [
       {
@@ -4648,6 +4782,14 @@
         "lord": false,
         "sortOrder": 14,
         "portrait": "./star-piercers-14-lady-alexandra.webp"
+      },
+      {
+        "faction": "supreme-arbiters",
+        "factionKr": "최고 중재자",
+        "factionEn": "Supreme Arbiters",
+        "lord": false,
+        "sortOrder": 9,
+        "portrait": "./supreme-arbiters-09-lady-alexandra.webp"
       }
     ]
   },
@@ -4710,7 +4852,8 @@
     "class": "수호자",
     "rarity": "전설",
     "factions": [
-      "star-piercers"
+      "star-piercers",
+      "supreme-arbiters"
     ],
     "memberships": [
       {
@@ -4720,6 +4863,14 @@
         "lord": false,
         "sortOrder": 21,
         "portrait": "./star-piercers-21-erlang-shen.webp"
+      },
+      {
+        "faction": "supreme-arbiters",
+        "factionKr": "최고 중재자",
+        "factionEn": "Supreme Arbiters",
+        "lord": false,
+        "sortOrder": 16,
+        "portrait": "./supreme-arbiters-16-erlang-shen.webp"
       }
     ]
   },
@@ -5373,7 +5524,8 @@
     "class": "전술마스터",
     "rarity": "전설",
     "factions": [
-      "esoteria-order"
+      "esoteria-order",
+      "supreme-arbiters"
     ],
     "memberships": [
       {
@@ -5383,6 +5535,14 @@
         "lord": false,
         "sortOrder": 16,
         "portrait": "./esoteria-order-16-valara.webp"
+      },
+      {
+        "faction": "supreme-arbiters",
+        "factionKr": "최고 중재자",
+        "factionEn": "Supreme Arbiters",
+        "lord": false,
+        "sortOrder": 8,
+        "portrait": "./supreme-arbiters-08-valara.webp"
       }
     ]
   },
@@ -5415,7 +5575,8 @@
     "class": "전사",
     "rarity": "전설",
     "factions": [
-      "esoteria-order"
+      "esoteria-order",
+      "supreme-arbiters"
     ],
     "memberships": [
       {
@@ -5425,6 +5586,14 @@
         "lord": false,
         "sortOrder": 19,
         "portrait": "./esoteria-order-19-thallen.webp"
+      },
+      {
+        "faction": "supreme-arbiters",
+        "factionKr": "최고 중재자",
+        "factionEn": "Supreme Arbiters",
+        "lord": false,
+        "sortOrder": 12,
+        "portrait": "./supreme-arbiters-12-thallen.webp"
       }
     ]
   },
@@ -5457,7 +5626,8 @@
     "class": "마법사",
     "rarity": "전설",
     "factions": [
-      "esoteria-order"
+      "esoteria-order",
+      "supreme-arbiters"
     ],
     "memberships": [
       {
@@ -5467,6 +5637,14 @@
         "lord": false,
         "sortOrder": 26,
         "portrait": "./esoteria-order-26-init.webp"
+      },
+      {
+        "faction": "supreme-arbiters",
+        "factionKr": "최고 중재자",
+        "factionEn": "Supreme Arbiters",
+        "lord": false,
+        "sortOrder": 17,
+        "portrait": "./supreme-arbiters-17-init.webp"
       }
     ]
   },
@@ -5854,6 +6032,71 @@
         "lord": true,
         "sortOrder": 3,
         "portrait": "./chaos-dominion-03-jezebelle.webp"
+      }
+    ]
+  },
+  {
+    "id": "oren",
+    "nameKr": "오렌",
+    "nameEn": "Oren",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "supreme-arbiters"
+    ],
+    "memberships": [
+      {
+        "faction": "supreme-arbiters",
+        "factionKr": "최고 중재자",
+        "factionEn": "Supreme Arbiters",
+        "lord": true,
+        "sortOrder": 1,
+        "portrait": "./supreme-arbiters-01-oren.webp"
+      }
+    ]
+  },
+  {
+    "id": "praetus",
+    "nameKr": "플레트스",
+    "nameEn": "Praetus",
+    "aliases": [
+      "프라에투스"
+    ],
+    "class": "마법사",
+    "rarity": "전설",
+    "factions": [
+      "supreme-arbiters"
+    ],
+    "memberships": [
+      {
+        "faction": "supreme-arbiters",
+        "factionKr": "최고 중재자",
+        "factionEn": "Supreme Arbiters",
+        "lord": true,
+        "sortOrder": 2,
+        "portrait": "./supreme-arbiters-02-praetus.webp"
+      }
+    ]
+  },
+  {
+    "id": "elysia",
+    "nameKr": "에릴시아",
+    "nameEn": "Elysia",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "에픽",
+    "factions": [
+      "supreme-arbiters"
+    ],
+    "memberships": [
+      {
+        "faction": "supreme-arbiters",
+        "factionKr": "최고 중재자",
+        "factionEn": "Supreme Arbiters",
+        "lord": true,
+        "sortOrder": 3,
+        "portrait": "./supreme-arbiters-03-elysia.webp"
       }
     ]
   }
