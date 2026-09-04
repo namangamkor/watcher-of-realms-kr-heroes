@@ -45,6 +45,7 @@ function buildWorkerData(heroes) {
         lord: Boolean(m.lord),
       })),
       contentTags: hero.contentTags || [],
+      details: hero.details || null,
     };
   }
   return out;
