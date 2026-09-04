@@ -470,6 +470,9 @@
         "sortOrder": 7,
         "portrait": "./nightmare-council-hq-07-ares.webp"
       }
+    ],
+    "contentTags": [
+      "abyss"
     ]
   },
   {
@@ -971,6 +974,9 @@
         "sortOrder": 23,
         "portrait": "./infernal-blast-hq-23-cainan.webp"
       }
+    ],
+    "contentTags": [
+      "abyss"
     ]
   },
   {
@@ -1268,6 +1274,9 @@
         "sortOrder": 24,
         "portrait": "./chaos-dominion-hq-24-count-dracula.webp"
       }
+    ],
+    "contentTags": [
+      "abyss"
     ]
   },
   {
@@ -1598,6 +1607,9 @@
         "sortOrder": 7,
         "portrait": "./infernal-blast-hq-07-diaochan.webp"
       }
+    ],
+    "contentTags": [
+      "abyss"
     ]
   },
   {
@@ -1679,6 +1691,9 @@
         "sortOrder": 32,
         "portrait": "./north-throne-hq-32-draelyn.webp"
       }
+    ],
+    "contentTags": [
+      "abyss"
     ]
   },
   {
@@ -1802,6 +1817,9 @@
         "sortOrder": 15,
         "portrait": "./north-throne-hq-15-eirlys.webp"
       }
+    ],
+    "contentTags": [
+      "abyss"
     ]
   },
   {
@@ -1895,6 +1913,9 @@
         "sortOrder": 6,
         "portrait": "./esoteria-hq-06-elowyn.webp"
       }
+    ],
+    "contentTags": [
+      "abyss"
     ]
   },
   {
@@ -2124,6 +2145,9 @@
         "sortOrder": 20,
         "portrait": "./supreme-arbiters-hq-20-ezio-auditore.webp"
       }
+    ],
+    "contentTags": [
+      "abyss"
     ]
   },
   {
@@ -2454,6 +2478,9 @@
         "sortOrder": 21,
         "portrait": "./chaos-dominion-hq-21-gretchen.webp"
       }
+    ],
+    "contentTags": [
+      "abyss"
     ]
   },
   {
@@ -2760,6 +2787,9 @@
         "sortOrder": 14,
         "portrait": "./supreme-arbiters-hq-14-ingrid.webp"
       }
+    ],
+    "contentTags": [
+      "abyss"
     ]
   },
   {
@@ -3087,6 +3117,9 @@
         "sortOrder": 21,
         "portrait": "./supreme-arbiters-hq-21-kassandra.webp"
       }
+    ],
+    "contentTags": [
+      "abyss"
     ]
   },
   {
@@ -3171,6 +3204,9 @@
         "sortOrder": 20,
         "portrait": "./nightmare-council-hq-20-kigiri.webp"
       }
+    ],
+    "contentTags": [
+      "abyss"
     ]
   },
   {
@@ -3429,6 +3465,9 @@
         "sortOrder": 1,
         "portrait": "./watch-guard-hq-01-laya.webp"
       }
+    ],
+    "contentTags": [
+      "abyss"
     ]
   },
   {
@@ -4053,6 +4092,9 @@
         "sortOrder": 32,
         "portrait": "./esoteria-hq-32-moriden.webp"
       }
+    ],
+    "contentTags": [
+      "abyss"
     ]
   },
   {
@@ -4116,6 +4158,9 @@
         "sortOrder": 3,
         "portrait": "./esoteria-hq-03-nastya.webp"
       }
+    ],
+    "contentTags": [
+      "abyss"
     ]
   },
   {
@@ -4218,6 +4263,9 @@
         "sortOrder": 25,
         "portrait": "./esoteria-hq-25-nerissa.webp"
       }
+    ],
+    "contentTags": [
+      "abyss"
     ]
   },
   {
@@ -4350,6 +4398,9 @@
         "sortOrder": 17,
         "portrait": "./esoteria-hq-17-numera.webp"
       }
+    ],
+    "contentTags": [
+      "abyss"
     ]
   },
   {
@@ -4790,6 +4841,9 @@
         "sortOrder": 2,
         "portrait": "./nightmare-council-hq-02-rygar.webp"
       }
+    ],
+    "contentTags": [
+      "abyss"
     ]
   },
   {
@@ -5066,7 +5120,9 @@
     "id": "solcadens",
     "nameKr": "솔카덴스",
     "nameEn": "Solcadens",
-    "aliases": [],
+    "aliases": [
+      "솔카댄스"
+    ],
     "class": "마법사",
     "rarity": "전설",
     "factions": [
@@ -5081,6 +5137,9 @@
         "sortOrder": 1,
         "portrait": "./infernal-blast-hq-01-solcadens.webp"
       }
+    ],
+    "contentTags": [
+      "abyss"
     ]
   },
   {
@@ -5192,6 +5251,9 @@
         "sortOrder": 23,
         "portrait": "./nightmare-council-hq-23-sun-wukong.webp"
       }
+    ],
+    "contentTags": [
+      "abyss"
     ]
   },
   {
@@ -5921,6 +5983,9 @@
         "sortOrder": 21,
         "portrait": "./esoteria-hq-21-vorn.webp"
       }
+    ],
+    "contentTags": [
+      "abyss"
     ]
   },
   {

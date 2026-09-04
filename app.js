@@ -19,7 +19,29 @@ const factionOptions = document.querySelectorAll(".faction-option[data-faction]"
 
 let heroes = [];
 let currentFaction = "all";
-const active = { rarity: "all", class: "all" };
+const active = { rarity: "all", class: "all", content: "all" };
+
+const contentMeta = {
+  abyss: { kr: "심연", en: "Abyss" }
+};
+
+function matchesContent(hero) {
+  return (
+    active.content === "all" ||
+    (hero.contentTags || []).includes(active.content)
+  );
+}
+
+function getContentTagMarkup(hero) {
+  return (hero.contentTags || [])
+    .map((tag) => {
+      const meta = contentMeta[tag];
+      return meta
+        ? `<span class="content-tag ${tag}" title="${meta.en} 추천 영웅">${meta.kr}</span>`
+        : "";
+    })
+    .join("");
+}
 
 const factionMeta = {
   "all": {
@@ -127,6 +149,7 @@ function card(hero, membership, searchMode = false) {
   const showLord = searchMode
     ? memberships.some((item) => item.lord)
     : Boolean(membership?.lord);
+  const contentTags = getContentTagMarkup(hero);
 
   return `
     <article class="hero-card">
@@ -146,6 +169,7 @@ function card(hero, membership, searchMode = false) {
         <h3>${hero.nameKr}</h3>
         <p class="en">${hero.nameEn}</p>
         <p class="meta">${hero.class} · ${searchMode ? factionNames : (membership?.factionKr || "")}</p>
+        ${contentTags ? `<div class="content-tags">${contentTags}</div>` : ""}
       </div>
     </article>
   `;
@@ -154,6 +178,7 @@ function card(hero, membership, searchMode = false) {
 function setAllFilters() {
   active.rarity = "all";
   active.class = "all";
+  active.content = "all";
 
   document.querySelectorAll(".filter").forEach((button) => {
     button.classList.toggle("active", button.dataset.value === "all");
@@ -232,7 +257,7 @@ function updateAllHeroesHeader(resultCount) {
   if (totalCount) totalCount.textContent = heroes.length;
 
   if (resultSummary) {
-    if (active.rarity !== "all" || active.class !== "all") {
+    if (active.rarity !== "all" || active.class !== "all" || active.content !== "all") {
       resultSummary.textContent =
         `조건에 맞는 영웅 ${resultCount}명 · 고유 영웅 ${heroes.length}명`;
     } else {
@@ -273,7 +298,8 @@ function render() {
       .filter((hero) =>
         matchesSearch(hero, query) &&
         (active.rarity === "all" || hero.rarity === active.rarity) &&
-        (active.class === "all" || hero.class === active.class)
+        (active.class === "all" || hero.class === active.class) &&
+        matchesContent(hero)
       )
       .sort((a, b) => a.nameKr.localeCompare(b.nameKr, "ko"));
 
@@ -292,7 +318,8 @@ function render() {
     const filtered = heroes
       .filter((hero) =>
         (active.rarity === "all" || hero.rarity === active.rarity) &&
-        (active.class === "all" || hero.class === active.class)
+        (active.class === "all" || hero.class === active.class) &&
+        matchesContent(hero)
       )
       .sort((a, b) => a.nameKr.localeCompare(b.nameKr, "ko"));
 
@@ -317,7 +344,8 @@ function render() {
     .filter(({ hero, membership }) =>
       Boolean(membership) &&
       (active.rarity === "all" || hero.rarity === active.rarity) &&
-      (active.class === "all" || hero.class === active.class)
+      (active.class === "all" || hero.class === active.class) &&
+      matchesContent(hero)
     )
     .sort((a, b) => a.membership.sortOrder - b.membership.sortOrder);
 
@@ -330,7 +358,7 @@ function render() {
   emptyState.hidden = filtered.length !== 0;
   visibleCount.textContent = filtered.length;
 
-  if (active.rarity !== "all" || active.class !== "all") {
+  if (active.rarity !== "all" || active.class !== "all" || active.content !== "all") {
     resultSummary.textContent =
       `조건에 맞는 영웅 ${filtered.length}명 · 전체 등록 ${meta.total}명`;
   } else {
@@ -338,7 +366,7 @@ function render() {
   }
 }
 
-fetch("./heroes.json?v=2.6.11")
+fetch("./heroes.json?v=2.6.12")
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
@@ -357,7 +385,7 @@ searchInput.addEventListener("input", () => {
   const query = searchInput.value.trim();
 
   // 이름 검색은 전 진영 통합 검색 모드.
-  // 검색을 시작하는 순간 기존 희귀도/직업 필터를 전체로 초기화한다.
+  // 검색을 시작하는 순간 기존 희귀도/직업/콘텐츠 필터를 전체로 초기화한다.
   if (query) {
     setAllFilters();
   }

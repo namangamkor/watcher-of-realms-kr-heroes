@@ -28,8 +28,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="나만겜 영웅도감" />
   <link rel="apple-touch-icon" href="./icon-192.png" />
-  <link rel="manifest" href="./manifest.webmanifest?v=2.6.11" />
-  <link rel="stylesheet" href="./styles.css?v=2.6.11" />
+  <link rel="manifest" href="./manifest.webmanifest?v=2.6.12" />
+  <link rel="stylesheet" href="./styles.css?v=2.6.12" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -287,6 +287,14 @@
           <button class="filter" data-filter-type="class" data-value="수호자">수호자</button>
           <button class="filter" data-filter-type="class" data-value="전술마스터">전술마스터</button>
         </div>
+
+        <div class="filter-group content-filter-group">
+          <span>콘텐츠</span>
+          <button class="filter active" data-filter-type="content" data-value="all">전체</button>
+          <button class="filter content-filter" data-filter-type="content" data-value="abyss">
+            심연 <small>Abyss</small>
+          </button>
+        </div>
       </div>
 
       <div id="heroGrid" class="hero-grid" aria-live="polite"></div>
@@ -332,6 +340,6 @@
     </div>
   </div>
 
-  <script src="./app.js?v=2.6.11"></script>
+  <script src="./app.js?v=2.6.12"></script>
 </body>
 </html>

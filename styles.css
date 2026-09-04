@@ -1277,3 +1277,55 @@ body.modal-open {
 .faction-select-shell {
   width: 100%;
 }
+
+
+/* v2.6.12 — 콘텐츠 필터 / 심연 추천 태그 */
+.content-filter-group {
+  padding-top: 2px;
+}
+
+.content-filter small {
+  margin-left: 3px;
+  opacity: .72;
+  font-size: 9px;
+}
+
+.content-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 9px;
+}
+
+.content-tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 22px;
+  padding: 3px 8px;
+  border: 1px solid rgba(116, 185, 255, .27);
+  border-radius: 999px;
+  background: rgba(64, 126, 197, .10);
+  color: #9fd0ff;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: -.015em;
+}
+
+.content-tag.abyss::before {
+  content: "◆";
+  margin-right: 4px;
+  color: #73b9ff;
+  font-size: 7px;
+}
+
+@media (max-width: 560px) {
+  .filter-group > span {
+    width: 48px;
+  }
+
+  .content-tag {
+    min-height: 20px;
+    padding: 2px 7px;
+    font-size: 9px;
+  }
+}
