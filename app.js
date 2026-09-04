@@ -155,6 +155,7 @@ function card(hero, membership, searchMode = false) {
   const contentTags = getContentTagMarkup(hero);
 
   return `
+    <a class="hero-card-link" href="/hero/${hero.id}/" aria-label="${hero.nameKr} (${hero.nameEn}) 상세 보기">
     <article class="hero-card">
       <div class="card-visual">
         ${membership?.portrait
@@ -175,6 +176,7 @@ function card(hero, membership, searchMode = false) {
         ${contentTags ? `<div class="content-tags">${contentTags}</div>` : ""}
       </div>
     </article>
+    </a>
   `;
 }
 
@@ -369,7 +371,7 @@ function render() {
   }
 }
 
-fetch("./heroes.json?v=2.6.13")
+fetch("./heroes.json?v=2.7.0")
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();

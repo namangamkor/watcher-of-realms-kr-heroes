@@ -528,3 +528,21 @@ UI에는 `전체`까지 포함해 5개 선택 버튼이 표시됩니다.
 - 희귀도 / 직업 / 콘텐츠 필터 조합 가능
 - 카드에 각 콘텐츠 태그를 동시에 표시
 - 캐시 버전 `v2.6.13`으로 갱신
+
+
+## v2.7.0 변경 — 영웅 상세 URL / SEO 상세페이지
+
+- 기존 검색/필터 영웅도감 디자인과 동작은 유지
+- 모든 영웅 카드에 실제 내부 링크 추가: `/hero/{hero-id}/`
+- 253명 전원 개별 영웅 URL 제공
+- 영웅 URL은 Cloudflare Pages `_worker.js`가 서버에서 실제 HTML을 생성하므로 검색엔진이 JavaScript 실행 없이 title / description / 본문을 읽을 수 있음
+- 영웅별 title 형식: `초선(DiaoChan) - 워처 오브 렐름 영웅도감 | 나만겜`
+- 영웅별 canonical / meta description / Open Graph / JSON-LD 추가
+- 상세페이지에 한국명, 영문명, 희귀도, 직업, 소속 진영, 콘텐츠 태그 표시
+- `sitemap.xml`을 메인 1개 + 영웅 253개 = 총 254개 URL로 확장
+- 잘못된 영웅 URL은 404 + noindex 처리
+- `/hero/id` 접근 시 canonical 형식인 `/hero/id/`로 301 정규화
+- 캐시 버전 `v2.7.0`
+
+### 배포 참고
+`_worker.js`는 Cloudflare Pages Advanced Mode를 사용합니다. 영웅 상세 URL 외 요청은 `env.ASSETS.fetch()`로 기존 정적 사이트를 그대로 전달하므로 메인 도감은 기존 방식 그대로 동작합니다.
