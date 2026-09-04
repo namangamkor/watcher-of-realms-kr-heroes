@@ -466,3 +466,12 @@
 - 화면 메인 카피를 `한국 이름과 해외 이름, / 이제 헷갈리지 않게.`로 복원
 - v2.6.8 Google 검색용 title / meta description / Open Graph / JSON-LD SEO 문구는 그대로 유지
 - 캐시 버전 `v2.6.9`로 갱신
+
+
+## v2.6.10 변경 — 메인 카피 수정
+
+- 화면 메인 카피를 아래 문구로 변경:
+  - `렐름, 한국 이름과 해외 이름`
+  - `이제 헷갈리지 않게.`
+- Google 검색용 title / meta description / Open Graph / JSON-LD SEO 문구는 그대로 유지
+- 캐시 버전 `v2.6.10`으로 갱신
