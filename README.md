@@ -475,3 +475,12 @@
   - `이제 헷갈리지 않게.`
 - Google 검색용 title / meta description / Open Graph / JSON-LD SEO 문구는 그대로 유지
 - 캐시 버전 `v2.6.10`으로 갱신
+
+
+## v2.6.11 변경 — 메인 카피 원문 복귀
+
+- 화면 메인 카피를 원래 문구로 복귀:
+  - `한국 이름과 해외 이름,`
+  - `이제 헷갈리지 않게.`
+- Google 검색용 title / meta description / Open Graph / JSON-LD SEO 문구는 그대로 유지
+- 캐시 버전 `v2.6.11`로 갱신
