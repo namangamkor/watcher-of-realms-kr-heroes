@@ -38,12 +38,12 @@ function heroDescription(hero) {
   const factions = hero.memberships.map((m) => m.kr).filter(Boolean).join(" · ");
   const contents = hero.contentTags.map((tag) => CONTENT_META[tag]?.kr).filter(Boolean).join(" · ");
   const contentText = contents ? ` 추천 콘텐츠: ${contents}.` : "";
-  return `워처 오브 렐름 ${hero.nameKr}(${hero.nameEn}) 영웅 정보. ${hero.rarity} ${hero.class}, 소속 진영 ${factions}.${contentText} 한국명과 영문명을 나만겜 영웅도감에서 확인하세요.`;
+  return `워처 오브 렐름 ${hero.nameKr}(${hero.nameEn}) 영웅 정보. ${hero.rarity} ${hero.class}, 소속 진영 ${factions}.${contentText} 한국명과 영문명을 나만겜 한국 영웅 위키에서 확인하세요.`;
 }
 
 function renderHero(hero) {
   const canonical = `${SITE}/hero/${encodeURIComponent(hero.id)}/`;
-  const title = `${hero.nameKr}(${hero.nameEn}) - 워처 오브 렐름 영웅도감 | 나만겜`;
+  const title = `${hero.nameKr}(${hero.nameEn}) - 워처 오브 렐름 한국 영웅 위키 | 나만겜`;
   const description = heroDescription(hero);
   const factions = hero.memberships.map((m) => m.kr).filter(Boolean);
   const contentNames = hero.contentTags.map((tag) => CONTENT_META[tag]?.kr).filter(Boolean);
@@ -72,7 +72,7 @@ function renderHero(hero) {
     "inLanguage": "ko-KR",
     "isPartOf": {
       "@type": "WebSite",
-      "name": "나만겜 워처 오브 렐름 한영 영웅도감",
+      "name": "나만겜 워처 오브 렐름 한국 영웅 위키",
       "url": `${SITE}/`
     },
     "mainEntity": {
@@ -101,7 +101,7 @@ function renderHero(hero) {
   <link rel="icon" href="/icon-192.png" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="ko_KR" />
-  <meta property="og:site_name" content="나만겜 워처 오브 렐름 한영 영웅도감" />
+  <meta property="og:site_name" content="나만겜 워처 오브 렐름 한국 영웅 위키" />
   <meta property="og:title" content="${esc(title)}" />
   <meta property="og:description" content="${esc(description)}" />
   <meta property="og:url" content="${canonical}" />
@@ -110,13 +110,13 @@ function renderHero(hero) {
   <meta name="twitter:title" content="${esc(title)}" />
   <meta name="twitter:description" content="${esc(description)}" />
   <meta name="twitter:image" content="${esc(image)}" />
-  <link rel="stylesheet" href="/styles.css?v=2.7.1" />
+  <link rel="stylesheet" href="/styles.css?v=2.7.2" />
   <script type="application/ld+json">${JSON.stringify(jsonLd).replaceAll("<", "\\u003c")}</script>
 </head>
 <body class="hero-detail-page">
   <header class="detail-topbar">
     <div class="wrap detail-topbar-inner">
-      <a class="detail-brand" href="/">나만겜 <span>워처 오브 렐름 한영 영웅도감</span></a>
+      <a class="detail-brand" href="/">나만겜 <span>워처 오브 렐름 한국 영웅 위키</span></a>
       <a class="detail-back" href="/">← 전체 도감</a>
     </div>
   </header>
@@ -191,7 +191,7 @@ function renderHero(hero) {
 }
 
 function renderNotFound() {
-  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>영웅을 찾을 수 없습니다 | 나만겜</title><link rel="stylesheet" href="/styles.css?v=2.7.1"></head><body class="hero-detail-page"><main class="wrap detail-not-found"><p class="section-kicker">404 · HERO NOT FOUND</p><h1>영웅을 찾을 수 없습니다.</h1><p>주소를 다시 확인하거나 전체 영웅도감에서 찾아보세요.</p><a class="detail-back-home" href="/">전체 영웅도감으로 이동 →</a></main></body></html>`;
+  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>영웅을 찾을 수 없습니다 | 나만겜</title><link rel="stylesheet" href="/styles.css?v=2.7.2"></head><body class="hero-detail-page"><main class="wrap detail-not-found"><p class="section-kicker">404 · HERO NOT FOUND</p><h1>영웅을 찾을 수 없습니다.</h1><p>주소를 다시 확인하거나 전체 영웅도감에서 찾아보세요.</p><a class="detail-back-home" href="/">전체 영웅도감으로 이동 →</a></main></body></html>`;
 }
 
 export default {

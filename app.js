@@ -400,7 +400,7 @@ function render() {
   }
 }
 
-fetch("./heroes.json?v=2.7.1")
+fetch("./heroes.json?v=2.7.2")
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
@@ -549,7 +549,7 @@ function openInstallModal(mode = "install") {
   }
 
   installModalBody.innerHTML = `
-    <p>홈 화면에 <strong>나만겜 영웅도감</strong> 아이콘을 추가하고 앱처럼 바로 실행할 수 있습니다.</p>
+    <p>홈 화면에 <strong>나만겜 영웅 위키</strong> 아이콘을 추가하고 앱처럼 바로 실행할 수 있습니다.</p>
     <p class="install-note">설치해도 별도 회원가입은 필요하지 않습니다.</p>
   `;
   installModalAction.textContent = "지금 설치";
