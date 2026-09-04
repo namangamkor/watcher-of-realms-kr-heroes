@@ -1276,7 +1276,10 @@
       }
     ],
     "contentTags": [
-      "abyss"
+      "abyss",
+      "arena-air",
+      "arena-aoe",
+      "arena-single"
     ]
   },
   {
@@ -1609,7 +1612,10 @@
       }
     ],
     "contentTags": [
-      "abyss"
+      "abyss",
+      "arena-air",
+      "arena-aoe",
+      "arena-single"
     ]
   },
   {
@@ -1819,7 +1825,9 @@
       }
     ],
     "contentTags": [
-      "abyss"
+      "abyss",
+      "arena-aoe",
+      "arena-single"
     ]
   },
   {
@@ -2018,6 +2026,9 @@
         "sortOrder": 16,
         "portrait": "./supreme-arbiters-hq-16-erlang-shen.webp"
       }
+    ],
+    "contentTags": [
+      "arena-air"
     ]
   },
   {
@@ -2113,6 +2124,9 @@
         "sortOrder": 3,
         "portrait": "./cursed-cult-hq-03-ezareth.webp"
       }
+    ],
+    "contentTags": [
+      "arena-aoe"
     ]
   },
   {
@@ -2480,7 +2494,9 @@
       }
     ],
     "contentTags": [
-      "abyss"
+      "abyss",
+      "arena-air",
+      "arena-single"
     ]
   },
   {
@@ -2789,7 +2805,8 @@
       }
     ],
     "contentTags": [
-      "abyss"
+      "abyss",
+      "arena-aoe"
     ]
   },
   {
@@ -2841,6 +2858,9 @@
         "sortOrder": 2,
         "portrait": "./star-piercers-hq-02-iovar.webp"
       }
+    ],
+    "contentTags": [
+      "arena-air"
     ]
   },
   {
@@ -2955,6 +2975,9 @@
         "sortOrder": 3,
         "portrait": "./chaos-dominion-hq-03-jezebelle.webp"
       }
+    ],
+    "contentTags": [
+      "arena-air"
     ]
   },
   {
@@ -3153,6 +3176,9 @@
         "sortOrder": 10,
         "portrait": "./supreme-arbiters-hq-10-khadgrim.webp"
       }
+    ],
+    "contentTags": [
+      "arena-single"
     ]
   },
   {
@@ -4242,6 +4268,10 @@
         "sortOrder": 27,
         "portrait": "./esoteria-hq-27-ne-zha.webp"
       }
+    ],
+    "contentTags": [
+      "arena-air",
+      "arena-aoe"
     ]
   },
   {
@@ -4464,6 +4494,9 @@
         "sortOrder": 1,
         "portrait": "./supreme-arbiters-hq-01-oren.webp"
       }
+    ],
+    "contentTags": [
+      "arena-aoe"
     ]
   },
   {
@@ -4566,6 +4599,9 @@
         "sortOrder": 19,
         "portrait": "./chaos-dominion-hq-19-pierre.webp"
       }
+    ],
+    "contentTags": [
+      "arena-aoe"
     ]
   },
   {
@@ -4799,6 +4835,9 @@
         "sortOrder": 30,
         "portrait": "./cursed-cult-hq-30-rosalia.webp"
       }
+    ],
+    "contentTags": [
+      "arena-aoe"
     ]
   },
   {
@@ -5030,6 +5069,9 @@
         "sortOrder": 18,
         "portrait": "./chaos-dominion-hq-18-sergei.webp"
       }
+    ],
+    "contentTags": [
+      "arena-single"
     ]
   },
   {
@@ -5093,6 +5135,9 @@
         "sortOrder": 8,
         "portrait": "./star-piercers-hq-08-silas.webp"
       }
+    ],
+    "contentTags": [
+      "arena-air"
     ]
   },
   {
@@ -5253,7 +5298,8 @@
       }
     ],
     "contentTags": [
-      "abyss"
+      "abyss",
+      "arena-single"
     ]
   },
   {
@@ -5284,6 +5330,10 @@
         "sortOrder": 23,
         "portrait": "./chaos-dominion-hq-23-sythra.webp"
       }
+    ],
+    "contentTags": [
+      "arena-air",
+      "arena-single"
     ]
   },
   {
@@ -5593,6 +5643,10 @@
         "sortOrder": 8,
         "portrait": "./supreme-arbiters-hq-08-valara.webp"
       }
+    ],
+    "contentTags": [
+      "arena-air",
+      "arena-aoe"
     ]
   },
   {
@@ -5614,6 +5668,9 @@
         "sortOrder": 2,
         "portrait": "./chaos-dominion-hq-02-valderon.webp"
       }
+    ],
+    "contentTags": [
+      "arena-single"
     ]
   },
   {
@@ -6163,6 +6220,9 @@
         "sortOrder": 19,
         "portrait": "./star-piercers-hq-19-yuri.webp"
       }
+    ],
+    "contentTags": [
+      "arena-air"
     ]
   },
   {

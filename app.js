@@ -22,7 +22,10 @@ let currentFaction = "all";
 const active = { rarity: "all", class: "all", content: "all" };
 
 const contentMeta = {
-  abyss: { kr: "심연", en: "Abyss" }
+  abyss: { kr: "심연", en: "Abyss" },
+  "arena-air": { kr: "아레나공중", en: "Arena Air" },
+  "arena-aoe": { kr: "아레나광역", en: "Arena AoE" },
+  "arena-single": { kr: "아레나단일", en: "Arena Single Target" }
 };
 
 function matchesContent(hero) {
@@ -366,7 +369,7 @@ function render() {
   }
 }
 
-fetch("./heroes.json?v=2.6.12")
+fetch("./heroes.json?v=2.6.13")
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();

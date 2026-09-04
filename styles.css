@@ -1329,3 +1329,57 @@ body.modal-open {
     font-size: 9px;
   }
 }
+
+
+/* v2.6.13 — 아레나 콘텐츠 3종 */
+.content-tag.arena-air {
+  border-color: rgba(91, 211, 226, .30);
+  background: rgba(52, 166, 188, .11);
+  color: #9eeaf2;
+}
+.content-tag.arena-air::before {
+  content: "▲";
+  margin-right: 4px;
+  color: #6bdce8;
+  font-size: 7px;
+}
+
+.content-tag.arena-aoe {
+  border-color: rgba(185, 126, 255, .28);
+  background: rgba(127, 78, 191, .10);
+  color: #d3b0ff;
+}
+.content-tag.arena-aoe::before {
+  content: "✦";
+  margin-right: 4px;
+  color: #c695ff;
+  font-size: 8px;
+}
+
+.content-tag.arena-single {
+  border-color: rgba(244, 177, 89, .29);
+  background: rgba(184, 117, 42, .10);
+  color: #ffd09a;
+}
+.content-tag.arena-single::before {
+  content: "◆";
+  margin-right: 4px;
+  color: #f5b866;
+  font-size: 7px;
+}
+
+.content-filter-group .filter[data-value="arena-air"].active {
+  border-color: #75dce8;
+  background: #75dce8;
+  color: #071316;
+}
+.content-filter-group .filter[data-value="arena-aoe"].active {
+  border-color: #c9a1ff;
+  background: #c9a1ff;
+  color: #170f21;
+}
+.content-filter-group .filter[data-value="arena-single"].active {
+  border-color: #f3bd77;
+  background: #f3bd77;
+  color: #1c1208;
+}
