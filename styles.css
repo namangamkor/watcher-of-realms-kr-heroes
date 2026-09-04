@@ -1809,3 +1809,35 @@ body.modal-open {
 }
 
 .detail-source-standalone{margin:14px 4px 0;color:#667286;font-size:9px;line-height:1.6;}
+
+
+/* =========================================================
+   v2.8.5 — Wiki report / correction channel
+   ========================================================= */
+.footer-actions { display:flex; align-items:center; gap:10px; flex-wrap:wrap; justify-content:flex-end; }
+.footer-report {
+  display:inline-flex; align-items:center; gap:6px;
+  padding:9px 12px; border:1px solid rgba(229,189,105,.30); border-radius:999px;
+  color:#c9b27d; text-decoration:none; font-size:11px; font-weight:900;
+  background:rgba(229,189,105,.05);
+}
+.footer-report:hover { border-color:rgba(229,189,105,.62); background:rgba(229,189,105,.10); }
+
+.detail-report {
+  margin-top:18px; padding:20px 22px; display:flex; align-items:center; justify-content:space-between; gap:20px;
+  border:1px solid rgba(123,163,204,.24); border-radius:16px;
+  background:linear-gradient(120deg, rgba(83,122,163,.08), rgba(18,24,34,.70) 62%);
+}
+.detail-report h2 { margin:4px 0 0; font-size:18px; }
+.detail-report p:not(.section-kicker) { margin:7px 0 0; color:#7f8da2; font-size:11px; line-height:1.7; max-width:680px; }
+.detail-report > a {
+  flex:0 0 auto; padding:10px 13px; border:1px solid rgba(229,189,105,.50); border-radius:999px;
+  color:#e7c878; text-decoration:none; font-size:11px; font-weight:900; background:rgba(229,189,105,.06);
+}
+.detail-report > a:hover { border-color:var(--gold); background:rgba(229,189,105,.11); }
+.detail-footer-links { display:flex; gap:14px; align-items:center; flex-wrap:wrap; }
+
+@media (max-width:760px) {
+  .footer-actions { justify-content:flex-start; }
+  .detail-report { align-items:flex-start; flex-direction:column; }
+}
