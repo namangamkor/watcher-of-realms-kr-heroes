@@ -55,54 +55,83 @@ const factionMeta = {
   "watch-guard": {
     kr: "파수꾼 소대",
     en: "Watch Guard",
-    total: 40
+    total: 0
   },
   "north-throne": {
     kr: "북쪽 경계 왕좌",
     en: "North Throne",
-    total: 49
+    total: 0
   },
   "nightmare-council": {
     kr: "악몽 의회",
     en: "Nightmare Council",
-    total: 39
+    total: 0
   },
   "cursed-cult": {
     kr: "저주신교",
     en: "Cursed Cult",
-    total: 40
+    total: 0
   },
   "infernal-blast": {
     kr: "연옥 폭파",
     en: "Infernal Blast",
-    total: 33
+    total: 0
   },
   "star-piercers": {
     kr: "관성의 화살",
     en: "Star Piercers",
-    total: 44
+    total: 0
   },
   "esoteria-order": {
     kr: "비법회",
     en: "Esoteria Order",
-    total: 48
+    total: 0
   },
   "chaos-dominion": {
     kr: "혼돈 정복자",
     en: "Chaos Dominion",
-    total: 27
+    total: 0
   },
   "supreme-arbiters": {
     kr: "최고 중재자",
     en: "Supreme Arbiters",
-    total: 22
+    total: 0
   },
   "unnamable": {
     kr: "알 수 없는 자",
     en: "Unnamable",
-    total: 2
+    total: 0
   }
 };
+
+function buildFactionTotals(data) {
+  const totals = { all: data.length };
+
+  data.forEach((hero) => {
+    (hero.memberships || []).forEach((membership) => {
+      if (!membership.faction) return;
+      totals[membership.faction] = (totals[membership.faction] || 0) + 1;
+    });
+  });
+
+  return totals;
+}
+
+function syncFactionTotalsFromHeroes() {
+  const totals = buildFactionTotals(heroes);
+
+  Object.entries(factionMeta).forEach(([factionId, meta]) => {
+    meta.total = totals[factionId] || 0;
+  });
+
+  factionOptions.forEach((option) => {
+    const countNode = option.querySelector(".faction-option-count");
+    if (!countNode) return;
+
+    const total = factionMeta[option.dataset.faction]?.total ?? 0;
+    countNode.textContent = `${total}명`;
+  });
+}
 
 const normalize = (value = "") =>
   value.toString().toLowerCase().normalize("NFKC").replace(/\s+/g, "").trim();
@@ -371,14 +400,14 @@ function render() {
   }
 }
 
-fetch("./heroes.json?v=2.7.0")
+fetch("./heroes.json?v=2.7.1")
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
   })
   .then((data) => {
     heroes = data;
-    factionMeta.all.total = heroes.length;
+    syncFactionTotalsFromHeroes();
     render();
   })
   .catch((error) => {

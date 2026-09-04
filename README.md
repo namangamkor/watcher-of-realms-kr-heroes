@@ -546,3 +546,24 @@ UI에는 `전체`까지 포함해 5개 선택 버튼이 표시됩니다.
 
 ### 배포 참고
 `_worker.js`는 Cloudflare Pages Advanced Mode를 사용합니다. 영웅 상세 URL 외 요청은 `env.ASSETS.fetch()`로 기존 정적 사이트를 그대로 전달하므로 메인 도감은 기존 방식 그대로 동작합니다.
+
+
+## v2.7.1 변경 — QA / 동기화 보강
+
+- `generate-hero-seo-assets.mjs` 추가
+  - `heroes.json` 하나를 기준으로 `_worker.js`와 `sitemap.xml`을 다시 생성
+  - 홈의 초기 카운트/요약 문구도 함께 동기화
+  - 중복 hero id, 빈 데이터, sitemap URL 개수 등을 검증
+- 상세페이지 한국어 조사 처리 개선
+  - `초선은`, `키기리는`처럼 영웅 이름 뒤의 `은/는`을 자동 처리
+- 홈 초기 안내문 QA 수정
+  - 더 이상 `파수꾼 소대 40명 등록 완료` 같은 과거 문구가 남지 않음
+  - 현재 기준 `고유 영웅 253명 등록 완료`로 맞춤
+- 진영 선택 드롭다운의 인원 수를 런타임에 `heroes.json`에서 자동 계산하도록 변경
+  - 앞으로 영웅 추가/이동 시 JS가 자동 반영
+- 정적/상세 자산 버전 갱신: `2.7.1`
+
+### 앞으로 영웅 데이터 수정 시 추천 절차
+1. `heroes.json` 수정
+2. 사이트 루트에서 `node generate-hero-seo-assets.mjs` 실행
+3. 생성된 `_worker.js`, `sitemap.xml`, `index.html` 변경분 확인 후 배포

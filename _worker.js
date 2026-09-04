@@ -26,6 +26,14 @@ function rarityClass(rarity) {
   return "unknown";
 }
 
+function topicParticle(word = "") {
+  const trimmed = String(word).trim();
+  if (!trimmed) return "는";
+  const last = trimmed.charCodeAt(trimmed.length - 1);
+  if (last < 0xac00 || last > 0xd7a3) return "는";
+  return ((last - 0xac00) % 28) === 0 ? "는" : "은";
+}
+
 function heroDescription(hero) {
   const factions = hero.memberships.map((m) => m.kr).filter(Boolean).join(" · ");
   const contents = hero.contentTags.map((tag) => CONTENT_META[tag]?.kr).filter(Boolean).join(" · ");
@@ -38,10 +46,9 @@ function renderHero(hero) {
   const title = `${hero.nameKr}(${hero.nameEn}) - 워처 오브 렐름 영웅도감 | 나만겜`;
   const description = heroDescription(hero);
   const factions = hero.memberships.map((m) => m.kr).filter(Boolean);
-  const factionEnglish = hero.memberships.map((m) => m.en).filter(Boolean);
   const contentNames = hero.contentTags.map((tag) => CONTENT_META[tag]?.kr).filter(Boolean);
-  const contentEnglish = hero.contentTags.map((tag) => CONTENT_META[tag]?.en).filter(Boolean);
   const image = hero.portrait ? `${SITE}${hero.portrait}` : `${SITE}/icon-512.png`;
+  const particle = topicParticle(hero.nameKr);
 
   const factionBadges = hero.memberships.map((m) =>
     `<span class="detail-faction-chip">${m.lord ? '<b>영주</b>' : ''}${esc(m.kr)}<small>${esc(m.en)}</small></span>`
@@ -103,7 +110,7 @@ function renderHero(hero) {
   <meta name="twitter:title" content="${esc(title)}" />
   <meta name="twitter:description" content="${esc(description)}" />
   <meta name="twitter:image" content="${esc(image)}" />
-  <link rel="stylesheet" href="/styles.css?v=2.7.0" />
+  <link rel="stylesheet" href="/styles.css?v=2.7.1" />
   <script type="application/ld+json">${JSON.stringify(jsonLd).replaceAll("<", "\\u003c")}</script>
 </head>
 <body class="hero-detail-page">
@@ -151,7 +158,7 @@ function renderHero(hero) {
         <h2>소속 진영</h2>
       </div>
       <div class="detail-faction-list">${factionBadges}</div>
-      <p class="detail-readable-copy">${esc(hero.nameKr)}은(는) ${esc(factions.join(" · "))} 소속의 ${esc(hero.rarity)} ${esc(hero.class)} 영웅입니다.</p>
+      <p class="detail-readable-copy">${esc(hero.nameKr)}${particle} ${esc(factions.join(" · "))} 소속의 ${esc(hero.rarity)} ${esc(hero.class)} 영웅입니다.</p>
     </section>
 
     <section class="detail-section">
@@ -184,7 +191,7 @@ function renderHero(hero) {
 }
 
 function renderNotFound() {
-  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>영웅을 찾을 수 없습니다 | 나만겜</title><link rel="stylesheet" href="/styles.css?v=2.7.0"></head><body class="hero-detail-page"><main class="wrap detail-not-found"><p class="section-kicker">404 · HERO NOT FOUND</p><h1>영웅을 찾을 수 없습니다.</h1><p>주소를 다시 확인하거나 전체 영웅도감에서 찾아보세요.</p><a class="detail-back-home" href="/">전체 영웅도감으로 이동 →</a></main></body></html>`;
+  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>영웅을 찾을 수 없습니다 | 나만겜</title><link rel="stylesheet" href="/styles.css?v=2.7.1"></head><body class="hero-detail-page"><main class="wrap detail-not-found"><p class="section-kicker">404 · HERO NOT FOUND</p><h1>영웅을 찾을 수 없습니다.</h1><p>주소를 다시 확인하거나 전체 영웅도감에서 찾아보세요.</p><a class="detail-back-home" href="/">전체 영웅도감으로 이동 →</a></main></body></html>`;
 }
 
 export default {
