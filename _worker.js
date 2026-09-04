@@ -250,7 +250,7 @@ function renderHero(hero) {
   <meta name="twitter:title" content="${esc(title)}" />
   <meta name="twitter:description" content="${esc(description)}" />
   <meta name="twitter:image" content="${esc(image)}" />
-  <link rel="stylesheet" href="/styles.css?v=2.9.1" />
+  <link rel="stylesheet" href="/styles.css?v=2.9.2" />
   <script type="application/ld+json">${JSON.stringify(jsonLd).replaceAll("<", "\\u003c")}</script>
 </head>
 <body class="hero-detail-page">
@@ -345,7 +345,7 @@ function renderHero(hero) {
 }
 
 function renderNotFound() {
-  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>영웅을 찾을 수 없습니다 | 나만겜</title><link rel="stylesheet" href="/styles.css?v=2.9.1"></head><body class="hero-detail-page"><main class="wrap detail-not-found"><p class="section-kicker">404 · HERO NOT FOUND</p><h1>영웅을 찾을 수 없습니다.</h1><p>주소를 다시 확인하거나 전체 영웅도감에서 찾아보세요.</p><a class="detail-back-home" href="/">전체 영웅도감으로 이동 →</a></main></body></html>`;
+  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>영웅을 찾을 수 없습니다 | 나만겜</title><link rel="stylesheet" href="/styles.css?v=2.9.2"></head><body class="hero-detail-page"><main class="wrap detail-not-found"><p class="section-kicker">404 · HERO NOT FOUND</p><h1>영웅을 찾을 수 없습니다.</h1><p>주소를 다시 확인하거나 전체 영웅도감에서 찾아보세요.</p><a class="detail-back-home" href="/">전체 영웅도감으로 이동 →</a></main></body></html>`;
 }
 
 export default {
