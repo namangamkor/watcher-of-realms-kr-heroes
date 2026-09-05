@@ -183,7 +183,7 @@ function heroDescription(hero) {
 
 function renderHero(hero) {
   const canonical = `${SITE}/hero/${encodeURIComponent(hero.id)}/`;
-  const title = `${hero.nameKr}(${hero.nameEn}) - 워처 오브 렐름 한국 영웅 위키 | 나만겜`;
+  const title = `나만겜 | ${hero.nameKr}(${hero.nameEn}) - 워처 오브 렐름 한국 영웅 위키`;
   const description = heroDescription(hero);
   const factions = hero.memberships.map((m) => m.kr).filter(Boolean);
   const contentNames = hero.contentTags.map((tag) => CONTENT_META[tag]?.kr).filter(Boolean);
@@ -345,7 +345,7 @@ function renderHero(hero) {
 }
 
 function renderNotFound() {
-  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>영웅을 찾을 수 없습니다 | 나만겜</title><link rel="stylesheet" href="/styles.css?v=2.9.3"></head><body class="hero-detail-page"><main class="wrap detail-not-found"><p class="section-kicker">404 · HERO NOT FOUND</p><h1>영웅을 찾을 수 없습니다.</h1><p>주소를 다시 확인하거나 전체 영웅도감에서 찾아보세요.</p><a class="detail-back-home" href="/">전체 영웅도감으로 이동 →</a></main></body></html>`;
+  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>나만겜 | 영웅을 찾을 수 없습니다</title><link rel="stylesheet" href="/styles.css?v=2.9.3"></head><body class="hero-detail-page"><main class="wrap detail-not-found"><p class="section-kicker">404 · HERO NOT FOUND</p><h1>영웅을 찾을 수 없습니다.</h1><p>주소를 다시 확인하거나 전체 영웅도감에서 찾아보세요.</p><a class="detail-back-home" href="/">전체 영웅도감으로 이동 →</a></main></body></html>`;
 }
 
 export default {
