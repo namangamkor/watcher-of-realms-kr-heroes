@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v296";
+const CACHE_NAME = "namangam-wor-v297";
 
 const CORE_ASSETS = [
   "./",
@@ -7,6 +7,7 @@ const CORE_ASSETS = [
   "./app.js",
   "./heroes.json",
   "./manifest.webmanifest",
+  "./favicon-crystal-v1.png",
   "./namangam-subscribe.png",
   "./icon-192.png",
   "./icon-512.png",

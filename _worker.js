@@ -275,7 +275,8 @@ function renderHero(hero) {
   <meta name="description" content="${esc(description)}" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
   <link rel="canonical" href="${canonical}" />
-  <link rel="icon" href="/icon-192.png" />
+  <link rel="icon" type="image/png" sizes="64x64" href="/favicon-crystal-v1.png?v=2.9.7" />
+  <link rel="apple-touch-icon" href="/icon-192.png?v=2.9.7" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="ko_KR" />
   <meta property="og:site_name" content="나만겜 워처 오브 렐름 한국 영웅 위키" />
@@ -287,7 +288,7 @@ function renderHero(hero) {
   <meta name="twitter:title" content="${esc(title)}" />
   <meta name="twitter:description" content="${esc(description)}" />
   <meta name="twitter:image" content="${esc(image)}" />
-  <link rel="stylesheet" href="/styles.css?v=2.9.6" />
+  <link rel="stylesheet" href="/styles.css?v=2.9.7" />
   <script type="application/ld+json">${JSON.stringify(jsonLd).replaceAll("<", "\\u003c")}</script>
 </head>
 <body class="hero-detail-page">
@@ -384,7 +385,7 @@ function renderHero(hero) {
 }
 
 function renderNotFound() {
-  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>나만겜 | 영웅을 찾을 수 없습니다</title><link rel="stylesheet" href="/styles.css?v=2.9.6"></head><body class="hero-detail-page"><main class="wrap detail-not-found"><p class="section-kicker">404 · HERO NOT FOUND</p><h1>영웅을 찾을 수 없습니다.</h1><p>주소를 다시 확인하거나 전체 영웅도감에서 찾아보세요.</p><a class="detail-back-home" href="/">전체 영웅도감으로 이동 →</a></main></body></html>`;
+  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>나만겜 | 영웅을 찾을 수 없습니다</title><link rel="icon" type="image/png" sizes="64x64" href="/favicon-crystal-v1.png?v=2.9.7"><link rel="stylesheet" href="/styles.css?v=2.9.7"></head><body class="hero-detail-page"><main class="wrap detail-not-found"><p class="section-kicker">404 · HERO NOT FOUND</p><h1>영웅을 찾을 수 없습니다.</h1><p>주소를 다시 확인하거나 전체 영웅도감에서 찾아보세요.</p><a class="detail-back-home" href="/">전체 영웅도감으로 이동 →</a></main></body></html>`;
 }
 
 export default {
