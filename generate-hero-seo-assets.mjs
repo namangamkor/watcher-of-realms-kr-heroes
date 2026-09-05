@@ -47,6 +47,7 @@ function buildWorkerData(heroes) {
       contentTags: hero.contentTags || [],
       traits: hero.traits || [],
       details: hero.details || null,
+      videos: hero.videos || [],
     };
   }
   return out;

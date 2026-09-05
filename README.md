@@ -756,3 +756,16 @@ UI에는 `전체`까지 포함해 5개 선택 버튼이 표시됩니다.
 - JSON-LD Website / CollectionPage / 상세 영웅 URL → worwiki.kr
 - robots.txt Sitemap → https://worwiki.kr/sitemap.xml
 - 사이트맵 생성 스크립트 SITE 상수 → https://worwiki.kr
+
+
+## v2.9.6 — 영웅별 관련 나만겜 영상
+
+영웅 상세페이지에 관련 나만겜 영상을 연결할 수 있는 공통 구조를 추가했습니다.
+
+첫 적용:
+- 가드리엘(Idril)
+- YouTube ID: yhbWqMwssUM
+- 썸네일 + 영상 제목 + YouTube 이동 버튼
+- 영상이 없는 영웅에는 섹션 자체가 표시되지 않음
+
+앞으로 `heroes.json`의 `videos` 배열에 영상만 추가하면 영웅별 관련 영상이 자동 표시됩니다.

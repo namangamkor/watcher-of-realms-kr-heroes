@@ -1896,3 +1896,108 @@ body.modal-open {
     font-size: 11px;
   }
 }
+
+
+/* v2.9.6 — Related Namangam video */
+.detail-videos-section {
+  margin-top: 18px;
+}
+
+.detail-video-list {
+  display: grid;
+  gap: 12px;
+  margin-top: 14px;
+}
+
+.detail-video-card {
+  display: grid;
+  grid-template-columns: minmax(170px, 230px) minmax(0, 1fr);
+  gap: 16px;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid rgba(229, 189, 105, .20);
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(229,189,105,.055), rgba(255,255,255,.018));
+  color: inherit;
+  text-decoration: none;
+  transition: transform .18s ease, border-color .18s ease, background .18s ease;
+}
+
+.detail-video-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(229, 189, 105, .42);
+  background: linear-gradient(135deg, rgba(229,189,105,.09), rgba(255,255,255,.028));
+}
+
+.detail-video-thumb {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  border-radius: 10px;
+  background: #090b0f;
+}
+
+.detail-video-thumb img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.detail-video-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: rgba(0,0,0,.72);
+  border: 1px solid rgba(255,255,255,.45);
+  color: #fff;
+  font-size: 16px;
+  padding-left: 2px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.35);
+}
+
+.detail-video-copy {
+  min-width: 0;
+}
+
+.detail-video-copy span {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--gold2);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: .06em;
+}
+
+.detail-video-copy strong {
+  display: block;
+  color: #e8edf4;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.detail-video-copy em {
+  display: inline-block;
+  margin-top: 10px;
+  color: #9eabba;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+@media (max-width: 620px) {
+  .detail-video-card {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .detail-video-copy strong {
+    font-size: 13px;
+  }
+}
