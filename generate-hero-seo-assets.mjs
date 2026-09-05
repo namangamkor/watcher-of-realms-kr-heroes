@@ -3,7 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const ROOT = process.cwd();
-const SITE = "https://watcher-of-realms-kr-heroes.pages.dev";
+const SITE = "https://worwiki.kr";
 const LASTMOD = "2026-09-04";
 
 const heroesPath = path.join(ROOT, "heroes.json");

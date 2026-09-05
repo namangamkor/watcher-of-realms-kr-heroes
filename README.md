@@ -745,12 +745,14 @@ UI에는 `전체`까지 포함해 5개 선택 버튼이 표시됩니다.
 - 역전 포효 / 광란의 징벌 / 혼돈의 힘 III 요약
 
 
-## v2.9.4 — 브라우저 타이틀 브랜드 우선
+## v2.9.5 — worwiki.kr SEO 기준 도메인 전환
 
-브라우저 탭·공유 미리보기에서 `나만겜`이 먼저 보이도록 타이틀 규칙을 변경했습니다.
+커스텀 도메인 `https://worwiki.kr`을 사이트의 공식 SEO 기준 URL로 변경했습니다.
 
-- 메인: `나만겜 | 워처 오브 렐름 한국 영웅 위키`
-- 영웅 상세: `나만겜 | 초선(DiaoChan) - 워처 오브 렐름 한국 영웅 위키`
-- OG / Twitter title 동일 규칙 적용
-- JSON-LD CollectionPage 이름도 브랜드 우선으로 통일
-- 404: `나만겜 | 영웅을 찾을 수 없습니다`
+- sitemap.xml 전체 URL → https://worwiki.kr/
+- 메인 canonical → https://worwiki.kr/
+- 영웅 상세 canonical → https://worwiki.kr/hero/{id}/
+- og:url 및 OG/Twitter 이미지 절대 URL → worwiki.kr
+- JSON-LD Website / CollectionPage / 상세 영웅 URL → worwiki.kr
+- robots.txt Sitemap → https://worwiki.kr/sitemap.xml
+- 사이트맵 생성 스크립트 SITE 상수 → https://worwiki.kr
