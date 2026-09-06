@@ -2373,3 +2373,73 @@ body.modal-open {
     width: 100%;
   }
 }
+
+
+/* v2.10.4 — Curator / scribe icon in creator banner */
+.creator-banner-scribe {
+  grid-template-columns: 92px minmax(0, 1fr) 322px;
+}
+
+.creator-scribe-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.creator-scribe-icon {
+  width: 78px;
+  height: 78px;
+  display: block;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid rgba(229, 189, 105, .30);
+  box-shadow:
+    0 10px 28px rgba(0, 0, 0, .28),
+    0 0 24px rgba(53, 111, 183, .10);
+}
+
+.creator-banner-scribe .creator-banner-copy {
+  padding-left: 0;
+}
+
+.creator-banner-scribe .creator-banner-copy p {
+  max-width: 650px;
+}
+
+@media (max-width: 900px) {
+  .creator-banner-scribe {
+    grid-template-columns: 74px minmax(0, 1fr);
+  }
+
+  .creator-scribe-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 14px;
+  }
+
+  .creator-banner-scribe .creator-cta-stack {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+}
+
+@media (max-width: 760px) {
+  .creator-banner-scribe {
+    grid-template-columns: 58px minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .creator-scribe-wrap {
+    justify-content: flex-start;
+  }
+
+  .creator-scribe-icon {
+    width: 54px;
+    height: 54px;
+    border-radius: 12px;
+  }
+
+  .creator-banner-scribe .creator-cta-stack {
+    grid-column: 1 / -1;
+  }
+}
