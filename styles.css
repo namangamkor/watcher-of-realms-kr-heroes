@@ -2135,3 +2135,122 @@ body.modal-open {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* v2.10.1 — Floating newbie guide */
+.newbie-floating-guide {
+  position: fixed;
+  right: 18px;
+  top: 50%;
+  z-index: 70;
+  transform: translateY(-50%);
+  display: grid;
+  grid-template-columns: 36px minmax(0, 1fr) 18px;
+  align-items: center;
+  gap: 10px;
+  width: 194px;
+  padding: 11px 12px;
+  border: 1px solid rgba(229, 189, 99, .32);
+  border-radius: 14px;
+  background:
+    radial-gradient(circle at 10% 50%, rgba(229,189,99,.10), transparent 45%),
+    rgba(10, 14, 22, .94);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, .36);
+  backdrop-filter: blur(12px);
+  color: inherit;
+  text-decoration: none;
+  transition: transform .18s ease, border-color .18s ease, background .18s ease;
+}
+
+.newbie-floating-guide:hover {
+  transform: translateY(-50%) translateX(-3px);
+  border-color: rgba(229, 189, 99, .58);
+  background:
+    radial-gradient(circle at 10% 50%, rgba(229,189,99,.16), transparent 48%),
+    rgba(12, 17, 26, .98);
+}
+
+.newbie-floating-icon {
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  border: 1px solid rgba(229, 189, 99, .26);
+  background: rgba(229, 189, 99, .07);
+  color: #efc96f;
+  font-size: 17px;
+}
+
+.newbie-floating-copy {
+  min-width: 0;
+}
+
+.newbie-floating-copy small {
+  display: block;
+  margin-bottom: 2px;
+  color: #8f9bad;
+  font-size: 9px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.newbie-floating-copy strong {
+  display: block;
+  color: #eef2f7;
+  font-size: 12px;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+
+.newbie-floating-arrow {
+  color: #e9bd5e;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+@media (max-width: 980px) {
+  .newbie-floating-guide {
+    top: auto;
+    right: 14px;
+    bottom: 18px;
+    transform: none;
+    grid-template-columns: 28px auto 14px;
+    width: auto;
+    min-width: 142px;
+    padding: 9px 10px;
+    border-radius: 999px;
+  }
+
+  .newbie-floating-guide:hover {
+    transform: translateY(-2px);
+  }
+
+  .newbie-floating-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    font-size: 14px;
+  }
+
+  .newbie-floating-copy small {
+    display: none;
+  }
+
+  .newbie-floating-copy strong {
+    font-size: 11px;
+  }
+
+  .newbie-floating-arrow {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 520px) {
+  .newbie-floating-guide {
+    right: 10px;
+    bottom: 12px;
+    min-width: 128px;
+    padding: 8px 9px;
+  }
+}
