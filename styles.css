@@ -2341,3 +2341,35 @@ body.modal-open {
     grid-column: auto;
   }
 }
+
+
+/* v2.10.3 — Creator banner text-only refinement */
+.creator-banner-textonly {
+  grid-template-columns: minmax(0, 1fr) 322px;
+}
+
+.creator-banner-textonly .creator-banner-copy {
+  padding-left: 18px;
+}
+
+.creator-banner-textonly .creator-banner-copy p {
+  max-width: 720px;
+}
+
+.creator-banner-textonly .creator-title-row strong {
+  letter-spacing: -0.025em;
+}
+
+@media (max-width: 900px) {
+  .creator-banner-textonly {
+    grid-template-columns: 1fr;
+  }
+
+  .creator-banner-textonly .creator-banner-copy {
+    padding-left: 0;
+  }
+
+  .creator-banner-textonly .creator-cta-stack {
+    width: 100%;
+  }
+}
