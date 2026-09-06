@@ -4,7 +4,8 @@ import path from "node:path";
 
 const ROOT = process.cwd();
 const SITE = "https://worwiki.kr";
-const LASTMOD = "2026-09-04";
+const LASTMOD = "2026-09-06";
+const STATIC_PATHS = ["newbie/"];
 
 const heroesPath = path.join(ROOT, "heroes.json");
 const workerPath = path.join(ROOT, "_worker.js");
@@ -85,6 +86,13 @@ function buildSitemap(heroes) {
     '  </url>',
   ];
 
+  for (const staticPath of STATIC_PATHS) {
+    lines.push('  <url>');
+    lines.push(`    <loc>${SITE}/${staticPath}</loc>`);
+    lines.push(`    <lastmod>${LASTMOD}</lastmod>`);
+    lines.push('  </url>');
+  }
+
   const sorted = [...heroes].sort((a, b) => a.id.localeCompare(b.id));
   for (const hero of sorted) {
     lines.push('  <url>');
@@ -140,7 +148,7 @@ function main() {
   fs.writeFileSync(indexPath, syncIndexHtml(indexHtml, heroes.length, totals), "utf8");
 
   const sitemapUrlCount = (fs.readFileSync(sitemapPath, "utf8").match(/<url>/g) || []).length;
-  assert(sitemapUrlCount === heroes.length + 1, "sitemap url count mismatch");
+  assert(sitemapUrlCount === heroes.length + 1 + STATIC_PATHS.length, "sitemap url count mismatch");
 
   console.log(`synced OK · heroes=${heroes.length} · sitemapUrls=${sitemapUrlCount} · particleSample=${getTopicParticle("초선")}`);
 }
