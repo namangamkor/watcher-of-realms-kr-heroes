@@ -2443,3 +2443,81 @@ body.modal-open {
     grid-column: 1 / -1;
   }
 }
+
+
+/* v2.10.6 — Compact creator banner */
+.creator-banner-scribe {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  align-items: center;
+}
+
+.creator-scribe-icon {
+  width: 68px;
+  height: 68px;
+  border-radius: 14px;
+}
+
+.creator-banner-scribe .creator-banner-copy {
+  align-self: center;
+}
+
+.creator-banner-scribe .creator-banner-copy p {
+  margin-top: 8px;
+  margin-bottom: 0;
+  line-height: 1.58;
+}
+
+.creator-banner-scribe .creator-title-row {
+  margin-bottom: 2px;
+}
+
+.creator-cta-stack {
+  gap: 7px;
+}
+
+.creator-cta-stack .youtube-cta,
+.creator-cta-stack .newbie-cta {
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.creator-cta-stack .youtube-icon,
+.creator-cta-stack .newbie-cta-icon {
+  width: 32px;
+  height: 32px;
+}
+
+@media (max-width: 900px) {
+  .creator-banner-scribe {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .creator-scribe-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .creator-cta-stack {
+    gap: 7px;
+  }
+}
+
+@media (max-width: 760px) {
+  .creator-banner-scribe {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .creator-scribe-icon {
+    width: 52px;
+    height: 52px;
+  }
+
+  .creator-cta-stack .youtube-cta,
+  .creator-cta-stack .newbie-cta {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
