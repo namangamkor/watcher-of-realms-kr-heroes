@@ -275,7 +275,7 @@ function renderHero(hero) {
   <meta name="description" content="${esc(description)}" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
   <link rel="canonical" href="${canonical}" />
-  <link rel="icon" type="image/png" sizes="64x64" href="/favicon-crystal-v1.png?v=2.9.8" />
+  <link rel="icon" type="image/png" sizes="64x64" href="/favicon-crystal-v1.png?v=2.10.0" />
   <link rel="apple-touch-icon" href="/icon-192.png?v=2.9.7" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="ko_KR" />
@@ -288,7 +288,7 @@ function renderHero(hero) {
   <meta name="twitter:title" content="${esc(title)}" />
   <meta name="twitter:description" content="${esc(description)}" />
   <meta name="twitter:image" content="${esc(image)}" />
-  <link rel="stylesheet" href="/styles.css?v=2.9.8" />
+  <link rel="stylesheet" href="/styles.css?v=2.10.0" />
   <script type="application/ld+json">${JSON.stringify(jsonLd).replaceAll("<", "\\u003c")}</script>
 </head>
 <body class="hero-detail-page">
@@ -384,14 +384,154 @@ function renderHero(hero) {
 </html>`;
 }
 
+
+function renderNewbie() {
+  return `<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="워처 오브 렐름을 처음 시작한 뉴비를 위한 나만겜 입문 안내. 영웅 풀, 계정 성장, 전투력 구조와 막히는 구간을 설명합니다.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="${SITE}/newbie/">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:site_name" content="나만겜 워처 오브 렐름 한국 영웅 위키">
+  <meta property="og:title" content="나만겜 | 뉴비가 먼저 알아야 할 렐름의 구조">
+  <meta property="og:description" content="돈보다 시간, 속도보다 영웅 풀. 렐름의 성장 구조를 뉴비 기준으로 설명합니다.">
+  <meta property="og:url" content="${SITE}/newbie/">
+  <meta property="og:image" content="${SITE}/icon-512.png">
+  <title>나만겜 | 뉴비가 먼저 알아야 할 렐름의 구조</title>
+  <meta name="theme-color" content="#090c12">
+  <link rel="icon" type="image/png" sizes="64x64" href="/favicon-crystal-v1.png?v=2.10.0">
+  <link rel="apple-touch-icon" href="/icon-192.png?v=2.10.0">
+  <link rel="stylesheet" href="/styles.css?v=2.10.0">
+</head>
+<body class="newbie-page">
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand brand-link" href="/" aria-label="영웅 위키 홈으로 이동">
+        <span class="brand-mark"><img src="/favicon-crystal-v1.png?v=2.10.0" alt=""></span>
+        <div>
+          <strong>나만겜 워처 오브 렐름 한국 영웅 위키</strong>
+          <small>한국 서버를 위한 영웅 정보·한영 이름 위키</small>
+        </div>
+      </a>
+      <div class="topbar-actions">
+        <span class="creator-mini">NAMANGAM ARCHIVE</span>
+        <a class="newbie-home-link" href="/">영웅 검색으로 돌아가기</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="newbie-main">
+    <section class="wrap newbie-hero">
+      <p class="eyebrow">NEW PLAYER GUIDE · NAMANGAM</p>
+      <h1>뉴비가 먼저 알아야 할<br><span>렐름의 구조</span></h1>
+      <p class="newbie-lead">렐름은 급하게 모든 콘텐츠를 깨는 게임이 아닙니다. 필요한 영웅을 천천히 모으며 계정을 완성해가는 게임에 가깝습니다.</p>
+
+      <div class="newbie-core-message">
+        <span>한 줄로 먼저</span>
+        <strong>돈보다 시간, 속도보다 영웅 풀.</strong>
+        <p>막힌 구간이 생겼다고 조급해할 필요 없습니다. 지금 없는 영웅이 나중에 계정의 열쇠가 되는 경우가 많습니다.</p>
+      </div>
+    </section>
+
+    <section class="wrap newbie-sections">
+      <article class="newbie-point">
+        <span class="newbie-point-no">01</span>
+        <div><h2>막히는 건 이상한 게 아닙니다.</h2><p>워처 오브 렐름은 콘텐츠가 많지만 모든 구간을 계정 초반부터 밀 수 있게 만들어진 게임은 아닙니다. 어떤 스테이지는 단순 전투력보다 특정 역할이나 특수 기믹을 가진 영웅의 보유 여부가 훨씬 중요합니다.</p></div>
+      </article>
+
+      <article class="newbie-point">
+        <span class="newbie-point-no">02</span>
+        <div><h2>현질을 해도 바로 해결되지 않는 구간이 있습니다.</h2><p>필요한 영웅이 특정 소환이나 복각에 묶여 있다면 돈을 쓴다고 당장 확보할 수 있는 구조가 아닙니다. 필요한 영웅을 만날 때까지 수개월을 기다릴 수도 있고, 영웅 풀 전체를 갖춰가는 데는 훨씬 긴 시간이 걸릴 수 있습니다.</p></div>
+      </article>
+
+      <article class="newbie-point">
+        <span class="newbie-point-no">03</span>
+        <div><h2>그래서 핵심은 ‘축적’입니다.</h2><p>영웅을 꾸준히 모으고, 장비를 맞추고, 각성을 쌓고, 콘텐츠별 핵심 영웅을 하나씩 확보하는 과정 자체가 계정 성장입니다. 오늘 당장 못 깨는 구간보다 몇 달 뒤 내 계정이 얼마나 넓어졌는지가 더 중요합니다.</p></div>
+      </article>
+
+      <article class="newbie-point newbie-power-point">
+        <span class="newbie-point-no">04</span>
+        <div>
+          <h2>전투력은 레벨만으로 결정되지 않습니다.</h2>
+          <p>같은 영웅, 같은 레벨이라도 계정 성장도에 따라 실제 전투력과 체감 성능은 크게 달라질 수 있습니다.</p>
+          <div class="newbie-power-grid">
+            <div><strong>장비</strong><span>세트·강화·메인/보조 옵션에 따라 전투력이 크게 달라집니다.</span></div>
+            <div><strong>각성</strong><span>각성 단계에 따라 스탯과 스킬 성능이 달라집니다.</span></div>
+            <div class="newbie-power-important"><strong>판테온</strong><span>뉴비가 놓치기 쉬운 계정 누적 성장 요소입니다. 판테온 수치가 영웅 전력에 영향을 줍니다.</span></div>
+            <div class="newbie-power-important"><strong>도감 열람 스탯</strong><span>영웅을 많이 획득하고 도감을 채울수록 추가 스탯이 누적됩니다.</span></div>
+          </div>
+          <p class="newbie-power-tip">TIP · 영웅 레벨만 비교해서 “왜 내 영웅이 더 약하지?”라고 판단하면 안 됩니다. 판테온과 도감 열람 스탯까지 함께 확인하세요.</p>
+        </div>
+      </article>
+
+      <article class="newbie-point">
+        <span class="newbie-point-no">05</span>
+        <div><h2>막힌 콘텐츠는 잠시 놔둬도 됩니다.</h2><p>같은 구간을 억지로 붙잡고 있을 필요가 없습니다. 다른 콘텐츠에서 장비와 재화를 쌓고 새 영웅을 확보한 뒤 돌아오면, 예전에 벽처럼 느껴졌던 구간이 갑자기 쉽게 풀리는 경우가 많습니다.</p></div>
+      </article>
+
+      <article class="newbie-point newbie-point-final">
+        <span class="newbie-point-no">06</span>
+        <div><h2>렐름은 느긋하게 즐길수록 맞는 게임입니다.</h2><p>모든 콘텐츠를 빠르게 끝내는 것보다 시간이 지나며 영웅 풀이 넓어지고, 전에 못 했던 조합이 가능해지고, 막혔던 콘텐츠가 하나씩 열리는 재미가 큰 게임입니다.</p></div>
+      </article>
+    </section>
+
+    <section class="wrap newbie-quote-section">
+      <blockquote>
+        <span>NAMANGAM NOTE</span>
+        <p>조급하게 다 깨려고 하지 마세요.<br><strong>렐름은 오래 할수록 내 계정이 강해지는 게임입니다.</strong></p>
+      </blockquote>
+    </section>
+
+    <section class="wrap newbie-next">
+      <div>
+        <p class="section-kicker">START HERE</p>
+        <h2>이제 내 영웅 풀부터 확인해보세요.</h2>
+        <p>한국명·영문명 검색과 진영·직업·콘텐츠 필터로 현재 보유 영웅과 앞으로 필요한 영웅을 찾아보세요.</p>
+      </div>
+      <a href="/">전체 영웅 위키 열기 →</a>
+    </section>
+  </main>
+
+  <footer class="detail-footer">
+    <div class="wrap detail-footer-inner">
+      <span>나만겜 제작 · 비공식 Watcher of Realms 팬사이트</span>
+      <div class="detail-footer-links">
+        <a href="${REPORT_FORM}" target="_blank" rel="noopener noreferrer">정보 제보 ↗</a>
+        <a href="${YOUTUBE}" target="_blank" rel="noopener noreferrer">나만겜 YouTube ↗</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>`;
+}
+
 function renderNotFound() {
-  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>나만겜 | 영웅을 찾을 수 없습니다</title><link rel="icon" type="image/png" sizes="64x64" href="/favicon-crystal-v1.png?v=2.9.8"><link rel="stylesheet" href="/styles.css?v=2.9.8"></head><body class="hero-detail-page"><main class="wrap detail-not-found"><p class="section-kicker">404 · HERO NOT FOUND</p><h1>영웅을 찾을 수 없습니다.</h1><p>주소를 다시 확인하거나 전체 영웅도감에서 찾아보세요.</p><a class="detail-back-home" href="/">전체 영웅도감으로 이동 →</a></main></body></html>`;
+  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>나만겜 | 영웅을 찾을 수 없습니다</title><link rel="icon" type="image/png" sizes="64x64" href="/favicon-crystal-v1.png?v=2.10.0"><link rel="stylesheet" href="/styles.css?v=2.10.0"></head><body class="hero-detail-page"><main class="wrap detail-not-found"><p class="section-kicker">404 · HERO NOT FOUND</p><h1>영웅을 찾을 수 없습니다.</h1><p>주소를 다시 확인하거나 전체 영웅도감에서 찾아보세요.</p><a class="detail-back-home" href="/">전체 영웅도감으로 이동 →</a></main></body></html>`;
 }
 
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     const match = url.pathname.match(/^\/hero\/([^/]+)\/?$/);
+
+    if (url.pathname === "/newbie" || url.pathname === "/newbie/") {
+      if (url.pathname === "/newbie") {
+        return Response.redirect(`${SITE}/newbie/`, 301);
+      }
+      const body = request.method === "HEAD" ? null : renderNewbie();
+      return new Response(body, {
+        status: 200,
+        headers: {
+          "content-type": "text/html; charset=UTF-8",
+          "cache-control": "public, max-age=300, s-maxage=3600",
+          "x-robots-tag": "index, follow"
+        }
+      });
+    }
 
     if (!match) {
       return env.ASSETS.fetch(request);

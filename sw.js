@@ -1,10 +1,8 @@
-const CACHE_NAME = "namangam-wor-v299";
+const CACHE_NAME = "namangam-wor-v2100";
 
 const CORE_ASSETS = [
   "./",
   "./index.html",
-  "./newbie/",
-  "./newbie/index.html",
   "./styles.css",
   "./app.js",
   "./heroes.json",

@@ -2089,3 +2089,49 @@ body.modal-open {
   .newbie-next > a { display:block; margin-top:18px; text-align:center; }
   .newbie-home-link { display:none; }
 }
+
+
+/* v2.10.0 — newbie combat power section */
+.newbie-power-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 16px;
+}
+.newbie-power-grid > div {
+  padding: 14px 15px;
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 12px;
+  background: rgba(255,255,255,.025);
+}
+.newbie-power-grid strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #eef2f8;
+  font-size: 14px;
+}
+.newbie-power-grid span {
+  display: block;
+  color: #aab4c4;
+  font-size: 12px;
+  line-height: 1.65;
+}
+.newbie-power-grid .newbie-power-important {
+  border-color: rgba(229,189,105,.28);
+  background: linear-gradient(135deg, rgba(229,189,105,.08), rgba(255,255,255,.02));
+}
+.newbie-power-grid .newbie-power-important strong {
+  color: var(--gold2);
+}
+.newbie-power-tip {
+  margin-top: 14px !important;
+  padding: 12px 14px;
+  border-left: 3px solid var(--gold2);
+  background: rgba(229,189,105,.05);
+  color: #b9c2d0 !important;
+}
+@media (max-width: 680px) {
+  .newbie-power-grid {
+    grid-template-columns: 1fr;
+  }
+}
