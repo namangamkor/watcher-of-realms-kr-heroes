@@ -2521,3 +2521,180 @@ body.modal-open {
     padding-bottom: 10px;
   }
 }
+
+
+/* v2.10.7 — Main layout polish */
+.hero-copy,
+.search-wrap,
+.creator-banner,
+.factions-section,
+.hero-list-section {
+  width: min(100%, 1160px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-copy {
+  padding-top: 14px;
+}
+
+.hero-copy h1 {
+  max-width: 900px;
+  font-size: clamp(50px, 5.5vw, 82px);
+  line-height: .99;
+  letter-spacing: -0.052em;
+  margin-bottom: 20px;
+}
+
+.hero-copy .lead,
+.hero-copy > p:last-child {
+  max-width: 900px;
+  margin-bottom: 0;
+}
+
+.search-wrap {
+  margin-top: 26px;
+}
+
+.creator-banner {
+  margin-top: 22px;
+}
+
+.creator-banner-scribe {
+  grid-template-columns: 90px minmax(0, 1fr) 360px;
+  column-gap: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.creator-scribe-wrap,
+.creator-banner-scribe .creator-banner-copy,
+.creator-banner-scribe .creator-cta-stack {
+  align-self: center;
+}
+
+.creator-banner-scribe .creator-banner-copy {
+  min-width: 0;
+}
+
+.creator-banner-scribe .creator-banner-copy p {
+  max-width: 760px;
+  line-height: 1.5;
+}
+
+.creator-banner-scribe .creator-cta-stack {
+  min-width: 0;
+}
+
+.factions-section {
+  margin-top: 44px;
+}
+
+.factions-section .section-kicker,
+.hero-list-section .section-kicker {
+  margin-bottom: 10px;
+}
+
+.factions-section h2,
+.hero-list-section h2 {
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
+.factions-section .faction-picker,
+.factions-section .faction-select-wrap {
+  width: 100%;
+}
+
+.hero-list-section {
+  margin-top: 40px;
+}
+
+@media (max-width: 1200px) {
+  .hero-copy,
+  .search-wrap,
+  .creator-banner,
+  .factions-section,
+  .hero-list-section {
+    width: calc(100% - 40px);
+  }
+
+  .creator-banner-scribe {
+    grid-template-columns: 80px minmax(0, 1fr) 330px;
+    column-gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-copy,
+  .search-wrap,
+  .creator-banner,
+  .factions-section,
+  .hero-list-section {
+    width: calc(100% - 28px);
+  }
+
+  .hero-copy h1 {
+    font-size: clamp(44px, 10vw, 66px);
+    max-width: 760px;
+  }
+
+  .creator-banner-scribe {
+    grid-template-columns: 66px minmax(0, 1fr);
+    column-gap: 16px;
+  }
+
+  .creator-banner-scribe .creator-cta-stack {
+    margin-top: 8px;
+  }
+
+  .factions-section {
+    margin-top: 36px;
+  }
+
+  .hero-list-section {
+    margin-top: 34px;
+  }
+}
+
+@media (max-width: 620px) {
+  .hero-copy,
+  .search-wrap,
+  .creator-banner,
+  .factions-section,
+  .hero-list-section {
+    width: calc(100% - 20px);
+  }
+
+  .hero-copy {
+    padding-top: 8px;
+  }
+
+  .hero-copy h1 {
+    font-size: clamp(38px, 12vw, 54px);
+    margin-bottom: 16px;
+  }
+
+  .search-wrap {
+    margin-top: 20px;
+  }
+
+  .creator-banner {
+    margin-top: 16px;
+  }
+
+  .creator-banner-scribe {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .factions-section {
+    margin-top: 30px;
+  }
+
+  .hero-list-section {
+    margin-top: 30px;
+  }
+}
