@@ -1,18 +1,12 @@
-# v2.11.3 Watchguard Awakening
+# v2.11.4 North Throne Awakening
 
-Base: v2.11.2 Emergency Recovery
+- Base: v2.11.3 Watchguard Awakening
+- North Throne heroes: 49
+- Existing North Throne A1-A5 preserved: 6
+- Newly added North Throne A1-A5: 43
+- North Throne A1-A5 complete: 49/49
+- Watchguard awakening data preserved
+- Collection value, exclusive artifacts, and related Namangam video data preserved
+- Cache key bumped to v2.11.4
 
-- Watchguard faction: 40 heroes total
-- Existing verified A1~A5 preserved: 6 heroes
-- Newly added A1~A5: 34 heroes
-- Watchguard awakening coverage after patch: 40/40
-- Existing collection values preserved: 253/253
-- Existing exclusive artifacts preserved: 100
-- Existing creator video mappings preserved
-- Cache key bumped to v2.11.3
-
-Sources for newly added awakening effects:
-- Watcher of Realms Wiki (Fandom) for 33 heroes
-- Prospector's Digsite (updated 2026-08-02) for Cainan
-
-New awakening text is Korean translation of the sourced English database wording and may differ from official Korean-client phrasing.
+Awakening text newly added in this patch is translated from overseas hero databases; wording may differ from the official Korean client.

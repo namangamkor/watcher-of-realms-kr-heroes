@@ -131,7 +131,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 발동 시 즉시 최대 HP의 80%에 해당하는 보호막을 얻는다. 보호막 지속시간은 궁극기 지속시간과 동일하다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "HP +1200."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Iceburn이 부여된 대상이 시전자에게 받는 피해 +30%."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "관통 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Frozen Bloodline 효과로 보호막이 있는 자신을 제외한 2칸 이내 아군에게 관통 +15%를 부여한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "aeon",
@@ -256,7 +287,38 @@
       }
     ],
     "collectionValue": 3,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Crystal Bomb 피해 +50%."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "강화되지 않았거나 1회만 강화된 Crystal Bomb 폭발의 최대 대상 수 +2."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "자동 분노 회복 +1."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "모든 Crystal Bomb이 부여하는 빙결 지속시간 +1초."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "ain",
@@ -399,7 +461,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Phantom 배치 시 즉시 Core Release 상태에 진입한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 지속 중 일반 공격 2회마다 다음 일반 공격이 추가 피해를 3회 더 입힌다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "관통 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Missile Barrage가 동시에 최대 5명의 적에게 광역 피해를 입힌다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "alaura",
@@ -731,7 +824,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "원형 칼날 피해가 대상에게 방어력 -10% 효과를 부여한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Frenzy 상태에서 적 처치 시 상태 지속시간 +1초. 최대 10초까지 연장된다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "관통 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "발사한 원형 칼날이 돌아오면 즉시 분노 15를 회복한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "ardeth",
@@ -892,7 +1016,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Deep Bite의 각 피해 배율이 220%로 증가한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Deep Bite가 30% 확률로 같은 대상에게 2회 연속 발동한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "관통 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Vampiric Aura의 보호막이 종료되면 보호막 보유자의 HP 20%와 분노 10%를 회복한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "atrox",
@@ -1335,7 +1490,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 지속 중 특성 발동 확률 +40%."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Frozen Purification 피해 +50%."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "자동 분노 회복 +1."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 지속시간 +10초."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "borut",
@@ -1488,7 +1674,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "궁극기로 얻은 보호막이 사라지면 주변 적을 최대 5명까지 2초간 빙결시킨다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "HP +1200."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "빙결 효과를 받은 동안 자신이 받는 치유 및 보호막 효과 +20%."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "모든 피해 감소 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Iceberg 효과 종료 시 최대 HP의 100%를 회복한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "brunor",
@@ -1520,7 +1737,38 @@
       }
     ],
     "collectionValue": 1,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Explosive Shells 발동 시 대상과의 거리가 1칸 멀어질 때마다 피해 +2%. Monolithic Bullet 효과와 중첩된다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +200."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "모든 공격 적중 시 15% 확률로 대상에게 방어력 -15%를 10초간 부여한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "관통 +5%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Explosive Shells가 더 이상 공격 속도를 감소시키지 않는다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "cainan",
@@ -1900,7 +2148,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "배치 시 Divine Sigil 3개를 얻는다. 궁극기 범위 내 적이 없으면 초당 분노 20을 회복한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Divine Retribution 활성화 시 단일 대상 피해 +25%."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "관통 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Divine Retribution 발동 시 HP의 25%에 해당하는 추가 보호막을 10초간 얻는다. 최대 100%까지 중첩된다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "cerberus",
@@ -2384,7 +2663,38 @@
       }
     ],
     "collectionValue": 2,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "HP +300."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +40."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "HP +400."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "ATK +50."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "모든 피해 감소 +5%."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "dahlia",
@@ -3239,7 +3549,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Thunder Incarnation 지속 중 인접 아군이 Thunder Aegis 효과의 절반을 얻는다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +5%. 같은 진영 아군이 받는 보호막 효과 +10%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Thunder Incarnation 지속 중 Thunder Hammer 발동 확률 +40%."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "관통 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Thunder Hammer가 현재 보호막 수치의 30%에 해당하는 추가 피해를 입힌다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "eliza",
@@ -3498,7 +3839,38 @@
       }
     ],
     "collectionValue": 3,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "일반 공격 사거리 +1칸."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "치명타율 +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Blade Storm 지속 중 25% 확률로 2회 연속 공격한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "코스트 -2."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "관통된 적을 공격한 뒤 5초간 분노 회복 +30%."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "eunomia",
@@ -3814,7 +4186,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "궁극기가 적에게 피해량 -30% 효과를 15초간 부여한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "공격 속도 100마다 모든 피해 증가 +8%."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "치명타율 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "보호막이 있는 동안 받는 피해 -20%."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "fenris",
@@ -3844,7 +4247,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Undying Will이 범위 내 아군에게도 자신의 최대 HP 25%에 해당하는 보호막을 부여한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "코스트 -3."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Cosmic Burst가 적에게 방어력 -20% 효과를 부여한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "관통 +5%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Undying Will 피해 배율 +300%."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "ferssi",
@@ -4062,7 +4496,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "공격 범위 내 대상이 1명뿐이면 피해 +15%. 대상이 빙결 상태라면 추가로 피해 +15%."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "획득하는 보호막 효과 +20%. 보호막이 있는 동안 가하는 피해 +15%."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "치명타율 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "처음 치명적인 피해를 받을 때 10초간 Ice Barrier가 발동한다. 이 동안 행동하거나 피해를 받을 수 없으며, 종료 시 HP 30%와 분노 100%를 회복하고 10초간 HP 50% 보호막을 얻는다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "gluttony",
@@ -4410,7 +4875,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Frigid Flurry 발동 시 추가 대상 1명에게 피해를 입힌다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "HP +1200."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Icy Shell의 주 대상 주변 아군도 동일한 보호막을 얻는다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "HP +1200."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Icy Shell 발동 시 최대 HP가 영구적으로 8% 증가한다. 최대 3중첩."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "harpun",
@@ -4433,7 +4929,38 @@
       }
     ],
     "collectionValue": 1,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "보호막이 있는 동안 공격이 대상 방어력의 30%를 무시한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "치명타율 +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Arrow Bombardment로 적 처치 시 분노 80을 회복한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "공격 속도 +40."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "치명타 발동 시 최대 HP의 25%에 해당하는 보호막을 6초간 얻는다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "hatssut",
@@ -4874,7 +5401,38 @@
       }
     ],
     "collectionValue": 4,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Shield Wall 발동 시 자신의 블록 수만큼 보호막 중첩을 얻는다. 각 중첩은 최대 HP의 8%이며 Shield Wall과 같은 시간 동안 지속된다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "HP +1200."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "ATK가 HP의 5%만큼 증가한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "모든 피해 감소 +5%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Slash 발동에 필요한 일반 공격 횟수 -2."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "janqhar",
@@ -4966,7 +5524,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "피해를 줄 때 Radiant Erosion 1중첩을 소모해 최대 HP의 4%에 해당하는 추가 피해를 입히고 1초간 기절시킨다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "HP가 처음 25% 미만이 되면 최대 HP의 100%에 해당하는 보호막을 15초간 얻는다. 배치당 1회 발동."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "관통 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Retribution이 5초 이상 지속된 적에게 가하는 피해 +15%."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "jezebelle",
@@ -5180,7 +5769,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Shard of Deception 최대 중첩 +2, 재배치 시간 -15초."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "코스트 -2."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "궁극기가 추가로 200% 피해를 1회 입히고 대상에게 물리·마법 취약 +20%를 부여한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Killer Instinct 발동 시 최대 HP의 50%에 해당하는 보호막을 10초간 얻는다. 재사용 대기시간 60초."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "kassandra",
@@ -5337,7 +5957,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Glacial Smash가 강화된다. 보호막이 있을 때 일반 공격이 적에게 방어력 -20%를 4초간 부여한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "HP +1200."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "궁극기를 2회 사용한 뒤 Icy Veins 상태에 진입한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "모든 피해 감소 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "궁극기가 자신에게 부여하는 보호막이 최대 2중첩된다. 두 번째 중첩은 효과가 절반이다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "khamet",
@@ -5518,7 +6169,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Fury of Winter가 자신과 인접 1칸 내 모든 아군에게 보호막을 부여한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "HP +1200. 같은 진영 아군이 받는 보호막 효과 +10%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "제어 효과를 받고 있는 적에게 추가 피해 +100%."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "모든 피해 감소 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "보호막이 있는 동안 King Harz의 치유 효과 +100%."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "knight-arlott",
@@ -5640,7 +6322,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "보호막 획득 시 보호막 효과 +20%."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "방어력 +200."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "분노 상태 동안 일반 공격 시 추가로 분노 50을 회복한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "모든 피해 감소 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "분노 상태의 재사용 대기시간이 60초가 된다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "lady-alexandra",
@@ -5730,7 +6443,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 지속 중 Phantom Dracula의 사거리가 증가하고 공격 간격이 30% 감소한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "코스트 -2."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "일반 공격이 최대 3명의 적을 공격한다. 일반 공격으로 피해를 줄 때마다 최대 HP의 2%를 회복한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "공격 시 분노 회복 +2."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Blood Sigil이 부여된 적 처치 시 에너지를 얻는다. 에너지 1중첩당 ATK +4%, 최대 +20%."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "laseer",
@@ -6166,7 +6910,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "일반 공격 사거리 +1칸. 대상이 아군에게 막혀 있지 않으면 피해 +20%."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "코스트 -2."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Chaos Strike 피해 배율 +40%. 정예 및 보스를 제외한 HP 15% 미만 적을 즉시 처치한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Deep Descent 또는 강화 상태에서 치명적인 피해를 받아도 상태가 종료되지 않는다. 해당 피해를 무효화하고 상태 지속시간이 5초 감소한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "lucius",
@@ -6302,7 +7077,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Fist of Qi 발동 시 분노 2%를 회복한다. 궁극기 중 6번째 일반 공격이 추가되며 Fist of Qi를 발동할 수 있고, 적을 기절시키며 3배 강도의 넉백을 적용한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "같은 진영 영주가 없거나 다른 진영 영주와 편성하면 기본 능력치 +15%. 보호막을 얻으면 ATK +15%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Mindful Presence가 강화되어 일반 공격 시 10% 확률로 분노 소모 없이 Flash Kick을 발동한다. 발동 간격 10초."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Fist of Qi 피해 배율 +30%."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "luneria",
@@ -6391,7 +7197,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Ice Borer가 60% 확률로 Winter’s Bite 1중첩을 부여한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Ice Borer가 Ice Boring Arrow도 발동시켜 추가 Ice Borer를 생성할 수 있다. 최대 1회."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "공격 시 분노 회복 +2."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Frozen Rain 종료 후 즉시 Frost Shatter를 1회 발동한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "lyra",
@@ -6580,7 +7417,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Call of Reaper 발동 시 2칸 내 다른 아군에게 Spirit Shield를 5초간 부여한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "코스트 -3."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Call of Reaper 지속 중 받는 피해가 80%로 감소한다. 종료 후 남은 피해를 10초 동안 매초 균등하게 받는다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "HP +1200."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "적 처치 시 최대 HP +2%. 최대 10중첩."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "marri",
@@ -6603,7 +7471,38 @@
       }
     ],
     "collectionValue": 3,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "추가 고드름 공격 발동 확률 +15%."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "HP +1200."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Blizzard 지속시간 +1초."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "재배치 시간 -10초."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "자신이 부여하는 둔화 및 빙결 지속시간 +1초."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "maul",
@@ -6626,7 +7525,38 @@
       }
     ],
     "collectionValue": 3,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Abyssal Surge가 지상 적을 밀쳐내는 동시에 3초간 빙결시킨다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "치명타율 +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Salt Erosion이 대상에게 이동 속도 -75%를 5초간 부여한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "관통 +5%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "코스트 -5."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "maw",
@@ -6733,7 +7663,38 @@
       }
     ],
     "collectionValue": 2,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 지속 중 받는 피해 -10%."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "HP +1200."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "일반 공격 치유 배율 +10%."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "자동 분노 회복 +1."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "보호막이 있는 동안 치유 배율 +20%."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "morene",
@@ -7234,7 +8195,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Impure Wings 지속시간 +5초."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Impure Wings 지속 중 치명타율 +20%, 치명타 피해 +20%."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "치명타율 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Impure Wings 상태의 첫 일반 공격 3회가 Dark Sacrifice를 발동한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "numera",
@@ -7335,7 +8327,38 @@
       }
     ],
     "collectionValue": 4,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "보호막 획득 시 보호막 효과 +10%."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "방어력 +100."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "HP +1200."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "모든 피해 감소 +5%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 발동 시 인접 아군에게 궁극기와 같은 시간 동안 물리 피해 감소 효과를 부여한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "oren",
@@ -7796,7 +8819,38 @@
       }
     ],
     "collectionValue": 3,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Granite Ward 발동 후 무적 지속시간 동안 블록 +1."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "방어력 +100."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "보호막이 있는 동안 방어력 +15%."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "모든 피해 감소 +5%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "자신이 막고 있는 적이 자신에게 직접 피해를 가하면 해당 적도 그 피해량의 200%에 해당하는 피해를 받는다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "rivenhald",
@@ -7832,7 +8886,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Frozen Crown 보호막 배율 +60%."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300. 같은 진영 아군이 받는 보호막 효과 +10%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "공격 범위 내 아군 영웅 1명당 분노 회복 +15%. 최대 +75%."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "HP +1200."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Frozen Crown 보호막이 파괴되면 보호막을 받았던 영웅이 10초 동안 매초 Rivenhald ATK의 50% 치유 배율로 HP를 회복한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "rork",
@@ -7855,7 +8940,38 @@
       }
     ],
     "collectionValue": 3,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "받는 보호막 효과 +20%."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "치명타율 +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "특성 효과 범위가 2칸까지 확장된다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "관통 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "특성 범위 내 아군이 궁극기를 사용하면 최대 HP +4%. 최대 +20%."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "rosalia",
@@ -7993,7 +9109,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Song of Courage 발동 시 두 강화 효과를 동시에 적용한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "HP +1200."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "피해를 받으면 3초간 분노 회복 +50%."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "HP +1200."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Song of Courage 지속 중 치유 배율 +100%."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "salazar",
@@ -8294,7 +9441,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Drowning Water가 3중첩 이상인 대상을 공격하면 1초간 이동 불가를 부여한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Drowning Water 최대 중첩이 4로 증가한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "치명타율 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 사용 시 8초간 피해 +15%."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "silas",
@@ -8363,7 +9541,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Arcane Storm에 적중한 적 1명당 분노 2%를 회복한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Arcane Storm 발동 시 ATK의 50%에 해당하는 보호막을 8초간 얻는다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "관통 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "궁극기를 2회 연속 사용한다. 50초마다 최대 1회 발동."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "solcadens",
@@ -8529,7 +9738,38 @@
         "url": "https://youtu.be/LyLB8O_0Jqk",
         "label": "나만겜 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "사망 또는 철수 시 현재 타일에 Moonfrost를 남기며 다음 배치까지 유지된다. Moonfrost 위치에 다시 배치하면 ATK +10%, 일반 공격 범위 내 모든 아군에게 자신의 ATK 100%에 해당하는 보호막을 10초간 부여한다. Moonfrost는 3초마다 2칸 내 최대 8명의 적에게 Winter’s Bite 1중첩을 3초간 부여하며 적을 막을 수 없다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "일반 공격과 궁극기 사거리가 증가하고 최대 대상 수 +4."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "Bone-Biting Cold 피해 +20%. 보호막이 있으면 추가로 피해 +10%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "전투당 배치 가능 횟수 +1."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "sun-wukong",
@@ -9267,7 +10507,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "일반 공격 사거리 +1칸."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "보호막 수치에 따른 피해 증가 효과 +50%."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "치명타율 +5%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Miracle로 아군을 부활시키면 해당 아군과 자신이 10초간 피해 +100%."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "vargus",
@@ -9727,7 +10998,38 @@
       "krVerified": true,
       "source": "user-reviewed-artifact-list"
     },
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Whirlwind Slash 발동 확률 +10%."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Whirlwind Slash 발동 시 HP 5%를 회복한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "HP +10%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "보호막이 있을 때 추가 일반 공격과 Whirlwind Slash 발동 확률이 2배가 된다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "vortex",
@@ -9750,7 +11052,38 @@
       }
     ],
     "collectionValue": 4,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "전장에 있는 동안 25초마다 무작위 아군 1명에게 해당 아군 최대 HP의 20%에 해당하는 보호막을 10초간 부여한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "HP +1200."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "플랫폼 유닛에게 적용하는 치유 배율 +20%."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "자동 분노 회복 +1."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Healing Ripple의 보호막이 흡수할 수 있는 피해량 +10%."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "wrath",
