@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v2118-star-piercers-awakening";
+const CACHE_NAME = "namangam-wor-v2119-esoteria-order-awakening";
 
 const CORE_ASSETS = [
   "./",
