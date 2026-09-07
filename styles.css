@@ -2698,3 +2698,179 @@ body.modal-open {
     margin-top: 30px;
   }
 }
+
+
+/* v2.10.8 — real DOM axis/alignment fix */
+:root {
+  --home-control-width: 960px;
+}
+
+/* Use the real page sections and keep one shared left axis */
+.hero.wrap,
+.faction-section.wrap,
+.roster.wrap {
+  width: min(1180px, calc(100% - 64px));
+}
+
+.hero {
+  padding-top: 64px;
+  padding-bottom: 34px;
+}
+
+.hero > .eyebrow,
+.hero > h1,
+.hero > .lead,
+.hero > .searchbox,
+.hero > .creator-banner {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.hero > h1 {
+  max-width: 900px;
+  font-size: clamp(48px, 5.45vw, 78px);
+  line-height: 1;
+}
+
+.hero > .lead {
+  max-width: 900px;
+  margin-top: 18px;
+  margin-bottom: 24px;
+}
+
+/* Search / creator / faction selector share one exact width */
+.hero > .searchbox,
+.hero > .creator-banner,
+.faction-select-shell {
+  width: 100%;
+  max-width: var(--home-control-width);
+}
+
+.hero > .searchbox {
+  margin-top: 0;
+}
+
+.hero > .creator-banner {
+  margin-top: 18px;
+}
+
+/* Creator card no longer floats centered independently */
+.creator-banner-scribe {
+  grid-template-columns: 78px minmax(0, 1fr) 330px;
+  column-gap: 20px;
+  padding: 16px 18px;
+}
+
+.creator-scribe-icon {
+  width: 64px;
+  height: 64px;
+}
+
+.creator-banner-scribe .creator-banner-copy p {
+  max-width: 100%;
+  line-height: 1.48;
+}
+
+.creator-banner-scribe .creator-cta-stack {
+  width: 100%;
+}
+
+/* Bring the wiki navigation closer and keep the same axis */
+.faction-section {
+  padding-top: 26px !important;
+  padding-bottom: 30px !important;
+}
+
+.faction-section .section-title {
+  width: 100%;
+  max-width: var(--home-control-width);
+}
+
+.faction-section .section-kicker {
+  margin-bottom: 9px;
+}
+
+.faction-section .section-title h2 {
+  margin-bottom: 15px;
+}
+
+.faction-select-shell {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.roster {
+  padding-top: 28px !important;
+}
+
+.roster-head {
+  align-items: flex-end;
+}
+
+.count-badge {
+  padding-bottom: 2px;
+}
+
+@media (min-width: 901px) {
+  .creator-cta-stack {
+    gap: 7px;
+  }
+
+  .creator-cta-stack .youtube-cta,
+  .creator-cta-stack .newbie-cta {
+    min-height: 54px;
+  }
+}
+
+@media (max-width: 1000px) {
+  :root {
+    --home-control-width: 100%;
+  }
+
+  .hero.wrap,
+  .faction-section.wrap,
+  .roster.wrap {
+    width: calc(100% - 40px);
+  }
+
+  .creator-banner-scribe {
+    grid-template-columns: 68px minmax(0, 1fr);
+  }
+
+  .creator-banner-scribe .creator-cta-stack {
+    grid-column: 1 / -1;
+    margin-top: 6px;
+  }
+}
+
+@media (max-width: 620px) {
+  .hero.wrap,
+  .faction-section.wrap,
+  .roster.wrap {
+    width: calc(100% - 24px);
+  }
+
+  .hero {
+    padding-top: 38px;
+    padding-bottom: 24px;
+  }
+
+  .hero > h1 {
+    font-size: clamp(38px, 11.5vw, 54px);
+  }
+
+  .creator-banner-scribe {
+    grid-template-columns: 54px minmax(0, 1fr);
+    column-gap: 12px;
+    padding: 14px;
+  }
+
+  .creator-scribe-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .faction-section {
+    padding-top: 20px !important;
+  }
+}

@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v2107";
+const CACHE_NAME = "namangam-wor-v2108";
 
 const CORE_ASSETS = [
   "./",
