@@ -3086,3 +3086,96 @@ body.modal-open {
     align-self: flex-start;
   }
 }
+
+
+/* =========================================================
+   v2.10.14 — Hero detail readability pass
+   - Remove redundant awakening grade label
+   - Enlarge low-visibility detail text
+   ========================================================= */
+
+.hero-detail-page {
+  --detail-body-size: 14px;
+  --detail-sub-size: 13px;
+  --detail-small-size: 12px;
+}
+
+/* Defensive: old/static markup may still contain this element. */
+.hero-detail-page .detail-awakening-grade {
+  display: none !important;
+}
+
+/* Awakening text: match the visual weight of the main hero detail copy. */
+.hero-detail-page .detail-awakening-copy p {
+  margin: 0;
+  color: #c4cedb;
+  font-size: var(--detail-body-size);
+  line-height: 1.72;
+  font-weight: 600;
+}
+
+/* General detail-page body copy that was 11px or smaller. */
+.hero-detail-page .detail-readable-copy {
+  color: #aeb9c8;
+  font-size: var(--detail-body-size);
+  line-height: 1.72;
+}
+
+.hero-detail-page .detail-guide-lead {
+  font-size: var(--detail-body-size);
+}
+
+.hero-detail-page .detail-stat-list li,
+.hero-detail-page .detail-tip,
+.hero-detail-page .detail-artifact-box p,
+.hero-detail-page .detail-skill-row p,
+.hero-detail-page .detail-exclusive-artifact-card > p,
+.hero-detail-page .detail-cta p:not(.section-kicker),
+.hero-detail-page .detail-report p:not(.section-kicker) {
+  font-size: var(--detail-sub-size);
+  line-height: 1.7;
+}
+
+/* Small informational labels: keep hierarchy, but make them readable. */
+.hero-detail-page .section-kicker,
+.hero-detail-page .hero-detail-facts dt,
+.hero-detail-page .detail-brand span,
+.hero-detail-page .detail-back,
+.hero-detail-page .detail-breadcrumb,
+.hero-detail-page .detail-faction-chip small,
+.hero-detail-page .detail-artifact-box span,
+.hero-detail-page .detail-video-copy span,
+.hero-detail-page .detail-video-copy em,
+.hero-detail-page .detail-exclusive-artifact-title small,
+.hero-detail-page .detail-collection-fact dd small,
+.hero-detail-page .detail-source-note,
+.hero-detail-page .detail-source-standalone,
+.hero-detail-page .detail-cta > a,
+.hero-detail-page .detail-back-home,
+.hero-detail-page .detail-report > a,
+.hero-detail-page .detail-footer-inner {
+  font-size: var(--detail-small-size);
+}
+
+/* Tiny badges should remain compact, but no longer microscopic. */
+.hero-detail-page .detail-faction-chip b,
+.hero-detail-page .artifact-verify-badge,
+.hero-detail-page .detail-stat-list li::before {
+  font-size: 10.5px;
+}
+
+.hero-detail-page .detail-trait-badge {
+  font-size: 13px;
+}
+
+@media (max-width: 560px) {
+  .hero-detail-page {
+    --detail-body-size: 14px;
+    --detail-sub-size: 13px;
+    --detail-small-size: 12px;
+  }
+
+  .hero-detail-page .detail-trait-badge {
+    font-size: 12.5px;
+  }
+}
