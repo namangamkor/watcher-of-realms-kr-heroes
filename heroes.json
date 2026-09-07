@@ -5083,7 +5083,38 @@
       }
     ],
     "collectionValue": 3,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "번개 구체가 자신에게 적중하면 다음 튕김 피해가 2배로 증가하고, 적에게 광휘 침식 2중첩을 부여한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +200."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "번개 구체가 자신에게 적중하면 HP를 10% 회복하고 자신에게 걸린 디버프를 해제한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "공격 속도 +25."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "번개 구체의 튕김 횟수 +6."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 최신 Prospector's Digsite 및 Watcher of Realms Wiki(Fandom) 기준으로 교차 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "eona",
@@ -11658,7 +11689,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 발동 후 첫 2회의 일반 공격이 Reprimand로 변경된다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300. 진영 아군의 ATK +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "자신의 치명타 피해의 10%만큼 관통이 증가한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 발동 즉시 범위 내 최대 10명의 적에게 광휘 침식 1중첩을 10초간 부여하고 3초간 기절시킨다."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Anathema의 물리 피해 배율이 300%, 고정 피해 배율이 200%로 증가한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 최신 Prospector's Digsite 및 Watcher of Realms Wiki(Fandom) 기준으로 교차 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "orim",
@@ -11954,7 +12016,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "광휘 침식이 부여된 대상에게 일반 공격으로 피해를 입히면 분노를 3% 회복한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +5%. 진영 아군의 ATK +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Light of Judgement가 5개에 도달하면 ATK가 15% 증가한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "자동 분노 회복 +1."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "대상이 Light of Judgement의 공격을 15회 받을 때마다 플레트스의 ATK를 기준으로 200% 추가 고정 피해를 받는다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 최신 Prospector's Digsite 및 Watcher of Realms Wiki(Fandom) 기준으로 교차 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "pyros",
