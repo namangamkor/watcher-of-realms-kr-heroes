@@ -2876,7 +2876,7 @@ body.modal-open {
 }
 
 
-/* v2.10.9 — Creator banner before search */
+/* v2.10.10 — creator banner before search, fixed */
 .hero > .creator-banner {
   margin-top: 22px;
   margin-bottom: 16px;
@@ -2887,7 +2887,6 @@ body.modal-open {
   margin-bottom: 0;
 }
 
-/* Give the search tool a little breathing room before the faction section. */
 .faction-section {
   padding-top: 34px !important;
 }
