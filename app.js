@@ -8,6 +8,7 @@ const resultSummary = document.querySelector("#resultSummary");
 const rosterKicker = document.querySelector("#rosterKicker");
 const rosterTitle = document.querySelector("#rosterTitle");
 const dataNote = document.querySelector("#dataNote");
+const artifactProgressNote = document.querySelector("#artifactProgressNote");
 const factionSelectShell = document.querySelector("#factionSelectShell");
 const factionSelectButton = document.querySelector("#factionSelectButton");
 const factionSelectMenu = document.querySelector("#factionSelectMenu");
@@ -27,6 +28,27 @@ const contentMeta = {
   "arena-aoe": { kr: "아레나광역", en: "Arena AoE" },
   "arena-single": { kr: "아레나단일", en: "Arena Single Target" }
 };
+
+
+function getExclusiveArtifactStats(heroList) {
+  const entries = heroList.filter((hero) => {
+    const artifact = hero.exclusiveArtifact;
+    return Boolean(artifact && (artifact.nameKr || artifact.nameEn));
+  });
+
+  const complete = entries.filter((hero) => hero.exclusiveArtifact.nameKr && hero.exclusiveArtifact.nameEn).length;
+  const krOnly = entries.filter((hero) => hero.exclusiveArtifact.nameKr && !hero.exclusiveArtifact.nameEn).length;
+  const enOnly = entries.filter((hero) => !hero.exclusiveArtifact.nameKr && hero.exclusiveArtifact.nameEn).length;
+
+  return { total: entries.length, complete, krOnly, enOnly };
+}
+
+function updateArtifactProgressNote() {
+  if (!artifactProgressNote) return;
+  const stats = getExclusiveArtifactStats(heroes);
+  artifactProgressNote.textContent =
+    `전용 아티팩트 확인 영웅 ${stats.total}명 · 한·영 이름 완전 매칭 ${stats.complete}명 · 한국명만 확인 ${stats.krOnly}명 · 영문명만 확인 ${stats.enOnly}명`;
+}
 
 function matchesContent(hero) {
   return (
@@ -400,7 +422,7 @@ function render() {
   }
 }
 
-fetch("./heroes.json?v=2.10.14")
+fetch("./heroes.json?v=2.10.15")
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
@@ -408,6 +430,7 @@ fetch("./heroes.json?v=2.10.14")
   .then((data) => {
     heroes = data;
     syncFactionTotalsFromHeroes();
+    updateArtifactProgressNote();
     render();
   })
   .catch((error) => {

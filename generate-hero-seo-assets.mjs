@@ -68,6 +68,19 @@ function buildFactionTotals(heroes) {
   return totals;
 }
 
+
+function buildExclusiveArtifactStats(heroes) {
+  const entries = heroes.filter((hero) => {
+    const artifact = hero.exclusiveArtifact;
+    return Boolean(artifact && (artifact.nameKr || artifact.nameEn));
+  });
+  const complete = entries.filter((hero) => hero.exclusiveArtifact.nameKr && hero.exclusiveArtifact.nameEn).length;
+  const krOnly = entries.filter((hero) => hero.exclusiveArtifact.nameKr && !hero.exclusiveArtifact.nameEn).length;
+  const enOnly = entries.filter((hero) => !hero.exclusiveArtifact.nameKr && hero.exclusiveArtifact.nameEn).length;
+  const krVerified = entries.filter((hero) => hero.exclusiveArtifact.krVerified === true && hero.exclusiveArtifact.nameKr).length;
+  return { total: entries.length, complete, krOnly, enOnly, krVerified };
+}
+
 function rebuildWorker(currentWorker, heroes) {
   const heroJsonText = JSON.stringify(buildWorkerData(heroes));
   const pattern = /const HEROES = .*?;\n\nconst CONTENT_META/s;
@@ -107,7 +120,7 @@ function buildSitemap(heroes) {
   return lines.join('\n') + '\n';
 }
 
-function syncIndexHtml(indexHtml, heroCount, totals) {
+function syncIndexHtml(indexHtml, heroCount, totals, artifactStats) {
   let html = indexHtml;
   html = html.replace(/(<strong id="visibleCount">)\d+(<\/strong>)/, `$1${heroCount}$2`);
   html = html.replace(/(<span id="totalCount">)\d+(<\/span>)/, `$1${heroCount}$2`);
@@ -115,6 +128,10 @@ function syncIndexHtml(indexHtml, heroCount, totals) {
   html = html.replace(
     /(<div id="dataNote" class="data-note">)[\s\S]*?(<\/div>)/,
     `$1\n        고유 영웅 ${heroCount}명 등록 완료 · 한국명과 영문명을 함께 검색할 수 있습니다.\n      $2`
+  );
+  html = html.replace(
+    /(<div id="artifactProgressNote" class="data-note artifact-progress-note">)[\s\S]*?(<\/div>)/,
+    `$1\n        전용 아티팩트 확인 영웅 ${artifactStats.total}명 · 한·영 이름 완전 매칭 ${artifactStats.complete}명 · 한국명만 확인 ${artifactStats.krOnly}명 · 영문명만 확인 ${artifactStats.enOnly}명\n      $2`
   );
 
   for (const [factionId, total] of Object.entries(totals)) {
@@ -143,16 +160,20 @@ function main() {
 
   const currentWorker = fs.readFileSync(workerPath, "utf8");
   const totals = buildFactionTotals(heroes);
+  const artifactStats = buildExclusiveArtifactStats(heroes);
   const indexHtml = fs.readFileSync(indexPath, "utf8");
 
   fs.writeFileSync(workerPath, rebuildWorker(currentWorker, heroes), "utf8");
   fs.writeFileSync(sitemapPath, buildSitemap(heroes), "utf8");
-  fs.writeFileSync(indexPath, syncIndexHtml(indexHtml, heroes.length, totals), "utf8");
+  fs.writeFileSync(indexPath, syncIndexHtml(indexHtml, heroes.length, totals, artifactStats), "utf8");
+
+  assert(artifactStats.total === artifactStats.complete + artifactStats.krOnly + artifactStats.enOnly, "exclusive artifact bucket mismatch");
+  assert(artifactStats.krVerified === artifactStats.complete + artifactStats.krOnly, "Korean artifact verification mismatch");
 
   const sitemapUrlCount = (fs.readFileSync(sitemapPath, "utf8").match(/<url>/g) || []).length;
   assert(sitemapUrlCount === heroes.length + 1 + STATIC_PATHS.length, "sitemap url count mismatch");
 
-  console.log(`synced OK · heroes=${heroes.length} · sitemapUrls=${sitemapUrlCount} · particleSample=${getTopicParticle("초선")}`);
+  console.log(`synced OK · heroes=${heroes.length} · artifacts=${artifactStats.total} · fullMatch=${artifactStats.complete} · krOnly=${artifactStats.krOnly} · enOnly=${artifactStats.enOnly} · sitemapUrls=${sitemapUrlCount}`);
 }
 
 main();

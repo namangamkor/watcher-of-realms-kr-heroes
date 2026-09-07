@@ -3179,3 +3179,10 @@ body.modal-open {
     font-size: 12.5px;
   }
 }
+
+
+/* v2.10.15 — verified exclusive-artifact coverage */
+.artifact-progress-note {
+  margin-top: 10px;
+  color: #98a6ba;
+}
