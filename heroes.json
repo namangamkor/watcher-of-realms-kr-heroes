@@ -538,7 +538,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Destructive Breath 발동 시 관통이 30% 증가한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +5%. Ancient Blood의 피해 증가 효과가 추가로 2% 증가한다."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Thunder Strike 발동 확률이 10% 증가하고, 적중 대상에게 더 강한 둔화(-50%, 5초)를 부여한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "코스트 -5."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Thunder Strike 발동 후 7초 동안 주는 피해가 25% 증가한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom)와 2026-04-22 공식 밸런스 패치 내용을 대조해 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "akirastar",
@@ -1125,7 +1156,7 @@
         "portrait": "./esoteria-hq-38-ardeth.webp"
       }
     ],
-    "collectionValue": 1,
+    "collectionValue": 2,
     "videos": [],
     "details": {
       "awakening": [
@@ -15175,7 +15206,7 @@
         "portrait": "./cursed-cult-hq-25-velisse.webp"
       }
     ],
-    "collectionValue": 3,
+    "collectionValue": 4,
     "videos": [
       {
         "youtubeId": "DdzidwGAvxE",
@@ -16258,7 +16289,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 발동 시 범위 내 최대 10명의 적에게 280% 피해를 입히고 2초간 빙결을 부여한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +5%. Ancient Blood의 피해 증가 효과가 추가로 2% 증가한다."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "궁극기가 활성화되지 않은 동안 일반 공격이 30% 확률로 Winter’s Bite를 발동한다. 또한 특성 범위 내 Winter’s Bite의 효과 지속 시간이 2초 증가한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "공격 시 분노 회복 +2. Boreal Winds의 범위가 증가한다."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 범위가 영구적으로 증가한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom)와 2026-04-22 공식 밸런스 패치 내용을 대조해 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "yuri",

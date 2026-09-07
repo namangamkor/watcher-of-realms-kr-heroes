@@ -1,14 +1,19 @@
-# v2.11.11 Supreme Arbiters Awakening
+# v2.11.13 Collection Value Adjustment
 
-- Base: v2.11.10 Chaos Dominion Awakening
-- Supreme Arbiters heroes: 22
-- Existing Supreme Arbiters A1-A5 preserved: 19
-- Newly added Supreme Arbiters A1-A5: 3 (Elysia, Oren, Praetus)
-- Supreme Arbiters heroes with complete A1-A5: 22/22
-- Supreme Arbiters verification coverage: 22/22
-- Previous completed factions preserved: Watchguard 40/40, North Throne 49/49, Nightmare Council 39/39, Cursed Cult 40/40, Infernal Blast 33/33, Star Piercers 44/44, Esoteria Order 48/48, Chaos Dominion 27/27
-- Total heroes with complete A1-A5 after this patch: 248
-- Collection value 253/253, exclusive artifacts 100, and related Namangam video data preserved
-- Cache key bumped to v2.11.11
+## 이번 업데이트
+- 수집가치 조정
+  - 벨리스(Velisse): 3.0 → 4.0
+  - 알더스(Ardeth): 1.0 → 2.0
+- 각성/전용 아티팩트/영상/기타 영웅 데이터 보존
+- Cache key bumped to v2.11.13
 
-New awakening text in this patch is translated from current Prospector's Digsite and Watcher of Realms Wiki (Fandom) data; wording may differ from the official Korean client.
+## 누적 검증
+- 전체 영웅: 253명
+- A1~A5 완료: 250명
+- 각성 정보 없음으로 검증: 3명 (커터, 리암, 바로드라쿠스)
+- 전체 각성 검증: 253/253명
+- 수집가치: 253/253명
+- 전용 아티팩트: 100명
+- 전설 영상 연결: 170명
+
+Base: v2.11.12 Unnamable Awakening

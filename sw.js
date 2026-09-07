@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21111-supreme-arbiters-awakening";
+const CACHE_NAME = "namangam-wor-v21113-collection-value-adjustment";
 
 const CORE_ASSETS = [
   "./",
