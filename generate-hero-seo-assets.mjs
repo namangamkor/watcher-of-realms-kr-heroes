@@ -8,7 +8,6 @@ const LASTMOD = "2026-09-07";
 const STATIC_PATHS = ["newbie/"];
 
 const heroesPath = path.join(ROOT, "heroes.json");
-const collectionValuesPath = path.join(ROOT, "collection-values.json");
 const workerPath = path.join(ROOT, "_worker.js");
 const sitemapPath = path.join(ROOT, "sitemap.xml");
 const indexPath = path.join(ROOT, "index.html");
@@ -29,7 +28,7 @@ function getTopicParticle(word = "") {
   return ((code - 0xac00) % 28) === 0 ? "는" : "은";
 }
 
-function buildWorkerData(heroes, collectionValues) {
+function buildWorkerData(heroes) {
   const out = {};
   for (const hero of heroes) {
     const memberships = hero.memberships || [];
@@ -47,10 +46,11 @@ function buildWorkerData(heroes, collectionValues) {
         lord: Boolean(m.lord),
       })),
       contentTags: hero.contentTags || [],
+      collectionValue: Number(hero.collectionValue || 0),
+      exclusiveArtifact: hero.exclusiveArtifact || null,
       traits: hero.traits || [],
       details: hero.details || null,
       videos: hero.videos || [],
-      collectionValue: collectionValues[hero.id] ?? null,
     };
   }
   return out;
@@ -68,8 +68,8 @@ function buildFactionTotals(heroes) {
   return totals;
 }
 
-function rebuildWorker(currentWorker, heroes, collectionValues) {
-  const heroJsonText = JSON.stringify(buildWorkerData(heroes, collectionValues));
+function rebuildWorker(currentWorker, heroes) {
+  const heroJsonText = JSON.stringify(buildWorkerData(heroes));
   const pattern = /const HEROES = .*?;\n\nconst CONTENT_META/s;
   assert(pattern.test(currentWorker), "failed to locate HEROES data block in _worker.js");
   return currentWorker.replace(
@@ -130,12 +130,8 @@ function syncIndexHtml(indexHtml, heroCount, totals) {
 
 function main() {
   const heroes = readJson(heroesPath);
-  const collectionFile = readJson(collectionValuesPath);
-  const collectionValues = collectionFile.values || {};
-
   assert(Array.isArray(heroes), "heroes.json must be an array");
   assert(heroes.length > 0, "heroes.json is empty");
-  assert(Object.keys(collectionValues).length === heroes.length, "collection-values.json count mismatch");
 
   const ids = heroes.map((hero) => hero.id);
   const uniqueIds = new Set(ids);
@@ -143,23 +139,20 @@ function main() {
 
   for (const hero of heroes) {
     assert(hero.id && hero.nameKr && hero.nameEn, `missing core fields: ${JSON.stringify(hero)}`);
-    const score = Number(collectionValues[hero.id]);
-    assert(Number.isFinite(score), `missing collection value: ${hero.id}`);
-    assert(score >= 1 && score <= 5 && Number.isInteger(score * 2), `invalid collection value: ${hero.id}=${score}`);
   }
 
   const currentWorker = fs.readFileSync(workerPath, "utf8");
   const totals = buildFactionTotals(heroes);
   const indexHtml = fs.readFileSync(indexPath, "utf8");
 
-  fs.writeFileSync(workerPath, rebuildWorker(currentWorker, heroes, collectionValues), "utf8");
+  fs.writeFileSync(workerPath, rebuildWorker(currentWorker, heroes), "utf8");
   fs.writeFileSync(sitemapPath, buildSitemap(heroes), "utf8");
   fs.writeFileSync(indexPath, syncIndexHtml(indexHtml, heroes.length, totals), "utf8");
 
   const sitemapUrlCount = (fs.readFileSync(sitemapPath, "utf8").match(/<url>/g) || []).length;
   assert(sitemapUrlCount === heroes.length + 1 + STATIC_PATHS.length, "sitemap url count mismatch");
 
-  console.log(`synced OK · heroes=${heroes.length} · collectionValues=${Object.keys(collectionValues).length} · sitemapUrls=${sitemapUrlCount} · particleSample=${getTopicParticle("초선")}`);
+  console.log(`synced OK · heroes=${heroes.length} · sitemapUrls=${sitemapUrlCount} · particleSample=${getTopicParticle("초선")}`);
 }
 
 main();

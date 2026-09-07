@@ -18,7 +18,14 @@
         "sortOrder": 9,
         "portrait": "./nightmare-council-hq-09-abomination.webp"
       }
-    ]
+    ],
+    "collectionValue": 2,
+    "exclusiveArtifact": {
+      "nameKr": "유황의분노",
+      "nameEn": "Brimstone's Fury",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "abyss",
@@ -39,7 +46,8 @@
         "sortOrder": 5,
         "portrait": "./cursed-cult-hq-05-abyss.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "admiral-claw",
@@ -69,7 +77,8 @@
         "sortOrder": 16,
         "portrait": "./chaos-dominion-hq-16-admiral-claw.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "aedrin",
@@ -90,7 +99,14 @@
         "sortOrder": 33,
         "portrait": "./north-throne-hq-33-aedrin.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "서리포식자",
+      "nameEn": "Frost Devourer",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "aeon",
@@ -111,7 +127,8 @@
         "sortOrder": 4,
         "portrait": "./cursed-cult-hq-04-aeon.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "aeris",
@@ -141,7 +158,8 @@
         "sortOrder": 23,
         "portrait": "./esoteria-hq-23-aeris.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "ai",
@@ -171,7 +189,8 @@
         "sortOrder": 44,
         "portrait": "./esoteria-hq-44-ai.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "ain",
@@ -192,7 +211,14 @@
         "sortOrder": 3,
         "portrait": "./watch-guard-hq-03-ain.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "탄식의연사",
+      "nameEn": "Sorrow's Veil",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "ajax",
@@ -213,7 +239,14 @@
         "sortOrder": 1,
         "portrait": "./unnamable-hq-01-ajax.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "드래곤의천적",
+      "nameEn": "Dragon Bane",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "akirastar",
@@ -245,7 +278,14 @@
         "sortOrder": 18,
         "portrait": "./star-piercers-hq-18-akirastar.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "머신코어",
+      "nameEn": "Mech Core",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "alaura",
@@ -275,7 +315,14 @@
         "sortOrder": 16,
         "portrait": "./star-piercers-hq-16-alaura.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "성결한왕관",
+      "nameEn": "Falcon's Crest",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "alistair",
@@ -305,7 +352,8 @@
         "sortOrder": 13,
         "portrait": "./supreme-arbiters-hq-13-alistair.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "anai",
@@ -326,7 +374,8 @@
         "sortOrder": 13,
         "portrait": "./infernal-blast-hq-13-anai.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "anora",
@@ -356,7 +405,14 @@
         "sortOrder": 24,
         "portrait": "./esoteria-hq-24-anora.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "불경한자",
+      "nameEn": "Scepter of Impiety",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "apsan",
@@ -377,7 +433,14 @@
         "sortOrder": 7,
         "portrait": "./star-piercers-hq-07-apsan.webp"
       }
-    ]
+    ],
+    "collectionValue": 1,
+    "exclusiveArtifact": {
+      "nameKr": "포효의뼈",
+      "nameEn": "Wailing Tusk",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "aracha",
@@ -398,7 +461,14 @@
         "sortOrder": 1,
         "portrait": "./star-piercers-hq-01-aracha.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "거미의형태",
+      "nameEn": "Arachno Shroud",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "ardea",
@@ -428,7 +498,8 @@
         "sortOrder": 14,
         "portrait": "./chaos-dominion-hq-14-ardea.webp"
       }
-    ]
+    ],
+    "collectionValue": 4
   },
   {
     "id": "ardeth",
@@ -449,7 +520,8 @@
         "sortOrder": 38,
         "portrait": "./esoteria-hq-38-ardeth.webp"
       }
-    ]
+    ],
+    "collectionValue": 1
   },
   {
     "id": "ares",
@@ -473,7 +545,8 @@
     ],
     "contentTags": [
       "abyss"
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "arrogance",
@@ -494,7 +567,14 @@
         "sortOrder": 8,
         "portrait": "./nightmare-council-hq-08-arrogance.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "멸시의눈",
+      "nameEn": "Eye of Mockery",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "artemis",
@@ -515,7 +595,8 @@
         "sortOrder": 22,
         "portrait": "./cursed-cult-hq-22-artemis.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "astrael",
@@ -545,7 +626,8 @@
         "sortOrder": 24,
         "portrait": "./nightmare-council-hq-24-astrael.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "atrox",
@@ -575,7 +657,8 @@
         "sortOrder": 26,
         "portrait": "./chaos-dominion-hq-26-atrox.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "aurelius-gale",
@@ -596,7 +679,14 @@
         "sortOrder": 27,
         "portrait": "./cursed-cult-hq-27-aurelius-gale.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "열화축제",
+      "nameEn": null,
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "autumn",
@@ -617,7 +707,8 @@
         "sortOrder": 33,
         "portrait": "./infernal-blast-hq-33-autumn.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "aveline",
@@ -647,7 +738,8 @@
         "sortOrder": 44,
         "portrait": "./north-throne-hq-44-aveline.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "aylin",
@@ -668,7 +760,14 @@
         "sortOrder": 9,
         "portrait": "./infernal-blast-hq-09-aylin.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "초승달토템",
+      "nameEn": "Crescent Totem",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "azhor",
@@ -689,7 +788,14 @@
         "sortOrder": 13,
         "portrait": "./nightmare-council-hq-13-azhor.webp"
       }
-    ]
+    ],
+    "collectionValue": 1,
+    "exclusiveArtifact": {
+      "nameKr": null,
+      "nameEn": "Soul Crucible",
+      "krVerified": false,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "azzoth",
@@ -710,7 +816,8 @@
         "sortOrder": 31,
         "portrait": "./infernal-blast-hq-31-azzoth.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "baron",
@@ -731,7 +838,8 @@
         "sortOrder": 32,
         "portrait": "./nightmare-council-hq-32-baron.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "bayek",
@@ -761,7 +869,14 @@
         "sortOrder": 28,
         "portrait": "./star-piercers-hq-28-bayek.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "아멘호테프의활",
+      "nameEn": "Amenhotep's Bow",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "beatrix",
@@ -791,7 +906,14 @@
         "sortOrder": 20,
         "portrait": "./esoteria-hq-20-beatrix.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "침묵록",
+      "nameEn": "Codex of Silence",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "beelzebub",
@@ -812,7 +934,14 @@
         "sortOrder": 18,
         "portrait": "./cursed-cult-hq-18-beelzebub.webp"
       }
-    ]
+    ],
+    "collectionValue": 5,
+    "exclusiveArtifact": {
+      "nameKr": "죽음의부름",
+      "nameEn": "Carrion's Call",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "boreas",
@@ -842,7 +971,14 @@
         "sortOrder": 14,
         "portrait": "./esoteria-hq-14-boreas.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": null,
+      "nameEn": "Eternal Winter",
+      "krVerified": false,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "borut",
@@ -863,7 +999,8 @@
         "sortOrder": 4,
         "portrait": "./watch-guard-hq-04-borut.webp"
       }
-    ]
+    ],
+    "collectionValue": 1
   },
   {
     "id": "brienne",
@@ -893,7 +1030,8 @@
         "sortOrder": 32,
         "portrait": "./star-piercers-hq-32-brienne.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "brokkir",
@@ -914,7 +1052,14 @@
         "sortOrder": 18,
         "portrait": "./north-throne-hq-18-brokkir.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "무정한겨울",
+      "nameEn": "Stoic Winter",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "brunor",
@@ -944,7 +1089,8 @@
         "sortOrder": 28,
         "portrait": "./infernal-blast-hq-28-brunor.webp"
       }
-    ]
+    ],
+    "collectionValue": 1
   },
   {
     "id": "cainan",
@@ -977,7 +1123,14 @@
     ],
     "contentTags": [
       "abyss"
-    ]
+    ],
+    "collectionValue": 5,
+    "exclusiveArtifact": {
+      "nameKr": "사죄자",
+      "nameEn": null,
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "calista",
@@ -998,7 +1151,14 @@
         "sortOrder": 16,
         "portrait": "./watch-guard-hq-16-calista.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "불멸의에드라크",
+      "nameEn": "Helm of Yalnor",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "calypso",
@@ -1019,7 +1179,14 @@
         "sortOrder": 5,
         "portrait": "./star-piercers-hq-05-calypso.webp"
       }
-    ]
+    ],
+    "collectionValue": 2,
+    "exclusiveArtifact": {
+      "nameKr": "심연의노래",
+      "nameEn": "Chant of the Depths",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "camille",
@@ -1040,7 +1207,8 @@
         "sortOrder": 40,
         "portrait": "./watch-guard-hq-40-camille.webp"
       }
-    ]
+    ],
+    "collectionValue": 1
   },
   {
     "id": "captain-reve",
@@ -1061,7 +1229,14 @@
         "sortOrder": 8,
         "portrait": "./cursed-cult-hq-08-captain-reve.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "죽음의닻",
+      "nameEn": "Anchor of the Damned",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "carnelian",
@@ -1091,7 +1266,8 @@
         "sortOrder": 12,
         "portrait": "./chaos-dominion-hq-12-carnelian.webp"
       }
-    ]
+    ],
+    "collectionValue": 4
   },
   {
     "id": "carosa",
@@ -1112,7 +1288,8 @@
         "sortOrder": 7,
         "portrait": "./cursed-cult-hq-07-carosa.webp"
       }
-    ]
+    ],
+    "collectionValue": 1
   },
   {
     "id": "cassiel",
@@ -1142,7 +1319,8 @@
         "sortOrder": 18,
         "portrait": "./supreme-arbiters-hq-18-cassiel.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "cerberus",
@@ -1172,7 +1350,14 @@
         "sortOrder": 8,
         "portrait": "./chaos-dominion-hq-08-cerberus.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "불사자의마지막모습",
+      "nameEn": "Unending Relic",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "clarissa",
@@ -1193,7 +1378,8 @@
         "sortOrder": 33,
         "portrait": "./esoteria-hq-33-clarissa.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "constance",
@@ -1223,7 +1409,14 @@
         "sortOrder": 11,
         "portrait": "./supreme-arbiters-hq-11-constance.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "신성한예찬문",
+      "nameEn": "Tome of Holylight",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "corven",
@@ -1244,7 +1437,8 @@
         "sortOrder": 29,
         "portrait": "./star-piercers-hq-29-corven.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "count-dracula",
@@ -1280,7 +1474,14 @@
       "arena-air",
       "arena-aoe",
       "arena-single"
-    ]
+    ],
+    "collectionValue": 5,
+    "exclusiveArtifact": {
+      "nameKr": "심장파괴의계약",
+      "nameEn": "Crest of Dracul",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "crach",
@@ -1301,7 +1502,14 @@
         "sortOrder": 7,
         "portrait": "./watch-guard-hq-07-crach.webp"
       }
-    ]
+    ],
+    "collectionValue": 1,
+    "exclusiveArtifact": {
+      "nameKr": null,
+      "nameEn": "Molten Cog",
+      "krVerified": false,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "cutter",
@@ -1322,7 +1530,8 @@
         "sortOrder": 43,
         "portrait": "./star-piercers-hq-43-cutter.webp"
       }
-    ]
+    ],
+    "collectionValue": 1
   },
   {
     "id": "cyclone",
@@ -1343,7 +1552,8 @@
         "sortOrder": 36,
         "portrait": "./esoteria-hq-36-cyclone.webp"
       }
-    ]
+    ],
+    "collectionValue": 1
   },
   {
     "id": "cyrene",
@@ -1373,7 +1583,8 @@
         "sortOrder": 31,
         "portrait": "./cursed-cult-hq-31-cyrene.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "cyrus",
@@ -1394,7 +1605,8 @@
         "sortOrder": 1,
         "portrait": "./esoteria-hq-01-cyrus.webp"
       }
-    ]
+    ],
+    "collectionValue": 4
   },
   {
     "id": "daemon",
@@ -1415,7 +1627,8 @@
         "sortOrder": 34,
         "portrait": "./nightmare-council-hq-34-daemon.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "dagna",
@@ -1436,7 +1649,8 @@
         "sortOrder": 6,
         "portrait": "./north-throne-hq-06-dagna.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "dahlia",
@@ -1466,7 +1680,14 @@
         "sortOrder": 22,
         "portrait": "./esoteria-hq-22-dahlia.webp"
       }
-    ]
+    ],
+    "collectionValue": 2,
+    "exclusiveArtifact": {
+      "nameKr": "장미의망상",
+      "nameEn": "Orb of Ruin",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "dalyn",
@@ -1487,7 +1708,8 @@
         "sortOrder": 33,
         "portrait": "./watch-guard-hq-33-dalyn.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "dane",
@@ -1508,7 +1730,8 @@
         "sortOrder": 26,
         "portrait": "./watch-guard-hq-26-dane.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "dassomi",
@@ -1538,7 +1761,14 @@
         "sortOrder": 6,
         "portrait": "./chaos-dominion-hq-06-dassomi.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "꿈속의그릇",
+      "nameEn": "Dreamglow Repository",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "deimos",
@@ -1559,7 +1789,8 @@
         "sortOrder": 36,
         "portrait": "./nightmare-council-hq-36-deimos.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "demi",
@@ -1580,7 +1811,8 @@
         "sortOrder": 2,
         "portrait": "./cursed-cult-hq-02-demi.webp"
       }
-    ]
+    ],
+    "collectionValue": 4
   },
   {
     "id": "diaochan",
@@ -1663,7 +1895,14 @@
       "아군 버프",
       "광역 치유",
       "아군 보호"
-    ]
+    ],
+    "collectionValue": 5,
+    "exclusiveArtifact": {
+      "nameKr": "승평·봉화불",
+      "nameEn": "Phoenix Feather Fan",
+      "krVerified": true,
+      "source": "existing-verified-detail"
+    }
   },
   {
     "id": "dolores",
@@ -1684,7 +1923,8 @@
         "sortOrder": 26,
         "portrait": "./infernal-blast-hq-26-dolores.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "dr-van-helsing",
@@ -1714,7 +1954,14 @@
         "sortOrder": 26,
         "portrait": "./star-piercers-hq-26-dr-van-helsing.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "성혈의심판",
+      "nameEn": "Consecrated Edge",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "draelyn",
@@ -1747,7 +1994,8 @@
     ],
     "contentTags": [
       "abyss"
-    ]
+    ],
+    "collectionValue": 5
   },
   {
     "id": "drayga",
@@ -1768,7 +2016,8 @@
         "sortOrder": 37,
         "portrait": "./nightmare-council-hq-37-drayga.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "drogo",
@@ -1789,7 +2038,8 @@
         "sortOrder": 42,
         "portrait": "./star-piercers-hq-42-drogo.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "durza",
@@ -1819,7 +2069,8 @@
         "sortOrder": 13,
         "portrait": "./chaos-dominion-hq-13-durza.webp"
       }
-    ]
+    ],
+    "collectionValue": 4
   },
   {
     "id": "edith",
@@ -1840,7 +2091,8 @@
         "sortOrder": 18,
         "portrait": "./watch-guard-hq-18-edith.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "eirlys",
@@ -1875,7 +2127,8 @@
       "abyss",
       "arena-aoe",
       "arena-single"
-    ]
+    ],
+    "collectionValue": 5
   },
   {
     "id": "eivor-varinsdottir",
@@ -1967,6 +2220,13 @@
       ],
       "updated": "2026-09",
       "note": "공식 특성·추천 장비·각성·아티팩트 효과는 사용자가 제공한 한국 서버 게임 내 스크린샷 기준."
+    },
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "바린의 도끼",
+      "nameEn": "Varin's Axe",
+      "krVerified": true,
+      "source": "existing-verified-detail"
     }
   },
   {
@@ -1988,7 +2248,8 @@
         "sortOrder": 2,
         "portrait": "./north-throne-hq-02-elddr.webp"
       }
-    ]
+    ],
+    "collectionValue": 4
   },
   {
     "id": "eliza",
@@ -2009,7 +2270,8 @@
         "sortOrder": 3,
         "portrait": "./star-piercers-hq-03-eliza.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "elowyn",
@@ -2033,7 +2295,8 @@
     ],
     "contentTags": [
       "abyss"
-    ]
+    ],
+    "collectionValue": 5
   },
   {
     "id": "elukas",
@@ -2054,7 +2317,8 @@
         "sortOrder": 40,
         "portrait": "./cursed-cult-hq-40-elukas.webp"
       }
-    ]
+    ],
+    "collectionValue": 1
   },
   {
     "id": "elysia",
@@ -2075,7 +2339,8 @@
         "sortOrder": 3,
         "portrait": "./supreme-arbiters-hq-03-elysia.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "eona",
@@ -2105,7 +2370,8 @@
         "sortOrder": 33,
         "portrait": "./cursed-cult-hq-33-eona.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "erlang-shen",
@@ -2138,7 +2404,14 @@
     ],
     "contentTags": [
       "arena-air"
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "삼첨양인도",
+      "nameEn": "Triple-Bladed Glaive",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "esme",
@@ -2159,7 +2432,8 @@
         "sortOrder": 39,
         "portrait": "./star-piercers-hq-39-esme.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "estrid",
@@ -2180,7 +2454,8 @@
         "sortOrder": 45,
         "portrait": "./north-throne-hq-45-estrid.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "eunomia",
@@ -2212,7 +2487,8 @@
         "sortOrder": 7,
         "portrait": "./supreme-arbiters-hq-07-eunomia.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "ezareth",
@@ -2236,7 +2512,8 @@
     ],
     "contentTags": [
       "arena-aoe"
-    ]
+    ],
+    "collectionValue": 5
   },
   {
     "id": "ezio-auditore",
@@ -2328,7 +2605,14 @@
       "단일 물리 공격",
       "위치 이동",
       "방어 무시"
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "아디토레 암살검",
+      "nameEn": "Auditore Blade",
+      "krVerified": true,
+      "source": "existing-verified-detail"
+    }
   },
   {
     "id": "ezryn",
@@ -2349,7 +2633,14 @@
         "sortOrder": 11,
         "portrait": "./esoteria-hq-11-ezryn.webp"
       }
-    ]
+    ],
+    "collectionValue": 2,
+    "exclusiveArtifact": {
+      "nameKr": "드림위버의두건",
+      "nameEn": "Weaver's Hood",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "faelin",
@@ -2370,7 +2661,8 @@
         "sortOrder": 45,
         "portrait": "./esoteria-hq-45-faelin.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "falcia",
@@ -2400,7 +2692,14 @@
         "sortOrder": 13,
         "portrait": "./esoteria-hq-13-falcia.webp"
       }
-    ]
+    ],
+    "collectionValue": 2,
+    "exclusiveArtifact": {
+      "nameKr": null,
+      "nameEn": "Lucent Flame",
+      "krVerified": false,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "fenris",
@@ -2421,7 +2720,8 @@
         "sortOrder": 11,
         "portrait": "./north-throne-hq-11-fenris.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "ferssi",
@@ -2442,7 +2742,8 @@
         "sortOrder": 10,
         "portrait": "./infernal-blast-hq-10-ferssi.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "filippa",
@@ -2463,7 +2764,8 @@
         "sortOrder": 47,
         "portrait": "./esoteria-hq-47-filippa.webp"
       }
-    ]
+    ],
+    "collectionValue": 1
   },
   {
     "id": "ghan",
@@ -2544,6 +2846,13 @@
       ],
       "updated": "2026-09",
       "note": "공식 특성·추천 장비·각성·아티팩트 효과는 사용자가 제공한 한국 서버 게임 내 스크린샷 기준."
+    },
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "재앙 드래곤의 피",
+      "nameEn": null,
+      "krVerified": true,
+      "source": "existing-verified-detail"
     }
   },
   {
@@ -2574,7 +2883,8 @@
         "sortOrder": 9,
         "portrait": "./chaos-dominion-hq-09-gisele.webp"
       }
-    ]
+    ],
+    "collectionValue": 1
   },
   {
     "id": "glacius",
@@ -2595,7 +2905,8 @@
         "sortOrder": 25,
         "portrait": "./north-throne-hq-25-glacius.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "gluttony",
@@ -2616,7 +2927,8 @@
         "sortOrder": 31,
         "portrait": "./nightmare-council-hq-31-gluttony.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "gonkba",
@@ -2637,7 +2949,8 @@
         "sortOrder": 48,
         "portrait": "./esoteria-hq-48-gonkba.webp"
       }
-    ]
+    ],
+    "collectionValue": 1
   },
   {
     "id": "graves-greybeard",
@@ -2658,7 +2971,8 @@
         "sortOrder": 31,
         "portrait": "./esoteria-hq-31-graves-greybeard.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "greed",
@@ -2688,7 +3002,14 @@
         "sortOrder": 32,
         "portrait": "./cursed-cult-hq-32-greed.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "탐욕의책",
+      "nameEn": "Tome of Greed",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "gretchen",
@@ -2723,7 +3044,8 @@
       "abyss",
       "arena-air",
       "arena-single"
-    ]
+    ],
+    "collectionValue": 5
   },
   {
     "id": "gu-shi",
@@ -2753,7 +3075,14 @@
         "sortOrder": 31,
         "portrait": "./star-piercers-hq-31-gu-shi.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "현궐",
+      "nameEn": "Pathbreaker",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "guan-yu",
@@ -2783,7 +3112,14 @@
         "sortOrder": 28,
         "portrait": "./north-throne-hq-28-guan-yu.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "청룔언월도",
+      "nameEn": "Green Crescent Blade",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "gul-drak",
@@ -2813,7 +3149,8 @@
         "sortOrder": 17,
         "portrait": "./chaos-dominion-hq-17-gul-drak.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "gwendolyn",
@@ -2834,7 +3171,8 @@
         "sortOrder": 12,
         "portrait": "./north-throne-hq-12-gwendolyn.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "harpun",
@@ -2855,7 +3193,8 @@
         "sortOrder": 49,
         "portrait": "./north-throne-hq-49-harpun.webp"
       }
-    ]
+    ],
+    "collectionValue": 1
   },
   {
     "id": "hatssut",
@@ -2876,7 +3215,14 @@
         "sortOrder": 5,
         "portrait": "./nightmare-council-hq-05-hatssut.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "골드가면",
+      "nameEn": "Aureate Visage",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "helga",
@@ -2897,7 +3243,14 @@
         "sortOrder": 15,
         "portrait": "./esoteria-hq-15-helga.webp"
       }
-    ]
+    ],
+    "collectionValue": 2,
+    "exclusiveArtifact": {
+      "nameKr": "가시의왕관",
+      "nameEn": "Raven's Crest",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "hex",
@@ -2927,7 +3280,14 @@
         "sortOrder": 10,
         "portrait": "./star-piercers-hq-10-hex.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "광란의경전",
+      "nameEn": "The Sutra of Caprice",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "hollow",
@@ -2948,7 +3308,8 @@
         "sortOrder": 34,
         "portrait": "./cursed-cult-hq-34-hollow.webp"
       }
-    ]
+    ],
+    "collectionValue": 4
   },
   {
     "id": "idril",
@@ -3044,7 +3405,14 @@
         "url": "https://youtu.be/yhbWqMwssUM",
         "label": "나만겜 공략 영상"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "흡혼 부적",
+      "nameEn": null,
+      "krVerified": true,
+      "source": "existing-verified-detail"
+    }
   },
   {
     "id": "imani",
@@ -3065,7 +3433,8 @@
         "sortOrder": 30,
         "portrait": "./infernal-blast-hq-30-imani.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "ingrid",
@@ -3099,7 +3468,8 @@
     "contentTags": [
       "abyss",
       "arena-aoe"
-    ]
+    ],
+    "collectionValue": 5
   },
   {
     "id": "init",
@@ -3129,7 +3499,8 @@
         "sortOrder": 17,
         "portrait": "./supreme-arbiters-hq-17-init.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "iovar",
@@ -3153,7 +3524,14 @@
     ],
     "contentTags": [
       "arena-air"
-    ]
+    ],
+    "collectionValue": 5,
+    "exclusiveArtifact": {
+      "nameKr": "감시자의눈",
+      "nameEn": "Sentinel's Eye",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "isolde",
@@ -3174,7 +3552,8 @@
         "sortOrder": 4,
         "portrait": "./north-throne-hq-04-isolde.webp"
       }
-    ]
+    ],
+    "collectionValue": 4
   },
   {
     "id": "janqhar",
@@ -3195,7 +3574,8 @@
         "sortOrder": 40,
         "portrait": "./esoteria-hq-40-janqhar.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "janus-grismore",
@@ -3216,7 +3596,8 @@
         "sortOrder": 17,
         "portrait": "./infernal-blast-hq-17-janus-grismore.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "jeera",
@@ -3246,7 +3627,8 @@
         "sortOrder": 6,
         "portrait": "./supreme-arbiters-hq-06-jeera.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "jezebelle",
@@ -3270,7 +3652,14 @@
     ],
     "contentTags": [
       "arena-air"
-    ]
+    ],
+    "collectionValue": 5,
+    "exclusiveArtifact": {
+      "nameKr": "원죄",
+      "nameEn": null,
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "jorge",
@@ -3300,7 +3689,8 @@
         "sortOrder": 25,
         "portrait": "./chaos-dominion-hq-25-jorge.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "kaede",
@@ -3330,7 +3720,14 @@
         "sortOrder": 10,
         "portrait": "./chaos-dominion-hq-10-kaede.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": null,
+      "nameEn": "Eagle's Heartbeat",
+      "krVerified": false,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "kai",
@@ -3351,7 +3748,8 @@
         "sortOrder": 11,
         "portrait": "./star-piercers-hq-11-kai.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "kalina",
@@ -3372,7 +3770,8 @@
         "sortOrder": 43,
         "portrait": "./esoteria-hq-43-kalina.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "kane",
@@ -3402,7 +3801,14 @@
         "sortOrder": 15,
         "portrait": "./supreme-arbiters-hq-15-kane.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "리바이어던",
+      "nameEn": "Leviathan",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "kassandra",
@@ -3493,7 +3899,14 @@
       "방어 무시",
       "다단 공격",
       "강력 제어"
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "레오니다스의 창",
+      "nameEn": "Spear of Leonidas",
+      "krVerified": true,
+      "source": "existing-verified-detail"
+    }
   },
   {
     "id": "khadgrim",
@@ -3529,7 +3942,14 @@
     ],
     "contentTags": [
       "arena-single"
-    ]
+    ],
+    "collectionValue": 5,
+    "exclusiveArtifact": {
+      "nameKr": "산악의심장",
+      "nameEn": "Heart of the Mountain",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "khamet",
@@ -3550,7 +3970,14 @@
         "sortOrder": 10,
         "portrait": "./esoteria-hq-10-khamet.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "파라오의왕관",
+      "nameEn": "Pharaoh's Pschent",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "kigiri",
@@ -3583,7 +4010,14 @@
     ],
     "contentTags": [
       "abyss"
-    ]
+    ],
+    "collectionValue": 5,
+    "exclusiveArtifact": {
+      "nameKr": "악귀의머리",
+      "nameEn": "Demonic Relic",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "kineza",
@@ -3604,7 +4038,14 @@
         "sortOrder": 18,
         "portrait": "./nightmare-council-hq-18-kineza.webp"
       }
-    ]
+    ],
+    "collectionValue": 1,
+    "exclusiveArtifact": {
+      "nameKr": "평온의왕관",
+      "nameEn": "Deadwater Diadem",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "king-harz",
@@ -3625,7 +4066,8 @@
         "sortOrder": 1,
         "portrait": "./north-throne-hq-01-king-harz.webp"
       }
-    ]
+    ],
+    "collectionValue": 4
   },
   {
     "id": "knight-arlott",
@@ -3655,7 +4097,8 @@
         "sortOrder": 22,
         "portrait": "./infernal-blast-hq-22-knight-arlott.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "komodo",
@@ -3676,7 +4119,8 @@
         "sortOrder": 30,
         "portrait": "./nightmare-council-hq-30-komodo.webp"
       }
-    ]
+    ],
+    "collectionValue": 1
   },
   {
     "id": "kria",
@@ -3697,7 +4141,8 @@
         "sortOrder": 11,
         "portrait": "./cursed-cult-hq-11-kria.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "krodor",
@@ -3718,7 +4163,8 @@
         "sortOrder": 10,
         "portrait": "./north-throne-hq-10-krodor.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "lady-alexandra",
@@ -3748,7 +4194,14 @@
         "sortOrder": 9,
         "portrait": "./supreme-arbiters-hq-09-lady-alexandra.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "천벌자",
+      "nameEn": "Divine Justice",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "lady-mina",
@@ -3778,7 +4231,14 @@
         "sortOrder": 27,
         "portrait": "./star-piercers-hq-27-lady-mina.webp"
       }
-    ]
+    ],
+    "collectionValue": 5,
+    "exclusiveArtifact": {
+      "nameKr": "죽은자의속삭임",
+      "nameEn": "The Dawnbringer",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "laseer",
@@ -3799,7 +4259,14 @@
         "sortOrder": 9,
         "portrait": "./cursed-cult-hq-09-laseer.webp"
       }
-    ]
+    ],
+    "collectionValue": 2,
+    "exclusiveArtifact": {
+      "nameKr": "모래의손",
+      "nameEn": "Grasp of Sands",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "laurel",
@@ -3820,7 +4287,8 @@
         "sortOrder": 37,
         "portrait": "./esoteria-hq-37-laurel.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "laya",
@@ -3844,7 +4312,14 @@
     ],
     "contentTags": [
       "abyss"
-    ]
+    ],
+    "collectionValue": 5,
+    "exclusiveArtifact": {
+      "nameKr": "우아한왕관",
+      "nameEn": "Euphonic Coronet",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "leikan",
@@ -3874,7 +4349,8 @@
         "sortOrder": 19,
         "portrait": "./supreme-arbiters-hq-19-leikan.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "liam",
@@ -3895,7 +4371,8 @@
         "sortOrder": 44,
         "portrait": "./star-piercers-hq-44-liam.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "lightlocke",
@@ -3925,7 +4402,8 @@
         "sortOrder": 41,
         "portrait": "./north-throne-hq-41-lightlocke.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "lili",
@@ -3955,7 +4433,8 @@
         "sortOrder": 39,
         "portrait": "./esoteria-hq-39-lili.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "livian",
@@ -3985,7 +4464,14 @@
         "sortOrder": 33,
         "portrait": "./star-piercers-hq-33-livian.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "기억의방패",
+      "nameEn": "Shield of Valor",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "lord-phineas",
@@ -4006,7 +4492,14 @@
         "sortOrder": 15,
         "portrait": "./infernal-blast-hq-15-lord-phineas.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "혼돈의기쁨",
+      "nameEn": "Mask of Dark Desire",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "lu-bu",
@@ -4036,7 +4529,14 @@
         "sortOrder": 22,
         "portrait": "./chaos-dominion-hq-22-lu-bu.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "방천화극",
+      "nameEn": "Halberd of Woe",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "lucius",
@@ -4057,7 +4557,8 @@
         "sortOrder": 14,
         "portrait": "./watch-guard-hq-14-lucius.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "lugaru",
@@ -4087,7 +4588,8 @@
         "sortOrder": 5,
         "portrait": "./chaos-dominion-hq-05-lugaru.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "lulu",
@@ -4108,7 +4610,14 @@
         "sortOrder": 26,
         "portrait": "./north-throne-hq-26-lulu.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "제이드드래곤",
+      "nameEn": "Jade Dragon",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "luneria",
@@ -4129,7 +4638,8 @@
         "sortOrder": 4,
         "portrait": "./star-piercers-hq-04-luneria.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "lust",
@@ -4150,7 +4660,14 @@
         "sortOrder": 19,
         "portrait": "./nightmare-council-hq-19-lust.webp"
       }
-    ]
+    ],
+    "collectionValue": 2,
+    "exclusiveArtifact": {
+      "nameKr": "운명의속박",
+      "nameEn": "Captivation of Burning Desire",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "lynx",
@@ -4171,7 +4688,8 @@
         "sortOrder": 20,
         "portrait": "./north-throne-hq-20-lynx.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "lyra",
@@ -4201,7 +4719,8 @@
         "sortOrder": 30,
         "portrait": "./esoteria-hq-30-lyra.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "magda",
@@ -4222,7 +4741,8 @@
         "sortOrder": 19,
         "portrait": "./cursed-cult-hq-19-magda.webp"
       }
-    ]
+    ],
+    "collectionValue": 4
   },
   {
     "id": "magmus",
@@ -4243,7 +4763,14 @@
         "sortOrder": 16,
         "portrait": "./nightmare-council-hq-16-magmus.webp"
       }
-    ]
+    ],
+    "collectionValue": 2,
+    "exclusiveArtifact": {
+      "nameKr": "화산의심장",
+      "nameEn": "Volcanic Heart",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "malrik",
@@ -4273,7 +4800,8 @@
         "sortOrder": 29,
         "portrait": "./esoteria-hq-29-malrik.webp"
       }
-    ]
+    ],
+    "collectionValue": 1
   },
   {
     "id": "malvira",
@@ -4303,7 +4831,14 @@
         "sortOrder": 17,
         "portrait": "./cursed-cult-hq-17-malvira.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "비탄의벽",
+      "nameEn": null,
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "marri",
@@ -4324,7 +4859,8 @@
         "sortOrder": 37,
         "portrait": "./north-throne-hq-37-marri.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "maul",
@@ -4345,7 +4881,8 @@
         "sortOrder": 38,
         "portrait": "./north-throne-hq-38-maul.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "maw",
@@ -4366,7 +4903,8 @@
         "sortOrder": 10,
         "portrait": "./nightmare-council-hq-10-maw.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "meriel",
@@ -4387,7 +4925,8 @@
         "sortOrder": 34,
         "portrait": "./watch-guard-hq-34-meriel.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "midan",
@@ -4408,7 +4947,8 @@
         "sortOrder": 46,
         "portrait": "./north-throne-hq-46-midan.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "morene",
@@ -4438,7 +4978,8 @@
         "sortOrder": 41,
         "portrait": "./star-piercers-hq-41-morene.webp"
       }
-    ]
+    ],
+    "collectionValue": 1
   },
   {
     "id": "moriden",
@@ -4471,7 +5012,14 @@
     ],
     "contentTags": [
       "abyss"
-    ]
+    ],
+    "collectionValue": 5,
+    "exclusiveArtifact": {
+      "nameKr": "영탄",
+      "nameEn": "Nightfall",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "morrigan",
@@ -4492,7 +5040,14 @@
         "sortOrder": 1,
         "portrait": "./cursed-cult-hq-01-morrigan.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "절망의장미",
+      "nameEn": "Sorrow Bloom",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "myca",
@@ -4513,7 +5068,8 @@
         "sortOrder": 12,
         "portrait": "./infernal-blast-hq-12-myca.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "nastya",
@@ -4537,7 +5093,8 @@
     ],
     "contentTags": [
       "abyss"
-    ]
+    ],
+    "collectionValue": 5
   },
   {
     "id": "nauvras",
@@ -4567,7 +5124,8 @@
         "sortOrder": 34,
         "portrait": "./esoteria-hq-34-nauvras.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "nazeem",
@@ -4588,7 +5146,8 @@
         "sortOrder": 35,
         "portrait": "./esoteria-hq-35-nazeem.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "ne-zha",
@@ -4622,7 +5181,14 @@
     "contentTags": [
       "arena-air",
       "arena-aoe"
-    ]
+    ],
+    "collectionValue": 5,
+    "exclusiveArtifact": {
+      "nameKr": "화첨창",
+      "nameEn": "Fire-Tipped Spear",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "nerissa",
@@ -4646,7 +5212,8 @@
     ],
     "contentTags": [
       "abyss"
-    ]
+    ],
+    "collectionValue": 4
   },
   {
     "id": "niro",
@@ -4676,7 +5243,8 @@
         "sortOrder": 6,
         "portrait": "./cursed-cult-hq-06-niro.webp"
       }
-    ]
+    ],
+    "collectionValue": 1
   },
   {
     "id": "nisalt",
@@ -4697,7 +5265,8 @@
         "sortOrder": 42,
         "portrait": "./esoteria-hq-42-nisalt.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "nissandei",
@@ -4718,7 +5287,8 @@
         "sortOrder": 38,
         "portrait": "./star-piercers-hq-38-nissandei.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "nocturne",
@@ -4748,7 +5318,14 @@
         "sortOrder": 4,
         "portrait": "./infernal-blast-hq-04-nocturne.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": null,
+      "nameEn": "Mindflayer Quartz",
+      "krVerified": false,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "numera",
@@ -4781,7 +5358,8 @@
     ],
     "contentTags": [
       "abyss"
-    ]
+    ],
+    "collectionValue": 5
   },
   {
     "id": "nyx",
@@ -4802,7 +5380,14 @@
         "sortOrder": 6,
         "portrait": "./star-piercers-hq-06-nyx.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "스칼렛단검",
+      "nameEn": "Scarlet Dagger",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "olague",
@@ -4823,7 +5408,8 @@
         "sortOrder": 42,
         "portrait": "./north-throne-hq-42-olague.webp"
       }
-    ]
+    ],
+    "collectionValue": 4
   },
   {
     "id": "oren",
@@ -4847,7 +5433,8 @@
     ],
     "contentTags": [
       "arena-aoe"
-    ]
+    ],
+    "collectionValue": 5
   },
   {
     "id": "orim",
@@ -4868,7 +5455,8 @@
         "sortOrder": 6,
         "portrait": "./infernal-blast-hq-06-orim.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "osiren",
@@ -4889,7 +5477,8 @@
         "sortOrder": 35,
         "portrait": "./cursed-cult-hq-35-osiren.webp"
       }
-    ]
+    ],
+    "collectionValue": 1
   },
   {
     "id": "pelagios",
@@ -4919,7 +5508,8 @@
         "sortOrder": 5,
         "portrait": "./supreme-arbiters-hq-05-pelagios.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "pierre",
@@ -4952,7 +5542,14 @@
     ],
     "contentTags": [
       "arena-aoe"
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "회목",
+      "nameEn": "Painter's Palette",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "praetus",
@@ -4975,7 +5572,8 @@
         "sortOrder": 2,
         "portrait": "./supreme-arbiters-hq-02-praetus.webp"
       }
-    ]
+    ],
+    "collectionValue": 5
   },
   {
     "id": "pyros",
@@ -4996,7 +5594,8 @@
         "sortOrder": 3,
         "portrait": "./infernal-blast-hq-03-pyros.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "raiden",
@@ -5017,7 +5616,8 @@
         "sortOrder": 4,
         "portrait": "./esoteria-hq-04-raiden.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "raizan",
@@ -5038,7 +5638,8 @@
         "sortOrder": 15,
         "portrait": "./nightmare-council-hq-15-raizan.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "razaak",
@@ -5059,7 +5660,14 @@
         "sortOrder": 15,
         "portrait": "./star-piercers-hq-15-razaak.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "파도를헤엄치는자",
+      "nameEn": "Tidebreaker",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "regulus",
@@ -5080,7 +5688,14 @@
         "sortOrder": 5,
         "portrait": "./watch-guard-hq-05-regulus.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "사자심장검수",
+      "nameEn": "Lionheart Pommel",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "rex",
@@ -5101,7 +5716,8 @@
         "sortOrder": 38,
         "portrait": "./watch-guard-hq-38-rex.webp"
       }
-    ]
+    ],
+    "collectionValue": 1
   },
   {
     "id": "rhox",
@@ -5122,7 +5738,8 @@
         "sortOrder": 47,
         "portrait": "./north-throne-hq-47-rhox.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "rivenhald",
@@ -5143,7 +5760,14 @@
         "sortOrder": 3,
         "portrait": "./north-throne-hq-03-rivenhald.webp"
       }
-    ]
+    ],
+    "collectionValue": 5,
+    "exclusiveArtifact": {
+      "nameKr": "서리척추",
+      "nameEn": "Frosthorn Staff",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "rork",
@@ -5164,7 +5788,8 @@
         "sortOrder": 5,
         "portrait": "./north-throne-hq-05-rork.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "rosalia",
@@ -5188,7 +5813,14 @@
     ],
     "contentTags": [
       "arena-aoe"
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "태초의색",
+      "nameEn": "Paintress's Brush",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "ruen-hollow",
@@ -5209,7 +5841,8 @@
         "sortOrder": 23,
         "portrait": "./star-piercers-hq-23-ruen-hollow.webp"
       }
-    ]
+    ],
+    "collectionValue": 4
   },
   {
     "id": "rygar",
@@ -5233,7 +5866,8 @@
     ],
     "contentTags": [
       "abyss"
-    ]
+    ],
+    "collectionValue": 4
   },
   {
     "id": "sadie",
@@ -5254,7 +5888,14 @@
         "sortOrder": 13,
         "portrait": "./north-throne-hq-13-sadie.webp"
       }
-    ]
+    ],
+    "collectionValue": 2,
+    "exclusiveArtifact": {
+      "nameKr": "희미한빛",
+      "nameEn": "Whispering Grace",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "salazar",
@@ -5275,7 +5916,14 @@
         "sortOrder": 4,
         "portrait": "./nightmare-council-hq-04-salazar.webp"
       }
-    ]
+    ],
+    "collectionValue": 2,
+    "exclusiveArtifact": {
+      "nameKr": "피의일격",
+      "nameEn": "Bloodblade",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "sargak",
@@ -5305,7 +5953,8 @@
         "sortOrder": 11,
         "portrait": "./chaos-dominion-hq-11-sargak.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "scorch",
@@ -5326,7 +5975,8 @@
         "sortOrder": 27,
         "portrait": "./infernal-blast-hq-27-scorch.webp"
       }
-    ]
+    ],
+    "collectionValue": 1
   },
   {
     "id": "selene",
@@ -5347,7 +5997,14 @@
         "sortOrder": 7,
         "portrait": "./esoteria-hq-07-selene.webp"
       }
-    ]
+    ],
+    "collectionValue": 2,
+    "exclusiveArtifact": {
+      "nameKr": null,
+      "nameEn": "Sanguine Shroud",
+      "krVerified": false,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "selkath",
@@ -5368,7 +6025,8 @@
         "sortOrder": 41,
         "portrait": "./esoteria-hq-41-selkath.webp"
       }
-    ]
+    ],
+    "collectionValue": 1
   },
   {
     "id": "serephina",
@@ -5389,7 +6047,8 @@
         "sortOrder": 18,
         "portrait": "./esoteria-hq-18-serephina.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "sergei",
@@ -5422,7 +6081,8 @@
     ],
     "contentTags": [
       "arena-single"
-    ]
+    ],
+    "collectionValue": 4
   },
   {
     "id": "setram",
@@ -5443,7 +6103,14 @@
         "sortOrder": 8,
         "portrait": "./infernal-blast-hq-08-setram.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "허무의팬던트",
+      "nameEn": "Oblivion Pendant",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "shamir",
@@ -5464,7 +6131,14 @@
         "sortOrder": 9,
         "portrait": "./north-throne-hq-09-shamir.webp"
       }
-    ]
+    ],
+    "collectionValue": 2,
+    "exclusiveArtifact": {
+      "nameKr": null,
+      "nameEn": "Seabed Crown",
+      "krVerified": false,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "silas",
@@ -5488,7 +6162,14 @@
     ],
     "contentTags": [
       "arena-air"
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "회환의눈",
+      "nameEn": "Eye of Penitence",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "solaris",
@@ -5509,7 +6190,8 @@
         "sortOrder": 27,
         "portrait": "./north-throne-hq-27-solaris.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "solcadens",
@@ -5535,7 +6217,8 @@
     ],
     "contentTags": [
       "abyss"
-    ]
+    ],
+    "collectionValue": 5
   },
   {
     "id": "soleil",
@@ -5565,7 +6248,8 @@
         "sortOrder": 25,
         "portrait": "./infernal-blast-hq-25-soleil.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "sorzus",
@@ -5586,7 +6270,8 @@
         "sortOrder": 39,
         "portrait": "./nightmare-council-hq-39-sorzus.webp"
       }
-    ]
+    ],
+    "collectionValue": 1
   },
   {
     "id": "su-yue",
@@ -5616,7 +6301,14 @@
         "sortOrder": 22,
         "portrait": "./supreme-arbiters-hq-22-su-yue.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "상야",
+      "nameEn": "Moonfrost",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "sun-wukong",
@@ -5698,7 +6390,14 @@
       "다단 공격",
       "강력 제어",
       "소환"
-    ]
+    ],
+    "collectionValue": 5,
+    "exclusiveArtifact": {
+      "nameKr": "여의봉",
+      "nameEn": "Golden Cudgel",
+      "krVerified": true,
+      "source": "existing-verified-detail"
+    }
   },
   {
     "id": "sythra",
@@ -5732,7 +6431,8 @@
     "contentTags": [
       "arena-air",
       "arena-single"
-    ]
+    ],
+    "collectionValue": 4
   },
   {
     "id": "talin",
@@ -5762,7 +6462,14 @@
         "sortOrder": 20,
         "portrait": "./star-piercers-hq-20-talin.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "꽃의수호자",
+      "nameEn": "Blackbark Pauldrons",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "talula",
@@ -5783,7 +6490,14 @@
         "sortOrder": 22,
         "portrait": "./star-piercers-hq-22-talula.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "나비의노래",
+      "nameEn": "Song of the Butterfly",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "tazira",
@@ -5804,7 +6518,8 @@
         "sortOrder": 36,
         "portrait": "./star-piercers-hq-36-tazira.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "thallen",
@@ -5834,7 +6549,8 @@
         "sortOrder": 12,
         "portrait": "./supreme-arbiters-hq-12-thallen.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "theowin",
@@ -5855,7 +6571,14 @@
         "sortOrder": 34,
         "portrait": "./star-piercers-hq-34-theowin.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "폭풍의칼날",
+      "nameEn": "Stormstrike Haladie",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "thunkles",
@@ -5876,7 +6599,8 @@
         "sortOrder": 38,
         "portrait": "./cursed-cult-hq-38-thunkles.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "titus",
@@ -5897,7 +6621,8 @@
         "sortOrder": 29,
         "portrait": "./infernal-blast-hq-29-titus.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "torodor",
@@ -5918,7 +6643,8 @@
         "sortOrder": 1,
         "portrait": "./nightmare-council-hq-01-torodor.webp"
       }
-    ]
+    ],
+    "collectionValue": 4
   },
   {
     "id": "trusk",
@@ -5939,7 +6665,14 @@
         "sortOrder": 8,
         "portrait": "./esoteria-hq-08-trusk.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "무언의분노",
+      "nameEn": "Silent Fury",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "twinfiend",
@@ -5960,7 +6693,14 @@
         "sortOrder": 2,
         "portrait": "./infernal-blast-hq-02-twinfiend.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "악마의응시",
+      "nameEn": "The Devil's Gaze",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "twyla",
@@ -5981,7 +6721,8 @@
         "sortOrder": 26,
         "portrait": "./nightmare-council-hq-26-twyla.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "uredin",
@@ -6011,7 +6752,8 @@
         "sortOrder": 15,
         "portrait": "./chaos-dominion-hq-15-uredin.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "valara",
@@ -6045,7 +6787,14 @@
     "contentTags": [
       "arena-air",
       "arena-aoe"
-    ]
+    ],
+    "collectionValue": 5,
+    "exclusiveArtifact": {
+      "nameKr": "여명",
+      "nameEn": "Dawnbreak",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "valderon",
@@ -6069,7 +6818,14 @@
     ],
     "contentTags": [
       "arena-single"
-    ]
+    ],
+    "collectionValue": 5,
+    "exclusiveArtifact": {
+      "nameKr": "혼돈의마검",
+      "nameEn": "Chaotic Doomblade",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "valeriya",
@@ -6099,7 +6855,14 @@
         "sortOrder": 7,
         "portrait": "./chaos-dominion-hq-07-valeriya.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "독사의입맞춤",
+      "nameEn": "Serpent's Kiss",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "valkyra",
@@ -6129,7 +6892,14 @@
         "sortOrder": 4,
         "portrait": "./supreme-arbiters-hq-04-valkyra.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "북쪽경계의날개",
+      "nameEn": "Glacial Wings",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "vargus",
@@ -6159,7 +6929,8 @@
         "sortOrder": 27,
         "portrait": "./chaos-dominion-hq-27-vargus.webp"
       }
-    ]
+    ],
+    "collectionValue": 2
   },
   {
     "id": "varro-draccus",
@@ -6189,7 +6960,8 @@
         "sortOrder": 20,
         "portrait": "./chaos-dominion-hq-20-varro-draccus.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "velisse",
@@ -6210,7 +6982,8 @@
         "sortOrder": 25,
         "portrait": "./cursed-cult-hq-25-velisse.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "venoma",
@@ -6231,7 +7004,8 @@
         "sortOrder": 2,
         "portrait": "./esoteria-hq-02-venoma.webp"
       }
-    ]
+    ],
+    "collectionValue": 4
   },
   {
     "id": "vera",
@@ -6252,7 +7026,8 @@
         "sortOrder": 30,
         "portrait": "./star-piercers-hq-30-vera.webp"
       }
-    ]
+    ],
+    "collectionValue": 4
   },
   {
     "id": "vierna",
@@ -6273,7 +7048,14 @@
         "sortOrder": 13,
         "portrait": "./cursed-cult-hq-13-vierna.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "악령왕관",
+      "nameEn": "Crown of Souls",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "violetta-vane",
@@ -6294,7 +7076,14 @@
         "sortOrder": 18,
         "portrait": "./infernal-blast-hq-18-violetta-vane.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "철칙",
+      "nameEn": null,
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "vixera",
@@ -6315,7 +7104,8 @@
         "sortOrder": 5,
         "portrait": "./esoteria-hq-05-vixera.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "vlad-draculea",
@@ -6336,7 +7126,14 @@
         "sortOrder": 29,
         "portrait": "./cursed-cult-hq-29-vlad-draculea.webp"
       }
-    ]
+    ],
+    "collectionValue": 2,
+    "exclusiveArtifact": {
+      "nameKr": "블라드의창",
+      "nameEn": "Vlad's Impaler",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "vladov",
@@ -6366,7 +7163,8 @@
         "sortOrder": 4,
         "portrait": "./chaos-dominion-hq-04-vladov.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "volka",
@@ -6387,7 +7185,14 @@
         "sortOrder": 6,
         "portrait": "./nightmare-council-hq-06-volka.webp"
       }
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "잔혹한운명",
+      "nameEn": "Cruel Fate",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "voltus",
@@ -6408,7 +7213,8 @@
         "sortOrder": 39,
         "portrait": "./cursed-cult-hq-39-voltus.webp"
       }
-    ]
+    ],
+    "collectionValue": 1
   },
   {
     "id": "vorn",
@@ -6441,7 +7247,14 @@
     ],
     "contentTags": [
       "abyss"
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "응축된산의뼈",
+      "nameEn": "Bone Dirk",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "voroth",
@@ -6462,7 +7275,14 @@
         "sortOrder": 43,
         "portrait": "./north-throne-hq-43-voroth.webp"
       }
-    ]
+    ],
+    "collectionValue": 1,
+    "exclusiveArtifact": {
+      "nameKr": "겨울의부름",
+      "nameEn": "Winter's Call",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "vortex",
@@ -6483,7 +7303,8 @@
         "sortOrder": 39,
         "portrait": "./north-throne-hq-39-vortex.webp"
       }
-    ]
+    ],
+    "collectionValue": 4
   },
   {
     "id": "wrath",
@@ -6559,6 +7380,13 @@
       ],
       "updated": "2026-09",
       "note": "각성·추천 장비·아티팩트 효과는 사용자가 제공한 한국 서버 게임 내 스크린샷 기준."
+    },
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "폭주",
+      "nameEn": "Flaming Pauldrons",
+      "krVerified": true,
+      "source": "existing-verified-detail"
     }
   },
   {
@@ -6580,7 +7408,8 @@
         "sortOrder": 21,
         "portrait": "./cursed-cult-hq-21-xaris.webp"
       }
-    ]
+    ],
+    "collectionValue": 4
   },
   {
     "id": "xasny",
@@ -6601,7 +7430,8 @@
         "sortOrder": 46,
         "portrait": "./esoteria-hq-46-xasny.webp"
       }
-    ]
+    ],
+    "collectionValue": 4
   },
   {
     "id": "xena",
@@ -6622,7 +7452,8 @@
         "sortOrder": 14,
         "portrait": "./infernal-blast-hq-14-xena.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "ymiret",
@@ -6643,7 +7474,8 @@
         "sortOrder": 2,
         "portrait": "./unnamable-hq-02-ymiret.webp"
       }
-    ]
+    ],
+    "collectionValue": 3
   },
   {
     "id": "yuri",
@@ -6676,7 +7508,14 @@
     ],
     "contentTags": [
       "arena-air"
-    ]
+    ],
+    "collectionValue": 4,
+    "exclusiveArtifact": {
+      "nameKr": "여우햇빛",
+      "nameEn": "Uzimo Relic",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "zelus",
@@ -6697,7 +7536,14 @@
         "sortOrder": 10,
         "portrait": "./cursed-cult-hq-10-zelus.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "묘지의글",
+      "nameEn": "Graveyard Opus",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   },
   {
     "id": "zilitu",
@@ -6718,6 +7564,13 @@
         "sortOrder": 5,
         "portrait": "./infernal-blast-hq-05-zilitu.webp"
       }
-    ]
+    ],
+    "collectionValue": 3,
+    "exclusiveArtifact": {
+      "nameKr": "타케올의분노",
+      "nameEn": "Blade of Talkiel",
+      "krVerified": true,
+      "source": "user-reviewed-artifact-list"
+    }
   }
 ]

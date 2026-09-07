@@ -28,49 +28,6 @@ const contentMeta = {
   "arena-single": { kr: "아레나단일", en: "Arena Single Target" }
 };
 
-const COLLECTION_VALUE_META = {
-  "5.0": { label: "최우선급", icon: "crown" },
-  "4.5": { label: "매우 높은 가치", icon: "gem" },
-  "4.0": { label: "높은 가치", icon: "medal" },
-  "3.5": { label: "준수한 가치", icon: "shield" },
-  "3.0": { label: "보통", icon: "crest" },
-  "2.5": { label: "제한적", icon: "compass" },
-  "2.0": { label: "낮은 편", icon: "shield-dim" },
-  "1.5": { label: "매우 제한적", icon: "cracked" },
-  "1.0": { label: "수집 우선도 낮음", icon: "empty" }
-};
-
-function normalizeCollectionValue(value) {
-  const numeric = Number(value);
-  if (!Number.isFinite(numeric)) return null;
-  const rounded = Math.round(numeric * 2) / 2;
-  if (rounded < 1 || rounded > 5) return null;
-  return rounded;
-}
-
-function getCollectionValueMeta(value) {
-  const score = normalizeCollectionValue(value);
-  if (score === null) return null;
-  const key = score.toFixed(1);
-  const meta = COLLECTION_VALUE_META[key];
-  return meta ? { ...meta, score, key, className: `cv-${Math.round(score * 10)}` } : null;
-}
-
-function collectionIconSvg(icon) {
-  const icons = {
-    crown: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5 7.4 11 12 5l4.6 6L20 7.5l-1.7 10.2H5.7L4 7.5Z"/><path d="M7 20h10"/></svg>`,
-    gem: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h10l4 5-9 11L3 9l4-5Z"/><path d="M3 9h18M7 4l5 16 5-16"/></svg>`,
-    medal: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg>`,
-    shield: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 19 6v5.2c0 4.5-2.7 7.7-7 9.8-4.3-2.1-7-5.3-7-9.8V6l7-3Z"/><path d="m9 12 2 2 4-4"/></svg>`,
-    crest: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 7 4v10l-7 4-7-4V7l7-4Z"/><circle cx="12" cy="12" r="2.2"/></svg>`,
-    compass: `<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="m15.6 8.4-2.1 5.1-5.1 2.1 2.1-5.1 5.1-2.1Z"/><circle cx="12" cy="12" r="1"/></svg>`,
-    "shield-dim": `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 19 6v5c0 4.3-2.6 7.5-7 9.6C7.6 18.5 5 15.3 5 11V6l7-3Z"/><path d="M8.5 12h7"/></svg>`,
-    cracked: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 7 4v10l-7 4-7-4V7l7-4Z"/><path d="m13 5-2.1 5 2.2 2-3.1 6"/></svg>`,
-    empty: `<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/></svg>`
-  };
-  return icons[icon] || icons.crest;
-}
-
 function matchesContent(hero) {
   return (
     active.content === "all" ||
@@ -216,23 +173,6 @@ function getFactionNames(hero) {
     .join(" · ");
 }
 
-
-function getCollectionValueMarkup(hero) {
-  const meta = getCollectionValueMeta(hero.collectionValue);
-  if (!meta) return "";
-
-  const scoreText = meta.score.toFixed(1);
-  const title = `나만겜 수집 가치 ${scoreText} / 5.0 · ${meta.label}`;
-
-  return `
-    <div class="collection-value-badge ${meta.className}" title="${title}" aria-label="${title}">
-      <span class="collection-value-icon">${collectionIconSvg(meta.icon)}</span>
-      <span class="collection-value-mini-label">수집</span>
-      <strong>${scoreText}</strong>
-    </div>
-  `;
-}
-
 function card(hero, membership, searchMode = false) {
   const initial = (hero.nameEn || hero.nameKr).trim().charAt(0).toUpperCase();
   const memberships = hero.memberships || [];
@@ -250,7 +190,6 @@ function card(hero, membership, searchMode = false) {
         ${membership?.portrait
           ? `<img src="${membership.portrait}" alt="${hero.nameKr} (${hero.nameEn}) 영웅 카드" loading="lazy">`
           : `<span>${initial}</span>`}
-        ${getCollectionValueMarkup(hero)}
       </div>
       <div class="card-body">
         <div class="card-topline">
@@ -461,27 +400,13 @@ function render() {
   }
 }
 
-Promise.all([
-  fetch("./heroes.json?v=2.11.0").then((response) => {
+fetch("./heroes.json?v=2.10.13")
+  .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
-  }),
-  fetch("./collection-values.json?v=2.11.0")
-    .then((response) => {
-      if (!response.ok) throw new Error("collection-values.json load failed");
-      return response.json();
-    })
-    .catch((error) => {
-      console.warn(error);
-      return { values: {} };
-    })
-])
-  .then(([heroData, collectionData]) => {
-    const values = collectionData?.values || {};
-    heroes = heroData.map((hero) => ({
-      ...hero,
-      collectionValue: values[hero.id] ?? null
-    }));
+  })
+  .then((data) => {
+    heroes = data;
     syncFactionTotalsFromHeroes();
     render();
   })
