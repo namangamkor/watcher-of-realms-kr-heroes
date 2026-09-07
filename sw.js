@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21117-nightmare-council-hero-intros";
+const CACHE_NAME = "namangam-wor-v21118-cursed-cult-hero-intros";
 
 const CORE_ASSETS = [
   "./",
