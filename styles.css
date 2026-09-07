@@ -2935,3 +2935,60 @@ body.modal-open {
     padding-top: 16px !important;
   }
 }
+
+
+/* v2.10.12 — spacing conflict + faction helper text visibility fix
+   Earlier CSS contains margin-bottom: 0 !important on .hero > .creator-banner.
+   Override it explicitly here. */
+.hero > .creator-banner {
+  margin-bottom: 28px !important;
+}
+
+.hero > .searchbox {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Search belongs with the faction explorer, so keep this gap tighter. */
+.hero {
+  padding-bottom: 10px !important;
+}
+
+.faction-section {
+  padding-top: 10px !important;
+}
+
+/* Restore readable helper text; do not treat these as micro-labels. */
+.faction-select-label {
+  margin-bottom: 8px;
+  color: #9aa7ba;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .08em;
+}
+
+.faction-select-hint {
+  margin-top: 10px;
+  color: #8f9bad;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+@media (max-width: 620px) {
+  .hero > .creator-banner {
+    margin-bottom: 22px !important;
+  }
+
+  .hero {
+    padding-bottom: 8px !important;
+  }
+
+  .faction-section {
+    padding-top: 8px !important;
+  }
+
+  .faction-select-label,
+  .faction-select-hint {
+    font-size: 11.5px;
+  }
+}
