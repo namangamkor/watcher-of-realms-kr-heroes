@@ -3186,3 +3186,108 @@ body.modal-open {
   margin-top: 10px;
   color: #98a6ba;
 }
+
+
+/* v2.11.21 — 메인 영웅 카드 수집가치 배지 복구 */
+.card-visual {
+  position: relative;
+}
+
+.collection-value-badge {
+  --cv-accent: #9aa7b8;
+  --cv-border: rgba(154, 167, 184, .35);
+  --cv-bg: rgba(11, 16, 24, .82);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 29px;
+  padding: 4px 7px 4px 5px;
+  border: 1px solid var(--cv-border);
+  border-radius: 999px;
+  background: var(--cv-bg);
+  color: var(--cv-accent);
+  box-shadow: 0 8px 18px rgba(0,0,0,.28);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  pointer-events: none;
+}
+
+.card-visual .collection-value-badge span {
+  width: auto;
+  height: auto;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.card-visual .collection-value-badge .collection-value-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  flex: 0 0 auto;
+  color: var(--cv-accent);
+}
+
+.collection-value-icon svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.65;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.collection-value-badge .collection-value-mini-label {
+  color: #8c98aa;
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: -.02em;
+}
+
+.collection-value-badge strong {
+  color: #edf2f7;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: -.02em;
+}
+
+.cv-50 { --cv-accent:#f4cf72; --cv-border:rgba(244,207,114,.58); --cv-bg:rgba(35,27,10,.88); }
+.cv-45 { --cv-accent:#e9bd67; --cv-border:rgba(233,189,103,.48); --cv-bg:rgba(31,25,13,.86); }
+.cv-40 { --cv-accent:#dfc27d; --cv-border:rgba(223,194,125,.40); --cv-bg:rgba(27,24,16,.84); }
+.cv-35 { --cv-accent:#88d7dc; --cv-border:rgba(136,215,220,.42); --cv-bg:rgba(10,30,34,.84); }
+.cv-30 { --cv-accent:#8eb8e7; --cv-border:rgba(142,184,231,.38); --cv-bg:rgba(11,24,39,.84); }
+.cv-25 { --cv-accent:#92aeca; --cv-border:rgba(146,174,202,.34); --cv-bg:rgba(14,23,33,.84); }
+.cv-20 { --cv-accent:#909cab; --cv-border:rgba(144,156,171,.31); --cv-bg:rgba(16,21,28,.84); }
+.cv-15 { --cv-accent:#7c8490; --cv-border:rgba(124,132,144,.29); --cv-bg:rgba(17,20,25,.86); }
+.cv-10 { --cv-accent:#666e7a; --cv-border:rgba(102,110,122,.26); --cv-bg:rgba(18,20,24,.88); }
+
+@media (max-width: 560px) {
+  .collection-value-badge {
+    top: 8px;
+    right: 8px;
+    min-height: 27px;
+    padding-right: 6px;
+  }
+
+  .collection-value-mini-label {
+    display: none;
+  }
+
+  .card-visual .collection-value-badge .collection-value-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .collection-value-badge strong {
+    font-size: 11px;
+  }
+}

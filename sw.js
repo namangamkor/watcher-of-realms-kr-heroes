@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21120-demi-korean-awakening";
+const CACHE_NAME = "namangam-wor-v21121-main-collection-value-restore";
 
 const CORE_ASSETS = [
   "./",
