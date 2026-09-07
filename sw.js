@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21119-infernal-blast-hero-intros";
+const CACHE_NAME = "namangam-wor-v21120-demi-korean-awakening";
 
 const CORE_ASSETS = [
   "./",
