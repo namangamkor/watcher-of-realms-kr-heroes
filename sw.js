@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21113-collection-value-adjustment";
+const CACHE_NAME = "namangam-wor-v21114-gu-shi-korean-details";
 
 const CORE_ASSETS = [
   "./",
