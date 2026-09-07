@@ -1,8 +1,20 @@
-긴급 복구 패치 v2.11.2
+WoR Wiki v2.11.3 - Watchguard Awakening Patch
 
-이 ZIP의 파일을 사이트 루트에 모두 덮어쓰세요.
-특히 아래 파일은 반드시 함께 교체해야 합니다:
-_worker.js / app.js / styles.css / heroes.json / index.html / sw.js / generate-hero-seo-assets.mjs / sitemap.xml
+BASE REQUIRED: v2.11.2 Emergency Recovery
 
-기존 v2.11.1의 collection-values.json 파일이 남아 있어도 복구본에서는 사용하지 않으므로 동작에는 영향이 없습니다.
-배포 후 Cloudflare Pages 새 배포가 완료되면 브라우저 강력 새로고침(Ctrl+F5)으로 확인하세요.
+Upload/overwrite these files:
+- heroes.json
+- _worker.js
+- index.html
+- sw.js
+
+Result:
+- Watchguard heroes: 40
+- A1~A5 complete: 40/40
+- Newly added this patch: 34
+- Existing verified Watchguard awakenings preserved: 6
+- Collection value preserved: 253/253
+- Exclusive artifact preserved: 100
+- Legendary video links preserved: 170
+
+After deploy, hard refresh once (Ctrl+F5).

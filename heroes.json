@@ -193,7 +193,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "코스트 -2. 일반 공격 사거리가 1칸 증가한다. 황금의 속박이 적에게 피해 감소 효과도 부여한다. (피해 -20%)"
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 지속 중 강력한 찌르기가 추가로 1회 100% 피해를 입히며, 운명의 칙령 발동 간격이 1초 감소한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "관통 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "강력한 찌르기와 운명의 칙령이 대상의 마법 저항을 25% 무시한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "ai",
@@ -254,7 +285,38 @@
       "krVerified": true,
       "source": "user-reviewed-artifact-list"
     },
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "적에게 피해를 입힐 때 물리 피해 취약을 부여한다. (받는 물리 피해 +15%, 5초)"
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "치명타율 +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 지속 중 범위 내 아군이 처음으로 일반 공격을 할 때 적 1명에게 3초간 기절을 부여한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "모든 피해 +5%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "전투 중 치명타 피해 +50%."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "ajax",
@@ -382,7 +444,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "초과 치명타율이 동일한 비율의 치명타 피해로 전환된다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "은신 상태에서 치명타가 발동하면 50% 확률로 최초 대상 주변 1.5칸 내 적 2명에게 80% 추가 피해를 입힌다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "치명타율 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "은신 상태에서 치명타 10회마다 다음 궁극기 동안 피해 +10%. 최대 3중첩하며 궁극기 종료 시 제거된다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "alistair",
@@ -421,7 +514,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "재능 중첩이 최대가 되면 일반 공격이 15% 확률로 광휘 침식 1중첩을 부여한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "떨리는 파쇄가 대상에게 마법 피해 취약을 부여한다. (받는 마법 피해 +20%, 3초)"
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "자동 분노 회복 +1."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "새벽빛 사용 시 50% 확률로 분노 최대치의 절반을 회복한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "anai",
@@ -891,7 +1015,38 @@
       }
     ],
     "collectionValue": 3,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "일반 공격 5회마다 최대 HP의 5%를 회복한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "DEF +100."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "궁극기에 적중한 대상 1명마다 최대 HP의 5%에 해당하는 실드를 4초간 획득한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "HP +1200."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "실드 보유 중 DEF +15%."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "aylin",
@@ -1203,7 +1358,38 @@
       }
     ],
     "collectionValue": 1,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "HP +200."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +50."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "HP +300."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "ATK +60."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "치명타율 +5%."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "brienne",
@@ -1235,7 +1421,38 @@
       }
     ],
     "collectionValue": 2,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "다중 사격 지속 중 물리 관통 +30%."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "분열 사격 피해 +20%."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "치명타율 +5%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "분열 사격의 화살 수 +1."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "brokkir",
@@ -1351,7 +1568,38 @@
         "url": "https://youtu.be/eYyK_lO9feE",
         "label": "나만겜 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "지상 타일에서는 일반 피해를, 플랫폼에서는 마법 피해를 입힌다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "승천 형태에서 일반 공격이 서로 다른 대상을 공격하면 5초간 공격 간격이 25% 감소한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "재능 공격 후 현재 타일에 따라 대상에게 DEF -20% 또는 마법 저항 -20%를 부여한다."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "파멸의 천사 사용 후 2칸 내 모든 아군 영웅에게 디버프 면역을 부여한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Prospector's Digsite의 2026-08-02 갱신 데이터 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "calista",
@@ -1387,7 +1635,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 피해 +50%, 넉백 강도가 강화된다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "재능으로 발동하는 넉백 강도가 강화되고 대상 수가 1명 증가한다. 모든 넉백 효과가 기절을 부여한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "관통 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "범위 내 적이 사망하면 다음 일반 공격이 반드시 재능을 발동한다. 10초마다 최대 2회."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "calypso",
@@ -1446,7 +1725,38 @@
       }
     ],
     "collectionValue": 1,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "ATK +50."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "HP +200."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "ATK +60."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "HP +300."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "치유 효과 +5."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "captain-reve",
@@ -1710,7 +2020,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "범위 내 아군 1명당 치유 배율 +5%. 최대 +15%."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "치유를 받을 때 10초간 ATK +10%."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "자동 분노 회복 +1."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "자신이 막고 있는 적을 공격할 때 치유 배율 40%로 아군 1명을 치유한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "corven",
@@ -1827,7 +2168,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 투사체가 피해를 입히면 대상에게 0.5초간 기절을 부여한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "표식이 있는 대상에게 DEF -15%를 5초간 부여한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "치명타율 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 종료 시 자신의 오발 효과를 제거한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "cutter",
@@ -1905,7 +2277,38 @@
       }
     ],
     "collectionValue": 2,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "모래의 축복이 제공하는 치명타율 증가가 범위 내 모든 아군에게 적용된다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +200."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "날카로운 모래가 20% 확률로 재사용 대기시간에 들어가지 않는다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "코스트 -1."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "날카로운 모래가 적에게 공격 속도 -30을 5초간 부여한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "cyrus",
@@ -2049,7 +2452,38 @@
       }
     ],
     "collectionValue": 3,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "자유의 수호자가 자신의 치명타율도 20% 증가시킨다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "치명타율 +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "일반 공격이 15% 확률로 2배 피해를 입힌다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "코스트 -1."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "A3 효과가 발동하면 공격 속도 증가 효과를 획득한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "dane",
@@ -2079,7 +2513,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "탄막이 적에게 물리 피해 취약 +20%를 부여할 수 있으며, 탄막의 영향을 받은 적을 공격하면 순환 속도 2중첩을 획득한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "궁극기가 더 이상 순환 속도 중첩을 소모하지 않는다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "관통 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 사용 시 탄막을 즉시 1회 무료로 발동한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "dassomi",
@@ -2385,7 +2850,38 @@
         "url": "https://youtu.be/yCGxmIAa04M",
         "label": "나만겜 실전 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 범위가 증가한다. 궁극기 사용 후 궁극기 범위 내 아군에게 피해 +25%를 부여한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "모든 피해 감소 +8%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "용의 기력 5중첩 상태에서 궁극기를 사용하면 최대 HP가 영구적으로 10% 증가한다. 최대 3회 발동."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "HP +1200."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "일반 공격으로 적을 공격할 때 아군 치유 배율이 더 이상 감소하지 않으며, 일반 공격마다 분노 1%를 회복한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "drayga",
@@ -2500,7 +2996,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "배치 시 말의 방패를 추가로 2중첩 획득한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "DEF +200."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "말의 방패 1중첩마다 추가 DEF +4%."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "모든 피해 감소 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "실드 충전으로 말의 방패를 생성할 때 50% 확률로 2칸 내 HP 비율이 가장 낮은 아군에게 말의 방패 1중첩을 부여한다. 아군당 최대 1중첩."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "eirlys",
@@ -2544,7 +3071,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "일반 공격과 치유 기도의 직접 치유가 평온의 숨결이 있는 모든 아군에게 추가 치유 1회를 적용한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "치유 효과 +8."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "치유 기도가 대상 HP 75% 미만에서 발동하면 평온의 숨결이 있는 모든 아군에게 10초간 피해 +50%를 부여한다. 자연 종료 또는 갱신으로 발동하면 10초간 피해 +30%를 부여한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "자동 분노 회복 +1."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "빛의 성역이 발동하면 15초간 공격 간격이 35% 감소한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "eivor-varinsdottir",
@@ -2815,7 +3373,38 @@
       }
     ],
     "collectionValue": 3,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 지속 중 공격할 때마다 별 폭발을 발동한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "별 폭발 피해 +50%."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "치명타율 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 지속 시간 +5초."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "erlang-shen",
@@ -2950,7 +3539,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "성광의 선율 지속 중 범위 내 HP가 가장 높은 지상 영웅 2명에게 최종 피해 감소 20%를 부여한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "치유 효과 +8."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "공격 사거리가 증가한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "자동 분노 회복 +1."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "초과 치유량의 50%를 10초간 실드로 전환한다. 아군 1명당 15초마다 최대 1회 발동."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "ezareth",
@@ -3690,7 +4310,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 사용 성공 시 자신과 2칸 내 다른 아군 영웅에게 20초간 피해 +20%를 부여하고, 자신은 ATK의 20%에 해당하는 실드를 얻는다. 실드는 최대 3중첩."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "초승달 베기 피해 배율 +20%, 공격 대상 +1. 용의 초승달 베기는 칼날 태세를 추가로 1중첩 획득한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "궁극기의 선택 가능한 이동 범위 +1칸."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "칼날 태세 최대 중첩 +2. 궁극기 발동 시 즉시 용의 화신을 획득한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "gul-drak",
@@ -4091,7 +4742,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "별 모드에서 광휘 침식이 부여된 대상에게 주는 피해 +20%, 해당 대상에게 받는 피해 -20%."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300. 진영 아군 ATK +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "태양 과부하와 별 과부하 동안 재능의 태양 섬광/별빛 소나기 발동에 필요한 일반 공격 횟수가 1회로 감소한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "관통 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "태양 섬광이 마법 저항을 25% 무시한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "init",
@@ -4739,7 +5421,38 @@
         "url": "https://youtu.be/yCGxmIAa04M",
         "label": "나만겜 실전 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "일반 공격 시 추가로 분노 3과 HP 3%를 회복한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "일섬 발동 후 10초 동안 직접 피해마다 해당 직접 피해의 35% 추가 피해를 1회 입힌다. 염화 일섬 발동 후 10초 동안 직접 피해마다 각각 25% 추가 피해를 2회 입힌다. 해당 일섬이 제비 반격을 발동하면 그 일섬의 효과가 영구 지속된다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "관통 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "명경지수 중 발동한 일섬과 염화 일섬은 반드시 제비 반격을 발동한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "kineza",
@@ -5115,7 +5828,38 @@
         "url": "https://youtu.be/yCGxmIAa04M",
         "label": "나만겜 실전 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "천상의 승천이 제공하는 피해 증가 효과가 궁극기 종료 후 5초 더 지속된다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300. 진영 아군 ATK +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "궁극기가 자신에게도 분노를 회복시킨다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "자동 분노 회복 +1."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 발동 시 천상의 승천이 아군에게 제공하는 피해 증가가 15%로 증가한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "leikan",
@@ -5209,7 +5953,38 @@
       }
     ],
     "collectionValue": 2,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "용기의 빛의 범위 피해 +50%."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "빛의 결속 최대 중첩이 7중첩으로 증가한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "자동 분노 회복 +1."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "범위 피해의 적용 범위가 증가한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "lili",
@@ -5279,7 +6054,38 @@
       "krVerified": true,
       "source": "user-reviewed-artifact-list"
     },
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "실드 튕기기가 1회 더 튕긴다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "DEF +100."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "실드 튕기기의 HP 회복량이 1% 추가 증가한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "모든 피해 감소 +5%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "초기 분노 +700."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "lord-phineas",
@@ -5390,7 +6196,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "추격 공격 피해 배율 +25%."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 지속 중 추격 공격이 적에게 0.5초 기절과 3초간 피해 -20%를 부여한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "모든 피해 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "악마의 포옹 지속 중 피해를 입힐 때마다 ATK +2%. 최대 +36%이며 악마의 포옹 종료까지 지속된다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "lugaru",
@@ -5842,7 +6679,38 @@
       }
     ],
     "collectionValue": 2,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "빛의 찬가 발동 시 모든 아군의 HP를 25% 회복한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "DEF +100."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "메리엘의 ATK가 DEF의 10%만큼 증가한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "마법 저항 +200."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "메리엘이 전장에 있으면 성광 영역을 생성해 인접한 아군 3명의 HP를 각자 최대 HP의 2%만큼 회복한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "midan",
@@ -6148,7 +7016,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "무기 강화 상태의 건곤권이 적에게 3초간 이동 속도 -75%를 부여한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 지속 중 4회 공격마다 궁극기 범위 내 최대 8명의 적에게 200% 추가 고정 피해를 입히고 10초 표식을 부여한다. 표식 중 자신이 가하는 직접 피해가 10% 추가 고정 피해를 입힌다. 적 1명당 전투 중 1회만 표식 가능."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "관통 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "사망 시 전투당 1회 연꽃 환생을 발동한다. 8초 후 부활하며, 그동안 연꽃 2칸 내 처음 진입한 적을 넉백하고 5초 화상 및 이동 속도 -75%를 부여한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "nerissa",
@@ -6213,7 +7112,38 @@
       }
     ],
     "collectionValue": 1,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "HP +200."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +50."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "HP +300."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "ATK +60."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "치명타율 +5%."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "nisalt",
@@ -6758,7 +7688,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "사기 발동 시 범위 내 아군에게 DEF +10%를 부여한다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "HP +1200."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "전장에 있는 동안 모든 수호자에게 물리 피해 감소 +10%와 마법 피해 감소 +10%를 부여한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "모든 피해 감소 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "사자의 심장 발동 시 HP를 전부 회복한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "rex",
@@ -6781,7 +7742,38 @@
       }
     ],
     "collectionValue": 1,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "HP +300."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +40."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "HP +400."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "ATK +50."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "모든 피해 감소 +5%."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "rhox",
@@ -7438,7 +8430,38 @@
       }
     ],
     "collectionValue": 2,
-    "videos": []
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "찬란한 불꽃 재사용 대기시간 -30%."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "공격 간격 -10%."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "치명타율 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "찬란한 불꽃이 같은 대상에게 여러 번 튕겨 피해를 줄 수 있으며 최대 튕김 횟수 +2."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "sorzus",
@@ -7691,7 +8714,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "가시 실드 1중첩마다 추가 피해 +2%."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "초기 분노 +300, 가시 실드 최대 중첩 +5. 궁극기 사용마다 가시 실드 4중첩을 획득한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "관통 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "가시 실드 1중첩마다 받는 범위 피해 -1%, 관통 +1%. 가시 실드가 최대 중첩이면 배치 후 최초 치명 피해를 1회 버티고 HP 50%를 회복한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "talula",
