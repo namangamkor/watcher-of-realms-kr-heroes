@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21012";
+const CACHE_NAME = "namangam-wor-v2110";
 
 const CORE_ASSETS = [
   "./",
@@ -6,6 +6,7 @@ const CORE_ASSETS = [
   "./styles.css",
   "./app.js",
   "./heroes.json",
+  "./collection-values.json",
   "./manifest.webmanifest",
   "./favicon-crystal-v1.png",
   "./namangam-subscribe.png",
@@ -69,6 +70,7 @@ self.addEventListener("fetch", (event) => {
     url.pathname.endsWith("/app.js") ||
     url.pathname.endsWith("/styles.css") ||
     url.pathname.endsWith("/heroes.json") ||
+    url.pathname.endsWith("/collection-values.json") ||
     url.pathname.endsWith("/manifest.webmanifest");
 
   if (updateCritical) {
