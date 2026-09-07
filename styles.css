@@ -2901,3 +2901,37 @@ body.modal-open {
     padding-top: 28px !important;
   }
 }
+
+
+/* v2.10.11 — Home spacing balance
+   Requested rhythm:
+   creator banner ↔ search = a little wider
+   search ↔ faction section = noticeably tighter
+*/
+.hero > .creator-banner {
+  margin-bottom: 26px;
+}
+
+/* Reduce the combined gap below search:
+   hero bottom padding + faction top padding */
+.hero {
+  padding-bottom: 18px;
+}
+
+.faction-section {
+  padding-top: 20px !important;
+}
+
+@media (max-width: 620px) {
+  .hero > .creator-banner {
+    margin-bottom: 20px;
+  }
+
+  .hero {
+    padding-bottom: 14px;
+  }
+
+  .faction-section {
+    padding-top: 16px !important;
+  }
+}
