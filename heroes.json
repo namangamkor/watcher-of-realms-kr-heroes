@@ -7739,7 +7739,38 @@
         "url": "https://youtu.be/jTn-dyEyf10",
         "label": "나만겜 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "Seeds of Malice가 폭발할 때 반경 1.5칸 내 적이 1명뿐이면 대신 400% 피해를 1회 입힌다. 공중 유닛에게는 이 피해가 2배가 된다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300. 강화 효과로 혼돈 정복자 진영 아군의 피해 +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "궁극기 사용 후 다음 일반 공격이 Seeds of Malice를 1개 추가로 생성한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "Seeds of Malice 폭발이 대상의 방어를 30% 무시한다. 궁극기가 추가로 200% 광역 피해를 1회 입히며, 주변 적이 1명뿐이면 대신 300% 추가 피해를 입힌다. 공중 유닛에게는 해당 피해가 2배가 된다."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "자신 또는 사거리 내 아군이 치명적인 피해를 받을 때, 전장에 있는 Seeds of Malice 보유 적 1명(정예·보스 제외)이 대신 사망하고 해당 Seeds of Malice가 제거된다. 보호받은 대상은 최대 HP의 30%를 회복한다. 45초마다 최대 1회 발동한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 2026년 최신 Prospector's Digsite 영웅 DB 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "jorge",
@@ -14738,7 +14769,38 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "해외 DB 확인",
+          "text": "배치 시 Chaotic Vitality 1중첩을 얻는다. 해당 효과가 지속되는 동안 궁극기를 사용할 수 없다."
+        },
+        {
+          "level": "A2",
+          "grade": "해외 DB 확인",
+          "text": "ATK +300. 혼돈 정복자 진영 아군의 피해 +5%."
+        },
+        {
+          "level": "A3",
+          "grade": "해외 DB 확인",
+          "text": "Chaotic Vitality 지속 중 공격이 대상의 방어를 50% 무시한다."
+        },
+        {
+          "level": "A4",
+          "grade": "해외 DB 확인",
+          "text": "관통 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "해외 DB 확인",
+          "text": "Chaotic Annihilation 발동 시 5초 동안 공격 속도 +130."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "각성 효과는 2026년 최신 Prospector's Digsite 영웅 DB 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+    }
   },
   {
     "id": "valeriya",

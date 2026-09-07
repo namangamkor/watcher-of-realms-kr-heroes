@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v2119-esoteria-order-awakening";
+const CACHE_NAME = "namangam-wor-v21110-chaos-dominion-awakening";
 
 const CORE_ASSETS = [
   "./",
