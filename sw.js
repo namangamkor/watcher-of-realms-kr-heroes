@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21115-watchguard-hero-intros";
+const CACHE_NAME = "namangam-wor-v21116-north-throne-hero-intros";
 
 const CORE_ASSETS = [
   "./",
