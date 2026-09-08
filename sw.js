@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21133-chaos-dominion-official-traits";
+const CACHE_NAME = "namangam-wor-v21134-supreme-arbiters-official-traits";
 
 const CORE_ASSETS = [
   "./",
