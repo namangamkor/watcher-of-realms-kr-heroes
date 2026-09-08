@@ -3901,7 +3901,14 @@
       }
     ],
     "collectionValue": 3,
-    "videos": [],
+    "videos": [
+      {
+        "youtubeId": "jjmfUwF1am8",
+        "title": "달린 관련 나만겜 영상",
+        "url": "https://www.youtube.com/watch?v=jjmfUwF1am8",
+        "label": "나만겜 관련 영상"
+      }
+    ],
     "details": {
       "awakening": [
         {
@@ -7577,9 +7584,9 @@
     },
     "videos": [
       {
-        "youtubeId": "DdzidwGAvxE",
+        "youtubeId": "jjmfUwF1am8",
         "title": "전설 영웅 관련 나만겜 영상 모음",
-        "url": "https://youtu.be/DdzidwGAvxE",
+        "url": "https://www.youtube.com/watch?v=jjmfUwF1am8",
         "label": "나만겜 전설 영웅 영상"
       }
     ],
@@ -11731,9 +11738,9 @@
     },
     "videos": [
       {
-        "youtubeId": "DdzidwGAvxE",
+        "youtubeId": "jjmfUwF1am8",
         "title": "전설 영웅 관련 나만겜 영상 모음",
-        "url": "https://youtu.be/DdzidwGAvxE",
+        "url": "https://www.youtube.com/watch?v=jjmfUwF1am8",
         "label": "나만겜 전설 영웅 영상"
       }
     ],
@@ -12851,9 +12858,9 @@
     "collectionValue": 4,
     "videos": [
       {
-        "youtubeId": "DdzidwGAvxE",
+        "youtubeId": "jjmfUwF1am8",
         "title": "전설 영웅 관련 나만겜 영상 모음",
-        "url": "https://youtu.be/DdzidwGAvxE",
+        "url": "https://www.youtube.com/watch?v=jjmfUwF1am8",
         "label": "나만겜 전설 영웅 영상"
       }
     ],
@@ -13639,9 +13646,9 @@
     },
     "videos": [
       {
-        "youtubeId": "DdzidwGAvxE",
+        "youtubeId": "jjmfUwF1am8",
         "title": "전설 영웅 관련 나만겜 영상 모음",
-        "url": "https://youtu.be/DdzidwGAvxE",
+        "url": "https://www.youtube.com/watch?v=jjmfUwF1am8",
         "label": "나만겜 전설 영웅 영상"
       }
     ],
@@ -16541,9 +16548,9 @@
     },
     "videos": [
       {
-        "youtubeId": "DdzidwGAvxE",
+        "youtubeId": "jjmfUwF1am8",
         "title": "전설 영웅 관련 나만겜 영상 모음",
-        "url": "https://youtu.be/DdzidwGAvxE",
+        "url": "https://www.youtube.com/watch?v=jjmfUwF1am8",
         "label": "나만겜 전설 영웅 영상"
       }
     ],

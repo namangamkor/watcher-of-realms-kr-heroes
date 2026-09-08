@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21122-korean-atk-gonkba-intro-copy-weight";
+const CACHE_NAME = "namangam-wor-v21123-six-hero-video-links";
 
 const CORE_ASSETS = [
   "./",
