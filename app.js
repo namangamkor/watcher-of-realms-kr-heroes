@@ -727,6 +727,27 @@ document.addEventListener("keydown", (event) => {
   }
 });
 
+// Back to top
+const backToTopButton = document.querySelector("#backToTopButton");
+
+if (backToTopButton) {
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+
+  const syncBackToTopVisibility = () => {
+    backToTopButton.classList.toggle("visible", window.scrollY > 600);
+  };
+
+  window.addEventListener("scroll", syncBackToTopVisibility, { passive: true });
+  syncBackToTopVisibility();
+
+  backToTopButton.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: reduceMotion.matches ? "auto" : "smooth",
+    });
+  });
+}
+
 // Register service worker
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
