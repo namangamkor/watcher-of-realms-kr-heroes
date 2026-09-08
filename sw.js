@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21128b-recent-fix-notice";
+const CACHE_NAME = "namangam-wor-v21129-cursed-cult-official-traits";
 
 const CORE_ASSETS = [
   "./",
