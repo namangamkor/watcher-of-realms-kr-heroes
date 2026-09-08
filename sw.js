@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21130a-morene-trait-hotfix";
+const CACHE_NAME = "namangam-wor-v21131-star-piercers-official-traits";
 
 const CORE_ASSETS = [
   "./",

@@ -780,7 +780,8 @@
     },
     "traits": [
       "광역 물리 공격",
-      "은신"
+      "은신",
+      "공중 유닛 공격 가능"
     ]
   },
   {
@@ -1075,7 +1076,11 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "광역 물리 공격",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "aracha",
@@ -1142,7 +1147,13 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "단일 물리 공격",
+      "지속 피해",
+      "강력 제어",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "ardea",
@@ -2532,7 +2543,8 @@
     },
     "traits": [
       "광역 물리 공격",
-      "방어 무시"
+      "방어 무시",
+      "공중 유닛 공격 가능"
     ]
   },
   {
@@ -2898,7 +2910,12 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "단일 물리 공격",
+      "다단 공격",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "camille",
@@ -3529,7 +3546,14 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "단일 물리 공격",
+      "매우 먼 사거리",
+      "아군 버프",
+      "소환",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "count-dracula",
@@ -3611,7 +3635,14 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "단일 물리 공격",
+      "다단 공격",
+      "치유 금지",
+      "아군 버프",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "crach",
@@ -3712,7 +3743,12 @@
       "awakeningUnavailableText": "해외 DB 기준 A1~A5 각성 정보가 제공되지 않는 일반 등급 영웅입니다.",
       "updated": "2026-09",
       "note": "각성 정보 유무는 Watcher of Realms Wiki(Fandom) 기준으로 확인했습니다."
-    }
+    },
+    "traits": [
+      "단일 물리 공격",
+      "지속 피해",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "cyclone",
@@ -4702,7 +4738,8 @@
     },
     "traits": [
       "광역 물리 공격",
-      "매우 먼 사거리"
+      "매우 먼 사거리",
+      "공중 유닛 공격 가능"
     ]
   },
   {
@@ -4893,7 +4930,10 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "광역 물리 공격"
+    ]
   },
   {
     "id": "durza",
@@ -5345,7 +5385,12 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "단일 물리 공격",
+      "은신",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "elowyn",
@@ -5667,7 +5712,13 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "광역 물리 공격",
+      "아군 버프",
+      "생존",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "esme",
@@ -5721,7 +5772,12 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "단일 물리 공격",
+      "지속 피해",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "estrid",
@@ -8033,7 +8089,12 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "단일 물리 공격",
+      "다단 공격",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "isolde",
@@ -8564,7 +8625,13 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "광역 물리 공격",
+      "매우 먼 사거리",
+      "아군 버프",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "kalina",
@@ -9529,7 +9596,13 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "단일 물리 공격",
+      "매우 먼 사거리",
+      "방어 무시",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "lady-mina",
@@ -9610,7 +9683,8 @@
     "traits": [
       "광역 물리 공격",
       "강력 제어",
-      "아군 버프"
+      "아군 버프",
+      "공중 유닛 공격 가능"
     ]
   },
   {
@@ -9918,7 +9992,12 @@
       "awakeningUnavailableText": "해외 DB 기준 A1~A5 각성 정보가 제공되지 않는 일반 등급 영웅입니다.",
       "updated": "2026-09",
       "note": "각성 정보 유무는 Watcher of Realms Wiki(Fandom) 기준으로 확인했습니다."
-    }
+    },
+    "traits": [
+      "단일 물리 공격",
+      "지속 피해",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "lightlocke",
@@ -10048,7 +10127,11 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "단일 치유",
+      "아군 보호"
+    ]
   },
   {
     "id": "livian",
@@ -10549,7 +10632,12 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "단일 물리 공격",
+      "다단 공격",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "lust",
@@ -12176,7 +12264,12 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "광역 치유",
+      "방어 제거",
+      "아군 버프"
+    ]
   },
   {
     "id": "nocturne",
@@ -12330,7 +12423,13 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "단일 마법 공격",
+      "강력 제어",
+      "지속 피해",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "nyx",
@@ -12397,7 +12496,12 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "광역 물리 공격",
+      "매우 먼 사거리",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "olague",
@@ -12713,7 +12817,13 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "광역 마법 공격",
+      "지속 피해",
+      "고정 피해",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "pierre",
@@ -13110,7 +13220,12 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "광역 물리 공격",
+      "매우 먼 사거리",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "regulus",
@@ -13571,7 +13686,13 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "단일 물리 공격",
+      "매우 먼 사거리",
+      "아군 버프",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "rygar",
@@ -13856,7 +13977,14 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "단일 물리 공격",
+      "다단 공격",
+      "지속 피해",
+      "방어 무시",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "scorch",
@@ -14392,7 +14520,12 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "단일 물리 공격",
+      "방어 무시",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "solaris",
@@ -14912,7 +15045,13 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "단일 물리 공격",
+      "방어 무시",
+      "소환",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "talin",
@@ -15062,7 +15201,13 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "광역 치유",
+      "방어 제거",
+      "아군 버프",
+      "아군 보호"
+    ]
   },
   {
     "id": "tazira",
@@ -15116,7 +15261,12 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "단일 물리 공격",
+      "다단 공격",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "thallen",
@@ -15246,7 +15396,11 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "광역 물리 공격",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "thunkles",
@@ -16095,7 +16249,12 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "단일 물리 공격",
+      "은신",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "varro-draccus",
@@ -16329,7 +16488,12 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "단일 물리 공격",
+      "방어 무시",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "vierna",
@@ -16880,7 +17044,14 @@
       ],
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
-    }
+    },
+    "traits": [
+      "단일 마법 공격",
+      "지속 피해",
+      "아군 버프",
+      "공격 제거",
+      "공중 유닛 공격 가능"
+    ]
   },
   {
     "id": "voroth",
@@ -17418,7 +17589,8 @@
     },
     "traits": [
       "단일 물리 공격",
-      "다단 공격"
+      "다단 공격",
+      "공중 유닛 공격 가능"
     ]
   },
   {
