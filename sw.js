@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21126-back-to-top";
+const CACHE_NAME = "namangam-wor-v21127-north-throne-official-traits";
 
 const CORE_ASSETS = [
   "./",
