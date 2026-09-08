@@ -283,8 +283,8 @@ function renderHero(hero) {
   <meta name="description" content="${esc(description)}" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
   <link rel="canonical" href="${canonical}" />
-  <link rel="icon" type="image/png" sizes="64x64" href="/favicon-crystal-v1.png?v=2.11.28a" />
-  <link rel="apple-touch-icon" href="/icon-192.png?v=2.11.28a" />
+  <link rel="icon" type="image/png" sizes="64x64" href="/favicon-crystal-v1.png?v=2.11.28b" />
+  <link rel="apple-touch-icon" href="/icon-192.png?v=2.11.28b" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="ko_KR" />
   <meta property="og:site_name" content="나만겜 워처 오브 렐름 한국 영웅 위키" />
@@ -296,7 +296,7 @@ function renderHero(hero) {
   <meta name="twitter:title" content="${esc(title)}" />
   <meta name="twitter:description" content="${esc(description)}" />
   <meta name="twitter:image" content="${esc(image)}" />
-  <link rel="stylesheet" href="/styles.css?v=2.11.28a" />
+  <link rel="stylesheet" href="/styles.css?v=2.11.28b" />
   <script type="application/ld+json">${JSON.stringify(jsonLd).replaceAll("<", "\\u003c")}</script>
 </head>
 <body class="hero-detail-page">
@@ -414,15 +414,15 @@ function renderNewbie() {
   <meta property="og:image" content="${SITE}/icon-512.png">
   <title>나만겜 | 뉴비가 먼저 알아야 할 렐름의 구조</title>
   <meta name="theme-color" content="#090c12">
-  <link rel="icon" type="image/png" sizes="64x64" href="/favicon-crystal-v1.png?v=2.11.28a">
-  <link rel="apple-touch-icon" href="/icon-192.png?v=2.11.28a">
-  <link rel="stylesheet" href="/styles.css?v=2.11.28a">
+  <link rel="icon" type="image/png" sizes="64x64" href="/favicon-crystal-v1.png?v=2.11.28b">
+  <link rel="apple-touch-icon" href="/icon-192.png?v=2.11.28b">
+  <link rel="stylesheet" href="/styles.css?v=2.11.28b">
 </head>
 <body class="newbie-page">
   <header class="topbar">
     <div class="wrap topbar-inner">
       <a class="brand brand-link" href="/" aria-label="영웅 위키 홈으로 이동">
-        <span class="brand-mark"><img src="/favicon-crystal-v1.png?v=2.11.28a" alt=""></span>
+        <span class="brand-mark"><img src="/favicon-crystal-v1.png?v=2.11.28b" alt=""></span>
         <div>
           <strong>나만겜 워처 오브 렐름 한국 영웅 위키</strong>
           <small>한국 서버를 위한 영웅 정보·한영 이름 위키</small>
@@ -521,7 +521,7 @@ function renderNewbie() {
 }
 
 function renderNotFound() {
-  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>나만겜 | 영웅을 찾을 수 없습니다</title><link rel="icon" type="image/png" sizes="64x64" href="/favicon-crystal-v1.png?v=2.11.28a"><link rel="stylesheet" href="/styles.css?v=2.11.28a"></head><body class="hero-detail-page"><main class="wrap detail-not-found"><p class="section-kicker">404 · HERO NOT FOUND</p><h1>영웅을 찾을 수 없습니다.</h1><p>주소를 다시 확인하거나 전체 영웅도감에서 찾아보세요.</p><a class="detail-back-home" href="/">전체 영웅도감으로 이동 →</a></main></body></html>`;
+  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>나만겜 | 영웅을 찾을 수 없습니다</title><link rel="icon" type="image/png" sizes="64x64" href="/favicon-crystal-v1.png?v=2.11.28b"><link rel="stylesheet" href="/styles.css?v=2.11.28b"></head><body class="hero-detail-page"><main class="wrap detail-not-found"><p class="section-kicker">404 · HERO NOT FOUND</p><h1>영웅을 찾을 수 없습니다.</h1><p>주소를 다시 확인하거나 전체 영웅도감에서 찾아보세요.</p><a class="detail-back-home" href="/">전체 영웅도감으로 이동 →</a></main></body></html>`;
 }
 
 export default {

@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21128a-sorzus-rarity-hotfix";
+const CACHE_NAME = "namangam-wor-v21128b-recent-fix-notice";
 
 const CORE_ASSETS = [
   "./",
