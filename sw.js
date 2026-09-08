@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21121-main-collection-value-restore";
+const CACHE_NAME = "namangam-wor-v21122-korean-atk-gonkba-intro-copy-weight";
 
 const CORE_ASSETS = [
   "./",
