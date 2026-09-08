@@ -4146,6 +4146,39 @@
     }
   },
   {
+    "id": "decimus",
+    "nameKr": "데시무스",
+    "nameEn": "Decimus",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "레어",
+    "factions": [],
+    "memberships": [
+      {
+        "faction": "",
+        "factionKr": "무진영",
+        "factionEn": "Unaffiliated",
+        "lord": false,
+        "sortOrder": 1,
+        "portrait": "./unaffiliated-01-decimus.webp"
+      }
+    ],
+    "collectionValue": 3.5,
+    "exclusiveArtifact": null,
+    "videos": [],
+    "traits": [
+      "생존",
+      "단일 물리 공격"
+    ],
+    "details": {
+      "verifiedIntro": "HP가 0이 되면 불굴 상태에 진입해 기본 6초, 스킬 강화 시 최대 8초 동안 더 싸우는 특수 생존형 레어 전사. 이 시간 동안 공격력이 크게 오르지만 종료 즉시 사망하고 부활할 수 없다. 이 짧은 추가 생존 구간을 이용해 장비 던전 2의 위험한 공격 타이밍을 넘기는 용도로 실전 가치가 높다.",
+      "awakeningUnavailable": true,
+      "awakeningUnavailableText": "게임 내에서 A1~A5 각성 효과가 아직 오픈되지 않은 영웅입니다.",
+      "updated": "2026-09",
+      "note": "게임 내 공식 특성·각성 미오픈 여부는 사용자가 제공한 한국 서버 스크린샷 기준. 불굴 지속 시간과 효과는 해외 영웅 DB를 대조했으며, 장비 던전 2 활용은 사용자 제공 실전 정보 기준."
+    }
+  },
+  {
     "id": "deimos",
     "nameKr": "데모스",
     "nameEn": "Deimos",

@@ -4,7 +4,7 @@
     "scaleMax": 5.0,
     "step": 0.5,
     "source": "나만겜 최종 검수",
-    "updated": "2026-09-07",
+    "updated": "2026-09-08",
     "description": "전투 티어가 아니라 영웅을 계정에 보유했을 때의 활용성, 대체 가능성, 장기 가치 등을 종합한 나만겜 자체 평가입니다."
   },
   "values": {
@@ -70,6 +70,7 @@
     "dalyn": 3.0,
     "dane": 3.0,
     "dassomi": 3.0,
+    "decimus": 3.5,
     "deimos": 2.0,
     "demi": 4.0,
     "diaochan": 5.0,
