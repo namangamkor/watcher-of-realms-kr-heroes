@@ -16085,42 +16085,42 @@
     },
     "videos": [
       {
-        "youtubeId": "DdzidwGAvxE",
-        "title": "전설 영웅 관련 나만겜 영상 모음",
-        "url": "https://youtu.be/DdzidwGAvxE",
-        "label": "나만겜 전설 영웅 영상"
+        "youtubeId": "QD-9nY7m0l0",
+        "title": "발레리아 관련 나만겜 영상",
+        "url": "https://youtu.be/QD-9nY7m0l0",
+        "label": "나만겜 발레리아 영상"
       }
     ],
     "details": {
       "awakening": [
         {
           "level": "A1",
-          "grade": "해외 DB 확인",
-          "text": "적이 공격 범위에 진입하면 Radiant Erosion 1중첩을 부여한다. Radiant Erosion 상태의 대상을 공격할 때 마법 저항 25%를 무시한다."
+          "grade": "게임 내 효과",
+          "text": "적군 유닛이 공격 범위에 들어오면 빛의 침식을 1스택 부여한다. 빛의 침식을 부여한 대상을 공격할 때 대상의 마법 저항을 25% 무시한다. 빛의 침식은 2초마다 효과 소지자의 방어력에 따라 지속적인 고정 피해를 입히며, 최대 3스택까지 중첩 가능하다."
         },
         {
           "level": "A2",
-          "grade": "해외 DB 확인",
+          "grade": "게임 내 효과",
           "text": "공격력 +5%."
         },
         {
           "level": "A3",
-          "grade": "해외 DB 확인",
-          "text": "궁극기 지속 중 처음 받는 피해 1회를 무효화한다. 발동 후 5초 동안 받는 모든 피해 -50%."
+          "grade": "게임 내 효과",
+          "text": "궁극기 지속 기간 동안 처음 받는 피해를 면역하고, 발동 후 받는 모든 피해가 50% 감소하며, 5초간 지속된다."
         },
         {
           "level": "A4",
-          "grade": "해외 DB 확인",
+          "grade": "게임 내 효과",
           "text": "관통 +8%."
         },
         {
           "level": "A5",
-          "grade": "해외 DB 확인",
-          "text": "둔화 또는 제어 효과에 걸린 대상에게 주는 피해 +20%."
+          "grade": "게임 내 효과",
+          "text": "감속 또는 제어된 대상에게 입히는 피해가 20% 증가한다."
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 사용자가 제공한 한국 서버 게임 내 스크린샷 기준으로 확인했습니다."
     },
     "traits": [
       "광역 마법 공격",
