@@ -4,7 +4,7 @@
     "scaleMax": 5.0,
     "step": 0.5,
     "source": "나만겜 최종 검수",
-    "updated": "2026-09-08",
+    "updated": "2026-09-09",
     "description": "전투 티어가 아니라 영웅을 계정에 보유했을 때의 활용성, 대체 가능성, 장기 가치 등을 종합한 나만겜 자체 평가입니다."
   },
   "values": {
@@ -144,7 +144,7 @@
     "kria": 2.0,
     "krodor": 2.0,
     "lady-alexandra": 4.0,
-    "lady-mina": 5.0,
+    "lady-mina": 4.0,
     "laseer": 2.0,
     "laurel": 2.0,
     "laya": 5.0,
@@ -172,7 +172,7 @@
     "meriel": 2.0,
     "midan": 2.0,
     "morene": 1.0,
-    "moriden": 5.0,
+    "moriden": 4.0,
     "morrigan": 4.0,
     "myca": 2.0,
     "nastya": 5.0,

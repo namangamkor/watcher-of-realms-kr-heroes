@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21137-search-collection-filter";
+const CACHE_NAME = "namangam-wor-v21138-moriden-mina-collection-value";
 
 const CORE_ASSETS = [
   "./",
