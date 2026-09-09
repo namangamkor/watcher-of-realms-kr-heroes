@@ -20,7 +20,7 @@ const factionOptions = document.querySelectorAll(".faction-option[data-faction]"
 
 let heroes = [];
 let currentFaction = "all";
-const active = { rarity: "all", class: "all", content: "all" };
+const active = { rarity: "all", class: "all", content: "all", collection: "all" };
 
 const contentMeta = {
   abyss: { kr: "심연", en: "Abyss" },
@@ -98,6 +98,18 @@ function matchesContent(hero) {
     active.content === "all" ||
     (hero.contentTags || []).includes(active.content)
   );
+}
+
+function getCollectionBucket(value) {
+  const score = normalizeCollectionValue(value);
+  if (score === null) return null;
+  return Math.floor(score);
+}
+
+function matchesCollectionValue(hero) {
+  if (active.collection === "all") return true;
+  const bucket = getCollectionBucket(hero.collectionValue);
+  return bucket !== null && String(bucket) === active.collection;
 }
 
 function getContentTagMarkup(hero) {
@@ -295,6 +307,7 @@ function setAllFilters() {
   active.rarity = "all";
   active.class = "all";
   active.content = "all";
+  active.collection = "all";
 
   document.querySelectorAll(".filter").forEach((button) => {
     button.classList.toggle("active", button.dataset.value === "all");
@@ -373,7 +386,7 @@ function updateAllHeroesHeader(resultCount) {
   if (totalCount) totalCount.textContent = heroes.length;
 
   if (resultSummary) {
-    if (active.rarity !== "all" || active.class !== "all" || active.content !== "all") {
+    if (active.rarity !== "all" || active.class !== "all" || active.content !== "all" || active.collection !== "all") {
       resultSummary.textContent =
         `조건에 맞는 영웅 ${resultCount}명 · 고유 영웅 ${heroes.length}명`;
     } else {
@@ -415,7 +428,8 @@ function render() {
         matchesSearch(hero, query) &&
         (active.rarity === "all" || hero.rarity === active.rarity) &&
         (active.class === "all" || hero.class === active.class) &&
-        matchesContent(hero)
+        matchesContent(hero) &&
+        matchesCollectionValue(hero)
       )
       .sort((a, b) => a.nameKr.localeCompare(b.nameKr, "ko"));
 
@@ -435,7 +449,8 @@ function render() {
       .filter((hero) =>
         (active.rarity === "all" || hero.rarity === active.rarity) &&
         (active.class === "all" || hero.class === active.class) &&
-        matchesContent(hero)
+        matchesContent(hero) &&
+        matchesCollectionValue(hero)
       )
       .sort((a, b) => a.nameKr.localeCompare(b.nameKr, "ko"));
 
@@ -461,7 +476,8 @@ function render() {
       Boolean(membership) &&
       (active.rarity === "all" || hero.rarity === active.rarity) &&
       (active.class === "all" || hero.class === active.class) &&
-      matchesContent(hero)
+      matchesContent(hero) &&
+      matchesCollectionValue(hero)
     )
     .sort((a, b) => a.membership.sortOrder - b.membership.sortOrder);
 
@@ -474,7 +490,7 @@ function render() {
   emptyState.hidden = filtered.length !== 0;
   visibleCount.textContent = filtered.length;
 
-  if (active.rarity !== "all" || active.class !== "all" || active.content !== "all") {
+  if (active.rarity !== "all" || active.class !== "all" || active.content !== "all" || active.collection !== "all") {
     resultSummary.textContent =
       `조건에 맞는 영웅 ${filtered.length}명 · 전체 등록 ${meta.total}명`;
   } else {
@@ -482,7 +498,7 @@ function render() {
   }
 }
 
-fetch("./heroes.json?v=2.11.36")
+fetch("./heroes.json?v=2.11.37")
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
@@ -502,7 +518,7 @@ searchInput.addEventListener("input", () => {
   const query = searchInput.value.trim();
 
   // 이름 검색은 전 진영 통합 검색 모드.
-  // 검색을 시작하는 순간 기존 희귀도/직업/콘텐츠 필터를 전체로 초기화한다.
+  // 검색을 시작하는 순간 기존 희귀도/직업/콘텐츠/수집가치 필터를 전체로 초기화한다.
   if (query) {
     setAllFilters();
   }

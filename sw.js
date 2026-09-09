@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21136-valara-game-awakening-video";
+const CACHE_NAME = "namangam-wor-v21137-search-collection-filter";
 
 const CORE_ASSETS = [
   "./",
