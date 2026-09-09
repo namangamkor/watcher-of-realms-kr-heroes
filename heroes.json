@@ -2306,6 +2306,12 @@
         "title": "전설 영웅 관련 나만겜 영상 모음",
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
+      },
+      {
+        "youtubeId": "97WO4Zq0aZc",
+        "title": "에사레스·베르나·바알세불 관련 나만겜 영상",
+        "url": "https://youtu.be/97WO4Zq0aZc",
+        "label": "나만겜 관련 영상"
       }
     ],
     "details": {
@@ -4388,7 +4394,14 @@
     ],
     "collectionValue": 3,
     "exclusiveArtifact": null,
-    "videos": [],
+    "videos": [
+      {
+        "youtubeId": "nSSvEoIPyA4",
+        "title": "데시무스·모르 관련 나만겜 영상",
+        "url": "https://youtu.be/nSSvEoIPyA4",
+        "label": "나만겜 관련 영상"
+      }
+    ],
     "traits": [
       "생존",
       "단일 물리 공격"
@@ -5983,6 +5996,12 @@
         "title": "전설 영웅 관련 나만겜 영상 모음",
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
+      },
+      {
+        "youtubeId": "97WO4Zq0aZc",
+        "title": "에사레스·베르나·바알세불 관련 나만겜 영상",
+        "url": "https://youtu.be/97WO4Zq0aZc",
+        "label": "나만겜 관련 영상"
       }
     ],
     "details": {
@@ -9745,6 +9764,12 @@
         "title": "전설 영웅 관련 나만겜 영상 모음",
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
+      },
+      {
+        "youtubeId": "BhJ2cBLPHVM",
+        "title": "미나 관련 나만겜 영상",
+        "url": "https://youtu.be/BhJ2cBLPHVM",
+        "label": "나만겜 관련 영상"
       }
     ],
     "details": {
@@ -11342,7 +11367,14 @@
       }
     ],
     "collectionValue": 3,
-    "videos": [],
+    "videos": [
+      {
+        "youtubeId": "nSSvEoIPyA4",
+        "title": "데시무스·모르 관련 나만겜 영상",
+        "url": "https://youtu.be/nSSvEoIPyA4",
+        "label": "나만겜 관련 영상"
+      }
+    ],
     "details": {
       "awakening": [
         {
@@ -16089,6 +16121,12 @@
         "title": "발레리아 관련 나만겜 영상",
         "url": "https://youtu.be/QD-9nY7m0l0",
         "label": "나만겜 발레리아 영상"
+      },
+      {
+        "youtubeId": "hZFf7mLBZF0",
+        "title": "발레리아 관련 나만겜 영상",
+        "url": "https://youtu.be/hZFf7mLBZF0",
+        "label": "나만겜 관련 영상"
       }
     ],
     "details": {
@@ -16722,6 +16760,12 @@
         "title": "전설 영웅 관련 나만겜 영상 모음",
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
+      },
+      {
+        "youtubeId": "97WO4Zq0aZc",
+        "title": "에사레스·베르나·바알세불 관련 나만겜 영상",
+        "url": "https://youtu.be/97WO4Zq0aZc",
+        "label": "나만겜 관련 영상"
       }
     ],
     "details": {

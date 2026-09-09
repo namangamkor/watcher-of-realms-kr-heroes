@@ -1,3 +1,19 @@
+# v2.11.42 · 관련 영상 업데이트
+
+## 변경 사항
+- 데시무스(Decimus), 모르(Maul) 관련 영상 추가: `https://youtu.be/nSSvEoIPyA4`
+- 미나(Lady Mina) 관련 영상 추가: `https://youtu.be/BhJ2cBLPHVM`
+- 에사레스(Ezareth), 베르나(Vierna), 바알세불(Beelzebub) 관련 영상 추가: `https://youtu.be/97WO4Zq0aZc`
+- 발레리아(Valara) 관련 영상 추가: `https://youtu.be/hZFf7mLBZF0`
+- 발레리아의 기존 관련 영상 `QD-9nY7m0l0`은 유지하고 신규 영상을 추가 등록
+- 기존 전설 영웅 영상 모음 링크가 있는 영웅은 기존 링크를 유지하고 신규 개별/관련 영상을 추가
+- 메인 `최근 수정` 안내를 관련 영상 업데이트 내용으로 갱신
+- 수집가치·특성·각성·아티팩트·진영·희귀도·직업 데이터는 변경하지 않음
+
+Cache key: `namangam-wor-v21142-related-video-update`
+
+---
+
 # v2.11.41 · 사스니·레이든·카에드 수집가치 조정
 
 ## 변경 사항

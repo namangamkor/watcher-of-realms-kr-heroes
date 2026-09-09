@@ -491,7 +491,7 @@ function render() {
   }
 }
 
-fetch("./heroes.json?v=2.11.41")
+fetch("./heroes.json?v=2.11.42")
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
