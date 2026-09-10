@@ -1,16 +1,16 @@
-# v2.11.43 — 장비 프리셋 V4.0 페이지 추가
+# v2.11.43a — 장비 프리셋 경로 표시 오류 핫픽스
 
-- `/gear-presets/` 장비 프리셋 메인 페이지 추가
-- 나만겜401~나만겜424, 총 24개 프리셋의 개별 상세 URL 추가
-- 프리셋 명칭은 전부 V4.0 `나만겜4XX` 체계로 통일
-- V4.0에서 별도 변경된 부분을 제외한 메인·보조·필수 속성은 V3.0 최종값 승계
-- 신규 세트 `혈염드래곤혈통(DRAKEFIRE)`, `포효하는사자(GOLDMANE)`, `고독한늑대(GREYFANG)`을 역할/프리셋별로 반영
-- 공유 코드 `NTk1NTI=` 복사 기능 추가
-- 2종/3종 및 역할별 프리셋 필터 추가
-- 프리셋 판정 원칙 3개 명시: 필수 속성은 메인·보조 내에서만, 모든 조건 동시 만족, 레벨·강화 제외
-- 메인/영웅 상세/뉴비 가이드에서 장비 프리셋 페이지로 이동 가능 (영웅 상세에는 별도 V4.0 안내 CTA 추가)
-- 장비 프리셋 메인 + 24개 상세 페이지를 sitemap에 추가 (총 281 URL)
-- 서비스워커 캐시 키: `namangam-wor-v21143-gear-presets-v4`
+- `/gear-presets/`가 메인 `index.html`로 폴백되던 Cloudflare Assets 라우팅 문제 수정
+- Worker에서 `/gear-presets/` → `/gear-presets/index.html`을 명시적으로 연결
+- Worker에서 `/gear-presets/namangam401/`~`namangam424/` → 각 상세 `index.html`을 명시적으로 연결
+- 슬래시 없는 `/gear-presets`, `/gear-presets/namangam4XX`는 canonical URL로 301 리다이렉트
+- 메인 페이지의 CSS/JS 경로를 상대경로에서 절대경로(`/styles.css`, `/app.js`)로 보강
+- 서비스워커 캐시 키 갱신으로 기존 잘못 캐시된 `/gear-presets/` 응답 제거 유도
+- 장비 프리셋 데이터·24개 상세 페이지·V4.0 내용 자체는 변경하지 않음
+
+Cache key: `namangam-wor-v21143a-gear-route-hotfix`
+
+---
 
 # v2.11.42 · 관련 영상 업데이트
 
