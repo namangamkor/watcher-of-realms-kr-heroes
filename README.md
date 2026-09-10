@@ -328,3 +328,11 @@ Cache key: namangam-wor-v21126-back-to-top
 - 전설 영웅 관련 영상 170/170 유지
 
 Cache key: namangam-wor-v21125-decimus-added
+
+
+## v2.11.43c emergency home restore
+- `/` is explicitly rendered as the original hero-wiki home page by `_worker.js`.
+- `/gear-presets/` remains isolated to the gear preset page.
+- Navigation HTML is no longer stored in Service Worker cache to prevent cross-page cache contamination.
+- Service Worker registration changed to absolute `/sw.js`.
+- No hero data, collection values, traits, awakenings or related video data were removed.

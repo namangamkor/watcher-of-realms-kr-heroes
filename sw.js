@@ -1,20 +1,17 @@
-const CACHE_NAME = "namangam-wor-v21143b-gear-direct-render";
+const CACHE_NAME = "namangam-wor-v21143c-safe-navigation";
 
 const CORE_ASSETS = [
-  "./",
-  "./index.html",
-  "./styles.css",
-  "./app.js",
-  "./heroes.json",
-  "./manifest.webmanifest",
-  "./gear-presets/",
-  "./gear-presets.js",
-  "./gear-presets.json",
-  "./favicon-crystal-v1.png",
-  "./namangam-subscribe.png",
-  "./icon-192.png",
-  "./icon-512.png",
-  "./icon-maskable-512.png"
+  "/styles.css?v=2.11.43c",
+  "/app.js?v=2.11.43c",
+  "/heroes.json",
+  "/gear-presets.js?v=2.11.43c",
+  "/gear-presets.json",
+  "/manifest.webmanifest",
+  "/favicon-crystal-v1.png",
+  "/namangam-subscribe.png",
+  "/icon-192.png",
+  "/icon-512.png",
+  "/icon-maskable-512.png"
 ];
 
 self.addEventListener("install", (event) => {
@@ -28,43 +25,32 @@ self.addEventListener("install", (event) => {
 self.addEventListener("activate", (event) => {
   event.waitUntil(
     caches.keys()
-      .then((keys) =>
-        Promise.all(
-          keys
-            .filter((key) => key !== CACHE_NAME)
-            .map((key) => caches.delete(key))
-        )
-      )
+      .then((keys) => Promise.all(keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key))))
       .then(() => self.clients.claim())
   );
 });
 
 function networkFirst(request) {
-  return fetch(request)
-    .then((response) => {
-      if (response && response.status === 200) {
-        const copy = response.clone();
-        caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
-      }
-      return response;
-    })
-    .catch(() => caches.match(request));
+  return fetch(request).then((response) => {
+    if (response && response.status === 200) {
+      const copy = response.clone();
+      caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
+    }
+    return response;
+  }).catch(() => caches.match(request));
 }
 
 self.addEventListener("fetch", (event) => {
   const request = event.request;
-
   if (request.method !== "GET") return;
 
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
 
+  // Navigation pages are always fetched from the network.
+  // This prevents / and /gear-presets/ from ever sharing a stale cached HTML response.
   if (request.mode === "navigate") {
-    event.respondWith(
-      networkFirst(request).then(
-        (response) => response || caches.match("./index.html")
-      )
-    );
+    event.respondWith(fetch(request, { cache: "no-store" }));
     return;
   }
 
@@ -82,16 +68,12 @@ self.addEventListener("fetch", (event) => {
   }
 
   event.respondWith(
-    caches.match(request).then((cached) => {
-      if (cached) return cached;
-
-      return fetch(request).then((response) => {
-        if (response && response.status === 200) {
-          const copy = response.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
-        }
-        return response;
-      });
-    })
+    caches.match(request).then((cached) => cached || fetch(request).then((response) => {
+      if (response && response.status === 200) {
+        const copy = response.clone();
+        caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
+      }
+      return response;
+    }))
   );
 });
