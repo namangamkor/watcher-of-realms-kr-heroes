@@ -372,3 +372,11 @@ Cache key: namangam-wor-v21125-decimus-added
 - `/gear-presets/` and `namangam401~424` are served directly by `_worker.js`.
 - Nested gear HTML no longer passes through Cloudflare static HTML fallback.
 - Root `/` and hero detail routing are unchanged.
+
+
+## v2.11.45c - 장비 프리셋 라우팅 안정화
+- 장비 프리셋을 Worker 동적 HTML 라우팅에서 분리했습니다.
+- 메인: `/gear-presets-v4` (정적 `gear-presets-v4.html`)
+- 상세: `/gear-preset-401` ~ `/gear-preset-424` (정적 HTML)
+- 기존 `/gear-presets/...` 주소는 Worker 302 + 홈 폴백 rescue script로 새 주소에 연결합니다.
+- 영웅 홈/영웅 상세 렌더링 로직과 데이터는 유지합니다.
