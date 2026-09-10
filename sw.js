@@ -1,8 +1,8 @@
-const CACHE_NAME = "namangam-wor-v21143c-safe-navigation";
+const CACHE_NAME = "namangam-wor-v21145-recommended-artifact-label";
 
 const CORE_ASSETS = [
   "/styles.css?v=2.11.43c",
-  "/app.js?v=2.11.43c",
+  "/app.js?v=2.11.45",
   "/heroes.json",
   "/gear-presets.js?v=2.11.43c",
   "/gear-presets.json",

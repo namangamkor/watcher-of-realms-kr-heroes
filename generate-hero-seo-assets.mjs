@@ -47,6 +47,7 @@ function buildWorkerData(heroes) {
       })),
       contentTags: hero.contentTags || [],
       collectionValue: Number(hero.collectionValue || 0),
+      recommendedArtifact: hero.recommendedArtifact || null,
       exclusiveArtifact: hero.exclusiveArtifact || null,
       traits: hero.traits || [],
       details: hero.details || null,
@@ -70,14 +71,27 @@ function buildFactionTotals(heroes) {
 
 
 function buildExclusiveArtifactStats(heroes) {
+  const getArtifact = (hero) => hero.recommendedArtifact || hero.exclusiveArtifact || null;
   const entries = heroes.filter((hero) => {
-    const artifact = hero.exclusiveArtifact;
+    const artifact = getArtifact(hero);
     return Boolean(artifact && (artifact.nameKr || artifact.nameEn));
   });
-  const complete = entries.filter((hero) => hero.exclusiveArtifact.nameKr && hero.exclusiveArtifact.nameEn).length;
-  const krOnly = entries.filter((hero) => hero.exclusiveArtifact.nameKr && !hero.exclusiveArtifact.nameEn).length;
-  const enOnly = entries.filter((hero) => !hero.exclusiveArtifact.nameKr && hero.exclusiveArtifact.nameEn).length;
-  const krVerified = entries.filter((hero) => hero.exclusiveArtifact.krVerified === true && hero.exclusiveArtifact.nameKr).length;
+  const complete = entries.filter((hero) => {
+    const artifact = getArtifact(hero);
+    return artifact?.nameKr && artifact?.nameEn;
+  }).length;
+  const krOnly = entries.filter((hero) => {
+    const artifact = getArtifact(hero);
+    return artifact?.nameKr && !artifact?.nameEn;
+  }).length;
+  const enOnly = entries.filter((hero) => {
+    const artifact = getArtifact(hero);
+    return !artifact?.nameKr && artifact?.nameEn;
+  }).length;
+  const krVerified = entries.filter((hero) => {
+    const artifact = getArtifact(hero);
+    return artifact?.krVerified === true && artifact?.nameKr;
+  }).length;
   return { total: entries.length, complete, krOnly, enOnly, krVerified };
 }
 
@@ -131,7 +145,7 @@ function syncIndexHtml(indexHtml, heroCount, totals, artifactStats) {
   );
   html = html.replace(
     /(<div id="artifactProgressNote" class="data-note artifact-progress-note">)[\s\S]*?(<\/div>)/,
-    `$1\n        전용 아티팩트 확인 영웅 ${artifactStats.total}명 · 한·영 이름 완전 매칭 ${artifactStats.complete}명 · 한국명만 확인 ${artifactStats.krOnly}명 · 영문명만 확인 ${artifactStats.enOnly}명\n      $2`
+    `$1\n        추천 아티팩트 등록 영웅 ${artifactStats.total}명 · 한·영 이름 완전 매칭 ${artifactStats.complete}명 · 한국명만 확인 ${artifactStats.krOnly}명 · 영문명만 확인 ${artifactStats.enOnly}명\n      $2`
   );
 
   for (const [factionId, total] of Object.entries(totals)) {

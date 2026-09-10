@@ -69,14 +69,24 @@ function collectionIconSvg(icon) {
 
 
 function getExclusiveArtifactStats(heroList) {
+  const getArtifact = (hero) => hero.recommendedArtifact || hero.exclusiveArtifact || null;
   const entries = heroList.filter((hero) => {
-    const artifact = hero.exclusiveArtifact;
+    const artifact = getArtifact(hero);
     return Boolean(artifact && (artifact.nameKr || artifact.nameEn));
   });
 
-  const complete = entries.filter((hero) => hero.exclusiveArtifact.nameKr && hero.exclusiveArtifact.nameEn).length;
-  const krOnly = entries.filter((hero) => hero.exclusiveArtifact.nameKr && !hero.exclusiveArtifact.nameEn).length;
-  const enOnly = entries.filter((hero) => !hero.exclusiveArtifact.nameKr && hero.exclusiveArtifact.nameEn).length;
+  const complete = entries.filter((hero) => {
+    const artifact = getArtifact(hero);
+    return artifact?.nameKr && artifact?.nameEn;
+  }).length;
+  const krOnly = entries.filter((hero) => {
+    const artifact = getArtifact(hero);
+    return artifact?.nameKr && !artifact?.nameEn;
+  }).length;
+  const enOnly = entries.filter((hero) => {
+    const artifact = getArtifact(hero);
+    return !artifact?.nameKr && artifact?.nameEn;
+  }).length;
 
   return { total: entries.length, complete, krOnly, enOnly };
 }
@@ -85,7 +95,7 @@ function updateArtifactProgressNote() {
   if (!artifactProgressNote) return;
   const stats = getExclusiveArtifactStats(heroes);
   artifactProgressNote.textContent =
-    `전용 아티팩트 확인 영웅 ${stats.total}명 · 한·영 이름 완전 매칭 ${stats.complete}명 · 한국명만 확인 ${stats.krOnly}명 · 영문명만 확인 ${stats.enOnly}명`;
+    `추천 아티팩트 등록 영웅 ${stats.total}명 · 한·영 이름 완전 매칭 ${stats.complete}명 · 한국명만 확인 ${stats.krOnly}명 · 영문명만 확인 ${stats.enOnly}명`;
 }
 
 function matchesContent(hero) {
