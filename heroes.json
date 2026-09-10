@@ -7052,10 +7052,10 @@
     },
     "videos": [
       {
-        "youtubeId": "DdzidwGAvxE",
-        "title": "전설 영웅 관련 나만겜 영상 모음",
-        "url": "https://youtu.be/DdzidwGAvxE",
-        "label": "나만겜 전설 영웅 영상"
+        "youtubeId": "jjmfUwF1am8",
+        "title": "고결 관련 나만겜 영상",
+        "url": "https://youtu.be/jjmfUwF1am8",
+        "label": "나만겜 고결 영상"
       }
     ],
     "details": {
@@ -17223,7 +17223,7 @@
       "updated": "2026-09",
       "note": "각성·추천 장비·아티팩트 효과는 사용자가 제공한 한국 서버 게임 내 스크린샷 기준."
     },
-    "collectionValue": 4,
+    "collectionValue": 3,
     "exclusiveArtifact": {
       "nameKr": "폭주",
       "nameEn": "Flaming Pauldrons",

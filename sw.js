@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21147-mobile-gear-nav-label";
+const CACHE_NAME = "namangam-wor-v21151-wrath-gushi-update";
 
 const CORE_ASSETS = [
   "/styles.css?v=2.11.47",
