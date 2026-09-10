@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21143a-gear-route-hotfix";
+const CACHE_NAME = "namangam-wor-v21143b-gear-direct-render";
 
 const CORE_ASSETS = [
   "./",

@@ -1,4 +1,11 @@
-# v2.11.43a — 장비 프리셋 경로 표시 오류 핫픽스
+# v2.11.43b 장비 프리셋 직접 라우팅 핫픽스
+
+- `/gear-presets/`와 `/gear-presets/namangam401/`~`424/`를 Cloudflare 정적 에셋 폴백에 맡기지 않고 `_worker.js`가 HTML을 직접 반환합니다.
+- 장비 프리셋 URL에서 영웅도감 메인 페이지가 노출되는 문제를 차단합니다.
+- 서비스워커 캐시 키를 갱신했습니다.
+- 장비 프리셋 데이터/디자인/24개 상세 페이지 내용은 v2.11.43a와 동일합니다.
+
+# v2.11.43bb — 장비 프리셋 경로 표시 오류 핫픽스
 
 - `/gear-presets/`가 메인 `index.html`로 폴백되던 Cloudflare Assets 라우팅 문제 수정
 - Worker에서 `/gear-presets/` → `/gear-presets/index.html`을 명시적으로 연결
@@ -8,7 +15,7 @@
 - 서비스워커 캐시 키 갱신으로 기존 잘못 캐시된 `/gear-presets/` 응답 제거 유도
 - 장비 프리셋 데이터·24개 상세 페이지·V4.0 내용 자체는 변경하지 않음
 
-Cache key: `namangam-wor-v21143a-gear-route-hotfix`
+Cache key: `namangam-wor-v21143b-gear-direct-render`
 
 ---
 
