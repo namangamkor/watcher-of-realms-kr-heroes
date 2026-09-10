@@ -1,7 +1,7 @@
-const CACHE_NAME = "namangam-wor-v21146-gear-font-readability";
+const CACHE_NAME = "namangam-wor-v21147-mobile-gear-nav-label";
 
 const CORE_ASSETS = [
-  "/styles.css?v=2.11.46",
+  "/styles.css?v=2.11.47",
   "/app.js?v=2.11.45",
   "/heroes.json",
   "/gear-presets.js?v=2.11.45c",

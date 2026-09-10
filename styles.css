@@ -4014,7 +4014,8 @@ body.modal-open {
 }
 
 @media (max-width: 720px) {
-  .gear-nav-text { display:none; }
+  /* v2.11.47: 모바일에서도 메뉴 의미가 보이도록 장비 프리셋 명칭 유지 */
+  .gear-nav-text { display:inline; }
   .gear-nav-link { padding:7px 9px; }
   .gear-home-link { display:none; }
   .gear-topbar-actions .creator-mini { display:none; }
@@ -4047,8 +4048,13 @@ body.modal-open {
 }
 
 @media (max-width: 540px) {
-  .topbar-actions > .gear-nav-link:not(.active) .gear-nav-text { display:none; }
+  .topbar-actions > .gear-nav-link:not(.active) .gear-nav-text { display:inline; }
   .gear-nav-icon { display:none; }
+  /* 장비 프리셋 명칭 공간을 확보하기 위해 설치 버튼은 모바일에서 아이콘형으로 축약 */
+  .install-app-button { width:34px; height:34px; padding:0; justify-content:center; }
+  .install-app-button span:last-child { display:none; }
+  .gear-nav-link { gap:4px; padding:7px 8px; font-size:9px; }
+  .gear-nav-link b { font-size:8px; }
   .gear-summary-code { grid-template-columns:1fr; row-gap:10px; }
   .gear-summary-code code { font-size:20px; }
   .gear-summary-code .copy-share-code { width:100%; }
