@@ -1,10 +1,10 @@
-const CACHE_NAME = "namangam-wor-v21145a-gear-worker-fix";
+const CACHE_NAME = "namangam-wor-v21145b-gear-direct-html";
 
 const CORE_ASSETS = [
-  "/styles.css?v=2.11.43c",
+  "/styles.css?v=2.11.45b",
   "/app.js?v=2.11.45",
   "/heroes.json",
-  "/gear-presets.js?v=2.11.43c",
+  "/gear-presets.js?v=2.11.45b",
   "/gear-presets.json",
   "/manifest.webmanifest",
   "/favicon-crystal-v1.png",

@@ -366,3 +366,9 @@ Cache key: namangam-wor-v21125-decimus-added
 - Gear routes now fetch their deployed static `index.html` files directly through `env.ASSETS`.
 - Removed runtime references to undefined `GEAR_INDEX_HTML` / `GEAR_DETAIL_HTML`.
 - Bumped service-worker cache key only; hero/preset data unchanged.
+
+
+## v2.11.45b gear route hotfix
+- `/gear-presets/` and `namangam401~424` are served directly by `_worker.js`.
+- Nested gear HTML no longer passes through Cloudflare static HTML fallback.
+- Root `/` and hero detail routing are unchanged.
