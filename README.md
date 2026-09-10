@@ -359,3 +359,10 @@ Cache key: namangam-wor-v21125-decimus-added
 - Navigation HTML is no longer stored in Service Worker cache to prevent cross-page cache contamination.
 - Service Worker registration changed to absolute `/sw.js`.
 - No hero data, collection values, traits, awakenings or related video data were removed.
+
+
+## v2.11.45a hotfix
+- Fixed Cloudflare Worker Error 1101 on `/gear-presets/`.
+- Gear routes now fetch their deployed static `index.html` files directly through `env.ASSETS`.
+- Removed runtime references to undefined `GEAR_INDEX_HTML` / `GEAR_DETAIL_HTML`.
+- Bumped service-worker cache key only; hero/preset data unchanged.

@@ -570,38 +570,29 @@ export default {
     }
 
     if (url.pathname === "/gear-presets/") {
-      const body = request.method === "HEAD" ? null : GEAR_INDEX_HTML;
-      return new Response(body, {
-        status: 200,
-        headers: {
-          "content-type": "text/html; charset=UTF-8",
-          "cache-control": "no-cache, max-age=0, must-revalidate",
-          "x-robots-tag": "index, follow",
-          "x-worwiki-route": "gear-index-direct"
-        }
-      });
+      // The gear pages are real static files in the deployment. Fetch the exact
+      // file instead of referencing an in-memory HTML constant. This avoids a
+      // Worker ReferenceError and also bypasses directory-index fallback.
+      const assetUrl = new URL(request.url);
+      assetUrl.pathname = "/gear-presets/index.html";
+      assetUrl.search = "";
+      return env.ASSETS.fetch(new Request(assetUrl.toString(), request));
     }
 
     if (gearDetailMatch) {
       const presetId = gearDetailMatch[1];
       const presetNumber = Number(presetId.slice(-3));
-      if (presetNumber < 401 || presetNumber > 424 || !GEAR_DETAIL_HTML[presetId]) {
+      if (presetNumber < 401 || presetNumber > 424) {
         return env.ASSETS.fetch(request);
       }
       const canonicalPath = `/gear-presets/${presetId}/`;
       if (url.pathname !== canonicalPath) {
         return Response.redirect(`${SITE}${canonicalPath}`, 301);
       }
-      const body = request.method === "HEAD" ? null : GEAR_DETAIL_HTML[presetId];
-      return new Response(body, {
-        status: 200,
-        headers: {
-          "content-type": "text/html; charset=UTF-8",
-          "cache-control": "no-cache, max-age=0, must-revalidate",
-          "x-robots-tag": "index, follow",
-          "x-worwiki-route": "gear-detail-direct"
-        }
-      });
+      const assetUrl = new URL(request.url);
+      assetUrl.pathname = `${canonicalPath}index.html`;
+      assetUrl.search = "";
+      return env.ASSETS.fetch(new Request(assetUrl.toString(), request));
     }
 
     if (url.pathname === "/newbie" || url.pathname === "/newbie/") {

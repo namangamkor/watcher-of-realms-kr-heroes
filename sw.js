@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21145-recommended-artifact-label";
+const CACHE_NAME = "namangam-wor-v21145a-gear-worker-fix";
 
 const CORE_ASSETS = [
   "/styles.css?v=2.11.43c",
