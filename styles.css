@@ -4064,9 +4064,12 @@ body.modal-open {
 @media (max-width: 540px) {
   .topbar-actions > .gear-nav-link:not(.active) .gear-nav-text { display:inline; }
   .gear-nav-icon { display:none; }
-  /* 장비 프리셋 명칭 공간을 확보하기 위해 설치 버튼은 모바일에서 아이콘형으로 축약 */
-  .install-app-button { width:34px; height:34px; padding:0; justify-content:center; }
-  .install-app-button span:last-child { display:none; }
+  /* 모바일: 설치 기능은 유지하고 버튼 이름만 짧게 표시 */
+  .install-app-button { width:auto; min-width:66px; height:34px; padding:0 9px; justify-content:center; gap:5px; }
+  .install-app-button span:last-child { display:inline; font-size:0; }
+  .install-app-button span:last-child::after { content:"앱설치"; font-size:9px; font-weight:800; white-space:nowrap; }
+  .install-app-button.installed span:last-child { font-size:9px; }
+  .install-app-button.installed span:last-child::after { content:""; }
   .gear-nav-link { gap:4px; padding:7px 8px; font-size:9px; }
   .gear-nav-link b { font-size:8px; }
   .gear-summary-code { grid-template-columns:1fr; row-gap:10px; }
