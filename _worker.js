@@ -283,8 +283,8 @@ function renderHero(hero) {
   <meta name="description" content="${esc(description)}" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
   <link rel="canonical" href="${canonical}" />
-  <link rel="icon" type="image/png" sizes="64x64" href="/favicon-crystal-v1.png?v=2.11.38" />
-  <link rel="apple-touch-icon" href="/icon-192.png?v=2.11.38" />
+  <link rel="icon" type="image/png" sizes="64x64" href="/favicon-crystal-v1.png?v=2.11.43" />
+  <link rel="apple-touch-icon" href="/icon-192.png?v=2.11.43" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="ko_KR" />
   <meta property="og:site_name" content="나만겜 워처 오브 렐름 한국 영웅 위키" />
@@ -296,14 +296,17 @@ function renderHero(hero) {
   <meta name="twitter:title" content="${esc(title)}" />
   <meta name="twitter:description" content="${esc(description)}" />
   <meta name="twitter:image" content="${esc(image)}" />
-  <link rel="stylesheet" href="/styles.css?v=2.11.38" />
+  <link rel="stylesheet" href="/styles.css?v=2.11.43" />
   <script type="application/ld+json">${JSON.stringify(jsonLd).replaceAll("<", "\\u003c")}</script>
 </head>
 <body class="hero-detail-page">
   <header class="detail-topbar">
     <div class="wrap detail-topbar-inner">
       <a class="detail-brand" href="/">나만겜 <span>워처 오브 렐름 한국 영웅 위키</span></a>
-      <a class="detail-back" href="/">← 전체 도감</a>
+      <div class="detail-topbar-actions">
+        <a class="detail-gear-link" href="/gear-presets/"><span>장비 프리셋</span> <b>V4.0</b></a>
+        <a class="detail-back" href="/">← 전체 도감</a>
+      </div>
     </div>
   </header>
 
@@ -364,6 +367,15 @@ function renderHero(hero) {
 
     ${renderExclusiveArtifact(hero)}
 
+    <section class="detail-cta gear-preset-hero-cta">
+      <div>
+        <p class="section-kicker">GEAR PRESET · V4.0</p>
+        <h2>${esc(hero.nameKr)} 장비를 찾고 있다면?</h2>
+        <p>나만겜401~424의 메인·보조·필수 속성과 세트 필터를 확인해보세요.</p>
+      </div>
+      <a href="/gear-presets/">장비 프리셋 V4.0 보기 →</a>
+    </section>
+
     <section class="detail-report">
       <div>
         <p class="section-kicker">WIKI REPORT</p>
@@ -414,22 +426,23 @@ function renderNewbie() {
   <meta property="og:image" content="${SITE}/icon-512.png">
   <title>나만겜 | 뉴비가 먼저 알아야 할 렐름의 구조</title>
   <meta name="theme-color" content="#090c12">
-  <link rel="icon" type="image/png" sizes="64x64" href="/favicon-crystal-v1.png?v=2.11.38">
-  <link rel="apple-touch-icon" href="/icon-192.png?v=2.11.38">
-  <link rel="stylesheet" href="/styles.css?v=2.11.38">
+  <link rel="icon" type="image/png" sizes="64x64" href="/favicon-crystal-v1.png?v=2.11.43">
+  <link rel="apple-touch-icon" href="/icon-192.png?v=2.11.43">
+  <link rel="stylesheet" href="/styles.css?v=2.11.43">
 </head>
 <body class="newbie-page">
   <header class="topbar">
     <div class="wrap topbar-inner">
       <a class="brand brand-link" href="/" aria-label="영웅 위키 홈으로 이동">
-        <span class="brand-mark"><img src="/favicon-crystal-v1.png?v=2.11.38" alt=""></span>
+        <span class="brand-mark"><img src="/favicon-crystal-v1.png?v=2.11.43" alt=""></span>
         <div>
           <strong>나만겜 워처 오브 렐름 한국 영웅 위키</strong>
-          <small>한국 서버를 위한 영웅 정보·한영 이름 위키</small>
+          <small>영웅 정보 · 한영 이름 · 장비 프리셋</small>
         </div>
       </a>
       <div class="topbar-actions">
         <span class="creator-mini">NAMANGAM ARCHIVE</span>
+        <a class="gear-nav-link" href="/gear-presets/"><span class="gear-nav-icon" aria-hidden="true">⚙</span><span class="gear-nav-text">장비 프리셋</span><b>V4.0</b></a>
         <a class="newbie-home-link" href="/">영웅 검색으로 돌아가기</a>
       </div>
     </div>
@@ -521,7 +534,7 @@ function renderNewbie() {
 }
 
 function renderNotFound() {
-  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>나만겜 | 영웅을 찾을 수 없습니다</title><link rel="icon" type="image/png" sizes="64x64" href="/favicon-crystal-v1.png?v=2.11.38"><link rel="stylesheet" href="/styles.css?v=2.11.38"></head><body class="hero-detail-page"><main class="wrap detail-not-found"><p class="section-kicker">404 · HERO NOT FOUND</p><h1>영웅을 찾을 수 없습니다.</h1><p>주소를 다시 확인하거나 전체 영웅도감에서 찾아보세요.</p><a class="detail-back-home" href="/">전체 영웅도감으로 이동 →</a></main></body></html>`;
+  return `<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>나만겜 | 영웅을 찾을 수 없습니다</title><link rel="icon" type="image/png" sizes="64x64" href="/favicon-crystal-v1.png?v=2.11.43"><link rel="stylesheet" href="/styles.css?v=2.11.43"></head><body class="hero-detail-page"><main class="wrap detail-not-found"><p class="section-kicker">404 · HERO NOT FOUND</p><h1>영웅을 찾을 수 없습니다.</h1><p>주소를 다시 확인하거나 전체 영웅도감에서 찾아보세요.</p><a class="detail-back-home" href="/">전체 영웅도감으로 이동 →</a></main></body></html>`;
 }
 
 export default {

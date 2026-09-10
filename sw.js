@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21142-related-video-update";
+const CACHE_NAME = "namangam-wor-v21143-gear-presets-v4";
 
 const CORE_ASSETS = [
   "./",
@@ -7,6 +7,9 @@ const CORE_ASSETS = [
   "./app.js",
   "./heroes.json",
   "./manifest.webmanifest",
+  "./gear-presets/",
+  "./gear-presets.js",
+  "./gear-presets.json",
   "./favicon-crystal-v1.png",
   "./namangam-subscribe.png",
   "./icon-192.png",
@@ -69,6 +72,8 @@ self.addEventListener("fetch", (event) => {
     url.pathname.endsWith("/app.js") ||
     url.pathname.endsWith("/styles.css") ||
     url.pathname.endsWith("/heroes.json") ||
+    url.pathname.endsWith("/gear-presets.js") ||
+    url.pathname.endsWith("/gear-presets.json") ||
     url.pathname.endsWith("/manifest.webmanifest");
 
   if (updateCritical) {

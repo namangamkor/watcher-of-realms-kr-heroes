@@ -1,0 +1,706 @@
+{
+  "version": "4.0",
+  "siteVersion": "2.11.43",
+  "shareCode": "NTk1NTI=",
+  "presetCount": 24,
+  "rules": [
+    "필수 속성은 메인 속성·보조 속성에 포함된 항목만 사용",
+    "메인·보조 조건과 필수 속성 조건을 모두 만족해야 선택",
+    "레벨·강화 수치는 프리셋 판정에서 제외"
+  ],
+  "newSets": {
+    "혈염드래곤혈통": {
+      "en": "DRAKEFIRE",
+      "pieces": "2종 세트",
+      "effect": "공격력 +30% · 적에게 화상 부여 성공 시 5초 동안 피해 +1%, 최대 10중첩"
+    },
+    "포효하는사자": {
+      "en": "GOLDMANE",
+      "pieces": "2종 세트",
+      "effect": "HP +30% · 기본 공격으로 피해를 줄 때 자신의 최대 HP 4%에 해당하는 추가 고정 피해"
+    },
+    "고독한늑대": {
+      "en": "GREYFANG",
+      "pieces": "3종 세트",
+      "effect": "기본 공격 피해 +35% · 적 처치 후 10초 동안 관통 +15%"
+    }
+  },
+  "presets": [
+    {
+      "id": "namangam401",
+      "number": "401",
+      "sequence": "01",
+      "name": "나만겜401_범용딜러",
+      "shortName": "범용딜러",
+      "version": "4.0",
+      "type": "2종",
+      "role": "딜러",
+      "legacySet": "모두선택",
+      "setDisplay": "기존 등록 세트 전체 + 혈염드래곤혈통 + 포효하는사자",
+      "mainAttribute": "모두선택",
+      "subAttributes": [
+        "공보",
+        "치율",
+        "치피",
+        "공속",
+        "분회"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "치율"
+      ],
+      "purpose": "공/마법 딜러 범용",
+      "newSets": [
+        "혈염드래곤혈통",
+        "포효하는사자"
+      ],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam402",
+      "number": "402",
+      "sequence": "02",
+      "name": "나만겜402_스킬딜러",
+      "shortName": "스킬딜러",
+      "version": "4.0",
+      "type": "2종",
+      "role": "딜러",
+      "legacySet": "모두선택",
+      "setDisplay": "기존 등록 세트 전체 + 혈염드래곤혈통 + 포효하는사자",
+      "mainAttribute": "모두선택",
+      "subAttributes": [
+        "공보",
+        "치율",
+        "치피",
+        "분회"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "분회"
+      ],
+      "purpose": "궁극기·스킬 비중 높은 딜러",
+      "newSets": [
+        "혈염드래곤혈통",
+        "포효하는사자"
+      ],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam403",
+      "number": "403",
+      "sequence": "03",
+      "name": "나만겜403_HP딜탱",
+      "shortName": "HP딜탱",
+      "version": "4.0",
+      "type": "2종",
+      "role": "딜러",
+      "legacySet": "모두선택",
+      "setDisplay": "기존 등록 세트 전체 + 혈염드래곤혈통 + 포효하는사자",
+      "mainAttribute": "모두선택",
+      "subAttributes": [
+        "HP보",
+        "치율",
+        "치피",
+        "공속",
+        "분회"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "HP보"
+      ],
+      "purpose": "HP 계수 딜탱",
+      "newSets": [
+        "혈염드래곤혈통",
+        "포효하는사자"
+      ],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam404",
+      "number": "404",
+      "sequence": "04",
+      "name": "나만겜404_공비힐러",
+      "shortName": "공비힐러",
+      "version": "4.0",
+      "type": "2종",
+      "role": "힐러",
+      "legacySet": "성흔의수호 / 빛의은혜 / 악의복수 / 불굴의용사 / 전쟁의주인 / 구원 / 생기 / 재앙 / 질풍",
+      "setDisplay": "성흔의수호 / 빛의은혜 / 악의복수 / 불굴의용사 / 전쟁의주인 / 구원 / 생기 / 재앙 / 질풍 / 혈염드래곤혈통",
+      "mainAttribute": "모두선택",
+      "subAttributes": [
+        "공보",
+        "치유",
+        "공속",
+        "분회",
+        "HP보"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "치유",
+        "공보"
+      ],
+      "purpose": "공격력 비례 힐러",
+      "newSets": [
+        "혈염드래곤혈통"
+      ],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam405",
+      "number": "405",
+      "sequence": "05",
+      "name": "나만겜405_HP힐러",
+      "shortName": "HP힐러",
+      "version": "4.0",
+      "type": "2종",
+      "role": "힐러",
+      "legacySet": "성흔의수호 / 빛의은혜 / 불굴의용사 / 구원 / 생기 / 질풍",
+      "setDisplay": "성흔의수호 / 빛의은혜 / 불굴의용사 / 구원 / 생기 / 질풍 / 포효하는사자",
+      "mainAttribute": "모두선택",
+      "subAttributes": [
+        "HP보",
+        "치유",
+        "공속",
+        "분회"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "HP보",
+        "치유"
+      ],
+      "purpose": "HP 비례 힐러",
+      "newSets": [
+        "포효하는사자"
+      ],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam406",
+      "number": "406",
+      "sequence": "06",
+      "name": "나만겜406_순수탱커",
+      "shortName": "순수탱커",
+      "version": "4.0",
+      "type": "2종",
+      "role": "탱커",
+      "legacySet": "모두선택",
+      "setDisplay": "기존 등록 세트 전체 + 혈염드래곤혈통 + 포효하는사자",
+      "mainAttribute": "모두선택",
+      "subAttributes": [
+        "HP보",
+        "분회",
+        "공속",
+        "치유"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "HP보",
+        "분회"
+      ],
+      "purpose": "순수 전열 탱커·생존형 지원",
+      "newSets": [
+        "혈염드래곤혈통",
+        "포효하는사자"
+      ],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam407",
+      "number": "407",
+      "sequence": "07",
+      "name": "나만겜407_속분서폿",
+      "shortName": "속분서폿",
+      "version": "4.0",
+      "type": "2종",
+      "role": "서포터",
+      "legacySet": "모두선택",
+      "setDisplay": "기존 등록 세트 전체 + 혈염드래곤혈통 + 포효하는사자",
+      "mainAttribute": "모두선택",
+      "subAttributes": [
+        "공속",
+        "분회",
+        "공보",
+        "HP보"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "공속",
+        "분회"
+      ],
+      "purpose": "속도·분노수급 서포터",
+      "newSets": [
+        "혈염드래곤혈통",
+        "포효하는사자"
+      ],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam408",
+      "number": "408",
+      "sequence": "08",
+      "name": "나만겜408_치피딜러",
+      "shortName": "치피딜러",
+      "version": "4.0",
+      "type": "3종",
+      "role": "딜러",
+      "legacySet": "모두선택",
+      "setDisplay": "기존 등록 세트 전체 + 고독한늑대",
+      "mainAttribute": "치명타피해",
+      "subAttributes": [
+        "공보",
+        "치율",
+        "공속",
+        "분회"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "치율"
+      ],
+      "purpose": "치피 주옵 공격 딜러",
+      "newSets": [
+        "고독한늑대"
+      ],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam409",
+      "number": "409",
+      "sequence": "09",
+      "name": "나만겜409_치피생존",
+      "shortName": "치피생존",
+      "version": "4.0",
+      "type": "3종",
+      "role": "딜러",
+      "legacySet": "모두선택",
+      "setDisplay": "기존 등록 세트 전체 + 고독한늑대",
+      "mainAttribute": "치명타피해",
+      "subAttributes": [
+        "공보",
+        "치율",
+        "공속",
+        "HP보"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "치율"
+      ],
+      "purpose": "치피 주옵 생존형 딜러",
+      "newSets": [
+        "고독한늑대"
+      ],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam410",
+      "number": "410",
+      "sequence": "10",
+      "name": "나만겜410_치피딜탱",
+      "shortName": "치피딜탱",
+      "version": "4.0",
+      "type": "3종",
+      "role": "딜러",
+      "legacySet": "모두선택",
+      "setDisplay": "기존 등록 세트 전체 + 고독한늑대",
+      "mainAttribute": "치명타피해",
+      "subAttributes": [
+        "HP보",
+        "치율",
+        "공속",
+        "분회"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "HP보"
+      ],
+      "purpose": "치피 주옵 HP 딜탱",
+      "newSets": [
+        "고독한늑대"
+      ],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam411",
+      "number": "411",
+      "sequence": "11",
+      "name": "나만겜411_공보딜러",
+      "shortName": "공보딜러",
+      "version": "4.0",
+      "type": "3종",
+      "role": "딜러",
+      "legacySet": "모두선택",
+      "setDisplay": "기존 등록 세트 전체 + 고독한늑대",
+      "mainAttribute": "공격보너스",
+      "subAttributes": [
+        "치피",
+        "치율",
+        "공속",
+        "분회"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "치피"
+      ],
+      "purpose": "공보 주옵 공격 딜러",
+      "newSets": [
+        "고독한늑대"
+      ],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam412",
+      "number": "412",
+      "sequence": "12",
+      "name": "나만겜412_공보생존",
+      "shortName": "공보생존",
+      "version": "4.0",
+      "type": "3종",
+      "role": "딜러",
+      "legacySet": "모두선택",
+      "setDisplay": "기존 등록 세트 전체 + 고독한늑대",
+      "mainAttribute": "공격보너스",
+      "subAttributes": [
+        "치피",
+        "치율",
+        "공속",
+        "HP보"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "치율"
+      ],
+      "purpose": "공보 주옵 생존형 딜러",
+      "newSets": [
+        "고독한늑대"
+      ],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam413",
+      "number": "413",
+      "sequence": "13",
+      "name": "나만겜413_공보힐러",
+      "shortName": "공보힐러",
+      "version": "4.0",
+      "type": "3종",
+      "role": "힐러",
+      "legacySet": "파멸 / 프리스트 / 마력 / 수호 / 신성한영혼 / 성스러운날개 / 전의 / 북방 / 불멸의의지",
+      "setDisplay": "파멸 / 프리스트 / 마력 / 수호 / 신성한영혼 / 성스러운날개 / 전의 / 북방 / 불멸의의지",
+      "mainAttribute": "공격보너스",
+      "subAttributes": [
+        "치유",
+        "공속",
+        "분회",
+        "HP보"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "치유"
+      ],
+      "purpose": "공격력 비례 힐러 (스틱스 제외)",
+      "newSets": [],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam414",
+      "number": "414",
+      "sequence": "14",
+      "name": "나만겜414_HP탱힐",
+      "shortName": "HP탱힐",
+      "version": "4.0",
+      "type": "3종",
+      "role": "힐러",
+      "legacySet": "모두선택",
+      "setDisplay": "기존 등록 세트 전체 + 고독한늑대",
+      "mainAttribute": "HP보너스",
+      "subAttributes": [
+        "분회",
+        "공속",
+        "치유",
+        "공보"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "분회",
+        "치유"
+      ],
+      "purpose": "희귀 HP 탱힐 전용·정밀 필터",
+      "newSets": [
+        "고독한늑대"
+      ],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam415",
+      "number": "415",
+      "sequence": "15",
+      "name": "나만겜415_HP딜탱",
+      "shortName": "HP딜탱",
+      "version": "4.0",
+      "type": "3종",
+      "role": "딜러",
+      "legacySet": "모두선택",
+      "setDisplay": "기존 등록 세트 전체 + 고독한늑대",
+      "mainAttribute": "HP보너스",
+      "subAttributes": [
+        "치율",
+        "치피",
+        "공속",
+        "분회"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "치율"
+      ],
+      "purpose": "HP 주옵 딜탱",
+      "newSets": [
+        "고독한늑대"
+      ],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam416",
+      "number": "416",
+      "sequence": "16",
+      "name": "나만겜416_HP힐러",
+      "shortName": "HP힐러",
+      "version": "4.0",
+      "type": "3종",
+      "role": "힐러",
+      "legacySet": "프리스트 / 마력 / 수호 / 신성한영혼 / 성스러운날개 / 전의 / 불멸의의지",
+      "setDisplay": "프리스트 / 마력 / 수호 / 신성한영혼 / 성스러운날개 / 전의 / 불멸의의지",
+      "mainAttribute": "HP보너스",
+      "subAttributes": [
+        "치유",
+        "분회",
+        "공속",
+        "공보"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "치유"
+      ],
+      "purpose": "HP 주옵 힐러",
+      "newSets": [],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam417",
+      "number": "417",
+      "sequence": "17",
+      "name": "나만겜417_치유힐러",
+      "shortName": "치유힐러",
+      "version": "4.0",
+      "type": "3종",
+      "role": "힐러",
+      "legacySet": "파멸 / 프리스트 / 마력 / 수호 / 신성한영혼 / 성스러운날개 / 전의 / 북방 / 불멸의의지",
+      "setDisplay": "파멸 / 프리스트 / 마력 / 수호 / 신성한영혼 / 성스러운날개 / 전의 / 북방 / 불멸의의지",
+      "mainAttribute": "치유효과",
+      "subAttributes": [
+        "HP보",
+        "공보",
+        "분회",
+        "공속"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "분회"
+      ],
+      "purpose": "치유 주옵 범용 힐러 (스틱스 제외)",
+      "newSets": [],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam418",
+      "number": "418",
+      "sequence": "18",
+      "name": "나만겜418_치율딜러",
+      "shortName": "치율딜러",
+      "version": "4.0",
+      "type": "3종",
+      "role": "딜러",
+      "legacySet": "모두선택",
+      "setDisplay": "기존 등록 세트 전체 + 고독한늑대",
+      "mainAttribute": "치명타율",
+      "subAttributes": [
+        "공보",
+        "치피",
+        "공속",
+        "분회"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "치피"
+      ],
+      "purpose": "치율 주옵 공격 딜러",
+      "newSets": [
+        "고독한늑대"
+      ],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam419",
+      "number": "419",
+      "sequence": "19",
+      "name": "나만겜419_치율딜탱",
+      "shortName": "치율딜탱",
+      "version": "4.0",
+      "type": "3종",
+      "role": "딜러",
+      "legacySet": "모두선택",
+      "setDisplay": "기존 등록 세트 전체 + 고독한늑대",
+      "mainAttribute": "치명타율",
+      "subAttributes": [
+        "HP보",
+        "치피",
+        "공속",
+        "분회"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "치피"
+      ],
+      "purpose": "치율 주옵 HP 딜탱",
+      "newSets": [
+        "고독한늑대"
+      ],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam420",
+      "number": "420",
+      "sequence": "20",
+      "name": "나만겜420_공속딜러",
+      "shortName": "공속딜러",
+      "version": "4.0",
+      "type": "3종",
+      "role": "딜러",
+      "legacySet": "모두선택",
+      "setDisplay": "기존 등록 세트 전체 + 고독한늑대",
+      "mainAttribute": "공격속도",
+      "subAttributes": [
+        "공보",
+        "치율",
+        "치피",
+        "분회"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "공보"
+      ],
+      "purpose": "공속 주옵 딜러",
+      "newSets": [
+        "고독한늑대"
+      ],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam421",
+      "number": "421",
+      "sequence": "21",
+      "name": "나만겜421_공속힐러",
+      "shortName": "공속힐러",
+      "version": "4.0",
+      "type": "3종",
+      "role": "힐러",
+      "legacySet": "파멸 / 프리스트 / 마력 / 수호 / 신성한영혼 / 성스러운날개 / 전의 / 북방 / 불멸의의지",
+      "setDisplay": "파멸 / 프리스트 / 마력 / 수호 / 신성한영혼 / 성스러운날개 / 전의 / 북방 / 불멸의의지",
+      "mainAttribute": "공격속도",
+      "subAttributes": [
+        "HP보",
+        "공보",
+        "분회",
+        "치유"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "치유"
+      ],
+      "purpose": "공속 주옵 힐러",
+      "newSets": [],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam422",
+      "number": "422",
+      "sequence": "22",
+      "name": "나만겜422_분회지원",
+      "shortName": "분회지원",
+      "version": "4.0",
+      "type": "3종",
+      "role": "서포터",
+      "legacySet": "모두선택",
+      "setDisplay": "기존 등록 세트 전체 + 고독한늑대",
+      "mainAttribute": "분노회복효율",
+      "subAttributes": [
+        "공보",
+        "HP보",
+        "치유",
+        "공속"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "공속"
+      ],
+      "purpose": "분노회복 주옵 서포터",
+      "newSets": [
+        "고독한늑대"
+      ],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam423",
+      "number": "423",
+      "sequence": "23",
+      "name": "나만겜423_분회딜러",
+      "shortName": "분회딜러",
+      "version": "4.0",
+      "type": "3종",
+      "role": "딜러",
+      "legacySet": "모두선택",
+      "setDisplay": "기존 등록 세트 전체 + 고독한늑대",
+      "mainAttribute": "분노회복효율",
+      "subAttributes": [
+        "공보",
+        "치율",
+        "치피",
+        "공속"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "치율"
+      ],
+      "purpose": "분노회복 주옵 스킬 딜러",
+      "newSets": [
+        "고독한늑대"
+      ],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    },
+    {
+      "id": "namangam424",
+      "number": "424",
+      "sequence": "24",
+      "name": "나만겜424_방보탱커",
+      "shortName": "방보탱커",
+      "version": "4.0",
+      "type": "3종",
+      "role": "탱커",
+      "legacySet": "모두선택",
+      "setDisplay": "기존 등록 세트 전체 + 고독한늑대",
+      "mainAttribute": "방어보너스",
+      "subAttributes": [
+        "HP보",
+        "분회",
+        "공속"
+      ],
+      "requirement": 3,
+      "requiredAttributes": [
+        "HP보"
+      ],
+      "purpose": "방어 주옵 순수 방탱",
+      "newSets": [
+        "고독한늑대"
+      ],
+      "inheritance": "v3.0 속성 승계 · v4.0 신규 세트 반영 및 재검증"
+    }
+  ]
+}
