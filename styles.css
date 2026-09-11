@@ -4123,3 +4123,19 @@ body.modal-open {
   color:#e2c16e;
   background:rgba(229,189,105,.06);
 }
+
+/* v2.12.5: clearer hero filter labels */
+.filters { gap:16px; }
+.filters .filter-group { column-gap:9px; row-gap:8px; }
+.filters .filter-group > span {
+  width:76px; flex:0 0 76px; margin:0 9px 0 0;
+  color:#edf2fa; font-size:1rem; font-weight:800;
+  line-height:1.5; letter-spacing:0; white-space:nowrap;
+}
+@media(max-width:560px) {
+  .filters { gap:18px; }
+  .filters .filter-group > span {
+    width:100%; flex-basis:100%; margin:0 0 3px;
+    font-size:.9375rem;
+  }
+}
