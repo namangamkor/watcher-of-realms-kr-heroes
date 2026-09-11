@@ -103,3 +103,12 @@
  .ww-comments .ww-comment-meta time { width:100%; margin-left:0; }
  .ww-refined .ww-compose[open] { padding:1rem; }
 }
+
+.hero-utility-links { display:flex; justify-content:center; flex-wrap:wrap; gap:.65rem; margin:1.25rem 0; }
+.hero-utility-links a { display:inline-flex; align-items:center; min-height:44px; padding:.55rem 1rem; border:1px solid #344155; border-radius:9px; color:#bac7d9; background:#111925; font-size:.875rem; text-decoration:none; }
+.hero-utility-links a:hover { color:#f3cf83; border-color:#8a7344; }
+.hero-return { display:flex; justify-content:center; margin:1rem 0 2rem; }
+.hero-return a { display:inline-flex; align-items:center; justify-content:center; min-height:48px; padding:.8rem 1.6rem; border-radius:12px; color:#141922; background:#edc66f; font-weight:700; text-decoration:none; }
+.hero-return a:hover { background:#f8d88e; }
+.hero-utility-links a:focus-visible,.hero-return a:focus-visible { outline:3px solid #9bc5ff; outline-offset:3px; }
+.ww-comments #ww-more { display:flex; margin:1rem auto 0; }

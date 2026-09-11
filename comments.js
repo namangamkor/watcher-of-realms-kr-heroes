@@ -5,6 +5,7 @@
   const byId = id => document.getElementById(id);
   const hero = root.dataset.heroId, siteKey = root.dataset.siteKey;
   const form = byId("ww-form"), submit = byId("ww-submit"), dialog = byId("ww-dialog");
+  let visibleLimit = 3;
   let entries = [], mine = [], cursor = null, total = 0, loading = false;
   let captchaPromise = null, formWidget = null, reportWidget = null;
   let formToken = "", reportToken = "", formBusy = false, dialogBusy = false;
@@ -62,13 +63,13 @@
   }
   function renderLists() {
     const list = byId("ww-list");
-    list.replaceChildren(...entries.map(x => renderComment(x)));
+    list.replaceChildren(...entries.slice(0, visibleLimit).map(x => renderComment(x)));
     if (!entries.length) list.append(node("li", "ww-empty", "첫 사용 후기를 남겨주세요."));
     byId("ww-count").textContent = String(total);
     const privateRows = mine.filter(x => x.status !== "published");
     byId("ww-mine").hidden = !privateRows.length;
     byId("ww-mine-list").replaceChildren(...privateRows.map(x => renderComment(x, true)));
-    byId("ww-more").hidden = !cursor;
+    byId("ww-more").hidden = !cursor && visibleLimit >= entries.length;
   }
   async function load(append = false) {
     if (loading) return;
@@ -256,7 +257,11 @@
     composeButton.textContent = compose.open ? "− 작성 닫기" : "＋ 후기 남기기";
     if (compose.open) startForm();
   });
-  byId("ww-more").addEventListener("click", () => load(true));
+  byId("ww-more").addEventListener("click", () => {
+    visibleLimit += 3;
+    if (entries.length < visibleLimit && cursor) load(true);
+    else renderLists();
+  });
   byId("ww-retry").addEventListener("click", () => load());
   if ("serviceWorker" in navigator) navigator.serviceWorker.getRegistration().then(reg => reg?.update()).catch(() => {});
   load();

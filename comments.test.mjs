@@ -109,7 +109,7 @@ try {
       assert.equal(result.status,200,h.id);
       const html=await result.text();
       assert.ok(html.includes('id="hero-comments"'),h.id);
-      assert.ok(html.includes('src="/comments.js?v=2.12.0"'),h.id);
+      assert.ok(html.includes('src="/comments.js?v=2.12.3"'),h.id);
       assert.ok(!html.includes(env.COMMENTS_SECRET));
     }
   });

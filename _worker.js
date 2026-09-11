@@ -299,7 +299,7 @@ function renderHero(hero, env = {}) {
   <meta name="twitter:description" content="${esc(description)}" />
   <meta name="twitter:image" content="${esc(image)}" />
   <link rel="stylesheet" href="/styles.css?v=2.11.43c" />
-  ${wwReady(env) ? '<link rel="stylesheet" href="/comments.css?v=2.12.2">' : ''}
+  <link rel="stylesheet" href="/comments.css?v=2.12.3">
   <script type="application/ld+json">${JSON.stringify(jsonLd).replaceAll("<", "\\u003c")}</script>
 </head>
 <body class="hero-detail-page">
@@ -370,36 +370,15 @@ function renderHero(hero, env = {}) {
 
     ${renderExclusiveArtifact(hero)}
 
-    <section class="detail-cta gear-preset-hero-cta">
-      <div>
-        <p class="section-kicker">GEAR PRESET · V4.0</p>
-        <h2>장비 프리셋으로 후보 장비 찾기</h2>
-        <p>프리셋은 영웅별 최우선 장비 추천이 아니라, 역할과 속성에 맞는 장비 후보를 빠르게 찾는 기준입니다. 실제 장착 장비는 보유 장비와 콘텐츠에 맞게 직접 선택하세요.</p>
-      </div>
-      <a href="/gear-presets-v4">장비 프리셋 V4.0 보기 →</a>
-    </section>
-
-    <section class="detail-report">
-      <div>
-        <p class="section-kicker">WIKI REPORT</p>
-        <h2>정보가 잘못되었거나 누락된 영웅이 있나요?</h2>
-        <p>${esc(hero.nameKr)} 정보의 오류, 번역·이름 문제, 신규 영웅 누락 등을 발견했다면 제보해주세요. 확인 후 위키에 반영하겠습니다.</p>
-      </div>
-      <a href="${REPORT_FORM}" target="_blank" rel="noopener noreferrer">정보 수정 · 신규 영웅 제보 ↗</a>
-    </section>
-
     ${renderRelatedVideos(hero)}
 
     ${wwRenderSection(hero, env)}
 
-    <section class="detail-cta">
-      <div>
-        <p class="section-kicker">NAMANGAM HERO INDEX</p>
-        <h2>다른 영웅도 바로 찾아보세요.</h2>
-        <p>한국명·영문명 검색, 진영·직업·콘텐츠 필터를 그대로 사용할 수 있습니다.</p>
-      </div>
-      <a href="/">전체 영웅도감으로 돌아가기 →</a>
-    </section>
+    <nav class="hero-utility-links" aria-label="영웅 정보 보조 메뉴">
+      <a href="/gear-presets-v4">장비 프리셋 보기 →</a>
+      <a href="${REPORT_FORM}" target="_blank" rel="noopener noreferrer">정보 오류 제보 ↗</a>
+    </nav>
+    <div class="hero-return"><a href="/">← 영웅도감으로 돌아가기</a></div>
   </main>
 
   <footer class="detail-footer">
@@ -408,7 +387,7 @@ function renderHero(hero, env = {}) {
       <div class="detail-footer-links"><a href="${REPORT_FORM}" target="_blank" rel="noopener noreferrer">정보 제보 ↗</a><a href="${YOUTUBE}" target="_blank" rel="noopener noreferrer">나만겜 YouTube ↗</a></div>
     </div>
   </footer>
-  ${wwReady(env) ? '<script src="/comments.js?v=2.12.2" defer></script>' : ''}
+  ${wwReady(env) ? '<script src="/comments.js?v=2.12.3" defer></script>' : ''}
 </body>
 </html>`;
 }
@@ -822,7 +801,7 @@ function wwHTML(html, status = 200, head = false) {
   } });
 }
 function wwErrorPage(message) {
-  return '<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>나만겜 | 댓글 관리</title><link rel="stylesheet" href="/styles.css?v=2.11.47"><link rel="stylesheet" href="/comments.css?v=2.12.2"></head><body class="ww-admin"><main class="wrap ww-admin-main"><h1>댓글 관리</h1><p>' +
+  return '<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>나만겜 | 댓글 관리</title><link rel="stylesheet" href="/styles.css?v=2.11.47"><link rel="stylesheet" href="/comments.css?v=2.12.3"></head><body class="ww-admin"><main class="wrap ww-admin-main"><h1>댓글 관리</h1><p>' +
     esc(message) + '</p><a class="ww-button" href="/">영웅도감으로 돌아가기</a></main></body></html>';
 }
 function wwRenderSection(hero, env) {
@@ -854,7 +833,7 @@ function wwRenderSection(hero, env) {
 function wwRenderAdmin(email, env) {
   return '<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">' +
     '<meta name="robots" content="noindex,nofollow"><title>나만겜 | 댓글 관리</title><link rel="icon" href="/favicon-crystal-v1.png">' +
-    '<link rel="stylesheet" href="/styles.css?v=2.11.47"><link rel="stylesheet" href="/comments.css?v=2.12.2"><script src="/comments-admin.js?v=2.12.0" defer></script></head>' +
+    '<link rel="stylesheet" href="/styles.css?v=2.11.47"><link rel="stylesheet" href="/comments.css?v=2.12.3"><script src="/comments-admin.js?v=2.12.0" defer></script></head>' +
     '<body class="ww-admin"><header class="ww-admin-header"><div class="wrap ww-heading"><strong>나만겜 · 댓글 관리</strong><div class="ww-actions"><span class="ww-meta">' + esc(email) +
     '</span><a class="ww-button ww-quiet" href="/">영웅도감</a><a class="ww-button ww-quiet" href="/cdn-cgi/access/logout">로그아웃</a></div></div></header>' +
     '<main class="wrap ww-admin-main"><div class="ww-heading"><div><h1>사용 후기 관리</h1><p class="ww-note">공개 승인, 신고 확인, 숨김과 삭제를 여기서 처리하세요.</p></div><button id="wa-refresh" class="ww-button" type="button">새로고침</button></div>' +
