@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
+# Comment moderation and API responses are not search pages.
+Disallow: /admin/
+Disallow: /api/comments
 
 Sitemap: https://worwiki.kr/sitemap.xml

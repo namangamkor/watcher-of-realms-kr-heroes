@@ -1,0 +1,12 @@
+v2.12.0 / base v2.11.51
+COMMENTS-SETUP-KO.html
+README.md
+_worker.js
+comments-admin.js
+comments-schema.sql
+comments.css
+comments.js
+maintenance/comments.test.mjs
+robots.txt
+sw.js
+PATCH-FILES.txt

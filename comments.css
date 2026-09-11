@@ -1,0 +1,75 @@
+/* Comments only: preserve the existing wiki theme and page layouts. */
+.ww-comments, .ww-admin { --ww-muted: #b4bfd0; font-size: 1rem; line-height: 1.65; }
+.ww-comments *, .ww-admin * { box-sizing: border-box; }
+.ww-comments [hidden], .ww-admin [hidden] { display: none !important; }
+.ww-comments h2, .ww-admin h1, .ww-admin h2 { margin: 0; }
+.ww-heading { display: flex; gap: 1rem; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.ww-count { color: var(--blue); font-size: 1rem; margin-left: .5rem; }
+.ww-note { color: var(--ww-muted); font-size: .875rem; margin: .6rem 0 1rem; }
+.ww-empty { color: var(--ww-muted); padding: 1rem 0; margin: 0; }
+.ww-list { list-style: none; padding: 0; margin: 0; }
+.ww-comment { padding: 1.1rem 0; border-top: 1px solid var(--line); min-width: 0; }
+.ww-comment-meta { display: flex; gap: .6rem; flex-wrap: wrap; align-items: center; font-size: .875rem; }
+.ww-comment-meta strong { color: var(--text); font-size: 1rem; overflow-wrap: anywhere; }
+.ww-comment-meta time, .ww-meta { color: var(--ww-muted); font-size: .875rem; }
+.ww-body { white-space: pre-wrap; overflow-wrap: anywhere; margin: .7rem 0; font-size: 1rem; }
+.ww-chip { border: 1px solid var(--line); border-radius: .4rem; padding: .08rem .45rem; font-size: .875rem; color: var(--ww-muted); }
+.ww-chip[data-state="pending"] { color: var(--gold2); border-color: #73603a; }
+.ww-chip[data-state="published"] { color: #acd0ff; border-color: #405f89; }
+.ww-actions { display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; }
+.ww-button, .ww-comments summary, .ww-admin a.ww-button { font: inherit; font-size: .875rem; font-weight: 650; line-height: 1.4; padding: .65rem .9rem; min-height: 44px; border: 1px solid var(--line); border-radius: .6rem; background: var(--panel2); color: var(--text); cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; justify-content: center; }
+.ww-button:hover { border-color: var(--blue); }
+.ww-button.ww-primary { background: #d9b464; border-color: #d9b464; color: #111722; }
+.ww-button.ww-danger { color: #ffb9b9; border-color: #784444; }
+.ww-button.ww-quiet { background: transparent; }
+.ww-button:disabled { cursor: wait; opacity: .5; }
+.ww-comments :focus-visible, .ww-admin :focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+.ww-compose { margin-top: 1.25rem; border-top: 1px solid var(--line); padding-top: 1.25rem; }
+.ww-compose summary { list-style: none; width: fit-content; }
+.ww-compose summary::-webkit-details-marker { display: none; }
+.ww-compose summary::before { content: '+'; font-size: 1.25rem; margin-right: .6rem; }
+.ww-compose[open] summary::before { content: '−'; }
+.ww-form { margin-top: 1.1rem; }
+.ww-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.ww-field { display: grid; gap: .4rem; margin-bottom: 1rem; min-width: 0; }
+.ww-field label, .ww-label { font-weight: 650; font-size: .875rem; }
+.ww-field input, .ww-field select, .ww-field textarea, .ww-admin select, .ww-admin input { color: var(--text); background: #0c121d; border: 1px solid #43516a; border-radius: .6rem; padding: .7rem .8rem; width: 100%; min-width: 0; min-height: 44px; font: inherit; font-size: 1rem; }
+.ww-field textarea { resize: vertical; min-height: 8rem; line-height: 1.6; }
+.ww-field input::placeholder, .ww-field textarea::placeholder { color: #8f9cb0; }
+.ww-counter { text-align: right; color: var(--ww-muted); font-size: .875rem; }
+.ww-trap { position: absolute !important; left: -10000px !important; width: 1px; height: 1px; overflow: hidden; }
+.ww-status { margin: .8rem 0; color: var(--ww-muted); font-size: .875rem; overflow-wrap: anywhere; }
+.ww-status:empty { display: none; }
+.ww-status[data-kind="error"] { color: #ffc0b6; }
+.ww-status[data-kind="success"] { color: #b8dfba; }
+.ww-mine { background: #141e2c; border: 1px solid #3b4c65; padding: 1rem; border-radius: .7rem; margin: 1rem 0; }
+.ww-mine h3 { margin: 0; font-size: 1rem; }
+.ww-dialog { color: var(--text); background: var(--panel); border: 1px solid #4b5f80; border-radius: 1rem; width: min(480px, calc(100% - 28px)); padding: 1.4rem; max-height: 90dvh; overflow: auto; }
+.ww-dialog::backdrop { background: rgba(0,0,0,.72); }
+.ww-dialog h3 { margin: 0 0 .8rem; }
+.ww-captcha { min-height: 65px; max-width: 100%; margin-bottom: .8rem; }
+.ww-admin { padding-bottom: 3rem; }
+.ww-admin-header { border-bottom: 1px solid var(--line); background: #101722; }
+.ww-admin-header .wrap { padding-top: 1rem; padding-bottom: 1rem; }
+.ww-admin-header strong { font-size: 1.1rem; }
+.ww-admin-main { padding-top: 1.5rem; }
+.ww-admin h1 { font-size: clamp(1.5rem, 3vw, 2rem); }
+.ww-stats { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: .7rem; margin: 1.2rem 0; }
+.ww-stat { border: 1px solid var(--line); background: var(--panel); border-radius: .8rem; padding: .9rem 1rem; }
+.ww-stat span { display: block; color: var(--ww-muted); font-size: .875rem; }
+.ww-stat strong { font-size: 1.6rem; }
+.ww-toolbar { display: grid; grid-template-columns: minmax(150px,.7fr) minmax(180px,2fr) auto; gap: .7rem; align-items: end; padding: 1rem; border: 1px solid var(--line); background: var(--panel); border-radius: .8rem; margin: 1rem 0; }
+.ww-toolbar .ww-field { margin: 0; }
+.ww-admin-list .ww-comment { padding: 1.2rem; background: var(--panel); border: 1px solid var(--line); border-radius: .8rem; margin-bottom: .8rem; }
+.ww-hero-link { color: var(--blue); font-weight: 700; font-size: 1rem; }
+.ww-report-note { color: #f4cb91; font-size: .875rem; padding: .6rem .8rem; background: #302719; border-radius: .5rem; }
+.ww-pagination { display: flex; justify-content: center; align-items: center; gap: 1rem; margin-top: 1.3rem; }
+.ww-banner { padding: .8rem 1rem; background: #302719; border: 1px solid #786440; border-radius: .6rem; margin: 1rem 0; }
+@media (max-width: 560px) {
+  .ww-fields { grid-template-columns: 1fr; gap: 0; }
+  .ww-toolbar { grid-template-columns: 1fr; }
+  .ww-stats { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .ww-admin-header .ww-heading { align-items: flex-start; }
+  .ww-admin-list .ww-comment { padding: 1rem; }
+  .ww-dialog { padding: 1rem; }
+}

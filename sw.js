@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21151-wrath-gushi-update";
+const CACHE_NAME = "namangam-wor-v21200-moderated-comments";
 
 const CORE_ASSETS = [
   "/styles.css?v=2.11.47",
@@ -47,6 +47,12 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
 
+  // Never store comments, moderation results, or authentication responses offline.
+  if (url.pathname.startsWith("/api/comments") || url.pathname.startsWith("/admin/") || url.pathname.startsWith("/cdn-cgi/access/")) {
+    event.respondWith(fetch(request, { cache: "no-store" }));
+    return;
+  }
+
   // Navigation pages are always fetched from the network.
   // This prevents / and /gear-presets/ from ever sharing a stale cached HTML response.
   if (request.mode === "navigate") {
@@ -55,6 +61,9 @@ self.addEventListener("fetch", (event) => {
   }
 
   const updateCritical =
+    url.pathname.endsWith("/comments.js") ||
+    url.pathname.endsWith("/comments-admin.js") ||
+    url.pathname.endsWith("/comments.css") ||
     url.pathname.endsWith("/app.js") ||
     url.pathname.endsWith("/styles.css") ||
     url.pathname.endsWith("/heroes.json") ||

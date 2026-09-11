@@ -228,7 +228,7 @@ function heroDescription(hero) {
   return `워처 오브 렐름 ${hero.nameKr}(${hero.nameEn}) 영웅 정보. ${hero.rarity} ${hero.class}, 소속 진영 ${factions}.${contentText} 한국명과 영문명을 나만겜 한국 영웅 위키에서 확인하세요.`;
 }
 
-function renderHero(hero) {
+function renderHero(hero, env = {}) {
   const canonical = `${SITE}/hero/${encodeURIComponent(hero.id)}/`;
   const title = `나만겜 | ${hero.nameKr}(${hero.nameEn}) - 워처 오브 렐름 한국 영웅 위키`;
   const description = heroDescription(hero);
@@ -299,6 +299,7 @@ function renderHero(hero) {
   <meta name="twitter:description" content="${esc(description)}" />
   <meta name="twitter:image" content="${esc(image)}" />
   <link rel="stylesheet" href="/styles.css?v=2.11.43c" />
+  ${wwReady(env) ? '<link rel="stylesheet" href="/comments.css?v=2.12.0">' : ''}
   <script type="application/ld+json">${JSON.stringify(jsonLd).replaceAll("<", "\\u003c")}</script>
 </head>
 <body class="hero-detail-page">
@@ -389,6 +390,8 @@ function renderHero(hero) {
 
     ${renderRelatedVideos(hero)}
 
+    ${wwRenderSection(hero, env)}
+
     <section class="detail-cta">
       <div>
         <p class="section-kicker">NAMANGAM HERO INDEX</p>
@@ -405,6 +408,7 @@ function renderHero(hero) {
       <div class="detail-footer-links"><a href="${REPORT_FORM}" target="_blank" rel="noopener noreferrer">정보 제보 ↗</a><a href="${YOUTUBE}" target="_blank" rel="noopener noreferrer">나만겜 YouTube ↗</a></div>
     </div>
   </footer>
+  ${wwReady(env) ? '<script src="/comments.js?v=2.12.0" defer></script>' : ''}
 </body>
 </html>`;
 }
@@ -540,8 +544,10 @@ function renderNotFound() {
 }
 
 export default {
-  async fetch(request, env) {
+  async fetch(request, env, ctx) {
     const url = new URL(request.url);
+    const commentsResponse = await wwHandle(request, env, ctx, HEROES);
+    if (commentsResponse) return commentsResponse;
     const match = url.pathname.match(/^\/hero\/([^/]+)\/?$/);
 
     // HOME SAFETY ROUTE: the root must always render the hero wiki, never a sub-page.
@@ -610,7 +616,7 @@ export default {
       return Response.redirect(`${SITE}${canonicalPath}`, 301);
     }
 
-    const body = request.method === "HEAD" ? null : renderHero(hero);
+    const body = request.method === "HEAD" ? null : renderHero(hero, env);
     return new Response(body, {
       status: 200,
       headers: {
@@ -621,3 +627,397 @@ export default {
     });
   }
 };
+
+
+// WoR Wiki comments v2.12.0. Inlined in _worker.js; no build or npm dependency.
+const WW_REASONS = { spam: "광고·도배", abuse: "욕설·비방", misinformation: "잘못된 정보", other: "기타" };
+const WW_COOKIE = "__Host-ww-comment-author";
+const WW_PUBLIC_COLUMNS = "id, hero_id, nickname, awakening, body, created_at, published_at";
+let wwSigningKey = null;
+let wwJwksCache = null;
+
+class WWError extends Error {
+  constructor(status, message) { super(message); this.status = status; }
+}
+function wwJson(value, status = 200, extra = {}) {
+  return new Response(JSON.stringify(value), { status, headers: {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "private, no-store, max-age=0",
+    "cdn-cache-control": "no-store", "vary": "Cookie",
+    "x-content-type-options": "nosniff", "x-robots-tag": "noindex, nofollow", ...extra
+  } });
+}
+function wwAdminConfig(env) {
+  const domain = String(env.ACCESS_TEAM_DOMAIN || "").replace(/\/$/, "");
+  const emails = String(env.COMMENT_ADMIN_EMAILS || "").split(",").map(x => x.trim().toLowerCase()).filter(Boolean);
+  return /^https:\/\/[a-z0-9-]+\.cloudflareaccess\.com$/i.test(domain) && !!env.ACCESS_AUD && emails.length > 0;
+}
+function wwReady(env) {
+  return env.COMMENTS_ENABLED === "true" && !!env.COMMENTS_DB &&
+    String(env.COMMENTS_SECRET || "").length >= 32 && wwAdminConfig(env) &&
+    String(env.TURNSTILE_SITE_KEY || "").length >= 20 && String(env.TURNSTILE_SECRET_KEY || "").length >= 20 &&
+    !/^[123]x0{10}/.test(env.TURNSTILE_SITE_KEY) && !/^[123]x0{10}/.test(env.TURNSTILE_SECRET_KEY);
+}
+function wwOrigin(env) { return String(env.COMMENTS_ORIGIN || SITE).replace(/\/$/, ""); }
+function wwRequireSameOrigin(request, env) {
+  if (new URL(request.url).origin !== wwOrigin(env) || request.headers.get("origin") !== wwOrigin(env) ||
+      request.headers.get("x-worwiki-request") !== "1" ||
+      request.headers.get("sec-fetch-site") === "cross-site") {
+    throw new WWError(403, "이 사이트에서 다시 시도해주세요.");
+  }
+}
+async function wwBody(request) {
+  if (!/^application\/json(?:;|$)/i.test(request.headers.get("content-type") || "")) {
+    throw new WWError(415, "요청 형식이 올바르지 않아요.");
+  }
+  if (Number(request.headers.get("content-length") || 0) > 12000) throw new WWError(413, "입력 내용이 너무 길어요.");
+  const reader = request.body?.getReader();
+  if (!reader) throw new WWError(400, "입력 내용을 확인해주세요.");
+  let size = 0, chunks = [];
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    size += value.byteLength;
+    if (size > 12000) { await reader.cancel(); throw new WWError(413, "입력 내용이 너무 길어요."); }
+    chunks.push(value);
+  }
+  const all = new Uint8Array(size);
+  let offset = 0;
+  for (const chunk of chunks) { all.set(chunk, offset); offset += chunk.length; }
+  try {
+    const body = JSON.parse(new TextDecoder("utf-8", { fatal: true }).decode(all));
+    if (!body || typeof body !== "object" || Array.isArray(body)) throw new Error();
+    return body;
+  } catch { throw new WWError(400, "입력 내용을 확인해주세요."); }
+}
+function wwClean(value, min, max, multiline = false) {
+  if (typeof value !== "string") throw new WWError(400, "닉네임과 후기 내용을 확인해주세요.");
+  const text = value.normalize("NFKC").replace(/\r\n?/g, "\n").trim();
+  if (Array.from(text).length < min || Array.from(text).length > max ||
+      /[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F\u200B-\u200F\u202A-\u202E\u2060-\u206F\uFEFF]/.test(text) ||
+      (!multiline && /[\n\t]/.test(text))) {
+    throw new WWError(400, multiline ? "후기는 5~500자로 입력해주세요." : "닉네임은 2~20자로 입력해주세요.");
+  }
+  if (/(?:https?:|www\.|[a-z0-9-]+\.(?:com|net|org|kr|io|me|gg|xyz|app|dev|info|site)\b|<[^>]*>|!\[|\[[^\]]*\]\()/i.test(text)) {
+    throw new WWError(400, "링크와 HTML은 사용할 수 없어요. 텍스트로 작성해주세요.");
+  }
+  return text;
+}
+function wwHero(value, heroes) {
+  if (typeof value !== "string" || !Object.hasOwn(heroes, value)) throw new WWError(404, "영웅을 찾을 수 없어요.");
+  return value;
+}
+function wwUUID(value) {
+  return typeof value === "string" && /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(value);
+}
+async function wwHash(value, env) {
+  const secret = String(env.COMMENTS_SECRET || "");
+  if (secret.length < 32) throw new WWError(503, "후기 기능을 잠시 사용할 수 없어요.");
+  if (!wwSigningKey || wwSigningKey.secret !== secret) {
+    wwSigningKey = { secret, key: await crypto.subtle.importKey("raw", new TextEncoder().encode(secret),
+      { name: "HMAC", hash: "SHA-256" }, false, ["sign"]) };
+  }
+  const hash = await crypto.subtle.sign("HMAC", wwSigningKey.key, new TextEncoder().encode(value));
+  return Array.from(new Uint8Array(hash), x => x.toString(16).padStart(2, "0")).join("");
+}
+function wwAuthorToken(request) {
+  const token = (request.headers.get("cookie") || "").split(";").map(x => x.trim())
+    .find(x => x.startsWith(WW_COOKIE + "="))?.slice(WW_COOKIE.length + 1);
+  return /^[a-zA-Z0-9_-]{43}$/.test(token || "") ? token : null;
+}
+function wwRandomToken() {
+  const bytes = crypto.getRandomValues(new Uint8Array(32));
+  return btoa(String.fromCharCode(...bytes)).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+}
+async function wwAuthorHash(request, env) {
+  const token = wwAuthorToken(request);
+  return token ? wwHash("author|" + token, env) : null;
+}
+async function wwIPHash(request, env) {
+  // Cloudflare sets this header; never trust a client X-Forwarded-For value.
+  const ip = request.headers.get("cf-connecting-ip");
+  if (!ip || ip.length > 64) throw new WWError(503, "접속을 확인하지 못했어요. 잠시 후 다시 시도해주세요.");
+  return wwHash("ip|" + ip, env);
+}
+async function wwRate(db, key, seconds, daily, now) {
+  // One conditional upsert: simultaneous requests cannot both pass the cooldown.
+  const allowed = await db.prepare(
+    "INSERT INTO comment_rate_limits(key,last_at,window_start,count) VALUES(?,?,?,1) " +
+    "ON CONFLICT(key) DO UPDATE SET last_at=excluded.last_at, " +
+    "window_start=CASE WHEN comment_rate_limits.window_start<=? THEN excluded.window_start ELSE comment_rate_limits.window_start END, " +
+    "count=CASE WHEN comment_rate_limits.window_start<=? THEN 1 ELSE comment_rate_limits.count+1 END " +
+    "WHERE comment_rate_limits.last_at<=? AND (comment_rate_limits.window_start<=? OR comment_rate_limits.count<?) RETURNING key"
+  ).bind(key, now, now, now - 86400, now - 86400, now - seconds, now - 86400, daily).first();
+  if (!allowed) throw new WWError(429, "작성 간격 또는 하루 이용 한도에 도달했어요. 잠시 후 다시 시도해주세요.");
+}
+async function wwChallenge(token, action, request, env) {
+  if (typeof token !== "string" || !token || token.length > 2048) throw new WWError(400, "로봇 확인을 완료해주세요.");
+  let data;
+  try {
+    const response = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
+      method: "POST", headers: { "content-type": "application/json" },
+      body: JSON.stringify({ secret: env.TURNSTILE_SECRET_KEY, response: token,
+        remoteip: request.headers.get("cf-connecting-ip") }),
+      signal: AbortSignal.timeout(8000)
+    });
+    if (!response.ok) throw new Error();
+    data = await response.json();
+  } catch { throw new WWError(503, "로봇 확인에 연결하지 못했어요. 다시 시도해주세요."); }
+  if (data.success !== true || data.hostname !== new URL(wwOrigin(env)).hostname || data.action !== action) {
+    throw new WWError(400, "로봇 확인이 만료되었거나 올바르지 않아요. 다시 확인해주세요.");
+  }
+}
+function wwDecodeBase64(value) {
+  if (!/^[a-zA-Z0-9_-]+$/.test(value)) throw new Error("Malformed token");
+  const normalized = value.replace(/-/g, "+").replace(/_/g, "/");
+  const raw = atob(normalized.padEnd(Math.ceil(normalized.length / 4) * 4, "="));
+  return Uint8Array.from(raw, x => x.charCodeAt(0));
+}
+async function wwAdmin(request, env) {
+  if (!wwAdminConfig(env)) throw new WWError(503, "관리자 인증 설정이 필요합니다.");
+  const token = request.headers.get("cf-access-jwt-assertion");
+  if (!token || token.length > 16000) throw new WWError(401, "관리자 로그인이 필요합니다.");
+  try {
+    const parts = token.split(".");
+    if (parts.length !== 3) throw new Error();
+    const header = JSON.parse(new TextDecoder().decode(wwDecodeBase64(parts[0])));
+    const claims = JSON.parse(new TextDecoder().decode(wwDecodeBase64(parts[1])));
+    const issuer = String(env.ACCESS_TEAM_DOMAIN).replace(/\/$/, "");
+    const now = Math.floor(Date.now() / 1000);
+    if (header.alg !== "RS256" || typeof header.kid !== "string" || header.kid.length > 256 || header.crit ||
+        claims.iss !== issuer || !Array.isArray(claims.aud) || !claims.aud.includes(String(env.ACCESS_AUD)) ||
+        !Number.isFinite(claims.exp) || claims.exp <= now ||
+        (claims.nbf !== undefined && (!Number.isFinite(claims.nbf) || claims.nbf > now)) ||
+        typeof claims.email !== "string" || typeof claims.sub !== "string" || !claims.sub) throw new Error();
+    const allowed = String(env.COMMENT_ADMIN_EMAILS).split(",").map(x => x.trim().toLowerCase());
+    if (!allowed.includes(claims.email.toLowerCase())) throw new Error();
+    let key = wwJwksCache?.issuer === issuer ? wwJwksCache.keys.find(x => x.kid === header.kid) : null;
+    const expired = !wwJwksCache || wwJwksCache.issuer !== issuer || wwJwksCache.expires <= Date.now();
+    const canRefreshUnknown = !wwJwksCache || Date.now() - wwJwksCache.fetched > 60000;
+    if (expired || (!key && canRefreshUnknown)) {
+      const response = await fetch(issuer + "/cdn-cgi/access/certs", { signal: AbortSignal.timeout(5000) });
+      if (!response.ok) throw new Error();
+      const text = await response.text();
+      if (text.length > 64000) throw new Error();
+      const jwks = JSON.parse(text);
+      if (!Array.isArray(jwks.keys)) throw new Error();
+      wwJwksCache = { issuer, keys: jwks.keys.slice(0, 10), fetched: Date.now(), expires: Date.now() + 300000 };
+      key = wwJwksCache.keys.find(x => x.kid === header.kid);
+    }
+    if (!key || key.kty !== "RSA" || key.alg !== "RS256" || key.use !== "sig") throw new Error();
+    const publicKey = await crypto.subtle.importKey("jwk", key,
+      { name: "RSASSA-PKCS1-v1_5", hash: "SHA-256" }, false, ["verify"]);
+    const valid = await crypto.subtle.verify("RSASSA-PKCS1-v1_5", publicKey,
+      wwDecodeBase64(parts[2]), new TextEncoder().encode(parts[0] + "." + parts[1]));
+    if (!valid) throw new Error();
+    return claims.email.toLowerCase();
+  } catch { throw new WWError(403, "관리자 권한을 확인하지 못했습니다. 다시 로그인해주세요."); }
+}
+function wwHTML(html, status = 200, head = false) {
+  return new Response(head ? null : html, { status, headers: {
+    "content-type": "text/html; charset=utf-8", "cache-control": "private, no-store",
+    "cdn-cache-control": "no-store", "x-robots-tag": "noindex, nofollow",
+    "x-content-type-options": "nosniff", "referrer-policy": "same-origin",
+    "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'"
+  } });
+}
+function wwErrorPage(message) {
+  return '<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>나만겜 | 댓글 관리</title><link rel="stylesheet" href="/styles.css?v=2.11.47"><link rel="stylesheet" href="/comments.css?v=2.12.0"></head><body class="ww-admin"><main class="wrap ww-admin-main"><h1>댓글 관리</h1><p>' +
+    esc(message) + '</p><a class="ww-button" href="/">영웅도감으로 돌아가기</a></main></body></html>';
+}
+function wwRenderSection(hero, env) {
+  if (!wwReady(env)) return "";
+  return '<section class="detail-section ww-comments" id="hero-comments" data-hero-id="' + esc(hero.id) +
+    '" data-site-key="' + esc(env.TURNSTILE_SITE_KEY) + '">' +
+    '<div class="ww-heading"><h2>유저 사용 후기 <span class="ww-count" id="ww-count"></span></h2></div>' +
+    '<p class="ww-note">이용자의 사용 경험입니다. 공식 정보 및 수집가치와 별개로 참고해주세요.</p>' +
+    '<p id="ww-load-status" class="ww-status" role="status">후기를 불러오는 중입니다.</p>' +
+    '<button id="ww-retry" class="ww-button" type="button" hidden>다시 불러오기</button>' +
+    '<div id="ww-mine" class="ww-mine" hidden><h3>내 비공개 후기</h3><p class="ww-note">승인 대기 또는 숨김 상태로, 다른 이용자에게 보이지 않습니다.</p><ul id="ww-mine-list" class="ww-list"></ul></div>' +
+    '<ul id="ww-list" class="ww-list" aria-label="공개된 사용 후기"></ul>' +
+    '<button id="ww-more" class="ww-button" type="button" hidden>후기 더 보기</button>' +
+    '<details id="ww-compose" class="ww-compose"><summary>사용 후기 남기기</summary>' +
+    '<form id="ww-form" class="ww-form"><p class="ww-note">후기는 관리자 승인 후 닉네임과 함께 공개됩니다. 링크·이미지·개인 연락처는 넣지 마세요.</p>' +
+    '<div class="ww-fields"><div class="ww-field"><label for="ww-nickname">닉네임</label><input id="ww-nickname" name="nickname" minlength="2" maxlength="20" required autocomplete="nickname" placeholder="2~20자"></div>' +
+    '<div class="ww-field"><label for="ww-awakening">각성 단계 <span class="ww-meta">(선택)</span></label><select id="ww-awakening" name="awakening"><option value="">선택 안 함</option><option value="0">무각</option><option value="1">1각</option><option value="2">2각</option><option value="3">3각</option><option value="4">4각</option><option value="5">5각</option></select></div></div>' +
+    '<div class="ww-field"><label for="ww-body">사용 후기</label><textarea id="ww-body" name="body" minlength="5" maxlength="500" required placeholder="사용한 콘텐츠, 장비, 각성에 따른 체감을 알려주세요."></textarea><span id="ww-counter" class="ww-counter">0 / 500</span></div>' +
+    '<div class="ww-trap" aria-hidden="true"><label>웹사이트<input name="website" tabindex="-1" autocomplete="off"></label></div>' +
+    '<div id="ww-captcha" class="ww-captcha"></div><p id="ww-submit-status" class="ww-status" role="status"></p>' +
+    '<button id="ww-submit" class="ww-button ww-primary" type="submit" disabled>승인 요청</button>' +
+    '<p class="ww-note">같은 브라우저에서 본인 후기를 삭제할 수 있습니다. 쿠키를 지우거나 기기를 바꾸면 관리자에게 삭제를 요청해주세요.</p></form></details>' +
+    '<dialog id="ww-dialog" class="ww-dialog" aria-labelledby="ww-dialog-title"><h3 id="ww-dialog-title"></h3><p id="ww-dialog-copy" class="ww-note"></p>' +
+    '<div id="ww-reason-field" class="ww-field"><label for="ww-reason">신고 사유</label><select id="ww-reason"><option value="spam">광고·도배</option><option value="abuse">욕설·비방</option><option value="misinformation">잘못된 정보</option><option value="other">기타</option></select></div>' +
+    '<div id="ww-report-captcha" class="ww-captcha"></div><p id="ww-dialog-status" class="ww-status" role="status"></p>' +
+    '<div class="ww-actions"><button id="ww-dialog-cancel" class="ww-button" type="button">취소</button><button id="ww-dialog-confirm" class="ww-button ww-primary" type="button">확인</button></div></dialog>' +
+    '<noscript><p class="ww-note">후기를 읽거나 작성하려면 자바스크립트를 허용해주세요.</p></noscript></section>';
+}
+function wwRenderAdmin(email, env) {
+  return '<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">' +
+    '<meta name="robots" content="noindex,nofollow"><title>나만겜 | 댓글 관리</title><link rel="icon" href="/favicon-crystal-v1.png">' +
+    '<link rel="stylesheet" href="/styles.css?v=2.11.47"><link rel="stylesheet" href="/comments.css?v=2.12.0"><script src="/comments-admin.js?v=2.12.0" defer></script></head>' +
+    '<body class="ww-admin"><header class="ww-admin-header"><div class="wrap ww-heading"><strong>나만겜 · 댓글 관리</strong><div class="ww-actions"><span class="ww-meta">' + esc(email) +
+    '</span><a class="ww-button ww-quiet" href="/">영웅도감</a><a class="ww-button ww-quiet" href="/cdn-cgi/access/logout">로그아웃</a></div></div></header>' +
+    '<main class="wrap ww-admin-main"><div class="ww-heading"><div><h1>사용 후기 관리</h1><p class="ww-note">공개 승인, 신고 확인, 숨김과 삭제를 여기서 처리하세요.</p></div><button id="wa-refresh" class="ww-button" type="button">새로고침</button></div>' +
+    (wwReady(env) ? '' : '<p class="ww-banner">현재 방문자의 후기 작성은 닫혀 있습니다. 초기 설정을 마친 후 열 수 있습니다.</p>') +
+    '<div class="ww-stats"><div class="ww-stat"><span>승인 대기</span><strong id="wa-pending">—</strong></div><div class="ww-stat"><span>공개</span><strong id="wa-published">—</strong></div><div class="ww-stat"><span>숨김</span><strong id="wa-hidden">—</strong></div><div class="ww-stat"><span>미처리 신고 후기</span><strong id="wa-reported">—</strong></div></div>' +
+    '<form id="wa-search-form" class="ww-toolbar"><div class="ww-field"><label for="wa-filter">표시할 후기</label><select id="wa-filter"><option value="pending">승인 대기</option><option value="reported">미처리 신고</option><option value="published">공개</option><option value="hidden">숨김</option><option value="all">전체</option></select></div>' +
+    '<div class="ww-field"><label for="wa-query">영웅·닉네임 검색</label><input id="wa-query" maxlength="40" placeholder="한국명, 영문명 또는 닉네임"></div><button class="ww-button ww-primary" type="submit">검색</button></form>' +
+    '<p id="wa-status" class="ww-status" role="status">후기를 불러오는 중입니다.</p><ul id="wa-list" class="ww-list ww-admin-list" aria-label="관리할 후기"></ul>' +
+    '<nav class="ww-pagination" aria-label="댓글 관리 페이지"><button id="wa-prev" class="ww-button" type="button" disabled>이전</button><span id="wa-page" class="ww-meta"></span><button id="wa-next" class="ww-button" type="button" disabled>다음</button></nav>' +
+    '<dialog id="wa-dialog" class="ww-dialog" aria-labelledby="wa-dialog-title"><h2 id="wa-dialog-title">후기를 삭제할까요?</h2><p class="ww-note">후기와 연결된 신고 내용이 삭제됩니다. 삭제한 후기는 복구할 수 없습니다.</p><p id="wa-dialog-status" class="ww-status" role="status"></p><div class="ww-actions"><button id="wa-cancel" class="ww-button" type="button">취소</button><button id="wa-delete" class="ww-button ww-danger" type="button">삭제</button></div></dialog>' +
+    '<noscript><p>관리 기능을 사용하려면 자바스크립트를 허용해주세요.</p></noscript></main></body></html>';
+}
+async function wwAdminAPI(path, body, request, env, heroes, email) {
+  const db = env.COMMENTS_DB;
+  if (!db) throw new WWError(503, "댓글 데이터베이스 연결이 필요합니다.");
+  if (path === "/admin/comments/api/list") {
+    const filter = ["pending","published","hidden","reported","all"].includes(body.filter) ? body.filter : "pending";
+    const query = typeof body.query === "string" ? body.query.trim().slice(0,40) : "";
+    const page = Number.isInteger(body.page) && body.page >= 1 && body.page <= 10000 ? body.page : 1;
+    let where = [], params = [];
+    if (["pending","published","hidden"].includes(filter)) { where.push("c.status=?"); params.push(filter); }
+    if (filter === "reported") where.push("EXISTS(SELECT 1 FROM comment_reports r WHERE r.comment_id=c.id AND r.resolved_at IS NULL)");
+    if (query) {
+      const needle = query.toLowerCase();
+      const matches = Object.values(heroes).filter(h => (h.nameKr + " " + h.nameEn + " " + h.id).toLowerCase().includes(needle)).map(h => h.id);
+      where.push("(c.nickname LIKE ? ESCAPE '\\'" + (matches.length ? " OR c.hero_id IN (" + matches.map(() => "?").join(",") + ")" : "") + ")");
+      params.push("%" + query.replace(/[\\%_]/g, "\\$&") + "%", ...matches);
+    }
+    const clause = where.length ? " WHERE " + where.join(" AND ") : "";
+    const rows = await db.prepare("SELECT c.id,c.hero_id,c.nickname,c.awakening,c.body,c.status,c.created_at,c.published_at,c.version," +
+      "(SELECT COUNT(*) FROM comment_reports r WHERE r.comment_id=c.id AND r.resolved_at IS NULL) AS report_count," +
+      "(SELECT GROUP_CONCAT(DISTINCT reason) FROM comment_reports r WHERE r.comment_id=c.id AND r.resolved_at IS NULL) AS reasons " +
+      "FROM comments c" + clause + " ORDER BY c.created_at DESC,c.id DESC LIMIT 20 OFFSET ?").bind(...params,(page-1)*20).all();
+    const count = await db.prepare("SELECT COUNT(*) AS total FROM comments c" + clause).bind(...params).first();
+    const counts = await db.prepare("SELECT status,COUNT(*) AS n FROM comments GROUP BY status").all();
+    const reports = await db.prepare("SELECT COUNT(DISTINCT comment_id) AS n FROM comment_reports WHERE resolved_at IS NULL").first();
+    const stats = { pending:0, published:0, hidden:0, reported:reports.n };
+    for (const row of counts.results) stats[row.status] = row.n;
+    return wwJson({ comments: rows.results.map(row => ({ ...row, hero_name: heroes[row.hero_id]?.nameKr || row.hero_id,
+      hero_en: heroes[row.hero_id]?.nameEn || "" })), total:count.total, page, stats });
+  }
+  if (path === "/admin/comments/api/moderate") {
+    const { id, action, version } = body;
+    if (!wwUUID(id) || !["publish","hide","delete","resolve"].includes(action) || !Number.isInteger(version) || version < 1) {
+      throw new WWError(400, "처리할 후기와 작업을 확인해주세요.");
+    }
+    const now = Math.floor(Date.now()/1000), operation = crypto.randomUUID();
+    // The audit insert is also the optimistic-lock guard for the entire transaction.
+    const operations = [db.prepare("INSERT INTO comment_moderation_log(id,comment_id,action,admin_email,previous_status,created_at) " +
+      "SELECT ?,id,?,?,status,? FROM comments WHERE id=? AND version=?").bind(operation,action,email,now,id,version)];
+    const guard = " AND EXISTS(SELECT 1 FROM comment_moderation_log WHERE id=?)";
+    if (action === "delete") operations.push(db.prepare("DELETE FROM comments WHERE id=?" + guard).bind(id,operation));
+    else if (action === "publish" || action === "hide") {
+      operations.push(db.prepare("UPDATE comments SET status=?,published_at=CASE WHEN ?='published' THEN COALESCE(published_at,?) ELSE published_at END,updated_at=?,version=version+1 WHERE id=?" + guard)
+        .bind(action === "publish" ? "published" : "hidden",action === "publish" ? "published" : "hidden",now,now,id,operation));
+    } else operations.push(db.prepare("UPDATE comments SET updated_at=?,version=version+1 WHERE id=?" + guard).bind(now,id,operation));
+    if (action !== "delete") operations.push(db.prepare("UPDATE comment_reports SET resolved_at=? WHERE comment_id=? AND resolved_at IS NULL" + guard).bind(now,id,operation));
+    const outcome = await db.batch(operations);
+    if (!outcome[0].meta.changes) throw new WWError(409, "이미 변경되거나 삭제된 후기입니다. 목록을 새로고침해주세요.");
+    return wwJson({ ok:true, action });
+  }
+  throw new WWError(404, "요청한 기능을 찾을 수 없습니다.");
+}
+async function wwHandle(request, env, ctx, heroes) {
+  const url = new URL(request.url), path = url.pathname;
+  const adminRoute = path === "/admin/comments" || path.startsWith("/admin/comments/");
+  const publicRoute = path === "/api/comments" || path.startsWith("/api/comments/");
+  if (!adminRoute && !publicRoute) return null;
+  try {
+    if (adminRoute) {
+      const email = await wwAdmin(request, env);
+      if (path === "/admin/comments" || path === "/admin/comments/") {
+        if (!["GET","HEAD"].includes(request.method)) throw new WWError(405, "지원하지 않는 요청입니다.");
+        return wwHTML(wwRenderAdmin(email,env),200,request.method==="HEAD");
+      }
+      if (request.method !== "POST") throw new WWError(405, "지원하지 않는 요청입니다.");
+      wwRequireSameOrigin(request,env);
+      return await wwAdminAPI(path,await wwBody(request),request,env,heroes,email);
+    }
+    if (path === "/api/comments/config" && request.method === "GET") return wwJson({ enabled:wwReady(env) });
+    if (!wwReady(env)) throw new WWError(503, "후기 기능을 잠시 사용할 수 없어요.");
+    const db=env.COMMENTS_DB, now=Math.floor(Date.now()/1000);
+    if (path === "/api/comments" && request.method === "GET") {
+      const hero=wwHero(url.searchParams.get("hero"),heroes), cursor=url.searchParams.get("cursor");
+      let clause="", params=[hero];
+      if (cursor) {
+        let decoded;
+        try { if (cursor.length > 256) throw new Error(); decoded=JSON.parse(new TextDecoder().decode(wwDecodeBase64(cursor))); } catch { throw new WWError(400,"페이지 정보가 올바르지 않아요."); }
+        if (!decoded || !Number.isSafeInteger(decoded.time)||decoded.time<0||!wwUUID(decoded.id)) throw new WWError(400,"페이지 정보가 올바르지 않아요.");
+        clause=" AND (published_at<? OR (published_at=? AND id<?))";
+        params.push(decoded.time,decoded.time,decoded.id);
+      }
+      const rows=await db.prepare("SELECT "+WW_PUBLIC_COLUMNS+" FROM comments WHERE hero_id=? AND status='published'"+clause+" ORDER BY published_at DESC,id DESC LIMIT 21").bind(...params).all();
+      const total=await db.prepare("SELECT COUNT(*) AS n FROM comments WHERE hero_id=? AND status='published'").bind(hero).first();
+      const comments=rows.results.slice(0,20), last=comments.at(-1);
+      const next=rows.results.length>20 ? btoa(JSON.stringify({time:last.published_at,id:last.id})).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"") : null;
+      return wwJson({comments,total:total.n,next});
+    }
+    if (!["POST","DELETE"].includes(request.method)) throw new WWError(405,"지원하지 않는 요청입니다.");
+    wwRequireSameOrigin(request,env);
+    const body=await wwBody(request);
+    if (path==="/api/comments/session" && request.method==="POST") {
+      const token=wwAuthorToken(request)||wwRandomToken();
+      return wwJson({ok:true},200,{"set-cookie":WW_COOKIE+"="+token+"; Path=/; HttpOnly; Secure; SameSite=Strict; Max-Age=15552000"});
+    }
+    const author=await wwAuthorHash(request,env);
+    if (path==="/api/comments/mine" && request.method==="POST") {
+      const hero=wwHero(body.hero_id,heroes);
+      if (!author) return wwJson({comments:[]});
+      const ids=Array.isArray(body.visible_ids)?body.visible_ids.filter(wwUUID).slice(0,100):[];
+      const extra=ids.length?" OR id IN ("+ids.map(()=>"?").join(",")+")":"";
+      const mine=await db.prepare("SELECT "+WW_PUBLIC_COLUMNS+",status FROM comments WHERE hero_id=? AND author_hash=? AND (status IN ('pending','hidden')"+extra+") ORDER BY created_at DESC LIMIT 120").bind(hero,author,...ids).all();
+      return wwJson({comments:mine.results});
+    }
+    if (path==="/api/comments" && request.method==="POST") {
+      const hero=wwHero(body.hero_id,heroes);
+      const nickname=wwClean(body.nickname,2,20), text=wwClean(body.body,5,500,true);
+      const awakening=body.awakening===null||body.awakening===undefined?null:body.awakening;
+      if (awakening!==null&&(!Number.isInteger(awakening)||awakening<0||awakening>5)) throw new WWError(400,"각성 단계를 확인해주세요.");
+      if (!wwUUID(body.id)||body.website) throw new WWError(400,"입력 내용을 확인해주세요.");
+      if (!author) throw new WWError(409,"브라우저 쿠키를 허용한 뒤 다시 작성해주세요.");
+      const existing=await db.prepare("SELECT hero_id,author_hash,nickname,body,awakening FROM comments WHERE id=?").bind(body.id).first();
+      if (existing) {
+        if (existing.hero_id!==hero||existing.author_hash!==author||existing.nickname!==nickname||existing.body!==text||existing.awakening!==awakening) throw new WWError(409,"이미 처리된 요청입니다. 내용을 확인해주세요.");
+        return wwJson({ok:true,id:body.id,message:"후기를 접수했어요. 관리자 승인 후 공개됩니다."},202);
+      }
+      const ip=await wwIPHash(request,env);
+      await wwRate(db,"attempt-submit:"+ip,5,100,now);
+      await wwChallenge(body.turnstile_token,"comment_submit",request,env);
+      await wwRate(db,"submit:"+ip,60,10,now);
+      // The author cap also limits simple IP rotation; nicknames are never used as identity.
+      await wwRate(db,"author-submit:"+author,60,10,now);
+      await db.prepare("INSERT INTO comments(id,hero_id,nickname,awakening,body,author_hash,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?)")
+        .bind(body.id,hero,nickname,awakening,text,author,now,now).run();
+      if (ctx?.waitUntil) ctx.waitUntil(db.prepare("DELETE FROM comment_rate_limits WHERE key IN (SELECT key FROM comment_rate_limits WHERE last_at<? LIMIT 100)").bind(now-172800).run().catch(()=>{}));
+      return wwJson({ok:true,id:body.id,message:"후기를 접수했어요. 관리자 승인 후 공개됩니다."},202);
+    }
+    const report=path.match(/^\/api\/comments\/([0-9a-f-]+)\/report$/i);
+    if (report && request.method==="POST") {
+      if (!wwUUID(report[1])||!Object.hasOwn(WW_REASONS,body.reason)) throw new WWError(400,"신고 사유를 확인해주세요.");
+      const target=await db.prepare("SELECT id FROM comments WHERE id=? AND status='published'").bind(report[1]).first();
+      if (!target) throw new WWError(404,"현재 공개된 후기를 찾을 수 없어요.");
+      const ip=await wwIPHash(request,env);
+      await wwRate(db,"attempt-report:"+ip,5,100,now);
+      await wwChallenge(body.turnstile_token,"comment_report",request,env);
+      await wwRate(db,"report:"+ip,60,10,now);
+      await db.prepare("INSERT INTO comment_reports(comment_id,reporter_hash,reason,created_at) SELECT id,?,?,? FROM comments WHERE id=? AND status='published' ON CONFLICT(comment_id,reporter_hash) DO NOTHING")
+        .bind(ip,body.reason,now,target.id).run();
+      return wwJson({ok:true,message:"신고를 접수했어요. 관리자가 확인하겠습니다."},202);
+    }
+    const deletion=path.match(/^\/api\/comments\/([0-9a-f-]+)$/i);
+    if (deletion && request.method==="DELETE") {
+      if (!author||!wwUUID(deletion[1])) throw new WWError(403,"본인 후기만 삭제할 수 있어요.");
+      const result=await db.prepare("DELETE FROM comments WHERE id=? AND author_hash=?").bind(deletion[1],author).run();
+      if (!result.meta.changes) throw new WWError(404,"삭제할 본인 후기를 찾을 수 없어요.");
+      return wwJson({ok:true});
+    }
+    throw new WWError(404,"요청한 기능을 찾을 수 없어요.");
+  } catch(error) {
+    const status=error instanceof WWError?error.status:503;
+    const message=error instanceof WWError?error.message:"잠시 연결에 문제가 생겼어요. 입력 내용은 그대로 두고 다시 시도해주세요.";
+    if (!(error instanceof WWError)) console.error("Comments operation failed:",error.name);
+    if (adminRoute && !path.includes("/api/") && ["GET","HEAD"].includes(request.method)) return wwHTML(wwErrorPage(message),status,request.method==="HEAD");
+    return wwJson({error:message},status,status===429?{"retry-after":"60"}:{});
+  }
+}

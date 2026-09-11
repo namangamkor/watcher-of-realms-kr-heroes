@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'; connect-src 'none'">
+<title>나만겜 댓글 기능 설치 안내 · v2.12.0</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#0b1018;color:#edf3fc;font:16px/1.8 system-ui,-apple-system,"Malgun Gothic",sans-serif}
+main{width:min(880px,calc(100% - 32px));margin:36px auto 80px}h1{font-size:clamp(24px,4vw,34px);line-height:1.4}h2{font-size:22px;margin-top:0}h3{font-size:18px}
+a{color:#a5cbff}code{background:#0a111d;border-radius:4px;padding:2px 5px;overflow-wrap:anywhere}section{background:#121b29;border:1px solid #30415b;border-radius:14px;padding:24px;margin:20px 0}
+.badge{color:#f1cf88;font-weight:700}.note{color:#b7c6db}.box{border-left:4px solid #e0ba68;background:#24201b;padding:14px 18px}.table-wrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:15px}th,td{border-bottom:1px solid #35435b;padding:12px 10px;text-align:left;vertical-align:top}th{color:#b7d4fc}ul,ol{padding-left:24px}
+input{display:block;width:100%;border:1px solid #4a6184;border-radius:6px;padding:12px;background:#0b1421;color:#edf3fc;font:16px/1.5 monospace;margin:12px 0}
+button{font:inherit;font-weight:700;min-height:44px;padding:8px 16px;border:1px solid #d5b267;border-radius:6px;background:#d5b267;color:#111722;margin:4px 8px 4px 0;cursor:pointer}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #9bc5ff;outline-offset:3px}.muted-button{background:transparent;color:#e8f0ff;border-color:#607594}
+@media(max-width:560px){section{padding:18px}th,td{padding:10px 7px;font-size:14px}}
+</style>
+</head>
+<body><main>
+<p class="badge">나만겜 워처 오브 렐름 위키 · v2.12.0 · 2026-09-11</p>
+<h1>영웅별 후기와 관리자 화면<br>설치 안내</h1>
+<p>코드 작성과 로컬 검증을 마쳤습니다. 실제 <strong>worwiki.kr에 적용하고 사용하려면 아래 Cloudflare 설정이 필요합니다.</strong></p>
+<p class="box">설정이 없거나 <code>COMMENTS_ENABLED</code>가 <code>false</code>이면 영웅 페이지의 댓글 영역은 열리지 않습니다. 초기 설정을 마친 뒤 마지막 단계에서 활성화하세요.</p>
+
+<section><h2>1. 사이트 파일 반영</h2>
+<ol>
+<li>기존 사이트를 업데이트할 때는 <strong>patch.zip</strong>을 풉니다.</li>
+<li>기존 GitHub 도감 저장소의 같은 경로에 파일을 덮어쓰고, 새 파일도 함께 추가합니다. <code>_worker.js</code>는 기존과 같이 최상위에 둡니다.</li>
+<li>기존 Cloudflare Pages 배포 방식으로 반영합니다. 추가 npm 설치나 빌드 명령 변경은 필요하지 않습니다.</li>
+</ol>
+<p class="note">패치본에는 변경된 파일만 들어 있습니다. 전체 백업본은 이미지까지 포함한 사이트 전체입니다. 앞으로 실제 이용자가 작성하는 댓글 데이터는 D1에 저장되므로 사이트 ZIP과 별도로 백업해야 합니다.</p>
+</section>
+
+<section><h2>2. 댓글 데이터베이스 만들기</h2>
+<ol>
+<li>Cloudflare에서 <strong>D1 SQL database → Create Database</strong>를 엽니다.</li>
+<li>이름을 <code>worwiki-comments</code>로 지정합니다.</li>
+<li>생성한 데이터베이스의 <strong>Console</strong>을 엽니다.</li>
+<li>압축 파일에 들어 있는 <code>comments-schema.sql</code> 전체를 복사해 붙이고 <strong>Execute</strong>를 누릅니다.</li>
+</ol>
+<p>테이블 4개가 생성됩니다: <code>comments</code>, <code>comment_reports</code>, <code>comment_rate_limits</code>, <code>comment_moderation_log</code>.</p>
+<p class="note">동일한 초기 SQL을 다시 실행해도 기존 댓글을 지우지 않도록 작성했습니다. 테이블 생성 방식은 <a href="https://developers.cloudflare.com/d1/get-started/" target="_blank" rel="noopener noreferrer">Cloudflare D1 공식 안내</a>를 따릅니다.</p>
+</section>
+
+<section><h2>3. 기존 Pages 프로젝트와 연결</h2>
+<ol>
+<li><strong>Workers &amp; Pages → 현재 영웅도감 프로젝트 → Settings → Bindings → Add</strong>를 엽니다.</li>
+<li><strong>D1 database</strong>를 선택합니다.</li>
+<li>Variable name에 <code>COMMENTS_DB</code>를 입력하고, 데이터베이스는 방금 만든 <code>worwiki-comments</code>를 선택합니다.</li>
+</ol>
+<p>운영 사이트를 설정할 때는 <strong>Production</strong> 환경에 적용합니다. 연결 변경은 재배포 후 적용됩니다. <a href="https://developers.cloudflare.com/pages/functions/bindings/#d1-databases" target="_blank" rel="noopener noreferrer">Pages D1 연결 안내</a></p>
+</section>
+
+<section><h2>4. 로봇 확인 만들기</h2>
+<ol>
+<li>Cloudflare의 <strong>Turnstile → Add widget</strong>을 엽니다.</li>
+<li>Widget name: <code>worwiki-comments</code></li>
+<li>Hostname: <code>worwiki.kr</code></li>
+<li>Widget mode: <strong>Managed</strong></li>
+<li>생성 후 표시되는 <strong>Site key</strong>와 <strong>Secret key</strong>를 6단계 설정에 사용합니다.</li>
+</ol>
+<p class="note">실제 발급 키를 사용합니다. 공개 테스트 키는 운영 코드에서 허용하지 않습니다. 로봇 확인은 화면뿐 아니라 서버에서도 검증합니다. <a href="https://developers.cloudflare.com/turnstile/get-started/widget-management/dashboard/" target="_blank" rel="noopener noreferrer">위젯 생성</a> · <a href="https://developers.cloudflare.com/turnstile/get-started/server-side-validation/" target="_blank" rel="noopener noreferrer">서버 검증 안내</a></p>
+</section>
+
+<section><h2>5. 관리자 이메일 로그인 설정</h2>
+<p>관리자는 이메일로 받은 일회용 인증번호로 로그인합니다. 방문자는 회원가입 없이 후기를 제출합니다.</p>
+<ol>
+<li>Cloudflare <strong>Zero Trust → Integrations → Identity providers</strong>에서 <strong>Add new identity provider → One-time PIN</strong>을 추가합니다. 최신 신규 조직에서는 이 방식이 자동으로 추가되지 않으므로 직접 선택합니다. <a href="https://developers.cloudflare.com/cloudflare-one/integrations/identity-providers/one-time-pin/" target="_blank" rel="noopener noreferrer">이메일 인증 설정 안내</a></li>
+<li><strong>Access controls → Applications → Create new application</strong>으로 이동합니다.</li>
+<li><strong>Self-hosted and private → Add public hostname</strong>을 선택합니다. 앱 이름은 <code>나만겜 댓글 관리</code>, 도메인은 <code>worwiki.kr</code>, Path는 <code>/admin/*</code>로 지정합니다.</li>
+<li>Allow 정책의 <strong>Include → Emails</strong>에 본인이 사용할 관리자 이메일 주소를 입력합니다. 도감 전체를 로그인 대상으로 잡지 말고 관리자 경로에만 적용합니다.</li>
+<li>로그인 제공자는 앞서 추가한 <strong>One-time PIN</strong>을 선택합니다. 세션은 예를 들어 8시간으로 설정합니다.</li>
+<li>팀 주소 <code>https://팀이름.cloudflareaccess.com</code>와 이 애플리케이션의 <strong>AUD tag</strong>를 기록합니다.</li>
+</ol>
+<p class="note">관리 화면과 관리 API가 모두 <code>/admin/comments/</code> 아래에 있습니다. 앱 경로 전체가 보호되도록 설정하세요. <a href="https://developers.cloudflare.com/cloudflare-one/access-controls/applications/http-apps/self-hosted-public-app/" target="_blank" rel="noopener noreferrer">Access 애플리케이션 생성</a> · <a href="https://developers.cloudflare.com/cloudflare-one/access-controls/policies/app-paths/" target="_blank" rel="noopener noreferrer">경로 설정</a></p>
+</section>
+
+<section><h2>6. Pages 환경변수 입력</h2>
+<p>기존 영웅도감 Pages 프로젝트의 <strong>Settings → Variables and Secrets</strong>에서 Production 값을 입력합니다.</p>
+<div class="table-wrap"><table><thead><tr><th>이름</th><th>종류</th><th>입력할 값</th></tr></thead><tbody>
+<tr><td><code>COMMENTS_ENABLED</code></td><td>일반 변수</td><td>처음에는 <code>false</code></td></tr>
+<tr><td><code>TURNSTILE_SITE_KEY</code></td><td>일반 변수</td><td>4단계의 Site key</td></tr>
+<tr><td><code>TURNSTILE_SECRET_KEY</code></td><td>Secret</td><td>4단계의 Secret key</td></tr>
+<tr><td><code>COMMENTS_SECRET</code></td><td>Secret</td><td>아래에서 생성한 64자리 값</td></tr>
+<tr><td><code>ACCESS_TEAM_DOMAIN</code></td><td>일반 변수</td><td><code>https://팀이름.cloudflareaccess.com</code></td></tr>
+<tr><td><code>ACCESS_AUD</code></td><td>일반 변수</td><td>5단계 앱의 AUD tag</td></tr>
+<tr><td><code>COMMENT_ADMIN_EMAILS</code></td><td>Secret 권장</td><td>5단계에서 허용한 관리자 이메일과 동일한 주소</td></tr>
+</tbody></table></div>
+<p class="note">관리자 이메일은 Access 정책과 서버 허용 목록 양쪽에서 일치해야 합니다. 추가 운영자가 생기면 두 곳 모두 추가합니다. 관리자 인증은 서명, 발급자, 대상 앱, 유효기간을 확인합니다. <a href="https://developers.cloudflare.com/cloudflare-one/access-controls/applications/http-apps/authorization-cookie/validating-json/" target="_blank" rel="noopener noreferrer">인증 검증 기준</a></p>
+<h3>COMMENTS_SECRET 생성</h3>
+<p>아래 버튼은 이 브라우저에서 난수를 생성합니다. 생성값을 외부로 보내거나 저장하지 않습니다.</p>
+<button id="generate" type="button">비밀값 생성</button>
+<button id="copy" class="muted-button" type="button">값 복사</button>
+<label for="secret">생성한 값</label><input id="secret" readonly autocomplete="off" placeholder="버튼을 누르면 생성됩니다.">
+<p id="key-status" class="note" role="status"></p>
+<p class="note">생성한 값을 Cloudflare의 Secret에 저장하세요. 재배포 때도 같은 값을 유지합니다. 이 값을 바꾸면 기존 작성자의 본인 삭제 확인이 끊어집니다. 비밀값이나 인증번호가 보이는 화면을 공유할 때는 해당 부분을 가려주세요.</p>
+<p class="note">도메인은 기본적으로 <code>https://worwiki.kr</code>을 사용합니다. 이 주소로 운영한다면 추가 <code>COMMENTS_ORIGIN</code> 설정은 필요하지 않습니다.</p>
+</section>
+
+<section><h2>7. 관리자 화면 확인 후 댓글 열기</h2>
+<ol>
+<li>파일과 환경변수를 모두 저장한 뒤 기존 Pages 프로젝트를 다시 배포합니다.</li>
+<li><a href="https://worwiki.kr/admin/comments/" target="_blank" rel="noopener noreferrer">관리자 화면 열기</a>에서 허용된 이메일로 인증합니다.</li>
+<li>승인 대기·공개·숨김·신고 숫자가 0으로 나오고 오류가 없는지 확인합니다. 처음에는 댓글 작성이 닫혀 있다는 안내가 정상입니다.</li>
+<li><code>COMMENTS_ENABLED</code>를 <code>true</code>로 바꾸고 다시 배포합니다.</li>
+<li>영웅 상세 하단에서 테스트 후기를 제출합니다. 관리 화면에서 승인하기 전에는 다른 브라우저에 공개되지 않아야 합니다.</li>
+<li>관리자 화면에서 공개 승인 → 다른 브라우저에서 확인 → 신고 → 숨김 → 삭제 흐름을 확인합니다.</li>
+</ol>
+<p class="note">로컬에서 검증한 것은 실제 Worker 코드의 동작입니다. 운영 계정의 D1 연결, 실제 이메일 수신, 실제 Turnstile 통과와 브라우저 표시 확인은 이 단계에서 진행해야 합니다.</p>
+</section>
+
+<section><h2>운영할 때</h2>
+<ul>
+<li>새 후기는 항상 <strong>승인 대기</strong>로 저장됩니다. 승인된 텍스트 후기만 공개됩니다.</li>
+<li>닉네임은 2~20자, 후기는 5~500자입니다. 각성 단계는 선택 항목입니다.</li>
+<li>같은 접속 환경과 작성자는 60초 간격, 24시간 단위 10건으로 작성이 제한됩니다. 여러 영웅에 나누어 써도 같은 제한을 적용합니다.</li>
+<li>신고만으로 자동 삭제하지 않습니다. 관리자가 확인해 숨기거나 신고를 처리 완료합니다.</li>
+<li><strong>숨김</strong>은 다시 공개할 수 있고, <strong>삭제</strong>는 후기와 연결된 신고를 지웁니다. 관리자 작업 이력은 별도로 남습니다.</li>
+<li>방문자는 같은 브라우저에서 본인 후기를 삭제할 수 있습니다. 쿠키를 지웠거나 다른 기기에서 작성했다면 관리자에게 삭제를 요청해야 합니다.</li>
+<li>잠시 닫으려면 <code>COMMENTS_ENABLED=false</code>로 바꾸고 재배포합니다. 저장된 댓글은 유지됩니다.</li>
+<li>사이트 ZIP에는 운영 DB의 댓글이 포함되지 않습니다. 댓글 데이터 백업은 D1에서 별도로 관리합니다.</li>
+</ul>
+<p class="note">스팸 장치는 자동 도배와 노출을 줄이는 역할입니다. 공개 승인 여부는 운영자가 판단합니다.</p>
+</section>
+
+<section><h2>검증 범위</h2>
+<p>실제 Worker 코드와 SQLite를 사용한 14개 시나리오 그룹을 확인했습니다. 254명 영웅 페이지 연결, 승인 전 비공개, 권한 위조 차단, 타인 삭제 차단, 동시 작성 제한, 신고·숨김·삭제, 페이지 나누기와 SQL 검색이 포함됩니다.</p>
+<p>개발자가 다시 확인하려면 Node 22.13 이상에서 <code>node maintenance/comments.test.mjs</code>를 실행합니다. 테스트용 데이터와 인증키는 실행 중에만 생성되며 운영 데이터로 들어가지 않습니다.</p>
+<p class="note">브라우저 렌더링 검사와 실제 Cloudflare 서비스 연동 검사는 아직 수행하지 않았습니다.</p>
+</section>
+</main>
+<script>
+const secretInput=document.getElementById("secret");
+const keyStatus=document.getElementById("key-status");
+document.getElementById("generate").addEventListener("click",()=>{
+  const bytes=crypto.getRandomValues(new Uint8Array(32));
+  secretInput.value=Array.from(bytes,x=>x.toString(16).padStart(2,"0")).join("");
+  keyStatus.textContent="생성했습니다. Cloudflare의 COMMENTS_SECRET에 저장하세요.";
+});
+document.getElementById("copy").addEventListener("click",async()=>{
+  if(!secretInput.value){keyStatus.textContent="먼저 비밀값 생성 버튼을 누르세요.";return;}
+  try{
+    await navigator.clipboard.writeText(secretInput.value);
+    keyStatus.textContent="복사했습니다.";
+  }catch{
+    secretInput.focus();secretInput.select();secretInput.setSelectionRange(0,secretInput.value.length);
+    keyStatus.textContent="값을 선택했습니다. 기기의 복사 기능으로 복사하세요.";
+  }
+});
+</script>
+</body></html>
