@@ -299,7 +299,7 @@ function renderHero(hero, env = {}) {
   <meta name="twitter:description" content="${esc(description)}" />
   <meta name="twitter:image" content="${esc(image)}" />
   <link rel="stylesheet" href="/styles.css?v=2.11.43c" />
-  ${wwReady(env) ? '<link rel="stylesheet" href="/comments.css?v=2.12.0">' : ''}
+  ${wwReady(env) ? '<link rel="stylesheet" href="/comments.css?v=2.12.2">' : ''}
   <script type="application/ld+json">${JSON.stringify(jsonLd).replaceAll("<", "\\u003c")}</script>
 </head>
 <body class="hero-detail-page">
@@ -408,7 +408,7 @@ function renderHero(hero, env = {}) {
       <div class="detail-footer-links"><a href="${REPORT_FORM}" target="_blank" rel="noopener noreferrer">정보 제보 ↗</a><a href="${YOUTUBE}" target="_blank" rel="noopener noreferrer">나만겜 YouTube ↗</a></div>
     </div>
   </footer>
-  ${wwReady(env) ? '<script src="/comments.js?v=2.12.0" defer></script>' : ''}
+  ${wwReady(env) ? '<script src="/comments.js?v=2.12.2" defer></script>' : ''}
 </body>
 </html>`;
 }
@@ -822,7 +822,7 @@ function wwHTML(html, status = 200, head = false) {
   } });
 }
 function wwErrorPage(message) {
-  return '<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>나만겜 | 댓글 관리</title><link rel="stylesheet" href="/styles.css?v=2.11.47"><link rel="stylesheet" href="/comments.css?v=2.12.0"></head><body class="ww-admin"><main class="wrap ww-admin-main"><h1>댓글 관리</h1><p>' +
+  return '<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>나만겜 | 댓글 관리</title><link rel="stylesheet" href="/styles.css?v=2.11.47"><link rel="stylesheet" href="/comments.css?v=2.12.2"></head><body class="ww-admin"><main class="wrap ww-admin-main"><h1>댓글 관리</h1><p>' +
     esc(message) + '</p><a class="ww-button" href="/">영웅도감으로 돌아가기</a></main></body></html>';
 }
 function wwRenderSection(hero, env) {
@@ -854,7 +854,7 @@ function wwRenderSection(hero, env) {
 function wwRenderAdmin(email, env) {
   return '<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">' +
     '<meta name="robots" content="noindex,nofollow"><title>나만겜 | 댓글 관리</title><link rel="icon" href="/favicon-crystal-v1.png">' +
-    '<link rel="stylesheet" href="/styles.css?v=2.11.47"><link rel="stylesheet" href="/comments.css?v=2.12.0"><script src="/comments-admin.js?v=2.12.0" defer></script></head>' +
+    '<link rel="stylesheet" href="/styles.css?v=2.11.47"><link rel="stylesheet" href="/comments.css?v=2.12.2"><script src="/comments-admin.js?v=2.12.0" defer></script></head>' +
     '<body class="ww-admin"><header class="ww-admin-header"><div class="wrap ww-heading"><strong>나만겜 · 댓글 관리</strong><div class="ww-actions"><span class="ww-meta">' + esc(email) +
     '</span><a class="ww-button ww-quiet" href="/">영웅도감</a><a class="ww-button ww-quiet" href="/cdn-cgi/access/logout">로그아웃</a></div></div></header>' +
     '<main class="wrap ww-admin-main"><div class="ww-heading"><div><h1>사용 후기 관리</h1><p class="ww-note">공개 승인, 신고 확인, 숨김과 삭제를 여기서 처리하세요.</p></div><button id="wa-refresh" class="ww-button" type="button">새로고침</button></div>' +

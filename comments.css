@@ -73,3 +73,33 @@
   .ww-admin-list .ww-comment { padding: 1rem; }
   .ww-dialog { padding: 1rem; }
 }
+
+/* v2.12.2: reader-first review cards */
+.ww-comments .ww-heading { gap: .8rem; }
+.ww-comments .ww-count { display:inline-flex; align-items:center; justify-content:center; min-width:2rem; padding:.15rem .6rem; border-radius:999px; background:#342b1c; color:#f1cc7c; font-size:.9rem; vertical-align:middle; }
+.ww-comments .ww-note { margin:.65rem 0 1.25rem; line-height:1.65; }
+.ww-comments .ww-list { display:grid; gap:.75rem; }
+.ww-comments .ww-comment { padding:1.15rem 1.3rem .65rem; border:1px solid #344155; border-radius:14px; background:linear-gradient(120deg,#192231,#131b27); }
+.ww-comments .ww-comment-meta { gap:.6rem; }
+.ww-comments .ww-comment-meta strong { font-size:1rem; color:#f5f7fc; }
+.ww-comments .ww-comment-meta time { margin-left:auto; color:#a3afc1; }
+.ww-comments .ww-chip { color:#f3ce80; background:#352e20; border-color:#6c5834; border-radius:6px; padding:.1rem .5rem; font-weight:650; }
+.ww-comments .ww-body { margin:.85rem 0 .35rem; color:#eef3fb; line-height:1.8; }
+.ww-comments .ww-comment > .ww-actions { justify-content:flex-end; }
+.ww-comments .ww-comment .ww-quiet { color:#a9b5c8; border-color:transparent; background:transparent; padding:.45rem .3rem; font-size:.875rem; min-height:44px; }
+.ww-comments .ww-comment .ww-quiet:hover { color:#ffd0c8; text-decoration:underline; }
+.ww-comments .ww-compose-trigger { border-radius:10px; padding:.75rem 1.1rem; background:#edc66f; border-color:#edc66f; color:#171b24; box-shadow:0 3px 12px #0003; }
+.ww-comments .ww-compose-trigger:hover { background:#f8d88e; border-color:#f8d88e; }
+.ww-refined .ww-compose > summary { display:none; }
+.ww-refined .ww-compose:not([open]) { margin:0; padding:0; border:0; }
+.ww-refined .ww-compose[open] { border:1px solid #4c4534; border-radius:14px; background:#131b27; padding:1.2rem; margin-top:1rem; }
+.ww-refined .ww-form { margin-top:.75rem; }
+.ww-comments #ww-body-hint { margin:.15rem 0; color:#afbbcc; font-size:.875rem; font-weight:400; }
+.ww-comments .ww-empty { padding:1.3rem; border:1px dashed #40506a; border-radius:12px; text-align:center; background:#141c28; }
+@media(max-width:560px) {
+ .ww-comments .ww-heading h2 { font-size:1.35rem; }
+ .ww-comments .ww-compose-trigger { padding:.65rem .8rem; }
+ .ww-comments .ww-comment { padding:1rem 1rem .5rem; }
+ .ww-comments .ww-comment-meta time { width:100%; margin-left:0; }
+ .ww-refined .ww-compose[open] { padding:1rem; }
+}

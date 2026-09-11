@@ -64,7 +64,7 @@
     const list = byId("ww-list");
     list.replaceChildren(...entries.map(x => renderComment(x)));
     if (!entries.length) list.append(node("li", "ww-empty", "첫 사용 후기를 남겨주세요."));
-    byId("ww-count").textContent = "(" + total + ")";
+    byId("ww-count").textContent = String(total);
     const privateRows = mine.filter(x => x.status !== "published");
     byId("ww-mine").hidden = !privateRows.length;
     byId("ww-mine-list").replaceChildren(...privateRows.map(x => renderComment(x, true)));
@@ -240,7 +240,22 @@
     byId("ww-counter").textContent = bodyInput.value.length + " / 500";
     bodyInput.setCustomValidity(bodyInput.value.trim().length < 5 ? "5글자 이상 입력하세요." : "");
   });
-  byId("ww-compose").addEventListener("toggle", () => { if (byId("ww-compose").open) startForm(); });
+  const compose = byId("ww-compose");
+  const composeButton = node("button", "ww-button ww-primary ww-compose-trigger", "＋ 후기 남기기");
+  composeButton.type = "button";
+  composeButton.setAttribute("aria-controls", "ww-compose");
+  composeButton.setAttribute("aria-expanded", String(compose.open));
+  root.querySelector(".ww-heading").append(composeButton);
+  root.classList.add("ww-refined");
+  composeButton.addEventListener("click", () => {
+    compose.open = !compose.open;
+    if (compose.open) byId("ww-nickname").focus({ preventScroll: true });
+  });
+  compose.addEventListener("toggle", () => {
+    composeButton.setAttribute("aria-expanded", String(compose.open));
+    composeButton.textContent = compose.open ? "− 작성 닫기" : "＋ 후기 남기기";
+    if (compose.open) startForm();
+  });
   byId("ww-more").addEventListener("click", () => load(true));
   byId("ww-retry").addEventListener("click", () => load());
   if ("serviceWorker" in navigator) navigator.serviceWorker.getRegistration().then(reg => reg?.update()).catch(() => {});
