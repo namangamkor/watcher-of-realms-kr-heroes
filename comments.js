@@ -113,7 +113,7 @@
       script.onload = () => {
         clearTimeout(timer);
         if (!window.turnstile) { reject(new Error("로봇 확인을 다시 시도해주세요.")); return; }
-        window.turnstile.ready(() => resolve(window.turnstile));
+        resolve(window.turnstile);
       };
       script.onerror = () => {
         clearTimeout(timer);
@@ -229,7 +229,17 @@
     reportToken = "";
     currentDialog = null;
   });
-  byId("ww-body").addEventListener("input", () => { byId("ww-counter").textContent = byId("ww-body").value.length + " / 500"; });
+  const bodyInput = byId("ww-body");
+  bodyInput.placeholder = "5글자 이상 입력하세요.";
+  const bodyHint = document.createElement("p");
+  bodyHint.id = "ww-body-hint";
+  bodyHint.textContent = "5글자 이상 입력하세요. (최대 500글자)";
+  bodyInput.after(bodyHint);
+  bodyInput.setAttribute("aria-describedby", "ww-body-hint ww-counter");
+  bodyInput.addEventListener("input", () => {
+    byId("ww-counter").textContent = bodyInput.value.length + " / 500";
+    bodyInput.setCustomValidity(bodyInput.value.trim().length < 5 ? "5글자 이상 입력하세요." : "");
+  });
   byId("ww-compose").addEventListener("toggle", () => { if (byId("ww-compose").open) startForm(); });
   byId("ww-more").addEventListener("click", () => load(true));
   byId("ww-retry").addEventListener("click", () => load());
