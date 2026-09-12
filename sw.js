@@ -1,9 +1,9 @@
-const CACHE_NAME = "namangam-wor-v21300-evie-card-portrait-fix";
+const CACHE_NAME = "namangam-wor-v21301-evie-card-scale-fix";
 
 const CORE_ASSETS = [
   "/styles.css?v=2.11.47",
-  "/app.js?v=2.13.0",
-  "/heroes.json?v=2.13.0",
+  "/app.js?v=2.13.1",
+  "/heroes.json?v=2.13.1",
   "/gear-presets.js?v=2.11.45c",
   "/gear-presets.json",
   "/manifest.webmanifest",
@@ -66,7 +66,7 @@ self.addEventListener("fetch", (event) => {
     url.pathname.endsWith("/comments.css") ||
     url.pathname.endsWith("/app.js") ||
     url.pathname.endsWith("/styles.css") ||
-    url.pathname.endsWith("/heroes.json?v=2.13.0") ||
+    url.pathname.endsWith("/heroes.json?v=2.13.1") ||
     url.pathname.endsWith("/gear-presets.js") ||
     url.pathname.endsWith("/gear-presets.json") ||
     url.pathname.endsWith("/manifest.webmanifest");
