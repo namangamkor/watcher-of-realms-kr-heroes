@@ -5883,6 +5883,91 @@
     ]
   },
   {
+    "id": "evie-frye",
+    "nameKr": "이비 프라이",
+    "nameEn": "Evie Frye",
+    "aliases": [
+      "이비프라이",
+      "Evie",
+      "이비",
+      "프라이",
+      "에비 프라이"
+    ],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 46,
+        "portrait": "./star-piercers-hq-46-evie-frye.webp"
+      }
+    ],
+    "contentTags": [],
+    "collectionValue": 4,
+    "recommendedArtifact": null,
+    "exclusiveArtifact": {
+      "nameKr": "M1877 '천둥의 신'",
+      "nameEn": null,
+      "krVerified": true,
+      "source": "user-provided-korean-server-screenshot"
+    },
+    "traits": [
+      "단일 물리 공격",
+      "은신",
+      "강력 제어",
+      "공중 유닛 공격 가능"
+    ],
+    "details": {
+      "verifiedIntro": "재배치와 은신을 활용해 짧게 들어가 폭발탄을 쏟아붓는 단일 물리 궁수. 출전 시 가장 가까운 적 둘에게 어둠 까마귀 각인과 감속을 부여하고, 폭발탄 적중 시 방어 감소를 걸며 제어·감속 상태의 적에게 더 큰 피해를 준다. 각성이 진행되면 궁극기 지속시간, 방어 무시, 재출전 시 영구 피해 증가가 붙어 여러 번 투입할수록 압박이 커지는 타입이다.",
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "게임 내 효과",
+          "text": "궁극기 지속 시간이 10초 연장되며, 지속 기간 동안 폭발탄의 장전 간격이 공격 속도에 비례하여 감소한다."
+        },
+        {
+          "level": "A2",
+          "grade": "게임 내 효과",
+          "text": "공격력 +300."
+        },
+        {
+          "level": "A3",
+          "grade": "게임 내 효과",
+          "text": "폭발탄은 추가로 대상의 방어력을 20% 무시한다."
+        },
+        {
+          "level": "A4",
+          "grade": "게임 내 효과",
+          "text": "관통 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "게임 내 효과",
+          "text": "다시 출전할 때마다 입히는 피해가 영구적으로 10% 상승하며, 최대 30% 상승한다."
+        }
+      ],
+      "skills": [
+        {
+          "name": "선제 공격",
+          "text": "출전 시 자신과 가장 가까운 2명의 적에게 어둠 까마귀 각인 및 감속을 부여한다. 스킬 레벨 상승 구간은 Lv.2 지속 시간 +1초, Lv.3 +1초, Lv.4 +1초, Lv.5 +2초다."
+        },
+        {
+          "name": "재능",
+          "text": "재배치 시간이 20초 단축된다. 폭발탄 보유 시 일반 공격이 폭발탄 소모 공격으로 변경된다. 폭발탄 적중 시 방어 감소를 추가로 부여하며, 감속 및 제어 효과를 받은 대상에게 입히는 피해가 30% 증가한다. 출전 시 즉시 은신 상태에 진입하며 폭발탄 15개를 획득한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "공식 특성·각성 효과·스킬 정보·전용 신화 아티팩트 명칭은 사용자가 제공한 한국 서버 게임 내 스크린샷 기준."
+    },
+    "videos": []
+  },
+  {
     "id": "ezareth",
     "nameKr": "에사레스",
     "nameEn": "Ezareth",
