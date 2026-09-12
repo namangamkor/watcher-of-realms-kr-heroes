@@ -6143,7 +6143,12 @@
       "note": "공식 특성·각성 효과는 사용자가 제공한 한국 서버 게임 내 스크린샷 기준."
     },
     "collectionValue": 4,
-    "exclusiveArtifact": null,
+    "exclusiveArtifact": {
+      "nameKr": "어둠의 심장",
+      "nameEn": null,
+      "krVerified": true,
+      "source": "user-provided-korean-server-screenshot"
+    },
     "videos": [
       {
         "youtubeId": "ct6jk-y1tR4",
