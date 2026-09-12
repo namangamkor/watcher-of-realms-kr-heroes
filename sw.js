@@ -1,9 +1,9 @@
-const CACHE_NAME = "namangam-wor-v21200-moderated-comments";
+const CACHE_NAME = "namangam-wor-v21206-dark-ezio";
 
 const CORE_ASSETS = [
   "/styles.css?v=2.11.47",
-  "/app.js?v=2.11.45",
-  "/heroes.json",
+  "/app.js?v=2.12.6",
+  "/heroes.json?v=2.12.6",
   "/gear-presets.js?v=2.11.45c",
   "/gear-presets.json",
   "/manifest.webmanifest",
@@ -66,7 +66,7 @@ self.addEventListener("fetch", (event) => {
     url.pathname.endsWith("/comments.css") ||
     url.pathname.endsWith("/app.js") ||
     url.pathname.endsWith("/styles.css") ||
-    url.pathname.endsWith("/heroes.json") ||
+    url.pathname.endsWith("/heroes.json?v=2.12.6") ||
     url.pathname.endsWith("/gear-presets.js") ||
     url.pathname.endsWith("/gear-presets.json") ||
     url.pathname.endsWith("/manifest.webmanifest");

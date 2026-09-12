@@ -6067,6 +6067,93 @@
     ]
   },
   {
+    "id": "ezio-della-notte",
+    "nameKr": "어둠의 에지오",
+    "nameEn": "Ezio della Notte",
+    "aliases": [
+      "어둠에지오",
+      "다크 에지오",
+      "Dark Ezio",
+      "에지오 델라 노테",
+      "피렌체의 그림자",
+      "Shadow of Firenze"
+    ],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "chaos-dominion",
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "chaos-dominion",
+        "factionKr": "혼돈 정복자",
+        "factionEn": "Chaos Dominion",
+        "lord": false,
+        "sortOrder": 28,
+        "portrait": "./chaos-dominion-hq-28-ezio-della-notte.webp"
+      },
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 45,
+        "portrait": "./star-piercers-hq-45-ezio-della-notte.webp"
+      }
+    ],
+    "contentTags": [
+      "arena-air"
+    ],
+    "traits": [
+      "광역 물리 공격",
+      "소환",
+      "공중 유닛 공격 가능"
+    ],
+    "details": {
+      "verifiedIntro": "형제단의 그림자를 소환해 넓은 범위를 압박하는 광역 물리 전사. 혼돈 화살비와 그림자 습격 심판으로 다수의 적을 공격하고, 비행 유닛에는 더 높은 피해를 가한다. 각성 III부터 방어 감소와 저체력 적 참살, 쿨타임 단축이 더해지고 A5에서는 HP 40% 미만 적 대상 피해가 추가로 증가한다.",
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "게임 내 효과",
+          "text": "출전 시 즉시 형제단의 그림자 3명을 소환한다."
+        },
+        {
+          "level": "A2",
+          "grade": "게임 내 효과",
+          "text": "공격력 +300."
+        },
+        {
+          "level": "A3",
+          "grade": "게임 내 효과",
+          "text": "혼돈 화살비가 적중한 적에게 방어 감소를 부여하고, HP가 20% 미만인 정예 및 보스가 아닌 적을 참살한다. 사격할 때마다 그림자 습격 심판의 쿨타임이 3초 감소한다."
+        },
+        {
+          "level": "A4",
+          "grade": "게임 내 효과",
+          "text": "관통 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "게임 내 효과",
+          "text": "혼돈 화살비와 그림자 습격 심판이 HP가 40% 미만인 적에게 입히는 피해가 추가로 20% 상승한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "공식 특성·각성 효과는 사용자가 제공한 한국 서버 게임 내 스크린샷 기준."
+    },
+    "collectionValue": 4,
+    "exclusiveArtifact": null,
+    "videos": [
+      {
+        "youtubeId": "ct6jk-y1tR4",
+        "title": "[테스트서버] 어둠의 에지오 뽑을만할까? 설명회 !교환코드공유!｜워처오브렐름 실전 테스트 리뷰",
+        "url": "https://youtu.be/ct6jk-y1tR4",
+        "label": "나만겜 어둠의 에지오 설명회"
+      }
+    ]
+  },
+  {
     "id": "ezryn",
     "nameKr": "에젠",
     "nameEn": "Ezryn",

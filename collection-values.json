@@ -4,7 +4,7 @@
     "scaleMax": 5.0,
     "step": 1.0,
     "source": "나만겜 최종 검수",
-    "updated": "2026-09-09",
+    "updated": "2026-09-12",
     "description": "전투 티어가 아니라 영웅을 계정에 보유했을 때의 활용성, 대체 가능성, 장기 가치 등을 종합한 나만겜 자체 평가입니다."
   },
   "values": {
@@ -95,6 +95,7 @@
     "eunomia": 3.0,
     "ezareth": 5.0,
     "ezio-auditore": 4.0,
+    "ezio-della-notte": 4.0,
     "ezryn": 2.0,
     "faelin": 2.0,
     "falcia": 2.0,
