@@ -1,8 +1,8 @@
-const CACHE_NAME = "namangam-wor-v21304d-detail-compact";
+const CACHE_NAME = "namangam-wor-v21304g-hero-summary";
 
 const CORE_ASSETS = [
-  "/styles.css?v=2.13.4d",
-  "/app.js?v=2.13.4c",
+  "/styles.css?v=2.13.4g",
+  "/app.js?v=2.13.4g",
   "/heroes.json?v=2.13.4",
   "/gear-presets.js?v=2.11.45c",
   "/gear-presets.json",

@@ -80,6 +80,14 @@
     list.replaceChildren(...entries.slice(0, visibleLimit).map(x => renderComment(x)));
     if (!entries.length) list.append(node("li", "ww-empty", "첫 사용 후기를 남겨주세요."));
     byId("ww-count").textContent = String(total);
+    const reviewJump = byId("hero-review-jump");
+    const reviewCount = byId("hero-review-count");
+    if (reviewJump && reviewCount) {
+      const count = Math.max(0, Number(total) || 0);
+      reviewCount.textContent = String(count);
+      reviewJump.hidden = count < 1;
+      reviewJump.setAttribute("aria-label", `유저 사용 후기 ${count}개로 이동`);
+    }
     const privateRows = mine.filter(x => x.status !== "published");
     byId("ww-mine").hidden = !privateRows.length;
     byId("ww-mine-list").replaceChildren(...privateRows.map(x => renderComment(x, true)));

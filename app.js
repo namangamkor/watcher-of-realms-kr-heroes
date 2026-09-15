@@ -519,15 +519,29 @@ function renderRecentUpdates(items) {
     hero.textContent = item.heroName;
 
     const message = document.createElement("span");
+    message.className = "recent-fix-message-text";
     message.textContent = item.message;
 
+    const timestamp = Number(item.timestamp);
+    const date = document.createElement("time");
+    date.className = "recent-fix-date";
+    if (Number.isFinite(timestamp)) {
+      const value = new Date(timestamp * 1000);
+      const parts = new Intl.DateTimeFormat("ko-KR", { timeZone: "Asia/Seoul", month: "2-digit", day: "2-digit" }).formatToParts(value);
+      const month = parts.find((part) => part.type === "month")?.value || "";
+      const day = parts.find((part) => part.type === "day")?.value || "";
+      date.textContent = month && day ? `${month}.${day}` : "";
+      date.dateTime = value.toISOString();
+    }
+
     link.append(kind, hero, message);
+    if (date.textContent) link.append(date);
     fragment.append(link);
   });
   if (fragment.childNodes.length) recentUpdateList.replaceChildren(fragment);
 }
 
-fetch("/api/recent-updates?v=2.13.4", { cache: "no-store" })
+fetch("/api/recent-updates?v=2.13.4g", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("recent updates load failed");
     return response.json();
