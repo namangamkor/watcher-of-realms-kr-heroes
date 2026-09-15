@@ -4226,3 +4226,39 @@ body.modal-open {
   }
   .recent-fix-kind { min-width: 25px; font-size: 8px; }
 }
+
+
+/* =========================================================
+   v2.13.4d — Hero detail compact hierarchy
+   ========================================================= */
+.hero-detail-page .hero-detail-facts.no-lord .detail-collection-fact {
+  grid-column: 1 / -1;
+}
+
+.hero-detail-page .detail-section,
+.hero-detail-page .detail-highlight {
+  margin-top: 14px;
+  padding: 18px 20px;
+}
+
+.hero-detail-page .detail-faction-list,
+.hero-detail-page .detail-trait-list,
+.hero-detail-page .detail-content-tags,
+.hero-detail-page .detail-awakening-list,
+.hero-detail-page .detail-artifact-box,
+.hero-detail-page .detail-skill-list,
+.hero-detail-page .detail-exclusive-artifact-card,
+.hero-detail-page .detail-video-list {
+  margin-top: 12px;
+}
+
+.hero-detail-page .detail-readable-copy { margin-top: 12px; }
+.hero-detail-page .detail-awakening-list { gap: 8px; }
+.hero-detail-page .detail-awakening-row { padding: 11px; }
+.hero-detail-page .detail-source-standalone { margin-top: 11px; }
+
+@media (max-width: 560px) {
+  .hero-detail-page .detail-section,
+  .hero-detail-page .detail-highlight { padding: 16px; }
+  .hero-detail-page .detail-awakening-row { padding: 10px; }
+}
