@@ -76,7 +76,12 @@
           (item.reasons || "").split(",").map(x => reasons[x] || "기타").join(", ")));
       }
       const actions = element("div", "ww-actions");
-      if (item.status !== "published") actions.append(button("공개 승인", "ww-primary", () => moderate(item, "publish")));
+      if (item.status !== "published") {
+        actions.append(button("공개 승인", "ww-primary", () => moderate(item, "publish")));
+        if (item.nickname !== "익명") actions.append(button("익명 처리 후 승인", "", () => moderate(item, "publish_anonymous")));
+      } else if (item.nickname !== "익명") {
+        actions.append(button("닉네임 익명 처리", "", () => moderate(item, "anonymize")));
+      }
       if (item.status !== "hidden") actions.append(button(item.status === "pending" ? "비공개 처리" : "숨김", "", () => moderate(item, "hide")));
       if (item.report_count) actions.append(button("신고 처리 완료", "", () => moderate(item, "resolve")));
       actions.append(button("삭제", "ww-danger", () => {
@@ -116,11 +121,11 @@
       await api("moderate", { id: item.id, action, version: item.version });
       if (dialog.open) dialog.close();
       // If this was the final item on a later page, return to the previous page.
-      if (items.length === 1 && page > 1 && action !== "resolve") page--;
+      if (items.length === 1 && page > 1 && ["publish","publish_anonymous","hide","delete"].includes(action)) page--;
       busy = false;
       const refreshed = await load();
       status(refreshed
-        ? { publish: "후기를 공개했습니다.", hide: "후기를 비공개 처리했습니다.", delete: "후기를 삭제했습니다.", resolve: "신고를 처리 완료했습니다." }[action]
+        ? { publish: "후기를 공개했습니다.", publish_anonymous: "닉네임을 익명 처리하고 후기를 공개했습니다.", anonymize: "공개 후기의 닉네임을 익명 처리했습니다.", hide: "후기를 비공개 처리했습니다.", delete: "후기를 삭제했습니다.", resolve: "신고를 처리 완료했습니다." }[action]
         : "후기는 처리되었습니다. 목록을 다시 불러오려면 새로고침해주세요.", refreshed ? "success" : "error");
     } catch (error) {
       status(message(error), "error");

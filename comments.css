@@ -112,3 +112,6 @@
 .hero-return a:hover { background:#f8d88e; }
 .hero-utility-links a:focus-visible,.hero-return a:focus-visible { outline:3px solid #9bc5ff; outline-offset:3px; }
 .ww-comments #ww-more { display:flex; margin:1rem auto 0; }
+
+.ww-note[data-kind="error"] { color: #ffc0b6; }
+.ww-field input[aria-invalid="true"] { border-color: #d9776a; box-shadow: 0 0 0 1px rgba(217,119,106,.18); }

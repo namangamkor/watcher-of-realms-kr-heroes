@@ -12,6 +12,20 @@
   let currentDialog = null, requestSnapshot = null;
   const dateFormat = new Intl.DateTimeFormat("ko-KR", { dateStyle: "medium", timeStyle: "short" });
 
+  const NICKNAME_FORBIDDEN = [
+    "곧휴", "좆", "좃", "씨발", "시발", "씹", "자지", "보지", "섹스", "야동", "페니스",
+    "penis", "dick", "cock", "fuck"
+  ];
+  const NICKNAME_RESERVED = new Set([
+    "나만겜", "namangam", "관리자", "운영자", "렐름위키", "렐름위키관리자",
+    "admin", "administrator", "moderator", "gamemaster", "gm"
+  ]);
+  function nicknameProblem(value) {
+    const compact = String(value || "").normalize("NFKC").toLowerCase().replace(/[\s._\-·•~!@#$%^&*()+=[\]{}:;'"/\\|,<>?`]/g, "");
+    if (!compact) return false;
+    return NICKNAME_RESERVED.has(compact) || compact.startsWith("관리자") || compact.startsWith("운영자") ||
+      NICKNAME_FORBIDDEN.some(word => compact.includes(word));
+  }
   function status(id, message = "", kind = "") {
     const element = byId(id);
     element.textContent = message;
@@ -142,6 +156,7 @@
   }
   form.addEventListener("submit", async event => {
     event.preventDefault();
+    validateNickname();
     if (formBusy || !formToken || !form.reportValidity()) return;
     const values = {
       hero_id: hero,
@@ -230,6 +245,25 @@
     reportToken = "";
     currentDialog = null;
   });
+  const nicknameInput = byId("ww-nickname");
+  const nicknameHint = byId("ww-nickname-hint");
+  function validateNickname() {
+    const blocked = nicknameProblem(nicknameInput.value);
+    nicknameInput.setCustomValidity(blocked ? "닉네임을 변경해주세요." : "");
+    nicknameInput.setAttribute("aria-invalid", blocked ? "true" : "false");
+    if (blocked) {
+      nicknameHint.textContent = "닉네임을 변경해주세요. 욕설·성적 표현·운영자 사칭 닉네임은 사용할 수 없습니다.";
+      nicknameHint.dataset.kind = "error";
+    } else {
+      nicknameHint.textContent = "2~20자 · 욕설·성적 표현·운영자 사칭 닉네임은 사용할 수 없습니다.";
+      nicknameHint.dataset.kind = "";
+    }
+    return !blocked;
+  }
+  nicknameInput.addEventListener("input", validateNickname);
+  nicknameInput.addEventListener("blur", validateNickname);
+  validateNickname();
+
   const bodyInput = byId("ww-body");
   bodyInput.placeholder = "5글자 이상 입력하세요.";
   const bodyHint = document.createElement("p");

@@ -309,7 +309,7 @@ function renderHero(hero, env = {}) {
   <meta name="twitter:description" content="${esc(description)}" />
   <meta name="twitter:image" content="${esc(image)}" />
   <link rel="stylesheet" href="/styles.css?v=2.13.4d" />
-  <link rel="stylesheet" href="/comments.css?v=2.12.3">
+  <link rel="stylesheet" href="/comments.css?v=2.13.4f">
   <script type="application/ld+json">${JSON.stringify(jsonLd).replaceAll("<", "\\u003c")}</script>
 </head>
 <body class="hero-detail-page">
@@ -390,7 +390,7 @@ function renderHero(hero, env = {}) {
       <div class="detail-footer-links"><a href="${REPORT_FORM}" target="_blank" rel="noopener noreferrer">정보 제보 ↗</a><a href="${YOUTUBE}" target="_blank" rel="noopener noreferrer">나만겜 YouTube ↗</a></div>
     </div>
   </footer>
-  ${wwReady(env) ? '<script src="/comments.js?v=2.12.3" defer></script>' : ''}
+  ${wwReady(env) ? '<script src="/comments.js?v=2.13.4f" defer></script>' : ''}
 </body>
 </html>`;
 }
@@ -661,8 +661,8 @@ export default {
 };
 
 
-// WoR Wiki v2.13.4e missing hero detail fill.
-// Preserves normalized hero schema, comment email notifications, recent updates, and v2.13.4 collection values.
+// WoR Wiki v2.13.4f nickname moderation update.
+// Preserves normalized hero schema, comment email notifications, recent updates, v2.13.4 collection values, and filled hero details.
 const WW_REASONS = { spam: "광고·도배", abuse: "욕설·비방", misinformation: "잘못된 정보", other: "기타" };
 const WW_COOKIE = "__Host-ww-comment-author";
 const WW_PUBLIC_COLUMNS = "id, hero_id, nickname, awakening, body, created_at, published_at";
@@ -824,6 +824,22 @@ function wwClean(value, min, max, multiline = false) {
   }
   return text;
 }
+const WW_NICKNAME_FORBIDDEN = [
+  "곧휴", "좆", "좃", "씨발", "시발", "씹", "자지", "보지", "섹스", "야동", "페니스",
+  "penis", "dick", "cock", "fuck"
+];
+const WW_NICKNAME_RESERVED = new Set([
+  "나만겜", "namangam", "관리자", "운영자", "렐름위키", "렐름위키관리자",
+  "admin", "administrator", "moderator", "gamemaster", "gm"
+]);
+function wwNickname(value) {
+  const nickname = wwClean(value, 2, 20);
+  const compact = nickname.normalize("NFKC").toLowerCase().replace(/[\s._\-·•~!@#$%^&*()+=[\]{}:;'"/\\|,<>?`]/g, "");
+  const reserved = WW_NICKNAME_RESERVED.has(compact) || compact.startsWith("관리자") || compact.startsWith("운영자");
+  const forbidden = WW_NICKNAME_FORBIDDEN.some(word => compact.includes(word));
+  if (reserved || forbidden) throw new WWError(400, "닉네임을 변경해주세요.");
+  return nickname;
+}
 function wwHero(value, heroes) {
   if (typeof value !== "string" || !Object.hasOwn(heroes, value)) throw new WWError(404, "영웅을 찾을 수 없어요.");
   return value;
@@ -943,7 +959,7 @@ function wwHTML(html, status = 200, head = false) {
   } });
 }
 function wwErrorPage(message) {
-  return '<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>나만겜 | 댓글 관리</title><link rel="stylesheet" href="/styles.css?v=2.12.5"><link rel="stylesheet" href="/comments.css?v=2.12.3"></head><body class="ww-admin"><main class="wrap ww-admin-main"><h1>댓글 관리</h1><p>' +
+  return '<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>나만겜 | 댓글 관리</title><link rel="stylesheet" href="/styles.css?v=2.12.5"><link rel="stylesheet" href="/comments.css?v=2.13.4f"></head><body class="ww-admin"><main class="wrap ww-admin-main"><h1>댓글 관리</h1><p>' +
     esc(message) + '</p><a class="ww-button" href="/">영웅도감으로 돌아가기</a></main></body></html>';
 }
 function wwRenderSection(hero, env) {
@@ -959,7 +975,7 @@ function wwRenderSection(hero, env) {
     '<button id="ww-more" class="ww-button" type="button" hidden>후기 더 보기</button>' +
     '<details id="ww-compose" class="ww-compose"><summary>사용 후기 남기기</summary>' +
     '<form id="ww-form" class="ww-form"><p class="ww-note">후기는 관리자 승인 후 닉네임과 함께 공개됩니다. 링크·이미지·개인 연락처는 넣지 마세요.</p>' +
-    '<div class="ww-fields"><div class="ww-field"><label for="ww-nickname">닉네임</label><input id="ww-nickname" name="nickname" minlength="2" maxlength="20" required autocomplete="nickname" placeholder="2~20자"></div>' +
+    '<div class="ww-fields"><div class="ww-field"><label for="ww-nickname">닉네임</label><input id="ww-nickname" name="nickname" minlength="2" maxlength="20" required autocomplete="nickname" placeholder="2~20자" aria-describedby="ww-nickname-hint"><p id="ww-nickname-hint" class="ww-note">2~20자 · 욕설·성적 표현·운영자 사칭 닉네임은 사용할 수 없습니다.</p></div>' +
     '<div class="ww-field"><label for="ww-awakening">각성 단계 <span class="ww-meta">(선택)</span></label><select id="ww-awakening" name="awakening"><option value="">선택 안 함</option><option value="0">무각</option><option value="1">1각</option><option value="2">2각</option><option value="3">3각</option><option value="4">4각</option><option value="5">5각</option></select></div></div>' +
     '<div class="ww-field"><label for="ww-body">사용 후기</label><textarea id="ww-body" name="body" minlength="5" maxlength="500" required placeholder="사용한 콘텐츠, 장비, 각성에 따른 체감을 알려주세요."></textarea><span id="ww-counter" class="ww-counter">0 / 500</span></div>' +
     '<div class="ww-trap" aria-hidden="true"><label>웹사이트<input name="website" tabindex="-1" autocomplete="off"></label></div>' +
@@ -975,7 +991,7 @@ function wwRenderSection(hero, env) {
 function wwRenderAdmin(email, env) {
   return '<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">' +
     '<meta name="robots" content="noindex,nofollow"><title>나만겜 | 댓글 관리</title><link rel="icon" href="/favicon-crystal-v1.png">' +
-    '<link rel="stylesheet" href="/styles.css?v=2.12.5"><link rel="stylesheet" href="/comments.css?v=2.12.3"><script src="/comments-admin.js?v=2.12.0" defer></script></head>' +
+    '<link rel="stylesheet" href="/styles.css?v=2.12.5"><link rel="stylesheet" href="/comments.css?v=2.13.4f"><script src="/comments-admin.js?v=2.13.4f" defer></script></head>' +
     '<body class="ww-admin"><header class="ww-admin-header"><div class="wrap ww-heading"><strong>나만겜 · 댓글 관리</strong><div class="ww-actions"><span class="ww-meta">' + esc(email) +
     '</span><a class="ww-button ww-quiet" href="/">영웅도감</a><a class="ww-button ww-quiet" href="/cdn-cgi/access/logout">로그아웃</a></div></div></header>' +
     '<main class="wrap ww-admin-main"><div class="ww-heading"><div><h1>사용 후기 관리</h1><p class="ww-note">공개 승인, 신고 확인, 숨김과 삭제를 여기서 처리하세요.</p><p class="ww-note">새 후기 메일 알림: <strong>' + (wwEmailConfigured(env) ? '연결됨' : '설정 필요') + '</strong> · 수신 ' + esc(wwEmailAddress(env.COMMENT_NOTIFY_TO, 'namangamkor@gmail.com')) + '</p></div><button id="wa-refresh" class="ww-button" type="button">새로고침</button></div>' +
@@ -1019,7 +1035,7 @@ async function wwAdminAPI(path, body, request, env, heroes, email) {
   }
   if (path === "/admin/comments/api/moderate") {
     const { id, action, version } = body;
-    if (!wwUUID(id) || !["publish","hide","delete","resolve"].includes(action) || !Number.isInteger(version) || version < 1) {
+    if (!wwUUID(id) || !["publish","publish_anonymous","anonymize","hide","delete","resolve"].includes(action) || !Number.isInteger(version) || version < 1) {
       throw new WWError(400, "처리할 후기와 작업을 확인해주세요.");
     }
     const now = Math.floor(Date.now()/1000), operation = crypto.randomUUID();
@@ -1028,7 +1044,12 @@ async function wwAdminAPI(path, body, request, env, heroes, email) {
       "SELECT ?,id,?,?,status,? FROM comments WHERE id=? AND version=?").bind(operation,action,email,now,id,version)];
     const guard = " AND EXISTS(SELECT 1 FROM comment_moderation_log WHERE id=?)";
     if (action === "delete") operations.push(db.prepare("DELETE FROM comments WHERE id=?" + guard).bind(id,operation));
-    else if (action === "publish" || action === "hide") {
+    else if (action === "publish_anonymous") {
+      operations.push(db.prepare("UPDATE comments SET nickname='익명',status='published',published_at=COALESCE(published_at,?),updated_at=?,version=version+1 WHERE id=?" + guard)
+        .bind(now,now,id,operation));
+    } else if (action === "anonymize") {
+      operations.push(db.prepare("UPDATE comments SET nickname='익명',updated_at=?,version=version+1 WHERE id=?" + guard).bind(now,id,operation));
+    } else if (action === "publish" || action === "hide") {
       operations.push(db.prepare("UPDATE comments SET status=?,published_at=CASE WHEN ?='published' THEN COALESCE(published_at,?) ELSE published_at END,updated_at=?,version=version+1 WHERE id=?" + guard)
         .bind(action === "publish" ? "published" : "hidden",action === "publish" ? "published" : "hidden",now,now,id,operation));
     } else operations.push(db.prepare("UPDATE comments SET updated_at=?,version=version+1 WHERE id=?" + guard).bind(now,id,operation));
@@ -1092,7 +1113,7 @@ async function wwHandle(request, env, ctx, heroes) {
     }
     if (path==="/api/comments" && request.method==="POST") {
       const hero=wwHero(body.hero_id,heroes);
-      const nickname=wwClean(body.nickname,2,20), text=wwClean(body.body,5,500,true);
+      const nickname=wwNickname(body.nickname), text=wwClean(body.body,5,500,true);
       const awakening=body.awakening===null||body.awakening===undefined?null:body.awakening;
       if (awakening!==null&&(!Number.isInteger(awakening)||awakening<0||awakening>5)) throw new WWError(400,"각성 단계를 확인해주세요.");
       if (!wwUUID(body.id)||body.website) throw new WWError(400,"입력 내용을 확인해주세요.");
