@@ -1,0 +1,39 @@
+렐름위키 v2.13.3 - 새 댓글 이메일 알림 설정
+
+목표
+- 새 유저 후기가 D1에 정상 등록되면 namangamkor@gmail.com 으로 알림 메일 발송
+- 메일 발송에 실패해도 댓글 등록은 정상 유지
+- 동일 댓글 ID 재전송 요청은 메일을 중복 발송하지 않음
+
+[권장 설정: Cloudflare Email Service REST API]
+1. Cloudflare 대시보드 > Compute > Email Service 에서 worwiki.kr 도메인을 온보딩합니다.
+2. Email Routing > Destination Addresses 에 namangamkor@gmail.com 을 추가하고, Gmail로 온 인증메일에서 Verify 합니다.
+3. Cloudflare API Token을 생성합니다. 권한은 Account > Email Sending > Edit 로 제한합니다.
+4. Cloudflare의 Account ID를 확인합니다.
+5. Pages 프로젝트 > Settings > Variables and Secrets 에 아래를 Production 환경에 추가합니다.
+   - CF_ACCOUNT_ID = (Cloudflare Account ID)
+   - CF_EMAIL_API_TOKEN = (위에서 만든 토큰, 반드시 Secret/Encrypt로 저장)
+   - COMMENT_NOTIFY_TO = namangamkor@gmail.com   [선택: 기본값이라 생략 가능]
+   - COMMENT_NOTIFY_FROM = comments@worwiki.kr  [선택: 기본값]
+6. 저장 후 반드시 새 배포를 실행합니다.
+7. https://worwiki.kr/admin/comments/ 에 로그인하면 상단에
+   '새 후기 메일 알림: 연결됨 · 수신 namangamkor@gmail.com' 이 표시되는지 확인합니다.
+8. 실제 테스트 후기를 1건 등록합니다. D1 저장 직후 Gmail로 알림이 와야 합니다.
+
+[메일 내용]
+- 영웅 한국명/영문명
+- 작성자 닉네임
+- 각성 단계
+- 등록시각(KST)
+- 후기 전문
+- 댓글 ID
+- 관리자 승인 화면 바로가기
+- 해당 영웅 페이지 바로가기
+
+[선택 설정: Worker send_email binding]
+코드는 COMMENT_NOTIFY_EMAIL 이라는 Send Email binding도 자동 인식합니다.
+이 binding이 있으면 REST API보다 우선 사용합니다. Pages 환경에서 해당 binding을 직접 제공할 수 없는 경우 위 REST API 방식을 사용하세요.
+
+보안
+- CF_EMAIL_API_TOKEN은 HTML/JS 파일에 넣지 마세요. Cloudflare Secret으로만 저장하세요.
+- 토큰은 Email Sending: Edit 외 불필요한 권한을 주지 않는 것을 권장합니다.
