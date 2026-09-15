@@ -1,0 +1,16 @@
+WoR Wiki v2.13.4j - 최초 신고 이메일 알림
+
+변경 내용
+- 공개 후기에서 최초 신고 1건이 접수되면 namangamkor@gmail.com으로 관리자 메일 발송
+- 같은 후기에 추가 신고가 들어와도 메일은 다시 발송하지 않음
+- 신고자 중복 제출은 기존 UNIQUE(comment_id, reporter_hash) 정책 유지
+- 메일에는 영웅명, 작성자, 각성, 신고 사유, 신고 시각, 후기 내용, 관리자 화면 링크 포함
+- 기존 CF_ACCOUNT_ID / CF_EMAIL_API_TOKEN / 검증된 수신 주소 설정을 그대로 재사용
+- Cloudflare 추가 설정 불필요
+- comment_report_notifications 테이블은 최초 신고 시 자동 생성
+
+GitHub 업로드 필수
+- _worker.js
+
+저장소 문서 동기화 권장
+- comments-schema.sql

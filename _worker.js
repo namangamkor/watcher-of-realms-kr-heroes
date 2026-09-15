@@ -683,14 +683,15 @@ export default {
 };
 
 
-// WoR Wiki v2.13.4i helpful-review votes + nickname moderation update.
-// Preserves normalized hero schema, comment email notifications, recent updates, v2.13.4 collection values, and filled hero details.
+// WoR Wiki v2.13.4j first-report email notification update.
+// Preserves helpful-review votes, nickname moderation, comment email notifications, recent updates, collection values, and filled hero details.
 const WW_REASONS = { spam: "광고·도배", abuse: "욕설·비방", misinformation: "잘못된 정보", other: "기타" };
 const WW_COOKIE = "__Host-ww-comment-author";
 const WW_PUBLIC_COLUMNS = "id, hero_id, nickname, awakening, body, created_at, published_at";
 let wwSigningKey = null;
 let wwJwksCache = null;
 let wwVoteSchemaPromise = null;
+let wwReportNotifySchemaPromise = null;
 
 class WWError extends Error {
   constructor(status, message) { super(message); this.status = status; }
@@ -803,6 +804,95 @@ async function wwNotifyNewComment(env, heroes, comment) {
   console.log("Comment notification email sent via REST API.");
   return { sent:true, via:"rest" };
 }
+
+async function wwEnsureReportNotifySchema(db) {
+  if (!wwReportNotifySchemaPromise) {
+    wwReportNotifySchemaPromise = db.prepare(
+      "CREATE TABLE IF NOT EXISTS comment_report_notifications (" +
+      "comment_id TEXT PRIMARY KEY REFERENCES comments(id) ON DELETE CASCADE," +
+      "notified_at INTEGER NOT NULL)"
+    ).run().catch(error => {
+      wwReportNotifySchemaPromise = null;
+      throw error;
+    });
+  }
+  return wwReportNotifySchemaPromise;
+}
+async function wwNotifyFirstReport(env, heroes, report) {
+  if (!wwEmailConfigured(env)) {
+    console.warn("Report notification email is not configured.");
+    return { sent:false, reason:"not-configured" };
+  }
+
+  const to = wwEmailAddress(env.COMMENT_NOTIFY_TO, "namangamkor@gmail.com");
+  const from = wwEmailAddress(env.COMMENT_NOTIFY_FROM, "comments@worwiki.kr");
+  const hero = heroes[report.hero] || {};
+  const heroKr = hero.nameKr || report.hero;
+  const heroEn = hero.nameEn || "";
+  const awakening = report.awakening === null ? "미입력" : (report.awakening === 0 ? "무각" : `${report.awakening}각`);
+  const reportedAt = wwKstTime(report.now);
+  const reasonLabel = WW_REASONS[report.reason] || report.reason || "기타";
+  const adminUrl = wwOrigin(env) + "/admin/comments/";
+  const heroUrl = wwOrigin(env) + "/hero/" + encodeURIComponent(report.hero) + "/#user-reviews";
+  const subject = `[렐름위키] 유저 후기 신고 접수 - ${heroKr}`;
+  const text = [
+    "렐름위키의 공개 후기에 최초 신고가 접수되었습니다.",
+    "",
+    `영웅: ${heroKr}${heroEn ? ` (${heroEn})` : ""}`,
+    `작성자: ${report.nickname}`,
+    `각성: ${awakening}`,
+    `신고 사유: ${reasonLabel}`,
+    `신고시각: ${reportedAt} (KST)`,
+    `댓글 ID: ${report.id}`,
+    "",
+    "신고된 후기 내용",
+    report.text,
+    "",
+    `신고 확인/관리: ${adminUrl}`,
+    `영웅 페이지: ${heroUrl}`
+  ].join("\n");
+  const htmlBody = esc(report.text).replaceAll("\n", "<br>");
+  const html = `<!doctype html><html lang="ko"><body style="font-family:Arial,'Noto Sans KR',sans-serif;line-height:1.6;color:#1f2937">
+    <div style="max-width:640px;margin:auto;padding:24px">
+      <h2 style="margin:0 0 8px">렐름위키 후기 신고 접수</h2>
+      <p style="margin:0 0 18px;color:#6b7280">이 후기의 최초 신고 1건에 대해 보내는 관리자 알림입니다.</p>
+      <table style="border-collapse:collapse;width:100%;margin-bottom:18px">
+        <tr><td style="padding:7px 0;font-weight:700;width:92px">영웅</td><td>${esc(heroKr)}${heroEn ? ` <span style="color:#6b7280">(${esc(heroEn)})</span>` : ""}</td></tr>
+        <tr><td style="padding:7px 0;font-weight:700">작성자</td><td>${esc(report.nickname)}</td></tr>
+        <tr><td style="padding:7px 0;font-weight:700">각성</td><td>${esc(awakening)}</td></tr>
+        <tr><td style="padding:7px 0;font-weight:700">신고 사유</td><td><strong>${esc(reasonLabel)}</strong></td></tr>
+        <tr><td style="padding:7px 0;font-weight:700">신고시각</td><td>${esc(reportedAt)} (KST)</td></tr>
+      </table>
+      <div style="padding:16px;border:1px solid #fecaca;border-radius:10px;background:#fff7f7;margin-bottom:20px">${htmlBody}</div>
+      <p><a href="${esc(adminUrl)}" style="display:inline-block;padding:11px 16px;background:#b91c1c;color:white;text-decoration:none;border-radius:8px;font-weight:700">신고 확인하러 가기</a></p>
+      <p style="font-size:13px;color:#6b7280">댓글 ID: ${esc(report.id)}<br><a href="${esc(heroUrl)}">영웅 페이지 보기</a></p>
+    </div></body></html>`;
+  const message = { to, from, subject, text, html };
+
+  if (env.COMMENT_NOTIFY_EMAIL && typeof env.COMMENT_NOTIFY_EMAIL.send === "function") {
+    const result = await env.COMMENT_NOTIFY_EMAIL.send(message);
+    console.log("Report notification email sent via binding.");
+    return { sent:true, via:"binding", result };
+  }
+
+  const accountId = String(env.CF_ACCOUNT_ID || "").trim();
+  const token = String(env.CF_EMAIL_API_TOKEN || "").trim();
+  const response = await fetch(`https://api.cloudflare.com/client/v4/accounts/${encodeURIComponent(accountId)}/email/sending/send`, {
+    method: "POST",
+    headers: { "authorization": `Bearer ${token}`, "content-type": "application/json" },
+    body: JSON.stringify(message),
+    signal: AbortSignal.timeout(10000)
+  });
+  let data = null;
+  try { data = await response.json(); } catch {}
+  if (!response.ok || data?.success !== true) {
+    const code = data?.errors?.[0]?.code || response.status;
+    throw new Error(`Cloudflare Email Service failed (${code}).`);
+  }
+  console.log("Report notification email sent via REST API.");
+  return { sent:true, via:"rest" };
+}
+
 function wwRequireSameOrigin(request, env) {
   if (new URL(request.url).origin !== wwOrigin(env) || request.headers.get("origin") !== wwOrigin(env) ||
       request.headers.get("x-worwiki-request") !== "1" ||
@@ -1221,14 +1311,29 @@ async function wwHandle(request, env, ctx, heroes) {
     const report=path.match(/^\/api\/comments\/([0-9a-f-]+)\/report$/i);
     if (report && request.method==="POST") {
       if (!wwUUID(report[1])||!Object.hasOwn(WW_REASONS,body.reason)) throw new WWError(400,"신고 사유를 확인해주세요.");
-      const target=await db.prepare("SELECT id FROM comments WHERE id=? AND status='published'").bind(report[1]).first();
+      const target=await db.prepare("SELECT id,hero_id,nickname,awakening,body FROM comments WHERE id=? AND status='published'").bind(report[1]).first();
       if (!target) throw new WWError(404,"현재 공개된 후기를 찾을 수 없어요.");
       const ip=await wwIPHash(request,env);
       await wwRate(db,"attempt-report:"+ip,5,100,now);
       await wwChallenge(body.turnstile_token,"comment_report",request,env);
       await wwRate(db,"report:"+ip,60,10,now);
-      await db.prepare("INSERT INTO comment_reports(comment_id,reporter_hash,reason,created_at) SELECT id,?,?,? FROM comments WHERE id=? AND status='published' ON CONFLICT(comment_id,reporter_hash) DO NOTHING")
+      const hadAnyReport=await db.prepare("SELECT 1 AS ok FROM comment_reports WHERE comment_id=? LIMIT 1").bind(target.id).first();
+      const inserted=await db.prepare("INSERT INTO comment_reports(comment_id,reporter_hash,reason,created_at) SELECT id,?,?,? FROM comments WHERE id=? AND status='published' ON CONFLICT(comment_id,reporter_hash) DO NOTHING")
         .bind(ip,body.reason,now,target.id).run();
+      if ((Number(inserted?.meta?.changes)||0) && !hadAnyReport) {
+        const notifyTask=(async()=>{
+          await wwEnsureReportNotifySchema(db);
+          const claimed=await db.prepare("INSERT OR IGNORE INTO comment_report_notifications(comment_id,notified_at) VALUES(?,?)").bind(target.id,now).run();
+          if (!(Number(claimed?.meta?.changes)||0)) return;
+          try {
+            await wwNotifyFirstReport(env,heroes,{id:target.id,hero:target.hero_id,nickname:target.nickname,awakening:target.awakening,text:target.body,reason:body.reason,now});
+          } catch (error) {
+            await db.prepare("DELETE FROM comment_report_notifications WHERE comment_id=? AND notified_at=?").bind(target.id,now).run().catch(()=>{});
+            throw error;
+          }
+        })().catch(error=>console.error("Report notification email failed:",error?.message||"unknown"));
+        if (ctx?.waitUntil) ctx.waitUntil(notifyTask); else await notifyTask;
+      }
       return wwJson({ok:true,message:"신고를 접수했어요. 관리자가 확인하겠습니다."},202);
     }
     const deletion=path.match(/^\/api\/comments\/([0-9a-f-]+)$/i);

@@ -51,3 +51,9 @@ CREATE TABLE IF NOT EXISTS comment_helpful_votes (
   created_at INTEGER NOT NULL,
   PRIMARY KEY (comment_id, voter_hash)
 );
+
+-- v2.13.4j: send the admin email only once for the first report on each review.
+CREATE TABLE IF NOT EXISTS comment_report_notifications (
+  comment_id TEXT PRIMARY KEY REFERENCES comments(id) ON DELETE CASCADE,
+  notified_at INTEGER NOT NULL
+);
