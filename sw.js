@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21304i-helpful-votes";
+const CACHE_NAME = "namangam-wor-v21304k-comment-form";
 
 const CORE_ASSETS = [
   "/styles.css?v=2.13.4h",

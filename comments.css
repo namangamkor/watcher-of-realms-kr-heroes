@@ -121,3 +121,37 @@
 .ww-comments .ww-comment .ww-helpful:hover { border-color:#7c6841; color:#f2d48e; background:#1d2633; }
 .ww-comments .ww-comment .ww-helpful[aria-pressed="true"] { border-color:#80683a; background:#30291c; color:#f3cf7c; }
 .ww-comments .ww-comment .ww-helpful:disabled { opacity:.65; }
+
+
+/* v2.13.4k · 후기 작성 폼 정돈 */
+.ww-comments .ww-fields > .ww-field { align-self:start; align-content:start; }
+.ww-comments #ww-awakening { align-self:start; height:auto; }
+.ww-comments .ww-captcha.is-verified {
+  position:relative;
+  width:fit-content;
+  min-width:132px;
+  min-height:42px;
+  height:42px;
+  margin:.2rem 0 .8rem;
+  overflow:hidden;
+  border:1px solid #396b4e;
+  border-radius:10px;
+  background:#13261c;
+}
+.ww-comments .ww-captcha.is-verified > * { opacity:0; pointer-events:none; }
+.ww-comments .ww-captcha.is-verified::after {
+  content:"✓ 인증 완료";
+  position:absolute;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:0 .9rem;
+  color:#bde8c8;
+  font-size:.9rem;
+  font-weight:750;
+  letter-spacing:-.01em;
+}
+@media (max-width:560px) {
+  .ww-comments .ww-captcha.is-verified { width:100%; max-width:180px; }
+}

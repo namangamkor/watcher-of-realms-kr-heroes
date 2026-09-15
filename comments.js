@@ -169,6 +169,12 @@
     return captchaPromise;
   }
   function syncSubmit() { submit.disabled = formBusy || !formToken; }
+  function setFormCaptchaVerified(verified) {
+    const captcha = byId("ww-captcha");
+    if (!captcha) return;
+    captcha.classList.toggle("is-verified", !!verified);
+    captcha.setAttribute("aria-label", verified ? "로봇 확인 완료" : "로봇 확인");
+  }
   async function startForm() {
     if (formWidget !== null) return;
     try {
@@ -177,9 +183,9 @@
       if (formWidget !== null) return;
       formWidget = turnstile.render(byId("ww-captcha"), {
         sitekey: siteKey, action: "comment_submit", theme: "dark", size: "compact",
-        callback: token => { formToken = token; syncSubmit(); },
-        "expired-callback": () => { formToken = ""; syncSubmit(); status("ww-submit-status", "로봇 확인을 다시 완료해주세요."); },
-        "error-callback": () => { formToken = ""; syncSubmit(); status("ww-submit-status", "로봇 확인을 다시 시도해주세요.", "error"); }
+        callback: token => { formToken = token; setFormCaptchaVerified(true); syncSubmit(); },
+        "expired-callback": () => { formToken = ""; setFormCaptchaVerified(false); syncSubmit(); status("ww-submit-status", "로봇 확인을 다시 완료해주세요."); },
+        "error-callback": () => { formToken = ""; setFormCaptchaVerified(false); syncSubmit(); status("ww-submit-status", "로봇 확인을 다시 시도해주세요.", "error"); }
       });
     } catch (error) { status("ww-submit-status", error.message, "error"); }
   }
@@ -210,6 +216,7 @@
     finally {
       formBusy = false;
       formToken = "";
+      setFormCaptchaVerified(false);
       if (window.turnstile && formWidget !== null) window.turnstile.reset(formWidget);
       syncSubmit();
     }
@@ -295,11 +302,7 @@
 
   const bodyInput = byId("ww-body");
   bodyInput.placeholder = "5글자 이상 입력하세요.";
-  const bodyHint = document.createElement("p");
-  bodyHint.id = "ww-body-hint";
-  bodyHint.textContent = "5글자 이상 입력하세요. (최대 500글자)";
-  bodyInput.after(bodyHint);
-  bodyInput.setAttribute("aria-describedby", "ww-body-hint ww-counter");
+  bodyInput.setAttribute("aria-describedby", "ww-counter");
   bodyInput.addEventListener("input", () => {
     byId("ww-counter").textContent = bodyInput.value.length + " / 500";
     bodyInput.setCustomValidity(bodyInput.value.trim().length < 5 ? "5글자 이상 입력하세요." : "");

@@ -1,0 +1,16 @@
+WoR Wiki v2.13.4k 후기 작성 폼 UI 개선
+
+변경 내용
+- 닉네임 / 각성 단계 입력 상단 정렬
+- 후기 입력의 중복된 5글자 안내 제거 (placeholder + 0/500 카운터만 유지)
+- Cloudflare Turnstile 인증 성공 시 큰 인증 박스를 작은 `✓ 인증 완료` 상태로 축소
+- 인증 만료/오류 시 Turnstile 원래 화면으로 자동 복귀
+- 제출 버튼 `승인 요청` → `후기 등록하기`
+
+GitHub 업로드 필수
+- _worker.js
+- comments.js
+- comments.css
+- sw.js
+
+Cloudflare/D1 추가 설정 없음.
