@@ -1,0 +1,13 @@
+WoR Wiki v2.13.4i · 유저 후기 도움돼요
+
+- 승인된 공개 후기에 `👍 도움돼요 N` 버튼 추가
+- 같은 브라우저는 같은 후기당 1표만 가능, 다시 누르면 취소
+- 익명 HttpOnly 쿠키 + D1 PRIMARY KEY(comment_id, voter_hash)로 서버 중복 방지
+- 브라우저 식별값은 DB에 직접 저장하지 않고 COMMENTS_SECRET HMAC 해시만 저장
+- IP와 익명 브라우저 기준 요청 속도/일일 한도 적용
+- 자신의 후기에는 도움돼요를 누를 수 없도록 서버에서 차단
+- 로그인 없는 구조이므로 쿠키 삭제/다른 기기까지 100% 동일인으로 묶지는 않음
+- 기존 D1 수동 마이그레이션 불필요: Worker가 첫 사용 시 vote 테이블을 자동 생성
+
+GitHub 필수 업로드: _worker.js, comments.js, comments.css, sw.js
+comments-schema.sql은 백업/향후 신규 DB용이며 기존 운영 DB에는 별도 실행할 필요 없음.

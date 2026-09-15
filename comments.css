@@ -115,3 +115,9 @@
 
 .ww-note[data-kind="error"] { color: #ffc0b6; }
 .ww-field input[aria-invalid="true"] { border-color: #d9776a; box-shadow: 0 0 0 1px rgba(217,119,106,.18); }
+
+/* v2.13.4i · 후기 도움돼요 */
+.ww-comments .ww-comment .ww-helpful { min-height:38px; padding:.45rem .7rem; border-color:#3b4a60; background:#151f2c; color:#c9d4e4; border-radius:999px; }
+.ww-comments .ww-comment .ww-helpful:hover { border-color:#7c6841; color:#f2d48e; background:#1d2633; }
+.ww-comments .ww-comment .ww-helpful[aria-pressed="true"] { border-color:#80683a; background:#30291c; color:#f3cf7c; }
+.ww-comments .ww-comment .ww-helpful:disabled { opacity:.65; }

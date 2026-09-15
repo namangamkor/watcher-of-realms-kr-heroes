@@ -68,6 +68,27 @@
     row.append(meta, node("p", "ww-body", comment.body));
     const actions = node("div", "ww-actions");
     const owned = privateRow || mine.some(x => x.id === comment.id);
+    if (!privateRow && !owned) {
+      const helpful = node("button", "ww-button ww-helpful");
+      helpful.type = "button";
+      helpful.setAttribute("aria-pressed", comment.viewer_voted ? "true" : "false");
+      helpful.textContent = `👍 도움돼요 ${Math.max(0, Number(comment.helpful_count) || 0)}`;
+      helpful.addEventListener("click", async () => {
+        if (helpful.disabled) return;
+        helpful.disabled = true;
+        try {
+          const result = await api("/api/comments/" + encodeURIComponent(comment.id) + "/helpful", "POST", {});
+          comment.viewer_voted = !!result.voted;
+          comment.helpful_count = Math.max(0, Number(result.helpful_count) || 0);
+          helpful.setAttribute("aria-pressed", comment.viewer_voted ? "true" : "false");
+          helpful.textContent = `👍 도움돼요 ${comment.helpful_count}`;
+          status("ww-load-status");
+        } catch (error) {
+          status("ww-load-status", error.message, "error");
+        } finally { helpful.disabled = false; }
+      });
+      actions.append(helpful);
+    }
     const action = node("button", "ww-button ww-quiet", owned ? "내 후기 삭제" : "신고");
     action.type = "button";
     action.addEventListener("click", () => openDialog(owned ? "delete" : "report", comment.id));

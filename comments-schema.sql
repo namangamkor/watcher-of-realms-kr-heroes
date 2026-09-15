@@ -43,3 +43,11 @@ CREATE TABLE IF NOT EXISTS comment_moderation_log (
   created_at INTEGER NOT NULL
 );
 CREATE INDEX IF NOT EXISTS idx_comment_moderation_log_created ON comment_moderation_log(created_at);
+
+-- v2.13.4i: one helpful vote per anonymous browser and review.
+CREATE TABLE IF NOT EXISTS comment_helpful_votes (
+  comment_id TEXT NOT NULL REFERENCES comments(id) ON DELETE CASCADE,
+  voter_hash TEXT NOT NULL,
+  created_at INTEGER NOT NULL,
+  PRIMARY KEY (comment_id, voter_hash)
+);

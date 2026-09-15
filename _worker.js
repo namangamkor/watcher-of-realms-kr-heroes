@@ -329,7 +329,7 @@ function renderHero(hero, env = {}) {
   <meta name="twitter:description" content="${esc(description)}" />
   <meta name="twitter:image" content="${esc(image)}" />
   <link rel="stylesheet" href="/styles.css?v=2.13.4g" />
-  <link rel="stylesheet" href="/comments.css?v=2.13.4f">
+  <link rel="stylesheet" href="/comments.css?v=2.13.4i">
   <script type="application/ld+json">${JSON.stringify(jsonLd).replaceAll("<", "\\u003c")}</script>
 </head>
 <body class="hero-detail-page">
@@ -412,7 +412,7 @@ function renderHero(hero, env = {}) {
       <div class="detail-footer-links"><a href="${REPORT_FORM}" target="_blank" rel="noopener noreferrer">정보 제보 ↗</a><a href="${YOUTUBE}" target="_blank" rel="noopener noreferrer">나만겜 YouTube ↗</a></div>
     </div>
   </footer>
-  ${wwReady(env) ? '<script src="/comments.js?v=2.13.4g" defer></script>' : ''}
+  ${wwReady(env) ? '<script src="/comments.js?v=2.13.4i" defer></script>' : ''}
 </body>
 </html>`;
 }
@@ -683,13 +683,14 @@ export default {
 };
 
 
-// WoR Wiki v2.13.4f nickname moderation update.
+// WoR Wiki v2.13.4i helpful-review votes + nickname moderation update.
 // Preserves normalized hero schema, comment email notifications, recent updates, v2.13.4 collection values, and filled hero details.
 const WW_REASONS = { spam: "광고·도배", abuse: "욕설·비방", misinformation: "잘못된 정보", other: "기타" };
 const WW_COOKIE = "__Host-ww-comment-author";
 const WW_PUBLIC_COLUMNS = "id, hero_id, nickname, awakening, body, created_at, published_at";
 let wwSigningKey = null;
 let wwJwksCache = null;
+let wwVoteSchemaPromise = null;
 
 class WWError extends Error {
   constructor(status, message) { super(message); this.status = status; }
@@ -892,6 +893,20 @@ async function wwAuthorHash(request, env) {
   const token = wwAuthorToken(request);
   return token ? wwHash("author|" + token, env) : null;
 }
+async function wwVoterHashFromToken(token, env) {
+  return token ? wwHash("helpful-vote|" + token, env) : null;
+}
+async function wwEnsureVoteSchema(db) {
+  if (!wwVoteSchemaPromise) {
+    wwVoteSchemaPromise = db.prepare(
+      "CREATE TABLE IF NOT EXISTS comment_helpful_votes (" +
+      "comment_id TEXT NOT NULL REFERENCES comments(id) ON DELETE CASCADE," +
+      "voter_hash TEXT NOT NULL,created_at INTEGER NOT NULL," +
+      "PRIMARY KEY(comment_id,voter_hash))"
+    ).run().catch(error => { wwVoteSchemaPromise = null; throw error; });
+  }
+  return wwVoteSchemaPromise;
+}
 async function wwIPHash(request, env) {
   // Cloudflare sets this header; never trust a client X-Forwarded-For value.
   const ip = request.headers.get("cf-connecting-ip");
@@ -981,7 +996,7 @@ function wwHTML(html, status = 200, head = false) {
   } });
 }
 function wwErrorPage(message) {
-  return '<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>나만겜 | 댓글 관리</title><link rel="stylesheet" href="/styles.css?v=2.12.5"><link rel="stylesheet" href="/comments.css?v=2.13.4f"></head><body class="ww-admin"><main class="wrap ww-admin-main"><h1>댓글 관리</h1><p>' +
+  return '<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>나만겜 | 댓글 관리</title><link rel="stylesheet" href="/styles.css?v=2.12.5"><link rel="stylesheet" href="/comments.css?v=2.13.4i"></head><body class="ww-admin"><main class="wrap ww-admin-main"><h1>댓글 관리</h1><p>' +
     esc(message) + '</p><a class="ww-button" href="/">영웅도감으로 돌아가기</a></main></body></html>';
 }
 function wwRenderSection(hero, env) {
@@ -1013,7 +1028,7 @@ function wwRenderSection(hero, env) {
 function wwRenderAdmin(email, env) {
   return '<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">' +
     '<meta name="robots" content="noindex,nofollow"><title>나만겜 | 댓글 관리</title><link rel="icon" href="/favicon-crystal-v1.png">' +
-    '<link rel="stylesheet" href="/styles.css?v=2.12.5"><link rel="stylesheet" href="/comments.css?v=2.13.4f"><script src="/comments-admin.js?v=2.13.4f" defer></script></head>' +
+    '<link rel="stylesheet" href="/styles.css?v=2.12.5"><link rel="stylesheet" href="/comments.css?v=2.13.4i"><script src="/comments-admin.js?v=2.13.4f" defer></script></head>' +
     '<body class="ww-admin"><header class="ww-admin-header"><div class="wrap ww-heading"><strong>나만겜 · 댓글 관리</strong><div class="ww-actions"><span class="ww-meta">' + esc(email) +
     '</span><a class="ww-button ww-quiet" href="/">영웅도감</a><a class="ww-button ww-quiet" href="/cdn-cgi/access/logout">로그아웃</a></div></div></header>' +
     '<main class="wrap ww-admin-main"><div class="ww-heading"><div><h1>사용 후기 관리</h1><p class="ww-note">공개 승인, 신고 확인, 숨김과 삭제를 여기서 처리하세요.</p><p class="ww-note">새 후기 메일 알림: <strong>' + (wwEmailConfigured(env) ? '연결됨' : '설정 필요') + '</strong> · 수신 ' + esc(wwEmailAddress(env.COMMENT_NOTIFY_TO, 'namangamkor@gmail.com')) + '</p></div><button id="wa-refresh" class="ww-button" type="button">새로고침</button></div>' +
@@ -1111,10 +1126,27 @@ async function wwHandle(request, env, ctx, heroes) {
         clause=" AND (published_at<? OR (published_at=? AND id<?))";
         params.push(decoded.time,decoded.time,decoded.id);
       }
+      await wwEnsureVoteSchema(db);
       const rows=await db.prepare("SELECT "+WW_PUBLIC_COLUMNS+" FROM comments WHERE hero_id=? AND status='published'"+clause+" ORDER BY published_at DESC,id DESC LIMIT 21").bind(...params).all();
       const total=await db.prepare("SELECT COUNT(*) AS n FROM comments WHERE hero_id=? AND status='published'").bind(hero).first();
       const comments=rows.results.slice(0,20), last=comments.at(-1);
-      const next=rows.results.length>20 ? btoa(JSON.stringify({time:last.published_at,id:last.id})).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/,"") : null;
+      const ids=comments.map(x=>x.id);
+      if (ids.length) {
+        const marks=ids.map(()=>"?").join(",");
+        const voteRows=await db.prepare("SELECT comment_id,COUNT(*) AS n FROM comment_helpful_votes WHERE comment_id IN ("+marks+") GROUP BY comment_id").bind(...ids).all();
+        const voteMap=Object.fromEntries(voteRows.results.map(x=>[x.comment_id,Number(x.n)||0]));
+        const voter=await wwVoterHashFromToken(wwAuthorToken(request),env);
+        let voted=new Set();
+        if (voter) {
+          const mineVotes=await db.prepare("SELECT comment_id FROM comment_helpful_votes WHERE voter_hash=? AND comment_id IN ("+marks+")").bind(voter,...ids).all();
+          voted=new Set(mineVotes.results.map(x=>x.comment_id));
+        }
+        for (const comment of comments) {
+          comment.helpful_count=voteMap[comment.id]||0;
+          comment.viewer_voted=voted.has(comment.id);
+        }
+      }
+      const next=rows.results.length>20 ? btoa(JSON.stringify({time:last.published_at,id:last.id})).replace(/\+/g,"-").replace(/\//g,"_").replace(/=+$/g,"") : null;
       return wwJson({comments,total:total.n,next});
     }
     if (!["POST","DELETE"].includes(request.method)) throw new WWError(405,"지원하지 않는 요청입니다.");
@@ -1158,6 +1190,33 @@ async function wwHandle(request, env, ctx, heroes) {
       if (ctx?.waitUntil) ctx.waitUntil(emailTask); else await emailTask;
       if (ctx?.waitUntil) ctx.waitUntil(db.prepare("DELETE FROM comment_rate_limits WHERE key IN (SELECT key FROM comment_rate_limits WHERE last_at<? LIMIT 100)").bind(now-172800).run().catch(()=>{}));
       return wwJson({ok:true,id:body.id,message:"후기를 접수했어요. 관리자 승인 후 공개됩니다."},202);
+    }
+    const helpful=path.match(/^\/api\/comments\/([0-9a-f-]+)\/helpful$/i);
+    if (helpful && request.method==="POST") {
+      const commentId=helpful[1];
+      if (!wwUUID(commentId)) throw new WWError(400,"후기를 확인해주세요.");
+      await wwEnsureVoteSchema(db);
+      const target=await db.prepare("SELECT id,author_hash FROM comments WHERE id=? AND status='published'").bind(commentId).first();
+      if (!target) throw new WWError(404,"공개된 후기를 찾을 수 없어요.");
+      let token=wwAuthorToken(request), fresh=false;
+      if (!token) { token=wwRandomToken(); fresh=true; }
+      const voter=await wwVoterHashFromToken(token,env);
+      const authorHash=await wwHash("author|"+token,env);
+      if (target.author_hash===authorHash) throw new WWError(400,"내 후기에는 도움돼요를 누를 수 없어요.");
+      const ip=await wwIPHash(request,env);
+      await wwRate(db,"helpful-ip:"+ip,1,240,now);
+      await wwRate(db,"helpful-voter:"+voter,1,160,now);
+      const existing=await db.prepare("SELECT 1 AS ok FROM comment_helpful_votes WHERE comment_id=? AND voter_hash=?").bind(commentId,voter).first();
+      let voted=false;
+      if (existing) {
+        await db.prepare("DELETE FROM comment_helpful_votes WHERE comment_id=? AND voter_hash=?").bind(commentId,voter).run();
+      } else {
+        await db.prepare("INSERT OR IGNORE INTO comment_helpful_votes(comment_id,voter_hash,created_at) VALUES(?,?,?)").bind(commentId,voter,now).run();
+        voted=true;
+      }
+      const count=await db.prepare("SELECT COUNT(*) AS n FROM comment_helpful_votes WHERE comment_id=?").bind(commentId).first();
+      const headers=fresh?{"set-cookie":WW_COOKIE+"="+token+"; Path=/; HttpOnly; Secure; SameSite=Strict; Max-Age=15552000"}:{};
+      return wwJson({ok:true,voted,helpful_count:Number(count?.n)||0},200,headers);
     }
     const report=path.match(/^\/api\/comments\/([0-9a-f-]+)\/report$/i);
     if (report && request.method==="POST") {
