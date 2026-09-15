@@ -39,7 +39,7 @@
   <link rel="icon" type="image/png" sizes="64x64" href="./favicon-crystal-v1.png?v=2.11.43c" />
   <link rel="apple-touch-icon" href="./icon-192.png?v=2.11.43c" />
   <link rel="manifest" href="./manifest.webmanifest?v=2.11.43c" />
-  <link rel="stylesheet" href="/styles.css?v=2.13.4g" />
+  <link rel="stylesheet" href="/styles.css?v=2.13.4h" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -187,7 +187,7 @@
       <div class="section-title">
         <div>
           <p class="section-kicker">FACTIONS</p>
-          <h2>진영별 영웅도감</h2>
+          <h2>영웅도감</h2>
         </div>
       </div>
 
@@ -296,20 +296,17 @@
           </button>
         </div>
 
-        <p class="faction-select-hint">전체 영웅 또는 진영을 선택해 도감을 탐색할 수 있습니다.</p>
+        <div class="faction-explorer-meta">
+          <p class="faction-select-hint">전체 영웅 또는 진영을 선택한 뒤 아래 필터로 원하는 영웅을 빠르게 찾아보세요.</p>
+          <div class="count-badge count-badge-compact" aria-label="현재 표시 영웅 수">
+            <span class="count-badge-label">표시</span><strong id="visibleCount">256</strong><span>/ <span id="totalCount">256</span></span>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="wrap roster">
-      <div class="roster-head">
-        <div>
-          <p id="rosterKicker" class="section-kicker">HERO INDEX</p>
-          <h2 id="rosterTitle">영웅 목록</h2>
-          <p id="resultSummary">필터로 원하는 영웅을 빠르게 찾아보세요.</p>
-        </div>
-        <div class="count-badge"><strong id="visibleCount">256</strong><span>/ <span id="totalCount">256</span></span></div>
-      </div>
-
+    <section class="wrap roster roster-integrated">
+      <p id="resultSummary" class="sr-only" aria-live="polite">필터로 원하는 영웅을 빠르게 찾아보세요.</p>
       <div class="filters">
         <div class="filter-group">
           <span>희귀도</span>

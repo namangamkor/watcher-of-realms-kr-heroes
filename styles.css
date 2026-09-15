@@ -4359,3 +4359,92 @@ body.modal-open {
   .recent-fix-message-text { flex: 1 1 120px; }
   .recent-fix-date { font-size: 8.5px; }
 }
+
+
+/* =========================================================
+   v2.13.4h — 영웅도감/영웅 목록 중복 제거 + 탐색 영역 통합
+   ========================================================= */
+.sr-only {
+  position:absolute !important;
+  width:1px !important;
+  height:1px !important;
+  padding:0 !important;
+  margin:-1px !important;
+  overflow:hidden !important;
+  clip:rect(0,0,0,0) !important;
+  white-space:nowrap !important;
+  border:0 !important;
+}
+
+/* One heading owns the whole discovery flow: faction → filters → cards. */
+.faction-section {
+  padding-bottom: 8px !important;
+}
+.faction-section .section-title h2 {
+  margin-bottom: 13px !important;
+}
+.faction-explorer-meta {
+  width:100%;
+  max-width:var(--home-control-width);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:18px;
+  margin-top:10px;
+}
+.faction-explorer-meta .faction-select-hint {
+  margin:0;
+  flex:1 1 auto;
+}
+.count-badge-compact {
+  flex:0 0 auto;
+  gap:4px;
+  padding:0;
+  white-space:nowrap;
+}
+.count-badge-compact .count-badge-label {
+  margin-right:3px;
+  color:#6f7c90;
+  font-size:10px;
+  font-weight:800;
+  letter-spacing:.05em;
+}
+.count-badge-compact strong {
+  font-size:20px;
+  line-height:1;
+}
+.count-badge-compact span:not(.count-badge-label) {
+  font-size:11px;
+}
+
+.roster.roster-integrated {
+  padding-top:0 !important;
+  border-top:0 !important;
+}
+.roster-integrated .filters {
+  margin-top:4px;
+}
+
+@media (max-width:620px) {
+  .faction-section {
+    padding-bottom:6px !important;
+  }
+  .faction-explorer-meta {
+    align-items:flex-end;
+    gap:10px;
+    margin-top:8px;
+  }
+  .faction-explorer-meta .faction-select-hint {
+    font-size:11px;
+    line-height:1.45;
+  }
+  .count-badge-compact .count-badge-label {
+    display:none;
+  }
+  .count-badge-compact strong {
+    font-size:18px;
+  }
+  .roster-integrated .filters {
+    margin-top:2px;
+  }
+}
