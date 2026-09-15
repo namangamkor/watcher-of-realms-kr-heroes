@@ -1,9 +1,9 @@
-const CACHE_NAME = "namangam-wor-v21303-comment-email-notify";
+const CACHE_NAME = "namangam-wor-v21304-recent-updates";
 
 const CORE_ASSETS = [
-  "/styles.css?v=2.11.47",
-  "/app.js?v=2.13.3",
-  "/heroes.json?v=2.13.3",
+  "/styles.css?v=2.13.4",
+  "/app.js?v=2.13.4",
+  "/heroes.json?v=2.13.4",
   "/gear-presets.js?v=2.11.45c",
   "/gear-presets.json",
   "/manifest.webmanifest",
@@ -48,7 +48,7 @@ self.addEventListener("fetch", (event) => {
   if (url.origin !== self.location.origin) return;
 
   // Never store comments, moderation results, or authentication responses offline.
-  if (url.pathname.startsWith("/api/comments") || url.pathname.startsWith("/admin/") || url.pathname.startsWith("/cdn-cgi/access/")) {
+  if (url.pathname.startsWith("/api/comments") || url.pathname === "/api/recent-updates" || url.pathname.startsWith("/admin/") || url.pathname.startsWith("/cdn-cgi/access/")) {
     event.respondWith(fetch(request, { cache: "no-store" }));
     return;
   }
@@ -66,7 +66,7 @@ self.addEventListener("fetch", (event) => {
     url.pathname.endsWith("/comments.css") ||
     url.pathname.endsWith("/app.js") ||
     url.pathname.endsWith("/styles.css") ||
-    url.pathname.endsWith("/heroes.json?v=2.13.3") ||
+    url.pathname.endsWith("/heroes.json") ||
     url.pathname.endsWith("/gear-presets.js") ||
     url.pathname.endsWith("/gear-presets.json") ||
     url.pathname.endsWith("/manifest.webmanifest");

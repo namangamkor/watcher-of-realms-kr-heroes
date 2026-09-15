@@ -4,7 +4,7 @@
     "scaleMax": 5.0,
     "step": 1.0,
     "source": "나만겜 최종 검수",
-    "updated": "2026-09-12",
+    "updated": "2026-09-15",
     "description": "전투 티어가 아니라 영웅을 계정에 보유했을 때의 활용성, 대체 가능성, 장기 가치 등을 종합한 나만겜 자체 평가입니다."
   },
   "values": {
@@ -38,7 +38,7 @@
     "azhor": 1.0,
     "azzoth": 2.0,
     "baron": 3.0,
-    "bayek": 3.0,
+    "bayek": 4.0,
     "beatrix": 4.0,
     "beelzebub": 5.0,
     "boreas": 4.0,
@@ -135,7 +135,7 @@
     "kai": 3.0,
     "kalina": 2.0,
     "kane": 3.0,
-    "kassandra": 4.0,
+    "kassandra": 5.0,
     "khadgrim": 5.0,
     "khamet": 3.0,
     "kigiri": 5.0,

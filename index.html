@@ -39,7 +39,7 @@
   <link rel="icon" type="image/png" sizes="64x64" href="./favicon-crystal-v1.png?v=2.11.43c" />
   <link rel="apple-touch-icon" href="./icon-192.png?v=2.11.43c" />
   <link rel="manifest" href="./manifest.webmanifest?v=2.11.43c" />
-  <link rel="stylesheet" href="/styles.css?v=2.12.5" />
+  <link rel="stylesheet" href="/styles.css?v=2.13.4" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -108,10 +108,14 @@
 
   <main>
     <section class="hero wrap">
-      <div class="recent-fix-bar" role="status" aria-label="최근 정보 수정 안내">
+      <div class="recent-fix-bar" role="status" aria-label="최근 업데이트 안내">
         <div class="recent-fix-copy">
-          <span class="recent-fix-label"><span class="recent-fix-dot" aria-hidden="true"></span>최근 수정</span>
-          <span class="recent-fix-message"><strong>킹 할츠</strong> 한국 서버 공식명 · 각성 · 장비 세트 · 아티팩트 문구 반영</span>
+          <span class="recent-fix-label"><span class="recent-fix-dot" aria-hidden="true"></span>최근 업데이트</span>
+          <div id="recentUpdateList" class="recent-fix-list" aria-live="polite">
+            <a class="recent-fix-item" href="/hero/kassandra/"><span class="recent-fix-kind">정보</span><strong>카산드라</strong><span>수집가치 5.0으로 상향</span></a>
+            <a class="recent-fix-item" href="/hero/bayek/"><span class="recent-fix-kind">정보</span><strong>바예크</strong><span>수집가치 4.0으로 상향</span></a>
+            <a class="recent-fix-item" href="/hero/king-harz/"><span class="recent-fix-kind">정보</span><strong>킹 할츠</strong><span>한국 서버 공식 정보 반영</span></a>
+          </div>
         </div>
         <a class="recent-fix-report" href="https://forms.gle/PQcn3dTva7Pc7bY68" target="_blank" rel="noopener noreferrer">오류 제보 <span aria-hidden="true">↗</span></a>
       </div>
@@ -417,6 +421,6 @@
     </div>
   </div>
 
-  <script src="/app.js?v=2.13.3"></script>
+  <script src="/app.js?v=2.13.4"></script>
 </body>
 </html>

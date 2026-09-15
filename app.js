@@ -17,6 +17,7 @@ const factionSelectEn = document.querySelector("#factionSelectEn");
 const factionSelectCount = document.querySelector("#factionSelectCount");
 const factionSelectEmblem = document.querySelector("#factionSelectEmblem");
 const factionOptions = document.querySelectorAll(".faction-option[data-faction]");
+const recentUpdateList = document.querySelector("#recentUpdateList");
 
 let heroes = [];
 let currentFaction = "all";
@@ -501,7 +502,41 @@ function render() {
   }
 }
 
-fetch("./heroes.json?v=2.13.3")
+
+function renderRecentUpdates(items) {
+  if (!recentUpdateList || !Array.isArray(items) || !items.length) return;
+  const fragment = document.createDocumentFragment();
+  items.slice(0, 3).forEach((item) => {
+    if (!item || !item.heroId || !item.heroName || !item.message) return;
+    const link = document.createElement("a");
+    link.className = "recent-fix-item";
+    link.href = `/hero/${encodeURIComponent(item.heroId)}/${item.kind === "review" ? "#hero-comments" : ""}`;
+
+    const kind = document.createElement("span");
+    kind.className = `recent-fix-kind ${item.kind === "review" ? "review" : "info"}`;
+    kind.textContent = item.kind === "review" ? "후기" : "정보";
+
+    const hero = document.createElement("strong");
+    hero.textContent = item.heroName;
+
+    const message = document.createElement("span");
+    message.textContent = item.message;
+
+    link.append(kind, hero, message);
+    fragment.append(link);
+  });
+  if (fragment.childNodes.length) recentUpdateList.replaceChildren(fragment);
+}
+
+fetch("/api/recent-updates?v=2.13.4", { cache: "no-store" })
+  .then((response) => {
+    if (!response.ok) throw new Error("recent updates load failed");
+    return response.json();
+  })
+  .then((data) => renderRecentUpdates(data.updates))
+  .catch((error) => console.warn(error));
+
+fetch("./heroes.json?v=2.13.4")
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
