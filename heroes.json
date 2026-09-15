@@ -599,7 +599,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 Watcher of Realms Wiki(Fandom)와 2026-04-22 공식 밸런스 패치 내용을 대조해 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom)와 2026-04-22 공식 밸런스 패치 내용을 대조해 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "광역 마법 공격과 대공, 아군 지원을 한 자리에서 맡는 전설 마법사. 여러 적을 동시에 압박하면서 공중 유닛도 대응할 수 있고, 아군 버프로 파티 화력에도 기여한다. 딜과 지원 역할을 함께 배치하고 싶을 때 활용 폭이 넓은 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 마법 공격",
@@ -1044,7 +1046,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "광역 물리 공격을 하면서 공중 유닛까지 타격할 수 있는 전사. 지상 전열에 서면서 여러 적을 동시에 처리하고 대공 대응까지 겸할 수 있어 한 자리에서 맡는 역할이 넓다. 전열 유지와 범위 공격을 함께 요구하는 상황에 어울리는 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 물리 공격",
@@ -1115,7 +1119,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "단일 물리 공격, 지속 피해, 강력 제어, 대공 능력을 함께 갖춘 관성의 화살 영주 전사. 한 표적을 꾸준히 압박하면서 지속 피해와 제어를 겹치고 공중 유닛도 공격할 수 있다. 영주 효과까지 포함해 관성의 화살 조합을 구성할 때 핵심 역할을 맡는다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 물리 공격",
@@ -1251,7 +1257,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "수호자이지만 광역 마법 공격과 아군 버프를 함께 갖춘 지원형 전열 영웅. 적을 막아내는 기본 역할에 더해 주변 전투에 마법 피해를 보태고 아군을 강화할 수 있다. 순수 생존형 수호자보다 공격 보조 성격이 강한 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 마법 공격",
@@ -2875,7 +2883,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "한 대상을 여러 번 타격하는 단일 물리 궁수로, 공중 유닛까지 공격할 수 있다. 다단 공격을 중심으로 한 표적에 피해를 집중하는 구조라 우선 제거가 필요한 적을 상대하기 좋다. 대공과 단일 화력을 동시에 맡길 수 있는 정석형 원거리 딜러다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 물리 공격",
@@ -3355,7 +3365,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "광역 마법 공격에 지속 피해와 치유 금지를 더하는 공격형 전사. 여러 적을 동시에 때리면서 회복을 제한하고 지속 피해를 남겨 적의 유지력을 깎는 데 초점이 맞춰져 있다. 회복을 사용하는 적이 섞인 다수전에서 역할이 분명한 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 마법 공격",
@@ -3495,7 +3507,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "매우 먼 사거리에서 단일 물리 공격을 수행하면서 아군 버프와 소환을 함께 활용하는 궁수. 공중 유닛까지 공격할 수 있어 안전한 위치에서 지속적으로 화력을 보태기 좋다. 직접 공격뿐 아니라 소환과 지원 효과까지 함께 쓰는 복합형 원거리 딜러다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 물리 공격",
@@ -3584,7 +3598,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "다단 단일 물리 공격에 치유 금지와 아군 버프를 함께 갖춘 전사. 공중 유닛까지 공격할 수 있어 한 표적을 집중 타격하면서 상대의 회복을 제한하고 아군 화력까지 보조한다. 공격·대공·지원 역할을 동시에 수행하는 다기능형 전사다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 물리 공격",
@@ -3685,7 +3701,9 @@
       "awakeningUnavailable": true,
       "awakeningUnavailableText": "해외 DB 기준 A1~A5 각성 정보가 제공되지 않는 일반 등급 영웅입니다.",
       "updated": "2026-09",
-      "note": "각성 정보 유무는 Watcher of Realms Wiki(Fandom) 기준으로 확인했습니다."
+      "note": "각성 정보 유무는 Watcher of Realms Wiki(Fandom) 기준으로 확인했습니다.",
+      "verifiedIntro": "단일 물리 공격과 지속 피해를 사용하는 일반 등급 궁수. 공중 유닛을 공격할 수 있어 초반 원거리·대공 자리를 채우는 기본형 영웅이다. 높은 등급 영웅을 확보하기 전 단일 표적에 꾸준히 피해를 넣는 용도로 활용할 수 있다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 물리 공격",
@@ -3744,7 +3762,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "단일 마법 공격에 집중된 에픽 전사. 역할 구성이 단순해 한 표적에게 마법 피해를 지속적으로 넣는 데 초점이 맞춰져 있다. 복잡한 보조 기능보다는 직접적인 단일 마법 화력을 원하는 조합에 넣기 쉬운 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 마법 공격"
@@ -3875,7 +3895,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "광역 마법 공격과 소환을 사용하는 비법회 영주 수호자. 전열에서 적을 막는 동시에 소환 요소를 통해 전장에 추가 전력을 만들고 광역 마법 피해를 보탠다. 수호자 자리에서 방어와 소환 기반 압박을 함께 가져가는 영주형 영웅이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 마법 공격",
@@ -4282,7 +4304,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "광역 치유에 방어 제거와 아군 버프를 함께 제공하는 전설 힐러. 여러 아군의 체력을 동시에 회복하면서 전투를 방해하는 효과를 정리하고 아군 전투 능력도 보조한다. 회복만 하는 힐러보다 정화와 지원 비중이 높은 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 치유",
@@ -4884,7 +4908,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "광역 물리 공격을 사용하는 레어 궁수. 여러 적이 한꺼번에 들어오는 구간에서 범위 물리 피해를 보태는 기본형 원거리 딜러다. 높은 등급의 광역 궁수가 부족한 초반 계정에서 역할을 대신하기 좋다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 물리 공격"
@@ -5339,7 +5365,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "은신과 단일 물리 공격을 사용하는 관성의 화살 에픽 영주 궁수. 공중 유닛까지 공격할 수 있어 안전하게 표적을 노리면서 대공 역할도 맡을 수 있다. 은신을 활용해 생존 부담을 줄이고 관성의 화살 조합에 영주 효과를 제공하는 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 물리 공격",
@@ -5408,7 +5436,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "광역 치유, 방어 제거, 분노 회복을 함께 제공하는 지원형 전설 힐러. 여러 아군을 동시에 회복하면서 불리한 효과를 정리하고 궁극기 회전에도 도움을 줄 수 있다. 파티 전체의 유지력과 스킬 순환을 동시에 보조하는 다기능 힐러다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 치유",
@@ -5525,7 +5555,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 최신 Prospector's Digsite 및 Watcher of Realms Wiki(Fandom) 기준으로 교차 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 최신 Prospector's Digsite 및 Watcher of Realms Wiki(Fandom) 기준으로 교차 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "단일 마법 공격에 고정 피해와 지속 피해를 함께 사용하는 최고 중재자 에픽 영주 전사. 공중 유닛까지 공격할 수 있어 단일 표적을 꾸준히 압박하면서 피해 유형을 다양하게 가져간다. 최고 중재자 조합의 영주 효과와 단일 화력을 함께 담당하는 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 마법 공격",
@@ -5677,7 +5709,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "광역 물리 공격과 생존, 아군 버프를 함께 갖춘 전설 수호자. 공중 유닛까지 공격할 수 있어 전열을 지키면서 범위 공격과 대공 지원을 동시에 수행한다. 순수 탱커보다는 공격과 지원 능력을 함께 활용하는 다목적 수호자다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 물리 공격",
@@ -5737,7 +5771,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "단일 물리 공격과 지속 피해를 사용하는 에픽 궁수. 공중 유닛까지 공격할 수 있어 한 표적을 꾸준히 압박하면서 대공 자리도 맡을 수 있다. 순간 폭발력보다는 지속적으로 피해를 누적하는 운용에 어울리는 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 물리 공격",
@@ -6300,7 +6336,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "한 명의 아군을 집중적으로 회복하고 보호하는 전설 힐러. 광역 치유보다 단일 치유와 아군 보호에 초점이 맞춰져 있어 핵심 전열 영웅을 오래 유지시키는 역할이 분명하다. 특정 아군의 생존이 중요한 전투에서 안정성을 높여주는 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 치유",
@@ -6358,7 +6396,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "광역 마법 공격과 지속 피해에 아군 버프를 더하는 에픽 마법사. 공중 유닛까지 공격할 수 있어 다수전과 대공을 동시에 맡으면서 아군 전투력도 보조한다. 공격과 지원을 함께 배치하고 싶을 때 활용하기 좋은 복합형 마법사다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 마법 공격",
@@ -6620,7 +6660,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "단일 마법 공격을 사용하는 에픽 궁수로, 공중 유닛까지 공격할 수 있다. 물리 궁수와 달리 마법 피해로 한 표적을 노릴 수 있어 적의 방어 성향에 따라 다른 선택지를 제공한다. 역할이 단순한 만큼 배치 목적이 명확한 대공 단일 딜러다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 마법 공격",
@@ -7027,7 +7069,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "아군 보호와 버프에 초점을 맞춘 전설 수호자. 전열에서 적을 받아내면서 주변 아군의 생존과 전투 능력을 보조하고, 공중 유닛 공격까지 가능해 지원 범위가 넓다. 직접 화력보다는 파티 전체의 안정성을 높이는 지원형 탱커에 가깝다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "아군 보호",
@@ -7689,7 +7733,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "다단 단일 마법 공격과 강력 제어를 함께 사용하는 전설 전사. 공중 유닛까지 공격할 수 있어 한 표적을 지속적으로 압박하면서 필요한 순간 제어까지 걸 수 있다. 단일 화력과 행동 제어를 동시에 원하는 전열 조합에 잘 맞는다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 마법 공격",
@@ -8153,7 +8199,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "다단 단일 마법 공격에 아군 버프와 보호를 함께 갖춘 전설 마법사. 공중 유닛까지 공격할 수 있어 대공 단일 화력을 제공하면서 동시에 아군 생존과 전투력도 보조한다. 공격과 지원 비중이 모두 높은 다기능형 마법사다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "다단 공격",
@@ -8230,7 +8278,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "다단 단일 물리 공격과 대공 능력을 갖춘 관성의 화살 전설 영주 궁수. 한 표적에 연속 공격을 집중하면서 공중 유닛까지 안정적으로 상대할 수 있다. 관성의 화살 조합에서 영주 효과와 주력 단일 화력을 함께 맡는 핵심 원거리 딜러다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 물리 공격",
@@ -8348,7 +8398,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "광역 마법 공격과 지속 피해를 사용하는 에픽 전사. 여러 적을 동시에 타격하면서 피해를 남겨 전열 주변에 몰린 적을 꾸준히 압박한다. 단발 공격보다는 범위 피해를 이어가며 적의 체력을 깎는 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 마법 공격",
@@ -8558,7 +8610,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 2026년 최신 Prospector's Digsite 영웅 DB 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 2026년 최신 Prospector's Digsite 영웅 DB 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "매우 먼 사거리에서 광역 물리 공격을 가하고 방어 무시를 활용하는 혼돈 정복자 전설 영주 궁수. 공중 유닛까지 공격할 수 있어 넓은 범위의 적을 안전한 위치에서 압박한다. 혼돈 정복자 조합의 영주 효과와 장거리 광역 화력을 함께 제공하는 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 물리 공격",
@@ -8701,7 +8755,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "광역 마법 공격, 소환, 강력 제어, 아군 버프를 함께 갖춘 전설 마법사. 공중 유닛까지 공격할 수 있어 다수전과 대공을 처리하면서 소환과 제어로 전장 흐름을 보조한다. 한 가지 역할에 치우치지 않은 복합형 지원 마법사다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 마법 공격",
@@ -8769,7 +8825,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "매우 먼 사거리에서 광역 물리 공격을 가하고 아군 버프까지 제공하는 전설 궁수. 공중 유닛도 공격할 수 있어 후방에서 다수 적과 비행 적을 동시에 압박한다. 장거리 광역 화력과 지원 효과를 한 자리에서 확보할 수 있는 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 물리 공격",
@@ -8829,7 +8887,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "단일 마법 공격과 고정 피해를 사용하는 에픽 마법사. 공중 유닛까지 공격할 수 있어 한 표적을 마법 피해와 고정 피해로 꾸준히 압박하면서 대공 역할도 맡는다. 방어 방식에 덜 흔들리는 추가 피해가 필요한 조합에서 선택지가 된다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 마법 공격",
@@ -9177,7 +9237,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "넓은 범위의 적에게 광역 마법 피해를 가하는 전설 마법사. 공중 유닛까지 공격할 수 있어 지상·공중이 섞인 다수전을 한 자리에서 처리하기 좋다. 역할이 명확한 광역 딜러로, 여러 적이 겹치는 구간에서 강점을 살리기 쉽다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 마법 공격",
@@ -9758,7 +9820,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "매우 먼 사거리에서 단일 물리 공격을 가하고 방어 무시를 활용하는 전설 궁수. 공중 유닛까지 공격할 수 있어 후방 안전지대에서 우선 표적을 오래 압박하는 데 적합하다. 긴 사거리와 단일 화력을 중시하는 원거리 딜러다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 물리 공격",
@@ -9973,7 +10037,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "아군 버프와 분노 회복에 특화된 에픽 마법사. 직접 화력보다 주변 아군의 궁극기 순환과 전투 능력을 끌어올리는 지원 역할이 핵심이며, 공중 유닛도 공격할 수 있다. 짧은 시간이라도 아군 스킬 회전을 빠르게 만드는 데 가치가 있는 보조형 영웅이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "아군 버프",
@@ -10159,7 +10225,9 @@
       "awakeningUnavailable": true,
       "awakeningUnavailableText": "해외 DB 기준 A1~A5 각성 정보가 제공되지 않는 일반 등급 영웅입니다.",
       "updated": "2026-09",
-      "note": "각성 정보 유무는 Watcher of Realms Wiki(Fandom) 기준으로 확인했습니다."
+      "note": "각성 정보 유무는 Watcher of Realms Wiki(Fandom) 기준으로 확인했습니다.",
+      "verifiedIntro": "단일 물리 공격과 지속 피해를 사용하는 일반 등급 궁수. 공중 유닛까지 공격할 수 있어 초반 단일·대공 자리를 채우는 기본형 영웅이다. 높은 등급의 원거리 딜러를 확보하기 전까지 꾸준한 피해를 보태는 역할로 사용할 수 있다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 물리 공격",
@@ -10294,7 +10362,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "단일 치유와 아군 보호에 집중된 에픽 힐러. 여러 명을 넓게 회복하기보다 위험한 아군 한 명을 꾸준히 살리는 데 초점이 맞춰져 있다. 핵심 탱커나 전사의 생존을 안정시키고 싶을 때 역할이 분명한 힐러다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 치유",
@@ -10798,7 +10868,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "다단 단일 물리 공격과 대공 능력을 갖춘 관성의 화살 에픽 영주 궁수. 한 표적을 연속으로 공격하면서 공중 유닛까지 상대하고, 영주 효과를 통해 관성의 화살 조합을 보조한다. 전설 영주가 없을 때도 진영 구성을 가능하게 해주는 실용적인 영주형 궁수다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 물리 공격",
@@ -11948,7 +12020,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "단일 마법 공격과 지속 피해, 아군 버프를 함께 갖춘 비법회 전설 영주 마법사. 공중 유닛까지 공격할 수 있어 한 표적을 지속적으로 압박하면서 진영 아군의 전투도 보조한다. 비법회 조합에서 영주 효과와 단일 마법 화력을 동시에 맡는 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 마법 공격",
@@ -12077,7 +12151,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "다단 단일 마법 공격과 강력 제어를 사용하는 에픽 마법사. 공중 유닛까지 공격할 수 있어 한 표적을 연속 타격하면서 행동 제어를 걸고 대공까지 담당한다. 단일 화력과 제어를 함께 요구하는 자리에서 쓰기 좋은 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 마법 공격",
@@ -12235,7 +12311,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "단일 치유에 아군 버프·보호와 방어 제거를 함께 갖춘 전설 힐러. 핵심 아군 한 명을 집중적으로 회복하면서 생존 보조와 전투 지원을 동시에 제공한다. 회복 외 기능이 많아 특정 딜러나 전열 영웅을 중심으로 조합을 짤 때 유용한 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 치유",
@@ -12362,7 +12440,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "단일 마법 공격과 지속 피해를 사용하는 에픽 마법사. 공중 유닛까지 공격할 수 있어 한 표적에 피해를 누적하면서 대공 자리도 맡는다. 순간 폭발보다는 지속적으로 마법 피해를 이어가는 운용에 잘 맞는다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 마법 공격",
@@ -12421,7 +12501,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "광역 치유, 방어 제거, 아군 버프를 함께 제공하는 에픽 힐러. 여러 아군의 체력을 동시에 회복하면서 불리한 효과를 정리하고 전투 능력도 보조한다. 회복과 지원을 균형 있게 가져가는 범용형 힐러다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 치유",
@@ -12580,7 +12662,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "단일 마법 공격에 지속 피해와 강력 제어를 더하는 전설 전사. 공중 유닛까지 공격할 수 있어 한 표적을 압박하면서 행동을 제한하고 대공까지 맡는다. 직접 화력과 제어를 함께 활용하는 공격형 전열 영웅이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 마법 공격",
@@ -12653,7 +12737,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "매우 먼 사거리에서 광역 물리 공격을 가하는 전설 궁수. 공중 유닛까지 공격할 수 있어 후방에서 넓은 지역의 지상·공중 적을 동시에 압박한다. 복잡한 지원 기능보다 긴 사거리와 범위 화력 자체에 강점이 있는 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 물리 공격",
@@ -12780,7 +12866,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 최신 Prospector's Digsite 및 Watcher of Realms Wiki(Fandom) 기준으로 교차 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 최신 Prospector's Digsite 및 Watcher of Realms Wiki(Fandom) 기준으로 교차 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "매우 먼 사거리의 광역 물리 공격과 강력 제어, 아군 버프, 고정 피해를 갖춘 최고 중재자 전설 영주 전사. 장거리 범위 공격으로 적을 압박하면서 제어와 지원까지 더할 수 있다. 최고 중재자 조합에서 영주 효과와 다기능 화력을 함께 맡는 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 물리 공격",
@@ -12967,7 +13055,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "광역 마법 공격에 지속 피해와 고정 피해를 함께 사용하는 전설 궁수. 공중 유닛까지 공격할 수 있어 지상·공중이 섞인 다수전에서 여러 형태의 피해를 누적한다. 방어 방식에 따라 피해가 크게 흔들리지 않도록 다양한 공격 수단을 갖춘 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 마법 공격",
@@ -13122,7 +13212,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 최신 Prospector's Digsite 및 Watcher of Realms Wiki(Fandom) 기준으로 교차 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 최신 Prospector's Digsite 및 Watcher of Realms Wiki(Fandom) 기준으로 교차 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "다단 단일 마법 공격과 고정 피해·지속 피해를 함께 사용하는 최고 중재자 전설 영주 마법사. 공중 유닛까지 공격할 수 있어 한 표적에 여러 형태의 피해를 집중한다. 최고 중재자 조합의 영주 효과와 강한 단일 압박을 동시에 담당하는 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 마법 공격",
@@ -13243,7 +13335,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "광역 마법 공격과 대공 능력을 갖춘 비법회 에픽 영주 마법사. 여러 적을 동시에 공격하면서 공중 유닛까지 처리할 수 있어 진영 구성의 기본 축으로 쓰기 쉽다. 비법회 전설 영주가 없을 때 영주 효과와 광역 마법 자리를 함께 채울 수 있다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 마법 공격",
@@ -13381,7 +13475,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "매우 먼 사거리에서 광역 물리 공격을 가하는 전설 궁수. 공중 유닛까지 공격할 수 있어 넓은 지역의 적을 안전한 후방에서 처리하는 데 초점이 맞춰져 있다. 장거리 범위 화력과 대공을 동시에 원하는 자리에서 역할이 명확하다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 물리 공격",
@@ -13847,7 +13943,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "매우 먼 사거리에서 단일 물리 공격을 가하고 아군 버프를 제공하는 전설 궁수. 공중 유닛까지 공격할 수 있어 후방에서 우선 표적을 압박하면서 주변 아군의 전투도 보조한다. 장거리 단일 화력과 지원을 함께 가져가는 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 물리 공격",
@@ -14131,7 +14229,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "다단 단일 물리 공격에 지속 피해와 방어 무시를 더하는 전설 궁수. 공중 유닛까지 공격할 수 있어 한 표적을 연속 타격하면서 방어 영향을 줄이고 피해를 누적한다. 강한 단일 압박과 대공을 함께 원하는 조합에 잘 맞는다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 물리 공격",
@@ -14256,7 +14356,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "다단 단일 마법 공격에 집중된 전설 전사. 한 표적을 연속으로 공격해 마법 피해를 누적하는 역할이 명확하다. 별도의 광역·지원 기능보다 직접적인 단일 공격 비중이 높은 근접 딜러다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 마법 공격",
@@ -14314,7 +14416,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "광역 마법 공격과 아군 버프를 함께 제공하는 에픽 마법사. 공중 유닛까지 공격할 수 있어 여러 적을 처리하면서 아군 화력도 보조한다. 범위 딜과 지원을 한 자리에서 확보하고 싶은 조합에 넣기 좋은 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 마법 공격",
@@ -14373,7 +14477,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "단일 마법 공격을 사용하는 전설 마법사로, 공중 유닛까지 공격할 수 있다. 역할 구성이 단순해 우선 표적에게 마법 피해를 꾸준히 집중하는 데 초점이 맞춰져 있다. 지상·공중을 가리지 않는 단일 마법 딜러가 필요할 때 선택하기 쉽다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 마법 공격",
@@ -14666,7 +14772,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "단일 물리 공격과 방어 무시를 중심으로 하는 전설 궁수. 공중 유닛까지 공격할 수 있어 한 표적에 높은 물리 화력을 집중하면서 방어가 높은 적에게도 압박을 이어간다. 대공과 단일 딜을 동시에 요구하는 자리에서 강점을 살리기 좋은 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 물리 공격",
@@ -15184,7 +15292,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "단일 물리 공격과 방어 무시, 소환을 함께 사용하는 전설 궁수. 공중 유닛까지 공격할 수 있어 본체의 단일 화력에 소환 요소를 더해 전장을 압박한다. 직접 공격과 추가 전력을 함께 활용하는 복합형 원거리 딜러다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 물리 공격",
@@ -15340,7 +15450,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "광역 치유에 방어 제거, 아군 버프, 아군 보호를 모두 갖춘 전설 힐러. 여러 아군의 체력을 회복하면서 불리한 효과를 정리하고 생존과 전투 능력까지 함께 보조한다. 파티 전체를 폭넓게 지원하는 다기능형 힐러다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 치유",
@@ -15400,7 +15512,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "다단 단일 물리 공격을 사용하는 에픽 궁수. 공중 유닛까지 공격할 수 있어 한 표적을 연속 타격하면서 대공 역할도 맡는다. 단순하고 직관적인 단일·대공 화력이 필요한 초중반 조합에서 활용하기 쉽다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 물리 공격",
@@ -15475,7 +15589,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "광역 마법 공격에 강력 제어, 아군 버프, 지속 피해를 함께 갖춘 전설 전사. 여러 적을 동시에 압박하면서 행동을 제한하고 피해를 누적하며 아군까지 보조한다. 범위 딜과 제어, 지원을 한꺼번에 수행하는 다기능 전열 영웅이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 마법 공격",
@@ -15541,7 +15657,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "광역 물리 공격과 대공 능력을 갖춘 에픽 궁수. 여러 적을 동시에 공격하면서 공중 유닛까지 처리할 수 있어 범위 물리 화력이 부족한 구간을 채우기 좋다. 역할이 단순한 만큼 다수전에서 배치 목적이 분명한 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 물리 공격",
@@ -15796,7 +15914,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "높은 가드와 아군 보호에 특화된 전설 수호자. 많은 적을 막아내는 전열 역할과 함께 주변 아군의 생존을 보조하는 데 초점이 맞춰져 있다. 직접 공격보다 라인을 안정시키고 아군을 지키는 순수 보호형 탱커에 가깝다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "높은 가드",
@@ -16098,7 +16218,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 사용자가 제공한 한국 서버 게임 내 스크린샷 기준으로 확인했습니다."
+      "note": "각성 효과는 사용자가 제공한 한국 서버 게임 내 스크린샷 기준으로 확인했습니다.",
+      "verifiedIntro": "광역 마법 공격, 위치 이동, 고정 피해, 은신을 함께 사용하는 전설 전술마스터. 공중 유닛까지 공격할 수 있어 배치 위치를 바꾸며 지상·공중 다수전을 대응하고 고정 피해로 추가 압박을 준다. 기동성과 범위 화력을 동시에 활용하는 전술형 영웅이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 마법 공격",
@@ -16175,7 +16297,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 2026년 최신 Prospector's Digsite 영웅 DB 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 2026년 최신 Prospector's Digsite 영웅 DB 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "단일 물리 공격과 높은 생존력, 아군 버프를 갖춘 혼돈 정복자 전설 영주 전사. 전열에서 한 표적을 지속적으로 압박하면서 자신이 버티고 진영 아군의 전투 능력도 끌어올린다. 혼돈 정복자 조합의 영주 효과와 전열 화력을 동시에 책임지는 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 물리 공격",
@@ -16409,7 +16533,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "은신과 단일 물리 공격을 사용하는 에픽 궁수. 공중 유닛까지 공격할 수 있어 비교적 안전하게 우선 표적을 노리면서 대공 역할을 맡는다. 생존 부담을 줄인 단일 원거리 딜러가 필요할 때 활용하기 좋은 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 물리 공격",
@@ -16459,7 +16585,9 @@
       "awakeningUnavailable": true,
       "awakeningUnavailableText": "해외 DB 기준 A1~A5 각성 효과가 아직 제공되지 않는 영웅입니다.",
       "updated": "2026-09",
-      "note": "각성 정보 유무는 Prospector's Digsite 기준으로 확인했습니다."
+      "note": "각성 정보 유무는 Prospector's Digsite 기준으로 확인했습니다.",
+      "verifiedIntro": "광역 마법 공격, 강력 제어, 소환을 함께 사용하는 전설 마법사. 공중 유닛까지 공격할 수 있어 다수전과 대공을 담당하면서 소환과 제어로 전장의 흐름을 바꾼다. 직접 화력 외에도 추가 전력과 군중 제어를 함께 활용하는 복합형 마법사다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 마법 공격",
@@ -16593,7 +16721,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "광역 마법 공격과 지속 피해를 사용하는 비법회 전설 영주 마법사. 공중 유닛까지 공격할 수 있어 다수의 지상·공중 적에게 마법 피해를 누적하고, 영주 효과로 비법회 조합을 이끈다. 광역 지속 화력과 진영 지원을 함께 맡는 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 마법 공격",
@@ -16659,7 +16789,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "단일 물리 공격과 방어 무시를 사용하는 전설 궁수. 공중 유닛까지 공격할 수 있어 한 표적을 꾸준히 압박하면서 방어가 높은 적에게도 피해를 넣기 쉽다. 역할이 선명한 단일·대공 물리 딜러다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 물리 공격",
@@ -16870,7 +17002,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "단일 마법 공격과 지속 피해, 아군 버프를 갖춘 비법회 에픽 영주 마법사. 공중 유닛까지 공격할 수 있어 한 표적을 지속적으로 압박하면서 진영 아군의 전투도 보조한다. 비법회 조합에서 영주 효과와 단일 지원 화력을 동시에 제공하는 타입이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 마법 공격",
@@ -17220,7 +17354,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "단일 마법 공격과 지속 피해에 아군 버프와 공격 제거를 더한 전설 궁수. 공중 유닛까지 공격할 수 있어 한 표적을 압박하면서 적의 강화 상태를 정리하고 아군 전투도 보조한다. 단일 화력과 유틸리티 비중이 모두 높은 원거리 영웅이다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 마법 공격",
@@ -17555,7 +17691,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 WoR Codex) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "단일 마법 공격과 공격 제거에 특화된 에픽 전사. 적에게 직접 마법 피해를 주면서 유리한 강화 효과를 제거하는 역할이 핵심이다. 순수 딜러보다는 특정 적의 버프를 끊어 전투를 안정시키는 대응형 영웅에 가깝다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "단일 마법 공격",
@@ -17686,7 +17824,9 @@
         }
       ],
       "updated": "2026-09",
-      "note": "각성 효과는 Watcher of Realms Wiki(Fandom)와 2026-04-22 공식 밸런스 패치 내용을 대조해 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다."
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom)와 2026-04-22 공식 밸런스 패치 내용을 대조해 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "광역 물리 공격과 강력 제어를 함께 사용하는 전설 전사. 공중 유닛까지 공격할 수 있어 넓은 범위의 지상·공중 적을 동시에 압박하면서 행동을 제한한다. 범위 화력과 제어, 대공을 한 전열 슬롯에서 해결하는 다목적 전사다.",
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
     },
     "traits": [
       "광역 물리 공격",
