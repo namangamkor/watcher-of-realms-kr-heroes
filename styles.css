@@ -267,7 +267,7 @@ h1 span { color:#abb5c5; }
   font-size:17px;
 }
 
-.faction-section { padding:16px 0 44px; }
+.faction-section { padding:16px 0 26px; }
 .section-title h2,.roster-head h2 {
   margin:0;
   font-size:28px;
@@ -312,7 +312,7 @@ h1 span { color:#abb5c5; }
 }
 
 .roster {
-  padding:36px 0 70px;
+  padding:24px 0 70px;
   border-top:1px solid rgba(255,255,255,.06);
 }
 .roster-head {
@@ -335,7 +335,13 @@ h1 span { color:#abb5c5; }
 .count-badge strong { color:var(--gold2); font-size:30px; }
 .count-badge span { font-size:13px; }
 
-.filters { margin:24px 0; display:grid; gap:10px; }
+
+/* v2.13.4c: compact transition from faction picker to hero list */
+.roster-head .section-kicker { margin-bottom:5px; }
+.roster-head h2 { font-size:25px; }
+.roster-head p:last-child { margin-top:5px; }
+.faction-select-count[hidden] { display:none !important; }
+.filters { margin:16px 0 24px; display:grid; gap:10px; }
 .filter-group {
   display:flex; flex-wrap:wrap; align-items:center; gap:7px;
 }

@@ -329,11 +329,11 @@ function updateFactionSelectState(searchMode = false) {
   if (factionSelectKr) factionSelectKr.textContent = meta.kr;
   if (factionSelectEn) factionSelectEn.textContent = meta.en;
   if (factionSelectCount) {
+    const shouldShowCount = searchMode || currentFaction !== "all";
+    factionSelectCount.hidden = !shouldShowCount;
     factionSelectCount.textContent = searchMode
       ? "전 진영 검색 중"
-      : currentFaction === "all"
-        ? `${resolvedTotal}명 등록`
-        : `${resolvedTotal} / ${resolvedTotal} 등록`;
+      : `${resolvedTotal}명`;
   }
   if (factionSelectEmblem && selectedOption) {
     factionSelectEmblem.textContent = selectedOption.dataset.emblem || "◎";
@@ -374,9 +374,10 @@ function toggleFactionSelect() {
 }
 
 function updateFactionHeader(meta) {
-  if (rosterKicker) rosterKicker.textContent = meta.en.toUpperCase();
+  if (rosterKicker) rosterKicker.textContent = "FACTION HEROES";
   if (rosterTitle) rosterTitle.textContent = meta.kr;
   if (totalCount) totalCount.textContent = meta.total;
+  if (resultSummary) resultSummary.textContent = "선택한 진영의 영웅 목록입니다.";
 
   if (dataNote) {
     dataNote.textContent =
@@ -385,16 +386,15 @@ function updateFactionHeader(meta) {
 }
 
 function updateAllHeroesHeader(resultCount) {
-  if (rosterKicker) rosterKicker.textContent = "ALL HEROES";
-  if (rosterTitle) rosterTitle.textContent = "전체 영웅";
+  if (rosterKicker) rosterKicker.textContent = "HERO INDEX";
+  if (rosterTitle) rosterTitle.textContent = "영웅 목록";
   if (totalCount) totalCount.textContent = heroes.length;
 
   if (resultSummary) {
     if (active.rarity !== "all" || active.class !== "all" || active.content !== "all" || active.collection !== "all") {
-      resultSummary.textContent =
-        `조건에 맞는 영웅 ${resultCount}명 · 고유 영웅 ${heroes.length}명`;
+      resultSummary.textContent = `필터 적용 · ${resultCount}명 표시`;
     } else {
-      resultSummary.textContent = `고유 영웅 ${heroes.length}명 등록 완료`;
+      resultSummary.textContent = "필터로 원하는 영웅을 빠르게 찾아보세요.";
     }
   }
 
@@ -495,10 +495,9 @@ function render() {
   visibleCount.textContent = filtered.length;
 
   if (active.rarity !== "all" || active.class !== "all" || active.content !== "all" || active.collection !== "all") {
-    resultSummary.textContent =
-      `조건에 맞는 영웅 ${filtered.length}명 · 전체 등록 ${meta.total}명`;
+    resultSummary.textContent = `필터 적용 · ${filtered.length}명 표시`;
   } else {
-    resultSummary.textContent = `${meta.kr} 영웅 ${meta.total}명 등록 완료`;
+    resultSummary.textContent = "선택한 진영의 영웅 목록입니다.";
   }
 }
 
