@@ -4877,3 +4877,153 @@ body.modal-open {
         rgba(41, 38, 64, .46) 100%);
   }
 }
+
+
+/* =========================================================
+   v2.13.4r — raised search module / soft 3D depth
+   Goal: outer shell feels like a slightly raised lavender card.
+   Inner field remains the strongest interactive target.
+   ========================================================= */
+
+.hero > .searchbox {
+  position: relative;
+  isolation: isolate;
+  border: 1px solid rgba(199, 184, 255, .62);
+  background:
+    radial-gradient(120% 110% at 10% 0%,
+      rgba(179, 151, 255, .20) 0%,
+      rgba(132, 101, 205, .12) 28%,
+      rgba(75, 62, 110, .10) 52%,
+      rgba(36, 34, 56, .00) 74%),
+    linear-gradient(180deg,
+      rgba(73, 61, 102, .76) 0%,
+      rgba(54, 47, 80, .72) 42%,
+      rgba(38, 35, 59, .84) 100%);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, .10) inset,
+    0 -1px 0 rgba(75, 54, 128, .20) inset,
+    0 10px 18px rgba(0, 0, 0, .24),
+    0 20px 38px rgba(32, 19, 65, .22);
+  transform: translateZ(0);
+}
+
+/* soft top sheen – creates a raised plate rather than a flat bar */
+.hero > .searchbox::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 1px 1px auto 1px;
+  height: 48%;
+  border-radius: inherit;
+  background:
+    linear-gradient(180deg,
+      rgba(255, 255, 255, .075) 0%,
+      rgba(213, 198, 255, .035) 48%,
+      rgba(255, 255, 255, 0) 100%);
+  pointer-events: none;
+}
+
+/* very subtle underside shadow/rim */
+.hero > .searchbox::after {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  left: 2.2%;
+  right: 2.2%;
+  bottom: -8px;
+  height: 18px;
+  border-radius: 50%;
+  background: rgba(49, 29, 92, .20);
+  filter: blur(12px);
+  pointer-events: none;
+}
+
+.hero > .searchbox:hover {
+  border-color: rgba(211, 197, 255, .74);
+  background:
+    radial-gradient(120% 110% at 10% 0%,
+      rgba(190, 164, 255, .24) 0%,
+      rgba(143, 111, 218, .15) 30%,
+      rgba(80, 66, 116, .11) 54%,
+      rgba(38, 35, 59, .00) 75%),
+    linear-gradient(180deg,
+      rgba(79, 66, 111, .80) 0%,
+      rgba(58, 50, 86, .76) 42%,
+      rgba(40, 37, 62, .88) 100%);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, .12) inset,
+    0 -1px 0 rgba(81, 59, 138, .22) inset,
+    0 12px 20px rgba(0, 0, 0, .26),
+    0 22px 42px rgba(35, 21, 72, .24);
+}
+
+.hero > .searchbox:focus-within {
+  border-color: rgba(218, 204, 255, .82);
+  background:
+    radial-gradient(120% 110% at 10% 0%,
+      rgba(197, 172, 255, .27) 0%,
+      rgba(150, 117, 226, .17) 30%,
+      rgba(83, 68, 121, .12) 54%,
+      rgba(40, 37, 62, .00) 75%),
+    linear-gradient(180deg,
+      rgba(82, 68, 116, .84) 0%,
+      rgba(60, 52, 90, .80) 42%,
+      rgba(42, 38, 65, .90) 100%);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, .13) inset,
+    0 -1px 0 rgba(87, 63, 145, .25) inset,
+    0 0 0 1px rgba(151, 103, 255, .08),
+    0 12px 22px rgba(0, 0, 0, .28),
+    0 0 28px rgba(139, 92, 246, .13),
+    0 24px 44px rgba(36, 22, 74, .25);
+}
+
+/* inner typing field: dark inset surface, visually embedded into the raised card */
+.hero > .searchbox .search-entry {
+  position: relative;
+  background:
+    linear-gradient(180deg,
+      rgba(28, 39, 62, .99) 0%,
+      rgba(20, 29, 48, .99) 100%);
+  box-shadow:
+    inset 0 2px 5px rgba(0, 0, 0, .28),
+    inset 0 1px 0 rgba(255, 255, 255, .025),
+    0 1px 0 rgba(255, 255, 255, .035);
+}
+
+/* label side gently joins the lavender shell */
+.hero > .searchbox .searchbox-label {
+  color: #f0e7ff;
+  text-shadow: 0 1px 0 rgba(0,0,0,.35);
+}
+
+.hero > .searchbox .search-icon {
+  color: #d7c7ff;
+  filter: drop-shadow(0 0 5px rgba(156, 108, 255, .20));
+}
+
+@media (max-width: 620px) {
+  .hero > .searchbox {
+    border-color: rgba(199, 184, 255, .54);
+    background:
+      radial-gradient(120% 110% at 12% 0%,
+        rgba(178, 151, 255, .16) 0%,
+        rgba(125, 96, 195, .10) 34%,
+        rgba(62, 53, 91, .08) 58%,
+        rgba(35, 33, 54, 0) 76%),
+      linear-gradient(180deg,
+        rgba(66, 56, 94, .74) 0%,
+        rgba(49, 44, 73, .72) 46%,
+        rgba(36, 34, 56, .86) 100%);
+    box-shadow:
+      0 1px 0 rgba(255,255,255,.085) inset,
+      0 9px 17px rgba(0,0,0,.24),
+      0 16px 30px rgba(34,21,67,.18);
+  }
+
+  .hero > .searchbox::after {
+    bottom: -5px;
+    height: 13px;
+    filter: blur(10px);
+  }
+}
