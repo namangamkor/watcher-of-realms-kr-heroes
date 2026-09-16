@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21304n-search-wrapper-purple";
+const CACHE_NAME = "namangam-wor-v21304o-search-wrapper-soft";
 
 const CORE_ASSETS = [
   "/styles.css?v=2.13.4m",

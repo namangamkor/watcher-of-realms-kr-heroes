@@ -4716,3 +4716,45 @@ body.modal-open {
       linear-gradient(180deg, rgba(26, 27, 45, .96), rgba(18, 23, 38, .97));
   }
 }
+
+
+/* =========================================================
+   v2.13.4o — soften outer purple search shell
+   Outer shell only connects the tone; inner field remains the focal point.
+   ========================================================= */
+.hero > .searchbox {
+  border-color: rgba(167, 139, 250, .18);
+  background:
+    radial-gradient(circle at 16% 50%, rgba(139, 92, 246, .070), transparent 34%),
+    linear-gradient(180deg, rgba(25, 27, 45, .96), rgba(18, 23, 38, .97));
+  box-shadow:
+    0 16px 42px rgba(0, 0, 0, .25),
+    inset 0 1px 0 rgba(255, 255, 255, .026);
+}
+
+.hero > .searchbox:hover {
+  border-color: rgba(167, 139, 250, .24);
+  background:
+    radial-gradient(circle at 16% 50%, rgba(139, 92, 246, .085), transparent 35%),
+    linear-gradient(180deg, rgba(27, 29, 48, .97), rgba(19, 24, 40, .98));
+}
+
+.hero > .searchbox:focus-within {
+  border-color: rgba(167, 139, 250, .30);
+  background:
+    radial-gradient(circle at 16% 50%, rgba(139, 92, 246, .10), transparent 36%),
+    linear-gradient(180deg, rgba(28, 30, 50, .98), rgba(20, 25, 42, .99));
+  box-shadow:
+    0 0 0 1px rgba(139, 92, 246, .045),
+    0 18px 46px rgba(0, 0, 0, .27),
+    inset 0 1px 0 rgba(255, 255, 255, .03);
+}
+
+@media (max-width: 620px) {
+  .hero > .searchbox {
+    border-color: rgba(167, 139, 250, .16);
+    background:
+      radial-gradient(circle at 14% 50%, rgba(139, 92, 246, .060), transparent 38%),
+      linear-gradient(180deg, rgba(24, 26, 43, .96), rgba(18, 23, 38, .97));
+  }
+}
