@@ -1,7 +1,7 @@
-const CACHE_NAME = "namangam-wor-v21304l-search-affordance";
+const CACHE_NAME = "namangam-wor-v21304m-search-purple-accent";
 
 const CORE_ASSETS = [
-  "/styles.css?v=2.13.4l",
+  "/styles.css?v=2.13.4m",
   "/app.js?v=2.13.4l",
   "/heroes.json?v=2.13.4",
   "/gear-presets.js?v=2.11.45c",

@@ -4609,3 +4609,66 @@ body.modal-open {
     font-size: 12px;
   }
 }
+
+
+/* =========================================================
+   v2.13.4m — search focal accent
+   Preserve the archive aesthetic while giving the search field
+   one unmistakable visual accent not used elsewhere on the page.
+   ========================================================= */
+.search-entry {
+  border: 3px solid rgba(139, 92, 246, .88);
+  background:
+    linear-gradient(180deg, rgba(24, 34, 53, .98), rgba(17, 26, 42, .96));
+  box-shadow:
+    0 0 0 1px rgba(139, 92, 246, .10),
+    0 0 20px rgba(139, 92, 246, .12),
+    inset 0 1px 0 rgba(255,255,255,.045),
+    inset 0 0 0 1px rgba(0,0,0,.10);
+}
+
+.hero > .searchbox:hover .search-entry {
+  border-color: rgba(155, 123, 248, .96);
+  background:
+    linear-gradient(180deg, rgba(27, 38, 59, .99), rgba(19, 29, 46, .97));
+  box-shadow:
+    0 0 0 1px rgba(155, 123, 248, .12),
+    0 0 24px rgba(139, 92, 246, .16),
+    inset 0 1px 0 rgba(255,255,255,.05);
+}
+
+.hero > .searchbox:focus-within .search-entry {
+  border-color: #a78bfa;
+  background:
+    linear-gradient(180deg, rgba(29, 41, 63, 1), rgba(20, 31, 49, .99));
+  box-shadow:
+    0 0 0 2px rgba(167, 139, 250, .18),
+    0 0 30px rgba(139, 92, 246, .24),
+    inset 0 1px 0 rgba(255,255,255,.055);
+}
+
+.search-entry input::placeholder {
+  color: #b7c4d8;
+}
+
+.search-language-cue {
+  border-color: rgba(167, 139, 250, .32);
+  background: rgba(74, 54, 122, .22);
+  color: #a99acb;
+}
+
+.hero > .searchbox:focus-within .search-language-cue {
+  border-color: rgba(167, 139, 250, .60);
+  background: rgba(91, 65, 151, .30);
+  color: #d4c8f5;
+}
+
+@media (max-width: 620px) {
+  .search-entry {
+    border-width: 2px;
+    box-shadow:
+      0 0 0 1px rgba(139, 92, 246, .10),
+      0 0 15px rgba(139, 92, 246, .11),
+      inset 0 1px 0 rgba(255,255,255,.04);
+  }
+}
