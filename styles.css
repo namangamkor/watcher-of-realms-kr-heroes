@@ -4672,3 +4672,47 @@ body.modal-open {
       inset 0 1px 0 rgba(255,255,255,.04);
   }
 }
+
+/* =========================================================
+   v2.13.4n — search wrapper tone bridge
+   Carry the purple search accent into the outer search shell
+   without turning the page into a purple-themed UI.
+   ========================================================= */
+.hero > .searchbox {
+  border-color: rgba(167, 139, 250, .34);
+  background:
+    radial-gradient(circle at 16% 50%, rgba(139, 92, 246, .095), transparent 34%),
+    linear-gradient(180deg, rgba(27, 28, 47, .96), rgba(18, 23, 38, .97));
+  box-shadow:
+    0 0 0 1px rgba(139, 92, 246, .055),
+    0 16px 42px rgba(0, 0, 0, .25),
+    inset 0 1px 0 rgba(255, 255, 255, .028);
+}
+
+.hero > .searchbox:hover {
+  border-color: rgba(167, 139, 250, .46);
+  background:
+    radial-gradient(circle at 16% 50%, rgba(139, 92, 246, .12), transparent 35%),
+    linear-gradient(180deg, rgba(30, 31, 52, .97), rgba(19, 25, 41, .98));
+}
+
+.hero > .searchbox:focus-within {
+  border-color: rgba(167, 139, 250, .58);
+  background:
+    radial-gradient(circle at 16% 50%, rgba(139, 92, 246, .14), transparent 36%),
+    linear-gradient(180deg, rgba(31, 33, 55, .98), rgba(20, 26, 43, .99));
+  box-shadow:
+    0 0 0 2px rgba(139, 92, 246, .075),
+    0 0 24px rgba(139, 92, 246, .075),
+    0 18px 46px rgba(0, 0, 0, .27),
+    inset 0 1px 0 rgba(255, 255, 255, .032);
+}
+
+@media (max-width: 620px) {
+  .hero > .searchbox {
+    border-color: rgba(167, 139, 250, .30);
+    background:
+      radial-gradient(circle at 14% 50%, rgba(139, 92, 246, .08), transparent 38%),
+      linear-gradient(180deg, rgba(26, 27, 45, .96), rgba(18, 23, 38, .97));
+  }
+}
