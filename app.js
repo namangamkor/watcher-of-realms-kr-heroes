@@ -565,8 +565,16 @@ fetch("./heroes.json?v=2.13.4")
     resultSummary.textContent = "영웅 데이터를 불러오지 못했습니다.";
   });
 
+function syncSearchClearButton() {
+  if (!clearSearch) return;
+  clearSearch.hidden = !searchInput.value.trim();
+}
+
+syncSearchClearButton();
+
 searchInput.addEventListener("input", () => {
   const query = searchInput.value.trim();
+  syncSearchClearButton();
 
   // 이름 검색은 전 진영 통합 검색 모드.
   // 검색을 시작하는 순간 기존 희귀도/직업/콘텐츠/수집가치 필터를 전체로 초기화한다.
@@ -579,6 +587,7 @@ searchInput.addEventListener("input", () => {
 
 clearSearch.addEventListener("click", () => {
   searchInput.value = "";
+  syncSearchClearButton();
   setAllFilters();
   render();
   searchInput.focus();

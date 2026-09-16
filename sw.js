@@ -1,8 +1,8 @@
-const CACHE_NAME = "namangam-wor-v21304k-comment-form";
+const CACHE_NAME = "namangam-wor-v21304l-search-affordance";
 
 const CORE_ASSETS = [
-  "/styles.css?v=2.13.4h",
-  "/app.js?v=2.13.4g",
+  "/styles.css?v=2.13.4l",
+  "/app.js?v=2.13.4l",
   "/heroes.json?v=2.13.4",
   "/gear-presets.js?v=2.11.45c",
   "/gear-presets.json",
