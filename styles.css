@@ -5000,3 +5000,50 @@ body.modal-open {
       inset 0 1px 0 rgba(255,255,255,.045);
   }
 }
+
+
+/* =========================================================
+   v2.13.4t — crystal blue left-side brightness -10%
+   Only the outer search card's left blue highlight is toned down.
+   Inner input field, border, gold label, and overall structure stay unchanged.
+   ========================================================= */
+.hero > .searchbox {
+  background:
+    radial-gradient(circle at 12% 50%, rgba(57, 105, 193, .26), transparent 28%),
+    linear-gradient(90deg,
+      rgba(40, 57, 91, .62) 0%,
+      rgba(34, 48, 78, .52) 22%,
+      rgba(24, 31, 49, .46) 56%,
+      rgba(18, 23, 36, .42) 100%);
+}
+
+.hero > .searchbox:hover {
+  background:
+    radial-gradient(circle at 12% 50%, rgba(63, 118, 212, .30), transparent 29%),
+    linear-gradient(90deg,
+      rgba(44, 64, 101, .68) 0%,
+      rgba(37, 53, 87, .58) 22%,
+      rgba(26, 34, 54, .50) 56%,
+      rgba(19, 25, 39, .46) 100%);
+}
+
+.hero > .searchbox:focus-within {
+  background:
+    radial-gradient(circle at 12% 50%, rgba(77, 141, 230, .34), transparent 30%),
+    linear-gradient(90deg,
+      rgba(50, 70, 110, .74) 0%,
+      rgba(40, 58, 95, .64) 22%,
+      rgba(28, 37, 58, .56) 56%,
+      rgba(20, 27, 42, .52) 100%);
+}
+
+@media (max-width: 620px) {
+  .hero > .searchbox {
+    background:
+      radial-gradient(circle at 10% 50%, rgba(57, 105, 193, .22), transparent 33%),
+      linear-gradient(90deg,
+        rgba(36, 52, 83, .60) 0%,
+        rgba(29, 42, 68, .50) 34%,
+        rgba(19, 25, 39, .44) 100%);
+  }
+}
