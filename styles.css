@@ -4878,152 +4878,125 @@ body.modal-open {
   }
 }
 
-
 /* =========================================================
-   v2.13.4r — raised search module / soft 3D depth
-   Goal: outer shell feels like a slightly raised lavender card.
-   Inner field remains the strongest interactive target.
+   v2.13.4s — crystal blue search accent
+   Replace the purple search treatment with a brand-aligned
+   crystal/cobalt blue accent while keeping the search area
+   obviously discoverable and visually elevated.
    ========================================================= */
-
 .hero > .searchbox {
-  position: relative;
-  isolation: isolate;
-  border: 1px solid rgba(199, 184, 255, .62);
+  border: 1px solid rgba(83, 140, 235, .34);
   background:
-    radial-gradient(120% 110% at 10% 0%,
-      rgba(179, 151, 255, .20) 0%,
-      rgba(132, 101, 205, .12) 28%,
-      rgba(75, 62, 110, .10) 52%,
-      rgba(36, 34, 56, .00) 74%),
-    linear-gradient(180deg,
-      rgba(73, 61, 102, .76) 0%,
-      rgba(54, 47, 80, .72) 42%,
-      rgba(38, 35, 59, .84) 100%);
+    radial-gradient(circle at 12% 50%, rgba(63, 117, 214, .26), transparent 28%),
+    linear-gradient(90deg,
+      rgba(44, 63, 101, .62) 0%,
+      rgba(34, 48, 78, .52) 22%,
+      rgba(24, 31, 49, .46) 56%,
+      rgba(18, 23, 36, .42) 100%);
   box-shadow:
-    0 1px 0 rgba(255, 255, 255, .10) inset,
-    0 -1px 0 rgba(75, 54, 128, .20) inset,
-    0 10px 18px rgba(0, 0, 0, .24),
-    0 20px 38px rgba(32, 19, 65, .22);
-  transform: translateZ(0);
-}
-
-/* soft top sheen – creates a raised plate rather than a flat bar */
-.hero > .searchbox::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  inset: 1px 1px auto 1px;
-  height: 48%;
-  border-radius: inherit;
-  background:
-    linear-gradient(180deg,
-      rgba(255, 255, 255, .075) 0%,
-      rgba(213, 198, 255, .035) 48%,
-      rgba(255, 255, 255, 0) 100%);
-  pointer-events: none;
-}
-
-/* very subtle underside shadow/rim */
-.hero > .searchbox::after {
-  content: "";
-  position: absolute;
-  z-index: -2;
-  left: 2.2%;
-  right: 2.2%;
-  bottom: -8px;
-  height: 18px;
-  border-radius: 50%;
-  background: rgba(49, 29, 92, .20);
-  filter: blur(12px);
-  pointer-events: none;
+    inset 0 1px 0 rgba(255,255,255,.05),
+    0 14px 34px rgba(10, 22, 48, .22),
+    0 0 0 1px rgba(79, 168, 255, .04);
 }
 
 .hero > .searchbox:hover {
-  border-color: rgba(211, 197, 255, .74);
+  border-color: rgba(101, 184, 255, .44);
   background:
-    radial-gradient(120% 110% at 10% 0%,
-      rgba(190, 164, 255, .24) 0%,
-      rgba(143, 111, 218, .15) 30%,
-      rgba(80, 66, 116, .11) 54%,
-      rgba(38, 35, 59, .00) 75%),
-    linear-gradient(180deg,
-      rgba(79, 66, 111, .80) 0%,
-      rgba(58, 50, 86, .76) 42%,
-      rgba(40, 37, 62, .88) 100%);
-  box-shadow:
-    0 1px 0 rgba(255, 255, 255, .12) inset,
-    0 -1px 0 rgba(81, 59, 138, .22) inset,
-    0 12px 20px rgba(0, 0, 0, .26),
-    0 22px 42px rgba(35, 21, 72, .24);
+    radial-gradient(circle at 12% 50%, rgba(70, 131, 236, .30), transparent 29%),
+    linear-gradient(90deg,
+      rgba(49, 71, 112, .68) 0%,
+      rgba(37, 53, 87, .58) 22%,
+      rgba(26, 34, 54, .50) 56%,
+      rgba(19, 25, 39, .46) 100%);
 }
 
 .hero > .searchbox:focus-within {
-  border-color: rgba(218, 204, 255, .82);
+  border-color: rgba(123, 203, 255, .54);
   background:
-    radial-gradient(120% 110% at 10% 0%,
-      rgba(197, 172, 255, .27) 0%,
-      rgba(150, 117, 226, .17) 30%,
-      rgba(83, 68, 121, .12) 54%,
-      rgba(40, 37, 62, .00) 75%),
-    linear-gradient(180deg,
-      rgba(82, 68, 116, .84) 0%,
-      rgba(60, 52, 90, .80) 42%,
-      rgba(42, 38, 65, .90) 100%);
+    radial-gradient(circle at 12% 50%, rgba(86, 157, 255, .34), transparent 30%),
+    linear-gradient(90deg,
+      rgba(55, 78, 122, .74) 0%,
+      rgba(40, 58, 95, .64) 22%,
+      rgba(28, 37, 58, .56) 56%,
+      rgba(20, 27, 42, .52) 100%);
   box-shadow:
-    0 1px 0 rgba(255, 255, 255, .13) inset,
-    0 -1px 0 rgba(87, 63, 145, .25) inset,
-    0 0 0 1px rgba(151, 103, 255, .08),
-    0 12px 22px rgba(0, 0, 0, .28),
-    0 0 28px rgba(139, 92, 246, .13),
-    0 24px 44px rgba(36, 22, 74, .25);
+    inset 0 1px 0 rgba(255,255,255,.06),
+    0 0 20px rgba(79,168,255,.10),
+    0 16px 36px rgba(10, 22, 48, .24);
 }
 
-/* inner typing field: dark inset surface, visually embedded into the raised card */
-.hero > .searchbox .search-entry {
-  position: relative;
-  background:
-    linear-gradient(180deg,
-      rgba(28, 39, 62, .99) 0%,
-      rgba(20, 29, 48, .99) 100%);
-  box-shadow:
-    inset 0 2px 5px rgba(0, 0, 0, .28),
-    inset 0 1px 0 rgba(255, 255, 255, .025),
-    0 1px 0 rgba(255, 255, 255, .035);
-}
-
-/* label side gently joins the lavender shell */
 .hero > .searchbox .searchbox-label {
-  color: #f0e7ff;
-  text-shadow: 0 1px 0 rgba(0,0,0,.35);
+  color: #e4c680;
 }
 
 .hero > .searchbox .search-icon {
-  color: #d7c7ff;
-  filter: drop-shadow(0 0 5px rgba(156, 108, 255, .20));
+  color: #efc86f;
+}
+
+.hero > .searchbox .search-entry {
+  border: 3px solid rgba(79, 168, 255, .88);
+  background: linear-gradient(180deg, rgba(23, 36, 58, .98), rgba(18, 29, 48, .99));
+  box-shadow:
+    0 0 0 1px rgba(79, 168, 255, .10),
+    0 0 22px rgba(79, 168, 255, .15),
+    inset 0 1px 0 rgba(255,255,255,.05),
+    inset 0 0 0 1px rgba(0,0,0,.10);
+}
+
+.hero > .searchbox:hover .search-entry {
+  border-color: rgba(101, 184, 255, .94);
+  background: linear-gradient(180deg, rgba(26, 40, 65, .99), rgba(19, 31, 50, .99));
+  box-shadow:
+    0 0 0 1px rgba(101, 184, 255, .12),
+    0 0 24px rgba(79, 168, 255, .18),
+    inset 0 1px 0 rgba(255,255,255,.055);
+}
+
+.hero > .searchbox:focus-within .search-entry {
+  border-color: #7bc7ff;
+  background: linear-gradient(180deg, rgba(28, 43, 69, 1), rgba(20, 32, 52, .99));
+  box-shadow:
+    0 0 0 2px rgba(123, 199, 255, .18),
+    0 0 30px rgba(79, 168, 255, .24),
+    inset 0 1px 0 rgba(255,255,255,.06);
+}
+
+.hero > .searchbox .search-entry input {
+  caret-color: #7bc7ff;
+}
+
+.hero > .searchbox .search-entry input::placeholder {
+  color: #bfd1e7;
+}
+
+.hero > .searchbox .search-language-cue {
+  border-color: rgba(101, 184, 255, .34);
+  background: rgba(42, 78, 131, .26);
+  color: #b8d8ff;
+}
+
+.hero > .searchbox:focus-within .search-language-cue {
+  border-color: rgba(123, 199, 255, .60);
+  background: rgba(52, 97, 162, .32);
+  color: #e1efff;
 }
 
 @media (max-width: 620px) {
   .hero > .searchbox {
-    border-color: rgba(199, 184, 255, .54);
+    border-color: rgba(83, 140, 235, .30);
     background:
-      radial-gradient(120% 110% at 12% 0%,
-        rgba(178, 151, 255, .16) 0%,
-        rgba(125, 96, 195, .10) 34%,
-        rgba(62, 53, 91, .08) 58%,
-        rgba(35, 33, 54, 0) 76%),
-      linear-gradient(180deg,
-        rgba(66, 56, 94, .74) 0%,
-        rgba(49, 44, 73, .72) 46%,
-        rgba(36, 34, 56, .86) 100%);
-    box-shadow:
-      0 1px 0 rgba(255,255,255,.085) inset,
-      0 9px 17px rgba(0,0,0,.24),
-      0 16px 30px rgba(34,21,67,.18);
+      radial-gradient(circle at 10% 50%, rgba(63, 117, 214, .22), transparent 33%),
+      linear-gradient(90deg,
+        rgba(40, 58, 92, .60) 0%,
+        rgba(29, 42, 68, .50) 34%,
+        rgba(19, 25, 39, .44) 100%);
   }
 
-  .hero > .searchbox::after {
-    bottom: -5px;
-    height: 13px;
-    filter: blur(10px);
+  .hero > .searchbox .search-entry {
+    border-width: 2px;
+    box-shadow:
+      0 0 0 1px rgba(79, 168, 255, .10),
+      0 0 16px rgba(79, 168, 255, .13),
+      inset 0 1px 0 rgba(255,255,255,.045);
   }
 }
