@@ -1,0 +1,20 @@
+WoR Wiki v2.13.4y — 잉그리드 추천 장비 긴급 수정
+
+수정 전
+- 악의 복수 (Wicked Vengeance) + 지옥 비명 (Hell's Lament)
+
+수정 후
+- 전쟁의 주인 (Warlord) + 마수의 포효 (Infernal Roar)
+
+근거
+- Infernal Roar: 기본 공격 피해 +40%
+- 잉그리드는 강화된 기본 공격 비중이 높아 해외 빌드에서 Infernal Roar가 대표적인 범용 추천으로 반복 확인됨.
+- 2026-09 해외 커뮤니티에서도 Warlord/Wicked Vengeance 왼쪽 + Infernal Roar 오른쪽 조합이 지속적으로 추천됨.
+
+이번 핫픽스는 잉그리드 추천 장비만 수정.
+기존 v2.13.4x의 나머지 파수꾼 장비 추천, 한/영 병기, 유의사항, SEO 개선은 유지.
+
+GitHub 업로드
+- _worker.js
+- heroes.json
+- sw.js
