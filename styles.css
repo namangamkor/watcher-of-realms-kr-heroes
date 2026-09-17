@@ -5047,3 +5047,25 @@ body.modal-open {
         rgba(19, 25, 39, .44) 100%);
   }
 }
+
+
+/* v2.13.4w — recommended gear common caution */
+.detail-gear-caution {
+  margin: 10px 2px 0;
+  color: #8795aa;
+  font-size: 12px;
+  line-height: 1.65;
+  letter-spacing: -.01em;
+}
+.detail-gear-caution span {
+  color: #d9b866;
+  font-weight: 800;
+  margin-right: 3px;
+}
+@media (max-width: 620px) {
+  .detail-gear-caution {
+    margin-top: 8px;
+    font-size: 11px;
+    line-height: 1.6;
+  }
+}

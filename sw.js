@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21304v-seo-crawl-links";
+const CACHE_NAME = "namangam-wor-v21304x-watchguard-gear-bilingual";
 
 const CORE_ASSETS = [
   "/styles.css?v=2.13.4m",

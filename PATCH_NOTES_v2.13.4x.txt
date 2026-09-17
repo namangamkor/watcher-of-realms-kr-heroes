@@ -1,0 +1,33 @@
+WoR Wiki v2.13.4x — 파수꾼 소대 추천 장비 한/영 병기
+
+변경
+- 파수꾼 소대 추천 장비 표기를 '한국어 (English)' 형식으로 통일
+- 추천 장비 제목뿐 아니라 세트 효과 설명 안의 장비명에도 동일하게 적용
+- 기존 v2.13.4w의 파수꾼 소대 40명 추천 장비 / 범용 장비 유의사항 유지
+
+적용한 주요 장비명
+- 전쟁의 주인 (Warlord)
+- 영혼의 비밀 (Soulbound Arcana)
+- 불굴의 용사 (Immortal Warrior)
+- 강철 의지 (Tempered Will)
+- 성스러운 날개 (Wings of Grace)
+- 성흔의 수호 (Astral Guardian)
+- 빛의 은혜 (Light's Grace)
+- 악의 복수 (Wicked Vengeance)
+- 지옥 비명 (Hell's Lament)
+- 질풍 (Whirlwind)
+
+표시 예시
+전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트
+
+유의사항
+※ 모든 추천 장비는 범용적인 운용 기준을 바탕으로 한 참고용 세팅입니다.
+각성 단계, 보유 장비 옵션, 던전 및 콘텐츠 기믹에 따라 최적 장비는 달라질 수 있습니다.
+
+GitHub 업로드
+- _worker.js
+- heroes.json
+- styles.css
+- sw.js
+
+※ v2.13.4w를 아직 업로드하지 않았다면 이 v2.13.4x만 올리면 됩니다.
