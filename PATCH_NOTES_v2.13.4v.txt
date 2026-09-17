@@ -1,0 +1,35 @@
+WoR Wiki v2.13.4v — Google 크롤링 구조 개선
+
+점검 결과
+- robots.txt: 정상. /admin/, /api/comments만 차단.
+- sitemap.xml: 총 258 URL, 그중 영웅 상세 256 URL 전부 포함.
+- 영웅 상세 canonical: /hero/<id>/ 자기 자신으로 정상.
+- /hero/<id> → /hero/<id>/ 301 표준화 정상.
+- 상세 title / meta description: 영웅별 동적 생성.
+- 핵심 문제: 메인페이지 최초 HTML의 heroGrid가 비어 있었고 256개 영웅 링크가 app.js 실행 후에만 생성됨.
+
+이번 패치
+1. 메인페이지 최초 서버 HTML에 256개 영웅 카드 링크를 미리 렌더링.
+   - 모든 링크가 실제 <a href="/hero/.../"> 형태.
+   - JS 로딩 후 기존 필터/검색 render()가 동일 영역을 정상 갱신하므로 기능 변화 없음.
+   - 사용자는 기존과 같은 카드 UI를 보며, Googlebot은 JS 렌더 전에도 256개 URL을 바로 발견 가능.
+2. static index.html도 같은 상태로 동기화.
+3. sitemap.xml의 홈 + 256 영웅 URL lastmod를 2026-09-17로 갱신.
+4. robots.txt는 정상이라 내용 변경 없이 포함.
+5. Service Worker 캐시명 갱신.
+
+검증
+- 초기 HTML 내 hero-card-link: 256개
+- sitemap hero URL: 256개
+- Worker JS syntax: 통과
+- 기존 canonical / 301 표준화 로직: 유지
+
+GitHub 업로드 필수
+- _worker.js
+- index.html
+- sitemap.xml
+- sw.js
+
+업로드 불필요
+- heroes.json (데이터 변경 없음, 검증/동기화용)
+- robots.txt (내용 변경 없음)
