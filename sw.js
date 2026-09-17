@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v2140-unnamable-endgame-gear";
+const CACHE_NAME = "namangam-wor-v2141-titan-transcendence-content";
 
 const CORE_ASSETS = [
   "/styles.css?v=2.13.4m",

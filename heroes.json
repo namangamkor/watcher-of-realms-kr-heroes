@@ -612,10 +612,10 @@
     },
     "videos": [
       {
-        "youtubeId": "DdzidwGAvxE",
-        "title": "전설 영웅 관련 나만겜 영상 모음",
-        "url": "https://youtu.be/DdzidwGAvxE",
-        "label": "나만겜 전설 영웅 영상"
+        "youtubeId": "FNkDUIq3HYo",
+        "title": "타이탄초월 공략",
+        "url": "https://youtu.be/FNkDUIq3HYo",
+        "label": "나만겜 타이탄초월 공략"
       }
     ],
     "details": {
@@ -661,6 +661,9 @@
       "광역 마법 공격",
       "아군 버프",
       "공중 유닛 공격 가능"
+    ],
+    "contentTags": [
+      "titan-transcendence"
     ]
   },
   {
@@ -2460,16 +2463,10 @@
     },
     "videos": [
       {
-        "youtubeId": "DdzidwGAvxE",
-        "title": "전설 영웅 관련 나만겜 영상 모음",
-        "url": "https://youtu.be/DdzidwGAvxE",
-        "label": "나만겜 전설 영웅 영상"
-      },
-      {
-        "youtubeId": "97WO4Zq0aZc",
-        "title": "에사레스·베르나·바알세불 관련 나만겜 영상",
-        "url": "https://youtu.be/97WO4Zq0aZc",
-        "label": "나만겜 관련 영상"
+        "youtubeId": "FNkDUIq3HYo",
+        "title": "타이탄초월 공략",
+        "url": "https://youtu.be/FNkDUIq3HYo",
+        "label": "나만겜 타이탄초월 공략"
       }
     ],
     "details": {
@@ -2513,6 +2510,9 @@
     "traits": [
       "아군 버프",
       "소환"
+    ],
+    "contentTags": [
+      "titan-transcendence"
     ]
   },
   {
@@ -4815,10 +4815,10 @@
     "collectionValue": 4,
     "videos": [
       {
-        "youtubeId": "DdzidwGAvxE",
-        "title": "전설 영웅 관련 나만겜 영상 모음",
-        "url": "https://youtu.be/DdzidwGAvxE",
-        "label": "나만겜 전설 영웅 영상"
+        "youtubeId": "FNkDUIq3HYo",
+        "title": "타이탄초월 공략",
+        "url": "https://youtu.be/FNkDUIq3HYo",
+        "label": "나만겜 타이탄초월 공략"
       }
     ],
     "details": {
@@ -4864,6 +4864,9 @@
       "치유 금지",
       "은신",
       "공중 유닛 공격 가능"
+    ],
+    "contentTags": [
+      "titan-transcendence"
     ]
   },
   {
@@ -5842,15 +5845,16 @@
       }
     ],
     "contentTags": [
-      "abyss"
+      "abyss",
+      "titan-transcendence"
     ],
     "collectionValue": 5,
     "videos": [
       {
-        "youtubeId": "DdzidwGAvxE",
-        "title": "전설 영웅 관련 나만겜 영상 모음",
-        "url": "https://youtu.be/DdzidwGAvxE",
-        "label": "나만겜 전설 영웅 영상"
+        "youtubeId": "FNkDUIq3HYo",
+        "title": "타이탄초월 공략",
+        "url": "https://youtu.be/FNkDUIq3HYo",
+        "label": "나만겜 타이탄초월 공략"
       }
     ],
     "details": {
@@ -6524,21 +6528,16 @@
       }
     ],
     "contentTags": [
-      "arena-aoe"
+      "arena-aoe",
+      "titan-transcendence"
     ],
     "collectionValue": 5,
     "videos": [
       {
-        "youtubeId": "DdzidwGAvxE",
-        "title": "전설 영웅 관련 나만겜 영상 모음",
-        "url": "https://youtu.be/DdzidwGAvxE",
-        "label": "나만겜 전설 영웅 영상"
-      },
-      {
-        "youtubeId": "97WO4Zq0aZc",
-        "title": "에사레스·베르나·바알세불 관련 나만겜 영상",
-        "url": "https://youtu.be/97WO4Zq0aZc",
-        "label": "나만겜 관련 영상"
+        "youtubeId": "FNkDUIq3HYo",
+        "title": "타이탄초월 공략",
+        "url": "https://youtu.be/FNkDUIq3HYo",
+        "label": "나만겜 타이탄초월 공략"
       }
     ],
     "details": {
@@ -8733,15 +8732,16 @@
     ],
     "contentTags": [
       "abyss",
-      "arena-aoe"
+      "arena-aoe",
+      "titan-transcendence"
     ],
     "collectionValue": 5,
     "videos": [
       {
-        "youtubeId": "DdzidwGAvxE",
-        "title": "전설 영웅 관련 나만겜 영상 모음",
-        "url": "https://youtu.be/DdzidwGAvxE",
-        "label": "나만겜 전설 영웅 영상"
+        "youtubeId": "FNkDUIq3HYo",
+        "title": "타이탄초월 공략",
+        "url": "https://youtu.be/FNkDUIq3HYo",
+        "label": "나만겜 타이탄초월 공략"
       }
     ],
     "details": {
@@ -11997,10 +11997,10 @@
     "collectionValue": 4,
     "videos": [
       {
-        "youtubeId": "DdzidwGAvxE",
-        "title": "전설 영웅 관련 나만겜 영상 모음",
-        "url": "https://youtu.be/DdzidwGAvxE",
-        "label": "나만겜 전설 영웅 영상"
+        "youtubeId": "FNkDUIq3HYo",
+        "title": "타이탄초월 공략",
+        "url": "https://youtu.be/FNkDUIq3HYo",
+        "label": "나만겜 타이탄초월 공략"
       }
     ],
     "details": {
@@ -12046,6 +12046,9 @@
       "아군 버프",
       "비용 회복",
       "방어 무시"
+    ],
+    "contentTags": [
+      "titan-transcendence"
     ]
   },
   {
@@ -14251,10 +14254,10 @@
     "collectionValue": 5,
     "videos": [
       {
-        "youtubeId": "DdzidwGAvxE",
-        "title": "전설 영웅 관련 나만겜 영상 모음",
-        "url": "https://youtu.be/DdzidwGAvxE",
-        "label": "나만겜 전설 영웅 영상"
+        "youtubeId": "FNkDUIq3HYo",
+        "title": "타이탄초월 공략",
+        "url": "https://youtu.be/FNkDUIq3HYo",
+        "label": "나만겜 타이탄초월 공략"
       }
     ],
     "details": {
@@ -14302,6 +14305,9 @@
       "고정 피해",
       "지속 피해",
       "공중 유닛 공격 가능"
+    ],
+    "contentTags": [
+      "titan-transcendence"
     ]
   },
   {
@@ -16403,7 +16409,8 @@
     ],
     "contentTags": [
       "abyss",
-      "arena-single"
+      "arena-single",
+      "titan-transcendence"
     ],
     "details": {
       "verifiedIntro": "높은 화력과 생존 보조 능력을 함께 갖춘 다재다능한 전사형 딜탱. 화신과 환상을 활용해 지속적으로 압박하면서, 각성을 통해 생존 지원·군중 제어·보스 대상 화력까지 강화된다. 장기전과 보스전처럼 꾸준한 누적 화력이 중요한 콘텐츠에서 특히 존재감이 크다.",
@@ -16463,10 +16470,10 @@
     },
     "videos": [
       {
-        "youtubeId": "yCGxmIAa04M",
-        "title": "손오공 포함 실전 플레이 영상",
-        "url": "https://youtu.be/yCGxmIAa04M",
-        "label": "나만겜 실전 영상"
+        "youtubeId": "FNkDUIq3HYo",
+        "title": "타이탄초월 공략",
+        "url": "https://youtu.be/FNkDUIq3HYo",
+        "label": "나만겜 타이탄초월 공략"
       }
     ]
   },
