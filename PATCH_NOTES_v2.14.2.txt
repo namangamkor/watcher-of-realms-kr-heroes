@@ -1,0 +1,24 @@
+나만겜 WOR Wiki v2.14.2 — 파수꾼 소대 추천 아티팩트 패치
+
+베이스: v2.14.1 타이탄초월 콘텐츠 패치 완료본
+
+[적용 범위]
+- 파수꾼 소대(Watch Guard) 40명 전원 recommendedArtifact 1순위 추천 적용
+- 추천 기준: 2026-09-18 현재 Fastidious.gg 영웅별 Artifacts 1순위
+- 범용 아티팩트 한국명 13종: 사용자 한국 서버 공식명 직접 확인값 사용
+- 임의 번역 및 '한국 공식명 미확인' 표기 없음
+
+[추가 정정]
+- 가드리엘: 기존 흡혼 부적 추천을 가드리엘의 응시(Idril's Gaze)로 교체하고, 상세 효과 설명도 새 추천에 맞게 교정
+- 크레시: Molten Cog의 한국 공식명 '주조된 톱니바퀴'를 exclusiveArtifact 데이터에도 반영
+
+[보존]
+- 기존 exclusiveArtifact 데이터는 원칙적으로 유지
+- 진영/수집가치/장비/각성/콘텐츠/영상 데이터 변경 없음
+
+[검증]
+- 파수꾼 소대 인원: 40명
+- recommendedArtifact 적용: 40/40
+- 한국명/영문명 동시 보유: 40/40
+- heroes.json / _worker.js 추천 아티팩트 일치: PASS
+- 서비스워커 캐시: namangam-wor-v2142-watch-guard-artifacts

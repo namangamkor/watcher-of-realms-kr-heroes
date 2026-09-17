@@ -434,7 +434,13 @@
       "광역 마법 공격",
       "매우 먼 사거리",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "포효의 머리뼈",
+      "nameEn": "Wailing Skull",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "ai",
@@ -581,7 +587,13 @@
       "아군 버프",
       "다단 공격",
       "강력 제어"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "포효의 머리뼈",
+      "nameEn": "Wailing Skull",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "ajax",
@@ -843,7 +855,13 @@
       "광역 물리 공격",
       "은신",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "사신의 표식",
+      "nameEn": "Reaper's Emblem",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "alistair",
@@ -919,7 +937,13 @@
       "고정 피해",
       "아군 보호",
       "지속 피해"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "anai",
@@ -1976,7 +2000,13 @@
     },
     "traits": [
       "높은 가드"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "aylin",
@@ -2667,7 +2697,13 @@
     "traits": [
       "단일 물리 공격",
       "지속 피해"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "난폭한 마스크",
+      "nameEn": "Lunacy Visor",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "brienne",
@@ -2742,7 +2778,13 @@
       "광역 물리 공격",
       "방어 무시",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "가드리엘의 응시",
+      "nameEn": "Idril's Gaze",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "brokkir",
@@ -2987,7 +3029,13 @@
       "고정 피해",
       "듀얼 대상 공격",
       "위치 이동"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "사죄자",
+      "nameEn": "Absolution",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "calista",
@@ -3064,7 +3112,13 @@
     },
     "traits": [
       "광역 물리 공격"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "불멸의에드라크",
+      "nameEn": "Helm of Yalnor",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "calypso",
@@ -3202,7 +3256,13 @@
     "traits": [
       "단일 치유",
       "아군 보호"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "낙원의 찬가",
+      "nameEn": "Elysian Epitaph",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "captain-reve",
@@ -3748,7 +3808,13 @@
     "traits": [
       "단일 치유",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "신성한 예찬문",
+      "nameEn": "Astral Obelisk",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "corven",
@@ -3938,10 +4004,10 @@
     ],
     "collectionValue": 1,
     "exclusiveArtifact": {
-      "nameKr": null,
+      "nameKr": "주조된 톱니바퀴",
       "nameEn": "Molten Cog",
-      "krVerified": false,
-      "source": "user-reviewed-artifact-list"
+      "krVerified": true,
+      "source": "user-confirmed-official-name"
     },
     "videos": [],
     "details": {
@@ -3985,7 +4051,13 @@
     "traits": [
       "광역 물리 공격",
       "방어 무시"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "주조된 톱니바퀴",
+      "nameEn": "Molten Cog",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "cutter",
@@ -4165,7 +4237,13 @@
     },
     "traits": [
       "비용 회복"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "난폭한 마스크",
+      "nameEn": "Lunacy Visor",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "cyrus",
@@ -4521,7 +4599,13 @@
     },
     "traits": [
       "비용 회복"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "난폭한 마스크",
+      "nameEn": "Lunacy Visor",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "dane",
@@ -4595,7 +4679,13 @@
       "매우 먼 사거리",
       "강력 제어",
       "치유 금지"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "격노의 분출자",
+      "nameEn": "Hate's Contagion",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "dassomi",
@@ -4966,7 +5056,13 @@
         "url": "https://youtu.be/yCGxmIAa04M",
         "label": "나만겜 실전 영상"
       }
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "승평·봉화불",
+      "nameEn": "Phoenix Feather Fan",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "dolores",
@@ -5203,7 +5299,13 @@
     "traits": [
       "단일 치유",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "자비의 강철연꽃",
+      "nameEn": "Ironbloom of Mercy",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "drayga",
@@ -5487,7 +5589,13 @@
       "광역 물리 공격",
       "생존",
       "매우 먼 사거리"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "eirlys",
@@ -5574,7 +5682,13 @@
       "단일 치유",
       "아군 보호",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황금 풍뎅이",
+      "nameEn": "Golden Scarab",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "eivor-varinsdottir",
@@ -5682,7 +5796,13 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "바린의 도끼",
+      "nameEn": "Varin's Axe",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "elddr",
@@ -6105,7 +6225,13 @@
     },
     "traits": [
       "광역 마법 공격"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "erlang-shen",
@@ -6414,7 +6540,13 @@
       "광역 치유",
       "아군 버프",
       "공격 제거"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "낙원의 찬가",
+      "nameEn": "Elysian Epitaph",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "evie-frye",
@@ -6691,7 +6823,13 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "아디토레 암살검",
+      "nameEn": "Auditore Blade",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "ezio-della-notte",
@@ -8001,7 +8139,13 @@
       "위치 이동",
       "아군 버프",
       "방어 무시"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "청룔언월도",
+      "nameEn": "Green Crescent Blade",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "gul-drak",
@@ -8597,9 +8741,9 @@
         }
       ],
       "artifact": {
-        "name": "흡혼 부적",
+        "name": "가드리엘의 응시",
         "label": "추천 아티팩트",
-        "text": "같은 1명 대상에게 연속으로 피해를 입힐 시 매번 피해가 10% 추가되며 최대 3회 중첩. 대상을 변경하면 효과가 초기화."
+        "text": "치명타 피해를 입힐 때 25% 확률로 3초 동안 대상의 방어력과 마법 저항을 40% 무시합니다."
       },
       "skills": [
         {
@@ -8634,6 +8778,12 @@
       "nameEn": null,
       "krVerified": true,
       "source": "existing-verified-detail"
+    },
+    "recommendedArtifact": {
+      "nameKr": "가드리엘의 응시",
+      "nameEn": "Idril's Gaze",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
     }
   },
   {
@@ -8788,7 +8938,13 @@
       "매우 먼 사거리",
       "지속 피해",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "init",
@@ -9814,7 +9970,13 @@
         "url": "https://youtu.be/PIrRHUgkwsE",
         "label": "나만겜 영웅 영상"
       }
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "레오니다스의 창",
+      "nameEn": "Spear of Leonidas",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "khadgrim",
@@ -10079,7 +10241,13 @@
       "방어 제거",
       "지속 피해",
       "방어 무시"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "악귀의머리",
+      "nameEn": "Demonic Relic",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "kineza",
@@ -10930,7 +11098,13 @@
     "traits": [
       "아군 버프",
       "광역 치유"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황금 풍뎅이",
+      "nameEn": "Golden Scarab",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "leikan",
@@ -11128,7 +11302,13 @@
     },
     "traits": [
       "단일 치유"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "낙원의 찬가",
+      "nameEn": "Elysian Epitaph",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "lili",
@@ -11283,7 +11463,13 @@
     "traits": [
       "생존",
       "강력 제어"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "lord-phineas",
@@ -11523,7 +11709,13 @@
       "단일 물리 공격",
       "방어 제거",
       "방어 무시"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "망령술사의 손가락",
+      "nameEn": "Blightcaller's Claw",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "lugaru",
@@ -12554,7 +12746,13 @@
     },
     "traits": [
       "단일 치유"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "midan",
@@ -13247,7 +13445,13 @@
       "방어 무시",
       "강력 제어",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "화첨창",
+      "nameEn": "Fire-Tipped Spear",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "nerissa",
@@ -13398,7 +13602,13 @@
     },
     "traits": [
       "광역 마법 공격"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "nisalt",
@@ -14671,7 +14881,13 @@
     "traits": [
       "생존",
       "아군 보호"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "rex",
@@ -14735,7 +14951,13 @@
     },
     "traits": [
       "강력 제어"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "rhox",
@@ -16221,7 +16443,13 @@
     },
     "traits": [
       "단일 마법 공격"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "sorzus",
@@ -16475,7 +16703,13 @@
         "url": "https://youtu.be/FNkDUIq3HYo",
         "label": "나만겜 타이탄초월 공략"
       }
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "여의봉",
+      "nameEn": "Golden Cudgel",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "sythra",
@@ -16652,7 +16886,13 @@
       "광역 물리 공격",
       "방어 제거",
       "강력 제어"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "꽃의수호자",
+      "nameEn": "Blackbark Pauldrons",
+      "krVerified": true,
+      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+    }
   },
   {
     "id": "talula",
