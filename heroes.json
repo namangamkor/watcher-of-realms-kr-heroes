@@ -1126,7 +1126,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "광역 물리 공격을 하면서 공중 유닛까지 타격할 수 있는 전사. 지상 전열에 서면서 여러 적을 동시에 처리하고 대공 대응까지 겸할 수 있어 한 자리에서 맡는 역할이 넓다. 전열 유지와 범위 공격을 함께 요구하는 상황에 어울리는 타입이다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 장거리 단일 물리 전사로 치명타 기반 누적 화력을 안정적으로 끌어올리는 최종 딜 세팅입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "광역 물리 공격",
@@ -1199,7 +1205,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "단일 물리 공격, 지속 피해, 강력 제어, 대공 능력을 함께 갖춘 관성의 화살 영주 전사. 한 표적을 꾸준히 압박하면서 지속 피해와 제어를 겹치고 공중 유닛도 공격할 수 있다. 영주 효과까지 포함해 관성의 화살 조합을 구성할 때 핵심 역할을 맡는다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 관성의 화살 영주이면서 직접 단일 딜 비중도 높아 재앙 드래곤 중첩을 활용하는 치명타 세팅을 최종 추천으로 둡니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "단일 물리 공격",
@@ -3101,7 +3113,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "한 대상을 여러 번 타격하는 단일 물리 궁수로, 공중 유닛까지 공격할 수 있다. 다단 공격을 중심으로 한 표적에 피해를 집중하는 구조라 우선 제거가 필요한 적을 상대하기 좋다. 대공과 단일 화력을 동시에 맡길 수 있는 정석형 원거리 딜러다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 표식과 연속 공격으로 단일 대상에 피해를 누적하는 구조라 재앙 드래곤 중첩과 궁합이 좋습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "단일 물리 공격",
@@ -3767,7 +3785,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "매우 먼 사거리에서 단일 물리 공격을 수행하면서 아군 버프와 소환을 함께 활용하는 궁수. 공중 유닛까지 공격할 수 있어 안전한 위치에서 지속적으로 화력을 보태기 좋다. 직접 공격뿐 아니라 소환과 지원 효과까지 함께 쓰는 복합형 원거리 딜러다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기 동안 공격 간격 감소와 조준 사격 강화가 집중되므로 지옥 비명의 20초 강화 구간과 정확히 맞물립니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "단일 물리 공격",
@@ -3858,7 +3882,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "다단 단일 물리 공격에 치유 금지와 아군 버프를 함께 갖춘 전사. 공중 유닛까지 공격할 수 있어 한 표적을 집중 타격하면서 상대의 회복을 제한하고 아군 화력까지 보조한다. 공격·대공·지원 역할을 동시에 수행하는 다기능형 전사다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 일반 공격보다 궁극기 중심의 폭딜 비중이 높아 지옥 비명의 20초 피해·치명타 피해 강화 효율이 큽니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "단일 물리 공격",
@@ -3967,7 +3997,13 @@
       "updated": "2026-09",
       "note": "각성 정보 유무는 Watcher of Realms Wiki(Fandom) 기준으로 확인했습니다.",
       "verifiedIntro": "단일 물리 공격과 지속 피해를 사용하는 일반 등급 궁수. 공중 유닛을 공격할 수 있어 초반 원거리·대공 자리를 채우는 기본형 영웅이다. 높은 등급 영웅을 확보하기 전 단일 표적에 꾸준히 피해를 넣는 용도로 활용할 수 있다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 독 중첩을 유지하면서 기본 공격을 계속 이어가는 구조라 범용 최종 딜 세팅인 재앙 드래곤을 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "단일 물리 공격",
@@ -5247,7 +5283,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "광역 물리 공격을 사용하는 레어 궁수. 여러 적이 한꺼번에 들어오는 구간에서 범위 물리 피해를 보태는 기본형 원거리 딜러다. 높은 등급의 광역 궁수가 부족한 초반 계정에서 역할을 대신하기 좋다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기 화살비가 짧은 시간에 다단 광역 피해를 집중하므로 궁극기 발동 직후 강해지는 지옥 비명이 가장 잘 맞습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "광역 물리 공격"
@@ -5729,7 +5771,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "은신과 단일 물리 공격을 사용하는 관성의 화살 에픽 영주 궁수. 공중 유닛까지 공격할 수 있어 안전하게 표적을 노리면서 대공 역할도 맡을 수 있다. 은신을 활용해 생존 부담을 줄이고 관성의 화살 조합에 영주 효과를 제공하는 타입이다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 은신을 활용해 기본 공격을 지속하는 단일 대공 궁수라 기본 공격 피해를 직접 강화하는 마수의 포효를 우선합니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "단일 물리 공격",
@@ -6085,7 +6133,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "광역 물리 공격과 생존, 아군 버프를 함께 갖춘 전설 수호자. 공중 유닛까지 공격할 수 있어 전열을 지키면서 범위 공격과 대공 지원을 동시에 수행한다. 순수 탱커보다는 공격과 지원 능력을 함께 활용하는 다목적 수호자다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 연속 공격과 치명타 기반 누적 화력을 살리기 위해 재앙 드래곤을 최종 추천으로 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "광역 물리 공격",
@@ -6147,7 +6201,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "단일 물리 공격과 지속 피해를 사용하는 에픽 궁수. 공중 유닛까지 공격할 수 있어 한 표적을 꾸준히 압박하면서 대공 자리도 맡을 수 있다. 순간 폭발력보다는 지속적으로 피해를 누적하는 운용에 어울리는 타입이다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격과 지속 피해 비중이 높은 단일 궁수라 공격 속도와 기본 공격 강화 효율을 함께 가져가는 마수의 포효가 잘 맞습니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "단일 물리 공격",
@@ -6385,7 +6445,13 @@
         }
       ],
       "updated": "2026-09",
-      "note": "공식 특성·각성 효과·스킬 정보·전용 신화 아티팩트 명칭은 사용자가 제공한 한국 서버 게임 내 스크린샷 기준."
+      "note": "공식 특성·각성 효과·스킬 정보·전용 신화 아티팩트 명칭은 사용자가 제공한 한국 서버 게임 내 스크린샷 기준.",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 배치 직후 폭발탄을 빠르게 소모하며 치명타를 누적할 수 있어 최신 엔드게임 빌드의 재앙 드래곤 조합을 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "videos": []
   },
@@ -6654,7 +6720,13 @@
         }
       ],
       "updated": "2026-09",
-      "note": "공식 특성·각성 효과는 사용자가 제공한 한국 서버 게임 내 스크린샷 기준."
+      "note": "공식 특성·각성 효과는 사용자가 제공한 한국 서버 게임 내 스크린샷 기준.",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기와 소환 압박이 집중되는 구간을 크게 강화할 수 있어 최신 엔드게임 빌드의 지옥 비명을 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "collectionValue": 4,
     "exclusiveArtifact": {
@@ -8782,7 +8854,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "다단 단일 물리 공격과 대공 능력을 갖춘 관성의 화살 전설 영주 궁수. 한 표적에 연속 공격을 집중하면서 공중 유닛까지 안정적으로 상대할 수 있다. 관성의 화살 조합에서 영주 효과와 주력 단일 화력을 함께 맡는 핵심 원거리 딜러다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 강한 단일 대공 화력과 치명타 누적을 살리기 위해 재앙 드래곤을 최종 추천으로 둡니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "단일 물리 공격",
@@ -9353,7 +9431,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "매우 먼 사거리에서 광역 물리 공격을 가하고 아군 버프까지 제공하는 전설 궁수. 공중 유닛도 공격할 수 있어 후방에서 다수 적과 비행 적을 동시에 압박한다. 장거리 광역 화력과 지원 효과를 한 자리에서 확보할 수 있는 타입이다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 광역 사격을 반복하면서 치명타 중첩을 유지하기 쉬워 재앙 드래곤이 안정적인 최종 딜 조합입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "광역 물리 공격",
@@ -10398,7 +10482,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "매우 먼 사거리에서 단일 물리 공격을 가하고 방어 무시를 활용하는 전설 궁수. 공중 유닛까지 공격할 수 있어 후방 안전지대에서 우선 표적을 오래 압박하는 데 적합하다. 긴 사거리와 단일 화력을 중시하는 원거리 딜러다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 단일 물리 화력과 치명타 기반 딜링을 극대화하는 재앙 드래곤 조합을 최종 추천으로 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "단일 물리 공격",
@@ -10827,7 +10917,13 @@
       "updated": "2026-09",
       "note": "각성 정보 유무는 Watcher of Realms Wiki(Fandom) 기준으로 확인했습니다.",
       "verifiedIntro": "단일 물리 공격과 지속 피해를 사용하는 일반 등급 궁수. 공중 유닛까지 공격할 수 있어 초반 단일·대공 자리를 채우는 기본형 영웅이다. 높은 등급의 원거리 딜러를 확보하기 전까지 꾸준한 피해를 보태는 역할로 사용할 수 있다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 리암의 핵심은 공격력 자체보다 궁극기 Neurotoxin의 빠른 적용과 반복입니다. 공격 속도·분노 회복을 우선해 궁극기 회전과 중독 유지에 집중합니다. 권장 옵션: 공격 속도, 분노 회복, HP%, 공격력%.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "단일 물리 공격",
@@ -10970,7 +11066,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "단일 치유와 아군 보호에 집중된 에픽 힐러. 여러 명을 넓게 회복하기보다 위험한 아군 한 명을 꾸준히 살리는 데 초점이 맞춰져 있다. 핵심 탱커나 전사의 생존을 안정시키고 싶을 때 역할이 분명한 힐러다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 공격력 기반 단일 치유와 치명 피해 방지 역할을 살리면서 성스러운 날개로 핵심 딜러의 공격력까지 지원하는 최종 힐러 세팅입니다. 권장 옵션: 공격력%, 공격 속도, 치유 효과, 분노 회복.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "단일 치유",
@@ -11512,7 +11614,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "다단 단일 물리 공격과 대공 능력을 갖춘 관성의 화살 에픽 영주 궁수. 한 표적을 연속으로 공격하면서 공중 유닛까지 상대하고, 영주 효과를 통해 관성의 화살 조합을 보조한다. 전설 영주가 없을 때도 진영 구성을 가능하게 해주는 실용적인 영주형 궁수다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격과 대공 지속딜 비중이 높은 영주 궁수라 마수의 포효로 평타 화력을 직접 강화합니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "단일 물리 공격",
@@ -13259,7 +13367,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "광역 치유, 방어 제거, 아군 버프를 함께 제공하는 에픽 힐러. 여러 아군의 체력을 동시에 회복하면서 불리한 효과를 정리하고 전투 능력도 보조한다. 회복과 지원을 균형 있게 가져가는 범용형 힐러다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 광역 치유와 해제·버프를 동시에 수행하므로 치유와 분노 회복을 챙기면서 성스러운 날개로 파티 지원을 더합니다. 권장 옵션: 공격력%, 공격 속도, 치유 효과, 분노 회복.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "광역 치유",
@@ -13426,7 +13540,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "단일 마법 공격에 지속 피해와 강력 제어를 더하는 전설 전사. 공중 유닛까지 공격할 수 있어 한 표적을 압박하면서 행동을 제한하고 대공까지 맡는다. 직접 화력과 제어를 함께 활용하는 공격형 전열 영웅이다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 단일 마법 공격과 지속 피해를 치명타 기반으로 누적할 수 있어 재앙 드래곤의 중첩 효율이 높습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "단일 마법 공격",
@@ -13501,7 +13621,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "매우 먼 사거리에서 광역 물리 공격을 가하는 전설 궁수. 공중 유닛까지 공격할 수 있어 후방에서 넓은 지역의 지상·공중 적을 동시에 압박한다. 복잡한 지원 기능보다 긴 사거리와 범위 화력 자체에 강점이 있는 타입이다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 광역 물리 사격을 반복하며 다수 적을 치기 때문에 치명타 중첩을 유지하기 쉬운 재앙 드래곤을 최종 추천으로 둡니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "광역 물리 공격",
@@ -13837,7 +13963,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "광역 마법 공격에 지속 피해와 고정 피해를 함께 사용하는 전설 궁수. 공중 유닛까지 공격할 수 있어 지상·공중이 섞인 다수전에서 여러 형태의 피해를 누적한다. 방어 방식에 따라 피해가 크게 흔들리지 않도록 다양한 공격 수단을 갖춘 타입이다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 단일 물리 딜과 대공 압박을 안정적으로 끌어올리는 치명타 기반 재앙 드래곤 세팅을 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "광역 마법 공격",
@@ -14275,7 +14407,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "매우 먼 사거리에서 광역 물리 공격을 가하는 전설 궁수. 공중 유닛까지 공격할 수 있어 넓은 지역의 적을 안전한 후방에서 처리하는 데 초점이 맞춰져 있다. 장거리 범위 화력과 대공을 동시에 원하는 자리에서 역할이 명확하다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 광역 물리 피해와 처치 연계를 살리는 범용 최종 딜 조합으로 재앙 드래곤을 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "광역 물리 공격",
@@ -14779,7 +14917,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "매우 먼 사거리에서 단일 물리 공격을 가하고 아군 버프를 제공하는 전설 궁수. 공중 유닛까지 공격할 수 있어 후방에서 우선 표적을 압박하면서 주변 아군의 전투도 보조한다. 장거리 단일 화력과 지원을 함께 가져가는 타입이다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 단일·대공 화력을 치명타 중심으로 누적하는 구조라 재앙 드래곤이 가장 안정적인 최종 딜 세팅입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "단일 물리 공격",
@@ -15083,7 +15227,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "다단 단일 물리 공격에 지속 피해와 방어 무시를 더하는 전설 궁수. 공중 유닛까지 공격할 수 있어 한 표적을 연속 타격하면서 방어 영향을 줄이고 피해를 누적한다. 강한 단일 압박과 대공을 함께 원하는 조합에 잘 맞는다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 다단 기본 공격과 지속 피해·방어 무시를 함께 활용하므로 기본 공격 피해를 직접 강화하는 마수의 포효 효율이 높습니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "단일 물리 공격",
@@ -15650,7 +15800,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "단일 물리 공격과 방어 무시를 중심으로 하는 전설 궁수. 공중 유닛까지 공격할 수 있어 한 표적에 높은 물리 화력을 집중하면서 방어가 높은 적에게도 압박을 이어간다. 대공과 단일 딜을 동시에 요구하는 자리에서 강점을 살리기 좋은 타입이다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기 Shadowcloak의 폭딜 구간을 지옥 비명의 20초 피해·치명타 피해 강화와 겹쳐 쓰는 최신 엔드게임 세팅입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "단일 물리 공격",
@@ -16201,7 +16357,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "단일 물리 공격과 방어 무시, 소환을 함께 사용하는 전설 궁수. 공중 유닛까지 공격할 수 있어 본체의 단일 화력에 소환 요소를 더해 전장을 압박한다. 직접 공격과 추가 전력을 함께 활용하는 복합형 원거리 딜러다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 본체 기본 공격과 소환 압박을 꾸준히 이어가는 구조라 공격 속도와 기본 공격 피해를 강화하는 마수의 포효를 우선합니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "단일 물리 공격",
@@ -16365,7 +16527,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "광역 치유에 방어 제거, 아군 버프, 아군 보호를 모두 갖춘 전설 힐러. 여러 아군의 체력을 회복하면서 불리한 효과를 정리하고 생존과 전투 능력까지 함께 보조한다. 파티 전체를 폭넓게 지원하는 다기능형 힐러다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 공격 속도를 치유 효과로 전환하는 고유 특성과 광역 지원을 살리기 위해 공격 속도·치유 효과를 최우선으로 맞춥니다. 권장 옵션: 치유 효과, 공격 속도, 공격력%, 분노 회복.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "광역 치유",
@@ -16427,7 +16595,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "다단 단일 물리 공격을 사용하는 에픽 궁수. 공중 유닛까지 공격할 수 있어 한 표적을 연속 타격하면서 대공 역할도 맡는다. 단순하고 직관적인 단일·대공 화력이 필요한 초중반 조합에서 활용하기 쉽다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 다단 기본 공격이 핵심인 단일 대공 궁수라 마수의 포효가 가장 직접적인 최종 피해 상승을 제공합니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "단일 물리 공격",
@@ -16572,7 +16746,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "광역 물리 공격과 대공 능력을 갖춘 에픽 궁수. 여러 적을 동시에 공격하면서 공중 유닛까지 처리할 수 있어 범위 물리 화력이 부족한 구간을 채우기 좋다. 역할이 단순한 만큼 다수전에서 배치 목적이 분명한 타입이다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 연속 사격과 범위 압박으로 치명타 중첩을 유지하기 쉬워 재앙 드래곤을 최종 추천으로 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "광역 물리 공격",
@@ -17496,7 +17676,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "은신과 단일 물리 공격을 사용하는 에픽 궁수. 공중 유닛까지 공격할 수 있어 비교적 안전하게 우선 표적을 노리면서 대공 역할을 맡는다. 생존 부담을 줄인 단일 원거리 딜러가 필요할 때 활용하기 좋은 타입이다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격을 지속하며 단일 대공 화력을 내는 구조라 마수의 포효의 평타 강화 효과가 잘 맞습니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "단일 물리 공격",
@@ -17758,7 +17944,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "단일 물리 공격과 방어 무시를 사용하는 전설 궁수. 공중 유닛까지 공격할 수 있어 한 표적을 꾸준히 압박하면서 방어가 높은 적에게도 피해를 넣기 쉽다. 역할이 선명한 단일·대공 물리 딜러다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기 중심 단일 폭딜 비중이 높아 지옥 비명의 20초 강화 구간을 가장 잘 활용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "단일 물리 공격",
@@ -18359,7 +18551,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "단일 마법 공격과 지속 피해에 아군 버프와 공격 제거를 더한 전설 궁수. 공중 유닛까지 공격할 수 있어 한 표적을 압박하면서 적의 강화 상태를 정리하고 아군 전투도 보조한다. 단일 화력과 유틸리티 비중이 모두 높은 원거리 영웅이다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 20초 지속 궁극기 동안 3연타와 독 중첩이 집중되므로 지옥 비명의 20초 피해·치명타 피해 강화와 궁합이 매우 좋습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
+      }
     },
     "traits": [
       "단일 마법 공격",
