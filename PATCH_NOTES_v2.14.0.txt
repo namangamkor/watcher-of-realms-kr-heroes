@@ -1,0 +1,18 @@
+나만겜 WOR Wiki v2.14.0 — 알 수 없는 자 엔드게임 추천장비 패치
+
+기준 베이스: v2.13.9 최고 중재자 엔드게임 추천장비 완료본
+진영: 알 수 없는 자 (Unnamable)
+총 영웅: 2명
+신규 장비 반영: 2명
+
+신규 반영
+- 아자크스 (Ajax): 악의 복수 + 재앙 드래곤
+- 이미레잇 (Ymiret): 악의 복수 + 재앙 드래곤
+
+검수 메모
+- 아자크스: Fastidious Stage 3와 Prospector End Game에서 Wicked Vengeance + Cataclysm 확인. 공격력% 3주옵, 치명타율·공격속도·치명타피해 중심.
+- 이미레잇: Fastidious Stage 3와 Prospector End Game에서 Wicked Vengeance + Cataclysm 확인. Soulbound Arcana도 유효한 대체안이지만 대표 최종 추천은 Cataclysm으로 통일.
+- 알 수 없는 자는 위키 기준 아자크스와 이미레잇 2명뿐이며 두 영웅 모두 이번 패치에서 추천장비를 신규 반영.
+
+배포
+ZIP을 풀어 저장소 루트에 _worker.js, heroes.json, sw.js를 덮어쓴 뒤 커밋/배포.
