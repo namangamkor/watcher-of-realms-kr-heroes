@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21304z1-diaochan-wings";
+const CACHE_NAME = "namangam-wor-v21304z2-watchguard-endgame-only";
 
 const CORE_ASSETS = [
   "/styles.css?v=2.13.4m",
