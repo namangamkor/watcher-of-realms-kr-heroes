@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v2136-star-piercers-endgame-gear";
+const CACHE_NAME = "namangam-wor-v2137-esoteria-endgame-gear";
 
 const CORE_ASSETS = [
   "/styles.css?v=2.13.4m",
