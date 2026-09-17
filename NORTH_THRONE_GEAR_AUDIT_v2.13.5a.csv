@@ -1,0 +1,50 @@
+﻿id,한국명,영문명,기존추천,최종추천,권장옵션,검수메모
+aedrin,에드린,Aedrin,,성흔의 수호 (Astral Guardian) 세트 + 재앙 드래곤 (Cataclysm) 세트,"HP%, 치명타율, 공격 속도, 치명타 피해",HP 기반 피해 영웅이라 성흔의 수호로 체력을 확보하고 재앙 드래곤 중첩으로 최종 피해를 끌어올립니다.
+ai,엘,Ai,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",치명타 기반의 최종 피해 세팅으로 정리했습니다.
+akirastar,아키라,AkiraStar,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",고품질 재앙 드래곤의 중첩을 안정적으로 유지하는 엔드게임 세팅입니다.
+ardea,알다이야,Ardea,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",현재 엔드게임 빌드에서 악의 복수와 재앙 드래곤 조합이 일관되게 확인됩니다.
+astrael,아스트레이,Astrael,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",치명타와 공격 속도를 확보한 뒤 재앙 드래곤 중첩을 유지하는 세팅입니다.
+aveline,에블린,Aveline,성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트,성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트,"HP%, 방어력%, 공격 속도, 분노 회복",최대 HP와 피격 회복을 함께 확보해 전열 유지력을 높이는 최종 세팅입니다.
+boreas,포레스,Boreas,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",마법 딜러 엔드게임 기준으로 치명타 피해와 지속 피해 증가를 함께 노립니다.
+brokkir,브로켈,Brokkir,,성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트,"HP%, 방어력%, 공격 속도, 분노 회복",순수 탱킹은 최대 HP 추가보다 강철 의지의 피해 감소와 가드 방어 증가 효율을 우선합니다.
+brunor,브루노,Brunor,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",치명타 기반 장거리 딜러의 엔드게임 조합입니다.
+cassiel,카시르,Cassiel,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",공격력·치명타를 확보한 뒤 재앙 드래곤 중첩을 유지하는 최종 세팅입니다.
+dagna,다그나,Dagna,,성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트,"HP%, 방어력%, 공격 속도, 분노 회복",다그나는 생존 자체를 우선해 최대 HP와 피격 회복을 강화합니다.
+draelyn,드레린,Draelyn,성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트,성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트,"HP%, 방어력%, 치유 효과, 공격 속도",HP 기반 치유와 탱킹을 동시에 수행하므로 최대 HP와 피격 회복을 우선합니다.
+eirlys,에일리스,Eirlys,빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트,빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트,"공격 속도, 공격력%, 치유 효과, 분노 회복",치유·분노 회복과 동시에 성스러운 날개로 핵심 딜러의 공격력을 지원하는 최종 세팅입니다.
+eivor-varinsdottir,에이보르,Eivor Varinsdottir,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",현재 엔드게임 자료에서 악의 복수와 재앙 드래곤 조합이 가장 일관되게 확인됩니다.
+elddr,에르드,Elddr,,악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트,"공격력%, 공격 속도, 치명타율, 치명타 피해",기본 공격 기여도가 높아 마수의 포효 효율이 높은 영웅입니다.
+estrid,이스트리드,Estrid,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",엔드게임 딜 세팅은 악의 복수와 재앙 드래곤을 우선합니다.
+falcia,페르샤,Falcia,,악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",궁극기 폭딜 구간과 지옥 비명의 20초 강화 효과가 잘 맞아 엔드게임 대표 세팅으로 채택했습니다.
+fenris,펜리스,Fenris,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",재앙 드래곤 중첩을 유지할 수 있는 공격 속도와 치명타율을 우선합니다.
+glacius,그레시우스,Glacius,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",치명타 기반의 일반적인 엔드게임 마법 딜 세팅입니다.
+guan-yu,관우,Guan Yu,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, HP%",최종 세팅은 재앙 드래곤을 사용하며 생존이 필요한 콘텐츠에서는 HP% 부옵션 가치도 높습니다.
+gwendolyn,그웬돌린,Gwendolyn,,빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트,"공격 속도, HP%, 치유 효과, 분노 회복",HP 기반 보호막과 치유 효과를 살리면서 성스러운 날개로 파티 공격 지원까지 확보합니다.
+harpun,하르벤,Harpun,,악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트,"공격력%, 공격 속도, 치명타율, 치명타 피해",기본 공격 비중이 높아 마수의 포효를 우선하는 최종 세팅입니다.
+isolde,이졸데,Isolde,,성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트,"HP%, 방어력%, 공격 속도, 분노 회복",북쪽 경계 전열 탱커로서 피해 감소와 가드 방어 증가를 우선합니다.
+jeera,젤라,Jeera,,악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트,"공격력%, 공격 속도, 치명타율, 치명타 피해",강화 기본 공격 비중이 높아 마수의 포효 효율이 좋습니다.
+kane,케인,Kane,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",재앙 드래곤의 피해 증가 중첩을 안정적으로 유지하는 엔드게임 세팅입니다.
+khadgrim,카드그림,Khadgrim,,성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트,"HP%, 방어력%, 공격 속도, 분노 회복",순수 탱커 역할에서는 강철 의지의 피해 감소를 우선합니다.
+king-harz,킹 할츠,King Harz,성흔의 수호 세트 + 강철 의지 세트,성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트,"HP%, 방어력%, 공격 속도, 분노 회복",킹 할츠는 전열 유지력이 핵심이라 성흔의 수호와 강철 의지 조합을 최종 추천합니다.
+krodor,크로돌,Krodor,,성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트,"HP%, 방어력%, 공격 속도, 분노 회복",가드 탱커 특성상 강철 의지의 피해 감소와 방어 증가가 안정적입니다.
+lady-mina,미나,Lady Mina,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",최종 딜 세팅은 치명타 피해와 재앙 드래곤 중첩을 함께 확보합니다.
+lightlocke,라트로크,Lightlocke,전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트,전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트,"공격 속도, 공격력%, 치유 효과, 분노 회복",공격력 기반 치유를 살리고 성스러운 날개로 핵심 아군의 공격력까지 지원합니다.
+lu-bu,여포,Lu Bu,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",고속 기본 공격으로 재앙 드래곤 중첩을 유지하기 좋은 엔드게임 세팅입니다.
+lulu,루루,Lulu,,악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트,"공격력%, 공격 속도, 치명타율, 치명타 피해",기본 공격 기여도를 극대화하기 위해 마수의 포효를 사용합니다.
+lynx,릴크스,Lynx,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",치명타 기반 엔드게임 딜 세팅입니다.
+malvira,말비라,Malvira,,성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트,"HP%, 방어력%, 공격 속도, 분노 회복",HP 기반 피해와 탱킹을 겸하지만 최종적으로는 강철 의지의 피해 감소가 전열 안정성에 더 유리합니다.
+marri,마리엘,Marri,,전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트,"공격 속도, 분노 회복, HP%, 방어력%",마리엘은 피해보다 군중 제어 순환이 중요합니다. 공격 속도와 분노 회복을 최우선으로 맞추고 성스러운 날개로 파티 지원을 더합니다.
+maul,모르,Maul,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",치명타 기반 광역 딜러의 최종 세팅입니다.
+midan,미덴,Midan,,빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트,"공격 속도, HP%, 치유 효과, 분노 회복",HP 기반 광역 치유와 해제를 유지하면서 치유·분노 회복 및 파티 공격 지원을 동시에 확보합니다.
+nocturne,녹턴,Nocturne,,악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트,"공격력%, 공격 속도, 치명타율, 치명타 피해",기본 공격 비중이 높은 단일 마법 딜러라 마수의 포효가 핵심입니다.
+olague,오라그,Olague,,성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트,"HP%, 방어력%, 공격 속도, 분노 회복",자체 생존력이 강한 영웅이라 추가 회복보다 강철 의지의 피해 감소를 우선합니다.
+rhox,로크스,Rhox,,성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트,"방어력%, HP%, 공격 속도, 분노 회복",방어력 기반 탱커 특성을 살리기 위해 성흔의 수호와 강철 의지를 사용합니다.
+rivenhald,레이븐홀드,Rivenhald,,전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트,"공격 속도, 공격력%, 치유 효과, 분노 회복",지원형 영주로서 공격 속도와 분노 순환을 확보하고 성스러운 날개로 파티 공격 지원을 강화합니다.
+rork,로크,Rork,,불굴의 용사 (Immortal Warrior) 세트 + 재앙 드래곤 (Cataclysm) 세트,"HP%, 치명타율, 공격 속도, 치명타 피해",HP 기반 딜러라 불굴의 용사로 체력을 확보하면서 재앙 드래곤으로 피해를 증폭합니다.
+sadie,사티,Sadie,,빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트,"분노 회복, 공격 속도, HP%, 치유 효과",궁극기 회전이 중요한 보호형 힐러라 분노 회복을 우선하고 성스러운 날개로 파티 지원을 더합니다.
+shamir,샤미르,Shamir,,악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",궁극기 중심 폭딜과 지옥 비명의 20초 강화 효과가 잘 맞는 엔드게임 세팅입니다.
+solaris,솔라리스,Solaris,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",치명타 기반 마법 딜러의 최종 세팅으로 재앙 드래곤 중첩을 활용합니다.
+su-yue,소설백,Su Yue,,악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",배치 직후 자동 궁극기와 20초 전장 체류 구조가 지옥 비명의 20초 강화 효과와 정확히 맞물립니다.
+valkyra,바크라,Valkyra,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",현재 엔드게임 자료에서는 재앙 드래곤을 대표 추천으로 채택합니다. 마수의 포효도 장비 품질과 콘텐츠에 따라 경쟁력 있는 대안입니다.
+voroth,워로스,Voroth,,악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트,"공격력%, 공격 속도, 치명타율, 치명타 피해",기본 공격 의존도가 높아 마수의 포효를 우선하는 엔드게임 세팅입니다.
+vortex,와엘,Vortex,,빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트,"공격 속도, HP%, 치유 효과, 분노 회복",HP 기반 치유·보호막을 살리면서 성스러운 날개로 파티 공격 지원까지 확보합니다.
