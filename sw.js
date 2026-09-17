@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v2135a-north-throne-endgame-gear";
+const CACHE_NAME = "namangam-wor-v2135b-nightmare-endgame-gear";
 
 const CORE_ASSETS = [
   "/styles.css?v=2.13.4m",

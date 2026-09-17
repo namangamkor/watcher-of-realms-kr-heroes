@@ -1,0 +1,40 @@
+﻿id,한국명,영문명,기존추천,최종추천,권장옵션,검수메모
+abomination,증오,Abomination,,악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트,"공격력%, 공격 속도, 치명타율, 치명타 피해",기본 공격 비중과 생존형 전사 구조를 고려하면 마수의 포효가 가장 안정적인 엔드게임 조합입니다.
+admiral-claw,크로우장군,Admiral Claw,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",재앙 드래곤 중첩을 유지할 수 있는 치명타율과 공격 속도를 우선합니다.
+ares,아레스,Ares,,악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트,"공격력%, 공격 속도, 치명타율, 치명타 피해",기본 공격과 연속 타격 비중이 높아 마수의 포효가 엔드게임 핵심 세트입니다.
+arrogance,오만,Arrogance,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",현재 Prospector와 Fastidious의 엔드게임 조합이 악의 복수 + 재앙 드래곤으로 일치합니다.
+astrael,아스트레이,Astrael,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",재앙 드래곤 중첩을 안정적으로 유지하는 엔드게임 딜 세팅입니다.
+azhor,아젤,Azhor,,성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트,"방어력%, HP%, 공격 속도, 분노 회복",방어력 기반 수호자라 강철 의지의 피해 감소와 가드 방어 증가를 우선합니다.
+baron,바론,Baron,,성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트,"HP%, 방어력%, 공격 속도, 분노 회복",순수 탱킹에서는 최대 HP 추가보다 강철 의지의 피해 감소 효율이 안정적입니다.
+bayek,바예크,Bayek,,악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",Prospector의 2026-09 엔드게임 빌드에서 악의 복수 + 지옥 비명이 직접 확인됩니다.
+daemon,디몽,Daemon,,악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트,"공격력%, 공격 속도, 치명타율, 치명타 피해",연속 기본 공격 기반이라 마수의 포효를 최종 추천으로 잡았습니다.
+deimos,데모스,Deimos,,악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트,"공격력%, 공격 속도, 치명타율, 치명타 피해",연속 공격과 단일 대상 지속딜 구조 때문에 마수의 포효와 궁합이 좋습니다.
+dr-van-helsing,반헬싱,Dr. Van Helsing,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",Prospector 엔드게임 빌드에서 악의 복수 + 재앙 드래곤 조합이 확인됩니다.
+drayga,드레가,Drayga,,성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트,"방어력%, HP%, 공격 속도, 분노 회복",방어력 기반 수호자라 후반에는 성흔의 수호 + 강철 의지가 가장 안정적입니다.
+gisele,지젤,Gisele,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",현재 Fastidious의 최종 단계 기준으로 재앙 드래곤을 사용하는 치명타 딜 세팅입니다.
+gluttony,포셸,Gluttony,,성흔의 수호 (Astral Guardian) 세트 + 재앙 드래곤 (Cataclysm) 세트,"HP%, 치명타율, 공격 속도, 치명타 피해",포셸은 피해가 HP에 비례하므로 성흔의 수호로 체력을 확보하면서 재앙 드래곤으로 피해를 증폭합니다.
+greed,탐욕,Greed,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격 속도, 공격력%, 치명타율, 치명타 피해","탐욕은 공격 속도와 스킬 순환 가치가 높지만, 엔드게임 피해 기대값은 악의 복수 + 재앙 드래곤이 높습니다."
+hatssut,하츠트,Hatssut,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",Fastidious와 Prospector 모두 엔드게임에서 악의 복수 + 재앙 드래곤을 제시합니다.
+kigiri,키기리,Kigiri,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",파수꾼 소대 검수 때 확정한 엔드게임 조합을 그대로 유지합니다.
+kineza,카니샤,Kineza,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",최종 단계에서는 치명타 기반 재앙 드래곤 세팅이 가장 안정적입니다.
+komodo,코모도,Komodo,,악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트,"공격력%, 공격 속도, 치명타율, 치명타 피해",2연타 기본 공격과 출혈 유지 구조 때문에 마수의 포효 효율이 높습니다.
+leikan,레이칸,Leikan,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",Fastidious의 최종 단계 빌드에서 악의 복수 + 재앙 드래곤이 직접 확인됩니다.
+lugaru,루가르,Lugaru,,악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트,"공격력%, 공격 속도, 치명타율, 치명타 피해",저체력 구간의 2연타를 포함해 기본 공격 비중이 높아 마수의 포효를 우선합니다.
+lust,러스트,Lust,,악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트,"공격력%, 공격 속도, 치명타율, 치명타 피해",Fastidious 엔드게임 단계에서 악의 복수 + 마수의 포효가 직접 확인됩니다.
+magmus,마그누스,Magmus,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, HP%",공격력과 HP를 모두 활용하지만 최종 피해 기준으로는 악의 복수 + 재앙 드래곤을 우선합니다.
+maw,마우,Maw,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, HP%, 공격 속도",생존 보조가 필요하지만 엔드게임 피해 세팅은 악의 복수 + 재앙 드래곤으로 확인됩니다.
+moriden,모리던,Moriden,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",Fastidious 최종 단계에서 악의 복수 + 재앙 드래곤 조합이 직접 확인됩니다.
+nauvras,나블레스,Nauvras,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격 속도, 공격력%, 치명타율, 치명타 피해",공격 속도를 충분히 확보한 뒤 재앙 드래곤 중첩을 유지하는 엔드게임 세팅입니다.
+raizan,썬더,Raizan,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",해외 위키의 일반 엔드게임 빌드가 악의 복수 + 재앙 드래곤으로 정리되어 있습니다.
+rygar,레고,Rygar,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",Fastidious 최종 단계에서 악의 복수 + 재앙 드래곤이 직접 확인됩니다.
+salazar,살라잘,Salazar,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",일반 엔드게임은 재앙 드래곤을 우선합니다. 단일 대상 아레나에서 궁극기 폭딜을 노릴 때는 지옥 비명이 강한 대안입니다.
+sergei,세르게이,Sergei,,악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",해외 엔드게임 빌드에서 악의 복수 + 지옥 비명 전용 조합이 확인됩니다.
+sorzus,소르제스,Sorzus,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",레어 영웅이지만 최고 장비를 기준으로 하면 일반 치명타 딜러용 엔드게임 조합을 적용합니다.
+sun-wukong,손오공,Sun Wukong,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",파수꾼 소대 검수 때 확정한 엔드게임 조합을 그대로 유지합니다.
+torodor,톨레도,Torodor,,성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트,"HP%, 방어력%, 공격 속도, 분노 회복",일반 엔드게임 기준으로는 강철 의지의 피해 감소가 불멸의 의지의 추가 HP보다 안정적이라 성흔의 수호 + 강철 의지를 우선합니다.
+twyla,트윌라,Twyla,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해","해외 자료가 마수의 포효와 재앙 드래곤으로 나뉘지만, 진영 전용 장비까지 포함한 일반 엔드게임 기준에서는 재앙 드래곤을 우선합니다."
+valeriya,발레리야,Valeriya,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",Fastidious 최종 단계에서 악의 복수 + 재앙 드래곤 조합이 확인됩니다.
+vladov,블라도프,Vladov,,악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트,"공격력%, 공격 속도, 치명타율, 치명타 피해",연속 공격과 출혈 유지를 위해 공격 속도와 마수의 포효 효율이 높습니다.
+volka,볼카,Volka,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해","Fastidious 최종 단계에서 악의 복수 + 재앙 드래곤이 확인되며, 딜과 생존을 함께 챙깁니다."
+wrath,격노,Wrath,영혼의 비밀 세트,악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트,"공격 속도, 치명타 피해, 치명타율, HP%",전용 아티팩트까지 갖춘 최고 세팅 기준으로 지옥 비명과 궁극기 시너지가 가장 큽니다.
+yuri,유리,Yuri,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",Fastidious 최종 단계에서 악의 복수 + 재앙 드래곤 조합이 확인됩니다.
