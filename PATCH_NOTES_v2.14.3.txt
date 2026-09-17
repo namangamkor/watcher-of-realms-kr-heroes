@@ -1,0 +1,33 @@
+나만겜 WOR Wiki v2.14.3 — 북쪽 경계 왕좌 추천 아티팩트 패치
+
+베이스: v2.14.2 파수꾼 소대 추천 아티팩트 패치 완료본
+
+[적용 범위]
+- 북쪽 경계 왕좌(North Throne) 49명 전원 recommendedArtifact 1순위 추천 적용
+- 한국 서버 공식명은 사용자 확인값 사용, 임의 번역 없음
+- 기존 파수꾼 소대 및 타 진영 데이터 보존
+
+[이번 사용자 확인 공식명]
+- Shattered Hilt → 잊혀진 옛검
+- Dwarven Strider → 습격자
+- Eternal Winter → 끝없는 겨울
+- Talisman of Resolve → 겁쟁이의 용기
+- Lucent Flame → 백염
+- Sharpshooter Crest → 명사수의 표식
+- Euphoric Orb → 즐거움의 보주
+- Key of the Forsaken → 미지의 땅의 열쇠
+- Nightmare Samsara → 악몽 윤회
+- Mindflayer Quartz → 영혼 약탈 석영
+- Realm Tear → 세상의 눈물
+
+[추가 정정]
+- 포레스 exclusiveArtifact: Eternal Winter → 끝없는 겨울
+- 페르샤 exclusiveArtifact: Lucent Flame → 백염
+- 녹턴 exclusiveArtifact: Mindflayer Quartz → 영혼 약탈 석영
+
+[검증]
+- 북쪽 경계 왕좌 인원: 49명
+- recommendedArtifact 적용: 49/49
+- 한국명/영문명 동시 보유: 49/49
+- heroes.json / _worker.js 일치: PASS
+- 서비스워커 캐시: namangam-wor-v2143-north-throne-artifacts

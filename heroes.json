@@ -287,7 +287,13 @@
       "아군 버프",
       "방어 무시",
       "강력 제어"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "서리포식자",
+      "nameEn": "Frost Devourer",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "aeon",
@@ -514,7 +520,13 @@
     "traits": [
       "단일 마법 공격",
       "강력 제어"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "ain",
@@ -767,7 +779,13 @@
       "매우 먼 사거리",
       "강력 제어",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "머신코어",
+      "nameEn": "Mech Core",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "alaura",
@@ -1333,7 +1351,13 @@
       "광역 물리 공격",
       "지속 피해",
       "매우 먼 사거리"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "잊혀진 옛검",
+      "nameEn": "Shattered Hilt",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "ardeth",
@@ -1708,7 +1732,13 @@
       "위치 이동",
       "아군 버프",
       "아군 보호"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "습격자",
+      "nameEn": "Dwarven Strider",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "atrox",
@@ -2005,7 +2035,7 @@
       "nameKr": "보루의 반지",
       "nameEn": "Bastion Ring",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
     }
   },
   {
@@ -2576,10 +2606,10 @@
     ],
     "collectionValue": 4,
     "exclusiveArtifact": {
-      "nameKr": null,
+      "nameKr": "끝없는 겨울",
       "nameEn": "Eternal Winter",
-      "krVerified": false,
-      "source": "user-reviewed-artifact-list"
+      "krVerified": true,
+      "source": "user-confirmed-official-name"
     },
     "videos": [
       {
@@ -2632,7 +2662,13 @@
       "강력 제어",
       "치유 금지",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "끝없는 겨울",
+      "nameEn": "Eternal Winter",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "borut",
@@ -2863,7 +2899,13 @@
       "생존",
       "아군 보호",
       "강력 제어"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "brunor",
@@ -2937,7 +2979,13 @@
     "traits": [
       "단일 물리 공격",
       "매우 먼 사거리"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "사신의 표식",
+      "nameEn": "Reaper's Emblem",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "cainan",
@@ -3568,7 +3616,13 @@
       "단일 물리 공격",
       "아군 보호",
       "강력 제어"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "잊혀진 옛검",
+      "nameEn": "Shattered Hilt",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "cerberus",
@@ -4446,7 +4500,13 @@
     },
     "traits": [
       "생존"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "dahlia",
@@ -5304,7 +5364,7 @@
       "nameKr": "자비의 강철연꽃",
       "nameEn": "Ironbloom of Mercy",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
     }
   },
   {
@@ -5687,7 +5747,7 @@
       "nameKr": "황금 풍뎅이",
       "nameEn": "Golden Scarab",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
     }
   },
   {
@@ -5801,7 +5861,7 @@
       "nameKr": "바린의 도끼",
       "nameEn": "Varin's Axe",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
     }
   },
   {
@@ -5875,7 +5935,13 @@
       "광역 물리 공격",
       "생존",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "겁쟁이의 용기",
+      "nameEn": "Talisman of Resolve",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "eliza",
@@ -6456,7 +6522,13 @@
     "traits": [
       "광역 물리 공격",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "격노의 분출자",
+      "nameEn": "Hate's Contagion",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "eunomia",
@@ -7100,10 +7172,10 @@
     ],
     "collectionValue": 2,
     "exclusiveArtifact": {
-      "nameKr": null,
+      "nameKr": "백염",
       "nameEn": "Lucent Flame",
-      "krVerified": false,
-      "source": "user-reviewed-artifact-list"
+      "krVerified": true,
+      "source": "user-confirmed-official-name"
     },
     "videos": [],
     "details": {
@@ -7148,7 +7220,13 @@
       "단일 물리 공격",
       "다단 공격",
       "고정 피해"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "백염",
+      "nameEn": "Lucent Flame",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "fenris",
@@ -7214,7 +7292,13 @@
       "광역 물리 공격",
       "생존",
       "강력 제어"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "명사수의 표식",
+      "nameEn": "Sharpshooter Crest",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "ferssi",
@@ -7590,7 +7674,13 @@
       "강력 제어",
       "공중 유닛 공격 가능",
       "생존"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "gluttony",
@@ -8144,7 +8234,7 @@
       "nameKr": "청룔언월도",
       "nameEn": "Green Crescent Blade",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
     }
   },
   {
@@ -8300,7 +8390,13 @@
       "단일 치유",
       "아군 보호",
       "강력 제어"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "즐거움의 보주",
+      "nameEn": "Euphoric Orb",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "harpun",
@@ -8365,7 +8461,13 @@
     "traits": [
       "단일 물리 공격",
       "방어 무시"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "흡혼 부적",
+      "nameEn": "Spirit Siphon",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "hatssut",
@@ -9177,7 +9279,13 @@
     "traits": [
       "높은 가드",
       "아군 보호"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "janqhar",
@@ -9391,7 +9499,13 @@
     "traits": [
       "단일 물리 공격",
       "방어 무시"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "미지의 땅의 열쇠",
+      "nameEn": "Key of the Forsaken",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "jezebelle",
@@ -9862,7 +9976,13 @@
     "traits": [
       "광역 물리 공격",
       "비용 회복"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "리바이어던",
+      "nameEn": "Leviathan",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "kassandra",
@@ -10070,7 +10190,13 @@
       "생존",
       "아군 보호",
       "강력 제어"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "산악의심장",
+      "nameEn": "Heart of the Mountain",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "khamet",
@@ -10414,9 +10540,9 @@
     ],
     "recommendedArtifact": {
       "nameKr": "보루의 반지",
-      "nameEn": null,
+      "nameEn": "Bastion Ring",
       "krVerified": true,
-      "source": "user-provided-korean-server-screenshot"
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
     }
   },
   {
@@ -10693,7 +10819,13 @@
     },
     "traits": [
       "높은 가드"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "lady-alexandra",
@@ -10878,7 +11010,13 @@
       "강력 제어",
       "아군 버프",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "죽은자의속삭임",
+      "nameEn": "The Dawnbringer",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "laseer",
@@ -11307,7 +11445,7 @@
       "nameKr": "낙원의 찬가",
       "nameEn": "Elysian Epitaph",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
     }
   },
   {
@@ -11636,7 +11774,13 @@
       "광역 물리 공격",
       "생존",
       "매우 먼 사거리"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "방천화극",
+      "nameEn": "Halberd of Woe",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "lucius",
@@ -11877,7 +12021,13 @@
       "아군 버프",
       "위치 이동",
       "강력 제어"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "제이드드래곤",
+      "nameEn": "Jade Dragon",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "luneria",
@@ -12081,7 +12231,13 @@
     "traits": [
       "단일 물리 공격",
       "강력 제어"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "사신의 표식",
+      "nameEn": "Reaper's Emblem",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "lyra",
@@ -12479,7 +12635,13 @@
       "생존",
       "높은 가드",
       "강력 제어"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "비탄의벽",
+      "nameEn": "Wall of Lament",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "marri",
@@ -12545,7 +12707,13 @@
       "광역 마법 공격",
       "강력 제어",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "악몽 윤회",
+      "nameEn": "Nightmare Samsara",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "maul",
@@ -12617,7 +12785,13 @@
     "traits": [
       "광역 물리 공격",
       "강력 제어"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "명사수의 표식",
+      "nameEn": "Sharpshooter Crest",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "maw",
@@ -12818,7 +12992,13 @@
       "광역 치유",
       "공격 제거",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "즐거움의 보주",
+      "nameEn": "Euphoric Orb",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "morene",
@@ -13775,10 +13955,10 @@
     ],
     "collectionValue": 3,
     "exclusiveArtifact": {
-      "nameKr": null,
+      "nameKr": "영혼 약탈 석영",
       "nameEn": "Mindflayer Quartz",
-      "krVerified": false,
-      "source": "user-reviewed-artifact-list"
+      "krVerified": true,
+      "source": "user-confirmed-official-name"
     },
     "videos": [
       {
@@ -13829,7 +14009,13 @@
     "traits": [
       "단일 마법 공격",
       "고정 피해"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "영혼 약탈 석영",
+      "nameEn": "Mindflayer Quartz",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "numera",
@@ -14060,7 +14246,13 @@
     },
     "traits": [
       "생존"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "oren",
@@ -15023,7 +15215,13 @@
       "생존",
       "높은 가드",
       "아군 보호"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "rivenhald",
@@ -15103,7 +15301,13 @@
       "광역 치유",
       "아군 보호",
       "강력 제어"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "서리척추",
+      "nameEn": "Frosthorn Staff",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "rork",
@@ -15168,7 +15372,13 @@
     "traits": [
       "광역 물리 공격",
       "아군 보호"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "포효의 머리뼈",
+      "nameEn": "Wailing Skull",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "rosalia",
@@ -15480,7 +15690,13 @@
     "traits": [
       "광역 치유",
       "아군 보호"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "희미한빛",
+      "nameEn": "Whispering Grace",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "salazar",
@@ -16143,7 +16359,13 @@
     "traits": [
       "단일 마법 공격",
       "강력 제어"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "silas",
@@ -16292,7 +16514,13 @@
       "광역 마법 공격",
       "강력 제어",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "solcadens",
@@ -16604,7 +16832,13 @@
       "방어 무시",
       "강력 제어",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "상야",
+      "nameEn": "Moonfrost",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "sun-wukong",
@@ -18069,7 +18303,13 @@
       "아군 버프",
       "매우 먼 사거리",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "세상의 눈물",
+      "nameEn": "Realm Tear",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "vargus",
@@ -19112,7 +19352,13 @@
       "단일 물리 공격",
       "다단 공격",
       "생존"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "겨울의부름",
+      "nameEn": "Winter's Call",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "vortex",
@@ -19176,7 +19422,13 @@
     },
     "traits": [
       "단일 치유"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "낙원의 찬가",
+      "nameEn": "Elysian Epitaph",
+      "krVerified": true,
+      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+    }
   },
   {
     "id": "wrath",
