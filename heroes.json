@@ -6009,7 +6009,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 최신 Prospector's Digsite 및 Watcher of Realms Wiki(Fandom) 기준으로 교차 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "단일 마법 공격에 고정 피해와 지속 피해를 함께 사용하는 최고 중재자 에픽 영주 전사. 공중 유닛까지 공격할 수 있어 단일 표적을 꾸준히 압박하면서 피해 유형을 다양하게 가져간다. 최고 중재자 조합의 영주 효과와 단일 화력을 함께 담당하는 타입이다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 기본 공격으로 재앙 드래곤 중첩을 안정적으로 쌓고, 궁극기 반복 사용과 고정 피해를 포함한 전체 화력을 끌어올리는 엔드게임 세팅입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 최고 중재자(Supreme Arbiters) 엔드게임 전수검수: Prospector.gg End Game 직접 검증"
+      }
     },
     "traits": [
       "단일 마법 공격",
@@ -13900,7 +13906,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 최신 Prospector's Digsite 및 Watcher of Realms Wiki(Fandom) 기준으로 교차 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "매우 먼 사거리의 광역 물리 공격과 강력 제어, 아군 버프, 고정 피해를 갖춘 최고 중재자 전설 영주 전사. 장거리 범위 공격으로 적을 압박하면서 제어와 지원까지 더할 수 있다. 최고 중재자 조합에서 영주 효과와 다기능 화력을 함께 맡는 타입이다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기 발동 후 20초 동안 피해와 치명타 피해를 크게 올리는 지옥 비명이 오렌의 광역 압박과 궁극기 중심 운용에 가장 잘 맞습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 최고 중재자(Supreme Arbiters) 엔드게임 전수검수: Prospector.gg End Game 직접 검증"
+      }
     },
     "traits": [
       "광역 물리 공격",
@@ -14270,7 +14282,13 @@
       "updated": "2026-09",
       "note": "각성 효과는 최신 Prospector's Digsite 및 Watcher of Realms Wiki(Fandom) 기준으로 교차 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "다단 단일 마법 공격과 고정 피해·지속 피해를 함께 사용하는 최고 중재자 전설 영주 마법사. 공중 유닛까지 공격할 수 있어 한 표적에 여러 형태의 피해를 집중한다. 최고 중재자 조합의 영주 효과와 강한 단일 압박을 동시에 담당하는 타입이다.",
-      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약"
+      "introBasis": "게임 내 공식 특성 및 기존 각성 데이터 기반 요약",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 궁극기를 반복할수록 피해가 영구 누적되는 영혼의 비밀이 플레트스의 장기전·연속 궁극기 구조와 가장 잘 맞는 엔드게임 세팅입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-17 최고 중재자(Supreme Arbiters) 엔드게임 전수검수: Prospector.gg End Game 직접 검증"
+      }
     },
     "traits": [
       "단일 마법 공격",

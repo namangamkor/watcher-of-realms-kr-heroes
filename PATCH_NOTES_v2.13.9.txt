@@ -1,0 +1,21 @@
+나만겜 WOR Wiki v2.13.9 — 최고 중재자 엔드게임 추천장비 패치
+
+기준 베이스: v2.13.8 혼돈 정복자 엔드게임 추천장비 완료본
+진영: 최고 중재자 (Supreme Arbiters)
+총 영웅: 22명
+기존 엔드게임 장비 검수값 보존: 19명
+신규 장비 반영: 3명
+
+신규 반영
+- 에릴시아 (Elysia): 악의 복수 + 재앙 드래곤
+- 오렌 (Oren): 악의 복수 + 지옥 비명
+- 플레트스 (Praetus): 악의 복수 + 영혼의 비밀
+
+검수 메모
+- 에릴시아: Prospector End Game 직접 확인. Wicked Vengeance + Cataclysm, 공격력% 3주옵과 치명타율·공격속도·치명타피해 중심.
+- 오렌: Prospector End Game 직접 확인. Wicked Vengeance + Hell's Lament, 궁극기 후 20초 강화 효과를 활용하는 구성.
+- 플레트스: Prospector End Game 직접 확인. Wicked Vengeance + Soulbound Arcana, 궁극기 반복에 따라 영구 피해 증가가 누적되는 구성.
+- 다른 19명은 앞 진영 전수검수에서 이미 확정된 값이므로 변경하지 않음.
+
+배포
+ZIP을 풀어 저장소 루트에 _worker.js, heroes.json, sw.js를 덮어쓴 뒤 커밋/배포.
