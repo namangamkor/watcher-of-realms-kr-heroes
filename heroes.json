@@ -4609,10 +4609,10 @@
     ],
     "details": {
       "gear": {
-        "name": "전쟁의 주인 (Warlord) 세트 + 신성한 영혼 (Invigoration) 세트",
+        "name": "전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "범용 추천: 전쟁의 주인 (Warlord) 세트 + 신성한 영혼 (Invigoration) 세트. 후반/졸업 대안: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 공격력 기반 치유·지원형. 범용은 신성한 영혼, 후반에는 성스러운 날개를 사용합니다. 권장 옵션: 공격 속도, 공격력%, 분노 회복, 치유 효과.",
-        "source": "2026-09-17 해외 빌드 재검수: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
+        "text": "범용/후반 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 성장 단계 대안: 전쟁의 주인 (Warlord) 세트 + 신성한 영혼 (Invigoration) 세트. 초선은 공격력 기반 치유와 아군 공격 지원을 함께 활용하므로, 최종 추천은 성스러운 날개를 우선합니다. 신성한 영혼은 GR19~21 성장 구간이나 특정 아군 1명에게 배치 공격 버프를 주려는 운용에서 유효합니다. 권장 옵션: 공격력%, 공격 속도, 치유 효과, 분노 회복.",
+        "source": "2026-09-17 재검수: Fastidious.gg Gear Recommendations 1순위 Wings of Grace, Stage 2 Invigoration / Stage 3 Wings of Grace; Prospector.gg Warlord + Wings of Grace 엔드게임 빌드 교차확인"
       },
       "awakening": [
         {

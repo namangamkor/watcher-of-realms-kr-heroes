@@ -1,0 +1,23 @@
+WoR Wiki v2.13.4z1 — 초선 추천 장비 교정
+
+교정 전
+- 메인: 전쟁의 주인 + 신성한 영혼
+- 후반: 전쟁의 주인 + 성스러운 날개
+
+교정 후
+- 메인/후반: 전쟁의 주인 (Warlord) + 성스러운 날개 (Wings of Grace)
+- 성장 단계 대안: 전쟁의 주인 (Warlord) + 신성한 영혼 (Invigoration)
+
+근거
+- Fastidious Gear Recommendations: Wings of Grace 1순위, Invigoration 2순위, Morale 3순위
+- Fastidious Stage 2: Warlord + Invigoration
+- Fastidious Stage 3: Warlord + Wings of Grace
+- Prospector에서도 Warlord + Wings of Grace 엔드게임 빌드 확인
+
+이번 핫픽스는 초선 추천 장비만 수정.
+v2.13.4z의 나머지 파수꾼 재검수 내용은 그대로 유지.
+
+GitHub 업로드
+- _worker.js
+- heroes.json
+- sw.js
