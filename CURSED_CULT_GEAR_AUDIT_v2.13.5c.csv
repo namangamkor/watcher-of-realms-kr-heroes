@@ -1,0 +1,41 @@
+﻿id,한국명,영문명,기존추천,최종추천,권장옵션,검수메모
+abyss,아비스,Abyzou,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",아비스의 공식 영문명은 Abyzou로 교정했습니다. 최종 딜 세팅은 악의 복수와 재앙 드래곤 조합입니다.
+aeon,이안,Aeon,,질풍 (Whirlwind) 세트 + 성스러운 날개 (Wings of Grace) 세트,"공격 속도, 분노 회복, HP%, 방어력%","딜보다 취약 효과와 끌어당김, 궁극기 회전이 핵심이라 공격 속도·분노 순환과 파티 지원을 우선합니다."
+anora,아노라,Anora,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",최종 단계에서는 치명타 기반 재앙 드래곤 중첩을 활용하는 세팅이 가장 안정적입니다.
+artemis,아르테미스,Artemis,,빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트,"공격 속도, 공격력%, 치유 효과, 분노 회복",힐러 역할을 기준으로 치유·분노 회복과 성스러운 날개의 파티 공격 지원을 함께 가져갑니다. 순수 딜 세팅은 상황별 대안입니다.
+atrox,아테로크스,Atrox,,악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트,"공격력%, 공격 속도, 치명타율, 치명타 피해",자해형 전사라 생존보다 기본 공격과 폭딜 효율을 우선하며 마수의 포효가 엔드게임 핵심입니다.
+aurelius-gale,아우렐리우스,Aurelius Gale,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",현재 Fastidious 최종 단계 기준으로 악의 복수 + 재앙 드래곤 조합이 확인됩니다.
+beatrix,베아트릭스,Beatrix,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",소환 딜러지만 최종 단계에서는 본체와 소환물 피해를 함께 끌어올리는 재앙 드래곤 조합이 사용됩니다.
+beelzebub,바알세불,Beelzebub,,전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트,"공격력%, 공격 속도, 분노 회복, HP%",순수 딜러보다 영감·감속·마법 취약을 제공하는 지원형 가치가 높아 성스러운 날개를 최종 추천으로 둡니다.
+captain-reve,리프선장,Captain Reve,,성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트,"HP%, 방어력%, 공격 속도, 분노 회복",최종 단계에서는 생존과 자가 회복을 극대화하는 성흔의 수호 + 불멸의 의지가 가장 안정적입니다.
+carnelian,카헬리안,Carnelian,,전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트,"공격 속도, 공격력%, 치유 효과, 분노 회복","공격 속도가 핵심이며, 후반에는 성스러운 날개로 치유와 파티 공격 지원을 함께 확보하는 세팅이 확인됩니다."
+carosa,카로사,Carosa,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",마법 딜러의 엔드게임 기준으로 치명타 피해와 재앙 드래곤 중첩을 우선합니다.
+cerberus,세브로스,Cerberus,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"치명타율, 공격 속도, 치명타 피해, HP%",자해형 광역 딜러라 생존을 과도하게 챙기기보다 재앙 드래곤을 통한 최종 피해 기대값을 우선합니다.
+cyrene,셀레니,Cyrene,질풍 (Whirlwind) 세트 + 마력 (Mana Spring) 세트,질풍 (Whirlwind) 세트 + 마력 (Mana Spring) 세트,"공격 속도, 분노 회복, HP%, 방어력%",코스트와 궁극기 순환이 핵심이라 질풍 + 마력 조합을 유지합니다.
+dahlia,달리아,Dahlia,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",최종 단계에서는 재앙 드래곤 중첩을 유지하는 치명타 기반 세팅이 가장 좋습니다.
+demi,데미,Demi,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",현재 Fastidious의 최종 단계는 악의 복수 + 재앙 드래곤으로 확인됩니다. 이전에 지옥 비명을 정답처럼 본 판단은 이번 재검수에서 교정했습니다.
+durza,두르가,Durza,,질풍 (Whirlwind) 세트 + 마력 (Mana Spring) 세트,"공격 속도, 분노 회복, HP%, 방어력%",두르가는 직접 딜보다 공격 속도·분노·영감 지원 가치가 커서 질풍 + 마력으로 궁극기 회전을 최우선합니다.
+elukas,우르카스,Elukas,,전쟁의 주인 (Warlord) 세트 + 마력 (Mana Spring) 세트,"공격 속도, 분노 회복, HP%, 방어력%",레어 영웅이지만 최고 활용 기준에서는 감속과 궁극기 순환을 위해 공격 속도와 분노 회복을 우선합니다.
+eona,이오나,Eona,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",기존 검수에서 확정한 엔드게임 조합을 그대로 유지합니다.
+ezareth,에사레스,Ezareth,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",저주신교 최상위 영주 딜러로서 최종 단계에서는 악의 복수 + 재앙 드래곤 조합이 확인됩니다.
+greed,탐욕,Greed,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격 속도, 공격력%, 치명타율, 치명타 피해","공격 속도와 스킬 회전 가치가 높지만, 최고 장비 기준 피해 기대값은 악의 복수 + 재앙 드래곤이 우세합니다."
+hollow,할로우,Hollow,,빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트,"공격 속도, 공격력%, 치유 효과, 분노 회복","할로우의 핵심은 빠른 치유와 분노 공급이며, 최종 단계에서는 빛의 은혜 + 성스러운 날개로 파티 지원까지 챙깁니다."
+jorge,조지,Jorge,,성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트,"HP%, 방어력%, 공격 속도, 분노 회복",방어력 기반 에픽 탱커라 강철 의지의 피해 감소와 가드 방어 증가가 최종 세팅에 잘 맞습니다.
+knight-arlott,알로트,Knight Arlott,,성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트,"HP%, 방어력%, 공격 속도, 분노 회복",최종 단계에서는 성흔의 수호 + 불멸의 의지로 최대 체력과 피격 회복을 강화합니다.
+kria,클리아,Kria,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",소환 까마귀를 포함한 광역 딜을 높이기 위해 엔드게임 치명타 세팅을 적용합니다.
+laseer,레이저,Laseer,,질풍 (Whirlwind) 세트 + 성스러운 날개 (Wings of Grace) 세트,"공격 속도, 분노 회복, HP%, 방어력%",레이저는 딜보다 안티힐 유지와 궁극기 회전이 핵심이라 질풍을 유지하고 성스러운 날개로 파티 지원을 더합니다.
+magda,마그다,Magda,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",지원 능력이 있는 전사지만 자체 딜 기대값이 높아 최종 단계에서는 악의 복수 + 재앙 드래곤을 사용합니다.
+malvira,말비라,Malvira,성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트,성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트,"HP%, 방어력%, 공격 속도, 분노 회복",기존 북쪽 경계 왕좌 검수에서 확정한 최종 탱커 세팅을 그대로 유지합니다.
+morrigan,모리건,Morrigan,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해","광역 마법 딜러·영주 역할을 함께 수행하며, 엔드게임은 악의 복수 + 재앙 드래곤으로 정리합니다."
+niro,네로,Niro,전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트,전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",현재 해외 자료에서 더 우월한 최종 조합이 일관되게 확인되지 않아 검증된 전쟁의 주인 + 영혼의 비밀을 유지합니다.
+osiren,오스렌,Osiren,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"치명타율, 치명타 피해, 공격력%, HP%",공격 속도 효과를 거의 받지 않는 특성상 치명타·공격력 위주로 맞추며 최종 단계는 악의 복수 + 재앙 드래곤입니다.
+pierre,피에르,Pierre,,악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트,"공격 속도, 치명타율, 치명타 피해, 공격력%",피에르의 Prismarch는 소환 시 스탯을 고정하므로 지옥 비명의 궁극기 버프를 온전히 유지할 수 있어 최종 효율이 매우 높습니다.
+rosalia,로살리아,Rosalia,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 공격 속도, 치명타율, 치명타 피해","공격 속도 가치가 높은 광역 딜러로, 진영 전용 장비를 포함한 최종 세팅은 악의 복수 + 재앙 드래곤입니다."
+thunkles,상크,Thunkles,,성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트,"HP%, 방어력%, 공격 속도, 분노 회복",HP 기반 탱커로서 최종 단계에서는 성흔의 수호 + 불멸의 의지 조합이 확인됩니다.
+uredin,우레딘,Uredin,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",최종 단계에서 재앙 드래곤을 활용하는 치명타 기반 딜 세팅이 확인됩니다.
+velisse,벨리스,Velisse,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해","소환 지원 능력과 자체 광역 딜을 모두 갖춘 영웅으로, 최종 단계는 악의 복수 + 재앙 드래곤입니다."
+vierna,베르나,Vierna,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 치명타 피해, 분노 회복",공격 속도 효율이 낮은 영웅이라 공격력·치명타 피해·분노 회복 위주로 맞추고 재앙 드래곤을 사용합니다.
+vlad-draculea,블라드3세,Vlad Draculea,,악의 복수 (Wicked Vengeance) 세트 + 영원불멸의 무법자 (Undying Savage) 세트,"HP%, 치명타율, 치명타 피해, 공격 속도",HP 비례 피해 구조와 치유·회복이 반복되는 스킬셋이 영원불멸의 무법자와 매우 잘 맞습니다. 일반 엔드게임 기준 대표 추천으로 채택합니다.
+voltus,볼타스,Voltus,,전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",레어 영웅이라 전용 엔드게임 자료가 제한적이어서 현재 확인 가능한 최고 범용 딜 조합을 유지합니다.
+xaris,자리스,Xaris,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 공격 속도, 치명타 피해",배치·퇴각을 반복하는 폭딜형 소환사지만 최종 장비 기준으로는 악의 복수 + 재앙 드래곤이 확인됩니다.
+zelus,제로스,Zelus,,악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트,"공격력%, 치명타율, 치명타 피해, 분노 회복",공격 속도 효율이 낮아 공격력·치명타·분노 회복에 집중하며 최종 단계는 악의 복수 + 재앙 드래곤입니다.
