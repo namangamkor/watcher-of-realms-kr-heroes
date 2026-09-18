@@ -29,3 +29,13 @@
 .gear-detail-page .gear-detail-title p{font-size:16px}
 .gear-detail-page .gear-detail-title small{font-size:13px}
 }
+
+/* v2.14.11: Smaller title with breathing room */
+.gear-detail-page .gear-detail-title{min-width:0}
+.gear-detail-page .gear-detail-title h1{font-size:clamp(26px,3.2vw,36px);line-height:1.35;letter-spacing:-.025em;overflow-wrap:anywhere}
+.gear-detail-page .gear-detail-badges{margin-bottom:14px}
+.gear-detail-page .gear-detail-title p{margin-top:12px;margin-bottom:10px}
+@media(max-width:600px){
+.gear-detail-page .gear-detail-title h1{font-size:26px}
+.gear-detail-page .gear-detail-badges{margin-bottom:12px}
+}

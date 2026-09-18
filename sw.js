@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v21410-gear-readable";
+const CACHE_NAME = "namangam-wor-v21411-gear-title-spacing";
 
 const CORE_ASSETS = [
   "/styles.css?v=2.13.4m",

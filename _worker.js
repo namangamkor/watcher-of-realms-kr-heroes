@@ -735,7 +735,7 @@ export default {
       if (request.method === "HEAD" || asset.status !== 200 || !(asset.headers.get("content-type") || "").includes("text/html")) return asset;
       let html = await asset.text();
       html = html.replace(/<div>\s*<dt>보조\s*속성<\/dt>/g, '<div class="gear-substat-row"><dt>보조 속성</dt>');
-      html = html.replace('</head>', '<link rel="stylesheet" href="/gear-detail-readable.css?v=2.14.10"></head>');
+      html = html.replace('</head>', '<link rel="stylesheet" href="/gear-detail-readable.css?v=2.14.11"></head>');
       const headers = new Headers(asset.headers);
       headers.delete("content-length");
       headers.delete("content-encoding");
