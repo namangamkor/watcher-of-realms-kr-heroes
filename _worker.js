@@ -280,7 +280,26 @@ function heroDescription(hero) {
   return `워처 오브 렐름 ${hero.nameKr}(${hero.nameEn}) 영웅 정보. ${hero.rarity} ${hero.class}, 소속 진영 ${factions}.${contentText} 한국명과 영문명을 나만겜 한국 영웅 위키에서 확인하세요.`;
 }
 
+// v2.14.9: Adapt canonical heroes.json fields at the rendering boundary.
+// Keep the source data intact so subsequent gear/artifact updates remain compatible.
+function normalizeHeroForDetail(hero) {
+  const memberships = (Array.isArray(hero.memberships) ? hero.memberships : []).map((m) => ({
+    ...m,
+    kr: m.kr || m.factionKr || "",
+    en: m.en || m.factionEn || ""
+  }));
+  const portrait = hero.portrait || memberships.find((m) => m.portrait)?.portrait || "";
+  return {
+    ...hero,
+    memberships,
+    // Root-relative paths also work on nested /hero/<id>/ routes and in OG metadata.
+    portrait: portrait ? new URL(portrait, SITE + "/").pathname : "",
+    contentTags: Array.isArray(hero.contentTags) ? hero.contentTags : []
+  };
+}
+
 function renderHero(hero, env = {}) {
+  hero = normalizeHeroForDetail(hero);
   const canonical = `${SITE}/hero/${encodeURIComponent(hero.id)}/`;
   const title = `나만겜 | ${hero.nameKr}(${hero.nameEn}) - 워처 오브 렐름 한국 영웅 위키`;
   const description = heroDescription(hero);
