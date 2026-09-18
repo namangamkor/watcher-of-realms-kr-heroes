@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v2149-hero-detail-hotfix";
+const CACHE_NAME = "namangam-wor-v21410-gear-readable";
 
 const CORE_ASSETS = [
   "/styles.css?v=2.13.4m",

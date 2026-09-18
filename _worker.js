@@ -729,6 +729,20 @@ export default {
       });
     }
 
+    // Apply presentation updates to the deployed gear HTML without replacing its data.
+    if (/^\/gear-preset-4(?:0[1-9]|1[0-9]|2[0-4])(?:\.html)?\/?$/.test(url.pathname) && ["GET", "HEAD"].includes(request.method)) {
+      const asset = await env.ASSETS.fetch(request);
+      if (request.method === "HEAD" || asset.status !== 200 || !(asset.headers.get("content-type") || "").includes("text/html")) return asset;
+      let html = await asset.text();
+      html = html.replace(/<div>\s*<dt>보조\s*속성<\/dt>/g, '<div class="gear-substat-row"><dt>보조 속성</dt>');
+      html = html.replace('</head>', '<link rel="stylesheet" href="/gear-detail-readable.css?v=2.14.10"></head>');
+      const headers = new Headers(asset.headers);
+      headers.delete("content-length");
+      headers.delete("content-encoding");
+      headers.delete("etag");
+      return new Response(html, {status: asset.status, headers});
+    }
+
     if (!match) {
       return env.ASSETS.fetch(request);
     }
