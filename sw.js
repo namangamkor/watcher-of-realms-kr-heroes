@@ -1,4 +1,4 @@
-const CACHE_NAME = "namangam-wor-v2145-content-protection";
+const CACHE_NAME = "namangam-wor-v2146-north-throne-gear-reaudit";
 
 const CORE_ASSETS = [
   "/styles.css?v=2.13.4m",

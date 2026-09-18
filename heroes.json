@@ -7210,10 +7210,10 @@
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "공격 속도를 크게 끌어올려 연속 타격을 쌓는 단일 대상 전사. 물리와 마법 피해를 함께 활용하는 독특한 공격 구조와 높은 공속 효율을 갖고 있으며, 공격을 이어갈수록 강한 폭딜 구간을 만든다. 적의 피해를 낮추는 효과까지 있어 강한 정예·보스 상대에서 공격과 생존 보조를 동시에 담당할 수 있다.",
       "gear": {
-        "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기 폭딜 구간과 지옥 비명의 20초 강화 효과가 잘 맞아 엔드게임 대표 세팅으로 채택했습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
-        "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 빠른 공격과 치명타 기반 딜 사이클을 살리는 엔드게임 조합입니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "source": "2026-09-18 북쪽 경계 왕좌 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg Stage 3 교차검증"
       }
     },
     "traits": [
@@ -10180,10 +10180,10 @@
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "실드와 피해 감소를 극단적으로 강화한 최상급 보호형 수호자. 가만히 있을 때 주변 아군의 물리·마법 피해를 줄이고, 궁극기로 자신과 인접 아군에게 큰 실드를 씌운 뒤 실드 상태에서 최대 HP 기반 추가 피해와 빙결까지 넣는다. 혼자 버티는 능력뿐 아니라 옆에 선 아군까지 단단하게 만들어 전열 전체를 지키는 것이 핵심이다.",
       "gear": {
-        "name": "성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트",
+        "name": "성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 순수 탱커 역할에서는 강철 의지의 피해 감소를 우선합니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
-        "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 최대 HP 기반 실드와 전열 유지력을 함께 끌어올리는 엔드게임 탱커 조합입니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "source": "2026-09-18 북쪽 경계 왕좌 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg Stage 3 교차검증"
       }
     },
     "traits": [
@@ -12982,10 +12982,10 @@
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "여러 아군을 동시에 회복하면서 디버프까지 지워주는 에픽 광역 힐러. 궁극기 첫 회복으로 범위 내 아군의 해로운 효과를 제거하고 이후 지속적으로 광역 회복을 이어간다. 순간 폭힐보다는 상태 이상이 많은 구간에서 파티 전체를 안정적으로 복구하는 데 강점이 있다.",
       "gear": {
-        "name": "빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트",
+        "name": "빛의 은혜 (Light's Grace) 세트 + 불멸의 의지 (Unshaken Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. HP 기반 광역 치유와 해제를 유지하면서 치유·분노 회복 및 파티 공격 지원을 동시에 확보합니다. 권장 옵션: 공격 속도, HP%, 치유 효과, 분노 회복.",
-        "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 불멸의 의지 (Unshaken Will) 세트. HP 기반 광역 치유와 해제 역할을 유지하면서 최대 HP와 피격 회복으로 본인 생존력을 확보합니다. 권장 옵션: HP%, 공격 속도, 치유 효과, 분노 회복.",
+        "source": "2026-09-18 북쪽 경계 왕좌 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg Stage 3 교차검증"
       }
     },
     "traits": [
@@ -14238,10 +14238,10 @@
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "공격을 포기하고 버티기에 집중할 수 있는 에픽 정통 수호자. 궁극기 동안 공격을 멈추는 대신 물리 피해 감소와 블록이 크게 올라가 다수의 적을 오래 붙잡아둘 수 있다. 별도의 복잡한 지원 없이도 전열 한 자리를 안정적으로 버티는 데 특화된 탱커다.",
       "gear": {
-        "name": "성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트",
+        "name": "성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 자체 생존력이 강한 영웅이라 추가 회복보다 강철 의지의 피해 감소를 우선합니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
-        "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 강한 자체 실드와 순수 탱킹을 살리기 위해 최대 HP와 피격 회복을 우선하는 엔드게임 세팅입니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "source": "2026-09-18 북쪽 경계 왕좌 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg Stage 3 교차검증"
       }
     },
     "traits": [
@@ -16350,10 +16350,10 @@
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "한 대상을 지속적으로 느리게 만들고 움직임을 봉쇄하는 제어형 마법사. 일반 공격으로 익수 상태를 쌓아 이동 속도를 낮추고, 스킬을 통해 둔화와 속박을 이어가며 적을 공격 범위 안에 오래 붙잡아둔다. 폭발적인 광역 딜보다는 위험한 단일 적의 진입 속도를 늦추는 데 특화되어 있다.",
       "gear": {
-        "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기 중심 폭딜과 지옥 비명의 20초 강화 효과가 잘 맞는 엔드게임 세팅입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
-        "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 기본 공격과 궁극기로 Drowning Water 중첩을 유지하면서 치명타 기반 재앙 드래곤 중첩을 활용하는 엔드게임 딜 세팅입니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "source": "2026-09-18 북쪽 경계 왕좌 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg Stage 3 교차검증"
       }
     },
     "traits": [
