@@ -588,10 +588,10 @@
       "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "파수꾼 소대의 에픽 영주이자 단일 물리 전사. 범위 내 아군이 있을수록 방어 무시 이득을 얻고, 궁극기 동안 자신과 주변 아군의 피해를 올리며 다단 공격으로 전환한다. 물리 피해 취약과 기절 연계까지 갖춰 초중반 파수꾼 조합에서 공격 보조와 전열 딜을 동시에 맡기 좋다.",
       "gear": {
-        "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
-        "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 파수꾼 소대 재전수검수에서 엔드게임 1순위 조합으로 교정했습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
       }
     },
     "traits": [
@@ -3066,10 +3066,10 @@
       "note": "각성 효과는 Prospector's Digsite의 2026-08-02 갱신 데이터 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "지상과 플랫폼 양쪽에 배치할 수 있고, 궁극기로 위치를 바꾸며 강화 형태에 진입하는 고기동 전술마스터. 강화 상태에서는 2개 대상을 동시에 공격하고, 대상이 하나뿐이면 다단 단일 화력으로 전환되며 주기적으로 주변 적에게 진짜 피해와 아군 회복까지 제공한다. 단일·2대상 전투를 모두 소화하면서 재배치 없이 위치를 조정할 수 있는 범용성이 핵심이다.",
       "gear": {
-        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 기존 파수꾼 검수에서 확정한 최종 세팅을 유지합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
-        "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 기존 재앙 드래곤 추천을 최신 엔드게임 자료 기준으로 교정했습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
       }
     },
     "traits": [
@@ -4283,10 +4283,10 @@
       "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "코스트 회복과 주변 아군의 치명타 보조가 핵심인 에픽 전사형 지원가. 궁극기로 코스트를 즉시 되돌려 배치 전개를 빠르게 하고, 인접 아군에게 치명타율 증가를 제공한다. 직접 화력보다 초반 전개 속도와 파티 보조 가치가 중심이며, 둔화까지 있어 라인 안정에도 약간 기여한다.",
       "gear": {
-        "name": "질풍 (Whirlwind) 세트 + 마력 (Mana Spring) 세트",
+        "name": "성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 질풍 (Whirlwind) 세트 + 마력 (Mana Spring) 세트. 코스트와 궁극기 순환이 핵심이라 질풍 + 마력 조합을 유지합니다. 권장 옵션: 공격 속도, 분노 회복, HP%, 방어력%.",
-        "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 엔드 콘텐츠에서 생존과 지원 유지력을 우선하는 세팅입니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
       }
     },
     "traits": [
@@ -4651,10 +4651,10 @@
       "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "주기적으로 코스트를 회복해 주는 에픽 전사형 운영 지원가. 궁극기 동안 자신의 공격력·치명타 피해를 높여 전투에 참여하면서, 패시브로 일정 간격마다 전체 코스트를 돌려준다. 전투력 자체보다 빠른 영웅 전개가 필요한 스테이지에서 보조 카드로 쓰는 성격이 강하다.",
       "gear": {
-        "name": "성흔의 수호 (Astral Guardian) 세트 + 성스러운 날개 (Wings of Grace) 세트",
+        "name": "성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 성스러운 날개 (Wings of Grace) 세트. 코스트 생성 역할과 생존, 파티 지원을 함께 고려한 최종 세팅입니다. 권장 옵션: 분노 회복, 공격 속도, HP%, 방어력%.",
-        "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 엔드 콘텐츠에서 낮은 생존력을 보완하기 위해 HP 보너스를 우선한 실전 세팅입니다. 다른 전설 영웅과 함께 고난도 전투에서 버틸 수 있도록 생존 유지력을 최우선으로 둡니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "source": "2026-09-18 나만겜 실전 검수: 엔드 콘텐츠 생존 기준 HP 보너스 중심 세팅"
       }
     },
     "traits": [
@@ -4728,10 +4728,10 @@
       "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "공중 유닛을 우선 노리면서 단일·주변 적을 함께 압박하는 물리 전사. 공격을 반복해 스택을 쌓을수록 공격 주기와 분노 순환이 좋아지고, 궁극기는 최대 HP가 높은 적을 겨냥해 큰 피해와 기절·치유 차단을 건다. 탄막 둔화와 대공 능력까지 있어 여러 기능을 한 자리에서 수행하는 제어형 딜러다.",
       "gear": {
-        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
-        "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 기존 재앙 드래곤 추천을 파수꾼 소대 재전수검수 결과에 따라 교정했습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
       }
     },
     "traits": [
@@ -5350,10 +5350,10 @@
       "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "HP 기반 생존과 아군 보호를 결합한 수호자형 힐탱. 주변 아군이 받는 피해를 자원으로 축적해 궁극기에서 대량 회복과 보호막으로 되돌리고, 범위 내 아군에게 광역 피해 감소와 최종 피해 감소까지 제공한다. 치명적인 피해를 받아도 축적 자원을 소모해 다시 버틸 수 있어 파티 전체 생존 안정성을 크게 높이는 타입이다.",
       "gear": {
-        "name": "성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트",
+        "name": "성흔의 수호 (Astral Guardian) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. HP 기반 치유와 탱킹을 동시에 수행하므로 최대 HP와 피격 회복을 우선합니다. 권장 옵션: HP%, 방어력%, 치유 효과, 공격 속도.",
-        "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 성스러운 날개 (Wings of Grace) 세트. HP 기반 치유와 탱킹뿐 아니라 파티 지원까지 함께 살리는 엔드게임 기본 추천입니다. 순수 탱킹이 더 필요한 경우 불멸의 의지를 대안으로 사용할 수 있습니다. 권장 옵션: HP%, 방어력%, 치유 효과, 공격 속도, 분노 회복.",
+        "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
       }
     },
     "traits": [
@@ -9028,10 +9028,10 @@
       "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "태양 모드와 별빛 모드를 전환해 광역과 단일 화력을 오가는 파수꾼 영주형 마법사. 태양 모드에서는 다수 적을 넓게 압박하고, 별빛 모드에서는 한 대상에 연속 타격을 집중하며 두 모드 모두 에너지 중첩으로 화력이 올라간다. 상황에 맞춰 모드를 바꾸는 운용 난도가 있지만 한 영웅으로 서로 다른 전투 형태를 대응하는 범용성이 매우 크다.",
       "gear": {
-        "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 잉그리드의 대표적인 엔드게임 세팅입니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
-        "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 파수꾼 소대 재전수검수 결과 마수의 포효가 아닌 재앙 드래곤을 대표 엔드게임 세팅으로 교정했습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
       }
     },
     "traits": [
@@ -10019,10 +10019,10 @@
     "details": {
       "verifiedIntro": "일반 공격으로 ‘스파르타의 마음’을 쌓고, 궁극기로 이를 소모해 강한 단일 화력을 만드는 궁수형 딜러. 스파르타의 마음은 스택을 쌓는 동안 자체 회복을 제공해 안정성을 보완하고, 각성이 올라갈수록 궁극기 추가타·방어력 무시·스택 회전이 강화된다. 특히 궁극기 중심의 단일 대상 딜링과 스택 관리가 핵심인 영웅이다.",
       "gear": {
-        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 지옥 비명도 궁극기 폭딜용 대안으로 쓰이지만 대표 추천은 재앙 드래곤으로 표기합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
-        "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기 폭딜과 실제 엔드게임 운용을 기준으로 대표 추천을 지옥 비명으로 교정했습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
       },
       "awakening": [
         {
@@ -12912,10 +12912,10 @@
       "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "방어력을 기반으로 자신과 아군을 함께 지키는 에픽 수호자. 궁극기 동안 자신의 방어력을 높이고 체력이 가장 낮은 아군을 지속적으로 회복하며, 평소에도 주기적으로 가까운 아군을 치유한다. 공격형 기능은 적지만 탱커와 보조 힐러 역할을 한 자리에서 함께 수행하는 단순하고 안정적인 전열 카드다.",
       "gear": {
-        "name": "성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트",
+        "name": "성흔의 수호 (Astral Guardian) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 권장 옵션: 방어력%, HP%, 공격 속도, 분노 회복.",
-        "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 성스러운 날개 (Wings of Grace) 세트. 방어력 기반 생존과 아군 지원을 함께 살리는 방향으로 교정했습니다. 권장 옵션: 방어력%, HP%, 공격 속도, 치유 효과, 분노 회복.",
+        "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
       }
     },
     "traits": [
@@ -15135,10 +15135,10 @@
       "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "보호막과 기절을 갖춘 기본형 레어 수호자. 주기적으로 큰 보호막을 얻어 생존을 확보하고, 방패 공격과 궁극기로 앞쪽 적을 기절시키거나 공격력을 낮춰 전열 부담을 줄인다. 초반 탱커로 쓰기 쉬우며 이후에는 상위 수호자가 갖춰질수록 역할이 줄어드는 타입이다.",
       "gear": {
-        "name": "성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트",
+        "name": "불굴의 용사 (Immortal Warrior) 세트 + 강철 의지 (Tempered Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
-        "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
+        "text": "최종 추천: 불굴의 용사 (Immortal Warrior) 세트 + 강철 의지 (Tempered Will) 세트. 엔드게임 탱킹에서 HP와 전열 유지력을 우선하는 조합으로 교정했습니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
       }
     },
     "traits": [
@@ -16877,10 +16877,10 @@
     "details": {
       "verifiedIntro": "높은 화력과 생존 보조 능력을 함께 갖춘 다재다능한 전사형 딜탱. 화신과 환상을 활용해 지속적으로 압박하면서, 각성을 통해 생존 지원·군중 제어·보스 대상 화력까지 강화된다. 장기전과 보스전처럼 꾸준한 누적 화력이 중요한 콘텐츠에서 특히 존재감이 크다.",
       "gear": {
-        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 파수꾼 소대 검수 때 확정한 엔드게임 조합을 그대로 유지합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
-        "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 최신 엔드게임 대표 세팅을 기준으로 재앙 드래곤에서 영혼의 비밀로 교정했습니다. 재앙 드래곤은 동급 품질의 대체 세팅으로 사용할 수 있습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
       },
       "awakening": [
         {
@@ -17109,10 +17109,10 @@
       "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "플랫폼과 지상 어디에나 배치할 수 있으며 배치 위치에 따라 역할이 크게 달라지는 하이브리드 궁수. 플랫폼에서는 빠른 단일 마법 공격과 버프 해제를, 지상에서는 광역 물리 공격과 피해 감소·자가 정화·회복 보조를 활용한다. 한 영웅으로 원거리 딜러와 전열 딜탱을 오갈 수 있어 맵과 조합에 맞춘 유연한 운용이 가장 큰 강점이다.",
       "gear": {
-        "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 파수꾼 진영 보너스를 받는 재앙 드래곤은 장비 옵션이 비슷하거나 더 좋을 때 경쟁력 있는 대안입니다. 권장 옵션: 공격 속도, 치명타율, 치명타 피해, HP%.",
-        "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 파수꾼 진영 시너지와 엔드게임 자료를 종합해 재앙 드래곤을 기본 추천으로 교정했습니다. 마수의 포효는 장비 품질과 운용에 따라 대안으로 사용할 수 있습니다. 권장 옵션: 공격 속도, 치명타율, 치명타 피해, HP%.",
+        "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
       }
     },
     "traits": [
