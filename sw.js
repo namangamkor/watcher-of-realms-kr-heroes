@@ -1,8 +1,9 @@
-const CACHE_NAME = "namangam-wor-v21414-newbie-video-thumbnail";
+const CACHE_NAME = "namangam-wor-v21415-review-activity-order";
 
 const CORE_ASSETS = [
+  "/hero-activity.css?v=2.14.15",
   "/styles.css?v=2.13.4m",
-  "/app.js?v=2.14.12",
+  "/app.js?v=2.14.15",
   "/heroes.json?v=2.13.4",
   "/gear-presets.js?v=2.11.45c",
   "/gear-presets.json",

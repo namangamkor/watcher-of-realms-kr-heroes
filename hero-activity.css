@@ -1,0 +1,2 @@
+.hero-activity-badge { display:flex; align-items:center; flex-wrap:wrap; gap:4px; width:fit-content; margin:0 0 8px; padding:4px 7px; border:1px solid rgba(228,185,88,.32); border-radius:6px; background:rgba(228,185,88,.09); color:#f2cf82; font-size:11px; line-height:1.4; font-weight:700; }
+.hero-activity-badge time { white-space:nowrap; font-variant-numeric:tabular-nums; }

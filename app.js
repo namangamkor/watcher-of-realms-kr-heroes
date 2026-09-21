@@ -259,7 +259,33 @@ const HERO_DISPLAY_ORDER = [
   "zilitu"
 ];
 const heroDisplayRank = new Map(HERO_DISPLAY_ORDER.map((id, index) => [id, index]));
+let heroActivity = new Map();
+function heroActivityTime(id) {
+  const activity = heroActivity.get(id);
+  return activity ? Math.max(activity.infoUpdatedAt, activity.reviewPublishedAt) : 0;
+}
+function applyHeroActivity(items) {
+  if (!Array.isArray(items)) return;
+  heroActivity = new Map(items.filter((item) => item && heroDisplayRank.has(item.heroId)).map((item) => {
+    const seconds = (value) => Number.isFinite(Number(value)) && Number(value) > 0 && Number(value) <= 8640000000000 ? Number(value) : 0;
+    return [item.heroId, { infoUpdatedAt: seconds(item.infoUpdatedAt), reviewPublishedAt: seconds(item.reviewPublishedAt) }];
+  }));
+  if (heroes.length) render();
+}
+function heroActivityBadge(hero) {
+  const activity = heroActivity.get(hero.id);
+  const timestamp = heroActivityTime(hero.id);
+  if (!activity || !timestamp) return "";
+  const review = activity.reviewPublishedAt >= activity.infoUpdatedAt;
+  const date = new Date(timestamp * 1000);
+  const parts = new Intl.DateTimeFormat("ko-KR", { timeZone: "Asia/Seoul", month: "numeric", day: "numeric" }).formatToParts(date);
+  const month = parts.find((part) => part.type === "month").value;
+  const day = parts.find((part) => part.type === "day").value;
+  return `<span class="hero-activity-badge" title="${review ? '가장 최근 공개된 유저 후기' : '영웅 정보 업데이트'}"><span>${review ? '새 후기' : '정보 업데이트'}</span> · <time datetime="${date.toISOString()}">${month}.${day}</time></span>`;
+}
 function compareHeroUpdateOrder(a, b) {
+  const activityDifference = heroActivityTime(b.id) - heroActivityTime(a.id);
+  if (activityDifference) return activityDifference;
   return (heroDisplayRank.get(a.id) ?? Number.MAX_SAFE_INTEGER)
     - (heroDisplayRank.get(b.id) ?? Number.MAX_SAFE_INTEGER);
 }
@@ -556,6 +582,7 @@ function card(hero, membership, searchMode = false) {
         ${getCollectionValueMarkup(hero)}
       </div>
       <div class="card-body">
+        ${heroActivityBadge(hero)}
         <div class="card-topline">
           ${showLord ? '<span class="tag lord">영주</span>' : ''}
           <span class="tag ${rarityClass(hero.rarity)}">${hero.rarity}</span>
@@ -807,12 +834,15 @@ function renderRecentUpdates(items) {
   if (fragment.childNodes.length) recentUpdateList.replaceChildren(fragment);
 }
 
-fetch("/api/recent-updates?v=2.13.4g", { cache: "no-store" })
+fetch("/api/recent-updates?v=2.14.15", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("recent updates load failed");
     return response.json();
   })
-  .then((data) => renderRecentUpdates(data.updates))
+  .then((data) => {
+    renderRecentUpdates(data.updates);
+    applyHeroActivity(data.heroActivity);
+  })
   .catch((error) => console.warn(error));
 
 fetch("./heroes.json?v=2.13.4")
