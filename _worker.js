@@ -1,3 +1,4 @@
+/* worwiki-patch:v2.14.14-newbie-video-thumbnail */
 /* worwiki-patch:v2.14.13-collection-guide */
 /* worwiki-patch:v2.14.12-newbie-video-hero-order */
 /* protection-patch:v2.14.5-content-rights */
@@ -497,6 +498,8 @@ function renderNewbie() {
   <link rel="apple-touch-icon" href="/icon-192.png?v=2.11.43c">
   <link rel="stylesheet" href="/styles.css?v=2.12.5">
 <style id="newbie-video-guide-style">
+.newbie-related-video { max-width:840px; margin-top:20px; }
+.newbie-related-video .detail-video-card:focus-visible { outline:2px solid #e4b958; outline-offset:4px; }
 .newbie-core-message .newbie-core-heading { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px 16px; margin-bottom:10px; }
 .newbie-core-message .newbie-core-heading > span { display:block; color:#e4b958; font-size:10px; font-weight:900; letter-spacing:.14em; margin:0; }
 .newbie-core-message .newbie-video-guide { display:inline-flex; align-items:center; min-height:36px; max-width:100%; box-sizing:border-box; padding:6px 12px; border:1px solid #66522e; border-radius:7px; color:#ffd078; background:rgba(255,192,78,.06); font-size:13px; font-weight:700; line-height:1.5; text-decoration:none; letter-spacing:0; }
@@ -504,7 +507,7 @@ function renderNewbie() {
 .newbie-core-message .newbie-video-guide:focus-visible { outline:2px solid #ffd078; outline-offset:3px; }
 @media(max-width:480px) { .newbie-core-message .newbie-video-guide { min-height:44px; } }
 </style>
-<meta name="worwiki-patch-version" content="2.14.12">
+<meta name="worwiki-patch-version" content="2.14.14">
 </head>
 <body class="newbie-page">
   <header class="topbar">
@@ -537,6 +540,14 @@ function renderNewbie() {
         </div>
         <strong>돈보다 시간, 속도보다 영웅 풀.</strong>
         <p>막힌 구간이 생겼다고 조급해할 필요 없습니다. 지금 없는 영웅이 나중에 계정의 열쇠가 되는 경우가 많습니다.</p>
+      </div>
+      <div class="newbie-related-video">
+        ${renderRelatedVideos({nameKr: "초보자", videos: [{
+          youtubeId: "Doe7uvPesXg",
+          url: "https://youtu.be/Doe7uvPesXg",
+          title: "나만겜 초보자 영상 가이드",
+          label: "나만겜 초보자 가이드"
+        }]})}
       </div>
     </section>
 
