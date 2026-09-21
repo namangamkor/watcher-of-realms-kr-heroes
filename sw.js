@@ -1,8 +1,8 @@
-const CACHE_NAME = "namangam-wor-v21411-gear-title-spacing";
+const CACHE_NAME = "namangam-wor-v21412-newbie-video-hero-order";
 
 const CORE_ASSETS = [
   "/styles.css?v=2.13.4m",
-  "/app.js?v=2.13.4l",
+  "/app.js?v=2.14.12",
   "/heroes.json?v=2.13.4",
   "/gear-presets.js?v=2.11.45c",
   "/gear-presets.json",
