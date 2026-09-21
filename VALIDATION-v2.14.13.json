@@ -1,0 +1,14 @@
+{
+  "version": "2.14.13",
+  "heroRoutes": 256,
+  "exactGuideText": "PASS",
+  "allFiveGrades": "PASS",
+  "currentGradeHighlight": "PASS",
+  "anchorTarget": "PASS",
+  "commentsFormAndDialogPreserved": "PASS",
+  "commentsDisabledFallback": "PASS",
+  "heroDataUnchanged": "PASS",
+  "homeAndNewbieUnchanged": "PASS",
+  "visualBrowserValidation": "Not run",
+  "productionDeployment": "Not performed"
+}

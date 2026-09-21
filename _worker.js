@@ -1,3 +1,4 @@
+/* worwiki-patch:v2.14.13-collection-guide */
 /* worwiki-patch:v2.14.12-newbie-video-hero-order */
 /* protection-patch:v2.14.5-content-rights */
 /* artifact-patch:v2.14.3-north-throne */
@@ -384,6 +385,8 @@ function renderHero(hero, env = {}) {
   <meta name="twitter:image" content="${esc(image)}" />
   <link rel="stylesheet" href="/styles.css?v=2.13.4g" />
   <link rel="stylesheet" href="/comments.css?v=2.13.4k">
+  <link rel="stylesheet" href="/collection-guide.css?v=2.14.13">
+  <meta name="worwiki-detail-version" content="2.14.13">
   <script type="application/ld+json">${JSON.stringify(jsonLd).replaceAll("<", "\\u003c")}</script>
 </head>
 <body class="hero-detail-page">
@@ -426,7 +429,7 @@ function renderHero(hero, env = {}) {
           <div><dt>영문 이름</dt><dd>${esc(hero.nameEn)}</dd></div>
           <div><dt>희귀도</dt><dd>${esc(hero.rarity)}</dd></div>
           <div><dt>직업</dt><dd>${esc(hero.class)}</dd></div>
-          <div class="detail-collection-fact"><dt>수집가치</dt><dd><span class="collection-stars" aria-label="5점 만점에 ${collectionValueText}점">${collectionStars(hero.collectionValue)}</span><small>${collectionValueText} / 5.0</small><details class="collection-help"><summary title="수집가치 기준 안내" aria-label="수집가치 기준 안내">?</summary><div class="collection-help-popover">전체 영웅을 기준으로 활용 범위·콘텐츠 가치·대체 가능성 등을 종합한 참고 지표입니다.</div></details></dd></div>
+          <div class="detail-collection-fact"><dt>수집가치</dt><dd><span class="collection-stars" aria-label="5점 만점에 ${collectionValueText}점">${collectionStars(hero.collectionValue)}</span><small>${collectionValueText} / 5.0</small><a class="collection-guide-jump" href="#collection-value-guide">평가 기준 보기</a></dd></div>
           ${isLord ? `<div><dt>영주 여부</dt><dd>영주</dd></div>` : ""}
         </dl>
       </div>
@@ -1197,11 +1200,34 @@ function wwErrorPage(message) {
   return '<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>나만겜 | 댓글 관리</title><link rel="stylesheet" href="/styles.css?v=2.12.5"><link rel="stylesheet" href="/comments.css?v=2.13.4k"></head><body class="ww-admin"><main class="wrap ww-admin-main"><h1>댓글 관리</h1><p>' +
     esc(message) + '</p><a class="ww-button" href="/">영웅도감으로 돌아가기</a></main></body></html>';
 }
+const WW_COLLECTION_GUIDE = [
+  [5, "최우선 확보 추천.", "무리해서라도 얻고 싶은 핵심 영웅"],
+  [4, "확보 적극 추천.", "갖고 있다면 든든한, 필수 수집 영웅"],
+  [3, "소장가치 있음.", "활용처가 많으나, 대체가 가능한 영웅"],
+  [2, "확보 우선순위 낮음.", "영웅 풀이 갖춰지기 전까지 쓸 만한 영웅"],
+  [1, "수집 목적 위주.", "성능보다는 취향과 수집의 즐거움이 큰 영웅"]
+];
+function wwCollectionGuide(hero) {
+  const score = Number(hero.collectionValue);
+  return '<aside class="collection-guide" id="collection-value-guide" aria-labelledby="collection-value-guide-title">' +
+    '<h3 id="collection-value-guide-title">나만겜 수집가치 안내</h3>' +
+    '<p class="collection-guide-note">나만겜이 정한 수집가치 기준이며, 유저 후기의 평균 별점이 아닙니다.</p>' +
+    '<ul class="collection-guide-list">' + WW_COLLECTION_GUIDE.map(([value, title, description]) => {
+      const current = score === value;
+      return '<li class="collection-guide-row' + (current ? ' is-current' : '') + '" data-score="' + value + '">' +
+        '<span class="collection-guide-stars" aria-label="5점 만점에 ' + value + '점">' + '★'.repeat(value) + '☆'.repeat(5-value) + '</span>' +
+        '<span class="collection-guide-copy"><strong>' + title + '</strong> ' + description +
+        (current ? '<span class="collection-guide-current">현재 영웅</span>' : '') + '</span></li>';
+    }).join('') + '</ul>' +
+    '<p class="collection-guide-feedback">다르게 평가하시나요? 활용 콘텐츠와 각성 단계를 함께 남겨주시면 수집가치 재검토에 도움이 됩니다.</p></aside>';
+}
+
 function wwRenderSection(hero, env) {
-  if (!wwReady(env)) return "";
+  if (!wwReady(env)) return '<section class="detail-section">' + wwCollectionGuide(hero) + '</section>';
   return '<section class="detail-section ww-comments" id="hero-comments" data-hero-id="' + esc(hero.id) +
     '" data-site-key="' + esc(env.TURNSTILE_SITE_KEY) + '">' +
     '<div class="ww-heading"><h2>유저 사용 후기 <span class="ww-count" id="ww-count"></span></h2></div>' +
+    wwCollectionGuide(hero) +
     '<p class="ww-note">이용자의 사용 경험입니다. 공식 정보 및 수집가치와 별개로 참고해주세요.</p>' +
     '<p id="ww-load-status" class="ww-status" role="status">후기를 불러오는 중입니다.</p>' +
     '<button id="ww-retry" class="ww-button" type="button" hidden>다시 불러오기</button>' +
