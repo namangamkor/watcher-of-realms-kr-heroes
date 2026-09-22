@@ -1,9 +1,7 @@
-const CACHE_NAME = "namangam-wor-v21416-growth-guide";
+const CACHE_NAME = "namangam-wor-v21416a-growth-display-fix";
 
 const CORE_ASSETS = [
   "/beginner-guide-nav.css?v=2.14.16",
-  "/growth-guide/style.css?v=2.14.16",
-  "/growth-guide/app.js?v=2.14.16",
   "/hero-activity.css?v=2.14.15",
   "/styles.css?v=2.13.4m",
   "/app.js?v=2.14.15",
