@@ -1,0 +1,11 @@
+검증 완료
+- Worker 및 성장 가이드 JavaScript 구문 검사
+- 메인 /newbie/ /growth-guide/ 응답 및 이동 메뉴 확인
+- /growth-guide 와 /growth-guide/index.html 정규 주소 리디렉션
+- 성장 가이드 HEAD 및 허용 메서드 검사
+- 기존 최근 업데이트 API 응답과 heroActivity 구조 확인
+- 기존 영상 링크 보존
+- 기존 app.js 및 지원 CSS 파일 바이트 일치 확인
+- 신규 이미지 파일 경로 확인
+
+검증은 로컬 Worker 실행과 정적 파일 검사 기준입니다. 실제 Cloudflare 배포 및 브라우저 화면 검사는 수행하지 않았습니다.
