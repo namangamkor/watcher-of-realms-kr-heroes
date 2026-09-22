@@ -292,15 +292,9 @@ function compareHeroActivityOrder(a, b) {
     - (heroDisplayRank.get(b.id) ?? Number.MAX_SAFE_INTEGER);
 }
 
-// Default and reset always follow actual latest activity.
-let heroSortMode = "updated";
+// Always follow actual latest activity; no manual sort control.
 function compareHeroUpdateOrder(a, b) {
-  if (heroSortMode === "updated") return compareHeroActivityOrder(a, b);
-  if (heroSortMode === "name") {
-    const nameOrder = String(a.kr || a.nameKr || a.name || a.en || a.id).localeCompare(String(b.kr || b.nameKr || b.name || b.en || b.id), "ko");
-    if (nameOrder) return nameOrder;
-  }
-  return (heroDisplayRank.get(a.id) ?? Number.MAX_SAFE_INTEGER) - (heroDisplayRank.get(b.id) ?? Number.MAX_SAFE_INTEGER);
+  return compareHeroActivityOrder(a, b);
 }
 const searchInput = document.querySelector("#searchInput");
 const clearSearch = document.querySelector("#clearSearch");
@@ -699,7 +693,7 @@ function updateAllHeroesHeader(resultCount) {
     if (active.rarity !== "all" || active.class !== "all" || active.content !== "all" || active.collection !== "all") {
       resultSummary.textContent = `필터 적용 · ${resultCount}명 표시`;
     } else {
-      resultSummary.textContent = heroSortMode === "updated" ? "최근 정보·후기가 업데이트된 영웅부터 표시합니다." : heroSortMode === "name" ? "영웅 이름순으로 표시합니다." : "기본 순서로 표시합니다. 필터로 원하는 영웅을 찾아보세요.";
+      resultSummary.textContent = "최근 정보·후기가 업데이트된 영웅부터 표시합니다.";
     }
   }
 
@@ -846,7 +840,7 @@ function renderRecentUpdates(items) {
   if (fragment.childNodes.length) recentUpdateList.replaceChildren(fragment);
 }
 
-fetch("/api/recent-updates?v=2.14.18", { cache: "no-store" })
+fetch("/api/recent-updates?v=2.14.19", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("recent updates load failed");
     return response.json();
@@ -896,21 +890,12 @@ searchInput.addEventListener("input", () => {
 function resetHeroView() {
   searchInput.value = "";
   currentFaction = "all";
-  heroSortMode = "updated";
-  const sortControl = document.querySelector("#heroSort");
-  if (sortControl) sortControl.value = "updated";
   setAllFilters();
   closeFactionSelect();
   syncSearchClearButton();
   render();
 }
 clearSearch.addEventListener("click", () => { resetHeroView(); searchInput.focus(); });
-document.querySelector("#resetHeroFilters")?.addEventListener("click", resetHeroView);
-document.querySelector("#heroSort")?.addEventListener("change", (event) => {
-  heroSortMode = ["updated", "name"].includes(event.target.value) ? event.target.value : "updated";
-  render();
-});
-
 document.querySelectorAll(".filter").forEach((button) => {
   button.addEventListener("click", () => {
     const type = button.dataset.filterType;

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ko">
 <head>
-  <meta name="worwiki-patch-version" content="2.14.18">
+  <meta name="worwiki-patch-version" content="2.14.19">
   <meta charset="UTF-8" />
   <!-- gear-route-rescue -->
   <script>
@@ -82,16 +82,16 @@
   </script>
 <link rel="stylesheet" href="/hero-activity.css?v=2.14.15">
 <style id="ww-banner-sort-style">
-/* v2.14.18 compact creator banner and persistent list controls */
+/* v2.14.19 compact creator banner and persistent list controls */
 .creator-banner.creator-banner-scribe{display:grid!important;grid-template-columns:64px minmax(220px,.9fr) minmax(390px,1.4fr)!important;gap:16px!important;align-items:center!important;padding:18px 22px!important}
 .creator-banner .creator-banner-copy{min-width:0}.creator-banner .creator-banner-copy p{margin:6px 0 0!important;line-height:1.65!important}.creator-banner .creator-label{margin-bottom:4px!important}.creator-banner .creator-scribe-wrap{margin:0!important}
 .creator-banner .creator-cta-stack{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;gap:8px!important;width:100%!important;min-width:0!important;margin:0!important}
 .creator-banner .ww-quick-link{display:flex;align-items:center;gap:9px;min-height:49px;padding:10px 12px;border:1px solid #3e414a;border-radius:9px;background:#121923;color:#edf1f7;text-decoration:none;box-sizing:border-box;min-width:0;font-size:14px;font-weight:700;line-height:1.4}
-.creator-banner .ww-quick-link:hover{background:#202b37;border-color:#bd9350}.ww-quick-link:focus-visible,.ww-roster-tools button:focus-visible,.ww-roster-tools select:focus-visible{outline:2px solid #edc782;outline-offset:3px}.ww-quick-link .ww-quick-label{flex:1;min-width:0;word-break:keep-all}.ww-quick-link .ww-quick-arrow{color:#edc782;flex-shrink:0}
-.ww-roster-tools{display:flex;justify-content:flex-end;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 16px;color:#c6d0dc;font-size:14px}.ww-roster-tools select,.ww-roster-tools button{font:inherit;min-height:42px;border:1px solid #455264;border-radius:7px;padding:8px 12px;background:#141e2b;color:#edf1f7}.ww-roster-tools label{font-weight:700}.ww-roster-tools button{cursor:pointer}.ww-roster-tools select{max-width:100%}
+.creator-banner .ww-quick-link:hover{background:#202b37;border-color:#bd9350}.ww-quick-link:focus-visible{outline:2px solid #edc782;outline-offset:3px}.ww-quick-link .ww-quick-label{flex:1;min-width:0;word-break:keep-all}.ww-quick-link .ww-quick-arrow{color:#edc782;flex-shrink:0}
+
 .searchbox #clearSearch{display:inline-flex!important;align-items:center;justify-content:center;min-height:40px;flex-shrink:0}
 @media(max-width:1050px){.creator-banner.creator-banner-scribe{grid-template-columns:54px minmax(0,1fr)!important}.creator-banner .creator-cta-stack{grid-column:1/-1!important}.creator-banner .ww-quick-link{font-size:15px}}
-@media(max-width:540px){.creator-banner.creator-banner-scribe{padding:15px!important;gap:12px!important}.creator-banner .ww-quick-link{padding:10px 8px;gap:7px;font-size:14px;min-height:54px}.ww-roster-tools{justify-content:flex-start;gap:8px}.searchbox{flex-wrap:wrap}.searchbox .search-entry{min-width:0;flex:1 1 180px}}
+@media(max-width:540px){.creator-banner.creator-banner-scribe{padding:15px!important;gap:12px!important}.creator-banner .ww-quick-link{padding:10px 8px;gap:7px;font-size:14px;min-height:54px}.searchbox{flex-wrap:wrap}.searchbox .search-entry{min-width:0;flex:1 1 180px}}
 </style></head>
 <body>
   <header class="topbar">
@@ -289,7 +289,6 @@
 
     <section class="wrap roster roster-integrated">
       <p id="resultSummary" class="sr-only" aria-live="polite">필터로 원하는 영웅을 빠르게 찾아보세요.</p>
-      <div class="ww-roster-tools"><label for="heroSort">정렬</label><select id="heroSort" aria-label="영웅 정렬 순서"><option value="updated" selected>최근 업데이트순</option><option value="name">이름순</option></select><button id="resetHeroFilters" type="button">전체 초기화</button></div>
 <div class="filters">
         <div class="filter-group">
           <span>희귀도</span>
@@ -5274,6 +5273,6 @@
     </div>
   </div>
 
-  <script src="/app.js?v=2.14.18"></script>
+  <script src="/app.js?v=2.14.19"></script>
 </body>
 </html>
