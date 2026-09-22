@@ -1,7 +1,6 @@
 // v2.14.12: owner-confirmed update priority. First 46 are explicitly ordered.
 // Remaining heroes retain source-data order; no release/update dates are inferred.
 const HERO_DISPLAY_ORDER = [
-  "valara",
   "ezio-della-notte",
   "evie-frye",
   "bayek",
@@ -42,6 +41,7 @@ const HERO_DISPLAY_ORDER = [
   "ne-zha",
   "erlang-shen",
   "draelyn",
+  "valara",
   "astrael",
   "moriden",
   "nerissa",
@@ -268,7 +268,7 @@ function applyHeroActivity(items) {
   if (!Array.isArray(items)) return;
   heroActivity = new Map(items.filter((item) => item && heroDisplayRank.has(item.heroId)).map((item) => {
     const seconds = (value) => Number.isFinite(Number(value)) && Number(value) > 0 && Number(value) <= 8640000000000 ? Number(value) : 0;
-    return [item.heroId, { infoUpdatedAt: seconds(item.infoUpdatedAt), reviewPublishedAt: seconds(item.reviewPublishedAt) }];
+    return [item.heroId, { infoUpdatedAt: seconds(item.infoUpdatedAt), reviewPublishedAt: seconds(item.reviewPublishedAt), reviewOrder: Number.isInteger(item.reviewOrder) ? item.reviewOrder : Number.MAX_SAFE_INTEGER }];
   }));
   if (heroes.length) render();
 }
@@ -286,12 +286,14 @@ function heroActivityBadge(hero) {
 function compareHeroActivityOrder(a, b) {
   const activityDifference = heroActivityTime(b.id) - heroActivityTime(a.id);
   if (activityDifference) return activityDifference;
+  const reviewOrderDifference = (heroActivity.get(a.id)?.reviewOrder ?? Number.MAX_SAFE_INTEGER) - (heroActivity.get(b.id)?.reviewOrder ?? Number.MAX_SAFE_INTEGER);
+  if (reviewOrderDifference) return reviewOrderDifference;
   return (heroDisplayRank.get(a.id) ?? Number.MAX_SAFE_INTEGER)
     - (heroDisplayRank.get(b.id) ?? Number.MAX_SAFE_INTEGER);
 }
 
-// Owner-confirmed default order; do not invent update timestamps.
-let heroSortMode = "default";
+// Default and reset always follow actual latest activity.
+let heroSortMode = "updated";
 function compareHeroUpdateOrder(a, b) {
   if (heroSortMode === "updated") return compareHeroActivityOrder(a, b);
   if (heroSortMode === "name") {
@@ -844,7 +846,7 @@ function renderRecentUpdates(items) {
   if (fragment.childNodes.length) recentUpdateList.replaceChildren(fragment);
 }
 
-fetch("/api/recent-updates?v=2.14.15", { cache: "no-store" })
+fetch("/api/recent-updates?v=2.14.18", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("recent updates load failed");
     return response.json();
@@ -894,9 +896,9 @@ searchInput.addEventListener("input", () => {
 function resetHeroView() {
   searchInput.value = "";
   currentFaction = "all";
-  heroSortMode = "default";
+  heroSortMode = "updated";
   const sortControl = document.querySelector("#heroSort");
-  if (sortControl) sortControl.value = "default";
+  if (sortControl) sortControl.value = "updated";
   setAllFilters();
   closeFactionSelect();
   syncSearchClearButton();
@@ -905,7 +907,7 @@ function resetHeroView() {
 clearSearch.addEventListener("click", () => { resetHeroView(); searchInput.focus(); });
 document.querySelector("#resetHeroFilters")?.addEventListener("click", resetHeroView);
 document.querySelector("#heroSort")?.addEventListener("change", (event) => {
-  heroSortMode = ["default", "updated", "name"].includes(event.target.value) ? event.target.value : "default";
+  heroSortMode = ["updated", "name"].includes(event.target.value) ? event.target.value : "updated";
   render();
 });
 

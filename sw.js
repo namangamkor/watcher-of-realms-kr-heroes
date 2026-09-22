@@ -1,10 +1,10 @@
-const CACHE_NAME = "namangam-wor-v21417-banner-sort";
+const CACHE_NAME = "namangam-wor-v21418-update-order";
 
 const CORE_ASSETS = [
   "/beginner-guide-nav.css?v=2.14.16",
   "/hero-activity.css?v=2.14.15",
   "/styles.css?v=2.13.4m",
-  "/app.js?v=2.14.17",
+  "/app.js?v=2.14.18",
   "/heroes.json?v=2.13.4",
   "/gear-presets.js?v=2.11.45c",
   "/gear-presets.json",
