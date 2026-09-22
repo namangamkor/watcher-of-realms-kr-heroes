@@ -99,6 +99,19 @@
 @keyframes ww-review-pulse{0%,65%,100%{background-color:#29251a;color:#ffda8a;border-color:#685331}30%{background-color:#655020;color:#fff4cf;border-color:#e7bf75}}
 @media(prefers-reduced-motion:reduce){.hero-activity-badge.is-review{animation:none}}
 </style>
+<style id="ww-banner-sequence">
+.creator-banner .ww-quick-link{animation:ww-banner-sequence 8s ease-in-out infinite}
+.creator-banner .ww-quick-link:nth-child(1){animation-delay:0s}
+.creator-banner .ww-quick-link:nth-child(2){animation-delay:2s}
+.creator-banner .ww-quick-link:nth-child(3){animation-delay:4s}
+.creator-banner .ww-quick-link:nth-child(4){animation-delay:6s}
+@keyframes ww-banner-sequence{
+0%,25%,100%{background-color:#121923;border-color:#3e414a}
+12.5%{background-color:#30291b;border-color:#c99e54}
+}
+.creator-banner .ww-quick-link:hover,.creator-banner .ww-quick-link:focus-visible{animation:none;background-color:#30291b;border-color:#c99e54}
+@media(prefers-reduced-motion:reduce){.creator-banner .ww-quick-link{animation:none}}
+</style>
 </head>
 <body>
   <header class="topbar">
