@@ -281,7 +281,7 @@ function heroActivityBadge(hero) {
   const parts = new Intl.DateTimeFormat("ko-KR", { timeZone: "Asia/Seoul", month: "numeric", day: "numeric" }).formatToParts(date);
   const month = parts.find((part) => part.type === "month").value;
   const day = parts.find((part) => part.type === "day").value;
-  return `<span class="hero-activity-badge" title="${review ? '가장 최근 공개된 유저 후기' : '영웅 정보 업데이트'}"><span>${review ? '새 후기' : '정보 업데이트'}</span> · <time datetime="${date.toISOString()}">${month}.${day}</time></span>`;
+  return `<span class="hero-activity-badge${review ? ' is-review' : ''}" title="${review ? '가장 최근 공개된 유저 후기' : '영웅 정보 업데이트'}"><span>${review ? '새 후기' : '정보 업데이트'}</span> · <time datetime="${date.toISOString()}">${month}.${day}</time></span>`;
 }
 function compareHeroActivityOrder(a, b) {
   const activityDifference = heroActivityTime(b.id) - heroActivityTime(a.id);
