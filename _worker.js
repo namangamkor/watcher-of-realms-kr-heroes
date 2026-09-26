@@ -746,13 +746,14 @@ async function wwRecentUpdates(env, heroes) {
 // each named group, shared equally by the heroes in that group.
 //
 // Current production rules:
-//   Legendary special group A: 0.8% total
-//   Legendary special group B: 1.0% total
-//   Other Legendary heroes:    0.5% total
+//   Legendary ALL:              1.0% total
+//     - special group A keeps relative weight 0.8
+//     - special group B keeps relative weight 1.0
+//     - other Legendary keeps relative weight 0.5
 //   Epic lord/special group:    6.0% total
 //   Epic special group:         5.0% total
 //   Other Epic heroes:         10.0% total
-//   Rare heroes:               all remaining probability
+//   Rare heroes:               all remaining probability (78.0%)
 //   Common heroes:              0%
 //
 // IMPORTANT:
@@ -764,9 +765,12 @@ async function wwRecentUpdates(env, heroes) {
 // - Final per-hero probabilities are still calculated explicitly and validated
 //   to sum to exactly 1.0 before the page is rendered.
 
+const WW_SUMMON_LEGENDARY_TOTAL = 0.010;
+const WW_SUMMON_LEGENDARY_WEIGHT_SUM = 2.3;
+
 const WW_SUMMON_RULES = Object.freeze({
   legendary08: Object.freeze({
-    totalChance: 0.008,
+    totalChance: WW_SUMMON_LEGENDARY_TOTAL * (0.8 / WW_SUMMON_LEGENDARY_WEIGHT_SUM),
     rarity: "전설",
     names: Object.freeze([
       "가안","에르드","키로스","데미",
@@ -776,7 +780,7 @@ const WW_SUMMON_RULES = Object.freeze({
     ])
   }),
   legendary10: Object.freeze({
-    totalChance: 0.010,
+    totalChance: WW_SUMMON_LEGENDARY_TOTAL * (1.0 / WW_SUMMON_LEGENDARY_WEIGHT_SUM),
     rarity: "전설",
     names: Object.freeze([
       "루가르","다스미","카에드","두르가",
@@ -808,7 +812,7 @@ const WW_SUMMON_RULES = Object.freeze({
       "바르가스","조지"
     ])
   }),
-  otherLegendaryTotal: 0.005,
+  otherLegendaryTotal: WW_SUMMON_LEGENDARY_TOTAL * (0.5 / WW_SUMMON_LEGENDARY_WEIGHT_SUM),
   otherEpicTotal: 0.100
 });
 
