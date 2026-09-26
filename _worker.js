@@ -1,4 +1,4 @@
-/* worwiki-patch:v2.14.27-summon-minigame */
+/* worwiki-patch:v2.14.28-summon-probabilities */
 /* worwiki-patch:v2.14.24-review-banner-pulse-fix */
 /* worwiki-patch:v2.14.23-banner-icons-seo-merge */
 /* worwiki-patch:v2.14.21-seo-meta */
@@ -738,20 +738,80 @@ async function wwRecentUpdates(env, heroes) {
 }
 
 
-// worwiki-patch:v2.14.27-summon-minigame
+// worwiki-patch:v2.14.28-summon-probabilities
 // -----------------------------------------------------------------------------
-// SUMMON CHANCE CONFIG
-// Values are exact per-hero probabilities (0~1) and must sum to 1.0.
-// Keep this map empty until the production probability table is supplied.
-// While empty, /summon/ runs in clearly-labeled equal-probability TEST mode.
-// Example only:
-// const WW_SUMMON_CHANCES = Object.freeze({
-//   "ingrid": 0.0005,
-//   "elowyn": 0.0015,
-//   "kassandra": 0.0030,
-//   ...
-// });
-const WW_SUMMON_CHANCES = Object.freeze({});
+// SUMMON CHANCE RULES
+//
+// The in-game tables supplied by the site owner define a TOTAL probability for
+// each named group, shared equally by the heroes in that group.
+//
+// Current production rules:
+//   Legendary special group A: 0.8% total
+//   Legendary special group B: 1.0% total
+//   Other Legendary heroes:    0.5% total
+//   Epic lord/special group:    6.0% total
+//   Epic special group:         5.0% total
+//   Other Epic heroes:         10.0% total
+//   Rare heroes:               all remaining probability
+//   Common heroes:              0%
+//
+// IMPORTANT:
+// - Group membership is matched by the existing HEROES data's Korean name.
+// - This avoids duplicating the hero DB and automatically picks up new heroes.
+// - "베이라시아" is included in the supplied 6% group even though it is not
+//   present in the current 256-hero HEROES data. Once that hero is registered
+//   in HEROES under that Korean name, it joins the 6% group automatically.
+// - Final per-hero probabilities are still calculated explicitly and validated
+//   to sum to exactly 1.0 before the page is rendered.
+
+const WW_SUMMON_RULES = Object.freeze({
+  legendary08: Object.freeze({
+    totalChance: 0.008,
+    rarity: "전설",
+    names: Object.freeze([
+      "가안","에르드","키로스","데미",
+      "솔카덴스","플레트스","와엘드론","이보엘",
+      "이미레잇","잉그리드","레고","나스티야",
+      "에사레스","레이븐홀드","오렌","지제벨"
+    ])
+  }),
+  legendary10: Object.freeze({
+    totalChance: 0.010,
+    rarity: "전설",
+    names: Object.freeze([
+      "루가르","다스미","카에드","두르가",
+      "사가스","카헬리안","알다이야","지젤",
+      "탈렌","펠라기우스","유노미아","우레딘",
+      "크로우장군","오리스테","젤라","여포",
+      "카시르","발레리아","이랑신","시슬라",
+      "케인","레이칸","카드그림","피에르",
+      "세르게이","그레첸","굴드락","소설백"
+    ])
+  }),
+  epic60: Object.freeze({
+    totalChance: 0.060,
+    rarity: "에픽",
+    names: Object.freeze([
+      "격노","아인","이졸데","루나레아",
+      "이안","레이든","파로스","블라도프",
+      "에릴시아","아비스","로크","일라샤",
+      "베신라","베이라시아"
+    ])
+  }),
+  epic50: Object.freeze({
+    totalChance: 0.050,
+    rarity: "에픽",
+    names: Object.freeze([
+      "브레이니","소레일","셀레니","나블레스",
+      "브루노","라트로크","리비안","탐욕",
+      "에블린","가드리엘","이오나","아테로크스",
+      "바르가스","조지"
+    ])
+  }),
+  otherLegendaryTotal: 0.005,
+  otherEpicTotal: 0.100
+});
+
 const WW_SUMMON_TOTAL_EPSILON = 1e-9;
 
 function wwSummonRarityStars(rarity) {
@@ -774,29 +834,103 @@ function wwBuildSummonPool() {
 
   if (!heroes.length) throw new Error("소환 대상 영웅이 없습니다.");
 
-  const configuredIds = Object.keys(WW_SUMMON_CHANCES);
-  const configured = configuredIds.length > 0;
+  const byName = new Map();
+  for (const hero of heroes) {
+    if (byName.has(hero.nameKr)) throw new Error(`중복 한국명 영웅이 있습니다: ${hero.nameKr}`);
+    byName.set(hero.nameKr, hero);
+  }
 
-  if (!configured) {
-    const equalChance = 1 / heroes.length;
-    return {
-      configured: false,
-      totalChance: heroes.length * equalChance,
-      heroes: heroes.map((hero) => ({...hero, chance: equalChance}))
+  const assigned = new Set();
+  const chances = new Map();
+  const groupStats = {};
+
+  function assignNamedGroup(key, rule) {
+    const matched = [];
+    const notRegistered = [];
+
+    for (const name of rule.names) {
+      const hero = byName.get(name);
+      if (!hero) {
+        notRegistered.push(name);
+        continue;
+      }
+      if (hero.rarity !== rule.rarity) {
+        throw new Error(`${name}의 희귀도가 확률 규칙과 다릅니다. 현재: ${hero.rarity}, 규칙: ${rule.rarity}`);
+      }
+      if (assigned.has(hero.id)) throw new Error(`소환 확률 그룹에 중복 등록된 영웅이 있습니다: ${name}`);
+      matched.push(hero);
+    }
+
+    if (!matched.length) throw new Error(`${key} 확률 그룹에 현재 위키 영웅이 한 명도 없습니다.`);
+
+    const perHeroChance = rule.totalChance / matched.length;
+    for (const hero of matched) {
+      assigned.add(hero.id);
+      chances.set(hero.id, perHeroChance);
+    }
+
+    groupStats[key] = {
+      totalChance: rule.totalChance,
+      matchedCount: matched.length,
+      perHeroChance,
+      notRegistered
     };
   }
 
-  const heroIds = new Set(heroes.map((hero) => hero.id));
-  const unknown = configuredIds.filter((id) => !heroIds.has(id));
-  const missing = heroes.filter((hero) => !Object.prototype.hasOwnProperty.call(WW_SUMMON_CHANCES, hero.id)).map((hero) => hero.id);
-  if (unknown.length) throw new Error(`확률표에 위키에 없는 영웅 ID가 있습니다: ${unknown.slice(0, 8).join(", ")}`);
-  if (missing.length) throw new Error(`확률표에 누락된 영웅이 있습니다: ${missing.slice(0, 8).join(", ")}${missing.length > 8 ? " 외" : ""}`);
+  assignNamedGroup("legendary08", WW_SUMMON_RULES.legendary08);
+  assignNamedGroup("legendary10", WW_SUMMON_RULES.legendary10);
+  assignNamedGroup("epic60", WW_SUMMON_RULES.epic60);
+  assignNamedGroup("epic50", WW_SUMMON_RULES.epic50);
+
+  function assignRemainderByRarity(key, rarity, totalChance) {
+    const matched = heroes.filter((hero) => hero.rarity === rarity && !assigned.has(hero.id));
+    if (!matched.length && totalChance > 0) throw new Error(`${rarity} 나머지 확률 그룹에 영웅이 없습니다.`);
+
+    const perHeroChance = matched.length ? totalChance / matched.length : 0;
+    for (const hero of matched) {
+      assigned.add(hero.id);
+      chances.set(hero.id, perHeroChance);
+    }
+
+    groupStats[key] = {totalChance, matchedCount: matched.length, perHeroChance};
+  }
+
+  assignRemainderByRarity("otherLegendary", "전설", WW_SUMMON_RULES.otherLegendaryTotal);
+  assignRemainderByRarity("otherEpic", "에픽", WW_SUMMON_RULES.otherEpicTotal);
+
+  const fixedTotal =
+    WW_SUMMON_RULES.legendary08.totalChance +
+    WW_SUMMON_RULES.legendary10.totalChance +
+    WW_SUMMON_RULES.epic60.totalChance +
+    WW_SUMMON_RULES.epic50.totalChance +
+    WW_SUMMON_RULES.otherLegendaryTotal +
+    WW_SUMMON_RULES.otherEpicTotal;
+
+  const rareTotal = 1 - fixedTotal;
+  if (rareTotal < -WW_SUMMON_TOTAL_EPSILON) throw new Error(`레어 영웅에 배정할 잔여 확률이 음수입니다: ${rareTotal}`);
+  assignRemainderByRarity("rare", "레어", rareTotal);
+
+  // Common heroes remain in the current wiki DB but are intentionally not
+  // summonable under the supplied probability rules.
+  const commons = heroes.filter((hero) => hero.rarity === "일반" && !assigned.has(hero.id));
+  for (const hero of commons) {
+    assigned.add(hero.id);
+    chances.set(hero.id, 0);
+  }
+  groupStats.common = {totalChance: 0, matchedCount: commons.length, perHeroChance: 0};
+
+  // Any future rarity that is not covered by these rules should fail loudly
+  // instead of being silently assigned an unintended probability.
+  const uncovered = heroes.filter((hero) => !assigned.has(hero.id));
+  if (uncovered.length) {
+    throw new Error(`소환 확률 규칙에 포함되지 않은 영웅이 있습니다: ${uncovered.slice(0, 8).map((h) => `${h.nameKr}(${h.rarity})`).join(", ")}${uncovered.length > 8 ? " 외" : ""}`);
+  }
 
   let total = 0;
   const weighted = heroes.map((hero) => {
-    const chance = Number(WW_SUMMON_CHANCES[hero.id]);
+    const chance = Number(chances.get(hero.id) || 0);
     if (!Number.isFinite(chance) || chance < 0 || chance > 1) {
-      throw new Error(`${hero.id} 확률 값이 올바르지 않습니다: ${WW_SUMMON_CHANCES[hero.id]}`);
+      throw new Error(`${hero.id} 확률 값이 올바르지 않습니다: ${chance}`);
     }
     total += chance;
     return {...hero, chance};
@@ -807,7 +941,12 @@ function wwBuildSummonPool() {
   }
   if (!weighted.some((hero) => hero.chance > 0)) throw new Error("모든 영웅 확률이 0입니다.");
 
-  return {configured: true, totalChance: total, heroes: weighted};
+  return {
+    configured: true,
+    totalChance: total,
+    groups: groupStats,
+    heroes: weighted
+  };
 }
 
 function renderSummon() {
