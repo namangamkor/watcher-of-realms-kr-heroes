@@ -1,4 +1,4 @@
-/* worwiki-patch:v2.14.28-summon-probabilities */
+/* worwiki-patch:v2.14.29-summon-1x10-audio */
 /* worwiki-patch:v2.14.24-review-banner-pulse-fix */
 /* worwiki-patch:v2.14.23-banner-icons-seo-merge */
 /* worwiki-patch:v2.14.21-seo-meta */
@@ -738,7 +738,7 @@ async function wwRecentUpdates(env, heroes) {
 }
 
 
-// worwiki-patch:v2.14.28-summon-probabilities
+// worwiki-patch:v2.14.29-summon-1x10-audio
 // -----------------------------------------------------------------------------
 // SUMMON CHANCE RULES
 //
@@ -959,17 +959,17 @@ function renderSummon() {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="description" content="나만겜 워처 오브 렐름 영웅 위키의 1회 소환 미니게임. 버튼을 눌러 오늘의 영웅을 만나보세요.">
+  <meta name="description" content="나만겜 워처 오브 렐름 영웅 위키 소환 미니게임. 1명 또는 10명의 영웅을 소환해보세요.">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="${SITE}/summon/">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="ko_KR">
   <meta property="og:site_name" content="나만겜 워처 오브 렐름 한국 영웅 위키">
-  <meta property="og:title" content="영웅 1회 소환 | 나만겜 워처 오브 렐름 위키">
-  <meta property="og:description" content="오늘 당신에게 소환될 영웅은? 전체 영웅 중 1명을 뽑아보세요.">
+  <meta property="og:title" content="영웅 소환 미니게임 | 나만겜 워처 오브 렐름 위키">
+  <meta property="og:description" content="1명 소환 또는 10명 소환. 오늘 당신에게 찾아올 영웅은?">
   <meta property="og:url" content="${SITE}/summon/">
   <meta property="og:image" content="${SITE}/icon-512.png">
-  <title>영웅 1회 소환 | 나만겜 워처 오브 렐름 위키</title>
+  <title>영웅 소환 미니게임 | 나만겜 워처 오브 렐름 위키</title>
   <meta name="theme-color" content="#090c12">
   <link rel="icon" type="image/png" sizes="64x64" href="/favicon-crystal-v1.png?v=2.11.43c">
   <link rel="apple-touch-icon" href="/icon-192.png?v=2.11.43c">
@@ -979,192 +979,131 @@ function renderSummon() {
     *{box-sizing:border-box}
     body.summon-page{margin:0;min-height:100svh;background:radial-gradient(circle at 50% 18%,#182232 0,#0b1018 35%,#06080d 75%);color:var(--sm-text)}
     .summon-page .topbar{position:relative;z-index:20}
-    .summon-main{min-height:calc(100svh - 76px);display:grid;place-items:center;padding:44px 20px 70px;overflow:hidden;position:relative}
+    .summon-main{min-height:calc(100svh - 76px);display:grid;place-items:center;padding:38px 20px 64px;overflow:hidden;position:relative}
     .summon-main:before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(115deg,transparent 0 48%,rgba(255,255,255,.018) 49%,transparent 50% 100%);background-size:48px 48px;opacity:.55}
-    .summon-shell{width:min(920px,100%);position:relative;z-index:1;text-align:center}
+    .summon-shell{width:min(1120px,100%);position:relative;z-index:1;text-align:center}
     .summon-eyebrow{margin:0 0 8px;color:var(--sm-gold);font-size:12px;font-weight:900;letter-spacing:.18em}
     .summon-shell h1{margin:0;font-size:clamp(31px,5vw,54px);line-height:1.16;letter-spacing:-.045em}
-    .summon-lead{margin:14px auto 0;max-width:640px;color:var(--sm-muted);font-size:15px;line-height:1.75}
+    .summon-lead{margin:14px auto 0;max-width:690px;color:var(--sm-muted);font-size:15px;line-height:1.75}
     .summon-test-note{display:inline-flex;margin:14px auto 0;padding:7px 11px;border:1px solid rgba(228,185,88,.28);border-radius:999px;color:#d5ba7d;background:rgba(228,185,88,.055);font-size:12px}
-    .summon-stage{position:relative;width:min(560px,100%);min-height:520px;margin:26px auto 0;border:1px solid rgba(228,185,88,.24);border-radius:24px;background:linear-gradient(180deg,rgba(17,24,35,.94),rgba(7,11,17,.97));box-shadow:0 24px 70px rgba(0,0,0,.42),inset 0 0 0 1px rgba(255,255,255,.025);display:grid;place-items:center;overflow:hidden;isolation:isolate}
+    .summon-stage{position:relative;width:min(1040px,100%);min-height:560px;margin:24px auto 0;border:1px solid rgba(228,185,88,.24);border-radius:24px;background:linear-gradient(180deg,rgba(17,24,35,.94),rgba(7,11,17,.97));box-shadow:0 24px 70px rgba(0,0,0,.42),inset 0 0 0 1px rgba(255,255,255,.025);display:grid;place-items:center;overflow:hidden;isolation:isolate}
     .summon-stage:before,.summon-stage:after{content:"";position:absolute;border-radius:50%;pointer-events:none}
-    .summon-stage:before{width:430px;height:430px;border:1px solid rgba(145,202,215,.12);box-shadow:inset 0 0 60px rgba(145,202,215,.025)}
-    .summon-stage:after{width:300px;height:300px;border:1px solid rgba(228,185,88,.13)}
-    .summon-idle,.summon-loading,.summon-result{position:relative;z-index:3;width:100%;padding:34px 34px 32px}
-    .summon-loading,.summon-result{display:none}
+    .summon-stage:before{width:540px;height:540px;border:1px solid rgba(145,202,215,.12);box-shadow:inset 0 0 60px rgba(145,202,215,.025)}
+    .summon-stage:after{width:350px;height:350px;border:1px solid rgba(228,185,88,.13)}
+    .summon-idle,.summon-loading,.summon-single-result,.summon-ten-result{position:relative;z-index:3;width:100%;padding:34px 34px 32px}
+    .summon-loading,.summon-single-result,.summon-ten-result{display:none}
     .summon-orb{position:relative;width:190px;height:190px;margin:0 auto 30px;display:grid;place-items:center}
     .summon-ring{position:absolute;inset:0;border:2px solid rgba(228,185,88,.62);border-left-color:rgba(145,202,215,.3);border-radius:50%;box-shadow:0 0 0 12px rgba(228,185,88,.025),inset 0 0 28px rgba(228,185,88,.06)}
     .summon-ring:before,.summon-ring:after{content:"";position:absolute;inset:20px;border:1px dashed rgba(145,202,215,.38);border-radius:50%}
     .summon-ring:after{inset:47px;border-style:solid;border-color:rgba(228,185,88,.35);transform:rotate(45deg);border-radius:18px}
     .summon-crystal{width:64px;height:86px;clip-path:polygon(50% 0,88% 25%,78% 78%,50% 100%,22% 78%,12% 25%);background:linear-gradient(135deg,#cce7ec 0,#6aa8bc 38%,#27485d 75%,#d4b25c 100%);box-shadow:0 0 34px rgba(117,190,208,.14)}
-    .summon-idle h2{margin:0 0 7px;font-size:24px}
-    .summon-idle p{margin:0;color:var(--sm-muted);font-size:14px}
-    .summon-primary,.summon-secondary,.summon-detail{min-height:50px;border-radius:10px;font-weight:900;font-size:16px;cursor:pointer;transition:transform .15s ease,border-color .15s ease,background .15s ease,color .15s ease}
-    .summon-primary{margin-top:25px;min-width:220px;padding:0 30px;border:1px solid #d9ab50;background:linear-gradient(180deg,#e9c56f,#bd8b36);color:#15100a;box-shadow:0 10px 28px rgba(184,129,41,.18)}
-    .summon-primary:hover{transform:translateY(-1px)}
-    .summon-primary:disabled{cursor:not-allowed;opacity:.55;transform:none}
-    .summon-loading{min-height:470px;place-items:center;align-content:center}
-    .summon-loading .summon-orb{margin-bottom:18px}
-    .summon-loading .summon-ring{animation:wwSummonSpin 1.05s linear infinite}
-    .summon-loading .summon-ring:before{animation:wwSummonSpinReverse 1.35s linear infinite}
-    .summon-loading .summon-crystal{animation:wwSummonPulse .78s ease-in-out infinite alternate}
-    .summon-loading strong{display:block;font-size:20px;letter-spacing:.02em}
-    .summon-loading p{margin:7px 0 0;color:var(--sm-muted);font-size:13px}
-    .summon-stage.is-summoning{animation:wwSummonDarken 2.45s ease both}
-    .summon-stage.is-summoning .summon-loading{display:grid}
-    .summon-stage.is-summoning .summon-idle,.summon-stage.is-summoning .summon-result{display:none}
-    .summon-flash{position:absolute;z-index:8;inset:0;background:#f5fbff;opacity:0;pointer-events:none}
-    .summon-stage.is-revealing .summon-flash{animation:wwSummonFlash .62s ease-out}
-    .summon-stage.is-result .summon-idle,.summon-stage.is-result .summon-loading{display:none}
-    .summon-stage.is-result .summon-result{display:block;animation:wwSummonReveal .42s ease-out both}
-    .summon-result{padding-top:25px}
-    .summon-success{margin:0 0 12px;color:var(--sm-gold);font-size:14px;font-weight:900;letter-spacing:.08em}
-    .summon-portrait-wrap{height:min(47vh,360px);min-height:250px;display:flex;align-items:flex-end;justify-content:center;margin:0 auto 10px;position:relative}
-    .summon-portrait-wrap:after{content:"";position:absolute;left:8%;right:8%;bottom:0;height:32%;background:linear-gradient(0deg,rgba(8,11,17,.92),transparent);pointer-events:none}
+    .summon-idle h2{margin:0 0 7px;font-size:24px}.summon-idle p{margin:0;color:var(--sm-muted);font-size:14px}
+    .summon-choice{width:min(620px,100%);display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:26px auto 0}
+    .summon-primary,.summon-secondary,.summon-detail{min-height:52px;border-radius:10px;font-weight:900;font-size:16px;cursor:pointer;transition:transform .15s ease,border-color .15s ease,background .15s ease,color .15s ease}
+    .summon-primary{padding:0 24px;border:1px solid #d9ab50;background:linear-gradient(180deg,#e9c56f,#bd8b36);color:#15100a;box-shadow:0 10px 28px rgba(184,129,41,.18)}
+    .summon-primary.alt{border-color:#6f93a4;background:linear-gradient(180deg,#a6d1da,#527d91);color:#071117;box-shadow:0 10px 28px rgba(82,125,145,.16)}
+    .summon-primary:hover{transform:translateY(-1px)}.summon-primary:disabled{cursor:not-allowed;opacity:.55;transform:none}
+    .summon-loading{min-height:510px;place-items:center;align-content:center}.summon-loading .summon-orb{margin-bottom:18px}
+    .summon-loading .summon-ring{animation:wwSummonSpin 1.05s linear infinite}.summon-loading .summon-ring:before{animation:wwSummonSpinReverse 1.35s linear infinite}.summon-loading .summon-crystal{animation:wwSummonPulse .78s ease-in-out infinite alternate}
+    .summon-loading strong{display:block;font-size:20px;letter-spacing:.02em}.summon-loading p{margin:7px 0 0;color:var(--sm-muted);font-size:13px}
+    .summon-stage.is-summoning{animation:wwSummonDarken 2.45s ease both}.summon-stage.is-summoning .summon-loading{display:grid}.summon-stage.is-summoning .summon-idle,.summon-stage.is-summoning .summon-single-result,.summon-stage.is-summoning .summon-ten-result{display:none}
+    .summon-flash{position:absolute;z-index:8;inset:0;background:#f5fbff;opacity:0;pointer-events:none}.summon-stage.is-revealing .summon-flash{animation:wwSummonFlash .62s ease-out}
+    .summon-stage.is-result-one .summon-idle,.summon-stage.is-result-one .summon-loading,.summon-stage.is-result-one .summon-ten-result{display:none}.summon-stage.is-result-one .summon-single-result{display:block;animation:wwSummonReveal .42s ease-out both}
+    .summon-stage.is-result-ten .summon-idle,.summon-stage.is-result-ten .summon-loading,.summon-stage.is-result-ten .summon-single-result{display:none}.summon-stage.is-result-ten .summon-ten-result{display:block;animation:wwSummonReveal .42s ease-out both}
+    .summon-single-result{max-width:620px;margin:auto;padding-top:24px}.summon-success{margin:0 0 10px;color:var(--sm-gold);font-size:14px;font-weight:900;letter-spacing:.08em}
+    .summon-portrait-wrap{height:min(45vh,345px);min-height:245px;display:flex;align-items:flex-end;justify-content:center;margin:0 auto 8px;position:relative}.summon-portrait-wrap:after{content:"";position:absolute;left:8%;right:8%;bottom:0;height:32%;background:linear-gradient(0deg,rgba(8,11,17,.92),transparent);pointer-events:none}
     .summon-portrait{display:block;max-width:100%;width:auto;height:100%;object-fit:contain;object-position:center bottom;filter:drop-shadow(0 18px 30px rgba(0,0,0,.4))}
-    .summon-rarity{margin:0;color:#f0c862;font-size:21px;letter-spacing:.12em;min-height:30px}
-    .summon-result h2{margin:3px 0 0;font-size:clamp(28px,6vw,42px);letter-spacing:-.04em}
-    .summon-en{margin:4px 0 0;color:var(--sm-muted);font-size:13px}
-    .summon-actions{display:grid;grid-template-columns:1.35fr 1fr;gap:10px;margin-top:22px}
-    .summon-detail,.summon-secondary{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;padding:0 18px}
-    .summon-detail{border:1px solid rgba(228,185,88,.72);background:rgba(228,185,88,.1);color:#f0cf83}
-    .summon-secondary{border:1px solid var(--sm-line);background:#111923;color:#dce5ee}
-    .summon-detail:hover,.summon-secondary:hover{border-color:#8091a5;background:#16202d}
-    .summon-error{display:none;margin:15px auto 0;width:min(560px,100%);padding:13px 15px;border:1px solid rgba(255,117,117,.35);border-radius:10px;background:rgba(116,30,30,.18);color:#ffc3c3;font-size:13px;line-height:1.6;text-align:left}
-    .summon-back{display:inline-flex;margin-top:20px;color:#aab7c6;font-size:13px;text-decoration:none}
-    .summon-back:hover{color:#fff}
-    @keyframes wwSummonSpin{to{transform:rotate(360deg)}}
-    @keyframes wwSummonSpinReverse{to{transform:rotate(-360deg)}}
-    @keyframes wwSummonPulse{from{transform:scale(.94);filter:brightness(.88)}to{transform:scale(1.05);filter:brightness(1.2)}}
-    @keyframes wwSummonDarken{0%,55%{box-shadow:0 24px 70px rgba(0,0,0,.42),inset 0 0 0 1px rgba(255,255,255,.025)}75%{box-shadow:0 24px 80px rgba(0,0,0,.65),inset 0 0 90px rgba(0,0,0,.62)}100%{box-shadow:0 24px 70px rgba(0,0,0,.42),inset 0 0 0 1px rgba(255,255,255,.025)}}
-    @keyframes wwSummonFlash{0%{opacity:0}18%{opacity:.92}52%{opacity:.3}100%{opacity:0}}
-    @keyframes wwSummonReveal{from{opacity:0;transform:translateY(12px) scale(.985)}to{opacity:1;transform:none}}
-    @media(max-width:640px){
-      .summon-main{min-height:calc(100svh - 62px);padding:28px 14px 42px;align-items:start}
-      .summon-shell h1{font-size:34px}.summon-lead{font-size:14px;margin-top:10px}
-      .summon-stage{margin-top:20px;min-height:500px;border-radius:18px}
-      .summon-idle,.summon-loading,.summon-result{padding-left:18px;padding-right:18px}
-      .summon-orb{width:165px;height:165px;margin-bottom:24px}
-      .summon-primary{width:100%;min-height:54px}
-      .summon-portrait-wrap{height:min(43vh,340px);min-height:230px}
-      .summon-actions{grid-template-columns:1fr;gap:9px}
-      .summon-detail,.summon-secondary{min-height:52px;width:100%}
-      .summon-stage:before{width:360px;height:360px}.summon-stage:after{width:255px;height:255px}
-    }
-    @media(prefers-reduced-motion:reduce){.summon-loading .summon-ring,.summon-loading .summon-ring:before,.summon-loading .summon-crystal,.summon-stage.is-summoning,.summon-stage.is-revealing .summon-flash,.summon-stage.is-result .summon-result{animation-duration:.01ms!important;animation-iteration-count:1!important}.summon-primary,.summon-secondary,.summon-detail{transition:none}}
+    .summon-rarity{margin:0;color:#f0c862;font-size:21px;letter-spacing:.12em;min-height:30px}.summon-single-result h2{margin:3px 0 0;font-size:clamp(28px,6vw,42px);letter-spacing:-.04em}.summon-en{margin:4px 0 0;color:var(--sm-muted);font-size:13px}
+    .summon-actions{display:grid;grid-template-columns:1.35fr 1fr 1fr;gap:9px;margin-top:20px}.summon-detail,.summon-secondary{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;padding:0 16px}.summon-detail{border:1px solid rgba(228,185,88,.72);background:rgba(228,185,88,.1);color:#f0cf83}.summon-secondary{border:1px solid var(--sm-line);background:#111923;color:#dce5ee}.summon-detail:hover,.summon-secondary:hover{border-color:#8091a5;background:#16202d}
+    .summon-ten-result{padding:24px 24px 28px}.summon-ten-head{margin-bottom:15px}.summon-ten-head p{margin:0;color:var(--sm-gold);font-size:13px;font-weight:900;letter-spacing:.08em}.summon-ten-head h2{margin:4px 0 0;font-size:28px;letter-spacing:-.04em}
+    .summon-ten-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;width:100%;margin:0 auto}.summon-card{min-width:0;display:block;text-decoration:none;color:inherit;border:1px solid rgba(255,255,255,.09);border-radius:14px;background:linear-gradient(180deg,rgba(21,29,41,.95),rgba(10,15,23,.98));padding:10px 9px 12px;overflow:hidden;transition:transform .15s ease,border-color .15s ease,background .15s ease}.summon-card:hover{transform:translateY(-2px);border-color:rgba(228,185,88,.55);background:#141e2a}.summon-card-portrait{height:138px;display:flex;align-items:flex-end;justify-content:center;overflow:hidden;border-radius:10px;background:radial-gradient(circle at 50% 40%,rgba(145,202,215,.1),rgba(0,0,0,0) 62%);position:relative}.summon-card-portrait:after{content:"";position:absolute;inset:auto 0 0;height:31%;background:linear-gradient(0deg,rgba(7,11,17,.88),transparent)}.summon-card img{display:block;max-width:100%;width:auto;height:100%;object-fit:contain;object-position:center bottom}.summon-card .card-stars{margin:7px 0 0;color:#e9c56d;font-size:12px;letter-spacing:.03em;white-space:nowrap;overflow:hidden}.summon-card .card-name{margin:3px 0 0;font-size:15px;font-weight:900;line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.summon-card .card-en{margin:3px 0 0;color:var(--sm-muted);font-size:10px;line-height:1.25;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.summon-ten-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;width:min(460px,100%);margin:18px auto 0}
+    .summon-error{display:none;margin:15px auto 0;width:min(760px,100%);padding:13px 15px;border:1px solid rgba(255,117,117,.35);border-radius:10px;background:rgba(116,30,30,.18);color:#ffc3c3;font-size:13px;line-height:1.6;text-align:left}.summon-back{display:inline-flex;margin-top:20px;color:#aab7c6;font-size:13px;text-decoration:none}.summon-back:hover{color:#fff}
+    @keyframes wwSummonSpin{to{transform:rotate(360deg)}}@keyframes wwSummonSpinReverse{to{transform:rotate(-360deg)}}@keyframes wwSummonPulse{from{transform:scale(.94);filter:brightness(.88)}to{transform:scale(1.05);filter:brightness(1.2)}}@keyframes wwSummonDarken{0%,55%{box-shadow:0 24px 70px rgba(0,0,0,.42),inset 0 0 0 1px rgba(255,255,255,.025)}75%{box-shadow:0 24px 80px rgba(0,0,0,.65),inset 0 0 90px rgba(0,0,0,.62)}100%{box-shadow:0 24px 70px rgba(0,0,0,.42),inset 0 0 0 1px rgba(255,255,255,.025)}}@keyframes wwSummonFlash{0%{opacity:0}18%{opacity:.92}52%{opacity:.3}100%{opacity:0}}@keyframes wwSummonReveal{from{opacity:0;transform:translateY(12px) scale(.985)}to{opacity:1;transform:none}}
+    @media(max-width:800px){.summon-ten-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.summon-card-portrait{height:150px}.summon-actions{grid-template-columns:1fr 1fr}.summon-actions .summon-detail{grid-column:1/-1}}
+    @media(max-width:640px){.summon-main{min-height:calc(100svh - 62px);padding:28px 12px 42px;align-items:start}.summon-shell h1{font-size:34px}.summon-lead{font-size:14px;margin-top:10px}.summon-stage{margin-top:20px;min-height:520px;border-radius:18px}.summon-idle,.summon-loading,.summon-single-result,.summon-ten-result{padding-left:14px;padding-right:14px}.summon-orb{width:165px;height:165px;margin-bottom:24px}.summon-choice{grid-template-columns:1fr;gap:9px}.summon-primary{width:100%;min-height:54px}.summon-portrait-wrap{height:min(42vh,320px);min-height:225px}.summon-actions{grid-template-columns:1fr;gap:8px}.summon-actions .summon-detail{grid-column:auto}.summon-detail,.summon-secondary{min-height:52px;width:100%}.summon-stage:before{width:360px;height:360px}.summon-stage:after{width:255px;height:255px}.summon-ten-result{padding:20px 10px 24px}.summon-ten-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.summon-card{padding:8px 7px 10px;border-radius:12px}.summon-card-portrait{height:145px}.summon-card .card-name{font-size:14px}.summon-ten-actions{grid-template-columns:1fr;gap:8px}.summon-ten-head h2{font-size:24px}}
+    @media(max-width:390px){.summon-card-portrait{height:132px}.summon-card .card-name{font-size:13px}.summon-card .card-en{font-size:9px}}
+    @media(prefers-reduced-motion:reduce){.summon-loading .summon-ring,.summon-loading .summon-ring:before,.summon-loading .summon-crystal,.summon-stage.is-summoning,.summon-stage.is-revealing .summon-flash,.summon-stage.is-result-one .summon-single-result,.summon-stage.is-result-ten .summon-ten-result{animation-duration:.01ms!important;animation-iteration-count:1!important}.summon-primary,.summon-secondary,.summon-detail,.summon-card{transition:none}}
   </style>
 </head>
 <body class="summon-page">
   <header class="topbar">
     <div class="wrap topbar-inner">
-      <a class="brand brand-link" href="/" aria-label="영웅 위키 홈으로 이동">
-        <span class="brand-mark"><img src="/favicon-crystal-v1.png?v=2.11.43c" alt=""></span>
-        <div><strong>나만겜 워처 오브 렐름 한국 영웅 위키</strong><small>영웅 정보 · 추천 장비 · 공략 · 미니게임</small></div>
-      </a>
+      <a class="brand brand-link" href="/" aria-label="영웅 위키 홈으로 이동"><span class="brand-mark"><img src="/favicon-crystal-v1.png?v=2.11.43c" alt=""></span><div><strong>나만겜 워처 오브 렐름 한국 영웅 위키</strong><small>영웅 정보 · 추천 장비 · 공략 · 미니게임</small></div></a>
       <div class="topbar-actions"><span class="creator-mini">NAMANGAM ARCHIVE</span><a class="newbie-home-link" href="/">영웅 검색으로 돌아가기</a></div>
     </div>
   </header>
-
   <main class="summon-main">
     <section class="summon-shell" aria-labelledby="summon-title">
       <p class="summon-eyebrow">WATCHER OF REALMS · HERO SUMMON</p>
       <h1 id="summon-title">오늘 당신에게 소환될 영웅은?</h1>
-      <p class="summon-lead">기록도, 천장도 없습니다. 한 번 누르고 오늘의 영웅 한 명만 만나보세요.</p>
+      <p class="summon-lead">1명만 가볍게 뽑거나, 10명을 한 번에 확인해보세요. 소환 결과는 저장되지 않습니다.</p>
       ${testNote}
-
       <div class="summon-stage" id="summonStage" aria-live="polite">
         <div class="summon-flash" aria-hidden="true"></div>
         <section class="summon-idle" id="summonIdle">
           <div class="summon-orb" aria-hidden="true"><div class="summon-ring"></div><div class="summon-crystal"></div></div>
-          <h2>영웅 소환</h2>
-          <p>버튼을 누르면 전체 영웅 중 1명이 등장합니다.</p>
-          <button class="summon-primary" id="summonButton" type="button">1회 소환</button>
+          <h2>영웅 소환</h2><p>원하는 소환 방식을 선택하세요.</p>
+          <div class="summon-choice"><button class="summon-primary" id="summonOneButton" type="button">1명 소환</button><button class="summon-primary alt" id="summonTenButton" type="button">10명 소환</button></div>
         </section>
-
-        <section class="summon-loading" id="summonLoading" aria-label="영웅 소환 중">
-          <div class="summon-orb" aria-hidden="true"><div class="summon-ring"></div><div class="summon-crystal"></div></div>
-          <strong>소환 중...</strong><p>렐름의 문이 열리고 있습니다.</p>
+        <section class="summon-loading" id="summonLoading" aria-label="영웅 소환 중"><div class="summon-orb" aria-hidden="true"><div class="summon-ring"></div><div class="summon-crystal"></div></div><strong id="summonLoadingTitle">소환 중...</strong><p id="summonLoadingText">렐름의 문이 열리고 있습니다.</p></section>
+        <section class="summon-single-result" id="summonSingleResult">
+          <p class="summon-success" id="summonSuccess">영웅 소환 성공!</p><div class="summon-portrait-wrap"><img class="summon-portrait" id="summonPortrait" alt="" decoding="async"></div><p class="summon-rarity" id="summonStars" aria-label="희귀도"></p><h2 id="summonHeroName"></h2><p class="summon-en" id="summonHeroEn"></p>
+          <div class="summon-actions"><a class="summon-detail" id="summonDetail" href="/">영웅 상세정보 보기</a><button class="summon-secondary" id="summonOneAgain" type="button">1명 다시 소환</button><button class="summon-secondary" id="summonTenFromOne" type="button">10명 소환</button></div>
         </section>
-
-        <section class="summon-result" id="summonResult">
-          <p class="summon-success" id="summonSuccess">영웅 소환 성공!</p>
-          <div class="summon-portrait-wrap"><img class="summon-portrait" id="summonPortrait" alt="" decoding="async"></div>
-          <p class="summon-rarity" id="summonStars" aria-label="희귀도"></p>
-          <h2 id="summonHeroName"></h2>
-          <p class="summon-en" id="summonHeroEn"></p>
-          <div class="summon-actions">
-            <a class="summon-detail" id="summonDetail" href="/">영웅 상세정보 보기</a>
-            <button class="summon-secondary" id="summonAgain" type="button">다시 소환</button>
-          </div>
-        </section>
+        <section class="summon-ten-result" id="summonTenResult"><div class="summon-ten-head"><p>10 HEROES SUMMONED</p><h2>10명 소환 결과</h2></div><div class="summon-ten-grid" id="summonTenGrid"></div><div class="summon-ten-actions"><button class="summon-secondary" id="summonOneFromTen" type="button">1명 소환</button><button class="summon-secondary" id="summonTenAgain" type="button">10명 다시 소환</button></div></section>
       </div>
-      <div class="summon-error" id="summonError" role="alert"></div>
-      <a class="summon-back" href="/">← 전체 영웅 위키로 돌아가기</a>
+      <div class="summon-error" id="summonError" role="alert"></div><a class="summon-back" href="/">← 전체 영웅 위키로 돌아가기</a>
     </section>
   </main>
-
   <script type="application/json" id="summonPoolData">${payload}</script>
   <script>
   (function(){
     "use strict";
     var stage=document.getElementById("summonStage");
-    var summonButton=document.getElementById("summonButton");
-    var summonAgain=document.getElementById("summonAgain");
+    var oneButton=document.getElementById("summonOneButton");
+    var tenButton=document.getElementById("summonTenButton");
+    var oneAgain=document.getElementById("summonOneAgain");
+    var tenFromOne=document.getElementById("summonTenFromOne");
+    var oneFromTen=document.getElementById("summonOneFromTen");
+    var tenAgain=document.getElementById("summonTenAgain");
+    var loadingTitle=document.getElementById("summonLoadingTitle");
+    var loadingText=document.getElementById("summonLoadingText");
     var portrait=document.getElementById("summonPortrait");
     var stars=document.getElementById("summonStars");
     var heroName=document.getElementById("summonHeroName");
     var heroEn=document.getElementById("summonHeroEn");
     var detail=document.getElementById("summonDetail");
     var success=document.getElementById("summonSuccess");
+    var tenGrid=document.getElementById("summonTenGrid");
     var errorBox=document.getElementById("summonError");
-    var isBusy=false;
-    var data;
+    var isBusy=false;var data;var audioContext=null;
 
-    function showError(message){errorBox.textContent=message;errorBox.style.display="block";isBusy=false;summonButton.disabled=false;stage.className="summon-stage";}
-    function secureRandom(){
-      if(!window.crypto||typeof window.crypto.getRandomValues!=="function") throw new Error("이 브라우저에서는 안전한 난수 생성을 사용할 수 없습니다.");
-      var value=new Uint32Array(1);window.crypto.getRandomValues(value);return value[0]/4294967296;
+    function setButtonsDisabled(disabled){[oneButton,tenButton,oneAgain,tenFromOne,oneFromTen,tenAgain].forEach(function(btn){if(btn)btn.disabled=disabled;});}
+    function showError(message){errorBox.textContent=message;errorBox.style.display="block";isBusy=false;setButtonsDisabled(false);stage.className="summon-stage";}
+    function secureRandom(){if(!window.crypto||typeof window.crypto.getRandomValues!=="function")throw new Error("이 브라우저에서는 안전한 난수 생성을 사용할 수 없습니다.");var value=new Uint32Array(1);window.crypto.getRandomValues(value);return value[0]/4294967296;}
+    function validatePool(pool){if(!pool||!Array.isArray(pool.heroes)||!pool.heroes.length)throw new Error("소환 영웅 데이터가 없습니다.");var sum=0;pool.heroes.forEach(function(hero){if(!hero||!hero.id||!hero.nameKr)throw new Error("영웅 기본정보가 누락되었습니다.");if(typeof hero.chance!=="number"||!isFinite(hero.chance)||hero.chance<0)throw new Error(hero.id+" 확률 값이 올바르지 않습니다.");sum+=hero.chance;});if(Math.abs(sum-1)>1e-8)throw new Error("소환 확률 합계 오류: "+sum);return sum;}
+    function pickHero(){var target=secureRandom();var cumulative=0;var last=null;for(var i=0;i<data.heroes.length;i++){var hero=data.heroes[i];if(hero.chance<=0)continue;last=hero;cumulative+=hero.chance;if(target<cumulative)return hero;}if(last)return last;throw new Error("선택 가능한 영웅이 없습니다.");}
+    function pickMany(count){var result=[];for(var i=0;i<count;i++)result.push(pickHero());return result;}
+
+    function getAudioContext(){var Ctx=window.AudioContext||window.webkitAudioContext;if(!Ctx)return null;if(!audioContext)audioContext=new Ctx();return audioContext;}
+    function scheduleSummonCue(ctx,count){
+      var now=ctx.currentTime+0.015;var duration=2.28;var master=ctx.createGain();master.gain.setValueAtTime(0.0001,now);master.gain.exponentialRampToValueAtTime(0.13,now+0.08);master.gain.setValueAtTime(0.13,now+1.75);master.gain.exponentialRampToValueAtTime(0.0001,now+duration);master.connect(ctx.destination);
+      var drone=ctx.createOscillator();var droneGain=ctx.createGain();drone.type="triangle";drone.frequency.setValueAtTime(count===10?92:110,now);drone.frequency.exponentialRampToValueAtTime(count===10?150:176,now+1.85);droneGain.gain.setValueAtTime(0.0001,now);droneGain.gain.exponentialRampToValueAtTime(0.18,now+0.12);droneGain.gain.exponentialRampToValueAtTime(0.0001,now+2.05);drone.connect(droneGain);droneGain.connect(master);drone.start(now);drone.stop(now+2.1);
+      var notes=count===10?[220,277.18,329.63,440,554.37,659.25]:[261.63,329.63,392,523.25,659.25];
+      notes.forEach(function(freq,index){var t=now+0.28+index*(count===10?0.23:0.28);var osc=ctx.createOscillator();var gain=ctx.createGain();osc.type=index%2?"sine":"triangle";osc.frequency.setValueAtTime(freq,t);gain.gain.setValueAtTime(0.0001,t);gain.gain.exponentialRampToValueAtTime(count===10?0.16:0.19,t+0.025);gain.gain.exponentialRampToValueAtTime(0.0001,t+0.38);osc.connect(gain);gain.connect(master);osc.start(t);osc.stop(t+0.42);});
+      var reveal=ctx.createOscillator();var revealGain=ctx.createGain();reveal.type="sine";reveal.frequency.setValueAtTime(count===10?880:784,now+1.82);reveal.frequency.exponentialRampToValueAtTime(count===10?1320:1174.66,now+2.12);revealGain.gain.setValueAtTime(0.0001,now+1.82);revealGain.gain.exponentialRampToValueAtTime(0.22,now+1.88);revealGain.gain.exponentialRampToValueAtTime(0.0001,now+2.24);reveal.connect(revealGain);revealGain.connect(master);reveal.start(now+1.82);reveal.stop(now+2.25);
     }
-    function validatePool(pool){
-      if(!pool||!Array.isArray(pool.heroes)||!pool.heroes.length) throw new Error("소환 영웅 데이터가 없습니다.");
-      var sum=0;
-      pool.heroes.forEach(function(hero){
-        if(!hero||!hero.id||!hero.nameKr) throw new Error("영웅 기본정보가 누락되었습니다.");
-        if(typeof hero.chance!=="number"||!isFinite(hero.chance)||hero.chance<0) throw new Error(hero.id+" 확률 값이 올바르지 않습니다.");
-        sum+=hero.chance;
-      });
-      if(Math.abs(sum-1)>1e-8) throw new Error("소환 확률 합계 오류: "+sum);
-      return sum;
-    }
-    function pickHero(){
-      var target=secureRandom();var cumulative=0;var last=null;
-      for(var i=0;i<data.heroes.length;i++){var hero=data.heroes[i];if(hero.chance<=0)continue;last=hero;cumulative+=hero.chance;if(target<cumulative)return hero;}
-      if(last)return last;throw new Error("선택 가능한 영웅이 없습니다.");
-    }
-    function reveal(hero){
-      portrait.src=hero.portrait||"/icon-512.png";
-      portrait.alt=hero.nameKr+" ("+hero.nameEn+") 영웅 이미지";
-      stars.textContent=hero.stars||hero.rarity||"";
-      stars.setAttribute("aria-label",hero.rarity?"희귀도 "+hero.rarity:"");
-      heroName.textContent=hero.nameKr;
-      heroEn.textContent=(hero.nameEn||"")+(hero.rarity?" · "+hero.rarity:"");
-      detail.href=hero.detailUrl;
-      success.textContent=hero.nameKr+" 소환 성공!";
-      stage.classList.add("is-revealing");
-      window.setTimeout(function(){stage.className="summon-stage is-result";isBusy=false;summonButton.disabled=false;},420);
-    }
-    function summon(){
-      if(isBusy)return;errorBox.style.display="none";isBusy=true;summonButton.disabled=true;stage.className="summon-stage is-summoning";
-      var hero;
-      try{hero=pickHero();}catch(err){showError(err.message||"소환 중 오류가 발생했습니다.");return;}
-      var reduced=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-      window.setTimeout(function(){reveal(hero);},reduced?80:2250);
-    }
-    function resetAndSummon(){stage.className="summon-stage";portrait.removeAttribute("src");stars.textContent="";heroName.textContent="";heroEn.textContent="";window.setTimeout(summon,30);}
+    function playSummonCue(count){try{var ctx=getAudioContext();if(!ctx)return;var start=function(){scheduleSummonCue(ctx,count);};if(ctx.state==="suspended"){ctx.resume().then(start).catch(function(){});}else start();}catch(err){console.info("[WoR Wiki Summon] audio unavailable",err&&err.message?err.message:err);}}
+
+    function clearSingle(){portrait.removeAttribute("src");portrait.alt="";stars.textContent="";heroName.textContent="";heroEn.textContent="";detail.href="/";}
+    function clearTen(){while(tenGrid.firstChild)tenGrid.removeChild(tenGrid.firstChild);}
+    function revealOne(hero){portrait.src=hero.portrait||"/icon-512.png";portrait.alt=hero.nameKr+" ("+(hero.nameEn||"")+") 영웅 이미지";stars.textContent=hero.stars||hero.rarity||"";stars.setAttribute("aria-label",hero.rarity?"희귀도 "+hero.rarity:"");heroName.textContent=hero.nameKr;heroEn.textContent=(hero.nameEn||"")+(hero.rarity?" · "+hero.rarity:"");detail.href=hero.detailUrl;success.textContent=hero.nameKr+" 소환 성공!";stage.classList.add("is-revealing");window.setTimeout(function(){stage.className="summon-stage is-result-one";isBusy=false;setButtonsDisabled(false);},420);}
+    function makeTenCard(hero,index){var card=document.createElement("a");card.className="summon-card";card.href=hero.detailUrl;card.setAttribute("aria-label",(index+1)+"번째 소환 영웅 "+hero.nameKr+" 상세정보 보기");var portraitBox=document.createElement("div");portraitBox.className="summon-card-portrait";var img=document.createElement("img");img.src=hero.portrait||"/icon-512.png";img.alt=hero.nameKr+" 영웅 이미지";img.decoding="async";portraitBox.appendChild(img);var star=document.createElement("p");star.className="card-stars";star.textContent=hero.stars||hero.rarity||"";var name=document.createElement("p");name.className="card-name";name.textContent=hero.nameKr;var en=document.createElement("p");en.className="card-en";en.textContent=(hero.nameEn||"")+(hero.rarity?" · "+hero.rarity:"");card.appendChild(portraitBox);card.appendChild(star);card.appendChild(name);card.appendChild(en);return card;}
+    function revealTen(heroes){clearTen();heroes.forEach(function(hero,index){tenGrid.appendChild(makeTenCard(hero,index));});stage.classList.add("is-revealing");window.setTimeout(function(){stage.className="summon-stage is-result-ten";isBusy=false;setButtonsDisabled(false);},420);}
+    function summon(count){if(isBusy)return;errorBox.style.display="none";isBusy=true;setButtonsDisabled(true);clearSingle();clearTen();stage.className="summon-stage is-summoning";loadingTitle.textContent=count===10?"10명 소환 중...":"영웅 소환 중...";loadingText.textContent=count===10?"열 개의 소환이 동시에 열리고 있습니다.":"렐름의 문이 열리고 있습니다.";var results;try{results=count===10?pickMany(10):[pickHero()];}catch(err){showError(err.message||"소환 중 오류가 발생했습니다.");return;}playSummonCue(count);var reduced=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;window.setTimeout(function(){if(count===10)revealTen(results);else revealOne(results[0]);},reduced?80:2250);}
 
     try{data=JSON.parse(document.getElementById("summonPoolData").textContent);var total=validatePool(data);console.info("[WoR Wiki Summon] heroes:",data.heroes.length,"total chance:",total,"configured:",!!data.configured);}catch(err){showError("소환 데이터를 불러오지 못했습니다. "+(err.message||""));return;}
-    summonButton.addEventListener("click",summon);
-    summonAgain.addEventListener("click",resetAndSummon);
+    oneButton.addEventListener("click",function(){summon(1);});tenButton.addEventListener("click",function(){summon(10);});oneAgain.addEventListener("click",function(){summon(1);});tenFromOne.addEventListener("click",function(){summon(10);});oneFromTen.addEventListener("click",function(){summon(1);});tenAgain.addEventListener("click",function(){summon(10);});
   })();
   </script>
 </body>
