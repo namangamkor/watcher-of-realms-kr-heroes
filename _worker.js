@@ -1,3 +1,4 @@
+/* worwiki-patch:v2.14.27-summon-minigame */
 /* worwiki-patch:v2.14.24-review-banner-pulse-fix */
 /* worwiki-patch:v2.14.23-banner-icons-seo-merge */
 /* worwiki-patch:v2.14.21-seo-meta */
@@ -736,6 +737,301 @@ async function wwRecentUpdates(env, heroes) {
   });
 }
 
+
+// worwiki-patch:v2.14.27-summon-minigame
+// -----------------------------------------------------------------------------
+// SUMMON CHANCE CONFIG
+// Values are exact per-hero probabilities (0~1) and must sum to 1.0.
+// Keep this map empty until the production probability table is supplied.
+// While empty, /summon/ runs in clearly-labeled equal-probability TEST mode.
+// Example only:
+// const WW_SUMMON_CHANCES = Object.freeze({
+//   "ingrid": 0.0005,
+//   "elowyn": 0.0015,
+//   "kassandra": 0.0030,
+//   ...
+// });
+const WW_SUMMON_CHANCES = Object.freeze({});
+const WW_SUMMON_TOTAL_EPSILON = 1e-9;
+
+function wwSummonRarityStars(rarity) {
+  return ({"전설":"★★★★★", "에픽":"★★★★☆", "레어":"★★★☆☆", "일반":"★★☆☆☆"})[rarity] || "";
+}
+
+function wwBuildSummonPool() {
+  const heroes = Object.values(HEROES).map((raw) => {
+    const hero = normalizeHeroForDetail(raw);
+    return {
+      id: hero.id,
+      nameKr: hero.nameKr,
+      nameEn: hero.nameEn,
+      rarity: hero.rarity || "",
+      portrait: hero.portrait || "/icon-512.png",
+      detailUrl: `/hero/${encodeURIComponent(hero.id)}/`,
+      stars: wwSummonRarityStars(hero.rarity)
+    };
+  });
+
+  if (!heroes.length) throw new Error("소환 대상 영웅이 없습니다.");
+
+  const configuredIds = Object.keys(WW_SUMMON_CHANCES);
+  const configured = configuredIds.length > 0;
+
+  if (!configured) {
+    const equalChance = 1 / heroes.length;
+    return {
+      configured: false,
+      totalChance: heroes.length * equalChance,
+      heroes: heroes.map((hero) => ({...hero, chance: equalChance}))
+    };
+  }
+
+  const heroIds = new Set(heroes.map((hero) => hero.id));
+  const unknown = configuredIds.filter((id) => !heroIds.has(id));
+  const missing = heroes.filter((hero) => !Object.prototype.hasOwnProperty.call(WW_SUMMON_CHANCES, hero.id)).map((hero) => hero.id);
+  if (unknown.length) throw new Error(`확률표에 위키에 없는 영웅 ID가 있습니다: ${unknown.slice(0, 8).join(", ")}`);
+  if (missing.length) throw new Error(`확률표에 누락된 영웅이 있습니다: ${missing.slice(0, 8).join(", ")}${missing.length > 8 ? " 외" : ""}`);
+
+  let total = 0;
+  const weighted = heroes.map((hero) => {
+    const chance = Number(WW_SUMMON_CHANCES[hero.id]);
+    if (!Number.isFinite(chance) || chance < 0 || chance > 1) {
+      throw new Error(`${hero.id} 확률 값이 올바르지 않습니다: ${WW_SUMMON_CHANCES[hero.id]}`);
+    }
+    total += chance;
+    return {...hero, chance};
+  });
+
+  if (Math.abs(total - 1) > WW_SUMMON_TOTAL_EPSILON) {
+    throw new Error(`영웅별 확률 합계가 1.0이 아닙니다. 현재 합계: ${total}`);
+  }
+  if (!weighted.some((hero) => hero.chance > 0)) throw new Error("모든 영웅 확률이 0입니다.");
+
+  return {configured: true, totalChance: total, heroes: weighted};
+}
+
+function renderSummon() {
+  const pool = wwBuildSummonPool();
+  const payload = JSON.stringify(pool).replace(/</g, "\\u003c");
+  const testNote = pool.configured ? "" : `<p class="summon-test-note">확률 설정 전 · 전체 영웅 균등 테스트 모드</p>`;
+
+  return `<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="나만겜 워처 오브 렐름 영웅 위키의 1회 소환 미니게임. 버튼을 눌러 오늘의 영웅을 만나보세요.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="${SITE}/summon/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:site_name" content="나만겜 워처 오브 렐름 한국 영웅 위키">
+  <meta property="og:title" content="영웅 1회 소환 | 나만겜 워처 오브 렐름 위키">
+  <meta property="og:description" content="오늘 당신에게 소환될 영웅은? 전체 영웅 중 1명을 뽑아보세요.">
+  <meta property="og:url" content="${SITE}/summon/">
+  <meta property="og:image" content="${SITE}/icon-512.png">
+  <title>영웅 1회 소환 | 나만겜 워처 오브 렐름 위키</title>
+  <meta name="theme-color" content="#090c12">
+  <link rel="icon" type="image/png" sizes="64x64" href="/favicon-crystal-v1.png?v=2.11.43c">
+  <link rel="apple-touch-icon" href="/icon-192.png?v=2.11.43c">
+  <link rel="stylesheet" href="/styles.css?v=2.12.5">
+  <style id="ww-summon-style">
+    :root{--sm-bg:#080b11;--sm-panel:#101722;--sm-panel2:#0c121b;--sm-line:#2d3949;--sm-gold:#e4b958;--sm-gold2:#8e6a2f;--sm-blue:#91cad7;--sm-text:#edf2f7;--sm-muted:#9aa7b6}
+    *{box-sizing:border-box}
+    body.summon-page{margin:0;min-height:100svh;background:radial-gradient(circle at 50% 18%,#182232 0,#0b1018 35%,#06080d 75%);color:var(--sm-text)}
+    .summon-page .topbar{position:relative;z-index:20}
+    .summon-main{min-height:calc(100svh - 76px);display:grid;place-items:center;padding:44px 20px 70px;overflow:hidden;position:relative}
+    .summon-main:before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(115deg,transparent 0 48%,rgba(255,255,255,.018) 49%,transparent 50% 100%);background-size:48px 48px;opacity:.55}
+    .summon-shell{width:min(920px,100%);position:relative;z-index:1;text-align:center}
+    .summon-eyebrow{margin:0 0 8px;color:var(--sm-gold);font-size:12px;font-weight:900;letter-spacing:.18em}
+    .summon-shell h1{margin:0;font-size:clamp(31px,5vw,54px);line-height:1.16;letter-spacing:-.045em}
+    .summon-lead{margin:14px auto 0;max-width:640px;color:var(--sm-muted);font-size:15px;line-height:1.75}
+    .summon-test-note{display:inline-flex;margin:14px auto 0;padding:7px 11px;border:1px solid rgba(228,185,88,.28);border-radius:999px;color:#d5ba7d;background:rgba(228,185,88,.055);font-size:12px}
+    .summon-stage{position:relative;width:min(560px,100%);min-height:520px;margin:26px auto 0;border:1px solid rgba(228,185,88,.24);border-radius:24px;background:linear-gradient(180deg,rgba(17,24,35,.94),rgba(7,11,17,.97));box-shadow:0 24px 70px rgba(0,0,0,.42),inset 0 0 0 1px rgba(255,255,255,.025);display:grid;place-items:center;overflow:hidden;isolation:isolate}
+    .summon-stage:before,.summon-stage:after{content:"";position:absolute;border-radius:50%;pointer-events:none}
+    .summon-stage:before{width:430px;height:430px;border:1px solid rgba(145,202,215,.12);box-shadow:inset 0 0 60px rgba(145,202,215,.025)}
+    .summon-stage:after{width:300px;height:300px;border:1px solid rgba(228,185,88,.13)}
+    .summon-idle,.summon-loading,.summon-result{position:relative;z-index:3;width:100%;padding:34px 34px 32px}
+    .summon-loading,.summon-result{display:none}
+    .summon-orb{position:relative;width:190px;height:190px;margin:0 auto 30px;display:grid;place-items:center}
+    .summon-ring{position:absolute;inset:0;border:2px solid rgba(228,185,88,.62);border-left-color:rgba(145,202,215,.3);border-radius:50%;box-shadow:0 0 0 12px rgba(228,185,88,.025),inset 0 0 28px rgba(228,185,88,.06)}
+    .summon-ring:before,.summon-ring:after{content:"";position:absolute;inset:20px;border:1px dashed rgba(145,202,215,.38);border-radius:50%}
+    .summon-ring:after{inset:47px;border-style:solid;border-color:rgba(228,185,88,.35);transform:rotate(45deg);border-radius:18px}
+    .summon-crystal{width:64px;height:86px;clip-path:polygon(50% 0,88% 25%,78% 78%,50% 100%,22% 78%,12% 25%);background:linear-gradient(135deg,#cce7ec 0,#6aa8bc 38%,#27485d 75%,#d4b25c 100%);box-shadow:0 0 34px rgba(117,190,208,.14)}
+    .summon-idle h2{margin:0 0 7px;font-size:24px}
+    .summon-idle p{margin:0;color:var(--sm-muted);font-size:14px}
+    .summon-primary,.summon-secondary,.summon-detail{min-height:50px;border-radius:10px;font-weight:900;font-size:16px;cursor:pointer;transition:transform .15s ease,border-color .15s ease,background .15s ease,color .15s ease}
+    .summon-primary{margin-top:25px;min-width:220px;padding:0 30px;border:1px solid #d9ab50;background:linear-gradient(180deg,#e9c56f,#bd8b36);color:#15100a;box-shadow:0 10px 28px rgba(184,129,41,.18)}
+    .summon-primary:hover{transform:translateY(-1px)}
+    .summon-primary:disabled{cursor:not-allowed;opacity:.55;transform:none}
+    .summon-loading{min-height:470px;place-items:center;align-content:center}
+    .summon-loading .summon-orb{margin-bottom:18px}
+    .summon-loading .summon-ring{animation:wwSummonSpin 1.05s linear infinite}
+    .summon-loading .summon-ring:before{animation:wwSummonSpinReverse 1.35s linear infinite}
+    .summon-loading .summon-crystal{animation:wwSummonPulse .78s ease-in-out infinite alternate}
+    .summon-loading strong{display:block;font-size:20px;letter-spacing:.02em}
+    .summon-loading p{margin:7px 0 0;color:var(--sm-muted);font-size:13px}
+    .summon-stage.is-summoning{animation:wwSummonDarken 2.45s ease both}
+    .summon-stage.is-summoning .summon-loading{display:grid}
+    .summon-stage.is-summoning .summon-idle,.summon-stage.is-summoning .summon-result{display:none}
+    .summon-flash{position:absolute;z-index:8;inset:0;background:#f5fbff;opacity:0;pointer-events:none}
+    .summon-stage.is-revealing .summon-flash{animation:wwSummonFlash .62s ease-out}
+    .summon-stage.is-result .summon-idle,.summon-stage.is-result .summon-loading{display:none}
+    .summon-stage.is-result .summon-result{display:block;animation:wwSummonReveal .42s ease-out both}
+    .summon-result{padding-top:25px}
+    .summon-success{margin:0 0 12px;color:var(--sm-gold);font-size:14px;font-weight:900;letter-spacing:.08em}
+    .summon-portrait-wrap{height:min(47vh,360px);min-height:250px;display:flex;align-items:flex-end;justify-content:center;margin:0 auto 10px;position:relative}
+    .summon-portrait-wrap:after{content:"";position:absolute;left:8%;right:8%;bottom:0;height:32%;background:linear-gradient(0deg,rgba(8,11,17,.92),transparent);pointer-events:none}
+    .summon-portrait{display:block;max-width:100%;width:auto;height:100%;object-fit:contain;object-position:center bottom;filter:drop-shadow(0 18px 30px rgba(0,0,0,.4))}
+    .summon-rarity{margin:0;color:#f0c862;font-size:21px;letter-spacing:.12em;min-height:30px}
+    .summon-result h2{margin:3px 0 0;font-size:clamp(28px,6vw,42px);letter-spacing:-.04em}
+    .summon-en{margin:4px 0 0;color:var(--sm-muted);font-size:13px}
+    .summon-actions{display:grid;grid-template-columns:1.35fr 1fr;gap:10px;margin-top:22px}
+    .summon-detail,.summon-secondary{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;padding:0 18px}
+    .summon-detail{border:1px solid rgba(228,185,88,.72);background:rgba(228,185,88,.1);color:#f0cf83}
+    .summon-secondary{border:1px solid var(--sm-line);background:#111923;color:#dce5ee}
+    .summon-detail:hover,.summon-secondary:hover{border-color:#8091a5;background:#16202d}
+    .summon-error{display:none;margin:15px auto 0;width:min(560px,100%);padding:13px 15px;border:1px solid rgba(255,117,117,.35);border-radius:10px;background:rgba(116,30,30,.18);color:#ffc3c3;font-size:13px;line-height:1.6;text-align:left}
+    .summon-back{display:inline-flex;margin-top:20px;color:#aab7c6;font-size:13px;text-decoration:none}
+    .summon-back:hover{color:#fff}
+    @keyframes wwSummonSpin{to{transform:rotate(360deg)}}
+    @keyframes wwSummonSpinReverse{to{transform:rotate(-360deg)}}
+    @keyframes wwSummonPulse{from{transform:scale(.94);filter:brightness(.88)}to{transform:scale(1.05);filter:brightness(1.2)}}
+    @keyframes wwSummonDarken{0%,55%{box-shadow:0 24px 70px rgba(0,0,0,.42),inset 0 0 0 1px rgba(255,255,255,.025)}75%{box-shadow:0 24px 80px rgba(0,0,0,.65),inset 0 0 90px rgba(0,0,0,.62)}100%{box-shadow:0 24px 70px rgba(0,0,0,.42),inset 0 0 0 1px rgba(255,255,255,.025)}}
+    @keyframes wwSummonFlash{0%{opacity:0}18%{opacity:.92}52%{opacity:.3}100%{opacity:0}}
+    @keyframes wwSummonReveal{from{opacity:0;transform:translateY(12px) scale(.985)}to{opacity:1;transform:none}}
+    @media(max-width:640px){
+      .summon-main{min-height:calc(100svh - 62px);padding:28px 14px 42px;align-items:start}
+      .summon-shell h1{font-size:34px}.summon-lead{font-size:14px;margin-top:10px}
+      .summon-stage{margin-top:20px;min-height:500px;border-radius:18px}
+      .summon-idle,.summon-loading,.summon-result{padding-left:18px;padding-right:18px}
+      .summon-orb{width:165px;height:165px;margin-bottom:24px}
+      .summon-primary{width:100%;min-height:54px}
+      .summon-portrait-wrap{height:min(43vh,340px);min-height:230px}
+      .summon-actions{grid-template-columns:1fr;gap:9px}
+      .summon-detail,.summon-secondary{min-height:52px;width:100%}
+      .summon-stage:before{width:360px;height:360px}.summon-stage:after{width:255px;height:255px}
+    }
+    @media(prefers-reduced-motion:reduce){.summon-loading .summon-ring,.summon-loading .summon-ring:before,.summon-loading .summon-crystal,.summon-stage.is-summoning,.summon-stage.is-revealing .summon-flash,.summon-stage.is-result .summon-result{animation-duration:.01ms!important;animation-iteration-count:1!important}.summon-primary,.summon-secondary,.summon-detail{transition:none}}
+  </style>
+</head>
+<body class="summon-page">
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand brand-link" href="/" aria-label="영웅 위키 홈으로 이동">
+        <span class="brand-mark"><img src="/favicon-crystal-v1.png?v=2.11.43c" alt=""></span>
+        <div><strong>나만겜 워처 오브 렐름 한국 영웅 위키</strong><small>영웅 정보 · 추천 장비 · 공략 · 미니게임</small></div>
+      </a>
+      <div class="topbar-actions"><span class="creator-mini">NAMANGAM ARCHIVE</span><a class="newbie-home-link" href="/">영웅 검색으로 돌아가기</a></div>
+    </div>
+  </header>
+
+  <main class="summon-main">
+    <section class="summon-shell" aria-labelledby="summon-title">
+      <p class="summon-eyebrow">WATCHER OF REALMS · HERO SUMMON</p>
+      <h1 id="summon-title">오늘 당신에게 소환될 영웅은?</h1>
+      <p class="summon-lead">기록도, 천장도 없습니다. 한 번 누르고 오늘의 영웅 한 명만 만나보세요.</p>
+      ${testNote}
+
+      <div class="summon-stage" id="summonStage" aria-live="polite">
+        <div class="summon-flash" aria-hidden="true"></div>
+        <section class="summon-idle" id="summonIdle">
+          <div class="summon-orb" aria-hidden="true"><div class="summon-ring"></div><div class="summon-crystal"></div></div>
+          <h2>영웅 소환</h2>
+          <p>버튼을 누르면 전체 영웅 중 1명이 등장합니다.</p>
+          <button class="summon-primary" id="summonButton" type="button">1회 소환</button>
+        </section>
+
+        <section class="summon-loading" id="summonLoading" aria-label="영웅 소환 중">
+          <div class="summon-orb" aria-hidden="true"><div class="summon-ring"></div><div class="summon-crystal"></div></div>
+          <strong>소환 중...</strong><p>렐름의 문이 열리고 있습니다.</p>
+        </section>
+
+        <section class="summon-result" id="summonResult">
+          <p class="summon-success" id="summonSuccess">영웅 소환 성공!</p>
+          <div class="summon-portrait-wrap"><img class="summon-portrait" id="summonPortrait" alt="" decoding="async"></div>
+          <p class="summon-rarity" id="summonStars" aria-label="희귀도"></p>
+          <h2 id="summonHeroName"></h2>
+          <p class="summon-en" id="summonHeroEn"></p>
+          <div class="summon-actions">
+            <a class="summon-detail" id="summonDetail" href="/">영웅 상세정보 보기</a>
+            <button class="summon-secondary" id="summonAgain" type="button">다시 소환</button>
+          </div>
+        </section>
+      </div>
+      <div class="summon-error" id="summonError" role="alert"></div>
+      <a class="summon-back" href="/">← 전체 영웅 위키로 돌아가기</a>
+    </section>
+  </main>
+
+  <script type="application/json" id="summonPoolData">${payload}</script>
+  <script>
+  (function(){
+    "use strict";
+    var stage=document.getElementById("summonStage");
+    var summonButton=document.getElementById("summonButton");
+    var summonAgain=document.getElementById("summonAgain");
+    var portrait=document.getElementById("summonPortrait");
+    var stars=document.getElementById("summonStars");
+    var heroName=document.getElementById("summonHeroName");
+    var heroEn=document.getElementById("summonHeroEn");
+    var detail=document.getElementById("summonDetail");
+    var success=document.getElementById("summonSuccess");
+    var errorBox=document.getElementById("summonError");
+    var isBusy=false;
+    var data;
+
+    function showError(message){errorBox.textContent=message;errorBox.style.display="block";isBusy=false;summonButton.disabled=false;stage.className="summon-stage";}
+    function secureRandom(){
+      if(!window.crypto||typeof window.crypto.getRandomValues!=="function") throw new Error("이 브라우저에서는 안전한 난수 생성을 사용할 수 없습니다.");
+      var value=new Uint32Array(1);window.crypto.getRandomValues(value);return value[0]/4294967296;
+    }
+    function validatePool(pool){
+      if(!pool||!Array.isArray(pool.heroes)||!pool.heroes.length) throw new Error("소환 영웅 데이터가 없습니다.");
+      var sum=0;
+      pool.heroes.forEach(function(hero){
+        if(!hero||!hero.id||!hero.nameKr) throw new Error("영웅 기본정보가 누락되었습니다.");
+        if(typeof hero.chance!=="number"||!isFinite(hero.chance)||hero.chance<0) throw new Error(hero.id+" 확률 값이 올바르지 않습니다.");
+        sum+=hero.chance;
+      });
+      if(Math.abs(sum-1)>1e-8) throw new Error("소환 확률 합계 오류: "+sum);
+      return sum;
+    }
+    function pickHero(){
+      var target=secureRandom();var cumulative=0;var last=null;
+      for(var i=0;i<data.heroes.length;i++){var hero=data.heroes[i];if(hero.chance<=0)continue;last=hero;cumulative+=hero.chance;if(target<cumulative)return hero;}
+      if(last)return last;throw new Error("선택 가능한 영웅이 없습니다.");
+    }
+    function reveal(hero){
+      portrait.src=hero.portrait||"/icon-512.png";
+      portrait.alt=hero.nameKr+" ("+hero.nameEn+") 영웅 이미지";
+      stars.textContent=hero.stars||hero.rarity||"";
+      stars.setAttribute("aria-label",hero.rarity?"희귀도 "+hero.rarity:"");
+      heroName.textContent=hero.nameKr;
+      heroEn.textContent=(hero.nameEn||"")+(hero.rarity?" · "+hero.rarity:"");
+      detail.href=hero.detailUrl;
+      success.textContent=hero.nameKr+" 소환 성공!";
+      stage.classList.add("is-revealing");
+      window.setTimeout(function(){stage.className="summon-stage is-result";isBusy=false;summonButton.disabled=false;},420);
+    }
+    function summon(){
+      if(isBusy)return;errorBox.style.display="none";isBusy=true;summonButton.disabled=true;stage.className="summon-stage is-summoning";
+      var hero;
+      try{hero=pickHero();}catch(err){showError(err.message||"소환 중 오류가 발생했습니다.");return;}
+      var reduced=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      window.setTimeout(function(){reveal(hero);},reduced?80:2250);
+    }
+    function resetAndSummon(){stage.className="summon-stage";portrait.removeAttribute("src");stars.textContent="";heroName.textContent="";heroEn.textContent="";window.setTimeout(summon,30);}
+
+    try{data=JSON.parse(document.getElementById("summonPoolData").textContent);var total=validatePool(data);console.info("[WoR Wiki Summon] heroes:",data.heroes.length,"total chance:",total,"configured:",!!data.configured);}catch(err){showError("소환 데이터를 불러오지 못했습니다. "+(err.message||""));return;}
+    summonButton.addEventListener("click",summon);
+    summonAgain.addEventListener("click",resetAndSummon);
+  })();
+  </script>
+</body>
+</html>`;
+}
+
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
@@ -771,6 +1067,29 @@ export default {
       headers.set("vary", "Sec-Fetch-Site, Sec-Fetch-Dest, Referer");
       return new Response(request.method === "HEAD" ? null : asset.body, { status: asset.status, headers });
     }
+    if (["/summon", "/summon/", "/summon/index.html", "/summon.html"].includes(url.pathname)) {
+      if (!["GET", "HEAD"].includes(request.method)) return new Response(null, {status:405, headers:{allow:"GET, HEAD"}});
+      if (url.pathname !== "/summon/") return Response.redirect(`${SITE}/summon/`, 301);
+      try {
+        const body = request.method === "HEAD" ? null : wwProtectHtml(renderSummon());
+        return new Response(body, {
+          status:200,
+          headers:wwProtectedPageHeaders({
+            "content-type":"text/html; charset=UTF-8",
+            "cache-control":"no-cache, max-age=0, must-revalidate",
+            "x-robots-tag":"index, follow, noarchive",
+            "x-worwiki-route":"summon-minigame"
+          })
+        });
+      } catch (error) {
+        console.error("Summon config error:", error?.message || error);
+        return new Response(`소환 확률 설정 오류: ${error?.message || "unknown"}`, {
+          status:500,
+          headers:{"content-type":"text/plain; charset=UTF-8", "cache-control":"no-store", "x-robots-tag":"noindex"}
+        });
+      }
+    }
+
     const commentsResponse = await wwHandle(request, env, ctx, HEROES);
     if (commentsResponse) return commentsResponse;
     const match = url.pathname.match(/^\/hero\/([^/]+)\/?$/);
