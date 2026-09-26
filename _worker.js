@@ -993,7 +993,7 @@ function renderSummon() {
     .summon-progress-wrap{width:min(760px,100%);margin:20px auto 0;padding:13px 15px;border:1px solid rgba(255,255,255,.08);border-radius:13px;background:rgba(8,13,20,.62);text-align:left}
     .summon-progress-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px;font-size:12px}.summon-progress-head strong{color:#e8c676}.summon-progress-head span{color:#92a1b2}
     .summon-progress-track{height:7px;border-radius:99px;background:#1b2531;overflow:hidden}.summon-progress-fill{display:block;height:100%;width:0;background:linear-gradient(90deg,#6d8fa0,#d7aa50);border-radius:inherit;transition:width .28s ease}
-    .summon-reset-row{display:flex;justify-content:flex-end;align-items:center;gap:8px;flex-wrap:wrap;margin-top:11px}.summon-reset-trigger,.summon-bgm-toggle{min-height:36px;padding:7px 11px;border:1px solid #354354;border-radius:9px;background:#101823;color:#aeb9c7;font-size:11px;font-weight:850;cursor:pointer;transition:border-color .15s ease,background .15s ease,color .15s ease,transform .15s ease}.summon-reset-trigger:hover,.summon-bgm-toggle:hover{border-color:#617287;background:#16212d;color:#e4ebf2;transform:translateY(-1px)}.summon-reset-trigger:disabled,.summon-bgm-toggle:disabled{opacity:.28!important;transform:none!important}.summon-bgm-toggle[aria-pressed="true"]{border-color:rgba(145,202,215,.58);background:rgba(58,100,116,.18);color:#bfe0e7}.summon-reset-trigger{border-color:rgba(184,139,60,.4);color:#d0b37a;background:rgba(96,70,28,.10)}
+    .summon-reset-row{display:flex;justify-content:flex-end;align-items:center;gap:8px;flex-wrap:wrap;margin-top:11px}.summon-reset-trigger,.summon-bgm-toggle{min-height:36px;padding:7px 11px;border:1px solid #354354;border-radius:9px;background:#101823;color:#aeb9c7;font-size:11px;font-weight:850;cursor:pointer;transition:border-color .15s ease,background .15s ease,color .15s ease,transform .15s ease}.summon-reset-trigger:hover,.summon-bgm-toggle:hover{border-color:#617287;background:#16212d;color:#e4ebf2;transform:translateY(-1px)}.summon-reset-trigger:disabled,.summon-bgm-toggle:disabled{opacity:.28!important;transform:none!important}.summon-bgm-toggle[aria-pressed="true"],.summon-reset-trigger{border-color:rgba(145,202,215,.58);background:rgba(58,100,116,.18);color:#bfe0e7}
     .summon-reset-modal[hidden]{display:none!important}.summon-reset-modal{position:fixed;z-index:9999;inset:0;display:grid;place-items:center;padding:18px}.summon-reset-backdrop{position:absolute;inset:0;background:rgba(2,5,9,.82);backdrop-filter:blur(5px)}.summon-reset-dialog{position:relative;z-index:1;width:min(500px,100%);padding:28px 24px 22px;border:1px solid rgba(228,185,88,.38);border-radius:18px;background:linear-gradient(180deg,#171b22,#090d13);box-shadow:0 28px 80px rgba(0,0,0,.58);text-align:center}.summon-reset-kicker{margin:0;color:#c89f4d;font-size:11px;font-weight:900;letter-spacing:.16em}.summon-reset-dialog h2{margin:9px 0 10px;font-size:clamp(22px,5vw,30px);line-height:1.4;letter-spacing:-.035em}.summon-reset-dialog>p:not(.summon-reset-kicker){margin:0;color:#9da9b8;font-size:13px;line-height:1.7}.summon-reset-actions{display:grid;grid-template-columns:1fr 1.25fr;gap:9px;margin-top:20px}.summon-reset-actions button{min-height:50px;border-radius:10px;font-weight:900;cursor:pointer}.summon-reset-actions #summonResetNo{border:1px solid #35404d;background:#111821;color:#c4ced9}.summon-reset-actions #summonResetYes{border:1px solid #b98b3c;background:linear-gradient(180deg,#d8b25e,#9e6f2b);color:#160f08}.summon-reset-actions button:hover{filter:brightness(1.08)}
     .summon-stage{position:relative;width:min(1040px,100%);min-height:560px;margin:18px auto 0;border:1px solid rgba(228,185,88,.24);border-radius:24px;background:linear-gradient(180deg,rgba(17,24,35,.94),rgba(7,11,17,.97));box-shadow:0 24px 70px rgba(0,0,0,.42),inset 0 0 0 1px rgba(255,255,255,.025);display:grid;place-items:center;overflow:hidden;isolation:isolate}
     .summon-stage:before,.summon-stage:after{content:"";position:absolute;border-radius:50%;pointer-events:none}.summon-stage:before{width:540px;height:540px;border:1px solid rgba(145,202,215,.12);box-shadow:inset 0 0 60px rgba(145,202,215,.025)}.summon-stage:after{width:350px;height:350px;border:1px solid rgba(228,185,88,.13)}
@@ -1164,7 +1164,25 @@ export default {
       headers.set("cross-origin-resource-policy", "same-origin");
       headers.set("x-content-type-options", "nosniff");
       headers.set("vary", "Sec-Fetch-Site, Sec-Fetch-Dest, Referer");
-      return new Response(request.method === "HEAD" ? null : asset.body, { status: asset.status, headers });
+      headers.set("content-type", "application/json; charset=UTF-8");
+      if (request.method === "HEAD") return new Response(null, { status: asset.status, headers });
+      try {
+        const data = await asset.json();
+        const currentHeroes = Object.values(HEROES);
+        if (Array.isArray(data)) {
+          const known = new Set(data.map((hero) => hero && hero.id).filter(Boolean));
+          for (const hero of currentHeroes) if (!known.has(hero.id)) data.push(hero);
+        } else if (data && Array.isArray(data.heroes)) {
+          const known = new Set(data.heroes.map((hero) => hero && hero.id).filter(Boolean));
+          for (const hero of currentHeroes) if (!known.has(hero.id)) data.heroes.push(hero);
+        } else if (data && typeof data === "object") {
+          for (const hero of currentHeroes) if (!data[hero.id]) data[hero.id] = hero;
+        }
+        return new Response(JSON.stringify(data), { status: asset.ok ? 200 : asset.status, headers });
+      } catch (error) {
+        console.error("heroes.json merge failed:", error?.message || error);
+        return new Response(JSON.stringify(HEROES), { status: 200, headers });
+      }
     }
     if (["/summon", "/summon/", "/summon/index.html", "/summon.html"].includes(url.pathname)) {
       if (!["GET", "HEAD"].includes(request.method)) return new Response(null, {status:405, headers:{allow:"GET, HEAD"}});
