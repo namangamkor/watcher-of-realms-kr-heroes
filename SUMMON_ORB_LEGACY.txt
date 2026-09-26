@@ -1,0 +1,7 @@
+# v2.14.34 summon orb backup
+
+## HTML
+<div class="summon-orb" aria-hidden="true"><div class="summon-ring"></div><div class="summon-crystal"></div></div>
+
+## CSS
+.summon-orb{position:relative;width:190px;height:190px;margin:0 auto 30px;display:grid;place-items:center}.summon-ring{position:absolute;inset:0;border:2px solid rgba(228,185,88,.62);border-left-color:rgba(145,202,215,.3);border-radius:50%;box-shadow:0 0 0 12px rgba(228,185,88,.025),inset 0 0 28px rgba(228,185,88,.06)}.summon-ring:before,.summon-ring:after{content:"";position:absolute;inset:20px;border:1px dashed rgba(145,202,215,.38);border-radius:50%}.summon-ring:after{inset:47px;border-style:solid;border-color:rgba(228,185,88,.35);transform:rotate(45deg);border-radius:18px}.summon-crystal{width:64px;height:86px;clip-path:polygon(50% 0,88% 25%,78% 78%,50% 100%,22% 78%,12% 25%);background:linear-gradient(135deg,#cce7ec 0,#6aa8bc 38%,#27485d 75%,#d4b25c 100%);box-shadow:0 0 34px rgba(117,190,208,.14)}
