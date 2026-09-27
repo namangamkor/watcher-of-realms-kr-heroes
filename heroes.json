@@ -4851,7 +4851,7 @@
         "factionEn": "Unaffiliated",
         "lord": false,
         "sortOrder": 1,
-        "portrait": "./unaffiliated-01-decimus.webp"
+        "portrait": "./unaffiliated-01-decimus.png"
       }
     ],
     "collectionValue": 3,
@@ -9242,33 +9242,33 @@
       "awakening": [
         {
           "level": "A1",
-          "grade": "해외 DB 확인",
-          "text": "Shield Wall 발동 시 자신의 블록 수만큼 보호막 중첩을 얻는다. 각 중첩은 최대 HP의 8%이며 Shield Wall과 같은 시간 동안 지속된다."
+          "grade": "한국 서버 인게임 확인",
+          "text": "방패벽 발동 시 자신의 최대 가드 수 1당 최대 HP의 8%에 해당하는 실드를 획득한다. 실드는 방패벽이 지속되는 동안 유지된다."
         },
         {
           "level": "A2",
-          "grade": "해외 DB 확인",
+          "grade": "한국 서버 인게임 확인",
           "text": "HP +1200."
         },
         {
           "level": "A3",
-          "grade": "해외 DB 확인",
-          "text": "공격력이 HP의 5%만큼 증가한다."
+          "grade": "한국 서버 인게임 확인",
+          "text": "이졸데의 공격력이 자신의 HP의 5%만큼 상승한다."
         },
         {
           "level": "A4",
-          "grade": "해외 DB 확인",
+          "grade": "한국 서버 인게임 확인",
           "text": "모든 피해 감소 +5%."
         },
         {
           "level": "A5",
-          "grade": "해외 DB 확인",
-          "text": "Slash 발동에 필요한 일반 공격 횟수 -2."
+          "grade": "한국 서버 인게임 확인",
+          "text": "참격 시전에 필요한 일반 공격 횟수 -2."
         }
       ],
-      "updated": "2026-09",
-      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
-      "verifiedIntro": "높은 블록과 진영 보호 능력을 갖춘 에픽 수호자형 영주. 북쪽 경계 왕좌 아군의 기본 능력치를 높이고 주기적으로 실드를 공급해 전열 전체의 생존을 안정시킨다. 개인 화력보다는 여러 적을 막아 세우면서 진영 아군에게 실드와 피해 감소를 제공하는 조합용 탱커다.",
+      "updated": "2026-09-22",
+      "note": "기본 가드 수, 방패벽의 범위 내 아군 가드 증가 및 각성 A1~A5는 사용자 제공 한국 서버 인게임 화면을 기준으로 확인했습니다.",
+      "verifiedIntro": "높은 가드와 진영 보호 능력을 갖춘 에픽 수호자형 영주. 북쪽 경계 왕좌 아군의 기본 능력치를 높이고 주기적으로 실드를 공급해 전열의 생존을 돕는다. 기본 가드 수는 3명이며, 궁극기 「방패벽」 사용 중에는 자신을 포함한 스킬 범위 내 모든 아군 영웅에게 가드 수 +1과 물리·마법 피해 감소를 부여한다. 이졸데는 4명을 가드하며, 기본 가드 2명인 전사는 3명, 기본 가드 3명인 수호자는 4명을 막을 수 있다. 같은 유형의 가드 수 증가 효과는 가장 높은 효과만 적용된다.",
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트",
         "label": "추천 장비 세트",
@@ -15397,7 +15397,7 @@
         "factionEn": "Cursed Cult",
         "lord": false,
         "sortOrder": 30,
-        "portrait": "./cursed-cult-hq-30-rosalia.webp"
+        "portrait": "./cursed-cult-hq-30-rosalia-v21457.png"
       }
     ],
     "contentTags": [
@@ -20045,6 +20045,158 @@
       "단일 마법 공격",
       "지속 피해",
       "공중 유닛 공격 가능"
+    ]
+  },
+  {
+    "id": "oakenvar",
+    "nameKr": "오켄바르",
+    "nameEn": "Oakenvar",
+    "aliases": [
+      "거대 참나무 수호자"
+    ],
+    "class": "수호자",
+    "rarity": "전설",
+    "factions": [
+      "watch-guard"
+    ],
+    "memberships": [
+      {
+        "faction": "watch-guard",
+        "factionKr": "파수꾼 소대",
+        "factionEn": "Watch Guard",
+        "lord": false,
+        "sortOrder": 41,
+        "portrait": "./watch-guard-hq-41-oakenvar-v21460.png"
+      }
+    ],
+    "collectionValue": 3,
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "source": "2026-09-27 Okenvar 빌드 교차검수"
+    },
+    "videos": [],
+    "details": {
+      "artifact": {
+        "text": "전열에서 여러 적을 막아내는 상황에서 피해 감소와 가드 안정성을 보강하는 수호자용 아티팩트입니다. 오켄바르의 생존형 운용과 잘 맞는 범용 추천입니다."
+      },
+      "gear": {
+        "name": "성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Unshaken Will) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 성흔의 수호 + 강철 의지. 최대 HP와 전열 생존을 우선하면서 오켄바르의 자체 회복·피해 감소·제어 역할을 강화하는 엔드게임 수호자 세팅입니다. 권장 옵션: HP%, 방어력%, 공격 속도, 피해 감소.",
+        "source": "2026-09-27 Okenvar 최신 엔드게임 빌드 교차검수"
+      },
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "게임 내 스크린샷",
+          "text": "자신에 의해 공중에 띄워진 대상이 착지할 때 1초간 기절한다."
+        },
+        {
+          "level": "A2",
+          "grade": "게임 내 스크린샷",
+          "text": "HP +1,200."
+        },
+        {
+          "level": "A3",
+          "grade": "게임 내 스크린샷",
+          "text": "황폐화의 소지자는 물리 취약을 획득하며, 5초간 지속된다."
+        },
+        {
+          "level": "A4",
+          "grade": "게임 내 스크린샷",
+          "text": "모든 피해 감소 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "게임 내 스크린샷",
+          "text": "일반 공격은 추가로 1명의 대상에게 황폐화를 부여한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "기본 정보와 각성 효과는 사용자가 제공한 게임 내 스크린샷을 기준으로 우선 등록했습니다. 황폐화: 시전자에게 입히는 피해가 20% 감소하고 5초간 지속됩니다. 추천 장비·아티팩트·실전 평가는 추후 보강 가능합니다.",
+      "verifiedIntro": "최대 HP 기반 회복과 디버프 제거, 공중 띄우기 연계 기절, 피해 감소 디버프 황폐화를 갖춘 전설 수호자입니다. 전열에서 오래 버티면서 적을 제어하는 생존형 탱커로 보입니다.",
+      "roleSummary": "HP 50% 미만 구간에서 매초 최대 HP의 15%를 회복하고 자신의 디버프 1개를 제거하는 재능 덕분에 장기 생존이 강점입니다. 띄우기와 기절 연계를 활용해 전열 제어에 초점을 맞추는 편이 좋습니다.",
+      "statPriority": [
+        "HP%",
+        "피해 감소",
+        "방어력",
+        "공격 속도"
+      ],
+      "statNote": "신규 영웅 임시 등록 기준입니다. 실전 검증 후 수집가치와 장비 방향은 조정될 수 있습니다."
+    },
+    "traits": [
+      "강력 제어",
+      "생존"
+    ]
+  },
+  {
+    "id": "beirasia",
+    "nameKr": "베이라시아",
+    "nameEn": "Beirasia",
+    "aliases": [
+      "암야 날개의 군주"
+    ],
+    "class": "전사",
+    "rarity": "에픽",
+    "factions": [
+      "nightmare-council"
+    ],
+    "memberships": [
+      {
+        "faction": "nightmare-council",
+        "factionKr": "악몽 의회",
+        "factionEn": "Nightmare Council",
+        "lord": true,
+        "sortOrder": 40,
+        "portrait": "./nightmare-council-hq-40-beirasia-v21458.png"
+      }
+    ],
+    "collectionValue": 3,
+    "videos": [],
+    "details": {
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "게임 내 스크린샷",
+          "text": "공격 범위 내에 적이 1명만 있을 경우, 일반 공격, 용염창 및 궁극기 공격의 피해 배율이 25% 상승한다."
+        },
+        {
+          "level": "A2",
+          "grade": "게임 내 스크린샷",
+          "text": "치명타 피해 +15%."
+        },
+        {
+          "level": "A3",
+          "grade": "게임 내 스크린샷",
+          "text": "용염창 및 궁극기 공격으로 적을 처치 시, 자신의 분노를 2.5% 회복한다."
+        },
+        {
+          "level": "A4",
+          "grade": "게임 내 스크린샷",
+          "text": "관통 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "게임 내 스크린샷",
+          "text": "궁극기 지속 시간이 5초 증가한다."
+        }
+      ],
+      "updated": "2026-09",
+      "note": "기본 정보와 각성 효과는 사용자가 제공한 게임 내 스크린샷을 기준으로 우선 등록했습니다. 영문명은 베이라시아(Beirasia)로 임시 표기했으며, 이후 공식 표기 확인 시 보정 가능합니다.",
+      "verifiedIntro": "일반 공격 시 25% 확률로 대상에게 용염창을 투척하고, 공격 범위 내 적이 1명일 때 일반 공격·용염창·궁극기 피해 배율이 상승하는 에픽 영주 전사입니다. 광역 물리 공격 기반이지만, 단일 대상 마무리 능력도 함께 챙기는 형태로 보입니다.",
+      "roleSummary": "악몽 의회 소속 영주 전사로, 기본적으로 광역 압박을 하면서도 단일 대상 구간에서 추가 피해를 노리는 하이브리드 딜러 성향입니다. 처치 시 분노 회복과 궁극기 지속시간 증가 각성 덕분에 전투가 길어질수록 궁극기 순환도 기대할 수 있습니다.",
+      "statPriority": [
+        "공격력%",
+        "치명타율",
+        "치명타 피해",
+        "관통"
+      ],
+      "statNote": "신규 영웅 임시 등록 기준입니다. 추천 장비·아티팩트·수집가치는 실전 검증 후 조정될 수 있습니다."
+    },
+    "traits": [
+      "광역 물리 공격"
     ]
   }
 ]
