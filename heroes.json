@@ -18145,7 +18145,7 @@
         "factionEn": "Nightmare Council",
         "lord": false,
         "sortOrder": 12,
-        "portrait": "./nightmare-council-hq-12-valeriya.webp"
+        "portrait": "./valeriya-dual-faction-v21471.webp"
       },
       {
         "faction": "chaos-dominion",
@@ -18153,7 +18153,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 7,
-        "portrait": "./chaos-dominion-hq-07-valeriya.webp"
+        "portrait": "./valeriya-dual-faction-v21471.webp"
       }
     ],
     "collectionValue": 3,
