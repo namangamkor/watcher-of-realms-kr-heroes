@@ -17961,7 +17961,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 16,
-        "portrait": "./esoteria-hq-16-valara.webp"
+        "portrait": "./valara-dual-faction-v21472.webp"
       },
       {
         "faction": "supreme-arbiters",
@@ -17969,7 +17969,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 8,
-        "portrait": "./supreme-arbiters-hq-08-valara.webp"
+        "portrait": "./valara-dual-faction-v21472.webp"
       }
     ],
     "contentTags": [
@@ -18145,7 +18145,7 @@
         "factionEn": "Nightmare Council",
         "lord": false,
         "sortOrder": 12,
-        "portrait": "./valeriya-dual-faction-v21471.webp"
+        "portrait": "./nightmare-council-hq-12-valeriya.webp"
       },
       {
         "faction": "chaos-dominion",
@@ -18153,7 +18153,7 @@
         "factionEn": "Chaos Dominion",
         "lord": false,
         "sortOrder": 7,
-        "portrait": "./valeriya-dual-faction-v21471.webp"
+        "portrait": "./chaos-dominion-hq-07-valeriya.webp"
       }
     ],
     "collectionValue": 3,
