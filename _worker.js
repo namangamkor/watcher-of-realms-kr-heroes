@@ -1073,7 +1073,7 @@ function renderSummon() {
     </section>
   </div>
 
-  <audio id="summonAudio" preload="auto" src="/summon-effect.m4a?v=2.14.39"></audio>
+  <audio id="summonAudio" preload="auto" src="/summon-effect-v21473.wav"></audio>
   <audio id="summonBgm" preload="auto" loop src="/summon-bgm.m4a?v=2.14.36"></audio>
   <script type="application/json" id="summonPoolData">${payload}</script>
   <script>
@@ -1085,7 +1085,7 @@ function renderSummon() {
     var isBusy=false,data,daily,bgmStarted=false,bgmEnabled=true;
 
     function syncBgmButton(){if(!bgmToggle)return;bgmToggle.setAttribute("aria-pressed",bgmEnabled?"true":"false");bgmToggle.textContent=bgmEnabled?"♫ BGM ON":"♫ BGM OFF";}
-    function tryStartBgm(e){if(e&&bgmToggle&&e.target===bgmToggle)return;if(!bgm||!bgmEnabled||bgmStarted)return;try{bgm.volume=.3;bgm.loop=true;var p=bgm.play();if(p&&typeof p.then==="function"){p.then(function(){bgmStarted=true;detachBgmUnlock();}).catch(function(){});}else{bgmStarted=true;detachBgmUnlock();}}catch(e){}}
+    function tryStartBgm(e){if(e&&bgmToggle&&e.target===bgmToggle)return;if(!bgm||!bgmEnabled||bgmStarted)return;try{bgm.volume=.21;bgm.loop=true;var p=bgm.play();if(p&&typeof p.then==="function"){p.then(function(){bgmStarted=true;detachBgmUnlock();}).catch(function(){});}else{bgmStarted=true;detachBgmUnlock();}}catch(e){}}
     function stopBgm(){if(!bgm)return;try{bgm.pause();bgmStarted=false;}catch(e){}}
     function toggleBgm(){bgmEnabled=!bgmEnabled;syncBgmButton();if(bgmEnabled)tryStartBgm();else stopBgm();}
     function detachBgmUnlock(){document.removeEventListener("pointerdown",tryStartBgm);document.removeEventListener("keydown",tryStartBgm);document.removeEventListener("touchstart",tryStartBgm);}
