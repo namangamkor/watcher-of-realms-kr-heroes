@@ -266,7 +266,7 @@ function heroActivityTime(id) {
 }
 function applyHeroActivity(items) {
   if (!Array.isArray(items)) return;
-  heroActivity = new Map(items.filter((item) => item && heroDisplayRank.has(item.heroId)).map((item) => {
+  heroActivity = new Map(items.filter((item) => item && typeof item.heroId === "string" && item.heroId).map((item) => {
     const seconds = (value) => Number.isFinite(Number(value)) && Number(value) > 0 && Number(value) <= 8640000000000 ? Number(value) : 0;
     return [item.heroId, { infoUpdatedAt: seconds(item.infoUpdatedAt), reviewPublishedAt: seconds(item.reviewPublishedAt), reviewOrder: Number.isInteger(item.reviewOrder) ? item.reviewOrder : Number.MAX_SAFE_INTEGER }];
   }));
@@ -281,7 +281,7 @@ function heroActivityBadge(hero) {
   const parts = new Intl.DateTimeFormat("ko-KR", { timeZone: "Asia/Seoul", month: "numeric", day: "numeric" }).formatToParts(date);
   const month = parts.find((part) => part.type === "month").value;
   const day = parts.find((part) => part.type === "day").value;
-  return `<span class="hero-activity-badge${review ? ' is-review' : ''}" title="${review ? '가장 최근 공개된 유저 후기' : '영웅 정보 업데이트'}"><span>${review ? '새 후기' : '정보 업데이트'}</span> · <time datetime="${date.toISOString()}">${month}.${day}</time></span>`;
+  return `<span class="hero-activity-badge" title="${review ? '가장 최근 공개된 유저 후기' : '영웅 정보 업데이트'}"><span>${review ? '새 후기' : '정보 업데이트'}</span> · <time datetime="${date.toISOString()}">${month}.${day}</time></span>`;
 }
 function compareHeroActivityOrder(a, b) {
   const activityDifference = heroActivityTime(b.id) - heroActivityTime(a.id);
