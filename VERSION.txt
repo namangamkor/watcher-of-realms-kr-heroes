@@ -1,4 +1,4 @@
-v2.14.66
-Base: v2.14.65
-Files: _worker.js, app.js, heroes.json, unaffiliated-01-decimus-v21466.webp
+v2.14.67
+Base: v2.14.66
+Files: _worker.js, app.js, heroes.json, unaffiliated-01-decimus-v21467.png
 Status: prepared, not deployed
