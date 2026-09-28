@@ -2336,7 +2336,7 @@
         "factionEn": "Nightmare Council",
         "lord": false,
         "sortOrder": 29,
-        "portrait": "./nightmare-council-hq-29-bayek.webp"
+        "portrait": "./bayek-dual-faction-v21486.webp"
       },
       {
         "faction": "star-piercers",
@@ -2344,7 +2344,7 @@
         "factionEn": "Star Piercers",
         "lord": false,
         "sortOrder": 28,
-        "portrait": "./star-piercers-hq-28-bayek.webp"
+        "portrait": "./bayek-dual-faction-v21486.webp"
       }
     ],
     "collectionValue": 4,
