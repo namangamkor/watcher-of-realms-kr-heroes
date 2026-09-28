@@ -587,14 +587,14 @@ function renderRecentUpdates(items) {
 
 // Keep the server-rendered cards visible until both sources are ready.
 // A partial render with heroes.json but no activity briefly restores the old order.
-const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.77", { cache: "no-store" })
+const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.79", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("recent updates load failed");
     return response.json();
   })
   .catch((error) => { console.warn(error); return null; });
 
-const heroesPromise = fetch("./heroes.json?v=2.14.77", { cache: "no-store" })
+const heroesPromise = fetch("./heroes.json?v=2.14.79", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
