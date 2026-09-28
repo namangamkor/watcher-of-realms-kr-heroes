@@ -1,10 +1,8 @@
 // v2.14.12: owner-confirmed update priority. First 46 are explicitly ordered.
 // Remaining heroes retain source-data order; no release/update dates are inferred.
 // Read the initial Worker-rendered order instead of maintaining a separate hero ID list.
-const heroDisplayRank = new Map(Array.from(
-  document.querySelectorAll("#heroGrid > a[href^='/hero/']"),
-  (anchor, index) => [anchor.getAttribute("href").split("/")[2], index]
-));
+const heroDisplayOrder = ["rosalia","oakenvar","beirasia","ezio-della-notte","evie-frye","bayek","eivor-varinsdottir","kassandra","ezio-auditore","cainan","jezebelle","vera","lulu","clarissa","gu-shi","su-yue","janus-grismore","oren","solaris","dane","graves-greybeard","gul-drak","akirastar","violetta-vane","gretchen","guan-yu","sergei","pierre","ruen-hollow","khadgrim","aedrin","rivenhald","leikan","lady-mina","count-dracula","dr-van-helsing","kane","eirlys","sythra","ne-zha","erlang-shen","draelyn","valara","astrael","moriden","nerissa","nastya","numera","abomination","abyss","admiral-claw","aeon","aeris","ai","ain","ajax","alaura","alistair","anai","anora","apsan","aracha","ardea","ardeth","ares","arrogance","artemis","atrox","aurelius-gale","autumn","aveline","aylin","azhor","azzoth","baron","beatrix","beelzebub","boreas","borut","brienne","brokkir","brunor","calista","calypso","camille","captain-reve","carnelian","carosa","cassiel","cerberus","constance","corven","crach","cutter","cyclone","cyrene","cyrus","daemon","dagna","dahlia","dalyn","dassomi","decimus","deimos","demi","diaochan","dolores","drayga","drogo","durza","edith","elddr","eliza","elowyn","elukas","elysia","eona","esme","estrid","eunomia","ezareth","ezryn","faelin","falcia","fenris","ferssi","filippa","ghan","gisele","glacius","gluttony","gonkba","greed","gwendolyn","harpun","hatssut","helga","hex","hollow","idril","imani","ingrid","init","iovar","isolde","janqhar","jeera","jorge","kaede","kai","kalina","khamet","kigiri","kineza","king-harz","knight-arlott","komodo","kria","krodor","lady-alexandra","laseer","laurel","laya","liam","lightlocke","lili","livian","lord-phineas","lu-bu","lucius","lugaru","luneria","lust","lynx","lyra","magda","magmus","malrik","malvira","marri","maul","maw","meriel","midan","morene","morrigan","myca","nauvras","nazeem","niro","nisalt","nissandei","nocturne","nyx","olague","orim","osiren","pelagios","praetus","pyros","raiden","raizan","razaak","regulus","rex","rhox","rork","rygar","sadie","salazar","sargak","scorch","selene","selkath","serephina","setram","shamir","silas","solcadens","soleil","sorzus","sun-wukong","talin","talula","tazira","thallen","theowin","thunkles","titus","torodor","trusk","twinfiend","twyla","uredin","valderon","valeriya","valkyra","vargus","varro-draccus","velisse","venoma","vierna","vixera","vlad-draculea","vladov","volka","voltus","vorn","voroth","vortex","wrath","xaris","xasny","xena","ymiret","yuri","zelus","zilitu"];
+const heroDisplayRank = new Map(heroDisplayOrder.map((id, index) => [id, index]));
 let heroActivity = new Map();
 function heroActivityTime(id) {
   const activity = heroActivity.get(id);
@@ -46,6 +44,17 @@ const clearSearch = document.querySelector("#clearSearch");
 const heroGrid = document.querySelector("#heroGrid");
 const emptyState = document.querySelector("#emptyState");
 const visibleCount = document.querySelector("#visibleCount");
+const loadMoreHeroes = document.querySelector("#loadMoreHeroes");
+const HERO_PAGE_SIZE = 20;
+let visibleLimit = HERO_PAGE_SIZE;
+function updatePage(total) {
+  visibleCount.textContent = Math.min(visibleLimit, total);
+  if (loadMoreHeroes) {
+    loadMoreHeroes.hidden = visibleLimit >= total;
+    loadMoreHeroes.textContent = `더 보기 · ${Math.min(visibleLimit, total)}/${total}명`;
+  }
+}
+loadMoreHeroes?.addEventListener("click", () => { if (!heroes.length) return; visibleLimit += HERO_PAGE_SIZE; render(); });
 const totalCount = document.querySelector("#totalCount");
 const resultSummary = document.querySelector("#resultSummary");
 const rosterKicker = document.querySelector("#rosterKicker");
@@ -465,6 +474,7 @@ function updateSearchHeader(query, resultCount) {
 }
 
 function render() {
+  if (!heroes.length) return;
   const query = searchInput.value.trim();
   const isSearchMode = Boolean(query);
 
@@ -483,12 +493,12 @@ function render() {
 
     updateSearchHeader(query, filtered.length);
 
-    heroGrid.innerHTML = filtered
+    heroGrid.innerHTML = filtered.slice(0, visibleLimit)
       .map((hero) => card(hero, getPrimaryMembership(hero), true))
       .join("");
 
     emptyState.hidden = filtered.length !== 0;
-    visibleCount.textContent = filtered.length;
+    updatePage(filtered.length);
     return;
   }
 
@@ -504,12 +514,12 @@ function render() {
 
     updateAllHeroesHeader(filtered.length);
 
-    heroGrid.innerHTML = filtered
+    heroGrid.innerHTML = filtered.slice(0, visibleLimit)
       .map((hero) => card(hero, getPrimaryMembership(hero), true))
       .join("");
 
     emptyState.hidden = filtered.length !== 0;
-    visibleCount.textContent = filtered.length;
+    updatePage(filtered.length);
     return;
   }
 
@@ -531,12 +541,12 @@ function render() {
 
   updateFactionHeader(meta);
 
-  heroGrid.innerHTML = filtered
+  heroGrid.innerHTML = filtered.slice(0, visibleLimit)
     .map(({ hero, membership }) => card(hero, membership, false))
     .join("");
 
   emptyState.hidden = filtered.length !== 0;
-  visibleCount.textContent = filtered.length;
+  updatePage(filtered.length);
 
   if (active.rarity !== "all" || active.class !== "all" || active.content !== "all" || active.collection !== "all") {
     resultSummary.textContent = `필터 적용 · ${filtered.length}명 표시`;
@@ -587,14 +597,14 @@ function renderRecentUpdates(items) {
 
 // Keep the server-rendered cards visible until both sources are ready.
 // A partial render with heroes.json but no activity briefly restores the old order.
-const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.84", { cache: "no-store" })
+const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.85", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("recent updates load failed");
     return response.json();
   })
   .catch((error) => { console.warn(error); return null; });
 
-const heroesPromise = fetch("./heroes.json?v=2.14.84", { cache: "no-store" })
+const heroesPromise = fetch("./heroes.json?v=2.14.85", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
@@ -614,6 +624,7 @@ Promise.all([heroesPromise, recentUpdatesPromise])
   .catch((error) => {
     console.error(error);
     resultSummary.textContent = "영웅 데이터를 불러오지 못했습니다.";
+    if (loadMoreHeroes) loadMoreHeroes.hidden = true;
   });
 
 function syncSearchClearButton() {
@@ -633,6 +644,7 @@ searchInput.addEventListener("input", () => {
     setAllFilters();
   }
 
+  visibleLimit = HERO_PAGE_SIZE;
   render();
 });
 
@@ -642,6 +654,7 @@ function resetHeroView() {
   setAllFilters();
   closeFactionSelect();
   syncSearchClearButton();
+  visibleLimit = HERO_PAGE_SIZE;
   render();
 }
 clearSearch.addEventListener("click", () => { resetHeroView(); searchInput.focus(); });
@@ -656,6 +669,7 @@ document.querySelectorAll(".filter").forEach((button) => {
         candidate.classList.toggle("active", candidate === button)
       );
 
+    visibleLimit = HERO_PAGE_SIZE;
     render();
   });
 });
@@ -675,6 +689,7 @@ factionOptions.forEach((option) => {
     searchInput.value = "";
     setAllFilters();
     closeFactionSelect();
+    visibleLimit = HERO_PAGE_SIZE;
     render();
 
     // 선택 후 영웅 목록 시작부가 자연스럽게 이어지도록 너무 과한 스크롤은 하지 않는다.

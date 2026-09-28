@@ -43,7 +43,7 @@ const htmlMatch = worker.match(/const HOME_INDEX_HTML = ("[\s\S]*?");\nconst HER
 need(htmlMatch, 'Worker home HTML block missing');
 let html = JSON.parse(htmlMatch[1]);
 const startMarker = '<div id="heroGrid" class="hero-grid" aria-live="polite">';
-const endMarker = '\n</div>\n\n      <div id="emptyState"';
+const endMarker = html.includes('id="loadMoreHeroes"') ? '\n</div>\n      <button id="loadMoreHeroes"' : '\n</div>\n\n      <div id="emptyState"';
 const start = html.indexOf(startMarker), end = html.indexOf(endMarker, start);
 need(start >= 0 && end > start, 'home hero grid markers missing');
 const before = html.slice(0, start + startMarker.length), after = html.slice(end);
@@ -70,16 +70,26 @@ for (const hero of heroes) {
   card = card.replace(/<h3>[^<]*<\/h3>/, `<h3>${escapeHtml(hero.nameKr)}</h3>`).replace(/<p class="en">[^<]*<\/p>/, `<p class="en">${escapeHtml(hero.nameEn)}</p>`);
   cardMap.set(hero.id, card);
 }
-// Existing order remains; newly registered heroes appear first until activity sorting loads.
-const orderedIds = [...heroes.filter(h => !cardIds.includes(h.id)).map(h => h.id), ...cardIds];
-html = before + '\n' + orderedIds.map(id => cardMap.get(id)).join('\n') + after;
+// The full rank is stored in app.js; the server sends only the first page.
+const rankMatch = files['app.js'].match(/const heroDisplayOrder = (\[[^;]*\]);/);
+need(rankMatch, 'full hero order missing');
+const savedOrder = JSON.parse(rankMatch[1]);
+need(new Set(savedOrder).size === savedOrder.length && savedOrder.every(id => ids.has(id)), 'invalid hero order');
+const orderedIds = [...heroes.filter(h => !savedOrder.includes(h.id)).map(h => h.id), ...savedOrder];
+html = before + '\n' + orderedIds.slice(0, 20).map(id => cardMap.get(id)).join('\n') + after;
+if (!html.includes('id="loadMoreHeroes"')) {
+  html = html.replace(endMarker, `\n</div>\n      <button id="loadMoreHeroes" class="load-more-heroes" type="button">더 보기 · 20/${heroes.length}명</button>\n\n      <div id="emptyState"`);
+}
+if (!html.includes('.load-more-heroes{')) {
+  html = html.replace('</style>', '.load-more-heroes{display:block;margin:28px auto 12px;padding:13px 28px;border:1px solid #b8a46c;border-radius:10px;background:#1d1a2d;color:#f5ebce;font:inherit;font-weight:700;cursor:pointer}\n.load-more-heroes:hover{background:#302845}\n.load-more-heroes[hidden]{display:none}\n</style>');
+}
 html = html.replace(/<meta name="worwiki-patch-version" content="[^"]+">/, `<meta name="worwiki-patch-version" content="${version}">`);
 worker = worker.replace(htmlMatch[0], `const HOME_INDEX_HTML = ${JSON.stringify(html)};\nconst HEROES =`);
 need(JSON.parse(worker.match(/const HOME_INDEX_HTML = ("[\s\S]*?");\nconst HEROES =/)[1]) === html, 'home serialization mismatch');
 const counts = {all: heroes.length};
 for (const hero of heroes) for (const m of hero.memberships) counts[m.faction] = (counts[m.faction] || 0) + 1;
 function syncCounts(input) {
-  let result = input.replace(/(<strong id="visibleCount">)\d+(<\/strong>)/, `$1${heroes.length}$2`).replace(/(<span id="totalCount">)\d+(<\/span>)/, `$1${heroes.length}$2`);
+  let result = input.replace(/(<strong id="visibleCount">)\d+(<\/strong>)/, `$1${Math.min(20, heroes.length)}$2`).replace(/(<span id="totalCount">)\d+(<\/span>)/, `$1${heroes.length}$2`);
   result = result.replace(/(<p id="resultSummary">)[\s\S]*?(<\/p>)/, `$1고유 영웅 ${heroes.length}명 등록 완료$2`);
   result = result.replace(/(고유 영웅 )\d+(명 등록 완료)/g, `$1${heroes.length}$2`);
   for (const [id, count] of Object.entries(counts)) {
@@ -92,7 +102,7 @@ function syncCounts(input) {
 html = syncCounts(html).replace(/\/app\.js\?v=[^"\s]+/g, `/app.js?v=${version}`);
 need(html.includes(`/app.js?v=${version}`), "home app.js cache version not found");
 worker = worker.replace(/const HOME_INDEX_HTML = ("[\s\S]*?");\nconst HEROES =/, `const HOME_INDEX_HTML = ${JSON.stringify(html)};\nconst HEROES =`);
-let app = files['app.js'].replace(/(fetch\("(?:\.\/heroes\.json|\/api\/recent-updates)\?v=)[^" ]+/g, `$1${version}`);
+let app = files['app.js'].replace(/const heroDisplayOrder = \[[^;]*\];/, `const heroDisplayOrder = ${JSON.stringify(orderedIds)};`).replace(/(fetch\("(?:\.\/heroes\.json|\/api\/recent-updates)\?v=)[^" ]+/g, `$1${version}`);
 need(app.includes(`heroes.json?v=${version}`) && app.includes(`recent-updates?v=${version}`), 'app fetch versions not updated');
 const oldEntries = [...files['sitemap.xml'].matchAll(/<url>\s*<loc>([^<]+)<\/loc>\s*<lastmod>([^<]+)<\/lastmod>\s*<\/url>/g)];
 const oldDates = new Map(oldEntries.map(x => [x[1], x[2]]));
