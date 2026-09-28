@@ -8796,7 +8796,7 @@
         "factionEn": "Watch Guard",
         "lord": false,
         "sortOrder": 36,
-        "portrait": "./watch-guard-hq-36-idril.webp"
+        "portrait": "./idril-dual-faction-v21481.webp"
       },
       {
         "faction": "star-piercers",
@@ -8804,7 +8804,7 @@
         "factionEn": "Star Piercers",
         "lord": false,
         "sortOrder": 35,
-        "portrait": "./star-piercers-hq-35-idril.webp"
+        "portrait": "./idril-dual-faction-v21481.webp"
       }
     ],
     "details": {
