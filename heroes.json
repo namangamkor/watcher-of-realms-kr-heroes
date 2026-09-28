@@ -15461,6 +15461,15 @@
       "매우 먼 사거리",
       "강력 제어",
       "분노 회복"
+    ],
+    "wikiUpdates": [
+      {
+        "id": "hero-rosalia-image-20260927",
+        "kind": "image-update",
+        "kindLabel": "이미지업데이트",
+        "message": "영웅 이미지 교체",
+        "timestamp": 1790460303
+      }
     ]
   },
   {
@@ -20129,6 +20138,15 @@
     "traits": [
       "강력 제어",
       "생존"
+    ],
+    "wikiUpdates": [
+      {
+        "id": "hero-oakenvar-new-20260927",
+        "kind": "new-hero",
+        "kindLabel": "신규영웅등록",
+        "message": "신규 전설 수호자 등록",
+        "timestamp": 1790460302
+      }
     ]
   },
   {
@@ -20197,6 +20215,15 @@
     },
     "traits": [
       "광역 물리 공격"
+    ],
+    "wikiUpdates": [
+      {
+        "id": "hero-beirasia-new-20260927",
+        "kind": "new-hero",
+        "kindLabel": "신규영웅등록",
+        "message": "신규 에픽 영주 등록",
+        "timestamp": 1790460301
+      }
     ]
   }
 ]

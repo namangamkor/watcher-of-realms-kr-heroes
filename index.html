@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ko">
 <head>
-  <meta name="worwiki-patch-version" content="2.14.24">
+  <meta name="worwiki-patch-version" content="2.14.75">
   <meta charset="UTF-8" />
   <!-- gear-route-rescue -->
   <script>
@@ -114,7 +114,31 @@
 .searchbox #clearSearch{display:inline-flex!important;align-items:center;justify-content:center;min-height:40px;flex-shrink:0}
 @media(max-width:1050px){.creator-banner.creator-banner-scribe{grid-template-columns:54px minmax(0,1fr)!important}.creator-banner .creator-cta-stack{grid-column:1/-1!important}.creator-banner .ww-quick-link{font-size:15px}}
 @media(max-width:540px){.creator-banner.creator-banner-scribe{padding:15px!important;gap:12px!important}.creator-banner .ww-quick-link{padding:10px 8px;gap:7px;font-size:14px;min-height:54px}.searchbox{flex-wrap:wrap}.searchbox .search-entry{min-width:0;flex:1 1 180px}}
-</style></head>
+</style>
+<style id="ww-summon-floating-style">
+.ww-summon-float{position:fixed;z-index:60;right:18px;top:54%;transform:translateY(-50%);display:flex;align-items:center;gap:10px;min-height:58px;padding:9px 13px 9px 10px;border:1px solid rgba(210,171,91,.48);border-radius:16px;background:linear-gradient(180deg,rgba(17,23,31,.96),rgba(8,12,18,.97));box-shadow:0 14px 34px rgba(0,0,0,.32);color:#eef3f7;text-decoration:none;backdrop-filter:blur(8px);transition:transform .16s ease,border-color .16s ease,background .16s ease}
+.ww-summon-float:hover{transform:translateY(-50%) translateX(-2px);border-color:#d6ae5e;background:#151d27}
+.ww-summon-float:focus-visible{outline:2px solid #e4ba63;outline-offset:3px}
+.ww-summon-float-crystal{display:block;flex:0 0 34px;width:34px;height:44px;background:url("/summon-crystal-3d.webp?v=2.14.37") center/contain no-repeat;filter:drop-shadow(0 7px 8px rgba(0,0,0,.38));transform-style:preserve-3d;animation:wwFloatCrystalTurn 5.4s ease-in-out infinite}
+.ww-summon-float-copy{display:block;line-height:1.18;white-space:nowrap}.ww-summon-float-copy small{display:block;margin-bottom:3px;color:#ae8d4f;font-size:9px;font-weight:900;letter-spacing:.12em}.ww-summon-float-copy strong{font-size:13px;letter-spacing:-.01em}
+@keyframes wwFloatCrystalTurn{0%,100%{transform:translateY(0) rotateZ(-1.5deg)}50%{transform:translateY(-3px) rotateZ(1.5deg)}}
+@media(max-width:900px){.ww-summon-float{top:auto;right:12px;bottom:calc(14px + env(safe-area-inset-bottom));transform:none;min-height:50px;padding:7px 11px 7px 8px;border-radius:14px}.ww-summon-float:hover{transform:translateY(-1px)}.ww-summon-float-crystal{width:29px;height:38px;flex-basis:29px}.ww-summon-float-copy small{display:none}.ww-summon-float-copy strong{font-size:12px}}
+@media(prefers-reduced-motion:reduce){.ww-summon-float-crystal{animation:none}}
+</style>
+
+
+<style id="ww-updated-hero-priority-v21453">
+#heroGrid > .hero-card-link[data-ww-updated-priority]{order:var(--ww-update-order,-1)}
+</style>
+
+<style id="ww-hero-thumbnail-width-v21459">
+#heroGrid .card-visual > img{width:151px!important;min-width:151px!important;max-width:151px!important;height:auto!important;max-height:none!important}
+</style>
+
+<style id="ww-wiki-search-note-style">
+.wiki-search-note{margin:8px 0 20px;color:#aeb8c3;font-size:14px;line-height:1.65;word-break:keep-all}
+</style>
+</head>
 <body>
   <header class="topbar">
     <div class="wrap topbar-inner">
@@ -147,9 +171,9 @@
         <div class="recent-fix-copy">
           <span class="recent-fix-label"><span class="recent-fix-dot" aria-hidden="true"></span>최근 업데이트</span>
           <div id="recentUpdateList" class="recent-fix-list" aria-live="polite">
-            <a class="recent-fix-item" href="/"><span class="recent-fix-kind">업데이트</span><strong>전체 영웅</strong><span class="recent-fix-message-text">추천 장비 업데이트 완료</span><time class="recent-fix-date" datetime="2026-09-18">09.18</time></a>
-            <a class="recent-fix-item" href="/hero/kassandra/"><span class="recent-fix-kind">정보</span><strong>카산드라</strong><span class="recent-fix-message-text">수집가치 5.0으로 상향</span><time class="recent-fix-date" datetime="2026-09-15">09.15</time></a>
-            <a class="recent-fix-item" href="/hero/bayek/"><span class="recent-fix-kind">정보</span><strong>바예크</strong><span class="recent-fix-message-text">수집가치 4.0으로 상향</span><time class="recent-fix-date" datetime="2026-09-15">09.15</time></a>
+            <a class="recent-fix-item" href="/hero/rosalia/" data-ww-updated-priority="1790460303" style="--ww-update-order:-1000"><span class="recent-fix-kind">이미지업데이트</span><strong>로살리아</strong><span class="recent-fix-message-text">영웅 이미지 교체</span><time class="recent-fix-date" datetime="2026-09-27">09.27</time></a>
+            <a class="recent-fix-item" href="/hero/oakenvar/" data-ww-updated-priority="1790460302" style="--ww-update-order:-999"><span class="recent-fix-kind">신규영웅등록</span><strong>오켄바르</strong><span class="recent-fix-message-text">신규 전설 수호자 등록</span><time class="recent-fix-date" datetime="2026-09-27">09.27</time></a>
+            <a class="recent-fix-item" href="/hero/beirasia/" data-ww-updated-priority="1790460301" style="--ww-update-order:-998"><span class="recent-fix-kind">신규영웅등록</span><strong>베이라시아</strong><span class="recent-fix-message-text">신규 에픽 영주 등록</span><time class="recent-fix-date" datetime="2026-09-27">09.27</time></a>
           </div>
         </div>
         <a class="recent-fix-report" href="https://forms.gle/PQcn3dTva7Pc7bY68" target="_blank" rel="noopener noreferrer">오류 제보 <span aria-hidden="true">↗</span></a>
@@ -159,6 +183,7 @@
 
       <h1>한국 이름과 해외 이름,<br><span>이제 헷갈리지 않게.</span></h1>
       <p class="lead">한국 서버 영웅명과 글로벌 영문명을 검색하고 진영·희귀도·직업·콘텐츠·수집가치별로 빠르게 찾아보세요.</p>
+      <p class="wiki-search-note">워처 오브 렐름 나무위키를 검색해 오셨나요? 이곳은 나만겜이 직접 운영하는 독립 팬 위키로, 한국·영문 영웅명과 진영별 영웅 정보를 찾아볼 수 있습니다.</p>
 
       <aside class="creator-banner creator-banner-scribe" aria-label="나만겜 소개 및 가이드 바로가기">
 <div class="creator-scribe-wrap" aria-hidden="true">
@@ -226,14 +251,14 @@
             data-faction="all" data-emblem="◎">
             <span class="faction-option-emblem">◎</span>
             <span class="faction-option-copy"><strong>전체 영웅</strong><small>All Heroes</small></span>
-            <span id="allHeroesOptionCount" class="faction-option-count">256명</span><span class="faction-option-check">✓</span>
+            <span id="allHeroesOptionCount" class="faction-option-count">258명</span><span class="faction-option-check">✓</span>
           </button>
 
           <button class="faction-option" type="button" role="option" aria-selected="false"
             data-faction="watch-guard" data-emblem="✦">
             <span class="faction-option-emblem">✦</span>
             <span class="faction-option-copy"><strong>파수꾼 소대</strong><small>Watch Guard</small></span>
-            <span class="faction-option-count">40명</span><span class="faction-option-check">✓</span>
+            <span class="faction-option-count">41명</span><span class="faction-option-check">✓</span>
           </button>
 
           <button class="faction-option" type="button" role="option" aria-selected="false"
@@ -247,7 +272,7 @@
             data-faction="nightmare-council" data-emblem="◈">
             <span class="faction-option-emblem">◈</span>
             <span class="faction-option-copy"><strong>악몽 의회</strong><small>Nightmare Council</small></span>
-            <span class="faction-option-count">39명</span><span class="faction-option-check">✓</span>
+            <span class="faction-option-count">40명</span><span class="faction-option-check">✓</span>
           </button>
 
           <button class="faction-option" type="button" role="option" aria-selected="false"
@@ -303,7 +328,7 @@
         <div class="faction-explorer-meta">
           <p class="faction-select-hint">전체 영웅 또는 진영을 선택한 뒤 아래 필터로 원하는 영웅을 빠르게 찾아보세요.</p>
           <div class="count-badge count-badge-compact" aria-label="현재 표시 영웅 수">
-            <span class="count-badge-label">표시</span><strong id="visibleCount">256</strong><span>/ <span id="totalCount">256</span></span>
+            <span class="count-badge-label">표시</span><strong id="visibleCount">258</strong><span>/ <span id="totalCount">258</span></span>
           </div>
         </div>
       </div>
@@ -365,6 +390,58 @@
       </div>
 
       <div id="heroGrid" class="hero-grid" aria-live="polite">
+<a class="hero-card-link" href="/hero/rosalia/" data-ww-updated-priority="1790460303" style="--ww-update-order:-1000" aria-label="로살리아 (Rosalia) 상세 보기">
+  <article class="hero-card">
+    <div class="card-visual">
+      <img src="./cursed-cult-hq-30-rosalia-v21469.webp" alt="로살리아 (Rosalia) 영웅 카드" loading="lazy">
+      <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span><span class="collection-value-mini-label">수집</span><strong>4.0</strong></div>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        
+        <span class="tag legendary">전설</span>
+        
+      </div>
+      <h3>로살리아</h3>
+      <p class="en">Rosalia</p>
+      <p class="meta">전사 · 저주신교</p>
+      <div class="content-tags"><span class="content-tag arena-aoe" title="Arena AoE 추천 영웅">아레나광역</span></div>
+    </div>
+  </article>
+</a>
+<a class="hero-card-link" href="/hero/oakenvar/" data-ww-updated-priority="1790460302" style="--ww-update-order:-999" aria-label="오켄바르 (Oakenvar) 상세 보기">
+  <article class="hero-card">
+    <div class="card-visual">
+      <img src="./watch-guard-hq-41-oakenvar-v21470.webp" alt="오켄바르 (Oakenvar) 영웅 카드" loading="lazy">
+      <div class="collection-value-badge cv-30" title="수집가치 3.0 / 5.0 · 보통" aria-label="수집가치 3.0 / 5.0 · 보통"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 7 4v10l-7 4-7-4V7l7-4Z"/><circle cx="12" cy="12" r="2.2"/></svg></span><span class="collection-value-mini-label">수집</span><strong>3.0</strong></div>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="tag legendary">전설</span>
+      </div>
+      <h3>오켄바르</h3>
+      <p class="en">Oakenvar</p>
+      <p class="meta">수호자 · 파수꾼 소대</p>
+    </div>
+  </article>
+</a>
+<a class="hero-card-link" href="/hero/beirasia/" data-ww-updated-priority="1790460301" style="--ww-update-order:-998" aria-label="베이라시아 (Beirasia) 상세 보기">
+  <article class="hero-card">
+    <div class="card-visual">
+      <img src="./nightmare-council-hq-40-beirasia-v21468.webp" alt="베이라시아 (Beirasia) 영웅 카드" loading="lazy">
+      <div class="collection-value-badge cv-30" title="수집가치 3.0 / 5.0 · 보통" aria-label="수집가치 3.0 / 5.0 · 보통"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 7 4v10l-7 4-7-4V7l7-4Z"/><circle cx="12" cy="12" r="2.2"/></svg></span><span class="collection-value-mini-label">수집</span><strong>3.0</strong></div>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        <span class="tag lord">영주</span>
+        <span class="tag epic">에픽</span>
+      </div>
+      <h3>베이라시아</h3>
+      <p class="en">Beirasia</p>
+      <p class="meta">전사 · 악몽 의회</p>
+    </div>
+  </article>
+</a>
 <a class="hero-card-link" href="/hero/ezio-della-notte/" aria-label="어둠의 에지오 (Ezio della Notte) 상세 보기">
   <article class="hero-card">
     <div class="card-visual">
@@ -707,10 +784,10 @@
     </div>
   </article>
 </a>
-<a class="hero-card-link" href="/hero/gul-drak/" aria-label="굴드락 (Gul&#x27;Drak) 상세 보기">
+<a class="hero-card-link" href="/hero/gul-drak/" aria-label="굴드락 (Gul&#39;Drak) 상세 보기">
   <article class="hero-card">
     <div class="card-visual">
-      <img src="./infernal-blast-hq-16-gul-drak.webp" alt="굴드락 (Gul&#x27;Drak) 영웅 카드" loading="lazy">
+      <img src="./infernal-blast-hq-16-gul-drak.webp" alt="굴드락 (Gul&#39;Drak) 영웅 카드" loading="lazy">
       <div class="collection-value-badge cv-30" title="수집가치 3.0 / 5.0 · 보통" aria-label="수집가치 3.0 / 5.0 · 보통"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 7 4v10l-7 4-7-4V7l7-4Z"/><circle cx="12" cy="12" r="2.2"/></svg></span><span class="collection-value-mini-label">수집</span><strong>3.0</strong></div>
     </div>
     <div class="card-body">
@@ -720,7 +797,7 @@
         <span class="tag dual" title="연옥 · 혼돈 정복자">이중 진영</span>
       </div>
       <h3>굴드락</h3>
-      <p class="en">Gul&#x27;Drak</p>
+      <p class="en">Gul&#39;Drak</p>
       <p class="meta">전사 · 연옥 · 혼돈 정복자</p>
       
     </div>
@@ -818,25 +895,6 @@
       <p class="en">Sergei</p>
       <p class="meta">전사 · 악몽 의회 · 혼돈 정복자</p>
       <div class="content-tags"><span class="content-tag arena-single" title="Arena Single Target 추천 영웅">아레나단일</span></div>
-    </div>
-  </article>
-</a>
-<a class="hero-card-link" href="/hero/rosalia/" aria-label="로살리아 (Rosalia) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./cursed-cult-hq-30-rosalia.webp" alt="로살리아 (Rosalia) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span><span class="collection-value-mini-label">수집</span><strong>4.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
-        
-        <span class="tag legendary">전설</span>
-        
-      </div>
-      <h3>로살리아</h3>
-      <p class="en">Rosalia</p>
-      <p class="meta">전사 · 저주신교</p>
-      <div class="content-tags"><span class="content-tag arena-aoe" title="Arena AoE 추천 영웅">아레나광역</span></div>
     </div>
   </article>
 </a>
@@ -1128,7 +1186,7 @@
 <a class="hero-card-link" href="/hero/valara/" aria-label="발레리아 (Valara) 상세 보기">
   <article class="hero-card">
     <div class="card-visual">
-      <img src="./esoteria-hq-16-valara.webp" alt="발레리아 (Valara) 영웅 카드" loading="lazy">
+      <img src="./valara-dual-faction-v21472.webp" alt="발레리아 (Valara) 영웅 카드" loading="lazy">
       <div class="collection-value-badge cv-50" title="수집가치 5.0 / 5.0 · 최우선급" aria-label="수집가치 5.0 / 5.0 · 최우선급"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5 7.4 11 12 5l4.6 6L20 7.5l-1.7 10.2H5.7L4 7.5Z"/><path d="M7 20h10"/></svg></span><span class="collection-value-mini-label">수집</span><strong>5.0</strong></div>
     </div>
     <div class="card-body">
@@ -1258,10 +1316,10 @@
     </div>
   </article>
 </a>
-<a class="hero-card-link" href="/hero/abyss/" aria-label="아비스 (Abyss) 상세 보기">
+<a class="hero-card-link" href="/hero/abyss/" aria-label="아비스 (Abyzou) 상세 보기">
   <article class="hero-card">
     <div class="card-visual">
-      <img src="./cursed-cult-hq-05-abyss.webp" alt="아비스 (Abyss) 영웅 카드" loading="lazy">
+      <img src="./cursed-cult-hq-05-abyss.webp" alt="아비스 (Abyzou) 영웅 카드" loading="lazy">
       <div class="collection-value-badge cv-30" title="수집가치 3.0 / 5.0 · 보통" aria-label="수집가치 3.0 / 5.0 · 보통"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 7 4v10l-7 4-7-4V7l7-4Z"/><circle cx="12" cy="12" r="2.2"/></svg></span><span class="collection-value-mini-label">수집</span><strong>3.0</strong></div>
     </div>
     <div class="card-body">
@@ -1271,7 +1329,7 @@
         
       </div>
       <h3>아비스</h3>
-      <p class="en">Abyss</p>
+      <p class="en">Abyzou</p>
       <p class="meta">마법사 · 저주신교</p>
       
     </div>
@@ -2270,7 +2328,7 @@
 <a class="hero-card-link" href="/hero/decimus/" aria-label="데시무스 (Decimus) 상세 보기">
   <article class="hero-card">
     <div class="card-visual">
-      <img src="./unaffiliated-01-decimus.webp" alt="데시무스 (Decimus) 영웅 카드" loading="lazy">
+      <img src="./unaffiliated-01-decimus-v21467.png" alt="데시무스 (Decimus) 영웅 카드" loading="lazy">
       <div class="collection-value-badge cv-30" title="수집가치 3.0 / 5.0 · 보통" aria-label="수집가치 3.0 / 5.0 · 보통"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 7 4v10l-7 4-7-4V7l7-4Z"/><circle cx="12" cy="12" r="2.2"/></svg></span><span class="collection-value-mini-label">수집</span><strong>3.0</strong></div>
     </div>
     <div class="card-body">
@@ -5242,7 +5300,7 @@
       </div>
 
       <div id="dataNote" class="data-note">
-        고유 영웅 256명 등록 완료 · 한국명과 영문명을 함께 검색할 수 있습니다.
+        고유 영웅 258명 등록 완료 · 한국명과 영문명을 함께 검색할 수 있습니다.
       </div>
       <div id="artifactProgressNote" class="data-note artifact-progress-note">
         추천 아티팩트 등록 영웅 102명 · 한·영 이름 완전 매칭 85명 · 한국명만 확인 9명 · 영문명만 확인 8명
@@ -5295,6 +5353,12 @@
     </div>
   </div>
 
-  <script src="/app.js?v=2.14.19"></script>
+  <script src="/app.js?v=2.14.75"></script>
+
+<a class="ww-summon-float" href="/summon/" aria-label="오늘의 소환 운명 시험 열기">
+  <span class="ww-summon-float-crystal" aria-hidden="true"></span>
+  <span class="ww-summon-float-copy"><small>SUMMON MINI GAME</small><strong>소환 운명 시험</strong></span>
+</a>
+
 </body>
 </html>

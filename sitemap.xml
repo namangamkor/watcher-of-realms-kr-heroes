@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://worwiki.kr/</loc>
@@ -139,6 +139,10 @@
   <url>
     <loc>https://worwiki.kr/hero/beelzebub/</loc>
     <lastmod>2026-09-17</lastmod>
+  </url>
+  <url>
+    <loc>https://worwiki.kr/hero/beirasia/</loc>
+    <lastmod>2026-09-28</lastmod>
   </url>
   <url>
     <loc>https://worwiki.kr/hero/boreas/</loc>
@@ -727,6 +731,10 @@
   <url>
     <loc>https://worwiki.kr/hero/nyx/</loc>
     <lastmod>2026-09-17</lastmod>
+  </url>
+  <url>
+    <loc>https://worwiki.kr/hero/oakenvar/</loc>
+    <lastmod>2026-09-28</lastmod>
   </url>
   <url>
     <loc>https://worwiki.kr/hero/olague/</loc>
