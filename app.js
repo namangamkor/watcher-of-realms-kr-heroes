@@ -151,6 +151,14 @@ function updateArtifactProgressNote() {
     `추천 아티팩트 등록 영웅 ${stats.total}명 · 한·영 이름 완전 매칭 ${stats.complete}명 · 한국명만 확인 ${stats.krOnly}명 · 영문명만 확인 ${stats.enOnly}명`;
 }
 
+function matchesRarity(hero, membership = null) {
+  if (active.rarity === "all") return true;
+  if (active.rarity === "lord") {
+    return membership ? Boolean(membership.lord) : (hero.memberships || []).some((item) => item.lord);
+  }
+  return hero.rarity === active.rarity;
+}
+
 function matchesContent(hero) {
   return (
     active.content === "all" ||
@@ -484,7 +492,7 @@ function render() {
     const filtered = heroes
       .filter((hero) =>
         matchesSearch(hero, query) &&
-        (active.rarity === "all" || hero.rarity === active.rarity) &&
+        matchesRarity(hero) &&
         (active.class === "all" || hero.class === active.class) &&
         matchesContent(hero) &&
         matchesCollectionValue(hero)
@@ -505,7 +513,7 @@ function render() {
   if (currentFaction === "all") {
     const filtered = heroes
       .filter((hero) =>
-        (active.rarity === "all" || hero.rarity === active.rarity) &&
+        matchesRarity(hero) &&
         (active.class === "all" || hero.class === active.class) &&
         matchesContent(hero) &&
         matchesCollectionValue(hero)
@@ -532,7 +540,7 @@ function render() {
     }))
     .filter(({ hero, membership }) =>
       Boolean(membership) &&
-      (active.rarity === "all" || hero.rarity === active.rarity) &&
+      matchesRarity(hero, membership) &&
       (active.class === "all" || hero.class === active.class) &&
       matchesContent(hero) &&
       matchesCollectionValue(hero)
@@ -597,14 +605,14 @@ function renderRecentUpdates(items) {
 
 // Keep the server-rendered cards visible until both sources are ready.
 // A partial render with heroes.json but no activity briefly restores the old order.
-const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.87", { cache: "no-store" })
+const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.88", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("recent updates load failed");
     return response.json();
   })
   .catch((error) => { console.warn(error); return null; });
 
-const heroesPromise = fetch("./heroes.json?v=2.14.87", { cache: "no-store" })
+const heroesPromise = fetch("./heroes.json?v=2.14.88", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
@@ -685,9 +693,15 @@ factionOptions.forEach((option) => {
   option.addEventListener("click", () => {
     currentFaction = option.dataset.faction;
 
-    // 진영 선택 시 검색/필터를 초기화하고 선택한 진영의 도감으로 전환한다.
+    // 영주 필터는 진영을 옮겨도 유지하고, 그 외 조건은 기존 동작대로 초기화한다.
+    const keepLord = active.rarity === "lord" && !searchInput.value.trim();
     searchInput.value = "";
     setAllFilters();
+    if (keepLord) {
+      active.rarity = "lord";
+      document.querySelector('.filter[data-filter-type="rarity"][data-value="all"]')?.classList.remove("active");
+      document.querySelector('.filter[data-filter-type="rarity"][data-value="lord"]')?.classList.add("active");
+    }
     closeFactionSelect();
     visibleLimit = HERO_PAGE_SIZE;
     render();
