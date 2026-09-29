@@ -61,7 +61,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격 비중과 생존형 전사 구조를 고려하면 마수의 포효가 가장 안정적인 엔드게임 조합입니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격 비중과 생존형 전사 구조를 고려하면 마수의 포효가 가장 안정적인 엔드게임 조합입니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -126,7 +126,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 아비스의 공식 영문명은 Abyzou로 교정했습니다. 최종 딜 세팅은 악의 복수와 재앙 드래곤 조합입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 아비스의 공식 영문명은 Abyzou로 교정했습니다. 최종 딜 세팅은 악의 복수와 재앙 드래곤 조합입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -199,7 +199,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. Prospector End Game과 Fastidious End Game 추천이 영혼의 비밀을 1순위로 공통 제시합니다. 재앙 드래곤은 동급 품질의 최종 단계 대안으로 사용할 수 있습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. Prospector End Game과 Fastidious End Game 추천이 영혼의 비밀을 1순위로 공통 제시합니다. 재앙 드래곤은 동급 품질의 최종 단계 대안으로 사용할 수 있습니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-18 악몽 의회 추천 장비 전수 재검수: Prospector.gg End Game + Fastidious.gg End Game/Stage 3 교차검증"
       }
     },
@@ -277,7 +277,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 재앙 드래곤 (Cataclysm) 세트. HP 기반 피해 영웅이라 성흔의 수호로 체력을 확보하고 재앙 드래곤 중첩으로 최종 피해를 끌어올립니다. 권장 옵션: HP%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 재앙 드래곤 (Cataclysm) 세트. HP 기반 피해 영웅이라 성흔의 수호로 체력을 확보하고 재앙 드래곤 중첩으로 최종 피해를 끌어올립니다. 권장 옵션: HP 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -351,7 +351,7 @@
       "gear": {
         "name": "전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. Prospector End Game과 Fastidious Stage 3(After GR-21)가 동일하게 이 조합을 제시합니다. 이안은 직접 딜보다 취약 효과·군중 제어·궁극기 회전과 파티 지원 가치가 중요해 공격 속도와 분노 순환을 우선합니다. 권장 옵션: 공격 속도, 분노 회복, HP%, 공격력%.",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. Prospector End Game과 Fastidious Stage 3(After GR-21)가 동일하게 이 조합을 제시합니다. 이안은 직접 딜보다 취약 효과·군중 제어·궁극기 회전과 파티 지원 가치가 중요해 공격 속도와 분노 순환을 우선합니다. 권장 옵션: 공격 속도, 분노 회복, HP 보너스, 공격력 보너스.",
         "source": "2026-09-18 저주신교 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg Stage 3 교차검증"
       }
     },
@@ -432,7 +432,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
       }
     },
@@ -513,7 +513,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 치명타 기반의 최종 피해 세팅으로 정리했습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 치명타 기반의 최종 피해 세팅으로 정리했습니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -590,7 +590,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 파수꾼 소대 재전수검수에서 엔드게임 1순위 조합으로 교정했습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 파수꾼 소대 재전수검수에서 엔드게임 1순위 조합으로 교정했습니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
       }
     },
@@ -677,7 +677,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 넓은 범위의 광역 마법 공격과 일반 공격 치명타를 활용해 재앙 드래곤 중첩을 안정적으로 쌓을 수 있는 엔드게임 세팅입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 넓은 범위의 광역 마법 공격과 일반 공격 치명타를 활용해 재앙 드래곤 중첩을 안정적으로 쌓을 수 있는 엔드게임 세팅입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 알 수 없는 자(Unnamable) 엔드게임 전수검수: Fastidious.gg + Prospector.gg End Game 교차검증"
       }
     },
@@ -770,7 +770,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 고품질 재앙 드래곤의 중첩을 안정적으로 유지하는 엔드게임 세팅입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 고품질 재앙 드래곤의 중첩을 안정적으로 유지하는 엔드게임 세팅입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -865,7 +865,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
       }
     },
@@ -946,7 +946,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
       }
     },
@@ -1019,7 +1019,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 화상 유지형 마법 딜러지만 최종 장비 기준으로는 재앙 드래곤 중첩을 활용한 치명타 세팅이 가장 안정적입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 화상 유지형 마법 딜러지만 최종 장비 기준으로는 재앙 드래곤 중첩을 활용한 치명타 세팅이 가장 안정적입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -1107,7 +1107,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 최종 단계에서는 치명타 기반 재앙 드래곤 중첩을 활용하는 세팅이 가장 안정적입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 최종 단계에서는 치명타 기반 재앙 드래곤 중첩을 활용하는 세팅이 가장 안정적입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -1181,7 +1181,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 장거리 단일 물리 전사로 치명타 기반 누적 화력을 안정적으로 끌어올리는 최종 딜 세팅입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 장거리 단일 물리 전사로 치명타 기반 누적 화력을 안정적으로 끌어올리는 최종 딜 세팅입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -1260,7 +1260,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 관성의 화살 영주이면서 직접 단일 딜 비중도 높아 재앙 드래곤 중첩을 활용하는 치명타 세팅을 최종 추천으로 둡니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 관성의 화살 영주이면서 직접 단일 딜 비중도 높아 재앙 드래곤 중첩을 활용하는 치명타 세팅을 최종 추천으로 둡니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -1343,7 +1343,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 현재 엔드게임 빌드에서 악의 복수와 재앙 드래곤 조합이 일관되게 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 현재 엔드게임 빌드에서 악의 복수와 재앙 드래곤 조합이 일관되게 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -1416,7 +1416,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 최종 단계 수호자 빌드에서 HP·방어 생존을 극대화하는 조합이 직접 확인됩니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 최종 단계 수호자 빌드에서 HP·방어 생존을 극대화하는 조합이 직접 확인됩니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -1491,7 +1491,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격과 연속 타격 비중이 높아 마수의 포효가 엔드게임 핵심 세트입니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격과 연속 타격 비중이 높아 마수의 포효가 엔드게임 핵심 세트입니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -1569,7 +1569,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. Prospector End Game과 Fastidious End Game의 1순위 액세서리 추천이 영혼의 비밀로 일치합니다. 재앙 드래곤은 장비 품질이 동급일 때 강한 대안입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해, 분노 회복.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. Prospector End Game과 Fastidious End Game의 1순위 액세서리 추천이 영혼의 비밀로 일치합니다. 재앙 드래곤은 장비 품질이 동급일 때 강한 대안입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해, 분노 회복.",
         "source": "2026-09-18 악몽 의회 추천 장비 전수 재검수: Prospector.gg End Game + Fastidious.gg End Game/Stage 3 교차검증"
       }
     },
@@ -1642,7 +1642,7 @@
       "gear": {
         "name": "빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 힐러 역할을 기준으로 치유·분노 회복과 성스러운 날개의 파티 공격 지원을 함께 가져갑니다. 순수 딜 세팅은 상황별 대안입니다. 권장 옵션: 공격 속도, 공격력%, 치유 효과, 분노 회복.",
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 힐러 역할을 기준으로 치유·분노 회복과 성스러운 날개의 파티 공격 지원을 함께 가져갑니다. 순수 딜 세팅은 상황별 대안입니다. 권장 옵션: 공격 속도, 공격력 보너스, 치유 효과, 분노 회복.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -1723,7 +1723,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 재앙 드래곤 중첩을 안정적으로 유지하는 엔드게임 딜 세팅입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 재앙 드래곤 중첩을 안정적으로 유지하는 엔드게임 딜 세팅입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -1805,7 +1805,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 자해형 전사라 생존보다 기본 공격과 폭딜 효율을 우선하며 마수의 포효가 엔드게임 핵심입니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 자해형 전사라 생존보다 기본 공격과 폭딜 효율을 우선하며 마수의 포효가 엔드게임 핵심입니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -1883,7 +1883,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 현재 Fastidious 최종 단계 기준으로 악의 복수 + 재앙 드래곤 조합이 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 현재 Fastidious 최종 단계 기준으로 악의 복수 + 재앙 드래곤 조합이 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -1950,7 +1950,7 @@
       "gear": {
         "name": "전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 오드무는 직접 딜보다 치명타율·치명타 피해 버프의 빠른 재사용이 핵심이므로 공격 속도와 분노 회복을 우선하고 성스러운 날개로 파티 지원을 더합니다. 권장 옵션: 공격 속도, 분노 회복, HP%, 공격력%.",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 오드무는 직접 딜보다 치명타율·치명타 피해 버프의 빠른 재사용이 핵심이므로 공격 속도와 분노 회복을 우선하고 성스러운 날개로 파티 지원을 더합니다. 권장 옵션: 공격 속도, 분노 회복, HP 보너스, 공격력 보너스.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -2024,7 +2024,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 최대 HP와 피격 회복을 함께 확보해 전열 유지력을 높이는 최종 세팅입니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 최대 HP와 피격 회복을 함께 확보해 전열 유지력을 높이는 최종 세팅입니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -2107,7 +2107,7 @@
       "gear": {
         "name": "빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 최종 힐러 세팅은 치유와 분노 회복을 챙기면서 성스러운 날개로 핵심 딜러 공격력까지 지원하는 조합입니다. 권장 옵션: 공격력%, 공격 속도, 치유 효과, 분노 회복.",
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 최종 힐러 세팅은 치유와 분노 회복을 챙기면서 성스러운 날개로 핵심 딜러 공격력까지 지원하는 조합입니다. 권장 옵션: 공격력 보너스, 공격 속도, 치유 효과, 분노 회복.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -2178,7 +2178,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 방어력 기반 수호자라 강철 의지의 피해 감소와 가드 방어 증가를 우선합니다. 권장 옵션: 방어력%, HP%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 방어력 기반 수호자라 강철 의지의 피해 감소와 가드 방어 증가를 우선합니다. 권장 옵션: 방어력 보너스, HP 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -2244,7 +2244,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 치명타 의존도가 높은 영웅이라 악의 복수와 재앙 드래곤의 시너지가 좋습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 치명타 의존도가 높은 영웅이라 악의 복수와 재앙 드래곤의 시너지가 좋습니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -2310,7 +2310,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. Prospector End Game과 Fastidious Stage 3가 모두 이 조합을 제시하며, 최대 HP 증가와 피격 회복으로 바론의 실전 탱킹 지속력을 높입니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. Prospector End Game과 Fastidious Stage 3가 모두 이 조합을 제시하며, 최대 HP 증가와 피격 회복으로 바론의 실전 탱킹 지속력을 높입니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-18 악몽 의회 추천 장비 전수 재검수: Prospector.gg End Game + Fastidious.gg End Game/Stage 3 교차검증"
       }
     },
@@ -2396,7 +2396,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. Prospector의 2026-09 엔드게임 빌드에서 악의 복수 + 지옥 비명이 직접 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. Prospector의 2026-09 엔드게임 빌드에서 악의 복수 + 지옥 비명이 직접 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -2484,7 +2484,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 소환 딜러지만 최종 단계에서는 본체와 소환물 피해를 함께 끌어올리는 재앙 드래곤 조합이 사용됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 소환 딜러지만 최종 단계에서는 본체와 소환물 피해를 함께 끌어올리는 재앙 드래곤 조합이 사용됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -2563,7 +2563,7 @@
       "gear": {
         "name": "전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 순수 딜러보다 영감·감속·마법 취약을 제공하는 지원형 가치가 높아 성스러운 날개를 최종 추천으로 둡니다. 권장 옵션: 공격력%, 공격 속도, 분노 회복, HP%.",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 순수 딜러보다 영감·감속·마법 취약을 제공하는 지원형 가치가 높아 성스러운 날개를 최종 추천으로 둡니다. 권장 옵션: 공격력 보너스, 공격 속도, 분노 회복, HP 보너스.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -2653,7 +2653,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 마법 딜러 엔드게임 기준으로 치명타 피해와 지속 피해 증가를 함께 노립니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 마법 딜러 엔드게임 기준으로 치명타 피해와 지속 피해 증가를 함께 노립니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -2726,7 +2726,7 @@
       "gear": {
         "name": "전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 현재 확인 가능한 해외 자료에서 더 우월한 엔드게임 조합이 일관되게 확인되지 않아 검증된 조합을 유지합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 현재 확인 가능한 해외 자료에서 더 우월한 엔드게임 조합이 일관되게 확인되지 않아 검증된 조합을 유지합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
       }
     },
@@ -2806,7 +2806,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
       }
     },
@@ -2891,7 +2891,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 순수 탱킹은 최대 HP 추가보다 강철 의지의 피해 감소와 가드 방어 증가 효율을 우선합니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 순수 탱킹은 최대 HP 추가보다 강철 의지의 피해 감소와 가드 방어 증가 효율을 우선합니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -2972,7 +2972,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 기존 북쪽 경계 검수에서 확정한 최종 치명타 딜 세팅을 유지합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 기존 북쪽 경계 검수에서 확정한 최종 치명타 딜 세팅을 유지합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -3068,7 +3068,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 기존 재앙 드래곤 추천을 최신 엔드게임 자료 기준으로 교정했습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 기존 재앙 드래곤 추천을 최신 엔드게임 자료 기준으로 교정했습니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
       }
     },
@@ -3154,7 +3154,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
       }
     },
@@ -3231,7 +3231,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 표식과 연속 공격으로 단일 대상에 피해를 누적하는 구조라 재앙 드래곤 중첩과 궁합이 좋습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 표식과 연속 공격으로 단일 대상에 피해를 누적하는 구조라 재앙 드래곤 중첩과 궁합이 좋습니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -3297,7 +3297,7 @@
       "gear": {
         "name": "빛의 은혜 (Light's Grace) 세트 + 불멸의 의지 (Unshaken Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 불멸의 의지 (Unshaken Will) 세트. 권장 옵션: 공격 속도, HP%, 치유 효과, 분노 회복.",
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 불멸의 의지 (Unshaken Will) 세트. 권장 옵션: 공격 속도, HP 보너스, 치유 효과, 분노 회복.",
         "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
       }
     },
@@ -3381,7 +3381,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 최종 단계에서는 생존과 자가 회복을 극대화하는 성흔의 수호 + 불멸의 의지가 가장 안정적입니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 최종 단계에서는 생존과 자가 회복을 극대화하는 성흔의 수호 + 불멸의 의지가 가장 안정적입니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -3462,7 +3462,7 @@
       "gear": {
         "name": "전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 공격 속도가 핵심이며, 후반에는 성스러운 날개로 치유와 파티 공격 지원을 함께 확보하는 세팅이 확인됩니다. 권장 옵션: 공격 속도, 공격력%, 치유 효과, 분노 회복.",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 공격 속도가 핵심이며, 후반에는 성스러운 날개로 치유와 파티 공격 지원을 함께 확보하는 세팅이 확인됩니다. 권장 옵션: 공격 속도, 공격력 보너스, 치유 효과, 분노 회복.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -3527,7 +3527,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 마법 딜러의 엔드게임 기준으로 치명타 피해와 재앙 드래곤 중첩을 우선합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 마법 딜러의 엔드게임 기준으로 치명타 피해와 재앙 드래곤 중첩을 우선합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -3608,7 +3608,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 공격력·치명타를 확보한 뒤 재앙 드래곤 중첩을 유지하는 최종 세팅입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 공격력·치명타를 확보한 뒤 재앙 드래곤 중첩을 유지하는 최종 세팅입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -3702,7 +3702,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 자해형 광역 딜러라 생존을 과도하게 챙기기보다 재앙 드래곤을 통한 최종 피해 기대값을 우선합니다. 권장 옵션: 치명타율, 공격 속도, 치명타 피해, HP%.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 자해형 광역 딜러라 생존을 과도하게 챙기기보다 재앙 드래곤을 통한 최종 피해 기대값을 우선합니다. 권장 옵션: 치명타율, 공격 속도, 치명타 피해, HP 보너스.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -3767,7 +3767,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 최종 단계에서 악의 복수와 재앙 드래곤 조합이 직접 확인되며 치명타 기반 누적 화력을 가장 안정적으로 끌어올립니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 최종 단계에서 악의 복수와 재앙 드래곤 조합이 직접 확인되며 치명타 기반 누적 화력을 가장 안정적으로 끌어올립니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -3855,7 +3855,7 @@
       "gear": {
         "name": "전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 권장 옵션: 공격 속도, 공격력%, 분노 회복, 치유 효과.",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 권장 옵션: 공격 속도, 공격력 보너스, 분노 회복, 치유 효과.",
         "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
       }
     },
@@ -3927,7 +3927,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기 동안 공격 간격 감소와 조준 사격 강화가 집중되므로 지옥 비명의 20초 강화 구간과 정확히 맞물립니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기 동안 공격 간격 감소와 조준 사격 강화가 집중되므로 지옥 비명의 20초 강화 구간과 정확히 맞물립니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -4024,7 +4024,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 일반 공격보다 궁극기 중심의 폭딜 비중이 높아 지옥 비명의 20초 피해·치명타 피해 강화 효율이 큽니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 일반 공격보다 궁극기 중심의 폭딜 비중이 높아 지옥 비명의 20초 피해·치명타 피해 강화 효율이 큽니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -4098,7 +4098,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
       }
     },
@@ -4145,7 +4145,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 독 중첩을 유지하면서 기본 공격을 계속 이어가는 구조라 범용 최종 딜 세팅인 재앙 드래곤을 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 독 중첩을 유지하면서 기본 공격을 계속 이어가는 구조라 범용 최종 딜 세팅인 재앙 드래곤을 적용합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -4212,7 +4212,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격 비중이 높은 근접 전사라 마수의 포효로 평타 피해를 직접 강화하는 최종 단계 조합을 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격 비중이 높은 근접 전사라 마수의 포효로 평타 피해를 직접 강화하는 최종 단계 조합을 적용합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -4285,7 +4285,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 엔드 콘텐츠에서 생존과 지원 유지력을 우선하는 세팅입니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 엔드 콘텐츠에서 생존과 지원 유지력을 우선하는 세팅입니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
       }
     },
@@ -4363,7 +4363,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 최종 단계에서 성흔의 수호와 불멸의 의지가 직접 제시되며 HP·방어 중심으로 버티는 수호자 운용에 맞습니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 최종 단계에서 성흔의 수호와 불멸의 의지가 직접 제시되며 HP·방어 중심으로 버티는 수호자 운용에 맞습니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -4428,7 +4428,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 연속 기본 공격 기반이라 마수의 포효를 최종 추천으로 잡았습니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 연속 기본 공격 기반이라 마수의 포효를 최종 추천으로 잡았습니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -4494,7 +4494,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 다그나는 생존 자체를 우선해 최대 HP와 피격 회복을 강화합니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 다그나는 생존 자체를 우선해 최대 HP와 피격 회복을 강화합니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -4579,7 +4579,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 최종 단계에서는 재앙 드래곤 중첩을 유지하는 치명타 기반 세팅이 가장 좋습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 최종 단계에서는 재앙 드래곤 중첩을 유지하는 치명타 기반 세팅이 가장 좋습니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -4653,7 +4653,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 엔드 콘텐츠에서 낮은 생존력을 보완하기 위해 HP 보너스를 우선한 실전 세팅입니다. 다른 전설 영웅과 함께 고난도 전투에서 버틸 수 있도록 생존 유지력을 최우선으로 둡니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 엔드 콘텐츠에서 낮은 생존력을 보완하기 위해 HP 보너스를 우선한 실전 세팅입니다. 다른 전설 영웅과 함께 고난도 전투에서 버틸 수 있도록 생존 유지력을 최우선으로 둡니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-18 나만겜 실전 검수: 엔드 콘텐츠 생존 기준 HP 보너스 중심 세팅"
       }
     },
@@ -4730,7 +4730,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 기존 재앙 드래곤 추천을 파수꾼 소대 재전수검수 결과에 따라 교정했습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 기존 재앙 드래곤 추천을 파수꾼 소대 재전수검수 결과에 따라 교정했습니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
       }
     },
@@ -4826,7 +4826,7 @@
       "gear": {
         "name": "빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 공격력 기반 광역 치유와 영감 지원을 함께 살리기 위해 최종 단계의 빛의 은혜 + 성스러운 날개 조합을 적용합니다. 권장 옵션: 공격 속도, 공격력%, HP%, 치유 효과, 분노 회복.",
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 공격력 기반 광역 치유와 영감 지원을 함께 살리기 위해 최종 단계의 빛의 은혜 + 성스러운 날개 조합을 적용합니다. 권장 옵션: 공격 속도, 공격력 보너스, HP 보너스, 치유 효과, 분노 회복.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -4873,7 +4873,13 @@
       "awakeningUnavailable": true,
       "awakeningUnavailableText": "게임 내에서 A1~A5 각성 효과가 아직 오픈되지 않은 영웅입니다.",
       "updated": "2026-09",
-      "note": "게임 내 공식 특성·각성 미오픈 여부는 사용자가 제공한 한국 서버 스크린샷 기준. 불굴 지속 시간과 효과는 해외 영웅 DB를 대조했으며, 장비 던전 2 활용은 사용자 제공 실전 정보 기준."
+      "note": "게임 내 공식 특성·각성 미오픈 여부는 사용자가 제공한 한국 서버 스크린샷 기준. 불굴 지속 시간과 효과는 해외 영웅 DB를 대조했으며, 장비 던전 2 활용은 사용자 제공 실전 정보 기준.",
+      "recommendedOptions": [
+        "공격력 보너스",
+        "공격 속도",
+        "치명타율",
+        "치명타 피해"
+      ]
     }
   },
   {
@@ -4932,7 +4938,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 연속 공격과 단일 대상 지속딜 구조 때문에 마수의 포효와 궁합이 좋습니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 연속 공격과 단일 대상 지속딜 구조 때문에 마수의 포효와 궁합이 좋습니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -5005,7 +5011,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 현재 Fastidious의 최종 단계는 악의 복수 + 재앙 드래곤으로 확인됩니다. 이전에 지옥 비명을 정답처럼 본 판단은 이번 재검수에서 교정했습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 현재 Fastidious의 최종 단계는 악의 복수 + 재앙 드래곤으로 확인됩니다. 이전에 지옥 비명을 정답처럼 본 판단은 이번 재검수에서 교정했습니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -5058,7 +5064,7 @@
       "gear": {
         "name": "전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 초선은 공격력 기반 치유와 아군 공격 지원을 함께 활용하므로 성스러운 날개가 최종 추천입니다. 권장 옵션: 공격력%, 공격 속도, 치유 효과, 분노 회복.",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 초선은 공격력 기반 치유와 아군 공격 지원을 함께 활용하므로 성스러운 날개가 최종 추천입니다. 권장 옵션: 공격력 보너스, 공격 속도, 치유 효과, 분노 회복.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       },
       "awakening": [
@@ -5180,7 +5186,7 @@
       "gear": {
         "name": "전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 델로레스의 핵심은 영감 버프이므로 공격력을 최대한 확보하고 궁극기 회전을 챙기며, 최종 세팅은 성스러운 날개를 사용합니다. 권장 옵션: 공격력%, 분노 회복, HP%, 공격 속도.",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 델로레스의 핵심은 영감 버프이므로 공격력을 최대한 확보하고 궁극기 회전을 챙기며, 최종 세팅은 성스러운 날개를 사용합니다. 권장 옵션: 공격력 보너스, 분노 회복, HP 보너스, 공격 속도.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -5267,7 +5273,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. Prospector 엔드게임 빌드에서 악의 복수 + 재앙 드래곤 조합이 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. Prospector 엔드게임 빌드에서 악의 복수 + 재앙 드래곤 조합이 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -5352,7 +5358,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 성스러운 날개 (Wings of Grace) 세트. HP 기반 치유와 탱킹뿐 아니라 파티 지원까지 함께 살리는 엔드게임 기본 추천입니다. 순수 탱킹이 더 필요한 경우 불멸의 의지를 대안으로 사용할 수 있습니다. 권장 옵션: HP%, 방어력%, 치유 효과, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 성스러운 날개 (Wings of Grace) 세트. HP 기반 치유와 탱킹뿐 아니라 파티 지원까지 함께 살리는 엔드게임 기본 추천입니다. 순수 탱킹이 더 필요한 경우 불멸의 의지를 대안으로 사용할 수 있습니다. 권장 옵션: HP 보너스, 방어력 보너스, 치유 효과, 공격 속도, 분노 회복.",
         "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
       }
     },
@@ -5423,7 +5429,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 방어력 기반 수호자라 후반에는 성흔의 수호 + 강철 의지가 가장 안정적입니다. 권장 옵션: 방어력%, HP%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 방어력 기반 수호자라 후반에는 성흔의 수호 + 강철 의지가 가장 안정적입니다. 권장 옵션: 방어력 보너스, HP 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -5488,7 +5494,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기 화살비가 짧은 시간에 다단 광역 피해를 집중하므로 궁극기 발동 직후 강해지는 지옥 비명이 가장 잘 맞습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기 화살비가 짧은 시간에 다단 광역 피해를 집중하므로 궁극기 발동 직후 강해지는 지옥 비명이 가장 잘 맞습니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -5568,7 +5574,7 @@
       "gear": {
         "name": "질풍 (Whirlwind) 세트 + 마력 (Mana Spring) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 질풍 (Whirlwind) 세트 + 마력 (Mana Spring) 세트. 두르가는 직접 딜보다 공격 속도·분노·영감 지원 가치가 커서 질풍 + 마력으로 궁극기 회전을 최우선합니다. 권장 옵션: 공격 속도, 분노 회복, HP%, 방어력%.",
+        "text": "최종 추천: 질풍 (Whirlwind) 세트 + 마력 (Mana Spring) 세트. 두르가는 직접 딜보다 공격 속도·분노·영감 지원 가치가 커서 질풍 + 마력으로 궁극기 회전을 최우선합니다. 권장 옵션: 공격 속도, 분노 회복, HP 보너스, 방어력 보너스.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -5641,7 +5647,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
       }
     },
@@ -5734,7 +5740,7 @@
       "gear": {
         "name": "빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 치유·분노 회복과 동시에 성스러운 날개로 핵심 딜러의 공격력을 지원하는 최종 세팅입니다. 권장 옵션: 공격 속도, 공격력%, 치유 효과, 분노 회복.",
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 치유·분노 회복과 동시에 성스러운 날개로 핵심 딜러의 공격력을 지원하는 최종 세팅입니다. 권장 옵션: 공격 속도, 공격력 보너스, 치유 효과, 분노 회복.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -5790,7 +5796,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 현재 엔드게임 자료에서 악의 복수와 재앙 드래곤 조합이 가장 일관되게 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 현재 엔드게임 자료에서 악의 복수와 재앙 드래곤 조합이 가장 일관되게 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       },
       "awakening": [
@@ -5927,7 +5933,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격 기여도가 높아 마수의 포효 효율이 높은 영웅입니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격 기여도가 높아 마수의 포효 효율이 높은 영웅입니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -6000,7 +6006,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 은신을 활용해 기본 공격을 지속하는 단일 대공 궁수라 기본 공격 피해를 직접 강화하는 마수의 포효를 우선합니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 은신을 활용해 기본 공격을 지속하는 단일 대공 궁수라 기본 공격 피해를 직접 강화하는 마수의 포효를 우선합니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -6078,7 +6084,7 @@
       "gear": {
         "name": "빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 치유와 분노 회복을 동시에 담당하므로 공격 속도·공격력·치유 효과를 챙기면서 성스러운 날개로 핵심 딜러 지원까지 더합니다. 권장 옵션: 공격 속도, 공격력%, HP%, 치유 효과, 분노 회복.",
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 치유와 분노 회복을 동시에 담당하므로 공격 속도·공격력·치유 효과를 챙기면서 성스러운 날개로 핵심 딜러 지원까지 더합니다. 권장 옵션: 공격 속도, 공격력 보너스, HP 보너스, 치유 효과, 분노 회복.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -6144,7 +6150,7 @@
       "gear": {
         "name": "전쟁의 주인 (Warlord) 세트 + 마력 (Mana Spring) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 마력 (Mana Spring) 세트. 레어 영웅이지만 최고 활용 기준에서는 감속과 궁극기 순환을 위해 공격 속도와 분노 회복을 우선합니다. 권장 옵션: 공격 속도, 분노 회복, HP%, 방어력%.",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 마력 (Mana Spring) 세트. 레어 영웅이지만 최고 활용 기준에서는 감속과 궁극기 순환을 위해 공격 속도와 분노 회복을 우선합니다. 권장 옵션: 공격 속도, 분노 회복, HP 보너스, 방어력 보너스.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -6209,7 +6215,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 기본 공격으로 재앙 드래곤 중첩을 안정적으로 쌓고, 궁극기 반복 사용과 고정 피해를 포함한 전체 화력을 끌어올리는 엔드게임 세팅입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 기본 공격으로 재앙 드래곤 중첩을 안정적으로 쌓고, 궁극기 반복 사용과 고정 피해를 포함한 전체 화력을 끌어올리는 엔드게임 세팅입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 최고 중재자(Supreme Arbiters) 엔드게임 전수검수: Prospector.gg End Game 직접 검증"
       }
     },
@@ -6285,7 +6291,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 기존 검수에서 확정한 엔드게임 조합을 그대로 유지합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 기존 검수에서 확정한 엔드게임 조합을 그대로 유지합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -6381,7 +6387,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 연속 공격과 치명타 기반 누적 화력을 살리기 위해 재앙 드래곤을 최종 추천으로 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 연속 공격과 치명타 기반 누적 화력을 살리기 위해 재앙 드래곤을 최종 추천으로 적용합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -6449,7 +6455,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격과 지속 피해 비중이 높은 단일 궁수라 공격 속도와 기본 공격 강화 효율을 함께 가져가는 마수의 포효가 잘 맞습니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격과 지속 피해 비중이 높은 단일 궁수라 공격 속도와 기본 공격 강화 효율을 함께 가져가는 마수의 포효가 잘 맞습니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -6515,7 +6521,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 엔드게임 딜 세팅은 악의 복수와 재앙 드래곤을 우선합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 엔드게임 딜 세팅은 악의 복수와 재앙 드래곤을 우선합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -6604,7 +6610,7 @@
       "gear": {
         "name": "빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 권장 옵션: 공격 속도, 공격력%, 분노 회복, 치유 효과.",
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 권장 옵션: 공격 속도, 공격력 보너스, 분노 회복, 치유 효과.",
         "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
       }
     },
@@ -6705,7 +6711,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 배치 직후 폭발탄을 빠르게 소모하며 치명타를 누적할 수 있어 최신 엔드게임 빌드의 재앙 드래곤 조합을 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 배치 직후 폭발탄을 빠르게 소모하며 치명타를 누적할 수 있어 최신 엔드게임 빌드의 재앙 드래곤 조합을 적용합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -6778,7 +6784,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 저주신교 최상위 영주 딜러로서 최종 단계에서는 악의 복수 + 재앙 드래곤 조합이 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 저주신교 최상위 영주 딜러로서 최종 단계에서는 악의 복수 + 재앙 드래곤 조합이 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -6828,7 +6834,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 해외 자료에서 재앙 드래곤 대안도 확인되지만, 엔드게임 대표 추천은 지옥 비명 기준으로 표기합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 해외 자료에서 재앙 드래곤 대안도 확인되지만, 엔드게임 대표 추천은 지옥 비명 기준으로 표기합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
       },
       "awakening": [
@@ -6981,7 +6987,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기와 소환 압박이 집중되는 구간을 크게 강화할 수 있어 최신 엔드게임 빌드의 지옥 비명을 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기와 소환 압박이 집중되는 구간을 크게 강화할 수 있어 최신 엔드게임 빌드의 지옥 비명을 적용합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -7064,7 +7070,7 @@
       "gear": {
         "name": "빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 단일 치유와 생존 지원을 안정적으로 반복하기 위해 최종 단계의 빛의 은혜 + 성스러운 날개를 적용합니다. 권장 옵션: 공격 속도, 공격력%, HP%, 치유 효과, 분노 회복.",
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 단일 치유와 생존 지원을 안정적으로 반복하기 위해 최종 단계의 빛의 은혜 + 성스러운 날개를 적용합니다. 권장 옵션: 공격 속도, 공격력 보너스, HP 보너스, 치유 효과, 분노 회복.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -7130,7 +7136,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 독과 마법 피해를 지속적으로 누적하는 딜러라 치명타 중첩을 유지하기 좋은 재앙 드래곤 중심 최종 딜 세팅을 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 독과 마법 피해를 지속적으로 누적하는 딜러라 치명타 중첩을 유지하기 좋은 재앙 드래곤 중심 최종 딜 세팅을 적용합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -7212,7 +7218,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 빠른 공격과 치명타 기반 딜 사이클을 살리는 엔드게임 조합입니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 빠른 공격과 치명타 기반 딜 사이클을 살리는 엔드게임 조합입니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-18 북쪽 경계 왕좌 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg Stage 3 교차검증"
       }
     },
@@ -7284,7 +7290,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 재앙 드래곤 중첩을 유지할 수 있는 공격 속도와 치명타율을 우선합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 재앙 드래곤 중첩을 유지할 수 있는 공격 속도와 치명타율을 우선합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -7363,7 +7369,7 @@
       "gear": {
         "name": "빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. AoE 피해 감소와 영감 지원을 함께 제공하는 힐러라 최종 단계에서는 빛의 은혜와 성스러운 날개 조합이 가장 안정적입니다. 권장 옵션: 공격력%, 공격 속도, 치유 효과, 분노 회복.",
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. AoE 피해 감소와 영감 지원을 함께 제공하는 힐러라 최종 단계에서는 빛의 은혜와 성스러운 날개 조합이 가장 안정적입니다. 권장 옵션: 공격력 보너스, 공격 속도, 치유 효과, 분노 회복.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -7430,7 +7436,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격 지속 비중이 높은 궁수라 최종 단계에서 확인되는 마수의 포효 조합으로 평타 화력을 강화합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격 지속 비중이 높은 궁수라 최종 단계에서 확인되는 마수의 포효 조합으로 평타 화력을 강화합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -7466,9 +7472,9 @@
     "details": {
       "verifiedIntro": "높은 가드 수와 강한 피해 감소 능력을 바탕으로 전열을 버티는 혼돈 정복자 진영의 수호자형 영주. 역전 포효로 범위 내 아군에게 물리·마법 피해 감소를 제공하고, 치명적인 피해를 받을 때 불멸 상태에 진입해 버티는 능력까지 갖춘다. 또한 광란의 징벌을 통해 전방 다수의 적에게 범위 피해를 넣을 수 있어 순수 탱킹뿐 아니라 반격형 광역 압박에도 강점이 있다.",
       "gear": {
-        "name": "강철 의지 세트",
+        "name": "전쟁의 주인 세트 + 강철 의지 세트",
         "label": "추천 장비 세트",
-        "text": "3종 세트 효과: 피해 감소 +15%. 적을 가드할 때마다 방어력 +5%, 최대 4회 중첩."
+        "text": "주 장비: 전쟁의 주인 세트. 보조 장비: 강철 의지 세트. 강철 의지 3종 세트 효과: 피해 감소 +15%. 적을 가드할 때마다 방어력 +5%, 최대 4회 중첩. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복 효율."
       },
       "awakening": [
         {
@@ -7600,7 +7606,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 현재 Fastidious의 최종 단계 기준으로 재앙 드래곤을 사용하는 치명타 딜 세팅입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 현재 Fastidious의 최종 단계 기준으로 재앙 드래곤을 사용하는 치명타 딜 세팅입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -7665,7 +7671,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 치명타 기반의 일반적인 엔드게임 마법 딜 세팅입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 치명타 기반의 일반적인 엔드게임 마법 딜 세팅입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -7738,7 +7744,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 재앙 드래곤 (Cataclysm) 세트. 포셸은 피해가 HP에 비례하므로 성흔의 수호로 체력을 확보하면서 재앙 드래곤으로 피해를 증폭합니다. 권장 옵션: HP%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 재앙 드래곤 (Cataclysm) 세트. 포셸은 피해가 HP에 비례하므로 성흔의 수호로 체력을 확보하면서 재앙 드래곤으로 피해를 증폭합니다. 권장 옵션: HP 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -7803,7 +7809,7 @@
       "gear": {
         "name": "전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 희귀 초반 광역 마법사로 최신 DB에 단계별 최종 빌드 표본이 부족해, End Game 1순위 조합인 전쟁의 주인 + 영혼의 비밀을 대표 세팅으로 적용합니다. 권장 옵션: 공격력%, 공격 속도, 분노 회복, HP%.",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 희귀 초반 광역 마법사로 최신 DB에 단계별 최종 빌드 표본이 부족해, End Game 1순위 조합인 전쟁의 주인 + 영혼의 비밀을 대표 세팅으로 적용합니다. 권장 옵션: 공격력 보너스, 공격 속도, 분노 회복, HP 보너스.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -7875,7 +7881,7 @@
       "gear": {
         "name": "전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 단순 탱킹보다 영감 지원과 버티기를 함께 수행하는 영웅이라 공격력 기반 지원 빌드인 전쟁의 주인 + 성스러운 날개를 대표 최종 세팅으로 적용합니다. 권장 옵션: 공격력%, HP%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 단순 탱킹보다 영감 지원과 버티기를 함께 수행하는 영웅이라 공격력 기반 지원 빌드인 전쟁의 주인 + 성스러운 날개를 대표 최종 세팅으로 적용합니다. 권장 옵션: 공격력 보너스, HP 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -7956,7 +7962,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 공격 속도와 스킬 회전 가치가 높지만, 최고 장비 기준 피해 기대값은 악의 복수 + 재앙 드래곤이 우세합니다. 권장 옵션: 공격 속도, 공격력%, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 공격 속도와 스킬 회전 가치가 높지만, 최고 장비 기준 피해 기대값은 악의 복수 + 재앙 드래곤이 우세합니다. 권장 옵션: 공격 속도, 공격력 보너스, 치명타율, 치명타 피해.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -8042,7 +8048,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 연옥 영주 아래에서 운용하는 일반 최종 세팅은 진영 전용 재앙 드래곤 조합이 가장 좋습니다. 카오스 영주 아래 저체력 운용에서는 마수의 포효가 강한 대안입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 연옥 영주 아래에서 운용하는 일반 최종 세팅은 진영 전용 재앙 드래곤 조합이 가장 좋습니다. 카오스 영주 아래 저체력 운용에서는 마수의 포효가 강한 대안입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -8131,7 +8137,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 연옥 영주 아래에서는 진영 전용 재앙 드래곤이 가장 높은 최종 효율을 보이며, 높은 공격 속도로 수련 단계 상승을 빠르게 만드는 것이 중요합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 연옥 영주 아래에서는 진영 전용 재앙 드래곤이 가장 높은 최종 효율을 보이며, 높은 공격 속도로 수련 단계 상승을 빠르게 만드는 것이 중요합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -8220,7 +8226,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 최종 세팅은 재앙 드래곤을 사용하며 생존이 필요한 콘텐츠에서는 HP% 부옵션 가치도 높습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, HP%.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 최종 세팅은 재앙 드래곤을 사용하며 생존이 필요한 콘텐츠에서는 HP% 부옵션 가치도 높습니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, HP 보너스.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -8309,7 +8315,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 굴드락은 궁극기 폭딜과 출혈 압박 비중이 높아 최종 단계에서 지옥 비명이 우선됩니다. 권장 옵션: 치명타율, 치명타 피해, 공격 속도, 공격력%.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 굴드락은 궁극기 폭딜과 출혈 압박 비중이 높아 최종 단계에서 지옥 비명이 우선됩니다. 권장 옵션: 치명타율, 치명타 피해, 공격 속도, 공격력 보너스.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -8382,7 +8388,7 @@
       "gear": {
         "name": "빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. HP 기반 보호막과 치유 효과를 살리면서 성스러운 날개로 파티 공격 지원까지 확보합니다. 권장 옵션: 공격 속도, HP%, 치유 효과, 분노 회복.",
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. HP 기반 보호막과 치유 효과를 살리면서 성스러운 날개로 파티 공격 지원까지 확보합니다. 권장 옵션: 공격 속도, HP 보너스, 치유 효과, 분노 회복.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -8454,7 +8460,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격 비중이 높아 마수의 포효를 우선하는 최종 세팅입니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격 비중이 높아 마수의 포효를 우선하는 최종 세팅입니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -8538,7 +8544,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. Fastidious와 Prospector 모두 엔드게임에서 악의 복수 + 재앙 드래곤을 제시합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. Fastidious와 Prospector 모두 엔드게임에서 악의 복수 + 재앙 드래곤을 제시합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -8611,7 +8617,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격과 공격 속도 효율이 높은 전사로 최종 단계에서 악의 복수 + 마수의 포효가 직접 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격과 공격 속도 효율이 높은 전사로 최종 단계에서 악의 복수 + 마수의 포효가 직접 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -8700,7 +8706,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 현재 최종 단계에서는 재앙 드래곤을 사용하는 치명타 기반 세팅이 가장 안정적입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 현재 최종 단계에서는 재앙 드래곤을 사용하는 치명타 기반 세팅이 가장 안정적입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -8768,7 +8774,7 @@
       "gear": {
         "name": "빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 할로우의 핵심은 빠른 치유와 분노 공급이며, 최종 단계에서는 빛의 은혜 + 성스러운 날개로 파티 지원까지 챙깁니다. 권장 옵션: 공격 속도, 공격력%, 치유 효과, 분노 회복.",
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 할로우의 핵심은 빠른 치유와 분노 공급이며, 최종 단계에서는 빛의 은혜 + 성스러운 날개로 파티 지원까지 챙깁니다. 권장 옵션: 공격 속도, 공격력 보너스, 치유 효과, 분노 회복.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -8812,7 +8818,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격 비중이 높아 마수의 포효가 핵심입니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격 비중이 높아 마수의 포효가 핵심입니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
       },
       "awakening": [
@@ -8944,7 +8950,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 엘마는 배치 직후 20초 강화 구간의 기본 공격 비중이 높아 마수의 포효 효율이 매우 높습니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 엘마는 배치 직후 20초 강화 구간의 기본 공격 비중이 높아 마수의 포효 효율이 매우 높습니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -9030,7 +9036,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 파수꾼 소대 재전수검수 결과 마수의 포효가 아닌 재앙 드래곤을 대표 엔드게임 세팅으로 교정했습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 파수꾼 소대 재전수검수 결과 마수의 포효가 아닌 재앙 드래곤을 대표 엔드게임 세팅으로 교정했습니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
       }
     },
@@ -9121,7 +9127,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 마법 피해와 소환체 압박을 치명타 기반으로 누적할 수 있어 최종 단계의 악의 복수 + 재앙 드래곤을 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 마법 피해와 소환체 압박을 치명타 기반으로 누적할 수 있어 최종 단계의 악의 복수 + 재앙 드래곤을 적용합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -9206,7 +9212,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 강한 단일 대공 화력과 치명타 누적을 살리기 위해 재앙 드래곤을 최종 추천으로 둡니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 강한 단일 대공 화력과 치명타 누적을 살리기 위해 재앙 드래곤을 최종 추천으로 둡니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -9272,7 +9278,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 북쪽 경계 전열 탱커로서 피해 감소와 가드 방어 증가를 우선합니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 북쪽 경계 전열 탱커로서 피해 감소와 가드 방어 증가를 우선합니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -9344,7 +9350,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 근접 기본 공격 중심 전사라 최종 단계에서 악의 복수 + 마수의 포효가 직접 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 근접 기본 공격 중심 전사라 최종 단계에서 악의 복수 + 마수의 포효가 직접 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -9416,7 +9422,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 제누스는 화상을 제외한 대부분의 피해가 기본 공격으로 판정되어 마수의 포효가 강하게 적용됩니다. 일부 DB는 재앙 드래곤을 제시하지만, 영웅 메커니즘을 반영한 전용 빌드에서는 마수의 포효를 최종 우선으로 봅니다. 권장 옵션: 공격력%, 치명타율, 치명타 피해, 공격 속도.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 제누스는 화상을 제외한 대부분의 피해가 기본 공격으로 판정되어 마수의 포효가 강하게 적용됩니다. 일부 DB는 재앙 드래곤을 제시하지만, 영웅 메커니즘을 반영한 전용 빌드에서는 마수의 포효를 최종 우선으로 봅니다. 권장 옵션: 공격력 보너스, 치명타율, 치명타 피해, 공격 속도.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -9492,7 +9498,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 강화 기본 공격 비중이 높아 마수의 포효 효율이 좋습니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 강화 기본 공격 비중이 높아 마수의 포효 효율이 좋습니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -9580,7 +9586,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 장거리 광역 물리 공격과 Seeds of Malice 폭발을 치명타 기반으로 강화하는 최종 세팅입니다. 주옵션은 공격력% 3개를 기본으로 하고, 권장 옵션은 치명타율, 공격 속도, 치명타 피해, HP% 순으로 봅니다.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 장거리 광역 물리 공격과 Seeds of Malice 폭발을 치명타 기반으로 강화하는 최종 세팅입니다. 주옵션은 공격력% 3개를 기본으로 하고, 권장 옵션은 치명타율, 공격 속도, 치명타 피해, HP 보너스 순으로 봅니다.",
         "source": "2026-09-17 혼돈 정복자(Chaos Dominion) 엔드게임 전수검수: Fastidious.gg + Prospector.gg 교차검증"
       }
     },
@@ -9656,7 +9662,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 방어력 기반 에픽 탱커라 강철 의지의 피해 감소와 가드 방어 증가가 최종 세팅에 잘 맞습니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 방어력 기반 에픽 탱커라 강철 의지의 피해 감소와 가드 방어 증가가 최종 세팅에 잘 맞습니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -9737,7 +9743,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격 비중이 높은 딜러로 최종 단계에서 악의 복수 + 마수의 포효가 직접 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격 비중이 높은 딜러로 최종 단계에서 악의 복수 + 마수의 포효가 직접 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -9813,7 +9819,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 광역 사격을 반복하면서 치명타 중첩을 유지하기 쉬워 재앙 드래곤이 안정적인 최종 딜 조합입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 광역 사격을 반복하면서 치명타 중첩을 유지하기 쉬워 재앙 드래곤이 안정적인 최종 딜 조합입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -9881,7 +9887,7 @@
       "gear": {
         "name": "전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 카리넬은 치명타가 발생하지 않는 특수 영웅이므로 치명타 발동형 재앙 드래곤을 제외합니다. 공격력·공격 속도·분노 회복 중심의 전쟁의 주인 + 영혼의 비밀을 적용합니다. 권장 옵션: 공격력%, 공격 속도, 분노 회복, 공격력, HP%.",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 카리넬은 치명타가 발생하지 않는 특수 영웅이므로 치명타 발동형 재앙 드래곤을 제외합니다. 공격력·공격 속도·분노 회복 중심의 전쟁의 주인 + 영혼의 비밀을 적용합니다. 권장 옵션: 공격력 보너스, 공격 속도, 분노 회복, 공격력, HP 보너스.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -9969,7 +9975,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 재앙 드래곤의 피해 증가 중첩을 안정적으로 유지하는 엔드게임 세팅입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 재앙 드래곤의 피해 증가 중첩을 안정적으로 유지하는 엔드게임 세팅입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -10021,7 +10027,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기 폭딜과 실제 엔드게임 운용을 기준으로 대표 추천을 지옥 비명으로 교정했습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기 폭딜과 실제 엔드게임 운용을 기준으로 대표 추천을 지옥 비명으로 교정했습니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
       },
       "awakening": [
@@ -10182,7 +10188,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 최대 HP 기반 실드와 전열 유지력을 함께 끌어올리는 엔드게임 탱커 조합입니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 최대 HP 기반 실드와 전열 유지력을 함께 끌어올리는 엔드게임 탱커 조합입니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-18 북쪽 경계 왕좌 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg Stage 3 교차검증"
       }
     },
@@ -10268,7 +10274,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 강력한 광역 마법 피해를 치명타로 누적하기 쉬워 최종 단계에서 악의 복수 + 재앙 드래곤이 직접 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 강력한 광역 마법 피해를 치명타로 누적하기 쉬워 최종 단계에서 악의 복수 + 재앙 드래곤이 직접 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -10358,7 +10364,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 파수꾼 소대 검수 때 확정한 엔드게임 조합을 그대로 유지합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 파수꾼 소대 검수 때 확정한 엔드게임 조합을 그대로 유지합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -10437,7 +10443,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 최종 단계에서는 치명타 기반 재앙 드래곤 세팅이 가장 안정적입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 최종 단계에서는 치명타 기반 재앙 드래곤 세팅이 가장 안정적입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -10514,7 +10520,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 킹 할츠는 전열 유지력이 핵심이라 성흔의 수호와 강철 의지 조합을 최종 추천합니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 킹 할츠는 전열 유지력이 핵심이라 성흔의 수호와 강철 의지 조합을 최종 추천합니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       },
       "artifact": {
@@ -10617,7 +10623,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 기존 저주신교 검수에서 확정한 최대 체력·피격 회복 중심 최종 탱커 세팅을 유지합니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 기존 저주신교 검수에서 확정한 최대 체력·피격 회복 중심 최종 탱커 세팅을 유지합니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -10683,7 +10689,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 2연타 기본 공격과 출혈 유지 구조 때문에 마수의 포효 효율이 높습니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 2연타 기본 공격과 출혈 유지 구조 때문에 마수의 포효 효율이 높습니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -10748,7 +10754,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 소환 까마귀를 포함한 광역 딜을 높이기 위해 엔드게임 치명타 세팅을 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 소환 까마귀를 포함한 광역 딜을 높이기 위해 엔드게임 치명타 세팅을 적용합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -10813,7 +10819,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 가드 탱커 특성상 강철 의지의 피해 감소와 방어 증가가 안정적입니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 가드 탱커 특성상 강철 의지의 피해 감소와 방어 증가가 안정적입니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -10906,7 +10912,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 단일 물리 화력과 치명타 기반 딜링을 극대화하는 재앙 드래곤 조합을 최종 추천으로 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 단일 물리 화력과 치명타 기반 딜링을 극대화하는 재앙 드래곤 조합을 최종 추천으로 적용합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -11001,7 +11007,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 최종 딜 세팅은 치명타 피해와 재앙 드래곤 중첩을 함께 확보합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 최종 딜 세팅은 치명타 피해와 재앙 드래곤 중첩을 함께 확보합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -11080,7 +11086,7 @@
       "gear": {
         "name": "질풍 (Whirlwind) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 질풍 (Whirlwind) 세트 + 성스러운 날개 (Wings of Grace) 세트. 레이저는 딜보다 안티힐 유지와 궁극기 회전이 핵심이라 질풍을 유지하고 성스러운 날개로 파티 지원을 더합니다. 권장 옵션: 공격 속도, 분노 회복, HP%, 방어력%.",
+        "text": "최종 추천: 질풍 (Whirlwind) 세트 + 성스러운 날개 (Wings of Grace) 세트. 레이저는 딜보다 안티힐 유지와 궁극기 회전이 핵심이라 질풍을 유지하고 성스러운 날개로 파티 지원을 더합니다. 권장 옵션: 공격 속도, 분노 회복, HP 보너스, 방어력 보너스.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -11147,7 +11153,7 @@
       "gear": {
         "name": "전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 라우렐의 핵심은 직접 딜이 아니라 배치·퇴각 및 궁극기를 통한 분노 공급입니다. 공격 속도와 분노 회복을 높이는 지원형 최종 세팅을 적용합니다. 권장 옵션: 공격 속도, 분노 회복, HP%, 공격력%.",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 라우렐의 핵심은 직접 딜이 아니라 배치·퇴각 및 궁극기를 통한 분노 공급입니다. 공격 속도와 분노 회복을 높이는 지원형 최종 세팅을 적용합니다. 권장 옵션: 공격 속도, 분노 회복, HP 보너스, 공격력 보너스.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -11229,7 +11235,7 @@
       "gear": {
         "name": "빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 라야는 분노 회복과 파티 지원을 모두 살리는 세팅을 우선합니다. 권장 옵션: 분노 회복, 공격 속도, HP%, 공격력%.",
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 라야는 분노 회복과 파티 지원을 모두 살리는 세팅을 우선합니다. 권장 옵션: 분노 회복, 공격 속도, HP 보너스, 공격력 보너스.",
         "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
       }
     },
@@ -11316,7 +11322,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. Fastidious의 최종 단계 빌드에서 악의 복수 + 재앙 드래곤이 직접 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. Fastidious의 최종 단계 빌드에서 악의 복수 + 재앙 드래곤이 직접 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -11359,7 +11365,7 @@
       "gear": {
         "name": "전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 리암의 핵심은 공격력 자체보다 궁극기 Neurotoxin의 빠른 적용과 반복입니다. 공격 속도·분노 회복을 우선해 궁극기 회전과 중독 유지에 집중합니다. 권장 옵션: 공격 속도, 분노 회복, HP%, 공격력%.",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 리암의 핵심은 공격력 자체보다 궁극기 Neurotoxin의 빠른 적용과 반복입니다. 공격 속도·분노 회복을 우선해 궁극기 회전과 중독 유지에 집중합니다. 권장 옵션: 공격 속도, 분노 회복, HP 보너스, 공격력 보너스.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -11434,7 +11440,7 @@
       "gear": {
         "name": "전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 공격력 기반 치유를 살리고 성스러운 날개로 핵심 아군의 공격력까지 지원합니다. 권장 옵션: 공격 속도, 공격력%, 치유 효과, 분노 회복.",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 공격력 기반 치유를 살리고 성스러운 날개로 핵심 아군의 공격력까지 지원합니다. 권장 옵션: 공격 속도, 공격력 보너스, 치유 효과, 분노 회복.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -11514,7 +11520,7 @@
       "gear": {
         "name": "빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 공격력 기반 단일 치유와 치명 피해 방지 역할을 살리면서 성스러운 날개로 핵심 딜러의 공격력까지 지원하는 최종 힐러 세팅입니다. 권장 옵션: 공격력%, 공격 속도, 치유 효과, 분노 회복.",
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 공격력 기반 단일 치유와 치명 피해 방지 역할을 살리면서 성스러운 날개로 핵심 딜러의 공격력까지 지원하는 최종 힐러 세팅입니다. 권장 옵션: 공격력 보너스, 공격 속도, 치유 효과, 분노 회복.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -11594,7 +11600,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
       }
     },
@@ -11678,7 +11684,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 전용 장비까지 포함한 일반 엔드게임에서는 악의 복수와 재앙 드래곤 조합이 가장 높은 최종 효율을 보입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 전용 장비까지 포함한 일반 엔드게임에서는 악의 복수와 재앙 드래곤 조합이 가장 높은 최종 효율을 보입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -11766,7 +11772,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 고속 기본 공격으로 재앙 드래곤 중첩을 유지하기 좋은 엔드게임 세팅입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 고속 기본 공격으로 재앙 드래곤 중첩을 유지하기 좋은 엔드게임 세팅입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -11845,7 +11851,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
       }
     },
@@ -11933,7 +11939,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 저체력 구간의 2연타를 포함해 기본 공격 비중이 높아 마수의 포효를 우선합니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 저체력 구간의 2연타를 포함해 기본 공격 비중이 높아 마수의 포효를 우선합니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -12012,7 +12018,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격 기여도를 극대화하기 위해 마수의 포효를 사용합니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격 기여도를 극대화하기 위해 마수의 포효를 사용합니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -12086,7 +12092,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격과 대공 지속딜 비중이 높은 영주 궁수라 마수의 포효로 평타 화력을 직접 강화합니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격과 대공 지속딜 비중이 높은 영주 궁수라 마수의 포효로 평타 화력을 직접 강화합니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -12158,7 +12164,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. Fastidious 엔드게임 단계에서 악의 복수 + 마수의 포효가 직접 확인됩니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. Fastidious 엔드게임 단계에서 악의 복수 + 마수의 포효가 직접 확인됩니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -12224,7 +12230,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 치명타 기반 엔드게임 딜 세팅입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 치명타 기반 엔드게임 딜 세팅입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -12311,7 +12317,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 단일 마법 딜과 마법 저항 감소를 함께 활용하며 최종 단계에서는 재앙 드래곤 치명타 세팅이 우선됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 단일 마법 딜과 마법 저항 감소를 함께 활용하며 최종 단계에서는 재앙 드래곤 치명타 세팅이 우선됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -12385,7 +12391,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 지원 능력이 있는 전사지만 자체 딜 기대값이 높아 최종 단계에서는 악의 복수 + 재앙 드래곤을 사용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 지원 능력이 있는 전사지만 자체 딜 기대값이 높아 최종 단계에서는 악의 복수 + 재앙 드래곤을 사용합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -12461,7 +12467,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 공격력과 HP를 모두 활용하지만 최종 피해 기준으로는 악의 복수 + 재앙 드래곤을 우선합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, HP%.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 공격력과 HP를 모두 활용하지만 최종 피해 기준으로는 악의 복수 + 재앙 드래곤을 우선합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, HP 보너스.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -12536,7 +12542,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 지원 기능이 있지만 자체 딜 비중도 높아 최종 장비 기준으로는 악의 복수와 재앙 드래곤을 사용합니다. 권장 옵션: 공격 속도, 공격력%, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 지원 기능이 있지만 자체 딜 비중도 높아 최종 장비 기준으로는 악의 복수와 재앙 드래곤을 사용합니다. 권장 옵션: 공격 속도, 공격력 보너스, 치명타율, 치명타 피해.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -12626,7 +12632,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 기존 북쪽 경계 왕좌 검수에서 확정한 최종 탱커 세팅을 그대로 유지합니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 기존 북쪽 경계 왕좌 검수에서 확정한 최종 탱커 세팅을 그대로 유지합니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -12699,7 +12705,7 @@
       "gear": {
         "name": "전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 마리엘은 피해보다 군중 제어 순환이 중요합니다. 공격 속도와 분노 회복을 최우선으로 맞추고 성스러운 날개로 파티 지원을 더합니다. 권장 옵션: 공격 속도, 분노 회복, HP%, 방어력%.",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 마리엘은 피해보다 군중 제어 순환이 중요합니다. 공격 속도와 분노 회복을 최우선으로 맞추고 성스러운 날개로 파티 지원을 더합니다. 권장 옵션: 공격 속도, 분노 회복, HP 보너스, 방어력 보너스.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -12778,7 +12784,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 치명타 기반 광역 딜러의 최종 세팅입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 치명타 기반 광역 딜러의 최종 세팅입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -12849,7 +12855,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 생존 보조가 필요하지만 엔드게임 피해 세팅은 악의 복수 + 재앙 드래곤으로 확인됩니다. 권장 옵션: 공격력%, 치명타율, HP%, 공격 속도.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 생존 보조가 필요하지만 엔드게임 피해 세팅은 악의 복수 + 재앙 드래곤으로 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, HP 보너스, 공격 속도.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -12914,7 +12920,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 성스러운 날개 (Wings of Grace) 세트. 방어력 기반 생존과 아군 지원을 함께 살리는 방향으로 교정했습니다. 권장 옵션: 방어력%, HP%, 공격 속도, 치유 효과, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 성스러운 날개 (Wings of Grace) 세트. 방어력 기반 생존과 아군 지원을 함께 살리는 방향으로 교정했습니다. 권장 옵션: 방어력 보너스, HP 보너스, 공격 속도, 치유 효과, 분노 회복.",
         "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
       }
     },
@@ -12984,7 +12990,7 @@
       "gear": {
         "name": "빛의 은혜 (Light's Grace) 세트 + 불멸의 의지 (Unshaken Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 불멸의 의지 (Unshaken Will) 세트. HP 기반 광역 치유와 해제 역할을 유지하면서 최대 HP와 피격 회복으로 본인 생존력을 확보합니다. 권장 옵션: HP%, 공격 속도, 치유 효과, 분노 회복.",
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 불멸의 의지 (Unshaken Will) 세트. HP 기반 광역 치유와 해제 역할을 유지하면서 최대 HP와 피격 회복으로 본인 생존력을 확보합니다. 권장 옵션: HP 보너스, 공격 속도, 치유 효과, 분노 회복.",
         "source": "2026-09-18 북쪽 경계 왕좌 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg Stage 3 교차검증"
       }
     },
@@ -13065,7 +13071,7 @@
       "gear": {
         "name": "전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 모레이나는 최신 DB에 별도 최종 단계 빌드가 충분히 정리되어 있지 않아, 현재 엔드게임 추천표의 1순위 조합인 전쟁의 주인과 영혼의 비밀을 적용했습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 모레이나는 최신 DB에 별도 최종 단계 빌드가 충분히 정리되어 있지 않아, 현재 엔드게임 추천표의 1순위 조합인 전쟁의 주인과 영혼의 비밀을 적용했습니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -13156,7 +13162,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. Fastidious 최종 단계에서 악의 복수 + 재앙 드래곤 조합이 직접 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. Fastidious 최종 단계에서 악의 복수 + 재앙 드래곤 조합이 직접 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -13236,7 +13242,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 광역 마법 딜러·영주 역할을 함께 수행하며, 엔드게임은 악의 복수 + 재앙 드래곤으로 정리합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 광역 마법 딜러·영주 역할을 함께 수행하며, 엔드게임은 악의 복수 + 재앙 드래곤으로 정리합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -13301,7 +13307,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 화상과 단일 대상 지속딜을 살리면서 재앙 드래곤 중첩을 유지하는 최종 세팅입니다. 권장 옵션: 공격 속도, 공격력%, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 화상과 단일 대상 지속딜을 살리면서 재앙 드래곤 중첩을 유지하는 최종 세팅입니다. 권장 옵션: 공격 속도, 공격력 보너스, 치명타율, 치명타 피해.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -13379,7 +13385,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 독과 광역 마법 화력을 빠르게 누적하며 최종 단계에서 악의 복수 + 재앙 드래곤이 직접 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 독과 광역 마법 화력을 빠르게 누적하며 최종 단계에서 악의 복수 + 재앙 드래곤이 직접 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -13455,7 +13461,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 공격 속도를 충분히 확보한 뒤 재앙 드래곤 중첩을 유지하는 엔드게임 세팅입니다. 권장 옵션: 공격 속도, 공격력%, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 공격 속도를 충분히 확보한 뒤 재앙 드래곤 중첩을 유지하는 엔드게임 세팅입니다. 권장 옵션: 공격 속도, 공격력 보너스, 치명타율, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -13522,7 +13528,7 @@
       "gear": {
         "name": "전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 궁극기 회전과 지원이 핵심이라 공격 속도·분노 회복을 최우선으로 두며 최종 단계에서 전쟁의 주인 + 성스러운 날개가 직접 확인됩니다. 권장 옵션: 공격 속도, 분노 회복, HP%, 공격력%.",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 궁극기 회전과 지원이 핵심이라 공격 속도·분노 회복을 최우선으로 두며 최종 단계에서 전쟁의 주인 + 성스러운 날개가 직접 확인됩니다. 권장 옵션: 공격 속도, 분노 회복, HP 보너스, 공격력 보너스.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -13615,7 +13621,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
       }
     },
@@ -13700,7 +13706,7 @@
       "gear": {
         "name": "빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 지속 치유와 파티 지원을 반복하는 힐러로 최종 단계의 빛의 은혜 + 성스러운 날개 조합을 적용합니다. 권장 옵션: 공격 속도, 공격력%, HP%, 치유 효과, 분노 회복.",
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 지속 치유와 파티 지원을 반복하는 힐러로 최종 단계의 빛의 은혜 + 성스러운 날개 조합을 적용합니다. 권장 옵션: 공격 속도, 공격력 보너스, HP 보너스, 치유 효과, 분노 회복.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -13776,7 +13782,7 @@
       "gear": {
         "name": "전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 현재 해외 자료에서 더 우월한 최종 조합이 일관되게 확인되지 않아 검증된 전쟁의 주인 + 영혼의 비밀을 유지합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 현재 해외 자료에서 더 우월한 최종 조합이 일관되게 확인되지 않아 검증된 전쟁의 주인 + 영혼의 비밀을 유지합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -13847,7 +13853,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 독·연소 상태를 반복적으로 부여하는 마법 딜러로 최종 단계에서 악의 복수 + 재앙 드래곤이 직접 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 독·연소 상태를 반복적으로 부여하는 마법 딜러로 최종 단계에서 악의 복수 + 재앙 드래곤이 직접 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -13914,7 +13920,7 @@
       "gear": {
         "name": "빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 광역 치유와 해제·버프를 동시에 수행하므로 치유와 분노 회복을 챙기면서 성스러운 날개로 파티 지원을 더합니다. 권장 옵션: 공격력%, 공격 속도, 치유 효과, 분노 회복.",
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 광역 치유와 해제·버프를 동시에 수행하므로 치유와 분노 회복을 챙기면서 성스러운 날개로 파티 지원을 더합니다. 권장 옵션: 공격력 보너스, 공격 속도, 치유 효과, 분노 회복.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -14002,7 +14008,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격 비중이 높은 단일 마법 딜러라 마수의 포효를 최종 추천으로 유지합니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격 비중이 높은 단일 마법 딜러라 마수의 포효를 최종 추천으로 유지합니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -14093,7 +14099,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 단일 마법 공격과 지속 피해를 치명타 기반으로 누적할 수 있어 재앙 드래곤의 중첩 효율이 높습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 단일 마법 공격과 지속 피해를 치명타 기반으로 누적할 수 있어 재앙 드래곤의 중첩 효율이 높습니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -14174,7 +14180,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 광역 물리 사격을 반복하며 다수 적을 치기 때문에 치명타 중첩을 유지하기 쉬운 재앙 드래곤을 최종 추천으로 둡니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 광역 물리 사격을 반복하며 다수 적을 치기 때문에 치명타 중첩을 유지하기 쉬운 재앙 드래곤을 최종 추천으로 둡니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -14240,7 +14246,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 강한 자체 실드와 순수 탱킹을 살리기 위해 최대 HP와 피격 회복을 우선하는 엔드게임 세팅입니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 강한 자체 실드와 순수 탱킹을 살리기 위해 최대 HP와 피격 회복을 우선하는 엔드게임 세팅입니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-18 북쪽 경계 왕좌 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg Stage 3 교차검증"
       }
     },
@@ -14321,7 +14327,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기 발동 후 20초 동안 피해와 치명타 피해를 크게 올리는 지옥 비명이 오렌의 광역 압박과 궁극기 중심 운용에 가장 잘 맞습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기 발동 후 20초 동안 피해와 치명타 피해를 크게 올리는 지옥 비명이 오렌의 광역 압박과 궁극기 중심 운용에 가장 잘 맞습니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 최고 중재자(Supreme Arbiters) 엔드게임 전수검수: Prospector.gg End Game 직접 검증"
       }
     },
@@ -14389,7 +14395,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 최종 탱커 세팅은 성흔의 수호와 불멸의 의지로 최대 HP와 피격 회복을 강화합니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 최종 탱커 세팅은 성흔의 수호와 불멸의 의지로 최대 HP와 피격 회복을 강화합니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -14454,7 +14460,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 공격 속도 효과를 거의 받지 않는 특성상 치명타·공격력 위주로 맞추며 최종 단계는 악의 복수 + 재앙 드래곤입니다. 권장 옵션: 치명타율, 치명타 피해, 공격력%, HP%.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 공격 속도 효과를 거의 받지 않는 특성상 치명타·공격력 위주로 맞추며 최종 단계는 악의 복수 + 재앙 드래곤입니다. 권장 옵션: 치명타율, 치명타 피해, 공격력 보너스, HP 보너스.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -14528,7 +14534,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 단일 물리 딜과 대공 압박을 안정적으로 끌어올리는 치명타 기반 재앙 드래곤 세팅을 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 단일 물리 딜과 대공 압박을 안정적으로 끌어올리는 치명타 기반 재앙 드래곤 세팅을 적용합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -14620,7 +14626,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 피에르의 Prismarch는 소환 시 스탯을 고정하므로 지옥 비명의 궁극기 버프를 온전히 유지할 수 있어 최종 효율이 매우 높습니다. 권장 옵션: 공격 속도, 치명타율, 치명타 피해, 공격력%.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 피에르의 Prismarch는 소환 시 스탯을 고정하므로 지옥 비명의 궁극기 버프를 온전히 유지할 수 있어 최종 효율이 매우 높습니다. 권장 옵션: 공격 속도, 치명타율, 치명타 피해, 공격력 보너스.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -14697,7 +14703,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 궁극기를 반복할수록 피해가 영구 누적되는 영혼의 비밀이 플레트스의 장기전·연속 궁극기 구조와 가장 잘 맞는 엔드게임 세팅입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 궁극기를 반복할수록 피해가 영구 누적되는 영혼의 비밀이 플레트스의 장기전·연속 궁극기 구조와 가장 잘 맞는 엔드게임 세팅입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 최고 중재자(Supreme Arbiters) 엔드게임 전수검수: Prospector.gg End Game 직접 검증"
       }
     },
@@ -14768,7 +14774,7 @@
       "gear": {
         "name": "전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 파로스는 개인 딜보다 연옥 영주 궁극기의 빠른 회전과 파티 강화 가치가 더 중요해 공격 속도·분노 회복을 우선하고 전쟁의 주인 + 영혼의 비밀을 대표 추천으로 둡니다. 권장 옵션: 공격 속도, 분노 회복, 공격력%, 치명타율.",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 파로스는 개인 딜보다 연옥 영주 궁극기의 빠른 회전과 파티 강화 가치가 더 중요해 공격 속도·분노 회복을 우선하고 전쟁의 주인 + 영혼의 비밀을 대표 추천으로 둡니다. 권장 옵션: 공격 속도, 분노 회복, 공격력 보너스, 치명타율.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -14835,7 +14841,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 광역 마법 기본 공격과 궁극기로 치명타 중첩을 유지하기 쉬워 최종 단계에서 악의 복수 + 재앙 드래곤이 직접 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 광역 마법 기본 공격과 궁극기로 치명타 중첩을 유지하기 쉬워 최종 단계에서 악의 복수 + 재앙 드래곤이 직접 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -14907,7 +14913,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 해외 위키의 일반 엔드게임 빌드가 악의 복수 + 재앙 드래곤으로 정리되어 있습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 해외 위키의 일반 엔드게임 빌드가 악의 복수 + 재앙 드래곤으로 정리되어 있습니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -14987,7 +14993,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 광역 물리 피해와 처치 연계를 살리는 범용 최종 딜 조합으로 재앙 드래곤을 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 광역 물리 피해와 처치 연계를 살리는 범용 최종 딜 조합으로 재앙 드래곤을 적용합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -15066,7 +15072,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 엔드게임 기준 재정리: Fastidious.gg 중심, Prospector/HellHades 보조 교차검증"
       }
     },
@@ -15137,7 +15143,7 @@
       "gear": {
         "name": "불굴의 용사 (Immortal Warrior) 세트 + 강철 의지 (Tempered Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 불굴의 용사 (Immortal Warrior) 세트 + 강철 의지 (Tempered Will) 세트. 엔드게임 탱킹에서 HP와 전열 유지력을 우선하는 조합으로 교정했습니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 불굴의 용사 (Immortal Warrior) 세트 + 강철 의지 (Tempered Will) 세트. 엔드게임 탱킹에서 HP와 전열 유지력을 우선하는 조합으로 교정했습니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
       }
     },
@@ -15207,7 +15213,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 방어력 기반 탱커 특성을 살리기 위해 성흔의 수호와 강철 의지를 사용합니다. 권장 옵션: 방어력%, HP%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 방어력 기반 탱커 특성을 살리기 위해 성흔의 수호와 강철 의지를 사용합니다. 권장 옵션: 방어력 보너스, HP 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -15292,7 +15298,7 @@
       "gear": {
         "name": "전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 지원형 영주로서 공격 속도와 분노 순환을 확보하고 성스러운 날개로 파티 공격 지원을 강화합니다. 권장 옵션: 공격 속도, 공격력%, 치유 효과, 분노 회복.",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 지원형 영주로서 공격 속도와 분노 순환을 확보하고 성스러운 날개로 파티 공격 지원을 강화합니다. 권장 옵션: 공격 속도, 공격력 보너스, 치유 효과, 분노 회복.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -15365,7 +15371,7 @@
       "gear": {
         "name": "불굴의 용사 (Immortal Warrior) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 불굴의 용사 (Immortal Warrior) 세트 + 재앙 드래곤 (Cataclysm) 세트. HP 기반 딜러라 불굴의 용사로 체력을 확보하면서 재앙 드래곤으로 피해를 증폭합니다. 권장 옵션: HP%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 불굴의 용사 (Immortal Warrior) 세트 + 재앙 드래곤 (Cataclysm) 세트. HP 기반 딜러라 불굴의 용사로 체력을 확보하면서 재앙 드래곤으로 피해를 증폭합니다. 권장 옵션: HP 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -15452,7 +15458,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 공격 속도 가치가 높은 광역 딜러로, 진영 전용 장비를 포함한 최종 세팅은 악의 복수 + 재앙 드래곤입니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 공격 속도 가치가 높은 광역 딜러로, 진영 전용 장비를 포함한 최종 세팅은 악의 복수 + 재앙 드래곤입니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -15536,7 +15542,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 단일·대공 화력을 치명타 중심으로 누적하는 구조라 재앙 드래곤이 가장 안정적인 최종 딜 세팅입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 단일·대공 화력을 치명타 중심으로 누적하는 구조라 재앙 드래곤이 가장 안정적인 최종 딜 세팅입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -15613,7 +15619,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. Fastidious 최종 단계에서 악의 복수 + 재앙 드래곤이 직접 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. Fastidious 최종 단계에서 악의 복수 + 재앙 드래곤이 직접 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -15692,7 +15698,7 @@
       "gear": {
         "name": "빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 궁극기 회전이 중요한 보호형 힐러라 분노 회복을 우선하고 성스러운 날개로 파티 지원을 더합니다. 권장 옵션: 분노 회복, 공격 속도, HP%, 치유 효과.",
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 궁극기 회전이 중요한 보호형 힐러라 분노 회복을 우선하고 성스러운 날개로 파티 지원을 더합니다. 권장 옵션: 분노 회복, 공격 속도, HP 보너스, 치유 효과.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -15769,7 +15775,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. Prospector End Game과 Fastidious Stage 3가 모두 살라잘의 궁극기 폭딜을 위해 지옥 비명을 우선합니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. Prospector End Game과 Fastidious Stage 3가 모두 살라잘의 궁극기 폭딜을 위해 지옥 비명을 우선합니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-18 악몽 의회 추천 장비 전수 재검수: Prospector.gg End Game + Fastidious.gg End Game/Stage 3 교차검증"
       }
     },
@@ -15852,7 +15858,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 다단 기본 공격과 지속 피해·방어 무시를 함께 활용하므로 기본 공격 피해를 직접 강화하는 마수의 포효 효율이 높습니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 다단 기본 공격과 지속 피해·방어 무시를 함께 활용하므로 기본 공격 피해를 직접 강화하는 마수의 포효 효율이 높습니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -15920,7 +15926,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 다단 기본 공격과 궁극기 강화 구조라 최종 단계에서 마수의 포효를 사용합니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 다단 기본 공격과 궁극기 강화 구조라 최종 단계에서 마수의 포효를 사용합니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -15991,7 +15997,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격 지속 화력 비중이 높은 전사라 최종 단계에서 악의 복수 + 마수의 포효가 직접 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격 지속 화력 비중이 높은 전사라 최종 단계에서 악의 복수 + 마수의 포효가 직접 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -16057,7 +16063,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 낮은 기본 공격 속도를 보완하면서 치명타 중첩을 유지할 수 있도록 최종 단계의 악의 복수 + 재앙 드래곤 조합을 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 낮은 기본 공격 속도를 보완하면서 치명타 중첩을 유지할 수 있도록 최종 단계의 악의 복수 + 재앙 드래곤 조합을 적용합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -16124,7 +16130,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 단일 마법 딜을 치명타 중심으로 극대화하는 최종 단계에서 악의 복수 + 재앙 드래곤이 직접 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 단일 마법 딜을 치명타 중심으로 극대화하는 최종 단계에서 악의 복수 + 재앙 드래곤이 직접 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -16208,7 +16214,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 해외 엔드게임 빌드에서 악의 복수 + 지옥 비명 전용 조합이 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 해외 엔드게임 빌드에서 악의 복수 + 지옥 비명 전용 조합이 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -16287,7 +16293,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 사트라무의 궁극기는 강화 기본 공격으로 취급되므로 마수의 포효가 핵심입니다. 전용 왼쪽 장비가 있으면 악의 복수 효율이 더욱 높습니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 사트라무의 궁극기는 강화 기본 공격으로 취급되므로 마수의 포효가 핵심입니다. 전용 왼쪽 장비가 있으면 악의 복수 효율이 더욱 높습니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -16361,7 +16367,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 기본 공격과 궁극기로 Drowning Water 중첩을 유지하면서 치명타 기반 재앙 드래곤 중첩을 활용하는 엔드게임 딜 세팅입니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 기본 공격과 궁극기로 Drowning Water 중첩을 유지하면서 치명타 기반 재앙 드래곤 중첩을 활용하는 엔드게임 딜 세팅입니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-18 북쪽 경계 왕좌 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg Stage 3 교차검증"
       }
     },
@@ -16449,7 +16455,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기 Shadowcloak의 폭딜 구간을 지옥 비명의 20초 피해·치명타 피해 강화와 겹쳐 쓰는 최신 엔드게임 세팅입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기 Shadowcloak의 폭딜 구간을 지옥 비명의 20초 피해·치명타 피해 강화와 겹쳐 쓰는 최신 엔드게임 세팅입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -16515,7 +16521,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 치명타 기반 마법 딜러의 최종 세팅으로 재앙 드래곤 중첩을 활용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 치명타 기반 마법 딜러의 최종 세팅으로 재앙 드래곤 중첩을 활용합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -16599,7 +16605,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 연옥 영주이자 단일 마법 딜러로, 전용 진영 장비까지 포함한 일반 엔드게임에서는 재앙 드래곤 조합이 최종 추천입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 연옥 영주이자 단일 마법 딜러로, 전용 진영 장비까지 포함한 일반 엔드게임에서는 재앙 드래곤 조합이 최종 추천입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -16674,7 +16680,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 기존 북쪽 경계 검수에서 확정한 최종 치명타 딜 세팅을 유지합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 기존 북쪽 경계 검수에서 확정한 최종 치명타 딜 세팅을 유지합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -16744,7 +16750,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 레어 영웅이지만 최고 장비를 기준으로 하면 일반 치명타 딜러용 엔드게임 조합을 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 레어 영웅이지만 최고 장비를 기준으로 하면 일반 치명타 딜러용 엔드게임 조합을 적용합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -16830,7 +16836,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 배치 직후 자동 궁극기와 20초 전장 체류 구조가 지옥 비명의 20초 강화 효과와 정확히 맞물립니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 배치 직후 자동 궁극기와 20초 전장 체류 구조가 지옥 비명의 20초 강화 효과와 정확히 맞물립니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -16888,7 +16894,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 최신 엔드게임 대표 세팅을 기준으로 재앙 드래곤에서 영혼의 비밀로 교정했습니다. 재앙 드래곤은 동급 품질의 대체 세팅으로 사용할 수 있습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 최신 엔드게임 대표 세팅을 기준으로 재앙 드래곤에서 영혼의 비밀로 교정했습니다. 재앙 드래곤은 동급 품질의 대체 세팅으로 사용할 수 있습니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
       },
       "awakening": [
@@ -17031,7 +17037,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 본체 기본 공격과 소환 압박을 꾸준히 이어가는 구조라 공격 속도와 기본 공격 피해를 강화하는 마수의 포효를 우선합니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 본체 기본 공격과 소환 압박을 꾸준히 이어가는 구조라 공격 속도와 기본 공격 피해를 강화하는 마수의 포효를 우선합니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -17120,7 +17126,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 파수꾼 진영 시너지와 엔드게임 자료를 종합해 재앙 드래곤을 기본 추천으로 교정했습니다. 마수의 포효는 장비 품질과 운용에 따라 대안으로 사용할 수 있습니다. 권장 옵션: 공격 속도, 치명타율, 치명타 피해, HP%.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 파수꾼 진영 시너지와 엔드게임 자료를 종합해 재앙 드래곤을 기본 추천으로 교정했습니다. 마수의 포효는 장비 품질과 운용에 따라 대안으로 사용할 수 있습니다. 권장 옵션: 공격 속도, 치명타율, 치명타 피해, HP 보너스.",
         "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
       }
     },
@@ -17207,7 +17213,7 @@
       "gear": {
         "name": "빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 공격 속도를 치유 효과로 전환하는 고유 특성과 광역 지원을 살리기 위해 공격 속도·치유 효과를 최우선으로 맞춥니다. 권장 옵션: 치유 효과, 공격 속도, 공격력%, 분노 회복.",
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 공격 속도를 치유 효과로 전환하는 고유 특성과 광역 지원을 살리기 위해 공격 속도·치유 효과를 최우선으로 맞춥니다. 권장 옵션: 치유 효과, 공격 속도, 공격력 보너스, 분노 회복.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -17275,7 +17281,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 다단 기본 공격이 핵심인 단일 대공 궁수라 마수의 포효가 가장 직접적인 최종 피해 상승을 제공합니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 다단 기본 공격이 핵심인 단일 대공 궁수라 마수의 포효가 가장 직접적인 최종 피해 상승을 제공합니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -17358,7 +17364,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 마법 피해를 연속으로 누적하는 전사라 최종 단계에서 악의 복수 + 재앙 드래곤이 직접 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 마법 피해를 연속으로 누적하는 전사라 최종 단계에서 악의 복수 + 재앙 드래곤이 직접 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -17432,7 +17438,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 연속 사격과 범위 압박으로 치명타 중첩을 유지하기 쉬워 재앙 드래곤을 최종 추천으로 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 연속 사격과 범위 압박으로 치명타 중첩을 유지하기 쉬워 재앙 드래곤을 최종 추천으로 적용합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -17497,7 +17503,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. HP 기반 탱커로서 최종 단계에서는 성흔의 수호 + 불멸의 의지 조합이 확인됩니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. HP 기반 탱커로서 최종 단계에서는 성흔의 수호 + 불멸의 의지 조합이 확인됩니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -17562,7 +17568,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 자가 회복형 수호자라 최종 단계에서는 최대 체력과 피격 회복을 강화하는 성흔의 수호 + 불멸의 의지가 가장 안정적입니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 불멸의 의지 (Unshaken Will) 세트. 자가 회복형 수호자라 최종 단계에서는 최대 체력과 피격 회복을 강화하는 성흔의 수호 + 불멸의 의지가 가장 안정적입니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -17633,7 +17639,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 일반 엔드게임 기준으로는 강철 의지의 피해 감소가 불멸의 의지의 추가 HP보다 안정적이라 성흔의 수호 + 강철 의지를 우선합니다. 권장 옵션: HP%, 방어력%, 공격 속도, 분노 회복.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 일반 엔드게임 기준으로는 강철 의지의 피해 감소가 불멸의 의지의 추가 HP보다 안정적이라 성흔의 수호 + 강철 의지를 우선합니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -17713,7 +17719,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 트룩스는 방어력 비례 피해를 활용하므로 일반 공격력 딜러 세팅이 아니라 방어력%를 우선하며, 최종 단계의 성흔의 수호 + 강철 의지를 적용합니다. 권장 옵션: 방어력%, HP%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 트룩스는 방어력 비례 피해를 활용하므로 일반 공격력 딜러 세팅이 아니라 방어력%를 우선하며, 최종 단계의 성흔의 수호 + 강철 의지를 적용합니다. 권장 옵션: 방어력 보너스, HP 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -17791,7 +17797,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 트윈즈는 궁극기 회전과 영주 지원 가치가 핵심이며, 전용 빌드 기준 엔드게임은 악의 복수 + 영혼의 비밀이 우선됩니다. 권장 옵션: 공격력%, 분노 회복, 공격 속도, 치명타율.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 트윈즈는 궁극기 회전과 영주 지원 가치가 핵심이며, 전용 빌드 기준 엔드게임은 악의 복수 + 영혼의 비밀이 우선됩니다. 권장 옵션: 공격력 보너스, 분노 회복, 공격 속도, 치명타율.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -17865,7 +17871,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 해외 자료가 마수의 포효와 재앙 드래곤으로 나뉘지만, 진영 전용 장비까지 포함한 일반 엔드게임 기준에서는 재앙 드래곤을 우선합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 해외 자료가 마수의 포효와 재앙 드래곤으로 나뉘지만, 진영 전용 장비까지 포함한 일반 엔드게임 기준에서는 재앙 드래곤을 우선합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -17942,7 +17948,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 최종 단계에서 재앙 드래곤을 활용하는 치명타 기반 딜 세팅이 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 최종 단계에서 재앙 드래곤을 활용하는 치명타 기반 딜 세팅이 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -18041,7 +18047,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 이동·광역·마저 감소를 활용하면서 직접 화력도 높아 최종 단계에서 악의 복수 + 재앙 드래곤이 직접 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 이동·광역·마저 감소를 활용하면서 직접 화력도 높아 최종 단계에서 악의 복수 + 재앙 드래곤이 직접 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -18126,7 +18132,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 일반 공격과 Chaotic Annihilation 비중이 높아 기본 공격 피해를 강화하는 마수의 포효 효율이 매우 높습니다. 주옵션은 공격력% / 공격 속도 / 공격력%를 우선하고, 권장 옵션은 공격력%, 공격 속도, 치명타율, 치명타 피해입니다.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 일반 공격과 Chaotic Annihilation 비중이 높아 기본 공격 피해를 강화하는 마수의 포효 효율이 매우 높습니다. 주옵션은 공격력% / 공격 속도 / 공격력%를 우선하고, 권장 옵션은 공격력 보너스, 공격 속도, 치명타율, 치명타 피해입니다.",
         "source": "2026-09-17 혼돈 정복자(Chaos Dominion) 엔드게임 전수검수: Prospector.gg + Fastidious.gg 교차검증"
       }
     },
@@ -18214,7 +18220,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. Fastidious 최종 단계에서 악의 복수 + 재앙 드래곤 조합이 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. Fastidious 최종 단계에서 악의 복수 + 재앙 드래곤 조합이 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -18302,7 +18308,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 현재 엔드게임 자료에서는 재앙 드래곤을 대표 추천으로 채택합니다. 마수의 포효도 장비 품질과 콘텐츠에 따라 경쟁력 있는 대안입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 현재 엔드게임 자료에서는 재앙 드래곤을 대표 추천으로 채택합니다. 마수의 포효도 장비 품질과 콘텐츠에 따라 경쟁력 있는 대안입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -18386,7 +18392,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격을 지속하며 단일 대공 화력을 내는 구조라 마수의 포효의 평타 강화 효과가 잘 맞습니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격을 지속하며 단일 대공 화력을 내는 구조라 마수의 포효의 평타 강화 효과가 잘 맞습니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -18444,7 +18450,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 최신 영웅이라 공개 DB에 완성된 장비 빌드 표본이 아직 부족합니다. 현재 공격형 마법사·소환체 구조를 기준으로 범용 최종 딜 조합인 악의 복수 + 재앙 드래곤을 우선 적용하며 추후 전용 장비 데이터가 축적되면 재검수합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 최신 영웅이라 공개 DB에 완성된 장비 빌드 표본이 아직 부족합니다. 현재 공격형 마법사·소환체 구조를 기준으로 범용 최종 딜 조합인 악의 복수 + 재앙 드래곤을 우선 적용하며 추후 전용 장비 데이터가 축적되면 재검수합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -18518,7 +18524,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 소환 지원 능력과 자체 광역 딜을 모두 갖춘 영웅으로, 최종 단계는 악의 복수 + 재앙 드래곤입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 소환 지원 능력과 자체 광역 딜을 모두 갖춘 영웅으로, 최종 단계는 악의 복수 + 재앙 드래곤입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -18592,7 +18598,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 직접 딜보다 영주 효과 비중이 크지만 최종 단계 딜 세팅은 악의 복수 + 재앙 드래곤이 직접 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 직접 딜보다 영주 효과 비중이 크지만 최종 단계 딜 세팅은 악의 복수 + 재앙 드래곤이 직접 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -18666,7 +18672,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기 중심 단일 폭딜 비중이 높아 지옥 비명의 20초 강화 구간을 가장 잘 활용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 궁극기 중심 단일 폭딜 비중이 높아 지옥 비명의 20초 강화 구간을 가장 잘 활용합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -18751,7 +18757,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 공격 속도 효율이 낮은 영웅이라 공격력·치명타 피해·분노 회복 위주로 맞추고 재앙 드래곤을 사용합니다. 권장 옵션: 공격력%, 치명타율, 치명타 피해, 분노 회복.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 공격 속도 효율이 낮은 영웅이라 공격력·치명타 피해·분노 회복 위주로 맞추고 재앙 드래곤을 사용합니다. 권장 옵션: 공격력 보너스, 치명타율, 치명타 피해, 분노 회복.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -18829,7 +18835,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 비올레타 베인은 궁극기 강화 구간과 지옥 비명의 20초 피해·치명타 피해 버프가 잘 맞아 현재 엔드게임 대표 세팅으로 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 비올레타 베인은 궁극기 강화 구간과 지옥 비명의 20초 피해·치명타 피해 버프가 잘 맞아 현재 엔드게임 대표 세팅으로 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -18897,7 +18903,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 독 중첩을 빠르게 쌓는 공속형 마법사라 최종 단계에서 악의 복수 + 재앙 드래곤이 직접 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 독 중첩을 빠르게 쌓는 공속형 마법사라 최종 단계에서 악의 복수 + 재앙 드래곤이 직접 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -18970,7 +18976,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 영원불멸의 무법자 (Undying Savage) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 영원불멸의 무법자 (Undying Savage) 세트. HP 비례 피해 구조와 치유·회복이 반복되는 스킬셋이 영원불멸의 무법자와 매우 잘 맞습니다. 일반 엔드게임 기준 대표 추천으로 채택합니다. 권장 옵션: HP%, 치명타율, 치명타 피해, 공격 속도.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 영원불멸의 무법자 (Undying Savage) 세트. HP 비례 피해 구조와 치유·회복이 반복되는 스킬셋이 영원불멸의 무법자와 매우 잘 맞습니다. 일반 엔드게임 기준 대표 추천으로 채택합니다. 권장 옵션: HP 보너스, 치명타율, 치명타 피해, 공격 속도.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -19045,7 +19051,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 연속 공격과 출혈 유지를 위해 공격 속도와 마수의 포효 효율이 높습니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 연속 공격과 출혈 유지를 위해 공격 속도와 마수의 포효 효율이 높습니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -19123,7 +19129,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. Fastidious 최종 단계에서 악의 복수 + 재앙 드래곤이 확인되며, 딜과 생존을 함께 챙깁니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. Fastidious 최종 단계에서 악의 복수 + 재앙 드래곤이 확인되며, 딜과 생존을 함께 챙깁니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -19189,7 +19195,7 @@
       "gear": {
         "name": "전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 레어 영웅이라 전용 엔드게임 자료가 제한적이어서 현재 확인 가능한 최고 범용 딜 조합을 유지합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 레어 영웅이라 전용 엔드게임 자료가 제한적이어서 현재 확인 가능한 최고 범용 딜 조합을 유지합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -19279,7 +19285,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 20초 지속 궁극기 동안 3연타와 독 중첩이 집중되므로 지옥 비명의 20초 피해·치명타 피해 강화와 궁합이 매우 좋습니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 20초 지속 궁극기 동안 3연타와 독 중첩이 집중되므로 지옥 비명의 20초 피해·치명타 피해 강화와 궁합이 매우 좋습니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -19353,7 +19359,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격 의존도가 높아 마수의 포효를 우선하는 엔드게임 세팅입니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 기본 공격 의존도가 높아 마수의 포효를 우선하는 엔드게임 세팅입니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -19425,7 +19431,7 @@
       "gear": {
         "name": "빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. HP 기반 치유·보호막을 살리면서 성스러운 날개로 파티 공격 지원까지 확보합니다. 권장 옵션: 공격 속도, HP%, 치유 효과, 분노 회복.",
+        "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. HP 기반 치유·보호막을 살리면서 성스러운 날개로 파티 공격 지원까지 확보합니다. 권장 옵션: 공격 속도, HP 보너스, 치유 효과, 분노 회복.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
       }
     },
@@ -19467,7 +19473,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 전용 아티팩트까지 갖춘 최고 세팅 기준으로 지옥 비명과 궁극기 시너지가 가장 큽니다. 권장 옵션: 공격 속도, 치명타 피해, 치명타율, HP%.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 지옥 비명 (Hell's Lament) 세트. 전용 아티팩트까지 갖춘 최고 세팅 기준으로 지옥 비명과 궁극기 시너지가 가장 큽니다. 권장 옵션: 공격 속도, 치명타 피해, 치명타율, HP 보너스.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       },
       "awakening": [
@@ -19587,7 +19593,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 배치·퇴각을 반복하는 폭딜형 소환사지만 최종 장비 기준으로는 악의 복수 + 재앙 드래곤이 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 배치·퇴각을 반복하는 폭딜형 소환사지만 최종 장비 기준으로는 악의 복수 + 재앙 드래곤이 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -19653,7 +19659,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 지속 마법 피해를 치명타 기반으로 누적하는 구조라 최신 엔드게임 빌드의 악의 복수 + 재앙 드래곤을 적용합니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 지속 마법 피해를 치명타 기반으로 누적하는 구조라 최신 엔드게임 빌드의 악의 복수 + 재앙 드래곤을 적용합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 비법회(Esoteria Order) 엔드게임 전수검수: Fastidious.gg 중심 + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -19725,7 +19731,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 배치 후 짧은 폭딜 구간이 강한 영웅이지만, 최종 단계 기준으로는 재앙 드래곤 치명타 세팅이 가장 높은 기대값을 보입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 배치 후 짧은 폭딜 구간이 강한 영웅이지만, 최종 단계 기준으로는 재앙 드래곤 치명타 세팅이 가장 높은 기대값을 보입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -19798,7 +19804,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 광역 기본 공격과 빙결 연계 화력을 함께 끌어올리는 최종 단계 세팅이며, 동급 품질에서는 영혼의 비밀도 유효한 대체안입니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 광역 기본 공격과 빙결 연계 화력을 함께 끌어올리는 최종 단계 세팅이며, 동급 품질에서는 영혼의 비밀도 유효한 대체안입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 알 수 없는 자(Unnamable) 엔드게임 전수검수: Fastidious.gg + Prospector.gg End Game 교차검증"
       }
     },
@@ -19889,7 +19895,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. Fastidious 최종 단계에서 악의 복수 + 재앙 드래곤 조합이 확인됩니다. 권장 옵션: 공격력%, 치명타율, 공격 속도, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. Fastidious 최종 단계에서 악의 복수 + 재앙 드래곤 조합이 확인됩니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 악몽 의회 엔드게임 전수검수: Fastidious.gg + Prospector.gg + WoR Wiki 빌드 교차검증"
       }
     },
@@ -19968,7 +19974,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 공격 속도 효율이 낮아 공격력·치명타·분노 회복에 집중하며 최종 단계는 악의 복수 + 재앙 드래곤입니다. 권장 옵션: 공격력%, 치명타율, 치명타 피해, 분노 회복.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 공격 속도 효율이 낮아 공격력·치명타·분노 회복에 집중하며 최종 단계는 악의 복수 + 재앙 드래곤입니다. 권장 옵션: 공격력 보너스, 치명타율, 치명타 피해, 분노 회복.",
         "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
       }
     },
@@ -20046,7 +20052,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 제리엘의 궁극기와 고정 피해는 마수의 포효의 영향을 크게 받으며, 재앙 드래곤이나 영혼의 비밀보다 마수의 포효 효율이 명확히 높습니다. 권장 옵션: 공격력%, 공격 속도, 치명타율, 치명타 피해.",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 마수의 포효 (Infernal Roar) 세트. 제리엘의 궁극기와 고정 피해는 마수의 포효의 영향을 크게 받으며, 재앙 드래곤이나 영혼의 비밀보다 마수의 포효 효율이 명확히 높습니다. 권장 옵션: 공격력 보너스, 공격 속도, 치명타율, 치명타 피해.",
         "source": "2026-09-17 연옥(Infernal Blast) 엔드게임 전수검수: Fastidious.gg + Prospector.gg + Watcher of Realms Wiki 교차검증"
       }
     },
@@ -20093,7 +20099,7 @@
       "gear": {
         "name": "성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Unshaken Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 성흔의 수호 + 강철 의지. 최대 HP와 전열 생존을 우선하면서 오켄바르의 자체 회복·피해 감소·제어 역할을 강화하는 엔드게임 수호자 세팅입니다. 권장 옵션: HP%, 방어력%, 공격 속도.",
+        "text": "최종 추천: 성흔의 수호 + 강철 의지. 최대 HP와 전열 생존을 우선하면서 오켄바르의 자체 회복·피해 감소·제어 역할을 강화하는 엔드게임 수호자 세팅입니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도.",
         "source": "2026-09-27 Okenvar 최신 엔드게임 빌드 교차검수"
       },
       "awakening": [
@@ -20199,7 +20205,7 @@
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 악의 복수 + 재앙 드래곤. 기본 공격의 치명타로 재앙 드래곤 피해 증가 중첩을 쌓고, 공격력과 치명타 피해를 확보하는 물리 딜러 세팅입니다. 권장 옵션: 공격력%, 치명타율, 치명타 피해, 공격 속도.",
+        "text": "최종 추천: 악의 복수 + 재앙 드래곤. 기본 공격의 치명타로 재앙 드래곤 피해 증가 중첩을 쌓고, 공격력과 치명타 피해를 확보하는 물리 딜러 세팅입니다. 권장 옵션: 공격력 보너스, 치명타율, 치명타 피해, 공격 속도.",
         "source": "2026-09-28 Prospector.gg Veyrathia 엔드게임 장비 빌드 참고: https://prospector.gg/hero/veyrathia/"
       }
     },
