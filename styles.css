@@ -5050,6 +5050,33 @@ body.modal-open {
 
 
 /* v2.13.4w — recommended gear common caution */
+.detail-gear-options {
+  margin-top: 10px;
+}
+.detail-gear-options > strong {
+  display: block;
+  margin-bottom: 7px;
+  color: #d8bf83;
+  font-size: 12px;
+}
+.detail-gear-option-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.detail-gear-option {
+  display: inline-flex;
+  align-items: center;
+  min-height: 29px;
+  padding: 5px 10px;
+  border: 1px solid rgba(229,189,105,.32);
+  border-radius: 7px;
+  background: rgba(229,189,105,.10);
+  color: #ead6a4;
+  font-size: 12px;
+  line-height: 1.3;
+  white-space: nowrap;
+}
 .detail-gear-caution {
   margin: 10px 2px 0;
   color: #8795aa;
