@@ -77,6 +77,7 @@ const active = { rarity: "all", class: "all", content: "all", collection: "all" 
 
 const contentMeta = {
   abyss: { kr: "심연", en: "Abyss" },
+  "fallen-twins": { kr: "타천의쌍둥이", en: "Fallen Twins" },
   "arena-air": { kr: "아레나공중", en: "Arena Air" },
   "arena-aoe": { kr: "아레나광역", en: "Arena AoE" },
   "arena-single": { kr: "아레나단일", en: "Arena Single Target" }
@@ -605,14 +606,14 @@ function renderRecentUpdates(items) {
 
 // Keep the server-rendered cards visible until both sources are ready.
 // A partial render with heroes.json but no activity briefly restores the old order.
-const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.91", { cache: "no-store" })
+const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.92", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("recent updates load failed");
     return response.json();
   })
   .catch((error) => { console.warn(error); return null; });
 
-const heroesPromise = fetch("./heroes.json?v=2.14.91", { cache: "no-store" })
+const heroesPromise = fetch("./heroes.json?v=2.14.92", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();

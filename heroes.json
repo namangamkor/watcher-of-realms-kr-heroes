@@ -3017,7 +3017,8 @@
       }
     ],
     "contentTags": [
-      "abyss"
+      "abyss",
+      "fallen-twins"
     ],
     "collectionValue": 5,
     "exclusiveArtifact": {
@@ -5058,7 +5059,8 @@
       "abyss",
       "arena-air",
       "arena-aoe",
-      "arena-single"
+      "arena-single",
+      "fallen-twins"
     ],
     "details": {
       "gear": {
@@ -5313,7 +5315,8 @@
       }
     ],
     "contentTags": [
-      "abyss"
+      "abyss",
+      "fallen-twins"
     ],
     "collectionValue": 5,
     "videos": [
@@ -5695,7 +5698,8 @@
     "contentTags": [
       "abyss",
       "arena-aoe",
-      "arena-single"
+      "arena-single",
+      "fallen-twins"
     ],
     "collectionValue": 5,
     "videos": [
@@ -6038,7 +6042,8 @@
     ],
     "contentTags": [
       "abyss",
-      "titan-transcendence"
+      "titan-transcendence",
+      "fallen-twins"
     ],
     "collectionValue": 5,
     "videos": [
@@ -8003,7 +8008,8 @@
     "contentTags": [
       "abyss",
       "arena-air",
-      "arena-single"
+      "arena-single",
+      "fallen-twins"
     ],
     "collectionValue": 5,
     "videos": [
@@ -8402,7 +8408,10 @@
       "nameEn": "Euphoric Orb",
       "krVerified": true,
       "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
-    }
+    },
+    "contentTags": [
+      "fallen-twins"
+    ]
   },
   {
     "id": "harpun",
@@ -8716,6 +8725,9 @@
       "강력 제어",
       "은신",
       "공중 유닛 공격 가능"
+    ],
+    "contentTags": [
+      "fallen-twins"
     ]
   },
   {
@@ -9160,7 +9172,8 @@
       }
     ],
     "contentTags": [
-      "arena-air"
+      "arena-air",
+      "fallen-twins"
     ],
     "collectionValue": 5,
     "exclusiveArtifact": {
@@ -9431,6 +9444,9 @@
       "소환",
       "방어 제거",
       "공중 유닛 공격 가능"
+    ],
+    "contentTags": [
+      "fallen-twins"
     ]
   },
   {
@@ -10137,7 +10153,8 @@
       }
     ],
     "contentTags": [
-      "arena-single"
+      "arena-single",
+      "fallen-twins"
     ],
     "collectionValue": 5,
     "exclusiveArtifact": {
@@ -10921,6 +10938,9 @@
       "매우 먼 사거리",
       "방어 무시",
       "공중 유닛 공격 가능"
+    ],
+    "contentTags": [
+      "fallen-twins"
     ]
   },
   {
@@ -11022,7 +11042,10 @@
       "nameEn": "The Dawnbringer",
       "krVerified": true,
       "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
-    }
+    },
+    "contentTags": [
+      "fallen-twins"
+    ]
   },
   {
     "id": "laseer",
@@ -13339,7 +13362,8 @@
       }
     ],
     "contentTags": [
-      "abyss"
+      "abyss",
+      "fallen-twins"
     ],
     "collectionValue": 5,
     "videos": [
@@ -14053,7 +14077,8 @@
       }
     ],
     "contentTags": [
-      "abyss"
+      "abyss",
+      "fallen-twins"
     ],
     "collectionValue": 5,
     "videos": [
@@ -15313,7 +15338,10 @@
       "nameEn": "Frosthorn Staff",
       "krVerified": true,
       "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
-    }
+    },
+    "contentTags": [
+      "fallen-twins"
+    ]
   },
   {
     "id": "rork",
@@ -16403,7 +16431,8 @@
       }
     ],
     "contentTags": [
-      "arena-air"
+      "arena-air",
+      "fallen-twins"
     ],
     "collectionValue": 4,
     "exclusiveArtifact": {
@@ -16560,7 +16589,8 @@
       }
     ],
     "contentTags": [
-      "abyss"
+      "abyss",
+      "fallen-twins"
     ],
     "collectionValue": 5,
     "videos": [
@@ -17222,6 +17252,9 @@
       "방어 제거",
       "아군 버프",
       "아군 보호"
+    ],
+    "contentTags": [
+      "fallen-twins"
     ]
   },
   {
@@ -18844,6 +18877,9 @@
       "지속 피해",
       "아군 버프",
       "공중 유닛 공격 가능"
+    ],
+    "contentTags": [
+      "fallen-twins"
     ]
   },
   {
