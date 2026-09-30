@@ -863,12 +863,22 @@
     </div>
   </div>
 
-  <script src="/app.js?v=2.14.94"></script>
+  <script src="/app.js?v=2.14.95"></script>
 
 <a class="ww-summon-float" href="/summon/" aria-label="오늘의 소환 운명 시험 열기">
   <span class="ww-summon-float-crystal" aria-hidden="true"></span>
   <span class="ww-summon-float-copy"><small>SUMMON MINI GAME</small><strong>소환 운명 시험</strong></span>
 </a>
 
+  <dialog id="traitChoiceDialog" class="trait-choice-dialog" aria-labelledby="traitChoiceTitle" aria-describedby="traitChoiceDescription">
+    <h2 id="traitChoiceTitle">영웅특성을 추가로 선택할까요?</h2>
+    <p id="traitChoiceDescription">여러 특성을 선택하면 선택한 특성을 <strong>모두 가진 영웅</strong>만 표시됩니다.</p>
+    <div class="trait-choice-actions">
+      <button type="button" data-trait-choice="add">추가 선택</button>
+      <button type="button" data-trait-choice="replace">새로 선택</button>
+    </div>
+    <p class="trait-choice-hint">추가 선택: 이전 선택 유지 · 새로 선택: 방금 누른 특성만 선택</p>
+    <form method="dialog"><button class="trait-choice-cancel" aria-label="선택 취소">취소</button></form>
+  </dialog>
 </body>
 </html>

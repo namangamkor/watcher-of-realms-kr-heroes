@@ -678,21 +678,54 @@ function resetHeroView() {
   render();
 }
 clearSearch.addEventListener("click", () => { resetHeroView(); searchInput.focus(); });
+const traitChoiceDialog = document.querySelector("#traitChoiceDialog");
+let pendingTraitChoice = null;
+let traitChoiceTrigger = null;
+
+function applyTraitSelection() {
+  document.querySelectorAll('.filter[data-filter-type="trait"]').forEach((candidate) => {
+    const selected = candidate.dataset.value === "all" ? active.trait.size === 0 : active.trait.has(candidate.dataset.value);
+    candidate.classList.toggle("active", selected);
+    candidate.setAttribute("aria-pressed", String(selected));
+  });
+  visibleLimit = HERO_PAGE_SIZE;
+  render();
+}
+
+function openTraitChoice(value, trigger) {
+  pendingTraitChoice = value;
+  traitChoiceTrigger = trigger;
+  traitChoiceDialog.showModal();
+}
+
+traitChoiceDialog?.querySelectorAll("[data-trait-choice]").forEach((button) => {
+  button.addEventListener("click", () => {
+    if (pendingTraitChoice === null) return;
+    if (button.dataset.traitChoice === "replace") active.trait.clear();
+    active.trait.add(pendingTraitChoice);
+    traitChoiceDialog.close();
+    applyTraitSelection();
+  });
+});
+traitChoiceDialog?.addEventListener("close", () => {
+  pendingTraitChoice = null;
+  traitChoiceTrigger?.focus();
+  traitChoiceTrigger = null;
+});
+
 document.querySelectorAll(".filter").forEach((button) => {
   button.addEventListener("click", () => {
     const type = button.dataset.filterType;
     if (type === "trait") {
       const value = button.dataset.value;
+      if (value !== "all" && !active.trait.has(value) && active.trait.size > 0) {
+        openTraitChoice(value, button);
+        return;
+      }
       if (value === "all") active.trait.clear();
       else if (active.trait.has(value)) active.trait.delete(value);
       else active.trait.add(value);
-      document.querySelectorAll('.filter[data-filter-type="trait"]').forEach((candidate) => {
-        const selected = candidate.dataset.value === "all" ? active.trait.size === 0 : active.trait.has(candidate.dataset.value);
-        candidate.classList.toggle("active", selected);
-        candidate.setAttribute("aria-pressed", String(selected));
-      });
-      visibleLimit = HERO_PAGE_SIZE;
-      render();
+      applyTraitSelection();
       return;
     }
     active[type] = button.dataset.value;
