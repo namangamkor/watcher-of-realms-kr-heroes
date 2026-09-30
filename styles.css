@@ -5096,3 +5096,5 @@ body.modal-open {
     line-height: 1.6;
   }
 }
+
+.creator-partner-badge { border-color: #987943; background: rgba(184, 143, 72, .10); color: #e9c789; white-space: nowrap; }

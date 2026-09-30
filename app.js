@@ -73,7 +73,7 @@ const recentUpdateList = document.querySelector("#recentUpdateList");
 
 let heroes = [];
 let currentFaction = "all";
-const active = { rarity: "all", class: "all", content: "all", collection: "all" };
+const active = { rarity: "all", class: "all", content: "all", collection: "all", trait: new Set() };
 
 const contentMeta = {
   abyss: { kr: "심연", en: "Abyss" },
@@ -175,6 +175,15 @@ function matchesCollectionValue(hero) {
   if (active.collection === "all") return true;
   const bucket = getCollectionBucket(hero.collectionValue);
   return bucket !== null && String(bucket) === active.collection;
+}
+
+function normalizeTrait(value) {
+  return String(value).replace(/\s+/g, "");
+}
+
+function matchesTraits(hero) {
+  const traits = new Set((hero.traits || []).map(normalizeTrait));
+  return [...active.trait].every((trait) => traits.has(trait));
 }
 
 function getContentTagMarkup(hero) {
@@ -374,9 +383,11 @@ function setAllFilters() {
   active.class = "all";
   active.content = "all";
   active.collection = "all";
+  active.trait.clear();
 
   document.querySelectorAll(".filter").forEach((button) => {
     button.classList.toggle("active", button.dataset.value === "all");
+    if (button.dataset.filterType === "trait") button.setAttribute("aria-pressed", String(button.dataset.value === "all"));
   });
 }
 
@@ -453,7 +464,7 @@ function updateAllHeroesHeader(resultCount) {
   if (totalCount) totalCount.textContent = heroes.length;
 
   if (resultSummary) {
-    if (active.rarity !== "all" || active.class !== "all" || active.content !== "all" || active.collection !== "all") {
+    if (active.rarity !== "all" || active.class !== "all" || active.content !== "all" || active.collection !== "all" || active.trait.size > 0) {
       resultSummary.textContent = `필터 적용 · ${resultCount}명 표시`;
     } else {
       resultSummary.textContent = "최근 정보·후기가 업데이트된 영웅부터 표시합니다.";
@@ -496,7 +507,7 @@ function render() {
         matchesRarity(hero) &&
         (active.class === "all" || hero.class === active.class) &&
         matchesContent(hero) &&
-        matchesCollectionValue(hero)
+        matchesCollectionValue(hero) && matchesTraits(hero)
       )
       .sort(compareHeroUpdateOrder);
 
@@ -517,7 +528,7 @@ function render() {
         matchesRarity(hero) &&
         (active.class === "all" || hero.class === active.class) &&
         matchesContent(hero) &&
-        matchesCollectionValue(hero)
+        matchesCollectionValue(hero) && matchesTraits(hero)
       )
       .sort(compareHeroUpdateOrder);
 
@@ -544,7 +555,7 @@ function render() {
       matchesRarity(hero, membership) &&
       (active.class === "all" || hero.class === active.class) &&
       matchesContent(hero) &&
-      matchesCollectionValue(hero)
+      matchesCollectionValue(hero) && matchesTraits(hero)
     )
     .sort((a, b) => compareHeroUpdateOrder(a.hero, b.hero));
 
@@ -557,7 +568,7 @@ function render() {
   emptyState.hidden = filtered.length !== 0;
   updatePage(filtered.length);
 
-  if (active.rarity !== "all" || active.class !== "all" || active.content !== "all" || active.collection !== "all") {
+  if (active.rarity !== "all" || active.class !== "all" || active.content !== "all" || active.collection !== "all" || active.trait.size > 0) {
     resultSummary.textContent = `필터 적용 · ${filtered.length}명 표시`;
   } else {
     resultSummary.textContent = "선택한 진영의 영웅 목록입니다.";
@@ -606,14 +617,14 @@ function renderRecentUpdates(items) {
 
 // Keep the server-rendered cards visible until both sources are ready.
 // A partial render with heroes.json but no activity briefly restores the old order.
-const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.92", { cache: "no-store" })
+const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.93", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("recent updates load failed");
     return response.json();
   })
   .catch((error) => { console.warn(error); return null; });
 
-const heroesPromise = fetch("./heroes.json?v=2.14.92", { cache: "no-store" })
+const heroesPromise = fetch("./heroes.json?v=2.14.93", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
@@ -670,6 +681,20 @@ clearSearch.addEventListener("click", () => { resetHeroView(); searchInput.focus
 document.querySelectorAll(".filter").forEach((button) => {
   button.addEventListener("click", () => {
     const type = button.dataset.filterType;
+    if (type === "trait") {
+      const value = button.dataset.value;
+      if (value === "all") active.trait.clear();
+      else if (active.trait.has(value)) active.trait.delete(value);
+      else active.trait.add(value);
+      document.querySelectorAll('.filter[data-filter-type="trait"]').forEach((candidate) => {
+        const selected = candidate.dataset.value === "all" ? active.trait.size === 0 : active.trait.has(candidate.dataset.value);
+        candidate.classList.toggle("active", selected);
+        candidate.setAttribute("aria-pressed", String(selected));
+      });
+      visibleLimit = HERO_PAGE_SIZE;
+      render();
+      return;
+    }
     active[type] = button.dataset.value;
 
     document

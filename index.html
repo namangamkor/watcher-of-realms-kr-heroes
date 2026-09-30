@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ko">
 <head>
-  <meta name="worwiki-patch-version" content="2.14.92">
+  <meta name="worwiki-patch-version" content="2.14.93">
   <meta charset="UTF-8" />
   <!-- gear-route-rescue -->
   <script>
@@ -197,6 +197,7 @@
           <div class="creator-title-row">
             <strong>나만겜</strong>
             <span class="fan-badge">비공식 팬사이트</span>
+            <span class="fan-badge creator-partner-badge">개발사 공식 협업 크리에이터</span>
           </div>
           <p>이 영웅 위키는 <strong>렐름 전문 유튜버 나만겜</strong>이 직접 제작·정리하고 있습니다. 영웅 공략과 최신 워처 오브 렐름 콘텐츠는 유튜브에서 이어서 확인하세요.</p>
         </div>
@@ -390,6 +391,37 @@
           <button class="filter collection-filter" data-filter-type="collection" data-value="3" title="수집가치 3.0점">3.0</button>
           <button class="filter collection-filter" data-filter-type="collection" data-value="2" title="수집가치 2.0점">2.0</button>
           <button class="filter collection-filter" data-filter-type="collection" data-value="1" title="수집가치 1.0점">1.0</button>
+        </div>
+        <div class="filter-group trait-filter-group" aria-label="영웅특성 필터">
+          <span>영웅특성</span>
+          <button type="button" class="filter active" data-filter-type="trait" data-value="all" aria-pressed="true">전체</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="광역물리공격" aria-pressed="false">광역 물리 공격</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="생존" aria-pressed="false">생존</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="광역마법공격" aria-pressed="false">광역 마법 공격</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="강력제어" aria-pressed="false">강력 제어</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="아군버프" aria-pressed="false">아군 버프</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="방어무시" aria-pressed="false">방어 무시</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="매우먼사거리" aria-pressed="false">매우 먼 사거리</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="공중유닛공격가능" aria-pressed="false">공중 유닛 공격 가능</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="단일마법공격" aria-pressed="false">단일 마법 공격</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="단일물리공격" aria-pressed="false">단일 물리 공격</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="다단공격" aria-pressed="false">다단 공격</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="은신" aria-pressed="false">은신</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="고정피해" aria-pressed="false">고정 피해</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="아군보호" aria-pressed="false">아군 보호</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="지속피해" aria-pressed="false">지속 피해</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="소환" aria-pressed="false">소환</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="광역치유" aria-pressed="false">광역 치유</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="치유금지" aria-pressed="false">치유 금지</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="위치이동" aria-pressed="false">위치 이동</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="빠른부활" aria-pressed="false">빠른 부활</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="높은가드" aria-pressed="false">높은 가드</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="듀얼대상공격" aria-pressed="false">듀얼 대상 공격</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="단일치유" aria-pressed="false">단일 치유</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="비용회복" aria-pressed="false">비용 회복</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="방어제거" aria-pressed="false">방어 제거</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="분노회복" aria-pressed="false">분노 회복</button>
+          <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="공격제거" aria-pressed="false">공격 제거</button>
         </div>
       </div>
 
@@ -831,7 +863,7 @@
     </div>
   </div>
 
-  <script src="/app.js?v=2.14.92"></script>
+  <script src="/app.js?v=2.14.94"></script>
 
 <a class="ww-summon-float" href="/summon/" aria-label="오늘의 소환 운명 시험 열기">
   <span class="ww-summon-float-crystal" aria-hidden="true"></span>
