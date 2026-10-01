@@ -24,7 +24,10 @@
       "nameKr": "유황의분노",
       "nameEn": "Brimstone's Fury",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/abomination",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -68,7 +71,16 @@
     "traits": [
       "광역 물리 공격",
       "생존"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "유황의분노",
+      "nameEn": "Brimstone's Fury",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/abomination",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "abyss",
@@ -132,7 +144,16 @@
     },
     "traits": [
       "광역 마법 공격"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/abyzou",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "admiral-claw",
@@ -206,7 +227,16 @@
     "traits": [
       "광역 물리 공격",
       "강력 제어"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "난폭한 마스크",
+      "nameEn": "Lunacy Visor",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/admiral-claw",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "aedrin",
@@ -233,7 +263,10 @@
       "nameKr": "서리포식자",
       "nameEn": "Frost Devourer",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/aedrin",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -292,7 +325,10 @@
       "nameKr": "서리포식자",
       "nameEn": "Frost Devourer",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/aedrin",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -358,7 +394,16 @@
     "traits": [
       "광역 마법 공격",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "악몽 윤회",
+      "nameEn": "Nightmare Samsara",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/aeon",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "aeris",
@@ -445,7 +490,10 @@
       "nameKr": "포효의 머리뼈",
       "nameEn": "Wailing Skull",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/aeris",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -525,7 +573,10 @@
       "nameKr": "황혼의 눈물",
       "nameEn": "Tear of Twilight",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/ai",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -553,7 +604,10 @@
       "nameKr": "탄식의연사",
       "nameEn": "Sorrow's Veil",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/ain",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -601,10 +655,13 @@
       "강력 제어"
     ],
     "recommendedArtifact": {
-      "nameKr": "포효의 머리뼈",
-      "nameEn": "Wailing Skull",
+      "nameKr": "탄식의연사",
+      "nameEn": "Sorrow's Veil",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/ain",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -632,7 +689,10 @@
       "nameKr": "드래곤의천적",
       "nameEn": "Dragon Bane",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/ajax",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -688,7 +748,16 @@
     ],
     "contentTags": [
       "titan-transcendence"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "드래곤의천적",
+      "nameEn": "Dragon Bane",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/ajax",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "akirastar",
@@ -726,7 +795,10 @@
       "nameKr": "머신코어",
       "nameEn": "Mech Core",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/akira",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -784,7 +856,10 @@
       "nameKr": "머신코어",
       "nameEn": "Mech Core",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/akira",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -821,7 +896,10 @@
       "nameKr": "성결한왕관",
       "nameEn": "Falcon's Crest",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/alaura",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -875,10 +953,13 @@
       "공중 유닛 공격 가능"
     ],
     "recommendedArtifact": {
-      "nameKr": "사신의 표식",
-      "nameEn": "Reaper's Emblem",
+      "nameKr": "성결한왕관",
+      "nameEn": "Falcon's Crest",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/alaura",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -960,7 +1041,10 @@
       "nameKr": "황혼의 눈물",
       "nameEn": "Tear of Twilight",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/alistair",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -1027,7 +1111,16 @@
       "단일 마법 공격",
       "지속 피해",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/anai",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "anora",
@@ -1063,7 +1156,10 @@
       "nameKr": "불경한자",
       "nameEn": "Scepter of Impiety",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/anora",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -1116,7 +1212,16 @@
       "소환",
       "아군 버프",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "불경한자",
+      "nameEn": "Scepter of Impiety",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/anora",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "apsan",
@@ -1143,7 +1248,10 @@
       "nameKr": "포효의뼈",
       "nameEn": "Wailing Tusk",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/apsan",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -1188,7 +1296,16 @@
     "traits": [
       "광역 물리 공격",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "포효의뼈",
+      "nameEn": "Wailing Tusk",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/apsan",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "aracha",
@@ -1215,7 +1332,10 @@
       "nameKr": "거미의형태",
       "nameEn": "Arachno Shroud",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/aracha",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -1269,7 +1389,16 @@
       "지속 피해",
       "강력 제어",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "거미의형태",
+      "nameEn": "Arachno Shroud",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/aracha",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "ardea",
@@ -1356,7 +1485,10 @@
       "nameKr": "잊혀진 옛검",
       "nameEn": "Shattered Hilt",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/ardea",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -1423,7 +1555,16 @@
     "traits": [
       "광역 마법 공격",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/ardeth",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "ares",
@@ -1498,7 +1639,16 @@
     "traits": [
       "단일 물리 공격",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "포효의 머리뼈",
+      "nameEn": "Wailing Skull",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/ares",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "arrogance",
@@ -1525,7 +1675,10 @@
       "nameKr": "멸시의눈",
       "nameEn": "Eye of Mockery",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/arrogance",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -1577,7 +1730,16 @@
       "단일 물리 공격",
       "지속 피해",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "멸시의눈",
+      "nameEn": "Eye of Mockery",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/arrogance",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "artemis",
@@ -1649,7 +1811,16 @@
     "traits": [
       "광역 치유",
       "치유 금지"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황금 풍뎅이",
+      "nameEn": "Golden Scarab",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/artemis",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "astrael",
@@ -1737,7 +1908,10 @@
       "nameKr": "습격자",
       "nameEn": "Dwarven Strider",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/astrael",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -1812,7 +1986,16 @@
     "traits": [
       "광역 물리 공격",
       "빠른 부활"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "흐르는 팬던트",
+      "nameEn": "Flux Pendant",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/atrox",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "aurelius-gale",
@@ -1837,9 +2020,12 @@
     "collectionValue": 3,
     "exclusiveArtifact": {
       "nameKr": "열화축제",
-      "nameEn": null,
+      "nameEn": "Strings of Sorrow",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/aurelius-gale",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -1892,7 +2078,16 @@
       "치유 금지",
       "아군 버프",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "열화축제",
+      "nameEn": "Strings of Sorrow",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/aurelius-gale",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "autumn",
@@ -1957,7 +2152,16 @@
     "traits": [
       "광역 치유",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황금 풍뎅이",
+      "nameEn": "Golden Scarab",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/autumn",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "aveline",
@@ -2035,7 +2239,10 @@
       "nameKr": "보루의 반지",
       "nameEn": "Bastion Ring",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/aveline",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -2063,7 +2270,10 @@
       "nameKr": "초승달토템",
       "nameEn": "Crescent Totem",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/aylin",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -2114,7 +2324,16 @@
     "traits": [
       "광역 치유",
       "아군 보호"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "초승달토템",
+      "nameEn": "Crescent Totem",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/aylin",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "azhor",
@@ -2138,10 +2357,13 @@
     ],
     "collectionValue": 1,
     "exclusiveArtifact": {
-      "nameKr": null,
+      "nameKr": "영혼의도가니",
       "nameEn": "Soul Crucible",
-      "krVerified": false,
-      "source": "user-reviewed-artifact-list"
+      "krVerified": true,
+      "source": "https://fastidious.gg/heroes/azhor",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -2186,7 +2408,16 @@
       "아군 보호",
       "아군 버프",
       "강력 제어"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "영혼의도가니",
+      "nameEn": "Soul Crucible",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/azhor",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "azzoth",
@@ -2252,7 +2483,16 @@
       "단일 마법 공격",
       "지속 피해",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/azzoth",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "baron",
@@ -2316,7 +2556,16 @@
     },
     "traits": [
       "생존"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/baron",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "bayek",
@@ -2352,7 +2601,10 @@
       "nameKr": "아멘호테프의활",
       "nameEn": "Amenhotep's Bow",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/bayek",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -2404,7 +2656,16 @@
       "광역 물리 공격",
       "아군 버프",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "아멘호테프의활",
+      "nameEn": "Amenhotep's Bow",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/bayek",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "beatrix",
@@ -2440,7 +2701,10 @@
       "nameKr": "침묵록",
       "nameEn": "Codex of Silence",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/beatrix",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -2492,7 +2756,16 @@
       "광역 마법 공격",
       "소환",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "침묵록",
+      "nameEn": "Codex of Silence",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/beatrix",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "beelzebub",
@@ -2519,7 +2792,10 @@
       "nameKr": "죽음의부름",
       "nameEn": "Carrion's Call",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/beelzebub",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -2573,7 +2849,16 @@
     ],
     "contentTags": [
       "titan-transcendence"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "죽음의부름",
+      "nameEn": "Carrion's Call",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/beelzebub",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "boreas",
@@ -2609,7 +2894,10 @@
       "nameKr": "끝없는 겨울",
       "nameEn": "Eternal Winter",
       "krVerified": true,
-      "source": "user-confirmed-official-name"
+      "source": "https://fastidious.gg/heroes/boreas",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -2667,7 +2955,10 @@
       "nameKr": "끝없는 겨울",
       "nameEn": "Eternal Winter",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/boreas",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -2738,7 +3029,10 @@
       "nameKr": "난폭한 마스크",
       "nameEn": "Lunacy Visor",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/borut",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -2819,7 +3113,10 @@
       "nameKr": "가드리엘의 응시",
       "nameEn": "Idril's Gaze",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/brienne",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -2847,7 +3144,10 @@
       "nameKr": "무정한겨울",
       "nameEn": "Stoic Winter",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/brokkir",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -2901,10 +3201,13 @@
       "강력 제어"
     ],
     "recommendedArtifact": {
-      "nameKr": "보루의 반지",
-      "nameEn": "Bastion Ring",
+      "nameKr": "무정한겨울",
+      "nameEn": "Stoic Winter",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/brokkir",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -2984,7 +3287,10 @@
       "nameKr": "사신의 표식",
       "nameEn": "Reaper's Emblem",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/brunor",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -3023,9 +3329,12 @@
     "collectionValue": 5,
     "exclusiveArtifact": {
       "nameKr": "사죄자",
-      "nameEn": null,
+      "nameEn": "Absolution",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/cainan",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -3083,7 +3392,10 @@
       "nameKr": "사죄자",
       "nameEn": "Absolution",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/cainan",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -3111,7 +3423,10 @@
       "nameKr": "불멸의에드라크",
       "nameEn": "Helm of Yalnor",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/Calista",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -3166,7 +3481,10 @@
       "nameKr": "불멸의에드라크",
       "nameEn": "Helm of Yalnor",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/Calista",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -3194,7 +3512,10 @@
       "nameKr": "심연의노래",
       "nameEn": "Chant of the Depths",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/calypso",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -3240,7 +3561,16 @@
       "단일 물리 공격",
       "다단 공격",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "심연의노래",
+      "nameEn": "Chant of the Depths",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/calypso",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "camille",
@@ -3310,7 +3640,10 @@
       "nameKr": "낙원의 찬가",
       "nameEn": "Elysian Epitaph",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/camille",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -3338,7 +3671,10 @@
       "nameKr": "죽음의닻",
       "nameEn": "Anchor of the Damned",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/captain-reve",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -3389,7 +3725,16 @@
     "traits": [
       "강력 제어",
       "광역 마법 공격"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "죽음의닻",
+      "nameEn": "Anchor of the Damned",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/captain-reve",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "carnelian",
@@ -3470,7 +3815,16 @@
     "traits": [
       "아군 보호",
       "광역 치유"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황금 풍뎅이",
+      "nameEn": "Golden Scarab",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/carnelian",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "carosa",
@@ -3535,7 +3889,16 @@
     "traits": [
       "광역 마법 공격",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/carosa",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "cassiel",
@@ -3622,7 +3985,10 @@
       "nameKr": "잊혀진 옛검",
       "nameEn": "Shattered Hilt",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/cassiel",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -3659,7 +4025,10 @@
       "nameKr": "불사자의마지막모습",
       "nameEn": "Unending Relic",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/cerberus",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -3709,7 +4078,16 @@
     },
     "traits": [
       "광역 마법 공격"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "불사자의마지막모습",
+      "nameEn": "Unending Relic",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/cerberus",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "clarissa",
@@ -3776,7 +4154,16 @@
       "광역 마법 공격",
       "지속 피해",
       "치유 금지"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "격노의 분출자",
+      "nameEn": "Hate's Contagion",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/clarissa",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "constance",
@@ -3812,7 +4199,10 @@
       "nameKr": "신성한예찬문",
       "nameEn": "Tome of Holylight",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/constance",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -3865,10 +4255,13 @@
       "아군 버프"
     ],
     "recommendedArtifact": {
-      "nameKr": "신성한 예찬문",
-      "nameEn": "Astral Obelisk",
+      "nameKr": "신성한예찬문",
+      "nameEn": "Tome of Holylight",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/constance",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -3938,7 +4331,16 @@
       "아군 버프",
       "소환",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "망령술사의 손가락",
+      "nameEn": "Blightcaller's Claw",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/corven",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "count-dracula",
@@ -3980,7 +4382,10 @@
       "nameKr": "심장파괴의계약",
       "nameEn": "Crest of Dracul",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/countdracula",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -4035,7 +4440,16 @@
       "치유 금지",
       "아군 버프",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "심장파괴의계약",
+      "nameEn": "Crest of Dracul",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/countdracula",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "crach",
@@ -4062,7 +4476,10 @@
       "nameKr": "주조된 톱니바퀴",
       "nameEn": "Molten Cog",
       "krVerified": true,
-      "source": "user-confirmed-official-name"
+      "source": "https://fastidious.gg/heroes/crach",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -4111,7 +4528,10 @@
       "nameKr": "주조된 톱니바퀴",
       "nameEn": "Molten Cog",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/crach",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -4219,7 +4639,16 @@
     },
     "traits": [
       "단일 마법 공격"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "난폭한 마스크",
+      "nameEn": "Lunacy Visor",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/cyclone",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "cyrene",
@@ -4297,7 +4726,10 @@
       "nameKr": "난폭한 마스크",
       "nameEn": "Lunacy Visor",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/cyrene",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -4371,7 +4803,16 @@
     "traits": [
       "광역 마법 공격",
       "소환"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/cyrus",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "daemon",
@@ -4437,7 +4878,16 @@
       "빠른 부활",
       "단일 물리 공격",
       "지속 피해"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "포효의 머리뼈",
+      "nameEn": "Wailing Skull",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/daemon",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "dagna",
@@ -4506,7 +4956,10 @@
       "nameKr": "보루의 반지",
       "nameEn": "Bastion Ring",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/dagna",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -4543,7 +4996,10 @@
       "nameKr": "장미의망상",
       "nameEn": "Orb of Ruin",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/dahlia",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -4589,7 +5045,16 @@
       "지속 피해",
       "높은 가드",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "장미의망상",
+      "nameEn": "Orb of Ruin",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/dahlia",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "dalyn",
@@ -4665,7 +5130,10 @@
       "nameKr": "난폭한 마스크",
       "nameEn": "Lunacy Visor",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/dalyn",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -4745,7 +5213,10 @@
       "nameKr": "격노의 분출자",
       "nameEn": "Hate's Contagion",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/dane",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -4782,7 +5253,10 @@
       "nameKr": "꿈속의그릇",
       "nameEn": "Dreamglow Repository",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/dassomi",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -4835,7 +5309,16 @@
       "광역 치유",
       "방어 제거",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "꿈속의그릇",
+      "nameEn": "Dreamglow Repository",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/dassomi",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "decimus",
@@ -4881,6 +5364,15 @@
         "치명타율",
         "치명타 피해"
       ]
+    },
+    "recommendedArtifact": {
+      "nameKr": "난폭한 마스크",
+      "nameEn": "Lunacy Visor",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/decimus",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -4947,7 +5439,16 @@
       "단일 물리 공격",
       "다단 공격",
       "방어 무시"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "포효의 머리뼈",
+      "nameEn": "Wailing Skull",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/deimos",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "demi",
@@ -5024,7 +5525,16 @@
     ],
     "contentTags": [
       "titan-transcendence"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/demi",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "diaochan",
@@ -5115,7 +5625,10 @@
       "nameKr": "승평·봉화불",
       "nameEn": "Phoenix Feather Fan",
       "krVerified": true,
-      "source": "existing-verified-detail"
+      "source": "https://fastidious.gg/heroes/diaochan",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -5129,7 +5642,10 @@
       "nameKr": "승평·봉화불",
       "nameEn": "Phoenix Feather Fan",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/diaochan",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -5195,7 +5711,16 @@
     "traits": [
       "광역 치유",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황금 풍뎅이",
+      "nameEn": "Golden Scarab",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/dolores",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "dr-van-helsing",
@@ -5231,7 +5756,10 @@
       "nameKr": "성혈의심판",
       "nameEn": "Consecrated Edge",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/dr-van-helsing",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -5283,7 +5811,16 @@
       "광역 물리 공격",
       "매우 먼 사거리",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "성혈의심판",
+      "nameEn": "Consecrated Edge",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/dr-van-helsing",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "draelyn",
@@ -5373,7 +5910,10 @@
       "nameKr": "자비의 강철연꽃",
       "nameEn": "Ironbloom of Mercy",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/draelyn",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -5503,7 +6043,16 @@
     },
     "traits": [
       "광역 물리 공격"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "흡혼 부적",
+      "nameEn": "Spirit Siphon",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/drogo",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "durza",
@@ -5585,7 +6134,16 @@
       "아군 버프",
       "아군 보호",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "악몽 윤회",
+      "nameEn": "Nightmare Samsara",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/durza",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "edith",
@@ -5663,7 +6221,10 @@
       "nameKr": "보루의 반지",
       "nameEn": "Bastion Ring",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/edith",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -5757,7 +6318,10 @@
       "nameKr": "황금 풍뎅이",
       "nameEn": "Golden Scarab",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/eirlys",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -5857,7 +6421,10 @@
       "nameKr": "바린의 도끼",
       "nameEn": "Varin's Axe",
       "krVerified": true,
-      "source": "existing-verified-detail"
+      "source": "https://fastidious.gg/heroes/eivor-varinsdottir",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -5871,7 +6438,10 @@
       "nameKr": "바린의 도끼",
       "nameEn": "Varin's Axe",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/eivor-varinsdottir",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -5950,7 +6520,10 @@
       "nameKr": "겁쟁이의 용기",
       "nameEn": "Talisman of Resolve",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/elddr",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -6018,7 +6591,16 @@
       "단일 물리 공격",
       "은신",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "가드리엘의 응시",
+      "nameEn": "Idril's Gaze",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/eliza",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "elowyn",
@@ -6097,7 +6679,16 @@
       "광역 치유",
       "방어 제거",
       "분노 회복"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황금 풍뎅이",
+      "nameEn": "Golden Scarab",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/elowyn",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "elukas",
@@ -6161,7 +6752,16 @@
     },
     "traits": [
       "단일 물리 공격"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "흡혼 부적",
+      "nameEn": "Spirit Siphon",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/elukas",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "elysia",
@@ -6229,7 +6829,16 @@
       "고정 피해",
       "지속 피해",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "포효의 머리뼈",
+      "nameEn": "Wailing Skull",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/elysia",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "eona",
@@ -6307,7 +6916,10 @@
       "nameKr": "황혼의 눈물",
       "nameEn": "Tear of Twilight",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/eona",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -6347,7 +6959,10 @@
       "nameKr": "삼첨양인도",
       "nameEn": "Triple-Bladed Glaive",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/erlangshen",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -6401,7 +7016,16 @@
       "아군 버프",
       "생존",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "삼첨양인도",
+      "nameEn": "Triple-Bladed Glaive",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/erlangshen",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "esme",
@@ -6468,7 +7092,16 @@
       "단일 물리 공격",
       "지속 피해",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "사신의 표식",
+      "nameEn": "Reaper's Emblem",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/esme",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "estrid",
@@ -6538,7 +7171,10 @@
       "nameKr": "격노의 분출자",
       "nameEn": "Hate's Contagion",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/estrid",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -6628,7 +7264,10 @@
       "nameKr": "낙원의 찬가",
       "nameEn": "Elysian Epitaph",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/eunomia",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -6659,12 +7298,23 @@
     ],
     "contentTags": [],
     "collectionValue": 4,
-    "recommendedArtifact": null,
+    "recommendedArtifact": {
+      "nameKr": "M1877 '천둥의 신'",
+      "nameEn": null,
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/evie-frye",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "기존 사용자 확인 추천 유지; Fastidious 추천 데이터 없음"
+    },
     "exclusiveArtifact": {
       "nameKr": "M1877 '천둥의 신'",
       "nameEn": null,
       "krVerified": true,
-      "source": "user-provided-korean-server-screenshot"
+      "source": "https://fastidious.gg/heroes/evie-frye",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "기존 사용자 확인 추천 유지; Fastidious 추천 데이터 없음"
     },
     "traits": [
       "단일 물리 공격",
@@ -6798,7 +7448,16 @@
       "아군 버프",
       "강력 제어",
       "분노 회복"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "죄악의눈",
+      "nameEn": "Eye of Sin",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/ezareth",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "ezio-auditore",
@@ -6897,7 +7556,10 @@
       "nameKr": "아디토레 암살검",
       "nameEn": "Auditore Blade",
       "krVerified": true,
-      "source": "existing-verified-detail"
+      "source": "https://fastidious.gg/heroes/ezio-auditore",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -6911,7 +7573,10 @@
       "nameKr": "아디토레 암살검",
       "nameEn": "Auditore Blade",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/ezio-auditore",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -7001,7 +7666,10 @@
       "nameKr": "어둠의 심장",
       "nameEn": null,
       "krVerified": true,
-      "source": "user-provided-korean-server-screenshot"
+      "source": "https://fastidious.gg/heroes/ezio-della-notte",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "기존 사용자 확인 추천 유지; Fastidious 추천 데이터 없음"
     },
     "videos": [
       {
@@ -7010,7 +7678,16 @@
         "url": "https://youtu.be/ct6jk-y1tR4",
         "label": "나만겜 어둠의 에지오 설명회"
       }
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "어둠의 심장",
+      "nameEn": null,
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/ezio-della-notte",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "기존 사용자 확인 추천 유지; Fastidious 추천 데이터 없음"
+    }
   },
   {
     "id": "ezryn",
@@ -7037,7 +7714,10 @@
       "nameKr": "드림위버의두건",
       "nameEn": "Weaver's Hood",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/ezryn",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -7082,7 +7762,16 @@
     "traits": [
       "단일 치유",
       "아군 보호"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "드림위버의두건",
+      "nameEn": "Weaver's Hood",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/ezryn",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "faelin",
@@ -7150,7 +7839,16 @@
       "아군 버프",
       "지속 피해",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/faelin",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "falcia",
@@ -7186,7 +7884,10 @@
       "nameKr": "백염",
       "nameEn": "Lucent Flame",
       "krVerified": true,
-      "source": "user-confirmed-official-name"
+      "source": "https://fastidious.gg/heroes/falcia",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -7236,7 +7937,10 @@
       "nameKr": "백염",
       "nameEn": "Lucent Flame",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/falcia",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -7308,7 +8012,10 @@
       "nameKr": "명사수의 표식",
       "nameEn": "Sharpshooter Crest",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/fenris",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -7382,7 +8089,16 @@
       "단일 치유",
       "아군 보호",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황금 풍뎅이",
+      "nameEn": "Golden Scarab",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/ferssi",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "filippa",
@@ -7448,7 +8164,16 @@
     "traits": [
       "단일 마법 공격",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "흡혼 부적",
+      "nameEn": "Spirit Siphon",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/filippa",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "ghan",
@@ -7544,7 +8269,16 @@
         "url": "https://youtu.be/DdzidwGAvxE",
         "label": "나만겜 전설 영웅 영상"
       }
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/ghan",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "gisele",
@@ -7618,7 +8352,16 @@
     "traits": [
       "단일 물리 공격",
       "다단 공격"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "포효의 머리뼈",
+      "nameEn": "Wailing Skull",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/gisele",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "glacius",
@@ -7690,7 +8433,10 @@
       "nameKr": "황혼의 눈물",
       "nameEn": "Tear of Twilight",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/glacius",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -7756,7 +8502,16 @@
     "traits": [
       "광역 물리 공격",
       "강력 제어"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "포효의 머리뼈",
+      "nameEn": "Wailing Skull",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/gluttony",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "gonkba",
@@ -7820,7 +8575,16 @@
     },
     "traits": [
       "광역 마법 공격"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/gonkba",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "graves-greybeard",
@@ -7894,7 +8658,16 @@
       "아군 보호",
       "아군 버프",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "신성한 예찬문",
+      "nameEn": "Astral Obelisk",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/graves%20greybeard",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "greed",
@@ -7930,7 +8703,10 @@
       "nameKr": "탐욕의책",
       "nameEn": "Tome of Greed",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/greed",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -7974,7 +8750,16 @@
     "traits": [
       "광역 마법 공격",
       "지속 피해"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "탐욕의책",
+      "nameEn": "Tome of Greed",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/greed",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "gretchen",
@@ -8063,7 +8848,16 @@
       "아군 버프",
       "방어 무시",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "잊혀진 옛검",
+      "nameEn": "Shattered Hilt",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/gretchen",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "gu-shi",
@@ -8099,7 +8893,10 @@
       "nameKr": "현궐",
       "nameEn": "Pathbreaker",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/gu%20shi",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -8152,7 +8949,16 @@
       "방어 무시",
       "공격 제거",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "현궐",
+      "nameEn": "Pathbreaker",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/gu%20shi",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "guan-yu",
@@ -8188,7 +8994,10 @@
       "nameKr": "청룔언월도",
       "nameEn": "Green Crescent Blade",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/guan-yu",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -8246,7 +9055,10 @@
       "nameKr": "청룔언월도",
       "nameEn": "Green Crescent Blade",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/guan-yu",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -8329,7 +9141,16 @@
       "단일 물리 공격",
       "다단 공격",
       "소환"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "스칼렛헌트",
+      "nameEn": "Scarlet Hunt",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/guldrak",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "gwendolyn",
@@ -8407,7 +9228,10 @@
       "nameKr": "즐거움의 보주",
       "nameEn": "Euphoric Orb",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/gwendolyn",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     },
     "contentTags": [
       "fallen-twins"
@@ -8481,7 +9305,10 @@
       "nameKr": "흡혼 부적",
       "nameEn": "Spirit Siphon",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/harpun",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -8509,7 +9336,10 @@
       "nameKr": "골드가면",
       "nameEn": "Aureate Visage",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/hatssut",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -8561,7 +9391,16 @@
       "광역 물리 공격",
       "아군 버프",
       "은신"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "골드가면",
+      "nameEn": "Aureate Visage",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/hatssut",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "helga",
@@ -8588,7 +9427,10 @@
       "nameKr": "가시의왕관",
       "nameEn": "Raven's Crest",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/helga",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -8635,7 +9477,16 @@
       "다단 공격",
       "강력 제어",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "가시의왕관",
+      "nameEn": "Raven's Crest",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/helga",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "hex",
@@ -8671,7 +9522,10 @@
       "nameKr": "광란의경전",
       "nameEn": "The Sutra of Caprice",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/hex",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -8728,7 +9582,16 @@
     ],
     "contentTags": [
       "fallen-twins"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "광란의경전",
+      "nameEn": "The Sutra of Caprice",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/hex",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "hollow",
@@ -8794,7 +9657,16 @@
       "단일 치유",
       "아군 버프",
       "분노 회복"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황금 풍뎅이",
+      "nameEn": "Golden Scarab",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/hollow",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "idril",
@@ -8903,7 +9775,10 @@
       "nameKr": "가드리엘의 응시",
       "nameEn": "Idril's Gaze",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/idril",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -8969,7 +9844,16 @@
     "traits": [
       "단일 마법 공격",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/imani",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "ingrid",
@@ -9063,7 +9947,10 @@
       "nameKr": "황혼의 눈물",
       "nameEn": "Tear of Twilight",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/ingrid",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -9149,7 +10036,16 @@
       "아군 버프",
       "아군 보호",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/init",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "iovar",
@@ -9180,7 +10076,10 @@
       "nameKr": "감시자의눈",
       "nameEn": "Sentinel's Eye",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/iovar",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -9233,7 +10132,16 @@
       "단일 물리 공격",
       "다단 공격",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "감시자의눈",
+      "nameEn": "Sentinel's Eye",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/iovar",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "isolde",
@@ -9303,7 +10211,10 @@
       "nameKr": "보루의 반지",
       "nameEn": "Bastion Ring",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/isolde",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -9370,7 +10281,16 @@
     "traits": [
       "광역 마법 공격",
       "지속 피해"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "포효의 머리뼈",
+      "nameEn": "Wailing Skull",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/janqhar",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "janus-grismore",
@@ -9447,7 +10367,16 @@
     ],
     "contentTags": [
       "fallen-twins"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/janus%20grismore",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "jeera",
@@ -9526,7 +10455,10 @@
       "nameKr": "미지의 땅의 열쇠",
       "nameEn": "Key of the Forsaken",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/jeera",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -9555,9 +10487,12 @@
     "collectionValue": 5,
     "exclusiveArtifact": {
       "nameKr": "원죄",
-      "nameEn": null,
+      "nameEn": "Perdition",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/jezebelle",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -9611,7 +10546,16 @@
       "매우 먼 사거리",
       "방어 무시",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "원죄",
+      "nameEn": "Perdition",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/jezebelle",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "jorge",
@@ -9685,7 +10629,16 @@
     "traits": [
       "광역 마법 공격",
       "지속 피해"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/jorge",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "kaede",
@@ -9718,10 +10671,13 @@
     ],
     "collectionValue": 2,
     "exclusiveArtifact": {
-      "nameKr": null,
+      "nameKr": "매의심장박동",
       "nameEn": "Eagle's Heartbeat",
-      "krVerified": false,
-      "source": "user-reviewed-artifact-list"
+      "krVerified": true,
+      "source": "https://fastidious.gg/heroes/kaede",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -9769,7 +10725,16 @@
       "소환",
       "강력 제어",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "매의심장박동",
+      "nameEn": "Eagle's Heartbeat",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/kaede",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "kai",
@@ -9844,7 +10809,16 @@
       "매우 먼 사거리",
       "아군 버프",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "사신의 표식",
+      "nameEn": "Reaper's Emblem",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/kai",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "kalina",
@@ -9911,7 +10885,16 @@
       "단일 마법 공격",
       "고정 피해",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/kalina",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "kane",
@@ -9947,7 +10930,10 @@
       "nameKr": "리바이어던",
       "nameEn": "Leviathan",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/kane",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -10003,7 +10989,10 @@
       "nameKr": "리바이어던",
       "nameEn": "Leviathan",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/kane",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -10103,7 +11092,10 @@
       "nameKr": "레오니다스의 창",
       "nameEn": "Spear of Leonidas",
       "krVerified": true,
-      "source": "existing-verified-detail"
+      "source": "https://fastidious.gg/heroes/kassandra",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -10117,7 +11109,10 @@
       "nameKr": "레오니다스의 창",
       "nameEn": "Spear of Leonidas",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/kassandra",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -10159,9 +11154,12 @@
     "collectionValue": 5,
     "exclusiveArtifact": {
       "nameKr": "산악의심장",
-      "nameEn": "Heart of the Mountain",
+      "nameEn": "Heart of the Mouintain",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/khadgrim",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -10216,9 +11214,12 @@
     ],
     "recommendedArtifact": {
       "nameKr": "산악의심장",
-      "nameEn": "Heart of the Mountain",
+      "nameEn": "Heart of the Mouintain",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/khadgrim",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -10246,7 +11247,10 @@
       "nameKr": "파라오의왕관",
       "nameEn": "Pharaoh's Pschent",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/khamet",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -10298,7 +11302,16 @@
     "traits": [
       "광역 마법 공격",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "파라오의왕관",
+      "nameEn": "Pharaoh's Pschent",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/khamet",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "kigiri",
@@ -10337,7 +11350,10 @@
       "nameKr": "악귀의머리",
       "nameEn": "Demonic Relic",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/kigiri",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -10395,7 +11411,10 @@
       "nameKr": "악귀의머리",
       "nameEn": "Demonic Relic",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/kigiri",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -10423,7 +11442,10 @@
       "nameKr": "평온의왕관",
       "nameEn": "Deadwater Diadem",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/kineza",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -10469,7 +11491,16 @@
       "생존",
       "방어 무시",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "평온의왕관",
+      "nameEn": "Deadwater Diadem",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/kineza",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "king-harz",
@@ -10565,7 +11596,10 @@
       "nameKr": "보루의 반지",
       "nameEn": "Bastion Ring",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/king-harz",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -10648,7 +11682,16 @@
       "강력 제어",
       "높은 가드",
       "생존"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/knight%20arlott",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "komodo",
@@ -10713,7 +11756,16 @@
     "traits": [
       "단일 물리 공격",
       "지속 피해"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "포효의 머리뼈",
+      "nameEn": "Wailing Skull",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://prospector.gg/hero/komodo/",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Prospector 영웅 빌드 확인"
+    }
   },
   {
     "id": "kria",
@@ -10778,7 +11830,16 @@
     "traits": [
       "광역 마법 공격",
       "소환"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/kria",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "krodor",
@@ -10847,7 +11908,10 @@
       "nameKr": "보루의 반지",
       "nameEn": "Bastion Ring",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/krodor",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -10884,7 +11948,10 @@
       "nameKr": "천벌자",
       "nameEn": "Divine Justice",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/lady-alexandra",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -10941,7 +12008,16 @@
     ],
     "contentTags": [
       "fallen-twins"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "천벌자",
+      "nameEn": "Divine Justice",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/lady-alexandra",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "lady-mina",
@@ -10977,7 +12053,10 @@
       "nameKr": "죽은자의속삭임",
       "nameEn": "The Dawnbringer",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/lady-mina",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -11041,7 +12120,10 @@
       "nameKr": "죽은자의속삭임",
       "nameEn": "The Dawnbringer",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/lady-mina",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "contentTags": [
       "fallen-twins"
@@ -11072,7 +12154,10 @@
       "nameKr": "모래의손",
       "nameEn": "Grasp of Sands",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/laseer",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -11117,7 +12202,16 @@
       "빠른 부활",
       "치유 금지",
       "지속 피해"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "모래의손",
+      "nameEn": "Grasp of Sands",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/laseer",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "laurel",
@@ -11184,7 +12278,16 @@
       "아군 버프",
       "분노 회복",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "악몽 윤회",
+      "nameEn": "Nightmare Samsara",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/laurel",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "laya",
@@ -11214,7 +12317,10 @@
       "nameKr": "우아한왕관",
       "nameEn": "Euphonic Coronet",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/laya",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -11267,10 +12373,13 @@
       "광역 치유"
     ],
     "recommendedArtifact": {
-      "nameKr": "황금 풍뎅이",
-      "nameEn": "Golden Scarab",
+      "nameKr": "우아한왕관",
+      "nameEn": "Euphonic Coronet",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/laya",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -11354,7 +12463,16 @@
       "위치 이동",
       "아군 버프",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "습격자",
+      "nameEn": "Dwarven Strider",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/leikan",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "liam",
@@ -11396,7 +12514,16 @@
       "단일 물리 공격",
       "지속 피해",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "흡혼 부적",
+      "nameEn": "Spirit Siphon",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/liam",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "lightlocke",
@@ -11474,7 +12601,10 @@
       "nameKr": "낙원의 찬가",
       "nameEn": "Elysian Epitaph",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/lightlocke",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -11550,7 +12680,16 @@
     "traits": [
       "단일 치유",
       "아군 보호"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "낙원의 찬가",
+      "nameEn": "Elysian Epitaph",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/lili",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "livian",
@@ -11586,7 +12725,10 @@
       "nameKr": "기억의방패",
       "nameEn": "Shield of Valor",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/livian",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -11632,10 +12774,13 @@
       "강력 제어"
     ],
     "recommendedArtifact": {
-      "nameKr": "보루의 반지",
-      "nameEn": "Bastion Ring",
+      "nameKr": "기억의방패",
+      "nameEn": "Shield of Valor",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/livian",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -11663,7 +12808,10 @@
       "nameKr": "혼돈의기쁨",
       "nameEn": "Mask of Dark Desire",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/lord-phineas",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -11715,7 +12863,16 @@
       "단일 마법 공격",
       "강력 제어",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "혼돈의기쁨",
+      "nameEn": "Mask of Dark Desire",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/lord-phineas",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "lu-bu",
@@ -11751,7 +12908,10 @@
       "nameKr": "방천화극",
       "nameEn": "Halberd of Woe",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/lubu",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -11808,7 +12968,10 @@
       "nameKr": "방천화극",
       "nameEn": "Halberd of Woe",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/lubu",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -11887,7 +13050,10 @@
       "nameKr": "망령술사의 손가락",
       "nameEn": "Blightcaller's Claw",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/lucius",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -11970,7 +13136,16 @@
       "단일 물리 공격",
       "다단 공격",
       "지속 피해"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "흐르는 팬던트",
+      "nameEn": "Flux Pendant",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/lugaru",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "lulu",
@@ -11997,7 +13172,10 @@
       "nameKr": "제이드드래곤",
       "nameEn": "Jade Dragon",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/lulu",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -12055,7 +13233,10 @@
       "nameKr": "제이드드래곤",
       "nameEn": "Jade Dragon",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/lulu",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -12123,7 +13304,16 @@
       "단일 물리 공격",
       "다단 공격",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "흡혼 부적",
+      "nameEn": "Spirit Siphon",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/luneria",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "lust",
@@ -12150,7 +13340,10 @@
       "nameKr": "운명의속박",
       "nameEn": "Captivation of Burning Desire",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/lust",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -12195,7 +13388,16 @@
       "단일 물리 공격",
       "다단 공격",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "운명의속박",
+      "nameEn": "Captivation of Burning Desire",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/lust",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "lynx",
@@ -12265,7 +13467,10 @@
       "nameKr": "사신의 표식",
       "nameEn": "Reaper's Emblem",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/lynx",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -12349,7 +13554,16 @@
       "아군 버프",
       "공격 제거",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/lyra",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "magda",
@@ -12426,7 +13640,16 @@
     ],
     "contentTags": [
       "titan-transcendence"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "죄악의눈",
+      "nameEn": "Eye of Sin",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/magda",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "magmus",
@@ -12453,7 +13676,10 @@
       "nameKr": "화산의심장",
       "nameEn": "Volcanic Heart",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/magmus",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -12498,7 +13724,16 @@
       "광역 물리 공격",
       "높은 가드",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "화산의심장",
+      "nameEn": "Volcanic Heart",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/magmus",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "malrik",
@@ -12575,7 +13810,16 @@
       "아군 버프",
       "강력 제어",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/malrik",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "malvira",
@@ -12609,9 +13853,12 @@
     "collectionValue": 4,
     "exclusiveArtifact": {
       "nameKr": "비탄의벽",
-      "nameEn": null,
+      "nameEn": "Wall of Lament",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/malvira",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -12669,7 +13916,10 @@
       "nameKr": "비탄의벽",
       "nameEn": "Wall of Lament",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/malvira",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -12741,7 +13991,10 @@
       "nameKr": "악몽 윤회",
       "nameEn": "Nightmare Samsara",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/marri",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -12819,7 +14072,10 @@
       "nameKr": "명사수의 표식",
       "nameEn": "Sharpshooter Crest",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/maul",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -12885,7 +14141,16 @@
     "traits": [
       "단일 물리 공격",
       "지속 피해"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "미지의 땅의 열쇠",
+      "nameEn": "Key of the Forsaken",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/maw",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "meriel",
@@ -12954,7 +14219,10 @@
       "nameKr": "보루의 반지",
       "nameEn": "Bastion Ring",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/meriel",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -13026,7 +14294,10 @@
       "nameKr": "즐거움의 보주",
       "nameEn": "Euphoric Orb",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/midan",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -13102,7 +14373,16 @@
       "단일 물리 공격",
       "아군 버프",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "사신의 표식",
+      "nameEn": "Reaper's Emblem",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/morene",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "moriden",
@@ -13141,7 +14421,10 @@
       "nameKr": "영탄",
       "nameEn": "Nightfall",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/moriden",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -13194,7 +14477,16 @@
       "위치 이동",
       "아군 버프",
       "분노 회복"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "영탄",
+      "nameEn": "Nightfall",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/moriden",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "morrigan",
@@ -13221,7 +14513,10 @@
       "nameKr": "절망의장미",
       "nameEn": "Sorrow Bloom",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/morrigan",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -13272,7 +14567,16 @@
     "traits": [
       "광역 마법 공격",
       "지속 피해"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "절망의장미",
+      "nameEn": "Sorrow Bloom",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/morrigan",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "myca",
@@ -13339,7 +14643,16 @@
       "방어 무시",
       "지속 피해",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "망령술사의 손가락",
+      "nameEn": "Blightcaller's Claw",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/myca",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "nastya",
@@ -13418,7 +14731,16 @@
       "지속 피해",
       "아군 버프",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/nastya",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "nauvras",
@@ -13493,7 +14815,16 @@
       "단일 마법 공격",
       "소환",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/nauvras",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "nazeem",
@@ -13561,7 +14892,16 @@
       "다단 공격",
       "강력 제어",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "악몽 윤회",
+      "nameEn": "Nightmare Samsara",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/nazeem",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "ne-zha",
@@ -13601,7 +14941,10 @@
       "nameKr": "화첨창",
       "nameEn": "Fire-Tipped Spear",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/nezha",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -13660,7 +15003,10 @@
       "nameKr": "화첨창",
       "nameEn": "Fire-Tipped Spear",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/nezha",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -13739,7 +15085,16 @@
       "아군 버프",
       "아군 보호",
       "방어 제거"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황금 풍뎅이",
+      "nameEn": "Golden Scarab",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/nerissa",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "niro",
@@ -13817,7 +15172,10 @@
       "nameKr": "황혼의 눈물",
       "nameEn": "Tear of Twilight",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/niro",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -13885,7 +15243,16 @@
       "단일 마법 공격",
       "지속 피해",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/nisalt",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "nissandei",
@@ -13952,7 +15319,16 @@
       "광역 치유",
       "방어 제거",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "낙원의 찬가",
+      "nameEn": "Elysian Epitaph",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/nissandei",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "nocturne",
@@ -13988,7 +15364,10 @@
       "nameKr": "영혼 약탈 석영",
       "nameEn": "Mindflayer Quartz",
       "krVerified": true,
-      "source": "user-confirmed-official-name"
+      "source": "https://fastidious.gg/heroes/nocturne",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -14044,7 +15423,10 @@
       "nameKr": "영혼 약탈 석영",
       "nameEn": "Mindflayer Quartz",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/nocturne",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -14133,7 +15515,16 @@
       "강력 제어",
       "지속 피해",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "잊혀진 옛검",
+      "nameEn": "Shattered Hilt",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/numera",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "nyx",
@@ -14160,7 +15551,10 @@
       "nameKr": "스칼렛단검",
       "nameEn": "Scarlet Dagger",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/nyx",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -14213,7 +15607,16 @@
       "광역 물리 공격",
       "매우 먼 사거리",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "스칼렛단검",
+      "nameEn": "Scarlet Dagger",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/nyx",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "olague",
@@ -14282,7 +15685,10 @@
       "nameKr": "보루의 반지",
       "nameEn": "Bastion Ring",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/olague",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -14362,7 +15768,16 @@
       "강력 제어",
       "아군 버프",
       "고정 피해"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "격노의 분출자",
+      "nameEn": "Hate's Contagion",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/oren",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "orim",
@@ -14427,7 +15842,16 @@
     "traits": [
       "단일 물리 공격",
       "지속 피해"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/orim",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "osiren",
@@ -14491,7 +15915,16 @@
     },
     "traits": [
       "광역 마법 공격"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/osiren",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "pelagios",
@@ -14568,7 +16001,16 @@
       "지속 피해",
       "고정 피해",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "명사수의 표식",
+      "nameEn": "Sharpshooter Crest",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/pelagios",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "pierre",
@@ -14607,7 +16049,10 @@
       "nameKr": "회목",
       "nameEn": "Painter's Palette",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/pierre",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -14660,7 +16105,16 @@
       "광역 마법 공격",
       "소환",
       "매우 먼 사거리"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "회목",
+      "nameEn": "Painter's Palette",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/pierre",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "praetus",
@@ -14741,7 +16195,16 @@
     ],
     "contentTags": [
       "titan-transcendence"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/praetus",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "pyros",
@@ -14807,7 +16270,16 @@
       "단일 마법 공격",
       "아군 버프",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/pyros",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "raiden",
@@ -14873,7 +16345,16 @@
     "traits": [
       "광역 마법 공격",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/raiden",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "raizan",
@@ -14946,7 +16427,16 @@
       "단일 물리 공격",
       "다단 공격",
       "생존"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "망령술사의 손가락",
+      "nameEn": "Blightcaller's Claw",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/raizan",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "razaak",
@@ -14973,7 +16463,10 @@
       "nameKr": "파도를헤엄치는자",
       "nameEn": "Tidebreaker",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/razaak",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -15026,7 +16519,16 @@
       "광역 물리 공격",
       "매우 먼 사거리",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "파도를헤엄치는자",
+      "nameEn": "Tidebreaker",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/razaak",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "regulus",
@@ -15053,7 +16555,10 @@
       "nameKr": "사자심장검수",
       "nameEn": "Lionheart Pommel",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/regulus",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -15106,10 +16611,13 @@
       "아군 보호"
     ],
     "recommendedArtifact": {
-      "nameKr": "보루의 반지",
-      "nameEn": "Bastion Ring",
+      "nameKr": "사자심장검수",
+      "nameEn": "Lionheart Pommel",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/regulus",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -15179,7 +16687,10 @@
       "nameKr": "보루의 반지",
       "nameEn": "Bastion Ring",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/rex",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -15251,7 +16762,10 @@
       "nameKr": "보루의 반지",
       "nameEn": "Bastion Ring",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/rhox",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -15279,7 +16793,10 @@
       "nameKr": "서리척추",
       "nameEn": "Frosthorn Staff",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/rivenhald",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -15337,7 +16854,10 @@
       "nameKr": "서리척추",
       "nameEn": "Frosthorn Staff",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/rivenhald",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "contentTags": [
       "fallen-twins"
@@ -15411,7 +16931,10 @@
       "nameKr": "포효의 머리뼈",
       "nameEn": "Wailing Skull",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/rork",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -15442,7 +16965,10 @@
       "nameKr": "태초의색",
       "nameEn": "Paintress's Brush",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/rosalia",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -15504,7 +17030,16 @@
         "message": "영웅 이미지 교체",
         "timestamp": 1790460303
       }
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "태초의색",
+      "nameEn": "Paintress's Brush",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/rosalia",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "ruen-hollow",
@@ -15579,7 +17114,16 @@
       "매우 먼 사거리",
       "아군 버프",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "종말의손",
+      "nameEn": "Hand of Doom",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/ruen-hollow",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "rygar",
@@ -15655,7 +17199,16 @@
       "단일 물리 공격",
       "아군 버프",
       "강력 제어"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "잊혀진 옛검",
+      "nameEn": "Shattered Hilt",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/rygar",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "sadie",
@@ -15682,7 +17235,10 @@
       "nameKr": "희미한빛",
       "nameEn": "Whispering Grace",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/sadie",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -15738,7 +17294,10 @@
       "nameKr": "희미한빛",
       "nameEn": "Whispering Grace",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/sadie",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -15766,7 +17325,10 @@
       "nameKr": "피의일격",
       "nameEn": "Bloodblade",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/salazar",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -15811,7 +17373,16 @@
       "단일 물리 공격",
       "다단 공격",
       "지속 피해"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "피의일격",
+      "nameEn": "Bloodblade",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/salazar",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "sargak",
@@ -15896,7 +17467,16 @@
       "지속 피해",
       "방어 무시",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "가드리엘의 응시",
+      "nameEn": "Idril's Gaze",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/sargak",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "scorch",
@@ -15960,7 +17540,16 @@
     },
     "traits": [
       "광역 마법 공격"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "죄악의눈",
+      "nameEn": "Eye of Sin",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/scorch",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "selene",
@@ -15984,10 +17573,13 @@
     ],
     "collectionValue": 2,
     "exclusiveArtifact": {
-      "nameKr": null,
+      "nameKr": "핏빛망토",
       "nameEn": "Sanguine Shroud",
-      "krVerified": false,
-      "source": "user-reviewed-artifact-list"
+      "krVerified": true,
+      "source": "https://fastidious.gg/heroes/selene",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -16032,7 +17624,16 @@
     "traits": [
       "단일 마법 공격",
       "다단 공격"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "핏빛망토",
+      "nameEn": "Sanguine Shroud",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/selene",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "selkath",
@@ -16099,7 +17700,16 @@
       "광역 마법 공격",
       "아군 버프",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "악몽 윤회",
+      "nameEn": "Nightmare Samsara",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/selkath",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "serephina",
@@ -16165,7 +17775,16 @@
     "traits": [
       "단일 마법 공격",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/serephina",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "sergei",
@@ -16250,7 +17869,16 @@
       "단일 물리 공격",
       "생존",
       "방어 무시"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "겁쟁이의 용기",
+      "nameEn": "Talisman of Resolve",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/sergei",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "setram",
@@ -16277,7 +17905,10 @@
       "nameKr": "허무의팬던트",
       "nameEn": "Oblivion Pendant",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/setram",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -16331,7 +17962,16 @@
       "단일 물리 공격",
       "강력 제어",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "허무의팬던트",
+      "nameEn": "Oblivion Pendant",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/setram",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "shamir",
@@ -16355,10 +17995,13 @@
     ],
     "collectionValue": 2,
     "exclusiveArtifact": {
-      "nameKr": null,
+      "nameKr": "바다의왕관",
       "nameEn": "Seabed Crown",
-      "krVerified": false,
-      "source": "user-reviewed-artifact-list"
+      "krVerified": true,
+      "source": "https://fastidious.gg/heroes/shamir",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -16404,10 +18047,13 @@
       "강력 제어"
     ],
     "recommendedArtifact": {
-      "nameKr": "황혼의 눈물",
-      "nameEn": "Tear of Twilight",
+      "nameKr": "바다의왕관",
+      "nameEn": "Seabed Crown",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/shamir",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -16439,7 +18085,10 @@
       "nameKr": "회환의눈",
       "nameEn": "Eye of Penitence",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/silas",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -16492,7 +18141,16 @@
       "단일 물리 공격",
       "방어 무시",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "회환의눈",
+      "nameEn": "Eye of Penitence",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/silas",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "solaris",
@@ -16563,7 +18221,10 @@
       "nameKr": "황혼의 눈물",
       "nameEn": "Tear of Twilight",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/solaris%20skyre",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -16643,7 +18304,16 @@
       "단일 마법 공격",
       "아군 버프",
       "지속 피해"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/solcadens",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "soleil",
@@ -16721,7 +18391,10 @@
       "nameKr": "황혼의 눈물",
       "nameEn": "Tear of Twilight",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/soleil",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -16786,7 +18459,16 @@
     },
     "traits": [
       "단일 마법 공격"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/sorzus",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "su-yue",
@@ -16822,7 +18504,10 @@
       "nameKr": "상야",
       "nameEn": "Moonfrost",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/su-yue",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -16882,7 +18567,10 @@
       "nameKr": "상야",
       "nameEn": "Moonfrost",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/su-yue",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -16973,7 +18661,10 @@
       "nameKr": "여의봉",
       "nameEn": "Golden Cudgel",
       "krVerified": true,
-      "source": "existing-verified-detail"
+      "source": "https://fastidious.gg/heroes/sun-wukong",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -16987,7 +18678,10 @@
       "nameKr": "여의봉",
       "nameEn": "Golden Cudgel",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/sun-wukong",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -17076,7 +18770,16 @@
       "방어 무시",
       "소환",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "망령술사의 손가락",
+      "nameEn": "Blightcaller's Claw",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/sythra",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "talin",
@@ -17112,7 +18815,10 @@
       "nameKr": "꽃의수호자",
       "nameEn": "Blackbark Pauldrons",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/talin",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -17170,7 +18876,10 @@
       "nameKr": "꽃의수호자",
       "nameEn": "Blackbark Pauldrons",
       "krVerified": true,
-      "source": "2026-09-18 Fastidious.gg 1순위 추천 + 사용자 한국 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/talin",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -17198,7 +18907,10 @@
       "nameKr": "나비의노래",
       "nameEn": "Song of the Butterfly",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/talula",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -17255,7 +18967,16 @@
     ],
     "contentTags": [
       "fallen-twins"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "나비의노래",
+      "nameEn": "Song of the Butterfly",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/talula",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "tazira",
@@ -17322,7 +19043,16 @@
       "단일 물리 공격",
       "다단 공격",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "가드리엘의 응시",
+      "nameEn": "Idril's Gaze",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/tazira",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "thallen",
@@ -17406,7 +19136,16 @@
       "강력 제어",
       "아군 버프",
       "지속 피해"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "세상의 눈물",
+      "nameEn": "Realm Tear",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/thallen",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "theowin",
@@ -17433,7 +19172,10 @@
       "nameKr": "폭풍의칼날",
       "nameEn": "Stormstrike Haladie",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/theowin",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -17478,7 +19220,16 @@
     "traits": [
       "광역 물리 공격",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "폭풍의칼날",
+      "nameEn": "Stormstrike Haladie",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/theowin",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "thunkles",
@@ -17543,7 +19294,16 @@
     "traits": [
       "생존",
       "치유 금지"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/thunkles",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "titus",
@@ -17607,7 +19367,16 @@
     },
     "traits": [
       "생존"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/titus",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "torodor",
@@ -17680,7 +19449,16 @@
       "생존",
       "강력 제어",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/torodor",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "trusk",
@@ -17707,7 +19485,10 @@
       "nameKr": "무언의분노",
       "nameEn": "Silent Fury",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/trusk",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -17759,7 +19540,16 @@
     "traits": [
       "높은 가드",
       "아군 보호"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "무언의분노",
+      "nameEn": "Silent Fury",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/trusk",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "twinfiend",
@@ -17786,7 +19576,10 @@
       "nameKr": "악마의응시",
       "nameEn": "The Devil's Gaze",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/twinfiend",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -17839,7 +19632,16 @@
       "아군 버프",
       "지속 피해",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "악마의응시",
+      "nameEn": "The Devil's Gaze",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/twinfiend",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "twyla",
@@ -17914,7 +19716,16 @@
       "방어 무시",
       "지속 피해",
       "생존"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "잊혀진 옛검",
+      "nameEn": "Shattered Hilt",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/twyla",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "uredin",
@@ -17989,7 +19800,16 @@
       "광역 마법 공격",
       "생존",
       "강력 제어"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "죄악의눈",
+      "nameEn": "Eye of Sin",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/uredin",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "valara",
@@ -18029,7 +19849,10 @@
       "nameKr": "여명",
       "nameEn": "Dawnbreak",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/valara",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -18090,7 +19913,16 @@
       "고정 피해",
       "은신",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "여명",
+      "nameEn": "Dawnbreak",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/valara",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "valderon",
@@ -18120,7 +19952,10 @@
       "nameKr": "혼돈의마검",
       "nameEn": "Chaotic Doomblade",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/valderon",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -18173,7 +20008,16 @@
       "단일 물리 공격",
       "생존",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "혼돈의마검",
+      "nameEn": "Chaotic Doomblade",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/valderon",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "valeriya",
@@ -18209,7 +20053,10 @@
       "nameKr": "독사의입맞춤",
       "nameEn": "Serpent's Kiss",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/valeriya",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -18261,7 +20108,16 @@
       "단일 물리 공격",
       "아군 버프",
       "생존"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "독사의입맞춤",
+      "nameEn": "Serpent's Kiss",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/valeriya",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "valkyra",
@@ -18297,7 +20153,10 @@
       "nameKr": "북쪽경계의날개",
       "nameEn": "Glacial Wings",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/valkyra",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -18353,10 +20212,13 @@
       "공중 유닛 공격 가능"
     ],
     "recommendedArtifact": {
-      "nameKr": "세상의 눈물",
-      "nameEn": "Realm Tear",
+      "nameKr": "북쪽경계의날개",
+      "nameEn": "Glacial Wings",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/valkyra",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -18433,7 +20295,16 @@
       "단일 물리 공격",
       "은신",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "흡혼 부적",
+      "nameEn": "Spirit Siphon",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/vargus",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "varro-draccus",
@@ -18565,7 +20436,16 @@
       "광역 마법 공격",
       "아군 버프",
       "소환"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/velisse",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "venoma",
@@ -18639,7 +20519,16 @@
       "광역 마법 공격",
       "지속 피해",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/venoma",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "vera",
@@ -18740,7 +20629,10 @@
       "nameKr": "악령왕관",
       "nameEn": "Crown of Souls",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/vierna",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -18797,7 +20689,16 @@
     "traits": [
       "광역 마법 공격",
       "지속 피해"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "악령왕관",
+      "nameEn": "Crown of Souls",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/vierna",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "violetta-vane",
@@ -18822,9 +20723,12 @@
     "collectionValue": 4,
     "exclusiveArtifact": {
       "nameKr": "철칙",
-      "nameEn": null,
+      "nameEn": "Final Edict",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/violetta-vane",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -18880,7 +20784,16 @@
     ],
     "contentTags": [
       "fallen-twins"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "철칙",
+      "nameEn": "Final Edict",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/violetta-vane",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "vixera",
@@ -18948,7 +20861,16 @@
       "지속 피해",
       "아군 버프",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/vixera",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "vlad-draculea",
@@ -18975,7 +20897,10 @@
       "nameKr": "블라드의창",
       "nameEn": "Vlad's Impaler",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/vladdraculea",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -19020,7 +20945,16 @@
       "광역 마법 공격",
       "위치 이동",
       "높은 가드"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "블라드의창",
+      "nameEn": "Vlad's Impaler",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/vladdraculea",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "vladov",
@@ -19094,7 +21028,16 @@
     "traits": [
       "단일 물리 공격",
       "지속 피해"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "스칼렛헌트",
+      "nameEn": "Scarlet Hunt",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://prospector.gg/hero/vladov/",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Prospector 엔드게임 빌드 확인"
+    }
   },
   {
     "id": "volka",
@@ -19121,7 +21064,10 @@
       "nameKr": "잔혹한운명",
       "nameEn": "Cruel Fate",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/volka",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -19173,7 +21119,16 @@
       "광역 물리 공격",
       "아군 버프",
       "아군 보호"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "잔혹한운명",
+      "nameEn": "Cruel Fate",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/volka",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "voltus",
@@ -19237,7 +21192,16 @@
     },
     "traits": [
       "광역 마법 공격"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/voltus",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "vorn",
@@ -19276,7 +21240,10 @@
       "nameKr": "응축된산의뼈",
       "nameEn": "Bone Dirk",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/vorn",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -19331,7 +21298,16 @@
       "아군 버프",
       "공격 제거",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "응축된산의뼈",
+      "nameEn": "Bone Dirk",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/vorn",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "voroth",
@@ -19358,7 +21334,10 @@
       "nameKr": "겨울의부름",
       "nameEn": "Winter's Call",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/voroth",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [],
     "details": {
@@ -19408,7 +21387,10 @@
       "nameKr": "겨울의부름",
       "nameEn": "Winter's Call",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/voroth",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     }
   },
   {
@@ -19478,7 +21460,10 @@
       "nameKr": "낙원의 찬가",
       "nameEn": "Elysian Epitaph",
       "krVerified": true,
-      "source": "2026-09-18 1순위 추천 검수 + 사용자 한국 서버 공식명 확인"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/vortex",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
     }
   },
   {
@@ -19562,9 +21547,21 @@
       "nameKr": "폭주",
       "nameEn": "Flaming Pauldrons",
       "krVerified": true,
-      "source": "existing-verified-detail"
+      "source": "https://fastidious.gg/heroes/wrath",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
-    "videos": []
+    "videos": [],
+    "recommendedArtifact": {
+      "nameKr": "폭주",
+      "nameEn": "Flaming Pauldrons",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/wrath",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "xaris",
@@ -19636,7 +21633,16 @@
     "traits": [
       "광역 마법 공격",
       "소환"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/xaris",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "xasny",
@@ -19774,7 +21780,16 @@
     "traits": [
       "단일 마법 공격",
       "지속 피해"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "포효의 머리뼈",
+      "nameEn": "Wailing Skull",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/xena",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "ymiret",
@@ -19848,7 +21863,16 @@
       "광역 물리 공격",
       "강력 제어",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "죄악의눈",
+      "nameEn": "Eye of Sin",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/ymiret",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "Fastidious 영웅별 1순위"
+    }
   },
   {
     "id": "yuri",
@@ -19887,7 +21911,10 @@
       "nameKr": "여우햇빛",
       "nameEn": "Uzimo Relic",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/yuri",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -19939,7 +21966,16 @@
       "단일 물리 공격",
       "다단 공격",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "여우햇빛",
+      "nameEn": "Uzimo Relic",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/yuri",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "zelus",
@@ -19966,7 +22002,10 @@
       "nameKr": "묘지의글",
       "nameEn": "Graveyard Opus",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/zelus",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -20017,7 +22056,16 @@
     "traits": [
       "광역 마법 공격",
       "아군 버프"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "묘지의글",
+      "nameEn": "Graveyard Opus",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/zelus",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "zilitu",
@@ -20044,7 +22092,10 @@
       "nameKr": "타케올의분노",
       "nameEn": "Blade of Talkiel",
       "krVerified": true,
-      "source": "user-reviewed-artifact-list"
+      "source": "https://fastidious.gg/heroes/zilitu",
+      "kind": "exclusive",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
     },
     "videos": [
       {
@@ -20096,7 +22147,16 @@
       "단일 마법 공격",
       "지속 피해",
       "공중 유닛 공격 가능"
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "타케올의분노",
+      "nameEn": "Blade of Talkiel",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "https://fastidious.gg/heroes/zilitu",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
+    }
   },
   {
     "id": "oakenvar",
@@ -20125,7 +22185,10 @@
       "nameKr": "보루의 반지",
       "nameEn": "Bastion Ring",
       "krVerified": true,
-      "source": "2026-09-27 Okenvar 빌드 교차검수"
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/oakenvar",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "기존 사용자 확인 추천 유지; Fastidious 추천 데이터 없음"
     },
     "videos": [],
     "details": {
@@ -20262,6 +22325,15 @@
         "message": "신규 에픽 영주 등록",
         "timestamp": 1790460301
       }
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "흐르는 팬던트",
+      "nameEn": "Flux Pendant",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://fastidious.gg/heroes/veyrathia",
+      "reviewedAt": "2026-10-01",
+      "recommendationBasis": "기존 사용자 추천이 상세에만 존재: 추천 필드 연결 필요"
+    }
   }
 ]
