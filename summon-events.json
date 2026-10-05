@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "events": [
+    {
+      "id": "2026-10-02-beatrix-graves",
+      "startDate": "2026-10-02",
+      "endDate": "2026-10-04",
+      "type": "unclassified",
+      "guaranteePulls": null,
+      "heroes": [
+        {
+          "id": "beatrix",
+          "nameKr": "베아트릭스"
+        },
+        {
+          "id": "graves-greybeard",
+          "nameKr": "해골 그림자 회색수염"
+        }
+      ],
+      "source": "사용자 제공 소환 일정 (2026-10-05)",
+      "recordedAt": "2026-10-05"
+    },
+    {
+      "id": "2026-10-08-wukong-guaranteed",
+      "startDate": "2026-10-08",
+      "endDate": "2026-10-12",
+      "type": "guaranteed",
+      "guaranteePulls": 200,
+      "heroes": [
+        {
+          "id": "sun-wukong",
+          "nameKr": "손오공"
+        }
+      ],
+      "source": "사용자 제공 소환 일정 (2026-10-05)",
+      "recordedAt": "2026-10-05"
+    },
+    {
+      "id": "2026-10-09-garok-rosalia",
+      "startDate": "2026-10-09",
+      "endDate": "2026-10-12",
+      "type": "unclassified",
+      "guaranteePulls": null,
+      "heroes": [
+        {
+          "id": null,
+          "nameKr": "가로크"
+        },
+        {
+          "id": "rosalia",
+          "nameKr": "로살리아"
+        }
+      ],
+      "source": "사용자 제공 소환 일정 (2026-10-05)",
+      "recordedAt": "2026-10-05"
+    },
+    {
+      "id": "2026-10-10-amelia-sergei",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-12",
+      "type": "unclassified",
+      "guaranteePulls": null,
+      "heroes": [
+        {
+          "id": null,
+          "nameKr": "아멜리아 에인스워스"
+        },
+        {
+          "id": "sergei",
+          "nameKr": "세르게이"
+        }
+      ],
+      "source": "사용자 제공 소환 일정 (2026-10-05)",
+      "recordedAt": "2026-10-05"
+    }
+  ]
+}

@@ -2765,7 +2765,21 @@
       "source": "https://fastidious.gg/heroes/beatrix",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "summonHistory": [
+      {
+        "id": "2026-10-02-beatrix-graves",
+        "startDate": "2026-10-02",
+        "endDate": "2026-10-04",
+        "type": "unclassified",
+        "guaranteePulls": null,
+        "source": "사용자 제공 소환 일정 (2026-10-05)",
+        "recordedAt": "2026-10-05",
+        "companions": [
+          "해골 그림자 회색수염"
+        ]
+      }
+    ]
   },
   {
     "id": "beelzebub",
@@ -8667,7 +8681,21 @@
       "source": "https://fastidious.gg/heroes/graves%20greybeard",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
-    }
+    },
+    "summonHistory": [
+      {
+        "id": "2026-10-02-beatrix-graves",
+        "startDate": "2026-10-02",
+        "endDate": "2026-10-04",
+        "type": "unclassified",
+        "guaranteePulls": null,
+        "source": "사용자 제공 소환 일정 (2026-10-05)",
+        "recordedAt": "2026-10-05",
+        "companions": [
+          "베아트릭스"
+        ]
+      }
+    ]
   },
   {
     "id": "greed",
@@ -17039,7 +17067,21 @@
       "source": "https://fastidious.gg/heroes/rosalia",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "summonHistory": [
+      {
+        "id": "2026-10-09-garok-rosalia",
+        "startDate": "2026-10-09",
+        "endDate": "2026-10-12",
+        "type": "unclassified",
+        "guaranteePulls": null,
+        "source": "사용자 제공 소환 일정 (2026-10-05)",
+        "recordedAt": "2026-10-05",
+        "companions": [
+          "가로크"
+        ]
+      }
+    ]
   },
   {
     "id": "ruen-hollow",
@@ -17878,7 +17920,21 @@
       "source": "https://fastidious.gg/heroes/sergei",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
-    }
+    },
+    "summonHistory": [
+      {
+        "id": "2026-10-10-amelia-sergei",
+        "startDate": "2026-10-10",
+        "endDate": "2026-10-12",
+        "type": "unclassified",
+        "guaranteePulls": null,
+        "source": "사용자 제공 소환 일정 (2026-10-05)",
+        "recordedAt": "2026-10-05",
+        "companions": [
+          "아멜리아 에인스워스"
+        ]
+      }
+    ]
   },
   {
     "id": "setram",
@@ -18682,7 +18738,19 @@
       "source": "https://fastidious.gg/heroes/sun-wukong",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "summonHistory": [
+      {
+        "id": "2026-10-08-wukong-guaranteed",
+        "startDate": "2026-10-08",
+        "endDate": "2026-10-12",
+        "type": "guaranteed",
+        "guaranteePulls": 200,
+        "source": "사용자 제공 소환 일정 (2026-10-05)",
+        "recordedAt": "2026-10-05",
+        "companions": []
+      }
+    ]
   },
   {
     "id": "sythra",
