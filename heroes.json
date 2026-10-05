@@ -10337,7 +10337,7 @@
         "factionEn": "Infernal Blast",
         "lord": false,
         "sortOrder": 17,
-        "portrait": "./infernal-blast-hq-17-janus-grismore.webp"
+        "portrait": "./janus-grismore-20261005.webp"
       }
     ],
     "collectionValue": 3,
@@ -10404,7 +10404,10 @@
       "source": "https://fastidious.gg/heroes/janus%20grismore",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
-    }
+    },
+    "collectionValueReason": "신규 보스 타천의 쌍둥이에서 활용 필요성 증가.",
+    "collectionValueReviewedAt": "2026-10-05",
+    "portrait": "/janus-grismore-20261005.webp"
   },
   {
     "id": "jeera",
