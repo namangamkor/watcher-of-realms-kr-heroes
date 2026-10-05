@@ -10407,7 +10407,17 @@
     },
     "collectionValueReason": "신규 보스 타천의 쌍둥이에서 활용 필요성 증가.",
     "collectionValueReviewedAt": "2026-10-05",
-    "portrait": "/janus-grismore-20261005.webp"
+    "portrait": "/janus-grismore-20261005.webp",
+    "infoUpdatedAt": "2026-10-05T19:44:52+09:00",
+    "updateHistory": [
+      {
+        "id": "janus-image-value-20261005",
+        "updatedAt": "2026-10-05T19:44:52+09:00",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "영웅 이미지 교체 · 수집가치 3점 평가 반영 (타천의 쌍둥이 활용 필요성 증가)"
+      }
+    ]
   },
   {
     "id": "jeera",

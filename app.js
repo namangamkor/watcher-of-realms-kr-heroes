@@ -10,10 +10,19 @@ function heroActivityTime(id) {
 }
 function applyHeroActivity(items) {
   if (!Array.isArray(items)) return;
-  heroActivity = new Map(items.filter((item) => item && typeof item.heroId === "string" && item.heroId).map((item) => {
+  const incoming = new Map(items.filter((item) => item && typeof item.heroId === "string" && item.heroId).map((item) => {
     const seconds = (value) => Number.isFinite(Number(value)) && Number(value) > 0 && Number(value) <= 8640000000000 ? Number(value) : 0;
     return [item.heroId, { infoUpdatedAt: seconds(item.infoUpdatedAt), reviewPublishedAt: seconds(item.reviewPublishedAt), reviewOrder: Number.isInteger(item.reviewOrder) ? item.reviewOrder : Number.MAX_SAFE_INTEGER }];
   }));
+  for (const [id, item] of incoming) {
+    const previous = heroActivity.get(id);
+    heroActivity.set(id, { ...item, infoUpdatedAt: Math.max(previous?.infoUpdatedAt || 0, item.infoUpdatedAt) });
+  }
+}
+function applyHeroEditorialUpdates(heroList) {
+  const records = heroList.flatMap(hero => (hero.updateHistory || []).map(item => ({...item, heroId:hero.id,heroName:hero.nameKr,timestamp:Date.parse(item.updatedAt)/1000})));
+  applyHeroActivity(heroList.map(hero => ({heroId:hero.id,infoUpdatedAt:Math.max(Date.parse(hero.infoUpdatedAt || "")/1000 || 0,...records.filter(item=>item.heroId===hero.id).map(item=>item.timestamp || 0)),reviewPublishedAt:0})));
+  return records.filter(item=>Number.isFinite(item.timestamp) && item.timestamp>0);
 }
 function heroActivityBadge(hero) {
   const activity = heroActivity.get(hero.id);
@@ -583,11 +592,11 @@ function renderRecentUpdates(items) {
     if (!item || !item.heroId || !item.heroName || !item.message) return;
     const link = document.createElement("a");
     link.className = "recent-fix-item";
-    link.href = `/hero/${encodeURIComponent(item.heroId)}/${item.kind === "review" ? "#hero-comments" : ""}`;
+    link.href = item.heroId === "site-update" ? "/" : `/hero/${encodeURIComponent(item.heroId)}/${item.kind === "review" ? "#hero-comments" : ""}`;
 
     const kind = document.createElement("span");
     kind.className = `recent-fix-kind ${item.kind === "review" ? "review" : "info"}`;
-    kind.textContent = item.kind === "review" ? "후기" : "정보";
+    kind.textContent = item.kindLabel || (item.kind === "review" ? "후기" : "정보");
 
     const hero = document.createElement("strong");
     hero.textContent = item.heroName;
@@ -617,14 +626,14 @@ function renderRecentUpdates(items) {
 
 // Keep the server-rendered cards visible until both sources are ready.
 // A partial render with heroes.json but no activity briefly restores the old order.
-const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.93", { cache: "no-store" })
+const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.100", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("recent updates load failed");
     return response.json();
   })
   .catch((error) => { console.warn(error); return null; });
 
-const heroesPromise = fetch("./heroes.json?v=2.14.99", { cache: "no-store" })
+const heroesPromise = fetch("./heroes.json?v=2.14.100", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
@@ -633,8 +642,11 @@ const heroesPromise = fetch("./heroes.json?v=2.14.99", { cache: "no-store" })
 Promise.all([heroesPromise, recentUpdatesPromise])
   .then(([data, updates]) => {
     heroes = data;
+    const editorial = applyHeroEditorialUpdates(heroes);
+    const combined = [...editorial, ...(updates?.updates || [])];
+    const distinct = [...new Map(combined.map(item=>[item.id,item])).values()].sort((a,b)=>b.timestamp-a.timestamp);
+    if (distinct.length) renderRecentUpdates(distinct);
     if (updates) {
-      renderRecentUpdates(updates.updates);
       applyHeroActivity(updates.heroActivity);
     }
     syncFactionTotalsFromHeroes();
