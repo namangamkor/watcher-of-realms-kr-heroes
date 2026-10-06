@@ -585,6 +585,10 @@ function render() {
 }
 
 
+function shortUpdateMessage(value) {
+  const chars = Array.from(String(value || "").replace(/\s+/g, " ").trim());
+  return chars.length > 20 ? chars.slice(0, 19).join("") + "…" : chars.join("");
+}
 function renderRecentUpdates(items) {
   if (!recentUpdateList || !Array.isArray(items) || !items.length) return;
   const fragment = document.createDocumentFragment();
@@ -603,7 +607,7 @@ function renderRecentUpdates(items) {
 
     const message = document.createElement("span");
     message.className = "recent-fix-message-text";
-    message.textContent = item.message;
+    message.textContent = shortUpdateMessage(item.shortMessage || item.message);
 
     const timestamp = Number(item.timestamp);
     const date = document.createElement("time");
@@ -626,14 +630,14 @@ function renderRecentUpdates(items) {
 
 // Keep the server-rendered cards visible until both sources are ready.
 // A partial render with heroes.json but no activity briefly restores the old order.
-const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.100", { cache: "no-store" })
+const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.102", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("recent updates load failed");
     return response.json();
   })
   .catch((error) => { console.warn(error); return null; });
 
-const heroesPromise = fetch("./heroes.json?v=2.14.100", { cache: "no-store" })
+const heroesPromise = fetch("./heroes.json?v=2.14.102", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ko">
 <head>
-  <meta name="worwiki-patch-version" content="2.14.101">
+  <meta name="worwiki-patch-version" content="2.14.102">
   <meta charset="UTF-8" />
   <!-- gear-route-rescue -->
   <script>
@@ -141,6 +141,10 @@
 <style id="ww-wiki-search-note-style">
 .wiki-search-note{margin:8px 0 20px;color:#aeb8c3;font-size:14px;line-height:1.65;word-break:keep-all}
 </style>
+<style>
+/* Compact update messages on narrow screens as well as desktop. */
+.recent-fix-message-text { min-width: 0; max-width: 20em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+</style>
 </head>
 <body>
   <header class="topbar">
@@ -174,7 +178,7 @@
         <div class="recent-fix-copy">
           <span class="recent-fix-label"><span class="recent-fix-dot" aria-hidden="true"></span>최근 업데이트</span>
           <div id="recentUpdateList" class="recent-fix-list" aria-live="polite">
-<a class="recent-fix-item" href="/hero/janus-grismore/"><span class="recent-fix-kind">영웅 업데이트</span><strong>제누스</strong><span class="recent-fix-message-text">영웅 이미지 교체 · 수집가치 3점 평가 반영 (타천의 쌍둥이 활용 필요성 증가)</span><time class="recent-fix-date" datetime="2026-10-05T19:44:52+09:00">10.05</time></a>
+<a class="recent-fix-item" href="/hero/janus-grismore/"><span class="recent-fix-kind">영웅 업데이트</span><strong>제누스</strong><span class="recent-fix-message-text">이미지 교체 · 수집가치 3점</span><time class="recent-fix-date" datetime="2026-10-05T19:44:52+09:00">10.05</time></a>
 <a class="recent-fix-item" href="/hero/rosalia/" data-ww-updated-priority="1790460303" style="--ww-update-order:-1000"><span class="recent-fix-kind">이미지업데이트</span><strong>로살리아</strong><span class="recent-fix-message-text">영웅 이미지 교체</span><time class="recent-fix-date" datetime="2026-09-27">09.27</time></a>
 <a class="recent-fix-item" href="/hero/oakenvar/" data-ww-updated-priority="1790460302" style="--ww-update-order:-999"><span class="recent-fix-kind">신규영웅등록</span><strong>오켄바르</strong><span class="recent-fix-message-text">신규 전설 수호자 등록</span><time class="recent-fix-date" datetime="2026-09-27">09.27</time></a>
           </div>
@@ -861,7 +865,7 @@
     </div>
   </div>
 
-  <script src="/app.js?v=2.14.100" defer></script>
+  <script src="/app.js?v=2.14.102" defer></script>
 
 <a class="ww-summon-float" href="/summon/" aria-label="오늘의 소환 운명 시험 열기">
   <span class="ww-summon-float-crystal" aria-hidden="true"></span>
