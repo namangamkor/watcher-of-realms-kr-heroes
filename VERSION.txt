@@ -1,4 +1,4 @@
-v2.14.106
-Base: v2.14.105
+v2.14.108
+Base: v2.14.106
 Status: locally verified; not deployed
-Coverage: 100/100 exclusive recommendations; official Korean names confirmed
+Change: Valara portrait in Supreme Arbiters and Esoteria Order

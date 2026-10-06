@@ -21975,7 +21975,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 16,
-        "portrait": "./valara-dual-faction-v21472.webp"
+        "portrait": "./valara-dual-faction-v214108.webp"
       },
       {
         "faction": "supreme-arbiters",
@@ -21983,7 +21983,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 8,
-        "portrait": "./valara-dual-faction-v21472.webp"
+        "portrait": "./valara-dual-faction-v214108.webp"
       }
     ],
     "contentTags": [
@@ -22082,7 +22082,7 @@
       "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
       "roleId": 6
     },
-    "infoUpdatedAt": "2026-10-07T00:04:41+09:00",
+    "infoUpdatedAt": "2026-10-07T00:54:01+09:00",
     "updateHistory": [
       {
         "id": "generic-artifact-20261006-valara",
@@ -22091,6 +22091,14 @@
         "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
         "shortMessage": "범용 아티팩트 대안 추가",
         "updatedAt": "2026-10-07T00:04:41+09:00"
+      },
+      {
+        "id": "valara-image-20261007",
+        "kind": "info",
+        "kindLabel": "이미지 업데이트",
+        "message": "최고 중재자·비법회 대표 이미지 교체",
+        "shortMessage": "대표 이미지 교체",
+        "updatedAt": "2026-10-07T00:54:01+09:00"
       }
     ]
   },
