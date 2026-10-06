@@ -637,7 +637,7 @@ const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.102", { cache: "n
   })
   .catch((error) => { console.warn(error); return null; });
 
-const heroesPromise = fetch("./heroes.json?v=2.14.102", { cache: "no-store" })
+const heroesPromise = fetch("./heroes.json?v=2.14.106", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();

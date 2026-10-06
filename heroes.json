@@ -80,7 +80,31 @@
       "source": "https://fastidious.gg/heroes/abomination",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "난폭한 마스크",
+      "nameEn": "Lunacy Visor",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "가드 수와 피해를 줄 때의 자가 회복으로 전선 생존을 보강합니다.",
+      "condition": "회복은 착용자가 실제로 피해를 줘야 발동합니다.",
+      "source": "https://fastidious.gg/heroes/abomination",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-abomination",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "abyss",
@@ -329,7 +353,31 @@
       "source": "https://fastidious.gg/heroes/aedrin",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "겁쟁이의 용기",
+      "nameEn": "Talisman of Resolve",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "보호막을 활용하는 운용에서 피해 증가를 얻는 대안입니다.",
+      "condition": "보호막이 필요하며 사라진 뒤에는 짧은 시간만 효과가 유지됩니다.",
+      "source": "https://fastidious.gg/heroes/aedrin",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-aedrin",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "aeon",
@@ -662,7 +710,31 @@
       "source": "https://fastidious.gg/heroes/ain",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "포효의 머리뼈",
+      "nameEn": "Wailing Skull",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "피해를 줄 때 그림자 수호자의 추가 공격을 노려 화력을 보강합니다.",
+      "condition": "소환은 확률 발동이며 재발동 대기시간이 있습니다.",
+      "source": "https://fastidious.gg/heroes/ain",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-ain",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "ajax",
@@ -757,7 +829,31 @@
       "source": "https://fastidious.gg/heroes/ajax",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력을 높여 공격력 중심의 화력을 보강하는 범용 대안입니다.",
+      "condition": "체력이 80% 미만이면 공격력 보너스가 줄어들므로 체력 관리가 필요합니다.",
+      "source": "https://fastidious.gg/heroes/ajax",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 2
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-ajax",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "akirastar",
@@ -860,7 +956,31 @@
       "source": "https://fastidious.gg/heroes/akira",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "종말의손",
+      "nameEn": "Hand of Doom",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "피해 증가로 화력을 보강하고 적 처치 후 관통 보너스를 노릴 수 있습니다.",
+      "condition": "관통 보너스는 적 3명을 처치해야 발동합니다. 처치 기회가 없는 보스전에서는 기본 효과만 기대하세요.",
+      "source": "https://fastidious.gg/heroes/akira",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 3
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-akirastar",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "alaura",
@@ -960,7 +1080,31 @@
       "source": "https://fastidious.gg/heroes/alaura",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "사신의 표식",
+      "nameEn": "Reaper's Emblem",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "기본 피해와 처치 후 피해 중첩으로 잡몹 정리 구간의 화력을 보강합니다.",
+      "condition": "추가 중첩은 적 처치가 필요하고 유지 시간이 제한됩니다.",
+      "source": "https://fastidious.gg/heroes/alaura",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 3
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-alaura",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "alistair",
@@ -1221,7 +1365,31 @@
       "source": "https://fastidious.gg/heroes/anora",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력을 높여 공격력 중심의 화력을 보강하는 범용 대안입니다.",
+      "condition": "체력이 80% 미만이면 공격력 보너스가 줄어들므로 체력 관리가 필요합니다.",
+      "source": "https://fastidious.gg/heroes/anora",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 2
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-anora",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "apsan",
@@ -1305,7 +1473,31 @@
       "source": "https://fastidious.gg/heroes/apsan",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "세상의 눈물",
+      "nameEn": "Realm Tear",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "먼 거리의 적을 공격할 때 피해를 높이는 배치 중심 대안입니다.",
+      "condition": "1칸을 넘는 거리에서 효과를 얻습니다. 바로 앞 적만 공격하면 거리 보너스를 얻지 못합니다.",
+      "source": "https://fastidious.gg/heroes/apsan",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-apsan",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "aracha",
@@ -1398,7 +1590,31 @@
       "source": "https://fastidious.gg/heroes/aracha",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "세상의 눈물",
+      "nameEn": "Realm Tear",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "먼 거리의 적을 공격할 때 피해를 높이는 배치 중심 대안입니다.",
+      "condition": "1칸을 넘는 거리에서 효과를 얻습니다. 바로 앞 적만 공격하면 거리 보너스를 얻지 못합니다.",
+      "source": "https://fastidious.gg/heroes/aracha",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-aracha",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "ardea",
@@ -1739,7 +1955,31 @@
       "source": "https://fastidious.gg/heroes/arrogance",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "세상의 눈물",
+      "nameEn": "Realm Tear",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "먼 거리의 적을 공격할 때 피해를 높이는 배치 중심 대안입니다.",
+      "condition": "1칸을 넘는 거리에서 효과를 얻습니다. 바로 앞 적만 공격하면 거리 보너스를 얻지 못합니다.",
+      "source": "https://fastidious.gg/heroes/arrogance",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-arrogance",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "artemis",
@@ -2087,7 +2327,31 @@
       "source": "https://fastidious.gg/heroes/aurelius-gale",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력을 높여 공격력 중심의 화력을 보강하는 범용 대안입니다.",
+      "condition": "체력이 80% 미만이면 공격력 보너스가 줄어들므로 체력 관리가 필요합니다.",
+      "source": "https://fastidious.gg/heroes/aurelius-gale",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 2
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-aurelius-gale",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "autumn",
@@ -2333,7 +2597,31 @@
       "source": "https://fastidious.gg/heroes/aylin",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "즐거움의 보주",
+      "nameEn": "Euphoric Orb",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "범위 안 아군에게 주기적으로 공격 속도를 지원하는 선택입니다.",
+      "condition": "공격 속도 효과는 상시가 아니라 정해진 간격마다 잠시 적용됩니다.",
+      "source": "https://fastidious.gg/heroes/aylin",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 5
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-aylin",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "azhor",
@@ -2417,7 +2705,31 @@
       "source": "https://fastidious.gg/heroes/azhor",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "가드 수와 저지 중 피해 감소를 보강해 전선을 유지하는 데 도움이 됩니다.",
+      "condition": "피해 감소는 실제로 저지 중인 적 수에 따라 증가합니다.",
+      "source": "https://fastidious.gg/heroes/azhor",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 4
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-azhor",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "azzoth",
@@ -2665,7 +2977,31 @@
       "source": "https://fastidious.gg/heroes/bayek",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "종말의손",
+      "nameEn": "Hand of Doom",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "피해 증가로 화력을 보강하고 적 처치 후 관통 보너스를 노릴 수 있습니다.",
+      "condition": "관통 보너스는 적 3명을 처치해야 발동합니다. 처치 기회가 없는 보스전에서는 기본 효과만 기대하세요.",
+      "source": "https://fastidious.gg/heroes/bayek",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 3
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-bayek",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "beatrix",
@@ -2779,6 +3115,30 @@
           "해골 그림자 회색수염"
         ]
       }
+    ],
+    "genericArtifactAlternative": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력을 높여 공격력 중심의 화력을 보강하는 범용 대안입니다.",
+      "condition": "체력이 80% 미만이면 공격력 보너스가 줄어들므로 체력 관리가 필요합니다.",
+      "source": "https://fastidious.gg/heroes/beatrix",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 2
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-beatrix",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
     ]
   },
   {
@@ -2872,7 +3232,31 @@
       "source": "https://fastidious.gg/heroes/beelzebub",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력을 높여 공격력 중심의 화력을 보강하는 범용 대안입니다.",
+      "condition": "체력이 80% 미만이면 공격력 보너스가 줄어들므로 체력 관리가 필요합니다.",
+      "source": "https://fastidious.gg/heroes/beelzebub",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 2
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-beelzebub",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "boreas",
@@ -2973,7 +3357,31 @@
       "source": "https://fastidious.gg/heroes/boreas",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력을 높여 공격력 중심의 화력을 보강하는 범용 대안입니다.",
+      "condition": "체력이 80% 미만이면 공격력 보너스가 줄어들므로 체력 관리가 필요합니다.",
+      "source": "https://fastidious.gg/heroes/boreas",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 2
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-boreas",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "borut",
@@ -3222,7 +3630,31 @@
       "source": "https://fastidious.gg/heroes/brokkir",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "가드 수와 저지 중 피해 감소를 보강해 전선을 유지하는 데 도움이 됩니다.",
+      "condition": "피해 감소는 실제로 저지 중인 적 수에 따라 증가합니다.",
+      "source": "https://fastidious.gg/heroes/brokkir",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 4
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-brokkir",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "brunor",
@@ -3410,7 +3842,31 @@
       "source": "https://fastidious.gg/heroes/cainan",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "공명의종",
+      "nameEn": "Resonance Bell",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "기본 피해를 높이고 인접한 아군과 함께 배치하면 추가 화력을 얻습니다.",
+      "condition": "추가 피해 보너스는 인접한 아군이 있어야 적용됩니다.",
+      "source": "https://fastidious.gg/heroes/cainan",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 6
+    },
+    "infoUpdatedAt": "2026-10-07T00:04:41+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-cainan",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-07T00:04:41+09:00"
+      }
+    ]
   },
   {
     "id": "calista",
@@ -3499,7 +3955,31 @@
       "source": "https://fastidious.gg/heroes/Calista",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "포효의 머리뼈",
+      "nameEn": "Wailing Skull",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "피해를 줄 때 그림자 수호자의 추가 공격을 노려 화력을 보강합니다.",
+      "condition": "소환은 확률 발동이며 재발동 대기시간이 있습니다.",
+      "source": "https://fastidious.gg/heroes/Calista",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-calista",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "calypso",
@@ -3584,7 +4064,31 @@
       "source": "https://fastidious.gg/heroes/calypso",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "흡혼 부적",
+      "nameEn": "Spirit Siphon",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "같은 적을 연속 공격할 때 피해가 높아져 보스·정예 집중 공격에 적합합니다.",
+      "condition": "공격 대상이 바뀌면 중첩이 사라집니다.",
+      "source": "https://fastidious.gg/heroes/calypso",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 3
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-calypso",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "camille",
@@ -3748,7 +4252,31 @@
       "source": "https://fastidious.gg/heroes/captain-reve",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "가드 수와 저지 중 피해 감소를 보강해 전선을 유지하는 데 도움이 됩니다.",
+      "condition": "피해 감소는 실제로 저지 중인 적 수에 따라 증가합니다.",
+      "source": "https://fastidious.gg/heroes/captain-reve",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 4
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-captain-reve",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "carnelian",
@@ -4101,7 +4629,31 @@
       "source": "https://fastidious.gg/heroes/cerberus",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "난폭한 마스크",
+      "nameEn": "Lunacy Visor",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "가드 수와 피해를 줄 때의 자가 회복으로 전선 생존을 보강합니다.",
+      "condition": "회복은 착용자가 실제로 피해를 줘야 발동합니다.",
+      "source": "https://fastidious.gg/heroes/cerberus",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-cerberus",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "clarissa",
@@ -4276,7 +4828,31 @@
       "source": "https://fastidious.gg/heroes/constance",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "신성한 예찬문",
+      "nameEn": "Astral Obelisk",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력과 치유 후 분노 회복을 보강해 궁극기 운용을 돕습니다.",
+      "condition": "분노 회복 보너스는 자신이 치유를 받은 뒤 잠시 적용됩니다.",
+      "source": "https://fastidious.gg/heroes/constance",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 4
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-constance",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "corven",
@@ -4463,7 +5039,31 @@
       "source": "https://fastidious.gg/heroes/countdracula",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "잊혀진 옛검",
+      "nameEn": "Shattered Hilt",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "단일 피해를 높이고 지속적으로 적중시키는 전투에서 화력을 누적합니다.",
+      "condition": "피해를 여러 번 줘야 중첩되며 단일 피해를 강화하는 효과입니다.",
+      "source": "https://fastidious.gg/heroes/countdracula",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-count-dracula",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "crach",
@@ -4546,7 +5146,31 @@
       "source": "https://fastidious.gg/heroes/crach",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "사신의 표식",
+      "nameEn": "Reaper's Emblem",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "기본 피해와 처치 후 피해 중첩으로 잡몹 정리 구간의 화력을 보강합니다.",
+      "condition": "추가 중첩은 적 처치가 필요하고 유지 시간이 제한됩니다.",
+      "source": "https://fastidious.gg/heroes/crach",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 3
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-crach",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "cutter",
@@ -5068,7 +5692,31 @@
       "source": "https://fastidious.gg/heroes/dahlia",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력을 높여 공격력 중심의 화력을 보강하는 범용 대안입니다.",
+      "condition": "체력이 80% 미만이면 공격력 보너스가 줄어들므로 체력 관리가 필요합니다.",
+      "source": "https://fastidious.gg/heroes/dahlia",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 2
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-dahlia",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "dalyn",
@@ -5332,7 +5980,31 @@
       "source": "https://fastidious.gg/heroes/dassomi",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "황금 풍뎅이",
+      "nameEn": "Golden Scarab",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력과 분노 회복을 높여 치유·지원 궁극기 운용을 돕습니다.",
+      "condition": "공격력 기반 치유와 궁극기 주기 보강에 초점을 둔 선택입니다.",
+      "source": "https://fastidious.gg/heroes/dassomi",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 5
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-dassomi",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "decimus",
@@ -5660,7 +6332,31 @@
       "source": "https://fastidious.gg/heroes/diaochan",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "황금 풍뎅이",
+      "nameEn": "Golden Scarab",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력과 분노 회복을 높여 치유·지원 궁극기 운용을 돕습니다.",
+      "condition": "공격력 기반 치유와 궁극기 주기 보강에 초점을 둔 선택입니다.",
+      "source": "https://fastidious.gg/heroes/diaochan",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 5
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-diaochan",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "dolores",
@@ -5834,7 +6530,31 @@
       "source": "https://fastidious.gg/heroes/dr-van-helsing",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "망령술사의 손가락",
+      "nameEn": "Blightcaller's Claw",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "단일 피해를 보강하고 일반 공격 후 추가 물리 타격을 노리는 선택입니다.",
+      "condition": "추가 타격은 확률 발동이며 재발동 대기시간이 있습니다. 광역 피해 전체를 강화하지는 않습니다.",
+      "source": "https://fastidious.gg/heroes/dr-van-helsing",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 3
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-dr-van-helsing",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "draelyn",
@@ -6456,7 +7176,31 @@
       "source": "https://fastidious.gg/heroes/eivor-varinsdottir",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "잊혀진 옛검",
+      "nameEn": "Shattered Hilt",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "단일 피해를 높이고 지속적으로 적중시키는 전투에서 화력을 누적합니다.",
+      "condition": "피해를 여러 번 줘야 중첩되며 단일 피해를 강화하는 효과입니다.",
+      "source": "https://fastidious.gg/heroes/eivor-varinsdottir",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-eivor-varinsdottir",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "elddr",
@@ -7039,7 +7783,31 @@
       "source": "https://fastidious.gg/heroes/erlangshen",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "가드 수와 저지 중 피해 감소를 보강해 전선을 유지하는 데 도움이 됩니다.",
+      "condition": "피해 감소는 실제로 저지 중인 적 수에 따라 증가합니다.",
+      "source": "https://fastidious.gg/heroes/erlangshen",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 4
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-erlang-shen",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "esme",
@@ -7384,7 +8152,31 @@
         "source": "2026-09-17 관성의 화살(Star Piercers) 엔드게임 전수검수: Prospector.gg + Fastidious.gg + Watcher of Realms Wiki 교차검증"
       }
     },
-    "videos": []
+    "videos": [],
+    "genericArtifactAlternative": {
+      "nameKr": "종말의손",
+      "nameEn": "Hand of Doom",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "배치 직후 폭발탄의 피해를 보강하고 적 처치 후 관통 보너스를 노릴 수 있습니다.",
+      "condition": "관통 보너스는 적 3명을 처치해야 발동합니다. 처치 기회가 없는 보스전에서는 기본 효과만 기대하세요.",
+      "source": "https://hellhades.com/evie-frye-joins-watcher-of-realms/",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 3
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-evie-frye",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "ezareth",
@@ -7591,7 +8383,31 @@
       "source": "https://fastidious.gg/heroes/ezio-auditore",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "습격자",
+      "nameEn": "Dwarven Strider",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "전체 능력치와 궁극기 사용 후 누적 보너스로 지속 전투를 보강합니다.",
+      "condition": "추가 능력치는 궁극기를 사용해야 쌓이며 강화 단계에 따른 한도까지 중첩됩니다.",
+      "source": "https://fastidious.gg/heroes/ezio-auditore",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "클래스별 장착 및 효과 대조에 따른 추천(추론); 원본의 전사 전용 추천 제외",
+      "roleId": 6
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-ezio-auditore",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "ezio-della-notte",
@@ -7701,7 +8517,31 @@
       "source": "https://fastidious.gg/heroes/ezio-della-notte",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "기존 사용자 확인 추천 유지; Fastidious 추천 데이터 없음"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "죄악의눈",
+      "nameEn": "Eye of Sin",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "광역 일반 공격과 궁극기의 범위 피해를 보강하는 대안입니다.",
+      "condition": "처치 후 추가 보너스는 짧게 유지됩니다. 기본 광역 피해 증가와 구분하세요.",
+      "source": "https://prospector.gg/hero/ezio-della-notte/",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "광역 공격 스킬과 아티팩트 효과 대조에 따른 추천(추론)",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-ezio-della-notte",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "ezryn",
@@ -7785,7 +8625,31 @@
       "source": "https://fastidious.gg/heroes/ezryn",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "낙원의 찬가",
+      "nameEn": "Elysian Epitaph",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "범위 안 아군 수에 따라 단일 치유 효과를 높여 아군 보호를 보강합니다.",
+      "condition": "강화 대상은 단일 치유이며 범위 안 아군 수를 확보해야 합니다.",
+      "source": "https://fastidious.gg/heroes/ezryn",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 5
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-ezryn",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "faelin",
@@ -7955,7 +8819,31 @@
       "source": "https://fastidious.gg/heroes/falcia",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "잊혀진 옛검",
+      "nameEn": "Shattered Hilt",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "단일 피해를 높이고 지속적으로 적중시키는 전투에서 화력을 누적합니다.",
+      "condition": "피해를 여러 번 줘야 중첩되며 단일 피해를 강화하는 효과입니다.",
+      "source": "https://fastidious.gg/heroes/falcia",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-falcia",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "fenris",
@@ -8787,7 +9675,31 @@
       "source": "https://fastidious.gg/heroes/greed",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "악몽 윤회",
+      "nameEn": "Nightmare Samsara",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격 횟수에 따른 분노 회복으로 궁극기를 다시 사용하는 데 도움이 됩니다.",
+      "condition": "공격 5회마다 발동하므로 실제 공격 빈도와 적이 없는 구간의 영향을 받습니다.",
+      "source": "https://fastidious.gg/heroes/greed",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 2
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-greed",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "gretchen",
@@ -8986,7 +9898,31 @@
       "source": "https://fastidious.gg/heroes/gu%20shi",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "종말의손",
+      "nameEn": "Hand of Doom",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "피해 증가로 화력을 보강하고 적 처치 후 관통 보너스를 노릴 수 있습니다.",
+      "condition": "관통 보너스는 적 3명을 처치해야 발동합니다. 처치 기회가 없는 보스전에서는 기본 효과만 기대하세요.",
+      "source": "https://fastidious.gg/heroes/gu%20shi",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 3
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-gu-shi",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "guan-yu",
@@ -9087,7 +10023,31 @@
       "source": "https://fastidious.gg/heroes/guan-yu",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "공명의종",
+      "nameEn": "Resonance Bell",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "기본 피해를 높이고 인접한 아군과 함께 배치하면 추가 화력을 얻습니다.",
+      "condition": "추가 피해 보너스는 인접한 아군이 있어야 적용됩니다.",
+      "source": "https://fastidious.gg/heroes/guan-yu",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 6
+    },
+    "infoUpdatedAt": "2026-10-07T00:04:41+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-guan-yu",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-07T00:04:41+09:00"
+      }
+    ]
   },
   {
     "id": "gul-drak",
@@ -9428,7 +10388,31 @@
       "source": "https://fastidious.gg/heroes/hatssut",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "가드리엘의 응시",
+      "nameEn": "Idril's Gaze",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "치명타 적중 시 방어력·마법 저항 일부 무시를 노려 화력을 보강합니다.",
+      "condition": "방어 무시는 확률 발동이며 짧게 유지되므로 치명타율 확보가 필요합니다.",
+      "source": "https://fastidious.gg/heroes/hatssut",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 3
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-hatssut",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "helga",
@@ -9514,7 +10498,31 @@
       "source": "https://fastidious.gg/heroes/helga",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "포효의 머리뼈",
+      "nameEn": "Wailing Skull",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "피해를 줄 때 그림자 수호자의 추가 공격을 노려 화력을 보강합니다.",
+      "condition": "소환은 확률 발동이며 재발동 대기시간이 있습니다.",
+      "source": "https://fastidious.gg/heroes/helga",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-helga",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "hex",
@@ -9619,7 +10627,31 @@
       "source": "https://fastidious.gg/heroes/hex",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "망령술사의 손가락",
+      "nameEn": "Blightcaller's Claw",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "단일 피해를 보강하고 일반 공격 후 추가 물리 타격을 노리는 선택입니다.",
+      "condition": "추가 타격은 확률 발동이며 재발동 대기시간이 있습니다. 광역 피해 전체를 강화하지는 않습니다.",
+      "source": "https://fastidious.gg/heroes/hex",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 3
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-hex",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "hollow",
@@ -10169,7 +11201,31 @@
       "source": "https://fastidious.gg/heroes/iovar",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "망령술사의 손가락",
+      "nameEn": "Blightcaller's Claw",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "단일 피해를 보강하고 일반 공격 후 추가 물리 타격을 노리는 선택입니다.",
+      "condition": "추가 타격은 확률 발동이며 재발동 대기시간이 있습니다. 광역 피해 전체를 강화하지는 않습니다.",
+      "source": "https://fastidious.gg/heroes/iovar",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 3
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-iovar",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "isolde",
@@ -10597,7 +11653,31 @@
       "source": "https://fastidious.gg/heroes/jezebelle",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "명사수의 표식",
+      "nameEn": "Sharpshooter Crest",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "적과 거리를 확보한 배치에서 광역 피해를 보강합니다.",
+      "condition": "주변 1칸 안에 적이 없어야 합니다. 단일 피해 증가 효과는 아닙니다.",
+      "source": "https://fastidious.gg/heroes/jezebelle",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 3
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-jezebelle",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "jorge",
@@ -10776,7 +11856,31 @@
       "source": "https://fastidious.gg/heroes/kaede",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력을 높여 공격력 중심의 화력을 보강하는 범용 대안입니다.",
+      "condition": "체력이 80% 미만이면 공격력 보너스가 줄어들므로 체력 관리가 필요합니다.",
+      "source": "https://fastidious.gg/heroes/kaede",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 2
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-kaede",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "kai",
@@ -11035,7 +12139,31 @@
       "source": "https://fastidious.gg/heroes/kane",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "난폭한 마스크",
+      "nameEn": "Lunacy Visor",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "가드 수와 피해를 줄 때의 자가 회복으로 전선 생존을 보강합니다.",
+      "condition": "회복은 착용자가 실제로 피해를 줘야 발동합니다.",
+      "source": "https://fastidious.gg/heroes/kane",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-kane",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "kassandra",
@@ -11155,7 +12283,31 @@
       "source": "https://fastidious.gg/heroes/kassandra",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "잊혀진 옛검",
+      "nameEn": "Shattered Hilt",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "단일 피해를 높이고 지속적으로 적중시키는 전투에서 화력을 누적합니다.",
+      "condition": "피해를 여러 번 줘야 중첩되며 단일 피해를 강화하는 효과입니다.",
+      "source": "https://fastidious.gg/heroes/kassandra",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-kassandra",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "khadgrim",
@@ -11262,7 +12414,31 @@
       "source": "https://fastidious.gg/heroes/khadgrim",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "가드 수와 저지 중 피해 감소를 보강해 전선을 유지하는 데 도움이 됩니다.",
+      "condition": "피해 감소는 실제로 저지 중인 적 수에 따라 증가합니다.",
+      "source": "https://fastidious.gg/heroes/khadgrim",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 4
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-khadgrim",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "khamet",
@@ -11353,7 +12529,31 @@
       "source": "https://fastidious.gg/heroes/khamet",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력을 높여 공격력 중심의 화력을 보강하는 범용 대안입니다.",
+      "condition": "체력이 80% 미만이면 공격력 보너스가 줄어들므로 체력 관리가 필요합니다.",
+      "source": "https://fastidious.gg/heroes/khamet",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 2
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-khamet",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "kigiri",
@@ -11457,7 +12657,31 @@
       "source": "https://fastidious.gg/heroes/kigiri",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "포효의 머리뼈",
+      "nameEn": "Wailing Skull",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "피해를 줄 때 그림자 수호자의 추가 공격을 노려 화력을 보강합니다.",
+      "condition": "소환은 확률 발동이며 재발동 대기시간이 있습니다.",
+      "source": "https://fastidious.gg/heroes/kigiri",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-kigiri",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "kineza",
@@ -11542,7 +12766,31 @@
       "source": "https://fastidious.gg/heroes/kineza",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "포효의 머리뼈",
+      "nameEn": "Wailing Skull",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "피해를 줄 때 그림자 수호자의 추가 공격을 노려 화력을 보강합니다.",
+      "condition": "소환은 확률 발동이며 재발동 대기시간이 있습니다.",
+      "source": "https://fastidious.gg/heroes/kineza",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-kineza",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "king-harz",
@@ -12059,7 +13307,31 @@
       "source": "https://fastidious.gg/heroes/lady-alexandra",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "흡혼 부적",
+      "nameEn": "Spirit Siphon",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "같은 적을 연속 공격할 때 피해가 높아져 보스·정예 집중 공격에 적합합니다.",
+      "condition": "공격 대상이 바뀌면 중첩이 사라집니다.",
+      "source": "https://fastidious.gg/heroes/lady-alexandra",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 3
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-lady-alexandra",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "lady-mina",
@@ -12169,6 +13441,30 @@
     },
     "contentTags": [
       "fallen-twins"
+    ],
+    "genericArtifactAlternative": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력을 높여 공격력 중심의 화력을 보강하는 범용 대안입니다.",
+      "condition": "체력이 80% 미만이면 공격력 보너스가 줄어들므로 체력 관리가 필요합니다.",
+      "source": "https://fastidious.gg/heroes/lady-mina",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 2
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-lady-mina",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
     ]
   },
   {
@@ -12253,7 +13549,31 @@
       "source": "https://fastidious.gg/heroes/laseer",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "악몽 윤회",
+      "nameEn": "Nightmare Samsara",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격 횟수에 따른 분노 회복으로 궁극기를 다시 사용하는 데 도움이 됩니다.",
+      "condition": "공격 5회마다 발동하므로 실제 공격 빈도와 적이 없는 구간의 영향을 받습니다.",
+      "source": "https://fastidious.gg/heroes/laseer",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 2
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-laseer",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "laurel",
@@ -12422,7 +13742,31 @@
       "source": "https://fastidious.gg/heroes/laya",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "황금 풍뎅이",
+      "nameEn": "Golden Scarab",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력과 분노 회복을 높여 치유·지원 궁극기 운용을 돕습니다.",
+      "condition": "공격력 기반 치유와 궁극기 주기 보강에 초점을 둔 선택입니다.",
+      "source": "https://fastidious.gg/heroes/laya",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 5
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-laya",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "leikan",
@@ -12823,7 +14167,31 @@
       "source": "https://fastidious.gg/heroes/livian",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "가드 수와 저지 중 피해 감소를 보강해 전선을 유지하는 데 도움이 됩니다.",
+      "condition": "피해 감소는 실제로 저지 중인 적 수에 따라 증가합니다.",
+      "source": "https://fastidious.gg/heroes/livian",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 4
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-livian",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "lord-phineas",
@@ -12914,7 +14282,31 @@
       "source": "https://fastidious.gg/heroes/lord-phineas",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "포효의 머리뼈",
+      "nameEn": "Wailing Skull",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "피해를 줄 때 그림자 수호자의 추가 공격을 노려 화력을 보강합니다.",
+      "condition": "소환은 확률 발동이며 재발동 대기시간이 있습니다.",
+      "source": "https://fastidious.gg/heroes/lord-phineas",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-lord-phineas",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "lu-bu",
@@ -13014,7 +14406,31 @@
       "source": "https://fastidious.gg/heroes/lubu",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "세상의 눈물",
+      "nameEn": "Realm Tear",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "먼 거리의 적을 공격할 때 피해를 높이는 배치 중심 대안입니다.",
+      "condition": "1칸을 넘는 거리에서 효과를 얻습니다. 바로 앞 적만 공격하면 거리 보너스를 얻지 못합니다.",
+      "source": "https://fastidious.gg/heroes/lubu",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-lu-bu",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "lucius",
@@ -13279,7 +14695,31 @@
       "source": "https://fastidious.gg/heroes/lulu",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "공명의종",
+      "nameEn": "Resonance Bell",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "기본 피해를 높이고 인접한 아군과 함께 배치하면 추가 화력을 얻습니다.",
+      "condition": "추가 피해 보너스는 인접한 아군이 있어야 적용됩니다.",
+      "source": "https://fastidious.gg/heroes/lulu",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 6
+    },
+    "infoUpdatedAt": "2026-10-07T00:04:41+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-lulu",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-07T00:04:41+09:00"
+      }
+    ]
   },
   {
     "id": "luneria",
@@ -13439,7 +14879,31 @@
       "source": "https://fastidious.gg/heroes/lust",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "포효의 머리뼈",
+      "nameEn": "Wailing Skull",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "피해를 줄 때 그림자 수호자의 추가 공격을 노려 화력을 보강합니다.",
+      "condition": "소환은 확률 발동이며 재발동 대기시간이 있습니다.",
+      "source": "https://fastidious.gg/heroes/lust",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-lust",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "lynx",
@@ -13775,7 +15239,31 @@
       "source": "https://fastidious.gg/heroes/magmus",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "죄악의눈",
+      "nameEn": "Eye of Sin",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "광역 피해를 보강하며 적을 처치하는 구간에서 추가 화력을 얻습니다.",
+      "condition": "처치 후 추가 보너스는 짧게 유지됩니다. 기본 광역 피해 증가와 구분하세요.",
+      "source": "https://fastidious.gg/heroes/magmus",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-magmus",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "malrik",
@@ -13962,7 +15450,31 @@
       "source": "https://fastidious.gg/heroes/malvira",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "가드 수와 저지 중 피해 감소를 보강해 전선을 유지하는 데 도움이 됩니다.",
+      "condition": "피해 감소는 실제로 저지 중인 적 수에 따라 증가합니다.",
+      "source": "https://fastidious.gg/heroes/malvira",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 4
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-malvira",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "marri",
@@ -14528,7 +16040,31 @@
       "source": "https://fastidious.gg/heroes/moriden",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "헬리오스의 왕관",
+      "nameEn": "Helm of Helios",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "자신의 피해와 궁극기 사용 후 주변 아군의 피해를 보강합니다.",
+      "condition": "아군 보너스는 궁극기 사용 후 주변 2칸 안의 아군에게 잠시 적용됩니다.",
+      "source": "https://fastidious.gg/heroes/moriden",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 6
+    },
+    "infoUpdatedAt": "2026-10-07T00:04:41+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-moriden",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-07T00:04:41+09:00"
+      }
+    ]
   },
   {
     "id": "morrigan",
@@ -14618,7 +16154,31 @@
       "source": "https://fastidious.gg/heroes/morrigan",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력을 높여 공격력 중심의 화력을 보강하는 범용 대안입니다.",
+      "condition": "체력이 80% 미만이면 공격력 보너스가 줄어들므로 체력 관리가 필요합니다.",
+      "source": "https://fastidious.gg/heroes/morrigan",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 2
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-morrigan",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "myca",
@@ -15049,7 +16609,31 @@
       "source": "https://fastidious.gg/heroes/nezha",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "잊혀진 옛검",
+      "nameEn": "Shattered Hilt",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "단일 피해를 높이고 지속적으로 적중시키는 전투에서 화력을 누적합니다.",
+      "condition": "피해를 여러 번 줘야 중첩되며 단일 피해를 강화하는 효과입니다.",
+      "source": "https://fastidious.gg/heroes/nezha",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-ne-zha",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "nerissa",
@@ -15469,7 +17053,31 @@
       "source": "https://fastidious.gg/heroes/nocturne",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력을 높여 공격력 중심의 화력을 보강하는 범용 대안입니다.",
+      "condition": "체력이 80% 미만이면 공격력 보너스가 줄어들므로 체력 관리가 필요합니다.",
+      "source": "https://fastidious.gg/heroes/nocturne",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 2
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-nocturne",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "numera",
@@ -15658,7 +17266,31 @@
       "source": "https://fastidious.gg/heroes/nyx",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "가드리엘의 응시",
+      "nameEn": "Idril's Gaze",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "치명타 적중 시 방어력·마법 저항 일부 무시를 노려 화력을 보강합니다.",
+      "condition": "방어 무시는 확률 발동이며 짧게 유지되므로 치명타율 확보가 필요합니다.",
+      "source": "https://fastidious.gg/heroes/nyx",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 3
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-nyx",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "olague",
@@ -16156,7 +17788,31 @@
       "source": "https://fastidious.gg/heroes/pierre",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력을 높여 공격력 중심의 화력을 보강하는 범용 대안입니다.",
+      "condition": "체력이 80% 미만이면 공격력 보너스가 줄어들므로 체력 관리가 필요합니다.",
+      "source": "https://fastidious.gg/heroes/pierre",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 2
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-pierre",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "praetus",
@@ -16570,7 +18226,31 @@
       "source": "https://fastidious.gg/heroes/razaak",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "명사수의 표식",
+      "nameEn": "Sharpshooter Crest",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "적과 거리를 확보한 배치에서 광역 피해를 보강합니다.",
+      "condition": "주변 1칸 안에 적이 없어야 합니다. 단일 피해 증가 효과는 아닙니다.",
+      "source": "https://fastidious.gg/heroes/razaak",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 3
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-razaak",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "regulus",
@@ -16660,7 +18340,31 @@
       "source": "https://fastidious.gg/heroes/regulus",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "가드 수와 저지 중 피해 감소를 보강해 전선을 유지하는 데 도움이 됩니다.",
+      "condition": "피해 감소는 실제로 저지 중인 적 수에 따라 증가합니다.",
+      "source": "https://fastidious.gg/heroes/regulus",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 4
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-regulus",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "rex",
@@ -16903,6 +18607,30 @@
     },
     "contentTags": [
       "fallen-twins"
+    ],
+    "genericArtifactAlternative": {
+      "nameKr": "습격자",
+      "nameEn": "Dwarven Strider",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "전체 능력치와 궁극기 사용 후 누적 보너스로 지속 전투를 보강합니다.",
+      "condition": "추가 능력치는 궁극기를 사용해야 쌓이며 강화 단계에 따른 한도까지 중첩됩니다.",
+      "source": "https://fastidious.gg/heroes/rivenhald",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 6
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-rivenhald",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
     ]
   },
   {
@@ -17094,6 +18822,30 @@
         "companions": [
           "가로크"
         ]
+      }
+    ],
+    "genericArtifactAlternative": {
+      "nameKr": "격노의 분출자",
+      "nameEn": "Hate's Contagion",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "광역 피해를 높이고 다수의 적을 함께 때리는 전투에서 화력을 누적합니다.",
+      "condition": "3명 이상을 동시에 공격해야 추가 광역 피해가 쌓입니다.",
+      "source": "https://fastidious.gg/heroes/rosalia",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-rosalia",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
       }
     ]
   },
@@ -17354,7 +19106,31 @@
       "source": "https://fastidious.gg/heroes/sadie",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "낙원의 찬가",
+      "nameEn": "Elysian Epitaph",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "범위 안 아군 수에 따라 단일 치유 효과를 높여 아군 보호를 보강합니다.",
+      "condition": "강화 대상은 단일 치유이며 범위 안 아군 수를 확보해야 합니다.",
+      "source": "https://fastidious.gg/heroes/sadie",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 5
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-sadie",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "salazar",
@@ -17438,7 +19214,31 @@
       "source": "https://fastidious.gg/heroes/salazar",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "스칼렛헌트",
+      "nameEn": "Scarlet Hunt",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "출혈이 걸린 적에게 추가 피해를 줘 출혈 운용의 화력을 보강합니다.",
+      "condition": "적에게 출혈이 적용되어 있어야 추가 피해를 얻습니다.",
+      "source": "https://fastidious.gg/heroes/salazar",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-salazar",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "sargak",
@@ -17689,7 +19489,31 @@
       "source": "https://fastidious.gg/heroes/selene",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "흐르는 팬던트",
+      "nameEn": "Flux Pendant",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "치명타 피해를 높여 치명타 중심의 화력을 보강합니다.",
+      "condition": "체력이 절반 미만일 때 보너스가 커집니다. 저체력 유지가 어려우면 기본 효과만 기대하세요.",
+      "source": "https://fastidious.gg/heroes/selene",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-selene",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "selkath",
@@ -18041,7 +19865,31 @@
       "source": "https://fastidious.gg/heroes/setram",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "망령술사의 손가락",
+      "nameEn": "Blightcaller's Claw",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "단일 피해를 보강하고 일반 공격 후 추가 물리 타격을 노리는 선택입니다.",
+      "condition": "추가 타격은 확률 발동이며 재발동 대기시간이 있습니다. 광역 피해 전체를 강화하지는 않습니다.",
+      "source": "https://fastidious.gg/heroes/setram",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 3
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-setram",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "shamir",
@@ -18124,7 +19972,31 @@
       "source": "https://fastidious.gg/heroes/shamir",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력을 높여 공격력 중심의 화력을 보강하는 범용 대안입니다.",
+      "condition": "체력이 80% 미만이면 공격력 보너스가 줄어들므로 체력 관리가 필요합니다.",
+      "source": "https://fastidious.gg/heroes/shamir",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 2
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-shamir",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "silas",
@@ -18220,7 +20092,31 @@
       "source": "https://fastidious.gg/heroes/silas",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "흡혼 부적",
+      "nameEn": "Spirit Siphon",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "같은 적을 연속 공격할 때 피해가 높아져 보스·정예 집중 공격에 적합합니다.",
+      "condition": "공격 대상이 바뀌면 중첩이 사라집니다.",
+      "source": "https://fastidious.gg/heroes/silas",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 3
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-silas",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "solaris",
@@ -18641,7 +20537,31 @@
       "source": "https://fastidious.gg/heroes/su-yue",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "공명의종",
+      "nameEn": "Resonance Bell",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "기본 피해를 높이고 인접한 아군과 함께 배치하면 추가 화력을 얻습니다.",
+      "condition": "추가 피해 보너스는 인접한 아군이 있어야 적용됩니다.",
+      "source": "https://fastidious.gg/heroes/su-yue",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 6
+    },
+    "infoUpdatedAt": "2026-10-07T00:04:41+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-su-yue",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-07T00:04:41+09:00"
+      }
+    ]
   },
   {
     "id": "sun-wukong",
@@ -18763,6 +20683,30 @@
         "source": "사용자 제공 소환 일정 (2026-10-05)",
         "recordedAt": "2026-10-05",
         "companions": []
+      }
+    ],
+    "genericArtifactAlternative": {
+      "nameKr": "세상의 눈물",
+      "nameEn": "Realm Tear",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "먼 거리의 적을 공격할 때 피해를 높이는 배치 중심 대안입니다.",
+      "condition": "1칸을 넘는 거리에서 효과를 얻습니다. 바로 앞 적만 공격하면 거리 보너스를 얻지 못합니다.",
+      "source": "https://fastidious.gg/heroes/sun-wukong",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-sun-wukong",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
       }
     ]
   },
@@ -18962,7 +20906,31 @@
       "source": "https://fastidious.gg/heroes/talin",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "망령술사의 손가락",
+      "nameEn": "Blightcaller's Claw",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "단일 피해를 보강하고 일반 공격 후 추가 물리 타격을 노리는 선택입니다.",
+      "condition": "추가 타격은 확률 발동이며 재발동 대기시간이 있습니다. 광역 피해 전체를 강화하지는 않습니다.",
+      "source": "https://fastidious.gg/heroes/talin",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 3
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-talin",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "talula",
@@ -19058,7 +21026,31 @@
       "source": "https://fastidious.gg/heroes/talula",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "황금 풍뎅이",
+      "nameEn": "Golden Scarab",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력과 분노 회복을 높여 치유·지원 궁극기 운용을 돕습니다.",
+      "condition": "공격력 기반 치유와 궁극기 주기 보강에 초점을 둔 선택입니다.",
+      "source": "https://fastidious.gg/heroes/talula",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 5
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-talula",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "tazira",
@@ -19311,7 +21303,31 @@
       "source": "https://fastidious.gg/heroes/theowin",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "명사수의 표식",
+      "nameEn": "Sharpshooter Crest",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "적과 거리를 확보한 배치에서 광역 피해를 보강합니다.",
+      "condition": "주변 1칸 안에 적이 없어야 합니다. 단일 피해 증가 효과는 아닙니다.",
+      "source": "https://fastidious.gg/heroes/theowin",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 3
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-theowin",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "thunkles",
@@ -19631,7 +21647,31 @@
       "source": "https://fastidious.gg/heroes/trusk",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "보루의 반지",
+      "nameEn": "Bastion Ring",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "가드 수와 저지 중 피해 감소를 보강해 전선을 유지하는 데 도움이 됩니다.",
+      "condition": "피해 감소는 실제로 저지 중인 적 수에 따라 증가합니다.",
+      "source": "https://fastidious.gg/heroes/trusk",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 4
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-trusk",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "twinfiend",
@@ -19723,7 +21763,31 @@
       "source": "https://fastidious.gg/heroes/twinfiend",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력을 높여 공격력 중심의 화력을 보강하는 범용 대안입니다.",
+      "condition": "체력이 80% 미만이면 공격력 보너스가 줄어들므로 체력 관리가 필요합니다.",
+      "source": "https://fastidious.gg/heroes/twinfiend",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 2
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-twinfiend",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "twyla",
@@ -20004,7 +22068,31 @@
       "source": "https://fastidious.gg/heroes/valara",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "헬리오스의 왕관",
+      "nameEn": "Helm of Helios",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "자신의 피해와 궁극기 사용 후 주변 아군의 피해를 보강합니다.",
+      "condition": "아군 보너스는 궁극기 사용 후 주변 2칸 안의 아군에게 잠시 적용됩니다.",
+      "source": "https://fastidious.gg/heroes/valara",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 6
+    },
+    "infoUpdatedAt": "2026-10-07T00:04:41+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-valara",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-07T00:04:41+09:00"
+      }
+    ]
   },
   {
     "id": "valderon",
@@ -20099,7 +22187,31 @@
       "source": "https://fastidious.gg/heroes/valderon",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "흐르는 팬던트",
+      "nameEn": "Flux Pendant",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "치명타 피해를 높여 치명타 중심의 화력을 보강합니다.",
+      "condition": "체력이 절반 미만일 때 보너스가 커집니다. 저체력 유지가 어려우면 기본 효과만 기대하세요.",
+      "source": "https://fastidious.gg/heroes/valderon",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-valderon",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "valeriya",
@@ -20199,7 +22311,31 @@
       "source": "https://fastidious.gg/heroes/valeriya",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "흐르는 팬던트",
+      "nameEn": "Flux Pendant",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "치명타 피해를 높여 치명타 중심의 화력을 보강합니다.",
+      "condition": "체력이 절반 미만일 때 보너스가 커집니다. 저체력 유지가 어려우면 기본 효과만 기대하세요.",
+      "source": "https://fastidious.gg/heroes/valeriya",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-valeriya",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "valkyra",
@@ -20301,7 +22437,31 @@
       "source": "https://fastidious.gg/heroes/valkyra",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "세상의 눈물",
+      "nameEn": "Realm Tear",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "먼 거리의 적을 공격할 때 피해를 높이는 배치 중심 대안입니다.",
+      "condition": "1칸을 넘는 거리에서 효과를 얻습니다. 바로 앞 적만 공격하면 거리 보너스를 얻지 못합니다.",
+      "source": "https://fastidious.gg/heroes/valkyra",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-valkyra",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "vargus",
@@ -20780,7 +22940,31 @@
       "source": "https://fastidious.gg/heroes/vierna",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력을 높여 공격력 중심의 화력을 보강하는 범용 대안입니다.",
+      "condition": "체력이 80% 미만이면 공격력 보너스가 줄어들므로 체력 관리가 필요합니다.",
+      "source": "https://fastidious.gg/heroes/vierna",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 2
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-vierna",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "violetta-vane",
@@ -20875,7 +23059,31 @@
       "source": "https://fastidious.gg/heroes/violetta-vane",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력을 높여 공격력 중심의 화력을 보강하는 범용 대안입니다.",
+      "condition": "체력이 80% 미만이면 공격력 보너스가 줄어들므로 체력 관리가 필요합니다.",
+      "source": "https://fastidious.gg/heroes/violetta-vane",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 2
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-violetta-vane",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "vixera",
@@ -21036,7 +23244,31 @@
       "source": "https://fastidious.gg/heroes/vladdraculea",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "헬리오스의 왕관",
+      "nameEn": "Helm of Helios",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "자신의 피해와 궁극기 사용 후 주변 아군의 피해를 보강합니다.",
+      "condition": "아군 보너스는 궁극기 사용 후 주변 2칸 안의 아군에게 잠시 적용됩니다.",
+      "source": "https://fastidious.gg/heroes/vladdraculea",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 6
+    },
+    "infoUpdatedAt": "2026-10-07T00:04:41+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-vlad-draculea",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-07T00:04:41+09:00"
+      }
+    ]
   },
   {
     "id": "vladov",
@@ -21210,7 +23442,31 @@
       "source": "https://fastidious.gg/heroes/volka",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "죄악의눈",
+      "nameEn": "Eye of Sin",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "광역 피해를 보강하며 적을 처치하는 구간에서 추가 화력을 얻습니다.",
+      "condition": "처치 후 추가 보너스는 짧게 유지됩니다. 기본 광역 피해 증가와 구분하세요.",
+      "source": "https://fastidious.gg/heroes/volka",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-volka",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "voltus",
@@ -21389,7 +23645,31 @@
       "source": "https://fastidious.gg/heroes/vorn",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "흡혼 부적",
+      "nameEn": "Spirit Siphon",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "같은 적을 연속 공격할 때 피해가 높아져 보스·정예 집중 공격에 적합합니다.",
+      "condition": "공격 대상이 바뀌면 중첩이 사라집니다.",
+      "source": "https://fastidious.gg/heroes/vorn",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 3
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-vorn",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "voroth",
@@ -21473,7 +23753,31 @@
       "source": "https://fastidious.gg/heroes/voroth",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "포효의 머리뼈",
+      "nameEn": "Wailing Skull",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "피해를 줄 때 그림자 수호자의 추가 공격을 노려 화력을 보강합니다.",
+      "condition": "소환은 확률 발동이며 재발동 대기시간이 있습니다.",
+      "source": "https://fastidious.gg/heroes/voroth",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-voroth",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "vortex",
@@ -21643,7 +23947,31 @@
       "source": "https://fastidious.gg/heroes/wrath",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "포효의 머리뼈",
+      "nameEn": "Wailing Skull",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "피해를 줄 때 그림자 수호자의 추가 공격을 노려 화력을 보강합니다.",
+      "condition": "소환은 확률 발동이며 재발동 대기시간이 있습니다.",
+      "source": "https://fastidious.gg/heroes/wrath",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-wrath",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "xaris",
@@ -22057,7 +24385,31 @@
       "source": "https://fastidious.gg/heroes/yuri",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "망령술사의 손가락",
+      "nameEn": "Blightcaller's Claw",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "단일 피해를 보강하고 일반 공격 후 추가 물리 타격을 노리는 선택입니다.",
+      "condition": "추가 타격은 확률 발동이며 재발동 대기시간이 있습니다. 광역 피해 전체를 강화하지는 않습니다.",
+      "source": "https://fastidious.gg/heroes/yuri",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 3
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-yuri",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "zelus",
@@ -22147,7 +24499,31 @@
       "source": "https://fastidious.gg/heroes/zelus",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "황혼의 눈물",
+      "nameEn": "Tear of Twilight",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "공격력을 높여 공격력 중심의 화력을 보강하는 범용 대안입니다.",
+      "condition": "체력이 80% 미만이면 공격력 보너스가 줄어들므로 체력 관리가 필요합니다.",
+      "source": "https://fastidious.gg/heroes/zelus",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 2
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-zelus",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "zilitu",
@@ -22238,7 +24614,31 @@
       "source": "https://fastidious.gg/heroes/zilitu",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "전용 존재 확인, 사용자 전용 우선 기준"
-    }
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "포효의 머리뼈",
+      "nameEn": "Wailing Skull",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "피해를 줄 때 그림자 수호자의 추가 공격을 노려 화력을 보강합니다.",
+      "condition": "소환은 확률 발동이며 재발동 대기시간이 있습니다.",
+      "source": "https://fastidious.gg/heroes/zilitu",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-06",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
+      "roleId": 1
+    },
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "updateHistory": [
+      {
+        "id": "generic-artifact-20261006-zilitu",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
+        "shortMessage": "범용 아티팩트 대안 추가",
+        "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ]
   },
   {
     "id": "oakenvar",

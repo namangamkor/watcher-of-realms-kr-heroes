@@ -1,3 +1,4 @@
-v2.14.104
-Base: v2.14.103
+v2.14.106
+Base: v2.14.105
 Status: locally verified; not deployed
+Coverage: 100/100 exclusive recommendations; official Korean names confirmed
