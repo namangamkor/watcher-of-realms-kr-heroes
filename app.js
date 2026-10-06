@@ -988,3 +988,14 @@ if ("serviceWorker" in navigator) {
     });
   });
 }
+
+// v2.14.104: expand only the trait controls; selected filters remain active.
+const traitExpandButton = document.querySelector("#traitExpandButton");
+const traitFilterGroup = document.querySelector("#traitFilters");
+traitExpandButton?.addEventListener("click", () => {
+  const expanded = traitExpandButton.getAttribute("aria-expanded") !== "true";
+  traitExpandButton.setAttribute("aria-expanded", String(expanded));
+  traitExpandButton.textContent = expanded ? "접기" : "더보기";
+  traitFilterGroup?.classList.toggle("is-expanded", expanded);
+  traitFilterGroup?.querySelectorAll("[data-trait-extra]").forEach(button => { button.hidden = !expanded; });
+});
