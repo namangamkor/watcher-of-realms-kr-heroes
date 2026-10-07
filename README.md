@@ -1,43 +1,107 @@
-# 워처 오브 렐름 위키 v2.14.113
+# 워처 오브 렐름 위키 v2.14.114 — 이미지 묶음 1/2
 
-- 현재 패치 버전: **v2.14.113**
-- 기준 버전: **v2.14.112**
+- 패치 버전: **v2.14.114** / 기준 버전: **v2.14.113**
 - 작성일: 2026-10-07 (한국 시간)
-- 패치 제작·JavaScript 문법·동작 검증: 완료
-- 실제 사이트 적용·배포: **미실시 — ZIP 전달용 패치**
-- 실제 모바일·PC 브라우저 화면 검증: **미완료**. 검증용 브라우저 설치와 로컬 미리보기 접근이 완료되지 않아 DOM 동작 및 CSS 규칙 검증까지 실시했습니다.
+- 이 묶음: 원본 이미지 **78개**, 안내문 포함 **80파일**
+- 전체: 장비 세트 15종 + 아티팩트 127종 = 이미지 142개
+- 이미지 다운로드·형식·크기·SHA-256 검증: 완료
+- 실제 사이트 적용·배포: **미실시 — 전달용 패치**
 
-## 주요 변경사항
+## 적용 순서
 
-영웅 목록 바로 위에 **상세 보기 / 간략 보기** 전환 버튼을 추가했습니다. 모바일과 PC에서 동일한 버튼을 사용합니다.
+v2.14.113을 적용한 기존 GitHub 저장소 **루트**에 아래 순서대로 반영하세요.
 
-- **상세 보기**가 기본입니다. 기존 영웅 카드의 크기·이미지 표시 방식·정보 구성과 화면별 열 수를 유지합니다.
-- **간략 보기**는 초상화·한국 이름·수집가치만 표시합니다. 영문명·진영·직업·희귀도·콘텐츠 태그·업데이트 배지는 상세 보기에서 확인할 수 있습니다. 영웅을 누르면 기존 상세페이지로 이동합니다.
-- 간략 보기의 열 수는 화면 너비 **680px 이하 4열**, **681~1100px 6열**, **1101px 이상 8열**입니다. 간략 보기의 이미지는 카드 너비에 맞추며 원본 비율을 유지합니다. 긴 한국 이름은 줄바꿈합니다.
-- 선택한 보기를 브라우저에 저장해 다음 방문에도 복원합니다. 저장 기능을 사용할 수 없는 브라우저에서도 보기 전환은 동작합니다.
-- 보기 전환은 같은 카드의 표시 방식만 바꿉니다. 현재 검색어·진영·필터·최신 업데이트순·이미 로딩한 영웅 수를 유지합니다. **더 보기 20명씩 추가**도 기존 방식대로 동작합니다.
-- 버튼 터치 높이는 44px이며 키보드 포커스 및 선택 상태 접근성 속성을 제공합니다.
+1. `worwiki-v2.14.114-01-images.zip` — 이미지 78개 + 안내문 2개, 총 **80파일**
+2. `worwiki-v2.14.114-02-images.zip` — 이미지 64개 + 안내문 2개, 총 **66파일**
+3. `worwiki-v2.14.114-03-code.zip` — 코드·출처·안내문, 총 **6파일**
 
-## 포함 파일과 적용 방법
+각 ZIP의 압축을 풀고 **안에 있는 파일들**을 업로드하세요. ZIP 파일은 이 작업의 전달 묶음입니다. 파일명은 그대로 사용하고 별도의 하위 폴더를 만들지 마세요. 이미지 묶음 두 개를 모두 올린 뒤 3번 코드 묶음을 적용하면 상세페이지에서 이미지를 불러옵니다.
 
-v2.14.112가 적용된 기존 저장소 루트에 아래 파일을 반영하고, 기존 GitHub/Cloudflare 배포 절차를 사용하세요.
+묶음마다 기존 GitHub 업로드·커밋 절차를 사용하세요. 1·2번은 새 이미지 파일만 추가하는 단계이며, 3번의 `_worker.js`가 이미지 표시를 연결합니다. `README.md`와 `VERSION.txt`는 각 단계에서 갱신됩니다. 마지막에는 3번 코드 묶음의 안내문을 보관하세요.
 
-1. `index.html`
-2. `app.js`
-3. `_worker.js`
-4. `home-layout.css`
-5. `styles.css` — v2.14.112의 공통 스타일을 그대로 포함
+패치는 전체 사이트 백업이 아닙니다. 기존 영웅 이미지·다른 페이지·설정 파일을 유지하세요. 실제 사이트 배포는 기존 GitHub/Cloudflare 절차로 진행합니다.
 
-`README.md`와 `VERSION.txt`도 함께 보관해 적용한 패치 버전을 추적하세요. 변경 파일과 기준 공통 스타일을 묶은 패치이며 사이트 전체 백업이 아닙니다. 기존 영웅 이미지·JSON·다른 페이지 파일은 기존 저장소에 그대로 두세요.
+## 이 묶음의 파일
 
-Worker의 홈 HTML과 `index.html`을 동기화했고 홈 CSS·앱·데이터 요청 캐시 쿼리를 v2.14.113으로 갱신했습니다. `heroes.json` 교체는 없습니다.
+| 파일명 | 종류 | 위키 한국명 / 기존 영문명 |
+| --- | --- | --- |
+| `gear-icon-tempered-will-v214114.webp` | 장비 | 강철 의지 / Tempered Will |
+| `gear-icon-unshaken-will-v214114.webp` | 장비 | 불멸의 의지 / Unshaken Will |
+| `gear-icon-mana-spring-v214114.webp` | 장비 | 마력 / Mana Spring |
+| `gear-icon-infernal-roar-v214114.webp` | 장비 | 마수의 포효 / Infernal Roar |
+| `gear-icon-immortal-warrior-v214114.webp` | 장비 | 불굴의 용사 / Immortal Warrior |
+| `gear-icon-light-s-grace-v214114.webp` | 장비 | 빛의 은혜 / Light's Grace |
+| `gear-icon-wings-of-grace-v214114.webp` | 장비 | 성스러운 날개 / Wings of Grace |
+| `gear-icon-astral-guardian-v214114.webp` | 장비 | 성흔의 수호 / Astral Guardian |
+| `gear-icon-wicked-vengeance-v214114.webp` | 장비 | 악의 복수 / Wicked Vengeance |
+| `gear-icon-undying-savage-v214114.webp` | 장비 | 영원불멸의 무법자 / Undying Savage |
+| `gear-icon-soulbound-arcana-v214114.webp` | 장비 | 영혼의 비밀 / Soulbound Arcana |
+| `gear-icon-cataclysm-v214114.webp` | 장비 | 재앙 드래곤 / Cataclysm |
+| `gear-icon-warlord-v214114.webp` | 장비 | 전쟁의 주인 / Warlord |
+| `gear-icon-hell-s-lament-v214114.webp` | 장비 | 지옥 비명 / Hell's Lament |
+| `gear-icon-whirlwind-v214114.webp` | 장비 | 질풍 / Whirlwind |
+| `artifact-icon-184-absolution-v214114.webp` | 아티팩트 | 사죄자 / Absolution |
+| `artifact-icon-192-amenhotep-s-bow-v214114.webp` | 아티팩트 | 아멘호테프의활 / Amenhotep's Bow |
+| `artifact-icon-097-anchor-of-the-damned-v214114.webp` | 아티팩트 | 죽음의닻 / Anchor of the Damned |
+| `artifact-icon-078-arachno-shroud-v214114.webp` | 아티팩트 | 거미의형태 / Arachno Shroud |
+| `artifact-icon-013-astral-obelisk-v214114.webp` | 아티팩트 | 신성한 예찬문 / Astral Obelisk |
+| `artifact-icon-190-auditore-blade-v214114.webp` | 아티팩트 | 아디토레 암살검 / Auditore Blade |
+| `artifact-icon-100-aureate-visage-v214114.webp` | 아티팩트 | 골드가면 / Aureate Visage |
+| `artifact-icon-014-bastion-ring-v214114.webp` | 아티팩트 | 보루의 반지 / Bastion Ring |
+| `artifact-icon-158-blackbark-pauldrons-v214114.webp` | 아티팩트 | 꽃의수호자 / Blackbark Pauldrons |
+| `artifact-icon-080-blade-of-talkiel-v214114.webp` | 아티팩트 | 타케올의분노 / Blade of Talkiel |
+| `artifact-icon-138-blightcaller-s-claw-v214114.webp` | 아티팩트 | 망령술사의 손가락 / Blightcaller's Claw |
+| `artifact-icon-089-bloodblade-v214114.webp` | 아티팩트 | 피의일격 / Bloodblade |
+| `artifact-icon-177-bone-dirk-v214114.png` | 아티팩트 | 응축된산의뼈 / Bone Dirk |
+| `artifact-icon-070-brimstone-s-fury-v214114.webp` | 아티팩트 | 유황의분노 / Brimstone's Fury |
+| `artifact-icon-093-captivation-of-burning-desire-v214114.webp` | 아티팩트 | 운명의속박 / Captivation of Burning Desire |
+| `artifact-icon-140-carrion-s-call-v214114.webp` | 아티팩트 | 죽음의부름 / Carrion's Call |
+| `artifact-icon-074-chant-of-the-depths-v214114.webp` | 아티팩트 | 심연의노래 / Chant of the Depths |
+| `artifact-icon-147-chaotic-doomblade-v214114.webp` | 아티팩트 | 혼돈의마검 / Chaotic Doomblade |
+| `artifact-icon-178-codex-of-silence-v214114.png` | 아티팩트 | 침묵록 / Codex of Silence |
+| `artifact-icon-164-consecrated-edge-v214114.webp` | 아티팩트 | 성혈의심판 / Consecrated Edge |
+| `artifact-icon-072-crescent-totem-v214114.webp` | 아티팩트 | 초승달토템 / Crescent Totem |
+| `artifact-icon-162-crest-of-dracul-v214114.webp` | 아티팩트 | 심장파괴의계약 / Crest of Dracul |
+| `artifact-icon-079-crown-of-souls-v214114.webp` | 아티팩트 | 악령왕관 / Crown of Souls |
+| `artifact-icon-084-cruel-fate-v214114.webp` | 아티팩트 | 잔혹한운명 / Cruel Fate |
+| `artifact-icon-154-dawnbreak-v214114.webp` | 아티팩트 | 여명 / Dawnbreak |
+| `artifact-icon-131-deadwater-diadem-v214114.webp` | 아티팩트 | 평온의왕관 / Deadwater Diadem |
+| `artifact-icon-130-demonic-relic-v214114.webp` | 아티팩트 | 악귀의머리 / Demonic Relic |
+| `artifact-icon-129-divine-justice-v214114.webp` | 아티팩트 | 천벌자 / Divine Justice |
+| `artifact-icon-099-dragon-bane-v214114.webp` | 아티팩트 | 드래곤의천적 / Dragon Bane |
+| `artifact-icon-111-dreamglow-repository-v214114.webp` | 아티팩트 | 꿈속의그릇 / Dreamglow Repository |
+| `artifact-icon-149-dwarven-strider-v214114.webp` | 아티팩트 | 습격자 / Dwarven Strider |
+| `artifact-icon-092-eagle-s-heartbeat-v214114.webp` | 아티팩트 | 매의심장박동 / Eagle's Heartbeat |
+| `artifact-icon-046-elysian-epitaph-v214114.webp` | 아티팩트 | 낙원의 찬가 / Elysian Epitaph |
+| `artifact-icon-157-eternal-winter-v214114.webp` | 아티팩트 | 끝없는 겨울 / Eternal Winter |
+| `artifact-icon-086-euphonic-coronet-v214114.webp` | 아티팩트 | 우아한왕관 / Euphonic Coronet |
+| `artifact-icon-047-euphoric-orb-v214114.webp` | 아티팩트 | 즐거움의 보주 / Euphoric Orb |
+| `artifact-icon-073-eye-of-mockery-v214114.webp` | 아티팩트 | 멸시의눈 / Eye of Mockery |
+| `artifact-icon-083-eye-of-penitence-v214114.webp` | 아티팩트 | 회환의눈 / Eye of Penitence |
+| `artifact-icon-029-eye-of-sin-v214114.webp` | 아티팩트 | 죄악의눈 / Eye of Sin |
+| `artifact-icon-133-falcon-s-crest-v214114.webp` | 아티팩트 | 성결한왕관 / Falcon's Crest |
+| `artifact-icon-191-final-edict-v214114.webp` | 아티팩트 | 철칙 / Final Edict |
+| `artifact-icon-159-fire-tipped-spear-v214114.webp` | 아티팩트 | 화첨창 / Fire-Tipped Spear |
+| `artifact-icon-112-flaming-pauldrons-v214114.webp` | 아티팩트 | 폭주 / Flaming Pauldrons |
+| `artifact-icon-030-flux-pendant-v214114.webp` | 아티팩트 | 흐르는 팬던트 / Flux Pendant |
+| `artifact-icon-165-frost-devourer-v214114.webp` | 아티팩트 | 서리포식자 / Frost Devourer |
+| `artifact-icon-176-frosthorn-staff-v214114.png` | 아티팩트 | 서리척추 / Frosthorn Staff |
+| `artifact-icon-076-glacial-wings-v214114.webp` | 아티팩트 | 북쪽경계의날개 / Glacial Wings |
+| `artifact-icon-134-golden-cudgel-v214114.webp` | 아티팩트 | 여의봉 / Golden Cudgel |
+| `artifact-icon-048-golden-scarab-v214114.webp` | 아티팩트 | 황금 풍뎅이 / Golden Scarab |
+| `artifact-icon-090-grasp-of-sands-v214114.webp` | 아티팩트 | 모래의손 / Grasp of Sands |
+| `artifact-icon-120-graveyard-opus-v214114.webp` | 아티팩트 | 묘지의글 / Graveyard Opus |
+| `artifact-icon-174-green-crescent-blade-v214114.webp` | 아티팩트 | 청룔언월도 / Green Crescent Blade |
+| `artifact-icon-141-halberd-of-woe-v214114.webp` | 아티팩트 | 방천화극 / Halberd of Woe |
+| `artifact-icon-168-hand-of-doom-v214114.webp` | 아티팩트 | 종말의손 / Hand of Doom |
+| `artifact-icon-171-hate-s-contagion-v214114.webp` | 아티팩트 | 격노의 분출자 / Hate's Contagion |
+| `artifact-icon-167-heart-of-the-mouintain-v214114.webp` | 아티팩트 | 산악의심장 / Heart of the Mouintain |
+| `artifact-icon-150-helm-of-helios-v214114.webp` | 아티팩트 | 헬리오스의 왕관 / Helm of Helios |
+| `artifact-icon-135-helm-of-yalnor-v214114.webp` | 아티팩트 | 불멸의에드라크 / Helm of Yalnor |
+| `artifact-icon-004-idril-s-gaze-v214114.webp` | 아티팩트 | 가드리엘의 응시 / Idril's Gaze |
+| `artifact-icon-185-ironbloom-of-mercy-v214114.webp` | 아티팩트 | 자비의 강철연꽃 / Ironbloom of Mercy |
+| `artifact-icon-181-jade-dragon-v214114.png` | 아티팩트 | 제이드드래곤 / Jade Dragon |
+| `artifact-icon-104-key-of-the-forsaken-v214114.webp` | 아티팩트 | 미지의 땅의 열쇠 / Key of the Forsaken |
+| `artifact-icon-166-leviathan-v214114.webp` | 아티팩트 | 리바이어던 / Leviathan |
 
-## 검증 결과
-
-- `app.js`, `_worker.js` JavaScript 문법 검사 통과.
-- Worker 내장 258개 영웅의 데이터 불변, 최신 `heroes.json`의 영웅 ID 일치 확인.
-- Worker 홈 HTML과 `index.html` 일치, 기존 초기 카드 순서·링크·Worker 라우팅·정렬 로직·공통 스타일 불변 확인.
-- 실제 `app.js`를 실행한 DOM 검증에서 기본 보기, 전환 버튼 선택 상태, 카드 DOM 및 순서 유지, 20명 추가 로딩 후 40명 유지, 희귀도·진영·수집가치·영웅특성 필터, 이름 검색·초기화, 저장된 보기 복원, 잘못된 저장값 및 저장 차단, 데이터 로딩 실패 시 서버 카드의 보기 전환 확인.
-- CSS 파싱 및 320·360·390·430·680·681·768·900·1100·1101·1280·1920px의 미디어 규칙 확인. 상세 보기에는 새 열 수 규칙이 적용되지 않는 것을 확인.
-
-위 검증은 실제 브라우저 렌더 검증을 대신하지 않습니다. 배포 후 모바일 4열과 PC 8열에서 초상화·긴 이름·수집가치 배지·버튼 배치와 가로 넘침 여부를 확인하고, 보기 선택 후 새로고침 시 선택이 유지되는지 확인하세요.
+상세 출처와 검증 정보는 마지막 코드 묶음의 `ITEM_IMAGE_SOURCES.md`, `item-image-manifest-v214114.json` 및 `README.md`에 있습니다. 이미지 원본 바이트와 비율을 유지합니다.

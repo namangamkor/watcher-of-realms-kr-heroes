@@ -1,8 +1,9 @@
-Version: v2.14.113
-Base: v2.14.112
+Version: v2.14.114
+Base: v2.14.113
 Date: 2026-10-07 (Asia/Seoul)
-Change: detailed/compact hero view toggle for mobile and desktop; saved browser preference
-Compact columns: 4 at <=680px; 6 at 681-1100px; 8 at >=1101px
-Validation: JS syntax, actual app DOM behavior, CSS parsing/media rules, Worker/home parity, 258 hero identities/data and order preservation passed
-Browser visual validation: incomplete (browser installation/local preview unavailable)
-Deployment: not deployed; patch ZIP only
+Bundle: 1/3 — image assets 1/2
+Images in this bundle: 78
+Files including README.md and VERSION.txt: 80
+Change: local raw game icons; shared versioned filenames
+Validation: original image bytes decoded, dimensions and SHA256 verified
+Deployment: not deployed; upload both image bundles before bundle 3 code
