@@ -1,4 +1,4 @@
-v2.14.109
-Base: v2.14.108
-Status: locally verified; not deployed
-Fix: mobile trait controls and recent update alignment
+v2.14.110
+Base: v2.14.109
+Status: code verified; not deployed
+Change: fixed trait heading action, aligned filter rows

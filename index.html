@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ko">
 <head>
-  <meta name="worwiki-patch-version" content="2.14.109">
+  <meta name="worwiki-patch-version" content="2.14.110">
   <meta charset="UTF-8" />
   <!-- gear-route-rescue -->
   <script>
@@ -176,6 +176,18 @@
   .recent-fix-list { row-gap:7px; }
   .recent-fix-item > strong { max-width:7em; }
 }
+</style>
+
+<style id="ww-trait-heading-v214110">
+.filters #traitFilters { display:flex; flex-direction:column; align-items:stretch; gap:8px; }
+#traitFilters .trait-filter-heading { display:flex; align-items:center; justify-content:space-between; gap:12px; width:100%; min-width:0; }
+#traitFilters .trait-filter-heading > span { color:#edf2fa; font-size:1rem; font-weight:800; line-height:1.5; white-space:nowrap; }
+#traitFilters .trait-expand-button { display:inline-flex; align-items:center; justify-content:center; gap:6px; border:0; border-radius:6px; background:transparent; color:#d9bd79; font:inherit; font-size:12px; font-weight:700; padding:7px 4px; min-height:36px; cursor:pointer; white-space:nowrap; }
+#traitFilters .trait-expand-button:hover { color:#fff0c5; background:rgba(217,189,121,.07); }
+#traitFilters .trait-expand-button:focus-visible { outline:2px solid #d9bd79; outline-offset:2px; }
+#traitFilters .trait-controls { width:100%; flex:0 0 auto; }
+#traitFilters .trait-button-rail { width:100%; flex:1 1 auto; }
+@media(max-width:560px) { #traitFilters .trait-controls { flex:0 0 auto; } #traitFilters .trait-filter-heading > span { font-size:.9375rem; } #traitFilters .trait-expand-button { min-height:44px; } }
 </style>
 </head>
 <body>
@@ -426,8 +438,8 @@
           <button class="filter collection-filter" data-filter-type="collection" data-value="1" title="수집가치 1.0점">1.0</button>
         </div>
         <div id="traitFilters" class="filter-group trait-filter-group" aria-label="영웅특성 필터">
-          <span>영웅특성</span>
-          <div class="trait-controls"><div class="trait-button-rail">
+          <div class="trait-filter-heading"><span>영웅특성</span><button type="button" id="traitExpandButton" class="trait-expand-button" aria-expanded="false" aria-controls="traitButtonRail">전체 특성 보기 <span aria-hidden="true">▾</span></button></div>
+          <div class="trait-controls"><div id="traitButtonRail" class="trait-button-rail">
 <button type="button" class="filter active" data-filter-type="trait" data-value="all" aria-pressed="true">전체</button>
           <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="광역물리공격" aria-pressed="false">광역 물리 공격</button>
           <button type="button" class="filter trait-filter" data-filter-type="trait" data-value="생존" aria-pressed="false">생존</button>
@@ -457,7 +469,7 @@
           <button data-trait-extra hidden type="button" class="filter trait-filter" data-filter-type="trait" data-value="분노회복" aria-pressed="false">분노 회복</button>
           <button data-trait-extra hidden type="button" class="filter trait-filter" data-filter-type="trait" data-value="공격제거" aria-pressed="false">공격 제거</button>
         </div>
-<button type="button" id="traitExpandButton" class="filter trait-expand-button" aria-expanded="false" aria-controls="traitFilters">더보기</button>
+
 </div>
 </div>
       </div>
@@ -900,7 +912,7 @@
     </div>
   </div>
 
-  <script src="/app.js?v=2.14.109" defer></script>
+  <script src="/app.js?v=2.14.110" defer></script>
 
 <a class="ww-summon-float" href="/summon/" aria-label="오늘의 소환 운명 시험 열기">
   <span class="ww-summon-float-crystal" aria-hidden="true"></span>
