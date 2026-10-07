@@ -1,9 +1,12 @@
 Version: v2.14.114
 Base: v2.14.113
 Date: 2026-10-07 (Asia/Seoul)
-Bundle: 2/3 — image assets 2/2
-Images in this bundle: 64
-Files including README.md and VERSION.txt: 66
-Change: local raw game icons; shared versioned filenames
-Validation: original image bytes decoded, dimensions and SHA256 verified
-Deployment: not deployed; upload both image bundles before bundle 3 code
+Bundle: 3/3 — code and documentation (6 files)
+Change: local gear/artifact icons for mobile and desktop hero detail pages
+Assets: 15 gear sets + 127 artifacts = 142 unique images (136 WebP + 6 PNG)
+Hero pages: 258; gear image instances: 513; artifact image instances: 353
+Preserved: hero data, recommendations, copy, links, home and detailed/compact hero view toggle
+Deferred: Oakenvar's inconsistent Korean/English gear item, text retained without guessed icon
+Validation: original image formats/dimensions/SHA256, JS syntax, DOM copy/link parity, assets, scoped CSS media rules and Worker routing passed
+Browser visual validation: incomplete (local preview unavailable)
+Deployment: not deployed; patch ZIP only; upload image bundles 1 and 2 first

@@ -1,0 +1,2270 @@
+{
+  "version": "2.14.114",
+  "base": "2.14.113",
+  "assets": [
+    {
+      "type": "gear",
+      "nameEn": "Tempered Will",
+      "namesKr": [
+        "강철 의지"
+      ],
+      "file": "gear-icon-tempered-will-v214114.webp",
+      "sourcePage": "https://fastidious.gg/sets",
+      "sourceImage": "https://fastidious.gg/storage/set-tempered-will.webp?v=0eaee488",
+      "bytes": 3238,
+      "width": 78,
+      "height": 78,
+      "sha256": "e24f629214e4855b3c88a9c51a49d33a16e66851551d37b88b14aaec7b686610",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "gear",
+      "nameEn": "Unshaken Will",
+      "namesKr": [
+        "불멸의 의지"
+      ],
+      "file": "gear-icon-unshaken-will-v214114.webp",
+      "sourcePage": "https://fastidious.gg/sets",
+      "sourceImage": "https://fastidious.gg/storage/set-unshaken-will.webp?v=0eaee488",
+      "bytes": 3284,
+      "width": 78,
+      "height": 78,
+      "sha256": "0eb9c3b74aadc73209a84aae4d2dc74b79d604ad784d3eb26cc744cfad5f934f",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "gear",
+      "nameEn": "Mana Spring",
+      "namesKr": [
+        "마력"
+      ],
+      "file": "gear-icon-mana-spring-v214114.webp",
+      "sourcePage": "https://fastidious.gg/sets",
+      "sourceImage": "https://fastidious.gg/storage/set-mana-spring.webp?v=0eaee488",
+      "bytes": 2914,
+      "width": 78,
+      "height": 78,
+      "sha256": "63cfdaf1c7a64f5503ab6e8bf64ba8dd128a12f43adc762c80b3c96c8295d30b",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "gear",
+      "nameEn": "Infernal Roar",
+      "namesKr": [
+        "마수의 포효"
+      ],
+      "file": "gear-icon-infernal-roar-v214114.webp",
+      "sourcePage": "https://fastidious.gg/sets",
+      "sourceImage": "https://fastidious.gg/storage/set-infernal-roar.webp?v=0eaee488",
+      "bytes": 3218,
+      "width": 78,
+      "height": 78,
+      "sha256": "934336e03cb23584a82e973b380f032cbdcdc1ab65204d60c0747db1ac088cf4",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "gear",
+      "nameEn": "Immortal Warrior",
+      "namesKr": [
+        "불굴의 용사"
+      ],
+      "file": "gear-icon-immortal-warrior-v214114.webp",
+      "sourcePage": "https://fastidious.gg/sets",
+      "sourceImage": "https://fastidious.gg/storage/set-immortal-warrior.webp?v=0eaee488",
+      "bytes": 3306,
+      "width": 78,
+      "height": 78,
+      "sha256": "35339910e8ea9e3611cf411a3ad7b49aaac6ca323a365f87ac7d760c0c044c9f",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "gear",
+      "nameEn": "Light's Grace",
+      "namesKr": [
+        "빛의 은혜"
+      ],
+      "file": "gear-icon-light-s-grace-v214114.webp",
+      "sourcePage": "https://fastidious.gg/sets",
+      "sourceImage": "https://fastidious.gg/storage/set-lights-grace.webp?v=0eaee488",
+      "bytes": 3380,
+      "width": 78,
+      "height": 78,
+      "sha256": "7c40183059bfa0679e355967568a2bb449c39ca7f4ebe7a8339019683d0d761d",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "gear",
+      "nameEn": "Wings of Grace",
+      "namesKr": [
+        "성스러운 날개"
+      ],
+      "file": "gear-icon-wings-of-grace-v214114.webp",
+      "sourcePage": "https://fastidious.gg/sets",
+      "sourceImage": "https://fastidious.gg/storage/01JDAAQT6A68RE6HEM9TVPC9SC.webp?v=0eaee488",
+      "bytes": 2958,
+      "width": 88,
+      "height": 88,
+      "sha256": "51ca78876a8fac1a0c0711d290273eb7a0c2071bd58fbfa4b039b09cb910e1ad",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "gear",
+      "nameEn": "Astral Guardian",
+      "namesKr": [
+        "성흔의 수호"
+      ],
+      "file": "gear-icon-astral-guardian-v214114.webp",
+      "sourcePage": "https://fastidious.gg/sets",
+      "sourceImage": "https://fastidious.gg/storage/01JDAASY1PYFSMZN8BFJ265MAE.webp?v=0eaee488",
+      "bytes": 2716,
+      "width": 88,
+      "height": 88,
+      "sha256": "11784ee4980e7aa3a764c2dd43fd702800a2fb82a205da2e3bccf67665753d66",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "gear",
+      "nameEn": "Wicked Vengeance",
+      "namesKr": [
+        "악의 복수"
+      ],
+      "file": "gear-icon-wicked-vengeance-v214114.webp",
+      "sourcePage": "https://fastidious.gg/sets",
+      "sourceImage": "https://fastidious.gg/storage/set-wicked-vengance.webp?v=0eaee488",
+      "bytes": 3206,
+      "width": 78,
+      "height": 78,
+      "sha256": "8cc047a2d46b70385dbeeba9cc7ffd65a6ed80c399fbcfe059cf5ee5656a519e",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "gear",
+      "nameEn": "Undying Savage",
+      "namesKr": [
+        "영원불멸의 무법자"
+      ],
+      "file": "gear-icon-undying-savage-v214114.webp",
+      "sourcePage": "https://fastidious.gg/sets",
+      "sourceImage": "https://fastidious.gg/storage/01KPXG1Z89WCSKYF62GQQF2A3Z.webp?v=0eaee488",
+      "bytes": 2664,
+      "width": 88,
+      "height": 88,
+      "sha256": "a6250139ea0cfaf980abc0e939f0a80ab16f37dbc0d108306add21d07848a2e7",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "gear",
+      "nameEn": "Soulbound Arcana",
+      "namesKr": [
+        "영혼의 비밀"
+      ],
+      "file": "gear-icon-soulbound-arcana-v214114.webp",
+      "sourcePage": "https://fastidious.gg/sets",
+      "sourceImage": "https://fastidious.gg/storage/set-soulbound-arcana.webp?v=0eaee488",
+      "bytes": 3338,
+      "width": 78,
+      "height": 78,
+      "sha256": "a77317c3e022988f536e871d84261047b26fd15eb523c10cee0c9bd5bcb386cb",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "gear",
+      "nameEn": "Cataclysm",
+      "namesKr": [
+        "재앙 드래곤"
+      ],
+      "file": "gear-icon-cataclysm-v214114.webp",
+      "sourcePage": "https://fastidious.gg/sets",
+      "sourceImage": "https://fastidious.gg/storage/01JDAAXRHQ24EFXJYNB8SMVXDH.webp?v=0eaee488",
+      "bytes": 2948,
+      "width": 88,
+      "height": 88,
+      "sha256": "2e5cbb37720dd1e16746431e4e39a0cd55fa4f3aaa52d8509ce9698d9dc28965",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "gear",
+      "nameEn": "Warlord",
+      "namesKr": [
+        "전쟁의 주인"
+      ],
+      "file": "gear-icon-warlord-v214114.webp",
+      "sourcePage": "https://fastidious.gg/sets",
+      "sourceImage": "https://fastidious.gg/storage/set-warlord.webp?v=0eaee488",
+      "bytes": 3246,
+      "width": 78,
+      "height": 78,
+      "sha256": "8393daa2d1b99b7360d1fcf7cd383b03d2584fc0494654a0789b6eff40cffe17",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "gear",
+      "nameEn": "Hell's Lament",
+      "namesKr": [
+        "지옥 비명"
+      ],
+      "file": "gear-icon-hell-s-lament-v214114.webp",
+      "sourcePage": "https://fastidious.gg/sets",
+      "sourceImage": "https://fastidious.gg/storage/set-hells-lament.webp?v=0eaee488",
+      "bytes": 3218,
+      "width": 78,
+      "height": 78,
+      "sha256": "377dd5f1114b68d74fa9b9487e4ac4c8b9b71c7fbe63a65df82529cdef132058",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "gear",
+      "nameEn": "Whirlwind",
+      "namesKr": [
+        "질풍"
+      ],
+      "file": "gear-icon-whirlwind-v214114.webp",
+      "sourcePage": "https://fastidious.gg/sets",
+      "sourceImage": "https://fastidious.gg/storage/set-whirlwind.webp?v=0eaee488",
+      "bytes": 2860,
+      "width": 78,
+      "height": 78,
+      "sha256": "08e41808b39642c49b4350076418f22f56991c0f865404f79ded6370a5779e0c",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Absolution",
+      "namesKr": [
+        "사죄자"
+      ],
+      "file": "artifact-icon-184-absolution-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifacts/RTxWKD1rcQ9iN5rUgSfvLVleIONk4bonqZwx7GFo.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 16514,
+      "width": 150,
+      "height": 150,
+      "sha256": "a884c2489fa9ecdf39f006e8318d26c8d97611a5bcbe51de2b054809acb00294",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Amenhotep's Bow",
+      "namesKr": [
+        "아멘호테프의활"
+      ],
+      "file": "artifact-icon-192-amenhotep-s-bow-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifacts/eNXPfgeorvaSCoHOyqKMboIaH6hBLar1Fah33UIy.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 10868,
+      "width": 150,
+      "height": 150,
+      "sha256": "8ba739efaf35d1334eb041616eaf877f6d3babb494f169be4bd38209108a8c84",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Anchor of the Damned",
+      "namesKr": [
+        "죽음의닻"
+      ],
+      "file": "artifact-icon-097-anchor-of-the-damned-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a87d8d44ac437f18fad2-captain-reve.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9960,
+      "width": 100,
+      "height": 100,
+      "sha256": "1db4dc10bd97d0e2656446849eb68e8122f063c23755da09fb5c25e1edf4656e",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Arachno Shroud",
+      "namesKr": [
+        "거미의형태"
+      ],
+      "file": "artifact-icon-078-arachno-shroud-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a8866b98a81f2ccfdc2b-aracha.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9052,
+      "width": 100,
+      "height": 100,
+      "sha256": "4e67748ee460d6732b1f9229423bf7b14a017d29f111876d8614c9ce4a7a0c34",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Astral Obelisk",
+      "namesKr": [
+        "신성한 예찬문"
+      ],
+      "file": "artifact-icon-013-astral-obelisk-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a8036617805c99d7fc8a-astral-obelisk.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 15768,
+      "width": 150,
+      "height": 150,
+      "sha256": "96cc92ac889aac65121f3ed188b7040fcbbb4bfa6d60dc524f586b3daef5acfd",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Auditore Blade",
+      "namesKr": [
+        "아디토레 암살검"
+      ],
+      "file": "artifact-icon-190-auditore-blade-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifacts/Cisn81VGcbJJFzPDiQzzlyR6yxzBEkT7mKTW5meb.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 10334,
+      "width": 150,
+      "height": 150,
+      "sha256": "98f578a8cd009eccf3285ac313acf992a3b9e1b9e85fbae90bab789476b72c5b",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Aureate Visage",
+      "namesKr": [
+        "골드가면"
+      ],
+      "file": "artifact-icon-100-aureate-visage-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a87d50e80c7c991c80af-hatsuut.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 8806,
+      "width": 100,
+      "height": 100,
+      "sha256": "6453d229d627bf5afb3b5dd379c5aa9eec139efb50a27c88f21614d36f614821",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Bastion Ring",
+      "namesKr": [
+        "보루의 반지"
+      ],
+      "file": "artifact-icon-014-bastion-ring-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a803a8248fc1ad4e0347-bastion-ring.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 8554,
+      "width": 100,
+      "height": 100,
+      "sha256": "4e65371cf478d0bbe9a29d36ed4941d027a76dd8608fd82197a4407af8822461",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Blackbark Pauldrons",
+      "namesKr": [
+        "꽃의수호자"
+      ],
+      "file": "artifact-icon-158-blackbark-pauldrons-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_215201.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 13650,
+      "width": 150,
+      "height": 150,
+      "sha256": "bd0054c031ed722f846f15e349c13c9a790bdcfad260140635fe6c872a846051",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Blade of Talkiel",
+      "namesKr": [
+        "타케올의분노"
+      ],
+      "file": "artifact-icon-080-blade-of-talkiel-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a8816b3b9461773c27e5-zilitu.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9914,
+      "width": 100,
+      "height": 100,
+      "sha256": "178e61d3f11da6f4fa2b2c5c5646a7b94936f0cce5c81b01c5b6dba43c3916a6",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Blightcaller's Claw",
+      "namesKr": [
+        "망령술사의 손가락"
+      ],
+      "file": "artifact-icon-138-blightcaller-s-claw-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/nightcaller%27s-claw.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 14046,
+      "width": 150,
+      "height": 150,
+      "sha256": "54a26ef753cd84eed00d3c9edd6aa48047388efd4027bc9af10284068d76020d",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Bloodblade",
+      "namesKr": [
+        "피의일격"
+      ],
+      "file": "artifact-icon-089-bloodblade-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a88050e80c7c991c81ee-salazar.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 8888,
+      "width": 100,
+      "height": 100,
+      "sha256": "dadc729455a34ba35956e3412c1469db830eea1c604f8c2b28c33c5feea7107d",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Bone Dirk",
+      "namesKr": [
+        "응축된산의뼈"
+      ],
+      "file": "artifact-icon-177-bone-dirk-v214114.png",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_218201.png?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 50123,
+      "width": 150,
+      "height": 150,
+      "sha256": "aaceab21e9991783d459427494356d6b9a68c65e88fa55d9d354bb8b7b7369d5",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Brimstone's Fury",
+      "namesKr": [
+        "유황의분노"
+      ],
+      "file": "artifact-icon-070-brimstone-s-fury-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a87dbc969b0c318ac543-abomination.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 8472,
+      "width": 100,
+      "height": 100,
+      "sha256": "cabb47714f308d4544d14bf0f16096984df164868732bec63c4416d88566da71",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Captivation of Burning Desire",
+      "namesKr": [
+        "운명의속박"
+      ],
+      "file": "artifact-icon-093-captivation-of-burning-desire-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a88029de5e0a474824d9-lust.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 10180,
+      "width": 100,
+      "height": 100,
+      "sha256": "8013af0cf9179e9455dc3786f8bce842bfde2c8691b4f8b4e439624f635bf159",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Carrion's Call",
+      "namesKr": [
+        "죽음의부름"
+      ],
+      "file": "artifact-icon-140-carrion-s-call-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/beel.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 14756,
+      "width": 150,
+      "height": 150,
+      "sha256": "4e1c48882e530b5e713d0407457bd8b7e37ad301ca914831228b716b756317bc",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Chant of the Depths",
+      "namesKr": [
+        "심연의노래"
+      ],
+      "file": "artifact-icon-074-chant-of-the-depths-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a886f3f30c9323924d35-calypso.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 8992,
+      "width": 100,
+      "height": 100,
+      "sha256": "df839eefc82ebaee9a15a672d79d7fc9adbbccf8c299e9f1f1b97848f475c695",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Chaotic Doomblade",
+      "namesKr": [
+        "혼돈의마검"
+      ],
+      "file": "artifact-icon-147-chaotic-doomblade-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_214301%20%281%29.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 15496,
+      "width": 150,
+      "height": 150,
+      "sha256": "da0e59845e5b67cc6f2aec512f28a141e943170836d3b81eba8697cf01056745",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Codex of Silence",
+      "namesKr": [
+        "침묵록"
+      ],
+      "file": "artifact-icon-178-codex-of-silence-v214114.png",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_218301.png?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 51324,
+      "width": 150,
+      "height": 150,
+      "sha256": "140351f76801ee5b0749ad3c067f0b2868c607cb11fd6dc8f0654e7a98c94616",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Consecrated Edge",
+      "namesKr": [
+        "성혈의심판"
+      ],
+      "file": "artifact-icon-164-consecrated-edge-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_216001.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 13982,
+      "width": 150,
+      "height": 150,
+      "sha256": "7867f006d01a3cbbd38acb28fa4432016f99dee3058e1f005ff30e5f9ffd5516",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Crescent Totem",
+      "namesKr": [
+        "초승달토템"
+      ],
+      "file": "artifact-icon-072-crescent-totem-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a886a5d1c33e11ff9df0-aylin.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9396,
+      "width": 100,
+      "height": 100,
+      "sha256": "c8cfcc1e2d77f3dcfabe48b1345250ecb937b3422185891c956eb3e563e45d9b",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Crest of Dracul",
+      "namesKr": [
+        "심장파괴의계약"
+      ],
+      "file": "artifact-icon-162-crest-of-dracul-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_216201.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 12492,
+      "width": 150,
+      "height": 150,
+      "sha256": "2b843946eaacd03723532b2a0614d2c4c26b2c70a1cdcb18de635e60b61c94af",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Crown of Souls",
+      "namesKr": [
+        "악령왕관"
+      ],
+      "file": "artifact-icon-079-crown-of-souls-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a882ea7a382f61ae0e6c-vierna.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 8854,
+      "width": 100,
+      "height": 100,
+      "sha256": "0b5dda6e6327b945bb8e1c7c5f84557cd2511bf73ef316fff8a7ce6e2c3d8b28",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Cruel Fate",
+      "namesKr": [
+        "잔혹한운명"
+      ],
+      "file": "artifact-icon-084-cruel-fate-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a881be6fa0cb3d3f3d0f-volka.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9410,
+      "width": 100,
+      "height": 100,
+      "sha256": "75bdcd70e643ebb51c05cb77a7392dccdf605fb019e9533d68cc3c51e09e7acf",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Dawnbreak",
+      "namesKr": [
+        "여명"
+      ],
+      "file": "artifact-icon-154-dawnbreak-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_215101.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 14388,
+      "width": 150,
+      "height": 150,
+      "sha256": "e7f6dc061f432fce5d455c05c382b27c63f1422a6f785056b41217566c782bd8",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Deadwater Diadem",
+      "namesKr": [
+        "평온의왕관"
+      ],
+      "file": "artifact-icon-131-deadwater-diadem-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Kineza.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 18298,
+      "width": 100,
+      "height": 100,
+      "sha256": "a5497a68329598e048cecfd641af3422eee4f7bc36c26aa437feb15f441376da",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Demonic Relic",
+      "namesKr": [
+        "악귀의머리"
+      ],
+      "file": "artifact-icon-130-demonic-relic-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Kigiri.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 19318,
+      "width": 100,
+      "height": 100,
+      "sha256": "301157928950ca0d6c8caab9af19d738671b53c71c96d1c1e3b9db9f6e856086",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Divine Justice",
+      "namesKr": [
+        "천벌자"
+      ],
+      "file": "artifact-icon-129-divine-justice-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/LadyA.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 18960,
+      "width": 100,
+      "height": 100,
+      "sha256": "f18fed37d7a946c24a465935e62d05b15a75943b1f2e87ca7237288ca136a643",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Dragon Bane",
+      "namesKr": [
+        "드래곤의천적"
+      ],
+      "file": "artifact-icon-099-dragon-bane-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a87d796ab22f0bcd5993-ajax.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 8802,
+      "width": 100,
+      "height": 100,
+      "sha256": "c781ea3117462d644b985272eb22d1025d0262622f624ef31c8ff21b2d3478d5",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Dreamglow Repository",
+      "namesKr": [
+        "꿈속의그릇"
+      ],
+      "file": "artifact-icon-111-dreamglow-repository-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a874ef39f53a4fed519e-dassomi.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 8526,
+      "width": 100,
+      "height": 100,
+      "sha256": "afeb57e5632037c9832478b607762de66a8a3556ae48bd197bbf7a69a791d3d6",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Dwarven Strider",
+      "namesKr": [
+        "습격자"
+      ],
+      "file": "artifact-icon-149-dwarven-strider-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_214701.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 11258,
+      "width": 150,
+      "height": 150,
+      "sha256": "94010929357219e5b1e9dd5be282cec400a3536fa9a3dfc553640dda69380def",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Eagle's Heartbeat",
+      "namesKr": [
+        "매의심장박동"
+      ],
+      "file": "artifact-icon-092-eagle-s-heartbeat-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a8803d1ef88b51f2707f-kaede.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 10080,
+      "width": 100,
+      "height": 100,
+      "sha256": "7e1b67a083cfa70f058e32ff5b113a25699bb90919b1596e5c04464467deceb7",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Elysian Epitaph",
+      "namesKr": [
+        "낙원의 찬가"
+      ],
+      "file": "artifact-icon-046-elysian-epitaph-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a803996fd8f2f31d8f45-elysian-epitaph.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 7632,
+      "width": 100,
+      "height": 100,
+      "sha256": "df190f15e5df9e7ae3e9807aa6877723c2fc2bfa2566a3275b205ebfda42d7cf",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Eternal Winter",
+      "namesKr": [
+        "끝없는 겨울"
+      ],
+      "file": "artifact-icon-157-eternal-winter-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_215301.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 13836,
+      "width": 150,
+      "height": 150,
+      "sha256": "f94e45d9613a844a3fa0db116c1d9b7b4d05d41351b636392899f847cb514745",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Euphonic Coronet",
+      "namesKr": [
+        "우아한왕관"
+      ],
+      "file": "artifact-icon-086-euphonic-coronet-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a880cc2102f7453ad66e-laya.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 10536,
+      "width": 100,
+      "height": 100,
+      "sha256": "a980822805b507138480a87ebcad04bcad50c0593ed74dc292ec40a699698111",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Euphoric Orb",
+      "namesKr": [
+        "즐거움의 보주"
+      ],
+      "file": "artifact-icon-047-euphoric-orb-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a80850e80c7c991c42f0-euphoric-orb.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 8502,
+      "width": 100,
+      "height": 100,
+      "sha256": "d9ee64bd2d8987228db8aadf90fe5c154765ff40e4b9586c82b7addcb2f10a87",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Eye of Mockery",
+      "namesKr": [
+        "멸시의눈"
+      ],
+      "file": "artifact-icon-073-eye-of-mockery-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a886014cdc6878b25fab-arrogance.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 8862,
+      "width": 100,
+      "height": 100,
+      "sha256": "89a4aafd3c6dd7d05cadf82e54a6a2fd4967c8ad761f08c36d9a7bfdf82ba89f",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Eye of Penitence",
+      "namesKr": [
+        "회환의눈"
+      ],
+      "file": "artifact-icon-083-eye-of-penitence-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a8814ccbd5604d609a3c-silas.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9902,
+      "width": 100,
+      "height": 100,
+      "sha256": "1547dcc4340d924c367974d2e402ce30d10bd01dbdb0b4a8ab3235a4c965f152",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Eye of Sin",
+      "namesKr": [
+        "죄악의눈"
+      ],
+      "file": "artifact-icon-029-eye-of-sin-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a8672abfbef196e414da-eye-of-sin.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 8566,
+      "width": 100,
+      "height": 100,
+      "sha256": "02fa86b3d2155aca52868b1b156901679336286dc658998a982867a2ee59f5bb",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Falcon's Crest",
+      "namesKr": [
+        "성결한왕관"
+      ],
+      "file": "artifact-icon-133-falcon-s-crest-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Alaura.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 7472,
+      "width": 100,
+      "height": 100,
+      "sha256": "d919b5c70037d717c2e2315e55fd759a7d642310366c51bd862a9d835cef90f7",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Final Edict",
+      "namesKr": [
+        "철칙"
+      ],
+      "file": "artifact-icon-191-final-edict-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifacts/4XW8mKR9Ca8L2ISzpAUJYgFyG2igZPTTBDo7WN4X.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 11850,
+      "width": 150,
+      "height": 150,
+      "sha256": "6367e0a8afca32039a325a36db2638f816cbae8c28ce49b690bb286a5e6af980",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Fire-Tipped Spear",
+      "namesKr": [
+        "화첨창"
+      ],
+      "file": "artifact-icon-159-fire-tipped-spear-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_215601.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 14976,
+      "width": 150,
+      "height": 150,
+      "sha256": "a26ee4b4443c1e8c3384e0be8c582fa6fffa6c7be9f776fd21f3ef1a65f065b2",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Flaming Pauldrons",
+      "namesKr": [
+        "폭주"
+      ],
+      "file": "artifact-icon-112-flaming-pauldrons-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a8746617805c99d83c0d-wrath.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 15574,
+      "width": 150,
+      "height": 150,
+      "sha256": "fc0148e999fddb0ceea24aab28ddf1e156a9ba16534f1cd4b885fa6adc32ebaf",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Flux Pendant",
+      "namesKr": [
+        "흐르는 팬던트"
+      ],
+      "file": "artifact-icon-030-flux-pendant-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a868ef39f53a4fed4b60-flux-pendant.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9706,
+      "width": 100,
+      "height": 100,
+      "sha256": "557d9aba0246a6fbeaa161651e2d6efb67ea0c0843229ccef02d02be9656d8a6",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Frost Devourer",
+      "namesKr": [
+        "서리포식자"
+      ],
+      "file": "artifact-icon-165-frost-devourer-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_216601.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 13612,
+      "width": 150,
+      "height": 150,
+      "sha256": "57eafebd48ae1f043dee77fd515f57c77642aaf17123cdeda0941cdfdd375a9b",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Frosthorn Staff",
+      "namesKr": [
+        "서리척추"
+      ],
+      "file": "artifact-icon-176-frosthorn-staff-v214114.png",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_218101.png?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 50881,
+      "width": 150,
+      "height": 150,
+      "sha256": "301e3ba9a717cf01c4e6820c20576de0ee06ed621785215767d07ab53dd28ba0",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Glacial Wings",
+      "namesKr": [
+        "북쪽경계의날개"
+      ],
+      "file": "artifact-icon-076-glacial-wings-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a882f749b4d003a4a984-valkyra.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9684,
+      "width": 100,
+      "height": 100,
+      "sha256": "a6e62d1f37fc17f6db4330905c79b44fe35e53487ad16a709f96f4c55cd0ab4e",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Golden Cudgel",
+      "namesKr": [
+        "여의봉"
+      ],
+      "file": "artifact-icon-134-golden-cudgel-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/wukong.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 13114,
+      "width": 150,
+      "height": 150,
+      "sha256": "f03eae8df8d3c0da24c564fb11a512410c73d3a20715ac157f70f3e0944696b9",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Golden Scarab",
+      "namesKr": [
+        "황금 풍뎅이"
+      ],
+      "file": "artifact-icon-048-golden-scarab-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a808b7232dc31768e03d-golden-scarab.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 8808,
+      "width": 100,
+      "height": 100,
+      "sha256": "13639126ee0137066492eb99d8398c17083b71423b30c41ed129d89b74cb842d",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Grasp of Sands",
+      "namesKr": [
+        "모래의손"
+      ],
+      "file": "artifact-icon-090-grasp-of-sands-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a8806f5e1c29d5358755-laseer.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9074,
+      "width": 100,
+      "height": 100,
+      "sha256": "0e52ea8d45f67f956e9284953790f71409a69a99867f04d14167f4eb4d00d07d",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Graveyard Opus",
+      "namesKr": [
+        "묘지의글"
+      ],
+      "file": "artifact-icon-120-graveyard-opus-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a8673d1ef88b51f25f9e-zelus.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 7918,
+      "width": 100,
+      "height": 100,
+      "sha256": "ccdfbd97d2fca6b84122f2631626658a526cccd8ea7b5b1bd754f51bb6fe9ecc",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Green Crescent Blade",
+      "namesKr": [
+        "청룔언월도"
+      ],
+      "file": "artifact-icon-174-green-crescent-blade-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_217601.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 18028,
+      "width": 150,
+      "height": 150,
+      "sha256": "671ac86d26c074ae22117a9fdca561db9c208d3c3c3e33ffa5d37ff73001b3b1",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Halberd of Woe",
+      "namesKr": [
+        "방천화극"
+      ],
+      "file": "artifact-icon-141-halberd-of-woe-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/halberd-of-woe.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 13576,
+      "width": 150,
+      "height": 150,
+      "sha256": "525c82891bde656efd24dae21051061e7de76c482bddb9b6785e944dcf14c95c",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Hand of Doom",
+      "namesKr": [
+        "종말의손"
+      ],
+      "file": "artifact-icon-168-hand-of-doom-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_217001.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 18370,
+      "width": 150,
+      "height": 150,
+      "sha256": "299ed9d1203ba756ea4404341b90652fd3714016d19b0ac50d61fee285130570",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Hate's Contagion",
+      "namesKr": [
+        "격노의 분출자"
+      ],
+      "file": "artifact-icon-171-hate-s-contagion-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_217101.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 18412,
+      "width": 150,
+      "height": 150,
+      "sha256": "9c84aba75a34cbc825757ee26bd1e3fa457fde305a14a7cf90afe201fa204e9b",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Heart of the Mouintain",
+      "namesKr": [
+        "산악의심장"
+      ],
+      "file": "artifact-icon-167-heart-of-the-mouintain-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_216701.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 13242,
+      "width": 150,
+      "height": 150,
+      "sha256": "02a516548c05301edaa580be15608c12ecaa20fef66076f4c7b733a0454f3ad8",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Helm of Helios",
+      "namesKr": [
+        "헬리오스의 왕관"
+      ],
+      "file": "artifact-icon-150-helm-of-helios-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_214801.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 12876,
+      "width": 150,
+      "height": 150,
+      "sha256": "b40614165aae8c1f93ee467752aade3ea4a267dc6bf8dd66425875b1c25197c1",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Helm of Yalnor",
+      "namesKr": [
+        "불멸의에드라크"
+      ],
+      "file": "artifact-icon-135-helm-of-yalnor-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/callista.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 14482,
+      "width": 150,
+      "height": 150,
+      "sha256": "63b115893d16c7fee81daf8a03d98e1a3d856a8782235459436bd4f697d9d97c",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Idril's Gaze",
+      "namesKr": [
+        "가드리엘의 응시"
+      ],
+      "file": "artifact-icon-004-idril-s-gaze-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a808db6ea9da85fe7015-idrils-gaze.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 8784,
+      "width": 100,
+      "height": 100,
+      "sha256": "57a4cefd3cbf2ad1e7e759fd7deab3a767ff9d9548c6fc74b2b80aed4cb86b82",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Ironbloom of Mercy",
+      "namesKr": [
+        "자비의 강철연꽃"
+      ],
+      "file": "artifact-icon-185-ironbloom-of-mercy-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifacts/oa15xNShugLJXSrJ4bQXjOhxFV2gevKGj4hzrU7r.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 10256,
+      "width": 150,
+      "height": 150,
+      "sha256": "b045662842f7a767f037ef1e11ab7e1e1972d702ec9553a2c2ec574b2492ab8a",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Jade Dragon",
+      "namesKr": [
+        "제이드드래곤"
+      ],
+      "file": "artifact-icon-181-jade-dragon-v214114.png",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_218701.png?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 50179,
+      "width": 150,
+      "height": 150,
+      "sha256": "932d359fe88043336ac6e335404293b9afdf6231ddda86212389db3aaef10b4e",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Key of the Forsaken",
+      "namesKr": [
+        "미지의 땅의 열쇠"
+      ],
+      "file": "artifact-icon-104-key-of-the-forsaken-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a877afd3ff36bc4cbced-key-of-the-forsaken.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 15650,
+      "width": 150,
+      "height": 150,
+      "sha256": "6431eb481efbe7b9f033a22ee6a37952802ce5da9475172f681acca720439b14",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Leviathan",
+      "namesKr": [
+        "리바이어던"
+      ],
+      "file": "artifact-icon-166-leviathan-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_216801.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 12678,
+      "width": 150,
+      "height": 150,
+      "sha256": "2544703aa38a6b5a871e0368f076ab65341fa4db24dda06d0599217387265477",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Lionheart Pommel",
+      "namesKr": [
+        "사자심장검수"
+      ],
+      "file": "artifact-icon-108-lionheart-pommel-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a877a5d1c33e11ff9647-regulus.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9438,
+      "width": 100,
+      "height": 100,
+      "sha256": "7c4a535b52e80dd79b848343dda946ca7da19ae87e9d12b34a37c39b09e887f2",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Lucent Flame",
+      "namesKr": [
+        "백염"
+      ],
+      "file": "artifact-icon-148-lucent-flame-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Falcia.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 17606,
+      "width": 100,
+      "height": 100,
+      "sha256": "f500033f9a0d22ef2bbdd071f7612f94f9fa3a7850ac9e005d961ccc6e4c3d18",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Lunacy Visor",
+      "namesKr": [
+        "난폭한 마스크"
+      ],
+      "file": "artifact-icon-033-lunacy-visor-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a86dcc2102f7453acd27-lunacy-visor.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9134,
+      "width": 100,
+      "height": 100,
+      "sha256": "7d785652fd587a4a991aa7c35c72024aa9f5e41b6d0794e1ba045b516a3b08ae",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Mask of Dark Desire",
+      "namesKr": [
+        "혼돈의기쁨"
+      ],
+      "file": "artifact-icon-145-mask-of-dark-desire-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_214201.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 15326,
+      "width": 150,
+      "height": 150,
+      "sha256": "06f9c8b90b56acb2cb9e4c09cb971b34acc42b7a6ed5ed8bd3b09a1892929562",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Mech Core",
+      "namesKr": [
+        "머신코어"
+      ],
+      "file": "artifact-icon-175-mech-core-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_218001.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 19320,
+      "width": 150,
+      "height": 150,
+      "sha256": "fcdafba18756b1dca3de96e49b1a7794000517adb72ee5e5632036e78c8c9aae",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Mindflayer Quartz",
+      "namesKr": [
+        "영혼 약탈 석영"
+      ],
+      "file": "artifact-icon-106-mindflayer-quartz-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a877796ab22f0bcd5603-nocturne.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9830,
+      "width": 100,
+      "height": 100,
+      "sha256": "89bda7c0e7a930bb0a4139c05f25d573b455d0f96fe023d35b6263ae7c0f5256",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Molten Cog",
+      "namesKr": [
+        "주조된 톱니바퀴"
+      ],
+      "file": "artifact-icon-116-molten-cog-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a874737cc38e6b1b3d5a-crach.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 7980,
+      "width": 100,
+      "height": 100,
+      "sha256": "c7483bf60d2412c58761fd83009858a56c730fabfd8849301a4056b19bb0cdae",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Moonfrost",
+      "namesKr": [
+        "상야"
+      ],
+      "file": "artifact-icon-180-moonfrost-v214114.png",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_218601.png?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 48820,
+      "width": 150,
+      "height": 150,
+      "sha256": "9c0b839c572d2b9e621e7b5eb70024fad1253da1b9eed109e9d1f49510b40b69",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Nightfall",
+      "namesKr": [
+        "영탄"
+      ],
+      "file": "artifact-icon-153-nightfall-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_215001.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 14588,
+      "width": 150,
+      "height": 150,
+      "sha256": "6c7b71658e1031b621caacae3319bea22e9d599fc81c2d91c9cabe26816d468a",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Nightmare Samsara",
+      "namesKr": [
+        "악몽 윤회"
+      ],
+      "file": "artifact-icon-060-nightmare-samsara-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a860db6ea9da85fe9b25-nightmare-samsara.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 8254,
+      "width": 100,
+      "height": 100,
+      "sha256": "8253b4c329df34a4dbe6526bc95b894d0105f431ada96c9db36caef36ab8dc31",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Oblivion Pendant",
+      "namesKr": [
+        "허무의팬던트"
+      ],
+      "file": "artifact-icon-105-oblivion-pendant-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a877afd3ff36bc4cbcea-setram.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 8980,
+      "width": 100,
+      "height": 100,
+      "sha256": "fc6d1f81aae6305b697acad2526f9317890e9cb3a397cfc514521afa529546b9",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Orb of Ruin",
+      "namesKr": [
+        "장미의망상"
+      ],
+      "file": "artifact-icon-109-orb-of-ruin-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a874a5d1c33e11ff9564-dahlia.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 17378,
+      "width": 150,
+      "height": 150,
+      "sha256": "e742b6e13d79ba6d9ab028d017a0e58552e7301f06ded3ec7e2ce2ab6c2d6fc0",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Painter's Palette",
+      "namesKr": [
+        "회목"
+      ],
+      "file": "artifact-icon-173-painter-s-palette-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_217401.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 15470,
+      "width": 150,
+      "height": 150,
+      "sha256": "158abfd8e71b31548d6a9b90c9ffac258b9cfce283e415e43aecc01a24bcafbd",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Paintress's Brush",
+      "namesKr": [
+        "태초의색"
+      ],
+      "file": "artifact-icon-172-paintress-s-brush-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_217501.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 17526,
+      "width": 150,
+      "height": 150,
+      "sha256": "06bd49f1109580f11d7a209f55ea6c89fc475c10f48273da5472832d13f43d1e",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Pathbreaker",
+      "namesKr": [
+        "현궐"
+      ],
+      "file": "artifact-icon-179-pathbreaker-v214114.png",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_218501.png?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 50318,
+      "width": 150,
+      "height": 150,
+      "sha256": "612186abcffe67899c980600bd3de9abacf4094985c49fe6c672ce0ee1b79775",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Perdition",
+      "namesKr": [
+        "원죄"
+      ],
+      "file": "artifact-icon-182-perdition-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifacts/8egmBG7Z1pLseRWjjasbtQExbr21xM5vWXoBeSpC.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 18464,
+      "width": 150,
+      "height": 150,
+      "sha256": "6bd5c851c2b86bef0e8630f02dac06316ba2b70f7851cba4627467ac52f9e7ea",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Pharaoh's Pschent",
+      "namesKr": [
+        "파라오의왕관"
+      ],
+      "file": "artifact-icon-088-pharaoh-s-pschent-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a880a5d1c33e11ff9978-khamet.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9262,
+      "width": 100,
+      "height": 100,
+      "sha256": "182053dcdc0ef3348360c77e0d1aa23211fb1199805452b5ecf85dd98f8c154f",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Phoenix Feather Fan",
+      "namesKr": [
+        "승평·봉화불"
+      ],
+      "file": "artifact-icon-142-phoenix-feather-fan-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/diaochan.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 12676,
+      "width": 150,
+      "height": 150,
+      "sha256": "1a82ff096c95c19f101858f2a8245027541545e938ce0de3d0e8e1c988056c0e",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Raven's Crest",
+      "namesKr": [
+        "가시의왕관"
+      ],
+      "file": "artifact-icon-125-raven-s-crest-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a8086f5e1c29d5353b4e-helga.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 17170,
+      "width": 150,
+      "height": 150,
+      "sha256": "63e07f29f5df0add67259f503a8852438157f8494c817b174ea61d6fced8b3f3",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Realm Tear",
+      "namesKr": [
+        "세상의 눈물"
+      ],
+      "file": "artifact-icon-038-realm-tear-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a86ddb6ea9da85fea141-realm-tear.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9012,
+      "width": 100,
+      "height": 100,
+      "sha256": "edfb92f3f0394be9b06b9062bc9bcb00f9a3c8e92e408e2d02102ff1bfdb7222",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Reaper's Emblem",
+      "namesKr": [
+        "사신의 표식"
+      ],
+      "file": "artifact-icon-006-reaper-s-emblem-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a7a67b8637af6343bba6-reapers-emblem.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 7998,
+      "width": 100,
+      "height": 100,
+      "sha256": "fdca3656f56a7a79fbd544a72317cde2692745f561083f90a997637c80e59c72",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Resonance Bell",
+      "namesKr": [
+        "공명의종"
+      ],
+      "file": "artifact-icon-169-resonance-bell-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_217301.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 15872,
+      "width": 150,
+      "height": 150,
+      "sha256": "f7effefd1879ff31fc7e6a0c4c431a394d2d0e1a2a83216b2195f659fd406dd3",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Sanguine Shroud",
+      "namesKr": [
+        "핏빛망토"
+      ],
+      "file": "artifact-icon-136-sanguine-shroud-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Selene.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 7602,
+      "width": 100,
+      "height": 100,
+      "sha256": "48737491a78bc7a0cb1fc942015c76bedd91b1d0a8123b28ac8c73c062ebaa44",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Scarlet Dagger",
+      "namesKr": [
+        "스칼렛단검"
+      ],
+      "file": "artifact-icon-102-scarlet-dagger-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a8776b98a81f2ccfd0ce-nyx.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9378,
+      "width": 100,
+      "height": 100,
+      "sha256": "56ab4cf203d1acab10ce90ee01cf40a304ab22d98186dfc53e1b2955c3a3a714",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Scarlet Hunt",
+      "namesKr": [
+        "스칼렛헌트"
+      ],
+      "file": "artifact-icon-036-scarlet-hunt-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a8722c655a41a2298566-scarlet-hunt.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9526,
+      "width": 100,
+      "height": 100,
+      "sha256": "9736f4d7ad7ed3a37557ef3d83132f649b9661ed3af68455b3e91e619f600bce",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Scepter of Impiety",
+      "namesKr": [
+        "불경한자"
+      ],
+      "file": "artifact-icon-127-scepter-of-impiety-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a808db6ea9da85fe7018-item-212401.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 16330,
+      "width": 150,
+      "height": 150,
+      "sha256": "64e394f9136596cea7c0d453039def86fa4d2472d9b0d22e1374ba95bb2b2a2b",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Seabed Crown",
+      "namesKr": [
+        "바다의왕관"
+      ],
+      "file": "artifact-icon-107-seabed-crown-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a877c142b79bf6a74300-shamir.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9328,
+      "width": 100,
+      "height": 100,
+      "sha256": "b9574988708b7e08bc029d5f50b2c1dfba9e5f3664ffa2cf515f02c0c0dc9d4e",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Sentinel's Eye",
+      "namesKr": [
+        "감시자의눈"
+      ],
+      "file": "artifact-icon-146-sentinel-s-eye-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_214401.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 14050,
+      "width": 150,
+      "height": 150,
+      "sha256": "a1be86e2fd558ba3e3b8bf2c176e8b6246005d1946b18cb98a1306d7a27e0c69",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Serpent's Kiss",
+      "namesKr": [
+        "독사의입맞춤"
+      ],
+      "file": "artifact-icon-118-serpent-s-kiss-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a872ad45e26b94e5d2b0-valeriya.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 8654,
+      "width": 100,
+      "height": 100,
+      "sha256": "d5782ae3ee0a7f002e708adf4018e5975f1b8decfa7555d17f36d9ad4b088dc8",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Sharpshooter Crest",
+      "namesKr": [
+        "명사수의 표식"
+      ],
+      "file": "artifact-icon-008-sharpshooter-crest-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a80c6617805c99d80388-sharpshooters-crest.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 8826,
+      "width": 100,
+      "height": 100,
+      "sha256": "a5b5b071a3c27745deaef3982a7c48584472aafa9c925d3477df0fc46b8a59a3",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Shattered Hilt",
+      "namesKr": [
+        "잊혀진 옛검"
+      ],
+      "file": "artifact-icon-137-shattered-hilt-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Shattered-hilt.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 14226,
+      "width": 150,
+      "height": 150,
+      "sha256": "4e37accbf386d8bd87dacb4c0050882ec673e9816b7b6c6b9f626d83f7b9b508",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Shield of Valor",
+      "namesKr": [
+        "기억의방패"
+      ],
+      "file": "artifact-icon-103-shield-of-valor-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a8772abfbef196e41d14-livian.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 15120,
+      "width": 150,
+      "height": 150,
+      "sha256": "e6bdec81a0d9fab48dc8e54dd258b5151d3724f6ee7386483e38cda52bfc25be",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Silent Fury",
+      "namesKr": [
+        "무언의분노"
+      ],
+      "file": "artifact-icon-128-silent-fury-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Trusk.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 20264,
+      "width": 100,
+      "height": 100,
+      "sha256": "13e5785c9077ae19a4829be8d1b4cfdc856fe67f4e1abb6603fa98b8fdc0a1ee",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Song of the Butterfly",
+      "namesKr": [
+        "나비의노래"
+      ],
+      "file": "artifact-icon-155-song-of-the-butterfly-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_215501.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 13742,
+      "width": 150,
+      "height": 150,
+      "sha256": "c87c6cbb965e0c435843357d8241528a1e86f16cd83f0610f16f59f2998ddd92",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Sorrow Bloom",
+      "namesKr": [
+        "절망의장미"
+      ],
+      "file": "artifact-icon-085-sorrow-bloom-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a881f086b776db7bba04-morrigan.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9462,
+      "width": 100,
+      "height": 100,
+      "sha256": "7135534f1256b270f6f491dbb9debec5dd9e2e1482f7b02f3989d3d32aa9cd7e",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Sorrow's Veil",
+      "namesKr": [
+        "탄식의연사"
+      ],
+      "file": "artifact-icon-077-sorrow-s-veil-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a886f086b776db7bbca8-ain.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 7588,
+      "width": 100,
+      "height": 100,
+      "sha256": "1cc50ed6bd41d959e377a8e36cf68aacc356dc2d287fe3e0b0bc10f08a7ace68",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Soul Crucible",
+      "namesKr": [
+        "영혼의도가니"
+      ],
+      "file": "artifact-icon-119-soul-crucible-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a87287ce619b0239bf33-azhor.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 7790,
+      "width": 100,
+      "height": 100,
+      "sha256": "344825fc1ca8dae054650ad5300d214799a75e2d5c65d992f87bc486e27c4399",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Spear of Leonidas",
+      "namesKr": [
+        "레오니다스의 창"
+      ],
+      "file": "artifact-icon-188-spear-of-leonidas-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifacts/4BDOSwfxHJekuWsjqbFDIjEabY61dGasvZHQKVqw.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 11114,
+      "width": 150,
+      "height": 150,
+      "sha256": "2f2f8f6c73b8053525650eff44cb42b3144f1a5e10f2942ab1ad185a0128e607",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Spirit Siphon",
+      "namesKr": [
+        "흡혼 부적"
+      ],
+      "file": "artifact-icon-009-spirit-siphon-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a7ff95578e144352a242-spirit-siphon.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 8362,
+      "width": 100,
+      "height": 100,
+      "sha256": "f788ceef7183d50efad7141c323591a07f3a343d30b7a5c1d0f17a02fbf23c5c",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Stoic Winter",
+      "namesKr": [
+        "무정한겨울"
+      ],
+      "file": "artifact-icon-114-stoic-winter-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a87495578e144352e5dc-brokir.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9126,
+      "width": 100,
+      "height": 100,
+      "sha256": "2a2275a8ea01a2e5071827956a42c903f2eb3ce909f12ba7b44f079fb62fcef7",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Stormstrike Haladie",
+      "namesKr": [
+        "폭풍의칼날"
+      ],
+      "file": "artifact-icon-117-stormstrike-haladie-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a8736b3b9461773c1c38-theowin.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 16154,
+      "width": 150,
+      "height": 150,
+      "sha256": "b5a62eda86a5831dba19d80361b38cbda85eddbd9a24d0fe61773058584d6f36",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Strings of Sorrow",
+      "namesKr": [
+        "열화축제"
+      ],
+      "file": "artifact-icon-189-strings-of-sorrow-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifacts/ILPbrcANvsogJVUGDXo0LF66W54XwZ97LNITV3cZ.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 12620,
+      "width": 150,
+      "height": 150,
+      "sha256": "1d7cbd96210c944a66ea12cba879b384a9d88669cb23646dc9879d7d9f258aeb",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Talisman of Resolve",
+      "namesKr": [
+        "겁쟁이의 용기"
+      ],
+      "file": "artifact-icon-095-talisman-of-resolve-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a87d983da61b62b36220-talisman-of-resolve.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 15268,
+      "width": 150,
+      "height": 150,
+      "sha256": "5d05588d62657bdcaae99e69113bc0baa8883efd66b7373e53860e1847664d3e",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Tear of Twilight",
+      "namesKr": [
+        "황혼의 눈물"
+      ],
+      "file": "artifact-icon-063-tear-of-twilight-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a80be1b128322e4f6ef4-tear-of-twilight.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 8806,
+      "width": 100,
+      "height": 100,
+      "sha256": "3ac4aecaacbc4e3c4e8af74c7fe1bc9eb0eadbafdb66959c6b4326274557f5dd",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "The Dawnbringer",
+      "namesKr": [
+        "죽은자의속삭임"
+      ],
+      "file": "artifact-icon-161-the-dawnbringer-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_216101.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 10762,
+      "width": 150,
+      "height": 150,
+      "sha256": "55fcec14a3c9bf250707aebff592c7aec05ce37baa15ad32e97ddab729a153d0",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "The Devil's Gaze",
+      "namesKr": [
+        "악마의응시"
+      ],
+      "file": "artifact-icon-081-the-devil-s-gaze-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a881620824450d5f9c32-twinfiend.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9586,
+      "width": 100,
+      "height": 100,
+      "sha256": "e1f61ca6179c463c7f6a0b721ce2aeec41093b5ca36e2e854e18f7583059393e",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "The Sutra of Caprice",
+      "namesKr": [
+        "광란의경전"
+      ],
+      "file": "artifact-icon-094-the-sutra-of-caprice-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a87d2a6f276c2250803c-hex.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9040,
+      "width": 100,
+      "height": 100,
+      "sha256": "13fa3117fb72a08746fe449e3d299d1dca8c2affdef921a18cdcb83e7ab73b33",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Tidebreaker",
+      "namesKr": [
+        "파도를헤엄치는자"
+      ],
+      "file": "artifact-icon-082-tidebreaker-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a881b7658ce050732fa4-razaak.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9176,
+      "width": 100,
+      "height": 100,
+      "sha256": "45bbe22f5d27f682db0a791e1983ac83b97b35208b2599220a7eb5c52b0b55a1",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Tome of Greed",
+      "namesKr": [
+        "탐욕의책"
+      ],
+      "file": "artifact-icon-110-tome-of-greed-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a87422cb2a860ea10daa-greed.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 8760,
+      "width": 100,
+      "height": 100,
+      "sha256": "83fff026b1534958954bb2c390c51699196918b7d42d5824df080fcba060f026",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Tome of Holylight",
+      "namesKr": [
+        "신성한예찬문"
+      ],
+      "file": "artifact-icon-096-tome-of-holylight-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a87db6ed0ab9410f76a3-constance.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 15774,
+      "width": 150,
+      "height": 150,
+      "sha256": "df28a4eae8f221b05cca44e73a99c873a6a0a80572c6caa71edf4b099c4e0fca",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Triple-Bladed Glaive",
+      "namesKr": [
+        "삼첨양인도"
+      ],
+      "file": "artifact-icon-160-triple-bladed-glaive-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_215701.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 15182,
+      "width": 150,
+      "height": 150,
+      "sha256": "232946acdf8d96575426774b5afb210c855c9a541cb59df20acfa53367f83f8c",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Unending Relic",
+      "namesKr": [
+        "불사자의마지막모습"
+      ],
+      "file": "artifact-icon-115-unending-relic-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a874bc969b0c318ac0e9-cerberus.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9084,
+      "width": 100,
+      "height": 100,
+      "sha256": "86e6cdd8785cad25b92a86f956fe7442a03c26b60dc06d5f720bc1d30809f8e7",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Uzimo Relic",
+      "namesKr": [
+        "여우햇빛"
+      ],
+      "file": "artifact-icon-156-uzimo-relic-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_215401.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 14328,
+      "width": 150,
+      "height": 150,
+      "sha256": "8864c0b92f0a36491e98e026329661b5fe8e48bfc5ce2de3ea8318ffb19d2447",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Varin's Axe",
+      "namesKr": [
+        "바린의 도끼"
+      ],
+      "file": "artifact-icon-186-varin-s-axe-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifacts/tiH9X2sOexe6bzSkJjNhZ0DRMYxK8yzbn43vPGuP.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 11558,
+      "width": 150,
+      "height": 150,
+      "sha256": "45410a600d0850515432a5389330dbbadf784b0d3f2639be1bb41bc08068e48e",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Vlad's Impaler",
+      "namesKr": [
+        "블라드의창"
+      ],
+      "file": "artifact-icon-163-vlad-s-impaler-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/Item_215901.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 11768,
+      "width": 150,
+      "height": 150,
+      "sha256": "10d083f8e0b3d992238a0784eba629837f3cc24b5e133c984ffe257160e780fe",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Volcanic Heart",
+      "namesKr": [
+        "화산의심장"
+      ],
+      "file": "artifact-icon-101-volcanic-heart-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a877ea7a382f61ae05dc-magnus.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9202,
+      "width": 100,
+      "height": 100,
+      "sha256": "d29ec16770e07330ee6fd620941c7005374d0f8c723bf9617580009cabeb6370",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Wailing Skull",
+      "namesKr": [
+        "포효의 머리뼈"
+      ],
+      "file": "artifact-icon-042-wailing-skull-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a872014cdc6878b24ec4-wailing-skull.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 8310,
+      "width": 100,
+      "height": 100,
+      "sha256": "1189ae1bc7598c962cf31f347b68ef7072d3277e5645fa5fa00f4ede2b778237",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Wailing Tusk",
+      "namesKr": [
+        "포효의뼈"
+      ],
+      "file": "artifact-icon-113-wailing-tusk-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a874afd3ff36bc4cba4c-apsan.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 8534,
+      "width": 100,
+      "height": 100,
+      "sha256": "34a292ad2f759b0a8dc86870a678edc3eb51b8619a8414dc8a1c5e07310be2b5",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Wall of Lament",
+      "namesKr": [
+        "비탄의벽"
+      ],
+      "file": "artifact-icon-187-wall-of-lament-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifacts/nfCA06agjoRGcEmznJXqLCGKvEWbpOlWqNr1bnGw.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 11486,
+      "width": 150,
+      "height": 150,
+      "sha256": "309d9d39db8abacae7b788b1c97844bb415ffa1d68fc7aed4bfdb464cce0de11",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Weaver's Hood",
+      "namesKr": [
+        "드림위버의두건"
+      ],
+      "file": "artifact-icon-098-weaver-s-hood-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a87df943d315824f52b0-ezryn.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9070,
+      "width": 100,
+      "height": 100,
+      "sha256": "a82fc42f6caf1d721d3007fe0e46568dd4e152fefb9f527daee7ef7699306ecd",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Whispering Grace",
+      "namesKr": [
+        "희미한빛"
+      ],
+      "file": "artifact-icon-087-whispering-grace-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a8808d44ac437f18fc96-sadie.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9728,
+      "width": 100,
+      "height": 100,
+      "sha256": "a0b6be8f9304e971f5757fc41306cacb5c614ecffd04f6102ad70b8b4e62ac01",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Winter's Call",
+      "namesKr": [
+        "겨울의부름"
+      ],
+      "file": "artifact-icon-075-winter-s-call-v214114.webp",
+      "sourcePage": "https://fastidious.gg/artifacts",
+      "sourceImage": "https://fastidious.gg/storage/artifact-6676a887db6ea9da85fead13-voroth.webp?v=0eaee488",
+      "matchBasis": "exact English name already present in wiki",
+      "bytes": 9750,
+      "width": 100,
+      "height": 100,
+      "sha256": "b5a431d31a2c21cf6983863c5d6259017041373e49be270a0cc8b4e20d7854cb",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "M1877 \"Thunder\"",
+      "namesKr": [
+        "M1877 '천둥의 신'"
+      ],
+      "file": "artifact-icon-evie-frye-m1877-v214114.webp",
+      "sourcePage": "https://prospector.gg/hero/evie-frye/",
+      "sourceImage": "https://prospector.gg/wp-content/uploads/2026/09/Artifact-Evie-Frye-m1877-thunderer.webp",
+      "matchBasis": "exclusive artifact explicitly associated with the same hero; wiki Korean name unchanged",
+      "bytes": 15182,
+      "width": 188,
+      "height": 249,
+      "sha256": "c8029768f3b2de85d444db7ee28c0402735fd69adc2a2afea336e61d1d2bb283",
+      "originalBytesPreserved": true
+    },
+    {
+      "type": "artifact",
+      "nameEn": "Heart of Darkness",
+      "namesKr": [
+        "어둠의 심장"
+      ],
+      "file": "artifact-icon-ezio-della-notte-heart-of-darkness-v214114.webp",
+      "sourcePage": "https://prospector.gg/hero/ezio-della-notte/",
+      "sourceImage": "https://prospector.gg/wp-content/uploads/2026/09/Artifact-Ezio-Della-Notte-Heart-of-Darkness.webp",
+      "matchBasis": "exclusive artifact explicitly associated with the same hero; wiki Korean name unchanged",
+      "bytes": 15916,
+      "width": 188,
+      "height": 249,
+      "sha256": "8cd8c58c939cd10943a91cae2302887f040892ade6aa859a703c83bdb1fb614d",
+      "originalBytesPreserved": true
+    }
+  ],
+  "deferredGearParts": [
+    {
+      "part": "강철 의지 (Unshaken Will) 세트",
+      "reason": "existing Korean and English set names disagree; no guessed icon"
+    }
+  ],
+  "downloadedOn": "2026-10-07"
+}

@@ -1,0 +1,82 @@
+/* v2.14.114 — Local gear and artifact icons on hero details. */
+.hero-detail-page .detail-item-icon {
+  display: block;
+  width: 64px;
+  height: 64px;
+  flex: 0 0 64px;
+  object-fit: contain;
+  box-sizing: border-box;
+  padding: 4px;
+  border: 1px solid rgba(229, 189, 105, .25);
+  border-radius: 12px;
+  background: rgba(5, 9, 15, .5);
+}
+
+.hero-detail-page .detail-exclusive-artifact-title {
+  flex-wrap: wrap;
+}
+
+.hero-detail-page .detail-item-identity {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  flex: 1 1 230px;
+}
+
+.hero-detail-page .detail-item-copy {
+  min-width: 0;
+}
+
+.hero-detail-page .detail-item-copy strong,
+.hero-detail-page .detail-item-copy small {
+  overflow-wrap: anywhere;
+}
+
+.hero-detail-page .detail-artifact-box .detail-gear-names {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+  width: 100%;
+  min-width: 0;
+}
+
+.hero-detail-page .detail-artifact-box .detail-gear-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.hero-detail-page .detail-artifact-box .detail-item-label {
+  min-width: 0;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.hero-detail-page .detail-artifact-box .detail-gear-plus {
+  display: none;
+}
+
+@media (max-width: 560px) {
+  .hero-detail-page .detail-item-icon {
+    width: 52px;
+    height: 52px;
+    flex-basis: 52px;
+    border-radius: 10px;
+  }
+
+  .hero-detail-page .detail-item-identity {
+    flex-basis: auto;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .hero-detail-page .detail-artifact-box .detail-gear-item {
+    gap: 10px;
+  }
+}

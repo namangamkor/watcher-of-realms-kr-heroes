@@ -1,11 +1,24 @@
-# 워처 오브 렐름 위키 v2.14.114 — 이미지 묶음 2/2
+# 워처 오브 렐름 위키 v2.14.114 — 장비·아티팩트 이미지
 
-- 패치 버전: **v2.14.114** / 기준 버전: **v2.14.113**
+- 현재 패치 버전: **v2.14.114**
+- 기준 버전: **v2.14.113** — 상세 보기 / 간략 보기 전환 패치가 적용된 상태
 - 작성일: 2026-10-07 (한국 시간)
-- 이 묶음: 원본 이미지 **64개**, 안내문 포함 **66파일**
-- 전체: 장비 세트 15종 + 아티팩트 127종 = 이미지 142개
-- 이미지 다운로드·형식·크기·SHA-256 검증: 완료
-- 실제 사이트 적용·배포: **미실시 — 전달용 패치**
+- 패치 제작·이미지·문법·DOM·CSS 규칙·라우팅 검증: **완료**
+- 실제 사이트 적용·배포: **미실시 — ZIP 전달용 패치**
+- 실제 모바일·PC 브라우저 화면 검증: **미완료**. 브라우저에서 로컬 미리보기에 접근할 수 없어 실제 렌더 확인은 진행하지 못했습니다.
+
+## 변경사항
+
+영웅 상세페이지의 추천 장비 세트와 추천 아티팩트에 기존 게임 이미지를 추가합니다. 전용 아티팩트 미보유 시 범용 추천 카드에도 아이콘을 표시합니다.
+
+- 장비 세트 **15종**, 아티팩트 **127종**, 총 **142개**의 공용 이미지 파일을 연결했습니다.
+- 현재 258개 영웅 페이지에서 장비 이미지 **513회**, 아티팩트 이미지 **353회**를 표시합니다. 같은 아이콘 파일을 여러 영웅이 함께 사용합니다.
+- 아티팩트 125종은 위키에 있는 기존 영문명과 Fastidious 목록을 정확히 대조했습니다. 이비 프라이와 어둠의 에지오의 전용 아티팩트 2종은 Prospector의 같은 영웅 전용 장비 항목에서 확인했습니다. 위키의 한국명 및 추천 내용은 유지합니다.
+- 원본 **WebP 136개 / PNG 6개**를 그대로 저장했습니다. 리사이즈·크롭·AI 생성이나 변환은 하지 않았습니다. 화면에서는 `object-fit: contain`으로 원본 비율을 유지합니다.
+- 아이콘 표시 크기는 560px 이하에서 **52×52px**, 그보다 큰 화면에서 **64×64px**입니다. 긴 이름의 줄바꿈과 지연 로딩을 적용합니다.
+- 기존 상세 보기 / 간략 보기 버튼, 저장한 보기 설정, 영웅 순서·검색·필터, 장비 추천·옵션·각성·아티팩트 문구를 보존합니다.
+- `heroes.json`, `app.js`, `index.html`, `home-layout.css`, `styles.css`는 교체하지 않습니다. Worker 내장 홈 HTML과 258개 영웅 데이터도 v2.14.113과 동일합니다.
+- 등록되지 않은 아이템은 기존 텍스트로 표시하며 임의 이미지 주소를 만들지 않습니다.
 
 ## 적용 순서
 
@@ -21,73 +34,33 @@ v2.14.113을 적용한 기존 GitHub 저장소 **루트**에 아래 순서대로
 
 패치는 전체 사이트 백업이 아닙니다. 기존 영웅 이미지·다른 페이지·설정 파일을 유지하세요. 실제 사이트 배포는 기존 GitHub/Cloudflare 절차로 진행합니다.
 
-## 이 묶음의 파일
+## 코드 묶음 포함 파일 — 총 6파일
 
-| 파일명 | 종류 | 위키 한국명 / 기존 영문명 |
-| --- | --- | --- |
-| `artifact-icon-108-lionheart-pommel-v214114.webp` | 아티팩트 | 사자심장검수 / Lionheart Pommel |
-| `artifact-icon-148-lucent-flame-v214114.webp` | 아티팩트 | 백염 / Lucent Flame |
-| `artifact-icon-033-lunacy-visor-v214114.webp` | 아티팩트 | 난폭한 마스크 / Lunacy Visor |
-| `artifact-icon-145-mask-of-dark-desire-v214114.webp` | 아티팩트 | 혼돈의기쁨 / Mask of Dark Desire |
-| `artifact-icon-175-mech-core-v214114.webp` | 아티팩트 | 머신코어 / Mech Core |
-| `artifact-icon-106-mindflayer-quartz-v214114.webp` | 아티팩트 | 영혼 약탈 석영 / Mindflayer Quartz |
-| `artifact-icon-116-molten-cog-v214114.webp` | 아티팩트 | 주조된 톱니바퀴 / Molten Cog |
-| `artifact-icon-180-moonfrost-v214114.png` | 아티팩트 | 상야 / Moonfrost |
-| `artifact-icon-153-nightfall-v214114.webp` | 아티팩트 | 영탄 / Nightfall |
-| `artifact-icon-060-nightmare-samsara-v214114.webp` | 아티팩트 | 악몽 윤회 / Nightmare Samsara |
-| `artifact-icon-105-oblivion-pendant-v214114.webp` | 아티팩트 | 허무의팬던트 / Oblivion Pendant |
-| `artifact-icon-109-orb-of-ruin-v214114.webp` | 아티팩트 | 장미의망상 / Orb of Ruin |
-| `artifact-icon-173-painter-s-palette-v214114.webp` | 아티팩트 | 회목 / Painter's Palette |
-| `artifact-icon-172-paintress-s-brush-v214114.webp` | 아티팩트 | 태초의색 / Paintress's Brush |
-| `artifact-icon-179-pathbreaker-v214114.png` | 아티팩트 | 현궐 / Pathbreaker |
-| `artifact-icon-182-perdition-v214114.webp` | 아티팩트 | 원죄 / Perdition |
-| `artifact-icon-088-pharaoh-s-pschent-v214114.webp` | 아티팩트 | 파라오의왕관 / Pharaoh's Pschent |
-| `artifact-icon-142-phoenix-feather-fan-v214114.webp` | 아티팩트 | 승평·봉화불 / Phoenix Feather Fan |
-| `artifact-icon-125-raven-s-crest-v214114.webp` | 아티팩트 | 가시의왕관 / Raven's Crest |
-| `artifact-icon-038-realm-tear-v214114.webp` | 아티팩트 | 세상의 눈물 / Realm Tear |
-| `artifact-icon-006-reaper-s-emblem-v214114.webp` | 아티팩트 | 사신의 표식 / Reaper's Emblem |
-| `artifact-icon-169-resonance-bell-v214114.webp` | 아티팩트 | 공명의종 / Resonance Bell |
-| `artifact-icon-136-sanguine-shroud-v214114.webp` | 아티팩트 | 핏빛망토 / Sanguine Shroud |
-| `artifact-icon-102-scarlet-dagger-v214114.webp` | 아티팩트 | 스칼렛단검 / Scarlet Dagger |
-| `artifact-icon-036-scarlet-hunt-v214114.webp` | 아티팩트 | 스칼렛헌트 / Scarlet Hunt |
-| `artifact-icon-127-scepter-of-impiety-v214114.webp` | 아티팩트 | 불경한자 / Scepter of Impiety |
-| `artifact-icon-107-seabed-crown-v214114.webp` | 아티팩트 | 바다의왕관 / Seabed Crown |
-| `artifact-icon-146-sentinel-s-eye-v214114.webp` | 아티팩트 | 감시자의눈 / Sentinel's Eye |
-| `artifact-icon-118-serpent-s-kiss-v214114.webp` | 아티팩트 | 독사의입맞춤 / Serpent's Kiss |
-| `artifact-icon-008-sharpshooter-crest-v214114.webp` | 아티팩트 | 명사수의 표식 / Sharpshooter Crest |
-| `artifact-icon-137-shattered-hilt-v214114.webp` | 아티팩트 | 잊혀진 옛검 / Shattered Hilt |
-| `artifact-icon-103-shield-of-valor-v214114.webp` | 아티팩트 | 기억의방패 / Shield of Valor |
-| `artifact-icon-128-silent-fury-v214114.webp` | 아티팩트 | 무언의분노 / Silent Fury |
-| `artifact-icon-155-song-of-the-butterfly-v214114.webp` | 아티팩트 | 나비의노래 / Song of the Butterfly |
-| `artifact-icon-085-sorrow-bloom-v214114.webp` | 아티팩트 | 절망의장미 / Sorrow Bloom |
-| `artifact-icon-077-sorrow-s-veil-v214114.webp` | 아티팩트 | 탄식의연사 / Sorrow's Veil |
-| `artifact-icon-119-soul-crucible-v214114.webp` | 아티팩트 | 영혼의도가니 / Soul Crucible |
-| `artifact-icon-188-spear-of-leonidas-v214114.webp` | 아티팩트 | 레오니다스의 창 / Spear of Leonidas |
-| `artifact-icon-009-spirit-siphon-v214114.webp` | 아티팩트 | 흡혼 부적 / Spirit Siphon |
-| `artifact-icon-114-stoic-winter-v214114.webp` | 아티팩트 | 무정한겨울 / Stoic Winter |
-| `artifact-icon-117-stormstrike-haladie-v214114.webp` | 아티팩트 | 폭풍의칼날 / Stormstrike Haladie |
-| `artifact-icon-189-strings-of-sorrow-v214114.webp` | 아티팩트 | 열화축제 / Strings of Sorrow |
-| `artifact-icon-095-talisman-of-resolve-v214114.webp` | 아티팩트 | 겁쟁이의 용기 / Talisman of Resolve |
-| `artifact-icon-063-tear-of-twilight-v214114.webp` | 아티팩트 | 황혼의 눈물 / Tear of Twilight |
-| `artifact-icon-161-the-dawnbringer-v214114.webp` | 아티팩트 | 죽은자의속삭임 / The Dawnbringer |
-| `artifact-icon-081-the-devil-s-gaze-v214114.webp` | 아티팩트 | 악마의응시 / The Devil's Gaze |
-| `artifact-icon-094-the-sutra-of-caprice-v214114.webp` | 아티팩트 | 광란의경전 / The Sutra of Caprice |
-| `artifact-icon-082-tidebreaker-v214114.webp` | 아티팩트 | 파도를헤엄치는자 / Tidebreaker |
-| `artifact-icon-110-tome-of-greed-v214114.webp` | 아티팩트 | 탐욕의책 / Tome of Greed |
-| `artifact-icon-096-tome-of-holylight-v214114.webp` | 아티팩트 | 신성한예찬문 / Tome of Holylight |
-| `artifact-icon-160-triple-bladed-glaive-v214114.webp` | 아티팩트 | 삼첨양인도 / Triple-Bladed Glaive |
-| `artifact-icon-115-unending-relic-v214114.webp` | 아티팩트 | 불사자의마지막모습 / Unending Relic |
-| `artifact-icon-156-uzimo-relic-v214114.webp` | 아티팩트 | 여우햇빛 / Uzimo Relic |
-| `artifact-icon-186-varin-s-axe-v214114.webp` | 아티팩트 | 바린의 도끼 / Varin's Axe |
-| `artifact-icon-163-vlad-s-impaler-v214114.webp` | 아티팩트 | 블라드의창 / Vlad's Impaler |
-| `artifact-icon-101-volcanic-heart-v214114.webp` | 아티팩트 | 화산의심장 / Volcanic Heart |
-| `artifact-icon-042-wailing-skull-v214114.webp` | 아티팩트 | 포효의 머리뼈 / Wailing Skull |
-| `artifact-icon-113-wailing-tusk-v214114.webp` | 아티팩트 | 포효의뼈 / Wailing Tusk |
-| `artifact-icon-187-wall-of-lament-v214114.webp` | 아티팩트 | 비탄의벽 / Wall of Lament |
-| `artifact-icon-098-weaver-s-hood-v214114.webp` | 아티팩트 | 드림위버의두건 / Weaver's Hood |
-| `artifact-icon-087-whispering-grace-v214114.webp` | 아티팩트 | 희미한빛 / Whispering Grace |
-| `artifact-icon-075-winter-s-call-v214114.webp` | 아티팩트 | 겨울의부름 / Winter's Call |
-| `artifact-icon-evie-frye-m1877-v214114.webp` | 아티팩트 | M1877 '천둥의 신' / M1877 "Thunder" |
-| `artifact-icon-ezio-della-notte-heart-of-darkness-v214114.webp` | 아티팩트 | 어둠의 심장 / Heart of Darkness |
+| 파일 | 내용 |
+| --- | --- |
+| `_worker.js` | 기존 추천 데이터에 이미지 표시를 연결한 Worker |
+| `item-icons.css` | 영웅 상세페이지에만 적용되는 모바일·PC 아이콘 스타일 |
+| `item-image-manifest-v214114.json` | 142개 이미지의 이름·원본 URL·크기·SHA-256 |
+| `ITEM_IMAGE_SOURCES.md` | 출처 및 이미지 연결 기준 |
+| `README.md` | 전체 적용 순서·변경사항·검증·제한사항 |
+| `VERSION.txt` | 버전·기준 버전·배포 상태 |
 
-상세 출처와 검증 정보는 마지막 코드 묶음의 `ITEM_IMAGE_SOURCES.md`, `item-image-manifest-v214114.json` 및 `README.md`에 있습니다. 이미지 원본 바이트와 비율을 유지합니다.
+## 연결 보류 1건
+
+오켄바르의 기존 추천 장비에는 **`강철 의지 (Unshaken Will) 세트`**가 있습니다. 다른 기존 추천에서는 `강철 의지`가 `Tempered Will`, `불멸의 의지`가 `Unshaken Will`로 표기되어 있어 이 한 항목은 한·영 대응이 일치하지 않습니다. 임의로 어느 세트인지 정하지 않고, 이 항목의 **아이콘만 제외**했습니다. 이름·설명·추천 옵션은 그대로이며 오켄바르의 성흔의 수호 아이콘과 아티팩트 이미지는 표시합니다.
+
+가안과 가드리엘의 과거 `exclusiveArtifact` 한국명만 있는 기록은 현재 추천 카드에서 사용되지 않으므로 이미지 연결 대상에 포함하지 않았습니다. 현재 실제로 표시되는 아티팩트 127종은 모두 연결했습니다.
+
+## 검증 결과
+
+- `_worker.js` JavaScript 문법 검사 통과.
+- 다운로드한 142개 파일 모두 정상 이미지 디코딩, 형식·치수·SHA-256 확인.
+- 258개 영웅의 데이터 전체 및 Worker 홈 HTML이 v2.14.113과 동일한지 확인.
+- 258개 상세페이지를 생성해 기존 본문 문구와 링크가 보존되는지 확인.
+- 모든 현재 아티팩트 카드와 142개 공용 이미지의 로컬 파일 연결 확인.
+- 미등록 이미지 텍스트 대체, HTML 이스케이프, 오켄바르의 이름 불일치 항목 제외 확인.
+- CSS 파싱 및 320·360·390·430·560·561·768·1100·1280·1920px 미디어 규칙 확인. 새 스타일은 `.hero-detail-page` 안에만 적용됩니다.
+- 대표 영웅 GET/HEAD 응답과 정적 이미지 요청의 기존 자산 처리 경로 확인.
+- ZIP 파일 수·CRC·평면 경로와 세 묶음을 순서대로 적용한 파일 무결성 확인.
+
+위 검증은 실제 브라우저 화면 검증을 대신하지 않습니다. 배포 후 모바일·PC에서 영웅 상세페이지의 장비·주 추천 아티팩트·범용 대체 카드, 긴 이름의 줄바꿈, 가로 넘침 여부와 기존 보기 전환을 확인하세요. 대표 페이지는 헥스, 이비 프라이, 어둠의 에지오, 오켄바르입니다.

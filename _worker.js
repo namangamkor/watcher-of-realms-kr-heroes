@@ -1,3 +1,4 @@
+/* worwiki-patch:v2.14.114-local-gear-artifact-icons */
 /* worwiki-patch:v2.14.32-summon-daily-reset */
 /* worwiki-patch:v2.14.24-review-banner-pulse-fix */
 /* worwiki-patch:v2.14.23-banner-icons-seo-merge */
@@ -87,6 +88,38 @@ function collectionStars(value = 0) {
   return `${"★".repeat(score)}${"☆".repeat(5 - score)}`;
 }
 
+// Item icons are local, versioned assets. Existing recommendation data remains authoritative.
+const WW_ITEM_ICON_MAPS = {"gear":{"악의복수(wickedvengeance)세트":"gear-icon-wicked-vengeance-v214114.webp","마수의포효(infernalroar)세트":"gear-icon-infernal-roar-v214114.webp","재앙드래곤(cataclysm)세트":"gear-icon-cataclysm-v214114.webp","영혼의비밀(soulboundarcana)세트":"gear-icon-soulbound-arcana-v214114.webp","성흔의수호(astralguardian)세트":"gear-icon-astral-guardian-v214114.webp","전쟁의주인(warlord)세트":"gear-icon-warlord-v214114.webp","성스러운날개(wingsofgrace)세트":"gear-icon-wings-of-grace-v214114.webp","지옥비명(hell'slament)세트":"gear-icon-hell-s-lament-v214114.webp","불멸의의지(unshakenwill)세트":"gear-icon-unshaken-will-v214114.webp","빛의은혜(light'sgrace)세트":"gear-icon-light-s-grace-v214114.webp","강철의지(temperedwill)세트":"gear-icon-tempered-will-v214114.webp","질풍(whirlwind)세트":"gear-icon-whirlwind-v214114.webp","마력(manaspring)세트":"gear-icon-mana-spring-v214114.webp","전쟁의주인세트":"gear-icon-warlord-v214114.webp","강철의지세트":"gear-icon-tempered-will-v214114.webp","불굴의용사(immortalwarrior)세트":"gear-icon-immortal-warrior-v214114.webp","영원불멸의무법자(undyingsavage)세트":"gear-icon-undying-savage-v214114.webp","악의복수세트":"gear-icon-wicked-vengeance-v214114.webp","영혼의비밀세트":"gear-icon-soulbound-arcana-v214114.webp"},"artifact":{"absolution":"artifact-icon-184-absolution-v214114.webp","amenhotep'sbow":"artifact-icon-192-amenhotep-s-bow-v214114.webp","anchorofthedamned":"artifact-icon-097-anchor-of-the-damned-v214114.webp","arachnoshroud":"artifact-icon-078-arachno-shroud-v214114.webp","astralobelisk":"artifact-icon-013-astral-obelisk-v214114.webp","auditoreblade":"artifact-icon-190-auditore-blade-v214114.webp","aureatevisage":"artifact-icon-100-aureate-visage-v214114.webp","bastionring":"artifact-icon-014-bastion-ring-v214114.webp","blackbarkpauldrons":"artifact-icon-158-blackbark-pauldrons-v214114.webp","bladeoftalkiel":"artifact-icon-080-blade-of-talkiel-v214114.webp","blightcaller'sclaw":"artifact-icon-138-blightcaller-s-claw-v214114.webp","bloodblade":"artifact-icon-089-bloodblade-v214114.webp","bonedirk":"artifact-icon-177-bone-dirk-v214114.png","brimstone'sfury":"artifact-icon-070-brimstone-s-fury-v214114.webp","captivationofburningdesire":"artifact-icon-093-captivation-of-burning-desire-v214114.webp","carrion'scall":"artifact-icon-140-carrion-s-call-v214114.webp","chantofthedepths":"artifact-icon-074-chant-of-the-depths-v214114.webp","chaoticdoomblade":"artifact-icon-147-chaotic-doomblade-v214114.webp","codexofsilence":"artifact-icon-178-codex-of-silence-v214114.png","consecratededge":"artifact-icon-164-consecrated-edge-v214114.webp","crescenttotem":"artifact-icon-072-crescent-totem-v214114.webp","crestofdracul":"artifact-icon-162-crest-of-dracul-v214114.webp","crownofsouls":"artifact-icon-079-crown-of-souls-v214114.webp","cruelfate":"artifact-icon-084-cruel-fate-v214114.webp","dawnbreak":"artifact-icon-154-dawnbreak-v214114.webp","deadwaterdiadem":"artifact-icon-131-deadwater-diadem-v214114.webp","demonicrelic":"artifact-icon-130-demonic-relic-v214114.webp","divinejustice":"artifact-icon-129-divine-justice-v214114.webp","dragonbane":"artifact-icon-099-dragon-bane-v214114.webp","dreamglowrepository":"artifact-icon-111-dreamglow-repository-v214114.webp","dwarvenstrider":"artifact-icon-149-dwarven-strider-v214114.webp","eagle'sheartbeat":"artifact-icon-092-eagle-s-heartbeat-v214114.webp","elysianepitaph":"artifact-icon-046-elysian-epitaph-v214114.webp","eternalwinter":"artifact-icon-157-eternal-winter-v214114.webp","euphoniccoronet":"artifact-icon-086-euphonic-coronet-v214114.webp","euphoricorb":"artifact-icon-047-euphoric-orb-v214114.webp","eyeofmockery":"artifact-icon-073-eye-of-mockery-v214114.webp","eyeofpenitence":"artifact-icon-083-eye-of-penitence-v214114.webp","eyeofsin":"artifact-icon-029-eye-of-sin-v214114.webp","falcon'screst":"artifact-icon-133-falcon-s-crest-v214114.webp","finaledict":"artifact-icon-191-final-edict-v214114.webp","fire-tippedspear":"artifact-icon-159-fire-tipped-spear-v214114.webp","flamingpauldrons":"artifact-icon-112-flaming-pauldrons-v214114.webp","fluxpendant":"artifact-icon-030-flux-pendant-v214114.webp","frostdevourer":"artifact-icon-165-frost-devourer-v214114.webp","frosthornstaff":"artifact-icon-176-frosthorn-staff-v214114.png","glacialwings":"artifact-icon-076-glacial-wings-v214114.webp","goldencudgel":"artifact-icon-134-golden-cudgel-v214114.webp","goldenscarab":"artifact-icon-048-golden-scarab-v214114.webp","graspofsands":"artifact-icon-090-grasp-of-sands-v214114.webp","graveyardopus":"artifact-icon-120-graveyard-opus-v214114.webp","greencrescentblade":"artifact-icon-174-green-crescent-blade-v214114.webp","halberdofwoe":"artifact-icon-141-halberd-of-woe-v214114.webp","handofdoom":"artifact-icon-168-hand-of-doom-v214114.webp","hate'scontagion":"artifact-icon-171-hate-s-contagion-v214114.webp","heartofthemouintain":"artifact-icon-167-heart-of-the-mouintain-v214114.webp","helmofhelios":"artifact-icon-150-helm-of-helios-v214114.webp","helmofyalnor":"artifact-icon-135-helm-of-yalnor-v214114.webp","idril'sgaze":"artifact-icon-004-idril-s-gaze-v214114.webp","ironbloomofmercy":"artifact-icon-185-ironbloom-of-mercy-v214114.webp","jadedragon":"artifact-icon-181-jade-dragon-v214114.png","keyoftheforsaken":"artifact-icon-104-key-of-the-forsaken-v214114.webp","leviathan":"artifact-icon-166-leviathan-v214114.webp","lionheartpommel":"artifact-icon-108-lionheart-pommel-v214114.webp","lucentflame":"artifact-icon-148-lucent-flame-v214114.webp","lunacyvisor":"artifact-icon-033-lunacy-visor-v214114.webp","maskofdarkdesire":"artifact-icon-145-mask-of-dark-desire-v214114.webp","mechcore":"artifact-icon-175-mech-core-v214114.webp","mindflayerquartz":"artifact-icon-106-mindflayer-quartz-v214114.webp","moltencog":"artifact-icon-116-molten-cog-v214114.webp","moonfrost":"artifact-icon-180-moonfrost-v214114.png","nightfall":"artifact-icon-153-nightfall-v214114.webp","nightmaresamsara":"artifact-icon-060-nightmare-samsara-v214114.webp","oblivionpendant":"artifact-icon-105-oblivion-pendant-v214114.webp","orbofruin":"artifact-icon-109-orb-of-ruin-v214114.webp","painter'spalette":"artifact-icon-173-painter-s-palette-v214114.webp","paintress'sbrush":"artifact-icon-172-paintress-s-brush-v214114.webp","pathbreaker":"artifact-icon-179-pathbreaker-v214114.png","perdition":"artifact-icon-182-perdition-v214114.webp","pharaoh'spschent":"artifact-icon-088-pharaoh-s-pschent-v214114.webp","phoenixfeatherfan":"artifact-icon-142-phoenix-feather-fan-v214114.webp","raven'screst":"artifact-icon-125-raven-s-crest-v214114.webp","realmtear":"artifact-icon-038-realm-tear-v214114.webp","reaper'semblem":"artifact-icon-006-reaper-s-emblem-v214114.webp","resonancebell":"artifact-icon-169-resonance-bell-v214114.webp","sanguineshroud":"artifact-icon-136-sanguine-shroud-v214114.webp","scarletdagger":"artifact-icon-102-scarlet-dagger-v214114.webp","scarlethunt":"artifact-icon-036-scarlet-hunt-v214114.webp","scepterofimpiety":"artifact-icon-127-scepter-of-impiety-v214114.webp","seabedcrown":"artifact-icon-107-seabed-crown-v214114.webp","sentinel'seye":"artifact-icon-146-sentinel-s-eye-v214114.webp","serpent'skiss":"artifact-icon-118-serpent-s-kiss-v214114.webp","sharpshootercrest":"artifact-icon-008-sharpshooter-crest-v214114.webp","shatteredhilt":"artifact-icon-137-shattered-hilt-v214114.webp","shieldofvalor":"artifact-icon-103-shield-of-valor-v214114.webp","silentfury":"artifact-icon-128-silent-fury-v214114.webp","songofthebutterfly":"artifact-icon-155-song-of-the-butterfly-v214114.webp","sorrowbloom":"artifact-icon-085-sorrow-bloom-v214114.webp","sorrow'sveil":"artifact-icon-077-sorrow-s-veil-v214114.webp","soulcrucible":"artifact-icon-119-soul-crucible-v214114.webp","spearofleonidas":"artifact-icon-188-spear-of-leonidas-v214114.webp","spiritsiphon":"artifact-icon-009-spirit-siphon-v214114.webp","stoicwinter":"artifact-icon-114-stoic-winter-v214114.webp","stormstrikehaladie":"artifact-icon-117-stormstrike-haladie-v214114.webp","stringsofsorrow":"artifact-icon-189-strings-of-sorrow-v214114.webp","talismanofresolve":"artifact-icon-095-talisman-of-resolve-v214114.webp","tearoftwilight":"artifact-icon-063-tear-of-twilight-v214114.webp","thedawnbringer":"artifact-icon-161-the-dawnbringer-v214114.webp","thedevil'sgaze":"artifact-icon-081-the-devil-s-gaze-v214114.webp","thesutraofcaprice":"artifact-icon-094-the-sutra-of-caprice-v214114.webp","tidebreaker":"artifact-icon-082-tidebreaker-v214114.webp","tomeofgreed":"artifact-icon-110-tome-of-greed-v214114.webp","tomeofholylight":"artifact-icon-096-tome-of-holylight-v214114.webp","triple-bladedglaive":"artifact-icon-160-triple-bladed-glaive-v214114.webp","unendingrelic":"artifact-icon-115-unending-relic-v214114.webp","uzimorelic":"artifact-icon-156-uzimo-relic-v214114.webp","varin'saxe":"artifact-icon-186-varin-s-axe-v214114.webp","vlad'simpaler":"artifact-icon-163-vlad-s-impaler-v214114.webp","volcanicheart":"artifact-icon-101-volcanic-heart-v214114.webp","wailingskull":"artifact-icon-042-wailing-skull-v214114.webp","wailingtusk":"artifact-icon-113-wailing-tusk-v214114.webp","walloflament":"artifact-icon-187-wall-of-lament-v214114.webp","weaver'shood":"artifact-icon-098-weaver-s-hood-v214114.webp","whisperinggrace":"artifact-icon-087-whispering-grace-v214114.webp","winter'scall":"artifact-icon-075-winter-s-call-v214114.webp"},"artifactKr":{"m1877'천둥의신'":"artifact-icon-evie-frye-m1877-v214114.webp","어둠의심장":"artifact-icon-ezio-della-notte-heart-of-darkness-v214114.webp"}};
+
+function wwNormalizeItemName(value = "") {
+  return String(value || "").replace(/\s/g, "").toLowerCase();
+}
+
+function wwRenderItemIcon(file) {
+  if (!file) return "";
+  // The adjacent name supplies the accessible label; the image is decorative.
+  return `<img class="detail-item-icon" src="/${esc(file)}" alt="" width="64" height="64" loading="lazy" decoding="async" />`;
+}
+
+function wwRenderArtifactIdentity(artifact, mainName, subName = "") {
+  const file = WW_ITEM_ICON_MAPS.artifact[wwNormalizeItemName(artifact.nameEn)]
+    || WW_ITEM_ICON_MAPS.artifactKr[wwNormalizeItemName(artifact.nameKr)];
+  return `<div class="detail-item-identity">${wwRenderItemIcon(file)}<div class="detail-item-copy">
+    <strong>${esc(mainName)}</strong>
+    ${subName ? `<small>${esc(subName)}</small>` : ""}
+  </div></div>`;
+}
+
+function wwRenderGearNames(value = "") {
+  const parts = String(value || "").split(/(\s*\+\s*)/);
+  if (!parts.some((part) => WW_ITEM_ICON_MAPS.gear[wwNormalizeItemName(part)])) return esc(value);
+  return parts.map((part, index) => {
+    if (index % 2) return `<span class="detail-gear-plus" aria-hidden="true">${esc(part)}</span>`;
+    const file = WW_ITEM_ICON_MAPS.gear[wwNormalizeItemName(part)];
+    return `<span class="detail-gear-item">${wwRenderItemIcon(file)}<span class="detail-item-label">${esc(part)}</span></span>`;
+  }).join("");
+}
+
 function renderExclusiveArtifact(hero) {
   const artifact = hero.recommendedArtifact || hero.exclusiveArtifact;
   if (!artifact || (!artifact.nameKr && !artifact.nameEn)) return "";
@@ -110,10 +143,10 @@ function renderExclusiveArtifact(hero) {
   const alternativeCard = alternative?.nameKr ? `
       <div class="detail-exclusive-artifact-card" style="margin-top:12px">
         <p class="section-kicker">전용 미보유 시 추천</p>
-        <div class="detail-exclusive-artifact-title"><div>
-          <strong>${esc(alternative.nameKr)}</strong>
-          ${alternative.nameEn ? `<small>${esc(alternative.nameEn)}</small>` : ""}
-        </div><span class="artifact-verify-badge verified">범용 아티팩트</span></div>
+        <div class="detail-exclusive-artifact-title">
+          ${wwRenderArtifactIdentity(alternative, alternative.nameKr, alternative.nameEn || "")}
+          <span class="artifact-verify-badge verified">범용 아티팩트</span>
+        </div>
         <p>${esc(alternative.reason || "")}</p>
         ${alternative.condition ? `<p>${esc(alternative.condition)}</p>` : ""}
       </div>` : "";
@@ -127,10 +160,7 @@ function renderExclusiveArtifact(hero) {
       </div>
       <div class="detail-exclusive-artifact-card">
         <div class="detail-exclusive-artifact-title">
-          <div>
-            <strong>${esc(mainName)}</strong>
-            <small>${esc(subName)}</small>
-          </div>
+          ${wwRenderArtifactIdentity(artifact, mainName, subName)}
           <span class="artifact-verify-badge ${artifact.nameKr ? "verified" : "unverified"}">${verifyLabel}</span>
         </div>
         ${recommendationText ? `<p>${esc(recommendationText)}</p>` : ""}
@@ -293,7 +323,7 @@ function renderDetailSections(hero) {
         ${detail.gear ? `<div class="detail-artifact-box">
           <div>
             <span>${esc(detail.gear.label || "추천 장비")}</span>
-            <strong>${esc(detail.gear.name || "")}</strong>
+            <strong class="detail-gear-names">${wwRenderGearNames(detail.gear.name || "")}</strong>
           </div>
           ${gearDescription ? `<p>${esc(gearDescription)}</p>` : ""}
         </div>` : ""}
@@ -508,7 +538,8 @@ function renderHero(hero, env = {}) {
   <link rel="stylesheet" href="/styles.css?v=2.14.93" />
   <link rel="stylesheet" href="/comments.css?v=2.13.4k">
   <link rel="stylesheet" href="/collection-guide.css?v=2.14.13">
-  <meta name="worwiki-detail-version" content="2.14.13">
+  <link rel="stylesheet" href="/item-icons.css?v=2.14.114">
+  <meta name="worwiki-detail-version" content="2.14.114">
   <script type="application/ld+json">${JSON.stringify(jsonLd).replaceAll("<", "\\u003c")}</script>
 </head>
 <body class="hero-detail-page">
