@@ -1,4 +1,6 @@
-v2.14.111
-Base: v2.14.110
-Status: code verified; not deployed
-Change: trait toggle adjacent to heading
+Version: v2.14.112
+Base: v2.14.111
+Change: consolidate homepage styles; remove conflicting legacy update/trait rules
+Validation: data/order parity, Worker/home parity, actual trait handler tests, JS syntax passed
+Browser layout validation: incomplete (browser installation/local preview unavailable)
+Deployment: not deployed

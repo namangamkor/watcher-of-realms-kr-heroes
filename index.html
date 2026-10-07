@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ko">
 <head>
-  <meta name="worwiki-patch-version" content="2.14.111">
+  <meta name="worwiki-patch-version" content="2.14.112">
   <meta charset="UTF-8" />
   <!-- gear-route-rescue -->
   <script>
@@ -40,7 +40,7 @@
   <link rel="icon" type="image/png" sizes="64x64" href="./favicon-crystal-v1.png?v=2.11.43c" />
   <link rel="apple-touch-icon" href="./icon-192.png?v=2.11.43c" />
   <link rel="manifest" href="./manifest.webmanifest?v=2.11.43c" />
-  <link rel="stylesheet" href="/styles.css?v=2.14.96" />
+  <link rel="stylesheet" href="/styles.css?v=2.14.112" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -81,114 +81,7 @@
 }
   </script>
 <link rel="stylesheet" href="/hero-activity.css?v=2.14.15">
-<style id="ww-banner-sort-style">
-/* v2.14.19 compact creator banner and persistent list controls */
-.creator-banner.creator-banner-scribe{display:grid!important;grid-template-columns:64px minmax(220px,.9fr) minmax(390px,1.4fr)!important;gap:16px!important;align-items:center!important;padding:18px 22px!important}
-.creator-banner .creator-banner-copy{min-width:0}.creator-banner .creator-banner-copy p{margin:6px 0 0!important;line-height:1.65!important}.creator-banner .creator-label{margin-bottom:4px!important}.creator-banner .creator-scribe-wrap{margin:0!important}
-.creator-banner .creator-cta-stack{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;gap:8px!important;width:100%!important;min-width:0!important;margin:0!important}
-.creator-banner .ww-quick-link{display:flex;align-items:center;gap:9px;min-height:49px;padding:10px 12px;border:1px solid #3e414a;border-radius:9px;background:#121923;color:#edf1f7;text-decoration:none;box-sizing:border-box;min-width:0;font-size:14px;font-weight:700;line-height:1.4}
-.creator-banner .ww-quick-link:hover{background:#202b37;border-color:#bd9350}.ww-quick-link:focus-visible{outline:2px solid #edc782;outline-offset:3px}.ww-quick-link .ww-quick-label{flex:1;min-width:0;word-break:keep-all}.ww-quick-link .ww-quick-arrow{color:#edc782;flex-shrink:0}
-.creator-banner .ww-quick-icon{display:inline-flex;align-items:center;justify-content:center;flex:0 0 22px;width:22px;height:22px;color:#edc782}
-.creator-banner .ww-quick-icon svg{display:block;width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-.creator-banner .ww-quick-icon .ww-icon-fill{fill:currentColor;stroke:none}
-/* v2.14.24: one shared 8s timeline; each button owns one 2s slot. */
-@keyframes wwBannerSequential24{
-  0%,25%,100%{background-color:#121923;border-color:#3e414a;box-shadow:none}
-  5%,20%{background-color:#30291c;border-color:#d7aa5b;box-shadow:inset 0 0 0 1px rgba(231,191,117,.22)}
-}
-.creator-banner .creator-cta-stack > a.ww-quick-link[data-ww-pulse-slot]{animation:wwBannerSequential24 8s linear infinite!important;animation-delay:var(--ww-pulse-delay)!important}
-.creator-banner .creator-cta-stack > a[data-ww-pulse-slot="1"]{--ww-pulse-delay:0s}
-.creator-banner .creator-cta-stack > a[data-ww-pulse-slot="2"]{--ww-pulse-delay:-6s}
-.creator-banner .creator-cta-stack > a[data-ww-pulse-slot="3"]{--ww-pulse-delay:-4s}
-.creator-banner .creator-cta-stack > a[data-ww-pulse-slot="4"]{--ww-pulse-delay:-2s}
-@keyframes wwReviewPulse24{
-  0%,65%,100%{background-color:#29251a;color:#ffda8a;border-color:#685331}
-  30%{background-color:#655020;color:#fff4cf;border-color:#e7bf75}
-}
-.hero-activity-badge.is-review{animation:wwReviewPulse24 2s ease-in-out infinite!important}
-@media(prefers-reduced-motion:reduce){
-  .creator-banner .creator-cta-stack > a.ww-quick-link[data-ww-pulse-slot],.hero-activity-badge.is-review{animation:none!important}
-}
-
-
-.searchbox #clearSearch{display:inline-flex!important;align-items:center;justify-content:center;min-height:40px;flex-shrink:0}
-@media(max-width:1050px){.creator-banner.creator-banner-scribe{grid-template-columns:54px minmax(0,1fr)!important}.creator-banner .creator-cta-stack{grid-column:1/-1!important}.creator-banner .ww-quick-link{font-size:15px}}
-@media(max-width:540px){.creator-banner.creator-banner-scribe{padding:15px!important;gap:12px!important}.creator-banner .ww-quick-link{padding:10px 8px;gap:7px;font-size:14px;min-height:54px}.searchbox{flex-wrap:wrap}.searchbox .search-entry{min-width:0;flex:1 1 180px}}
-.load-more-heroes{display:block;margin:28px auto 12px;padding:13px 28px;border:1px solid #b8a46c;border-radius:10px;background:#1d1a2d;color:#f5ebce;font:inherit;font-weight:700;cursor:pointer}
-.load-more-heroes:hover{background:#302845}
-.load-more-heroes[hidden]{display:none}
-</style>
-<style id="ww-summon-floating-style">
-.ww-summon-float{position:fixed;z-index:60;right:18px;top:54%;transform:translateY(-50%);display:flex;align-items:center;gap:10px;min-height:58px;padding:9px 13px 9px 10px;border:1px solid rgba(210,171,91,.48);border-radius:16px;background:linear-gradient(180deg,rgba(17,23,31,.96),rgba(8,12,18,.97));box-shadow:0 14px 34px rgba(0,0,0,.32);color:#eef3f7;text-decoration:none;backdrop-filter:blur(8px);transition:transform .16s ease,border-color .16s ease,background .16s ease}
-.ww-summon-float:hover{transform:translateY(-50%) translateX(-2px);border-color:#d6ae5e;background:#151d27}
-.ww-summon-float:focus-visible{outline:2px solid #e4ba63;outline-offset:3px}
-.ww-summon-float-crystal{display:block;flex:0 0 34px;width:34px;height:44px;background:url("/summon-crystal-3d.webp?v=2.14.37") center/contain no-repeat;filter:drop-shadow(0 7px 8px rgba(0,0,0,.38));transform-style:preserve-3d;animation:wwFloatCrystalTurn 5.4s ease-in-out infinite}
-.ww-summon-float-copy{display:block;line-height:1.18;white-space:nowrap}.ww-summon-float-copy small{display:block;margin-bottom:3px;color:#ae8d4f;font-size:9px;font-weight:900;letter-spacing:.12em}.ww-summon-float-copy strong{font-size:13px;letter-spacing:-.01em}
-@keyframes wwFloatCrystalTurn{0%,100%{transform:translateY(0) rotateZ(-1.5deg)}50%{transform:translateY(-3px) rotateZ(1.5deg)}}
-@media(max-width:900px){.ww-summon-float{top:auto;right:12px;bottom:calc(14px + env(safe-area-inset-bottom));transform:none;min-height:50px;padding:7px 11px 7px 8px;border-radius:14px}.ww-summon-float:hover{transform:translateY(-1px)}.ww-summon-float-crystal{width:29px;height:38px;flex-basis:29px}.ww-summon-float-copy small{display:none}.ww-summon-float-copy strong{font-size:12px}}
-@media(prefers-reduced-motion:reduce){.ww-summon-float-crystal{animation:none}}
-</style>
-
-
-<style id="ww-updated-hero-priority-v21453">
-#heroGrid > .hero-card-link[data-ww-updated-priority]{order:var(--ww-update-order,-1)}
-</style>
-
-<style id="ww-hero-thumbnail-width-v21459">
-#heroGrid .card-visual > img{width:151px!important;min-width:151px!important;max-width:151px!important;height:auto!important;max-height:none!important}
-</style>
-
-<style id="ww-wiki-search-note-style">
-.wiki-search-note{margin:8px 0 20px;color:#aeb8c3;font-size:14px;line-height:1.65;word-break:keep-all}
-</style>
-<style>
-/* Compact update messages on narrow screens as well as desktop. */
-.recent-fix-message-text { min-width: 0; max-width: 20em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-</style>
-<style>
-.trait-filter-group [data-trait-extra][hidden] { display: none !important; }
-.trait-filter-group:not(.is-expanded) { flex-wrap: nowrap; overflow-x: auto; }
-.trait-filter-group:not(.is-expanded) > * { flex-shrink: 0; }
-.trait-expand-button { border-style: dashed; }
-</style>
-
-<style id="ww-mobile-layout-v214109">
-/* Keep the full-width mobile label out of the horizontal button rail. */
-.filters #traitFilters { flex-wrap:wrap; overflow:visible; min-width:0; }
-#traitFilters .trait-controls { display:flex; align-items:flex-start; gap:8px; flex:1 1 0; min-width:0; }
-#traitFilters .trait-button-rail { display:flex; flex:1 1 0; min-width:0; gap:8px; flex-wrap:nowrap; overflow-x:auto; padding-bottom:3px; }
-#traitFilters .trait-button-rail > button { flex:0 0 auto; }
-#traitFilters .trait-expand-button { flex:0 0 auto; white-space:nowrap; }
-#traitFilters.is-expanded .trait-button-rail { flex-wrap:wrap; overflow:visible; }
-#traitFilters [data-trait-extra][hidden] { display:none!important; }
-.recent-fix-bar .recent-fix-copy { display:block; min-width:0; }
-.recent-fix-copy .recent-fix-list { width:100%; min-width:0; }
-.recent-fix-list .recent-fix-item { display:grid; grid-template-columns:auto auto minmax(0,1fr) auto; align-items:center; column-gap:6px; min-width:0; }
-.recent-fix-item > strong { min-width:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-.recent-fix-item .recent-fix-message-text { min-width:0; max-width:none; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-.recent-fix-item .recent-fix-date { margin:0; justify-self:end; white-space:nowrap; }
-@media(max-width:560px) {
-  .filters #traitFilters > span { flex:0 0 100%; width:100%; }
-  #traitFilters .trait-controls { flex-basis:100%; width:100%; }
-}
-@media(max-width:620px) {
-  .recent-fix-list .recent-fix-item { grid-template-columns:auto minmax(0,auto) minmax(0,1fr) auto; column-gap:5px; }
-  .recent-fix-list { row-gap:7px; }
-  .recent-fix-item > strong { max-width:7em; }
-}
-</style>
-
-<style id="ww-trait-heading-v214110">
-.filters #traitFilters { display:flex; flex-direction:column; align-items:stretch; gap:8px; }
-#traitFilters .trait-filter-heading { display:flex; align-items:center; justify-content:flex-start; gap:16px; width:100%; min-width:0; }
-#traitFilters .trait-filter-heading > span { color:#edf2fa; font-size:1rem; font-weight:800; line-height:1.5; white-space:nowrap; }
-#traitFilters .trait-expand-button { display:inline-flex; align-items:center; justify-content:center; gap:6px; border:0; border-radius:6px; background:transparent; color:#d9bd79; font:inherit; font-size:12px; font-weight:700; padding:7px 4px; min-height:36px; cursor:pointer; white-space:nowrap; }
-#traitFilters .trait-expand-button:hover { color:#fff0c5; background:rgba(217,189,121,.07); }
-#traitFilters .trait-expand-button:focus-visible { outline:2px solid #d9bd79; outline-offset:2px; }
-#traitFilters .trait-controls { width:100%; flex:0 0 auto; }
-#traitFilters .trait-button-rail { width:100%; flex:1 1 auto; }
-@media(max-width:560px) { #traitFilters .trait-controls { flex:0 0 auto; } #traitFilters .trait-filter-heading > span { font-size:.9375rem; } #traitFilters .trait-expand-button { min-height:44px; } }
-</style>
+  <link rel="stylesheet" href="/home-layout.css?v=2.14.112" />
 </head>
 <body>
   <header class="topbar">
@@ -912,7 +805,7 @@
     </div>
   </div>
 
-  <script src="/app.js?v=2.14.111" defer></script>
+  <script src="/app.js?v=2.14.112" defer></script>
 
 <a class="ww-summon-float" href="/summon/" aria-label="오늘의 소환 운명 시험 열기">
   <span class="ww-summon-float-crystal" aria-hidden="true"></span>
