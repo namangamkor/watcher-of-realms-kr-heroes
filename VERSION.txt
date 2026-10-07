@@ -1,4 +1,4 @@
-v2.14.110
-Base: v2.14.109
+v2.14.111
+Base: v2.14.110
 Status: code verified; not deployed
-Change: fixed trait heading action, aligned filter rows
+Change: trait toggle adjacent to heading
