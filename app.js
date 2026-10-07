@@ -51,6 +51,28 @@ function compareHeroUpdateOrder(a, b) {
 const searchInput = document.querySelector("#searchInput");
 const clearSearch = document.querySelector("#clearSearch");
 const heroGrid = document.querySelector("#heroGrid");
+const HERO_VIEW_STORAGE_KEY = "worwiki.heroView";
+const heroViewControls = document.querySelector("#heroViewControls");
+const heroViewButtons = document.querySelectorAll(".hero-view-button[data-hero-view]");
+
+// Change presentation only: keep the same cards, filters, order and page size.
+function setHeroListView(view, remember = false) {
+  const mode = view === "compact" ? "compact" : "detailed";
+  document.documentElement.dataset.heroView = mode;
+  heroViewButtons.forEach((button) => {
+    button.setAttribute("aria-pressed", String(button.dataset.heroView === mode));
+  });
+  if (remember) {
+    try { localStorage.setItem(HERO_VIEW_STORAGE_KEY, mode); } catch (error) {}
+  }
+}
+
+setHeroListView(document.documentElement.dataset.heroView);
+if (heroViewControls) heroViewControls.hidden = false;
+heroViewButtons.forEach((button) => {
+  button.addEventListener("click", () => setHeroListView(button.dataset.heroView, true));
+});
+
 const emptyState = document.querySelector("#emptyState");
 const visibleCount = document.querySelector("#visibleCount");
 const loadMoreHeroes = document.querySelector("#loadMoreHeroes");
@@ -630,14 +652,14 @@ function renderRecentUpdates(items) {
 
 // Keep the server-rendered cards visible until both sources are ready.
 // A partial render with heroes.json but no activity briefly restores the old order.
-const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.112", { cache: "no-store" })
+const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.113", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("recent updates load failed");
     return response.json();
   })
   .catch((error) => { console.warn(error); return null; });
 
-const heroesPromise = fetch("./heroes.json?v=2.14.112", { cache: "no-store" })
+const heroesPromise = fetch("./heroes.json?v=2.14.113", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();

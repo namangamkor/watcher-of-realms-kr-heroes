@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ko">
 <head>
-  <meta name="worwiki-patch-version" content="2.14.112">
+  <meta name="worwiki-patch-version" content="2.14.113">
   <meta charset="UTF-8" />
   <!-- gear-route-rescue -->
   <script>
@@ -13,6 +13,15 @@
 })();
 </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>
+(function () {
+  var view = "detailed";
+  try {
+    if (localStorage.getItem("worwiki.heroView") === "compact") view = "compact";
+  } catch (error) {}
+  document.documentElement.dataset.heroView = view;
+})();
+  </script>
   <meta name="description" content="나만겜이 제작·운영하는 비공식 워처 오브 렐름(Watcher of Realms) 한국 영웅 위키입니다. 한국 서버 영웅명과 글로벌 영문명을 검색하고, 전체 영웅을 진영·희귀도·직업·콘텐츠·수집가치별로 빠르게 확인하세요." />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
@@ -40,7 +49,7 @@
   <link rel="icon" type="image/png" sizes="64x64" href="./favicon-crystal-v1.png?v=2.11.43c" />
   <link rel="apple-touch-icon" href="./icon-192.png?v=2.11.43c" />
   <link rel="manifest" href="./manifest.webmanifest?v=2.11.43c" />
-  <link rel="stylesheet" href="/styles.css?v=2.14.112" />
+  <link rel="stylesheet" href="/styles.css?v=2.14.113" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -81,7 +90,7 @@
 }
   </script>
 <link rel="stylesheet" href="/hero-activity.css?v=2.14.15">
-  <link rel="stylesheet" href="/home-layout.css?v=2.14.112" />
+  <link rel="stylesheet" href="/home-layout.css?v=2.14.113" />
 </head>
 <body>
   <header class="topbar">
@@ -365,6 +374,20 @@
 
 </div>
 </div>
+      </div>
+
+      <div id="heroViewControls" class="hero-view-controls" role="group" aria-label="영웅 목록 보기 방식" hidden>
+        <span class="hero-view-label">보기</span>
+        <div class="hero-view-toggle">
+          <button class="hero-view-button" type="button" data-hero-view="detailed" aria-controls="heroGrid" aria-pressed="true">
+            <svg viewBox="0 0 20 20" aria-hidden="true"><rect x="2" y="2" width="6" height="6" rx="1"/><rect x="12" y="2" width="6" height="6" rx="1"/><rect x="2" y="12" width="6" height="6" rx="1"/><rect x="12" y="12" width="6" height="6" rx="1"/></svg>
+            상세 보기
+          </button>
+          <button class="hero-view-button" type="button" data-hero-view="compact" aria-controls="heroGrid" aria-pressed="false">
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M2 2h4v4H2zM8 2h4v4H8zM14 2h4v4h-4zM2 8h4v4H2zM8 8h4v4H8zM14 8h4v4h-4zM2 14h4v4H2zM8 14h4v4H8zM14 14h4v4h-4z"/></svg>
+            간략 보기
+          </button>
+        </div>
       </div>
 
       <div id="heroGrid" class="hero-grid" aria-live="polite">
@@ -805,7 +828,7 @@
     </div>
   </div>
 
-  <script src="/app.js?v=2.14.112" defer></script>
+  <script src="/app.js?v=2.14.113" defer></script>
 
 <a class="ww-summon-float" href="/summon/" aria-label="오늘의 소환 운명 시험 열기">
   <span class="ww-summon-float-crystal" aria-hidden="true"></span>

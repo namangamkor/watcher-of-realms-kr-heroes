@@ -1,6 +1,8 @@
-Version: v2.14.112
-Base: v2.14.111
-Change: consolidate homepage styles; remove conflicting legacy update/trait rules
-Validation: data/order parity, Worker/home parity, actual trait handler tests, JS syntax passed
-Browser layout validation: incomplete (browser installation/local preview unavailable)
-Deployment: not deployed
+Version: v2.14.113
+Base: v2.14.112
+Date: 2026-10-07 (Asia/Seoul)
+Change: detailed/compact hero view toggle for mobile and desktop; saved browser preference
+Compact columns: 4 at <=680px; 6 at 681-1100px; 8 at >=1101px
+Validation: JS syntax, actual app DOM behavior, CSS parsing/media rules, Worker/home parity, 258 hero identities/data and order preservation passed
+Browser visual validation: incomplete (browser installation/local preview unavailable)
+Deployment: not deployed; patch ZIP only
