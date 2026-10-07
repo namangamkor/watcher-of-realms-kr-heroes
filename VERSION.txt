@@ -1,12 +1,12 @@
-Version: v2.14.114
-Base: v2.14.113
-Date: 2026-10-07 (Asia/Seoul)
-Bundle: 3/3 — code and documentation (6 files)
-Change: local gear/artifact icons for mobile and desktop hero detail pages
-Assets: 15 gear sets + 127 artifacts = 142 unique images (136 WebP + 6 PNG)
-Hero pages: 258; gear image instances: 513; artifact image instances: 353
-Preserved: hero data, recommendations, copy, links, home and detailed/compact hero view toggle
-Deferred: Oakenvar's inconsistent Korean/English gear item, text retained without guessed icon
-Validation: original image formats/dimensions/SHA256, JS syntax, DOM copy/link parity, assets, scoped CSS media rules and Worker routing passed
-Browser visual validation: incomplete (local preview unavailable)
-Deployment: not deployed; patch ZIP only; upload image bundles 1 and 2 first
+Version: v2.14.115
+Base: v2.14.114
+Date: 2026-10-08 (Asia/Seoul)
+Change: user-confirmed English artifact names for Evie Frye and Ezio della Notte
+Evie Frye: M1877 "Thunderer"
+Ezio della Notte: Heart of Darkness
+Artifact stats: registered 253, complete 253, Korean-only 0, English-only 0
+Included files: _worker.js, heroes.json, app.js, index.html, README.md, VERSION.txt (6)
+Preserved: Korean names, recommendation data, images, hero order, detailed/compact view and unrelated functionality
+Validation: current GitHub baseline parity, JS syntax, Worker/JSON consistency, actual app DOM stats, single data fetch, view/order, routes and ZIP integrity passed
+Browser visual validation: not performed
+Deployment: not deployed; patch ZIP only

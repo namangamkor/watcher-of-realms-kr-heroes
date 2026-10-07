@@ -8082,7 +8082,7 @@
     "collectionValue": 4,
     "recommendedArtifact": {
       "nameKr": "M1877 '천둥의 신'",
-      "nameEn": null,
+      "nameEn": "M1877 \"Thunderer\"",
       "krVerified": true,
       "kind": "exclusive",
       "source": "https://fastidious.gg/heroes/evie-frye",
@@ -8091,7 +8091,7 @@
     },
     "exclusiveArtifact": {
       "nameKr": "M1877 '천둥의 신'",
-      "nameEn": null,
+      "nameEn": "M1877 \"Thunderer\"",
       "krVerified": true,
       "source": "https://fastidious.gg/heroes/evie-frye",
       "kind": "exclusive",
@@ -8494,7 +8494,7 @@
     "collectionValue": 4,
     "exclusiveArtifact": {
       "nameKr": "어둠의 심장",
-      "nameEn": null,
+      "nameEn": "Heart of Darkness",
       "krVerified": true,
       "source": "https://fastidious.gg/heroes/ezio-della-notte",
       "kind": "exclusive",
@@ -8511,7 +8511,7 @@
     ],
     "recommendedArtifact": {
       "nameKr": "어둠의 심장",
-      "nameEn": null,
+      "nameEn": "Heart of Darkness",
       "krVerified": true,
       "kind": "exclusive",
       "source": "https://fastidious.gg/heroes/ezio-della-notte",
