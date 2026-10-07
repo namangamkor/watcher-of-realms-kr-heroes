@@ -1,8 +1,8 @@
-# 워처 오브 렐름 위키 v2.14.114 — 이미지 묶음 1/2
+# 워처 오브 렐름 위키 v2.14.114 — 이미지 묶음 2/2
 
 - 패치 버전: **v2.14.114** / 기준 버전: **v2.14.113**
 - 작성일: 2026-10-07 (한국 시간)
-- 이 묶음: 원본 이미지 **78개**, 안내문 포함 **80파일**
+- 이 묶음: 원본 이미지 **64개**, 안내문 포함 **66파일**
 - 전체: 장비 세트 15종 + 아티팩트 127종 = 이미지 142개
 - 이미지 다운로드·형식·크기·SHA-256 검증: 완료
 - 실제 사이트 적용·배포: **미실시 — 전달용 패치**
@@ -25,83 +25,69 @@ v2.14.113을 적용한 기존 GitHub 저장소 **루트**에 아래 순서대로
 
 | 파일명 | 종류 | 위키 한국명 / 기존 영문명 |
 | --- | --- | --- |
-| `gear-icon-tempered-will-v214114.webp` | 장비 | 강철 의지 / Tempered Will |
-| `gear-icon-unshaken-will-v214114.webp` | 장비 | 불멸의 의지 / Unshaken Will |
-| `gear-icon-mana-spring-v214114.webp` | 장비 | 마력 / Mana Spring |
-| `gear-icon-infernal-roar-v214114.webp` | 장비 | 마수의 포효 / Infernal Roar |
-| `gear-icon-immortal-warrior-v214114.webp` | 장비 | 불굴의 용사 / Immortal Warrior |
-| `gear-icon-light-s-grace-v214114.webp` | 장비 | 빛의 은혜 / Light's Grace |
-| `gear-icon-wings-of-grace-v214114.webp` | 장비 | 성스러운 날개 / Wings of Grace |
-| `gear-icon-astral-guardian-v214114.webp` | 장비 | 성흔의 수호 / Astral Guardian |
-| `gear-icon-wicked-vengeance-v214114.webp` | 장비 | 악의 복수 / Wicked Vengeance |
-| `gear-icon-undying-savage-v214114.webp` | 장비 | 영원불멸의 무법자 / Undying Savage |
-| `gear-icon-soulbound-arcana-v214114.webp` | 장비 | 영혼의 비밀 / Soulbound Arcana |
-| `gear-icon-cataclysm-v214114.webp` | 장비 | 재앙 드래곤 / Cataclysm |
-| `gear-icon-warlord-v214114.webp` | 장비 | 전쟁의 주인 / Warlord |
-| `gear-icon-hell-s-lament-v214114.webp` | 장비 | 지옥 비명 / Hell's Lament |
-| `gear-icon-whirlwind-v214114.webp` | 장비 | 질풍 / Whirlwind |
-| `artifact-icon-184-absolution-v214114.webp` | 아티팩트 | 사죄자 / Absolution |
-| `artifact-icon-192-amenhotep-s-bow-v214114.webp` | 아티팩트 | 아멘호테프의활 / Amenhotep's Bow |
-| `artifact-icon-097-anchor-of-the-damned-v214114.webp` | 아티팩트 | 죽음의닻 / Anchor of the Damned |
-| `artifact-icon-078-arachno-shroud-v214114.webp` | 아티팩트 | 거미의형태 / Arachno Shroud |
-| `artifact-icon-013-astral-obelisk-v214114.webp` | 아티팩트 | 신성한 예찬문 / Astral Obelisk |
-| `artifact-icon-190-auditore-blade-v214114.webp` | 아티팩트 | 아디토레 암살검 / Auditore Blade |
-| `artifact-icon-100-aureate-visage-v214114.webp` | 아티팩트 | 골드가면 / Aureate Visage |
-| `artifact-icon-014-bastion-ring-v214114.webp` | 아티팩트 | 보루의 반지 / Bastion Ring |
-| `artifact-icon-158-blackbark-pauldrons-v214114.webp` | 아티팩트 | 꽃의수호자 / Blackbark Pauldrons |
-| `artifact-icon-080-blade-of-talkiel-v214114.webp` | 아티팩트 | 타케올의분노 / Blade of Talkiel |
-| `artifact-icon-138-blightcaller-s-claw-v214114.webp` | 아티팩트 | 망령술사의 손가락 / Blightcaller's Claw |
-| `artifact-icon-089-bloodblade-v214114.webp` | 아티팩트 | 피의일격 / Bloodblade |
-| `artifact-icon-177-bone-dirk-v214114.png` | 아티팩트 | 응축된산의뼈 / Bone Dirk |
-| `artifact-icon-070-brimstone-s-fury-v214114.webp` | 아티팩트 | 유황의분노 / Brimstone's Fury |
-| `artifact-icon-093-captivation-of-burning-desire-v214114.webp` | 아티팩트 | 운명의속박 / Captivation of Burning Desire |
-| `artifact-icon-140-carrion-s-call-v214114.webp` | 아티팩트 | 죽음의부름 / Carrion's Call |
-| `artifact-icon-074-chant-of-the-depths-v214114.webp` | 아티팩트 | 심연의노래 / Chant of the Depths |
-| `artifact-icon-147-chaotic-doomblade-v214114.webp` | 아티팩트 | 혼돈의마검 / Chaotic Doomblade |
-| `artifact-icon-178-codex-of-silence-v214114.png` | 아티팩트 | 침묵록 / Codex of Silence |
-| `artifact-icon-164-consecrated-edge-v214114.webp` | 아티팩트 | 성혈의심판 / Consecrated Edge |
-| `artifact-icon-072-crescent-totem-v214114.webp` | 아티팩트 | 초승달토템 / Crescent Totem |
-| `artifact-icon-162-crest-of-dracul-v214114.webp` | 아티팩트 | 심장파괴의계약 / Crest of Dracul |
-| `artifact-icon-079-crown-of-souls-v214114.webp` | 아티팩트 | 악령왕관 / Crown of Souls |
-| `artifact-icon-084-cruel-fate-v214114.webp` | 아티팩트 | 잔혹한운명 / Cruel Fate |
-| `artifact-icon-154-dawnbreak-v214114.webp` | 아티팩트 | 여명 / Dawnbreak |
-| `artifact-icon-131-deadwater-diadem-v214114.webp` | 아티팩트 | 평온의왕관 / Deadwater Diadem |
-| `artifact-icon-130-demonic-relic-v214114.webp` | 아티팩트 | 악귀의머리 / Demonic Relic |
-| `artifact-icon-129-divine-justice-v214114.webp` | 아티팩트 | 천벌자 / Divine Justice |
-| `artifact-icon-099-dragon-bane-v214114.webp` | 아티팩트 | 드래곤의천적 / Dragon Bane |
-| `artifact-icon-111-dreamglow-repository-v214114.webp` | 아티팩트 | 꿈속의그릇 / Dreamglow Repository |
-| `artifact-icon-149-dwarven-strider-v214114.webp` | 아티팩트 | 습격자 / Dwarven Strider |
-| `artifact-icon-092-eagle-s-heartbeat-v214114.webp` | 아티팩트 | 매의심장박동 / Eagle's Heartbeat |
-| `artifact-icon-046-elysian-epitaph-v214114.webp` | 아티팩트 | 낙원의 찬가 / Elysian Epitaph |
-| `artifact-icon-157-eternal-winter-v214114.webp` | 아티팩트 | 끝없는 겨울 / Eternal Winter |
-| `artifact-icon-086-euphonic-coronet-v214114.webp` | 아티팩트 | 우아한왕관 / Euphonic Coronet |
-| `artifact-icon-047-euphoric-orb-v214114.webp` | 아티팩트 | 즐거움의 보주 / Euphoric Orb |
-| `artifact-icon-073-eye-of-mockery-v214114.webp` | 아티팩트 | 멸시의눈 / Eye of Mockery |
-| `artifact-icon-083-eye-of-penitence-v214114.webp` | 아티팩트 | 회환의눈 / Eye of Penitence |
-| `artifact-icon-029-eye-of-sin-v214114.webp` | 아티팩트 | 죄악의눈 / Eye of Sin |
-| `artifact-icon-133-falcon-s-crest-v214114.webp` | 아티팩트 | 성결한왕관 / Falcon's Crest |
-| `artifact-icon-191-final-edict-v214114.webp` | 아티팩트 | 철칙 / Final Edict |
-| `artifact-icon-159-fire-tipped-spear-v214114.webp` | 아티팩트 | 화첨창 / Fire-Tipped Spear |
-| `artifact-icon-112-flaming-pauldrons-v214114.webp` | 아티팩트 | 폭주 / Flaming Pauldrons |
-| `artifact-icon-030-flux-pendant-v214114.webp` | 아티팩트 | 흐르는 팬던트 / Flux Pendant |
-| `artifact-icon-165-frost-devourer-v214114.webp` | 아티팩트 | 서리포식자 / Frost Devourer |
-| `artifact-icon-176-frosthorn-staff-v214114.png` | 아티팩트 | 서리척추 / Frosthorn Staff |
-| `artifact-icon-076-glacial-wings-v214114.webp` | 아티팩트 | 북쪽경계의날개 / Glacial Wings |
-| `artifact-icon-134-golden-cudgel-v214114.webp` | 아티팩트 | 여의봉 / Golden Cudgel |
-| `artifact-icon-048-golden-scarab-v214114.webp` | 아티팩트 | 황금 풍뎅이 / Golden Scarab |
-| `artifact-icon-090-grasp-of-sands-v214114.webp` | 아티팩트 | 모래의손 / Grasp of Sands |
-| `artifact-icon-120-graveyard-opus-v214114.webp` | 아티팩트 | 묘지의글 / Graveyard Opus |
-| `artifact-icon-174-green-crescent-blade-v214114.webp` | 아티팩트 | 청룔언월도 / Green Crescent Blade |
-| `artifact-icon-141-halberd-of-woe-v214114.webp` | 아티팩트 | 방천화극 / Halberd of Woe |
-| `artifact-icon-168-hand-of-doom-v214114.webp` | 아티팩트 | 종말의손 / Hand of Doom |
-| `artifact-icon-171-hate-s-contagion-v214114.webp` | 아티팩트 | 격노의 분출자 / Hate's Contagion |
-| `artifact-icon-167-heart-of-the-mouintain-v214114.webp` | 아티팩트 | 산악의심장 / Heart of the Mouintain |
-| `artifact-icon-150-helm-of-helios-v214114.webp` | 아티팩트 | 헬리오스의 왕관 / Helm of Helios |
-| `artifact-icon-135-helm-of-yalnor-v214114.webp` | 아티팩트 | 불멸의에드라크 / Helm of Yalnor |
-| `artifact-icon-004-idril-s-gaze-v214114.webp` | 아티팩트 | 가드리엘의 응시 / Idril's Gaze |
-| `artifact-icon-185-ironbloom-of-mercy-v214114.webp` | 아티팩트 | 자비의 강철연꽃 / Ironbloom of Mercy |
-| `artifact-icon-181-jade-dragon-v214114.png` | 아티팩트 | 제이드드래곤 / Jade Dragon |
-| `artifact-icon-104-key-of-the-forsaken-v214114.webp` | 아티팩트 | 미지의 땅의 열쇠 / Key of the Forsaken |
-| `artifact-icon-166-leviathan-v214114.webp` | 아티팩트 | 리바이어던 / Leviathan |
+| `artifact-icon-108-lionheart-pommel-v214114.webp` | 아티팩트 | 사자심장검수 / Lionheart Pommel |
+| `artifact-icon-148-lucent-flame-v214114.webp` | 아티팩트 | 백염 / Lucent Flame |
+| `artifact-icon-033-lunacy-visor-v214114.webp` | 아티팩트 | 난폭한 마스크 / Lunacy Visor |
+| `artifact-icon-145-mask-of-dark-desire-v214114.webp` | 아티팩트 | 혼돈의기쁨 / Mask of Dark Desire |
+| `artifact-icon-175-mech-core-v214114.webp` | 아티팩트 | 머신코어 / Mech Core |
+| `artifact-icon-106-mindflayer-quartz-v214114.webp` | 아티팩트 | 영혼 약탈 석영 / Mindflayer Quartz |
+| `artifact-icon-116-molten-cog-v214114.webp` | 아티팩트 | 주조된 톱니바퀴 / Molten Cog |
+| `artifact-icon-180-moonfrost-v214114.png` | 아티팩트 | 상야 / Moonfrost |
+| `artifact-icon-153-nightfall-v214114.webp` | 아티팩트 | 영탄 / Nightfall |
+| `artifact-icon-060-nightmare-samsara-v214114.webp` | 아티팩트 | 악몽 윤회 / Nightmare Samsara |
+| `artifact-icon-105-oblivion-pendant-v214114.webp` | 아티팩트 | 허무의팬던트 / Oblivion Pendant |
+| `artifact-icon-109-orb-of-ruin-v214114.webp` | 아티팩트 | 장미의망상 / Orb of Ruin |
+| `artifact-icon-173-painter-s-palette-v214114.webp` | 아티팩트 | 회목 / Painter's Palette |
+| `artifact-icon-172-paintress-s-brush-v214114.webp` | 아티팩트 | 태초의색 / Paintress's Brush |
+| `artifact-icon-179-pathbreaker-v214114.png` | 아티팩트 | 현궐 / Pathbreaker |
+| `artifact-icon-182-perdition-v214114.webp` | 아티팩트 | 원죄 / Perdition |
+| `artifact-icon-088-pharaoh-s-pschent-v214114.webp` | 아티팩트 | 파라오의왕관 / Pharaoh's Pschent |
+| `artifact-icon-142-phoenix-feather-fan-v214114.webp` | 아티팩트 | 승평·봉화불 / Phoenix Feather Fan |
+| `artifact-icon-125-raven-s-crest-v214114.webp` | 아티팩트 | 가시의왕관 / Raven's Crest |
+| `artifact-icon-038-realm-tear-v214114.webp` | 아티팩트 | 세상의 눈물 / Realm Tear |
+| `artifact-icon-006-reaper-s-emblem-v214114.webp` | 아티팩트 | 사신의 표식 / Reaper's Emblem |
+| `artifact-icon-169-resonance-bell-v214114.webp` | 아티팩트 | 공명의종 / Resonance Bell |
+| `artifact-icon-136-sanguine-shroud-v214114.webp` | 아티팩트 | 핏빛망토 / Sanguine Shroud |
+| `artifact-icon-102-scarlet-dagger-v214114.webp` | 아티팩트 | 스칼렛단검 / Scarlet Dagger |
+| `artifact-icon-036-scarlet-hunt-v214114.webp` | 아티팩트 | 스칼렛헌트 / Scarlet Hunt |
+| `artifact-icon-127-scepter-of-impiety-v214114.webp` | 아티팩트 | 불경한자 / Scepter of Impiety |
+| `artifact-icon-107-seabed-crown-v214114.webp` | 아티팩트 | 바다의왕관 / Seabed Crown |
+| `artifact-icon-146-sentinel-s-eye-v214114.webp` | 아티팩트 | 감시자의눈 / Sentinel's Eye |
+| `artifact-icon-118-serpent-s-kiss-v214114.webp` | 아티팩트 | 독사의입맞춤 / Serpent's Kiss |
+| `artifact-icon-008-sharpshooter-crest-v214114.webp` | 아티팩트 | 명사수의 표식 / Sharpshooter Crest |
+| `artifact-icon-137-shattered-hilt-v214114.webp` | 아티팩트 | 잊혀진 옛검 / Shattered Hilt |
+| `artifact-icon-103-shield-of-valor-v214114.webp` | 아티팩트 | 기억의방패 / Shield of Valor |
+| `artifact-icon-128-silent-fury-v214114.webp` | 아티팩트 | 무언의분노 / Silent Fury |
+| `artifact-icon-155-song-of-the-butterfly-v214114.webp` | 아티팩트 | 나비의노래 / Song of the Butterfly |
+| `artifact-icon-085-sorrow-bloom-v214114.webp` | 아티팩트 | 절망의장미 / Sorrow Bloom |
+| `artifact-icon-077-sorrow-s-veil-v214114.webp` | 아티팩트 | 탄식의연사 / Sorrow's Veil |
+| `artifact-icon-119-soul-crucible-v214114.webp` | 아티팩트 | 영혼의도가니 / Soul Crucible |
+| `artifact-icon-188-spear-of-leonidas-v214114.webp` | 아티팩트 | 레오니다스의 창 / Spear of Leonidas |
+| `artifact-icon-009-spirit-siphon-v214114.webp` | 아티팩트 | 흡혼 부적 / Spirit Siphon |
+| `artifact-icon-114-stoic-winter-v214114.webp` | 아티팩트 | 무정한겨울 / Stoic Winter |
+| `artifact-icon-117-stormstrike-haladie-v214114.webp` | 아티팩트 | 폭풍의칼날 / Stormstrike Haladie |
+| `artifact-icon-189-strings-of-sorrow-v214114.webp` | 아티팩트 | 열화축제 / Strings of Sorrow |
+| `artifact-icon-095-talisman-of-resolve-v214114.webp` | 아티팩트 | 겁쟁이의 용기 / Talisman of Resolve |
+| `artifact-icon-063-tear-of-twilight-v214114.webp` | 아티팩트 | 황혼의 눈물 / Tear of Twilight |
+| `artifact-icon-161-the-dawnbringer-v214114.webp` | 아티팩트 | 죽은자의속삭임 / The Dawnbringer |
+| `artifact-icon-081-the-devil-s-gaze-v214114.webp` | 아티팩트 | 악마의응시 / The Devil's Gaze |
+| `artifact-icon-094-the-sutra-of-caprice-v214114.webp` | 아티팩트 | 광란의경전 / The Sutra of Caprice |
+| `artifact-icon-082-tidebreaker-v214114.webp` | 아티팩트 | 파도를헤엄치는자 / Tidebreaker |
+| `artifact-icon-110-tome-of-greed-v214114.webp` | 아티팩트 | 탐욕의책 / Tome of Greed |
+| `artifact-icon-096-tome-of-holylight-v214114.webp` | 아티팩트 | 신성한예찬문 / Tome of Holylight |
+| `artifact-icon-160-triple-bladed-glaive-v214114.webp` | 아티팩트 | 삼첨양인도 / Triple-Bladed Glaive |
+| `artifact-icon-115-unending-relic-v214114.webp` | 아티팩트 | 불사자의마지막모습 / Unending Relic |
+| `artifact-icon-156-uzimo-relic-v214114.webp` | 아티팩트 | 여우햇빛 / Uzimo Relic |
+| `artifact-icon-186-varin-s-axe-v214114.webp` | 아티팩트 | 바린의 도끼 / Varin's Axe |
+| `artifact-icon-163-vlad-s-impaler-v214114.webp` | 아티팩트 | 블라드의창 / Vlad's Impaler |
+| `artifact-icon-101-volcanic-heart-v214114.webp` | 아티팩트 | 화산의심장 / Volcanic Heart |
+| `artifact-icon-042-wailing-skull-v214114.webp` | 아티팩트 | 포효의 머리뼈 / Wailing Skull |
+| `artifact-icon-113-wailing-tusk-v214114.webp` | 아티팩트 | 포효의뼈 / Wailing Tusk |
+| `artifact-icon-187-wall-of-lament-v214114.webp` | 아티팩트 | 비탄의벽 / Wall of Lament |
+| `artifact-icon-098-weaver-s-hood-v214114.webp` | 아티팩트 | 드림위버의두건 / Weaver's Hood |
+| `artifact-icon-087-whispering-grace-v214114.webp` | 아티팩트 | 희미한빛 / Whispering Grace |
+| `artifact-icon-075-winter-s-call-v214114.webp` | 아티팩트 | 겨울의부름 / Winter's Call |
+| `artifact-icon-evie-frye-m1877-v214114.webp` | 아티팩트 | M1877 '천둥의 신' / M1877 "Thunder" |
+| `artifact-icon-ezio-della-notte-heart-of-darkness-v214114.webp` | 아티팩트 | 어둠의 심장 / Heart of Darkness |
 
 상세 출처와 검증 정보는 마지막 코드 묶음의 `ITEM_IMAGE_SOURCES.md`, `item-image-manifest-v214114.json` 및 `README.md`에 있습니다. 이미지 원본 바이트와 비율을 유지합니다.
