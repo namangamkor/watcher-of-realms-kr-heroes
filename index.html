@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ko">
 <head>
-  <meta name="worwiki-patch-version" content="2.14.116">
+  <meta name="worwiki-patch-version" content="2.14.117">
   <meta charset="UTF-8" />
   <!-- gear-route-rescue -->
   <script>
@@ -123,9 +123,9 @@
       <div class="recent-fix-bar" role="status" aria-label="최근 업데이트 안내">
         <div class="recent-fix-copy">
           <div id="recentUpdateList" class="recent-fix-list" aria-live="polite">
-<a class="recent-fix-item" href="/hero/valara/"><span class="recent-fix-kind info">이미지 업데이트</span><strong>발레리아</strong><span class="recent-fix-message-text">대표 이미지 교체</span><time class="recent-fix-date" datetime="2026-10-06T15:54:01Z">10.07</time></a>
-<a class="recent-fix-item" href="/"><span class="recent-fix-kind info">정보</span><strong>100명 영웅</strong><span class="recent-fix-message-text">범용 아티팩트 대안 추가</span><time class="recent-fix-date" datetime="2026-10-06T15:04:42Z">10.07</time></a>
-<a class="recent-fix-item" href="/hero/janus-grismore/"><span class="recent-fix-kind">영웅 업데이트</span><strong>제누스</strong><span class="recent-fix-message-text">이미지 교체 · 수집가치 3점</span><time class="recent-fix-date" datetime="2026-10-05T19:44:52+09:00">10.05</time></a>
+<a class="recent-fix-item" href="/hero/amelia-ainsworth/"><span class="recent-fix-kind info">신규영웅등록</span><strong>아멜리아</strong><span class="recent-fix-message-text">신규 영주·스킬·각성 등록</span><time class="recent-fix-date" datetime="2026-10-08T00:40:00.000Z">10.08</time></a>
+<a class="recent-fix-item" href="/hero/valara/"><span class="recent-fix-kind info">이미지 업데이트</span><strong>발레리아</strong><span class="recent-fix-message-text">대표 이미지 교체</span><time class="recent-fix-date" datetime="2026-10-06T15:54:01.000Z">10.07</time></a>
+<a class="recent-fix-item" href="/"><span class="recent-fix-kind info">정보</span><strong>100명 영웅</strong><span class="recent-fix-message-text">범용 아티팩트 대안 추가</span><time class="recent-fix-date" datetime="2026-10-06T15:04:42.000Z">10.07</time></a>
           </div>
         </div>
         <a class="recent-fix-report" href="https://forms.gle/PQcn3dTva7Pc7bY68" target="_blank" rel="noopener noreferrer">오류 제보 <span aria-hidden="true">↗</span></a>
@@ -202,7 +202,14 @@
             data-faction="all" data-emblem="◎">
             <span class="faction-option-emblem">◎</span>
             <span class="faction-option-copy"><strong>전체 영웅</strong><small>All Heroes</small></span>
-            <span id="allHeroesOptionCount" class="faction-option-count">258명</span><span class="faction-option-check">✓</span>
+            <span id="allHeroesOptionCount" class="faction-option-count">259명</span><span class="faction-option-check">✓</span>
+          </button>
+
+          <button class="faction-option" type="button" role="option" aria-selected="false"
+            data-faction="grey-blades" data-emblem="⚔">
+            <span class="faction-option-emblem">⚔</span>
+            <span class="faction-option-copy"><strong>황혼 그림자의 칼날</strong><small>The Grey Blades</small></span>
+            <span class="faction-option-count">1명</span><span class="faction-option-check">✓</span>
           </button>
 
           <button class="faction-option" type="button" role="option" aria-selected="false"
@@ -279,7 +286,7 @@
         <div class="faction-explorer-meta">
           <p class="faction-select-hint">전체 영웅 또는 진영을 선택한 뒤 아래 필터로 원하는 영웅을 빠르게 찾아보세요.</p>
           <div class="count-badge count-badge-compact" aria-label="현재 표시 영웅 수">
-            <span class="count-badge-label">표시</span><strong id="visibleCount">20</strong><span>/ <span id="totalCount">258</span></span>
+            <span class="count-badge-label">표시</span><strong id="visibleCount">20</strong><span>/ <span id="totalCount">259</span></span>
           </div>
         </div>
       </div>
@@ -391,10 +398,40 @@
       </div>
 
       <div id="heroGrid" class="hero-grid" aria-live="polite">
-<a class="hero-card-link" href="/hero/janus-grismore/" aria-label="제누스 (Janus Grismore) 상세 보기">
+<a class="hero-card-link" href="/hero/amelia-ainsworth/" aria-label="아멜리아 (Amelia Ainsworth) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual"><img src="./grey-blades-hq-01-amelia-ainsworth-v214117.webp" alt="아멜리아 (Amelia Ainsworth) 영웅 카드" loading="eager"></div>
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-08T00:40:00.000Z">10.8</time></span>
+        <div class="card-topline"><span class="tag lord">영주</span><span class="tag legendary">전설</span></div>
+        <h3>아멜리아</h3><p class="en">Amelia Ainsworth</p><p class="meta">궁수 · 황혼 그림자의 칼날</p>
+      </div>
+    </article>
+  </a>
+<a class="hero-card-link" href="/hero/valara/" aria-label="발레리아 상세 보기"><article class="hero-card"><div class="card-visual"><img src="./valara-dual-faction-v214108.webp" alt="발레리아 영웅 카드" loading="lazy"><div class="collection-value-badge cv-50" aria-label="수집가치 5 / 5.0"><span class="collection-value-mini-label">수집</span><strong>5.0</strong></div></div><div class="card-body"><div class="card-topline"><span class="tag legendary">전설</span></div><h3>발레리아</h3><p class="en">Valara</p><p class="meta">전술마스터 · 비법회</p></div></article></a>
+<a class="hero-card-link" href="/hero/cainan/" aria-label="카이난 (Cainan) 상세 보기">
   <article class="hero-card">
     <div class="card-visual">
-      <img src="./janus-grismore-20261005.webp" alt="제누스 (Janus Grismore) 영웅 카드" loading="lazy">
+      <img src="./watch-guard-hq-27-cainan.webp" alt="카이난 (Cainan) 영웅 카드" loading="lazy">
+      <div class="collection-value-badge cv-50" title="수집가치 5.0 / 5.0 · 최우선급" aria-label="수집가치 5.0 / 5.0 · 최우선급"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5 7.4 11 12 5l4.6 6L20 7.5l-1.7 10.2H5.7L4 7.5Z"/><path d="M7 20h10"/></svg></span><span class="collection-value-mini-label">수집</span><strong>5.0</strong></div>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        
+        <span class="tag legendary">전설</span>
+        <span class="tag dual" title="파수꾼 소대 · 연옥">이중 진영</span>
+      </div>
+      <h3>카이난</h3>
+      <p class="en">Cainan</p>
+      <p class="meta">전술마스터 · 파수꾼 소대 · 연옥</p>
+      <div class="content-tags"><span class="content-tag abyss" title="Abyss 추천 영웅">심연</span></div>
+    </div>
+  </article>
+</a>
+<a class="hero-card-link" href="/hero/lulu/" aria-label="루루 (Lulu) 상세 보기">
+  <article class="hero-card">
+    <div class="card-visual">
+      <img src="./north-throne-hq-26-lulu.webp" alt="루루 (Lulu) 영웅 카드" loading="lazy">
       <div class="collection-value-badge cv-30" title="수집가치 3.0 / 5.0 · 보통" aria-label="수집가치 3.0 / 5.0 · 보통"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 7 4v10l-7 4-7-4V7l7-4Z"/><circle cx="12" cy="12" r="2.2"/></svg></span><span class="collection-value-mini-label">수집</span><strong>3.0</strong></div>
     </div>
     <div class="card-body">
@@ -403,13 +440,35 @@
         <span class="tag legendary">전설</span>
         
       </div>
-      <h3>제누스</h3>
-      <p class="en">Janus Grismore</p>
-      <p class="meta">마법사 · 연옥</p>
+      <h3>루루</h3>
+      <p class="en">Lulu</p>
+      <p class="meta">전술마스터 · 북쪽 경계 왕좌</p>
       
     </div>
   </article>
 </a>
+<a class="hero-card-link" href="/hero/su-yue/" aria-label="소설백 (Su Yue) 상세 보기">
+  <article class="hero-card">
+    <div class="card-visual">
+      <img src="./north-throne-hq-36-su-yue.webp" alt="소설백 (Su Yue) 영웅 카드" loading="lazy">
+      <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span><span class="collection-value-mini-label">수집</span><strong>4.0</strong></div>
+    </div>
+    <div class="card-body">
+      <div class="card-topline">
+        
+        <span class="tag legendary">전설</span>
+        <span class="tag dual" title="북쪽 경계 왕좌 · 최고 중재자">이중 진영</span>
+      </div>
+      <h3>소설백</h3>
+      <p class="en">Su Yue</p>
+      <p class="meta">전술마스터 · 북쪽 경계 왕좌 · 최고 중재자</p>
+      
+    </div>
+  </article>
+</a>
+<a class="hero-card-link" href="/hero/guan-yu/" aria-label="관우 상세 보기"><article class="hero-card"><div class="card-visual"><img src="./watch-guard-hq-21-guan-yu.webp" alt="관우 영웅 카드" loading="lazy"><div class="collection-value-badge cv-40" aria-label="수집가치 4 / 5.0"><span class="collection-value-mini-label">수집</span><strong>4.0</strong></div></div><div class="card-body"><div class="card-topline"><span class="tag legendary">전설</span></div><h3>관우</h3><p class="en">Guan Yu</p><p class="meta">전술마스터 · 파수꾼 소대</p></div></article></a>
+<a class="hero-card-link" href="/hero/moriden/" aria-label="모리던 상세 보기"><article class="hero-card"><div class="card-visual"><img src="./nightmare-council-hq-27-moriden.webp" alt="모리던 영웅 카드" loading="lazy"><div class="collection-value-badge cv-40" aria-label="수집가치 4 / 5.0"><span class="collection-value-mini-label">수집</span><strong>4.0</strong></div></div><div class="card-body"><div class="card-topline"><span class="tag legendary">전설</span></div><h3>모리던</h3><p class="en">Moriden</p><p class="meta">전술마스터 · 악몽 의회</p></div></article></a>
+<a class="hero-card-link" href="/hero/vlad-draculea/" aria-label="블라드3세 상세 보기"><article class="hero-card"><div class="card-visual"><img src="./cursed-cult-hq-29-vlad-draculea.webp" alt="블라드3세 영웅 카드" loading="lazy"><div class="collection-value-badge cv-20" aria-label="수집가치 2 / 5.0"><span class="collection-value-mini-label">수집</span><strong>2.0</strong></div></div><div class="card-body"><div class="card-topline"><span class="tag legendary">전설</span></div><h3>블라드3세</h3><p class="en">Vlad Draculea</p><p class="meta">전술마스터 · 저주신교</p></div></article></a>
 <a class="hero-card-link" href="/hero/rosalia/" data-ww-updated-priority="1790460303" style="--ww-update-order:-1000" aria-label="로살리아 (Rosalia) 상세 보기">
   <article class="hero-card">
     <div class="card-visual">
@@ -426,39 +485,6 @@
       <p class="en">Rosalia</p>
       <p class="meta">전사 · 저주신교</p>
       <div class="content-tags"><span class="content-tag arena-aoe" title="Arena AoE 추천 영웅">아레나광역</span></div>
-    </div>
-  </article>
-</a>
-<a class="hero-card-link" href="/hero/oakenvar/" data-ww-updated-priority="1790460302" style="--ww-update-order:-999" aria-label="오켄바르 (Oakenvar) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./watch-guard-hq-41-oakenvar-v21470.webp" alt="오켄바르 (Oakenvar) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-30" title="수집가치 3.0 / 5.0 · 보통" aria-label="수집가치 3.0 / 5.0 · 보통"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 7 4v10l-7 4-7-4V7l7-4Z"/><circle cx="12" cy="12" r="2.2"/></svg></span><span class="collection-value-mini-label">수집</span><strong>3.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
-        <span class="tag legendary">전설</span>
-      </div>
-      <h3>오켄바르</h3>
-      <p class="en">Oakenvar</p>
-      <p class="meta">수호자 · 파수꾼 소대</p>
-    </div>
-  </article>
-</a>
-<a class="hero-card-link" href="/hero/beirasia/" data-ww-updated-priority="1790460301" style="--ww-update-order:-998" aria-label="베이라시아 (Veyrathia) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./nightmare-council-hq-40-beirasia-v21468.webp" alt="베이라시아 (Veyrathia) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-30" title="수집가치 3.0 / 5.0 · 보통" aria-label="수집가치 3.0 / 5.0 · 보통"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 7 4v10l-7 4-7-4V7l7-4Z"/><circle cx="12" cy="12" r="2.2"/></svg></span><span class="collection-value-mini-label">수집</span><strong>3.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
-        <span class="tag lord">영주</span>
-        <span class="tag epic">에픽</span>
-      </div>
-      <h3>베이라시아</h3>
-      <p class="en">Veyrathia</p>
-      <p class="meta">전사 · 악몽 의회</p>
     </div>
   </article>
 </a>
@@ -576,25 +602,6 @@
     </div>
   </article>
 </a>
-<a class="hero-card-link" href="/hero/cainan/" aria-label="카이난 (Cainan) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./watch-guard-hq-27-cainan.webp" alt="카이난 (Cainan) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-50" title="수집가치 5.0 / 5.0 · 최우선급" aria-label="수집가치 5.0 / 5.0 · 최우선급"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5 7.4 11 12 5l4.6 6L20 7.5l-1.7 10.2H5.7L4 7.5Z"/><path d="M7 20h10"/></svg></span><span class="collection-value-mini-label">수집</span><strong>5.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
-        
-        <span class="tag legendary">전설</span>
-        <span class="tag dual" title="파수꾼 소대 · 연옥">이중 진영</span>
-      </div>
-      <h3>카이난</h3>
-      <p class="en">Cainan</p>
-      <p class="meta">전술마스터 · 파수꾼 소대 · 연옥</p>
-      <div class="content-tags"><span class="content-tag abyss" title="Abyss 추천 영웅">심연</span></div>
-    </div>
-  </article>
-</a>
 <a class="hero-card-link" href="/hero/jezebelle/" aria-label="지제벨 (Jezebelle) 상세 보기">
   <article class="hero-card">
     <div class="card-visual">
@@ -611,63 +618,6 @@
       <p class="en">Jezebelle</p>
       <p class="meta">궁수 · 혼돈 정복자</p>
       <div class="content-tags"><span class="content-tag arena-air" title="Arena Air 추천 영웅">아레나공중</span></div>
-    </div>
-  </article>
-</a>
-<a class="hero-card-link" href="/hero/vera/" aria-label="베라 (Vera) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./star-piercers-hq-30-vera.webp" alt="베라 (Vera) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span><span class="collection-value-mini-label">수집</span><strong>4.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
-        
-        <span class="tag legendary">전설</span>
-        
-      </div>
-      <h3>베라</h3>
-      <p class="en">Vera</p>
-      <p class="meta">궁수 · 관성의 화살</p>
-      
-    </div>
-  </article>
-</a>
-<a class="hero-card-link" href="/hero/lulu/" aria-label="루루 (Lulu) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./north-throne-hq-26-lulu.webp" alt="루루 (Lulu) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-30" title="수집가치 3.0 / 5.0 · 보통" aria-label="수집가치 3.0 / 5.0 · 보통"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 7 4v10l-7 4-7-4V7l7-4Z"/><circle cx="12" cy="12" r="2.2"/></svg></span><span class="collection-value-mini-label">수집</span><strong>3.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
-        
-        <span class="tag legendary">전설</span>
-        
-      </div>
-      <h3>루루</h3>
-      <p class="en">Lulu</p>
-      <p class="meta">전술마스터 · 북쪽 경계 왕좌</p>
-      
-    </div>
-  </article>
-</a>
-<a class="hero-card-link" href="/hero/clarissa/" aria-label="클라리사 (Clarissa) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./esoteria-hq-33-clarissa.webp" alt="클라리사 (Clarissa) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-20" title="수집가치 2.0 / 5.0 · 낮은 편" aria-label="수집가치 2.0 / 5.0 · 낮은 편"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 19 6v5c0 4.3-2.6 7.5-7 9.6C7.6 18.5 5 15.3 5 11V6l7-3Z"/><path d="M8.5 12h7"/></svg></span><span class="collection-value-mini-label">수집</span><strong>2.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
-        
-        <span class="tag legendary">전설</span>
-        
-      </div>
-      <h3>클라리사</h3>
-      <p class="en">Clarissa</p>
-      <p class="meta">전사 · 비법회</p>
-      
     </div>
   </article>
 </a>
@@ -690,84 +640,11 @@
     </div>
   </article>
 </a>
-<a class="hero-card-link" href="/hero/su-yue/" aria-label="소설백 (Su Yue) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./north-throne-hq-36-su-yue.webp" alt="소설백 (Su Yue) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span><span class="collection-value-mini-label">수집</span><strong>4.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
-        
-        <span class="tag legendary">전설</span>
-        <span class="tag dual" title="북쪽 경계 왕좌 · 최고 중재자">이중 진영</span>
-      </div>
-      <h3>소설백</h3>
-      <p class="en">Su Yue</p>
-      <p class="meta">전술마스터 · 북쪽 경계 왕좌 · 최고 중재자</p>
-      
-    </div>
-  </article>
-</a>
-<a class="hero-card-link" href="/hero/oren/" aria-label="오렌 (Oren) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./supreme-arbiters-hq-01-oren.webp" alt="오렌 (Oren) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-50" title="수집가치 5.0 / 5.0 · 최우선급" aria-label="수집가치 5.0 / 5.0 · 최우선급"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5 7.4 11 12 5l4.6 6L20 7.5l-1.7 10.2H5.7L4 7.5Z"/><path d="M7 20h10"/></svg></span><span class="collection-value-mini-label">수집</span><strong>5.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
-        <span class="tag lord">영주</span>
-        <span class="tag legendary">전설</span>
-        
-      </div>
-      <h3>오렌</h3>
-      <p class="en">Oren</p>
-      <p class="meta">전사 · 최고 중재자</p>
-      <div class="content-tags"><span class="content-tag arena-aoe" title="Arena AoE 추천 영웅">아레나광역</span></div>
-    </div>
-  </article>
-</a>
-<a class="hero-card-link" href="/hero/solaris/" aria-label="솔라리스 (Solaris) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./north-throne-hq-27-solaris.webp" alt="솔라리스 (Solaris) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-20" title="수집가치 2.0 / 5.0 · 낮은 편" aria-label="수집가치 2.0 / 5.0 · 낮은 편"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 19 6v5c0 4.3-2.6 7.5-7 9.6C7.6 18.5 5 15.3 5 11V6l7-3Z"/><path d="M8.5 12h7"/></svg></span><span class="collection-value-mini-label">수집</span><strong>2.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
-        
-        <span class="tag legendary">전설</span>
-        
-      </div>
-      <h3>솔라리스</h3>
-      <p class="en">Solaris</p>
-      <p class="meta">마법사 · 북쪽 경계 왕좌</p>
-      
-    </div>
-  </article>
-</a>
-<a class="hero-card-link" href="/hero/dane/" aria-label="어둠의총사데인 (Dane) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./watch-guard-hq-26-dane.webp" alt="어둠의총사데인 (Dane) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-30" title="수집가치 3.0 / 5.0 · 보통" aria-label="수집가치 3.0 / 5.0 · 보통"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 7 4v10l-7 4-7-4V7l7-4Z"/><circle cx="12" cy="12" r="2.2"/></svg></span><span class="collection-value-mini-label">수집</span><strong>3.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
-        
-        <span class="tag legendary">전설</span>
-        
-      </div>
-      <h3>어둠의총사데인</h3>
-      <p class="en">Dane</p>
-      <p class="meta">전사 · 파수꾼 소대</p>
-      
-    </div>
-  </article>
-</a>
+<a class="hero-card-link" href="/hero/akirastar/" aria-label="아키라 상세 보기"><article class="hero-card"><div class="card-visual"><img src="./north-throne-hq-23-akirastar.webp" alt="아키라 영웅 카드" loading="lazy"><div class="collection-value-badge cv-30" aria-label="수집가치 3 / 5.0"><span class="collection-value-mini-label">수집</span><strong>3.0</strong></div></div><div class="card-body"><div class="card-topline"><span class="tag legendary">전설</span></div><h3>아키라</h3><p class="en">AkiraStar</p><p class="meta">궁수 · 북쪽 경계 왕좌</p></div></article></a>
+<a class="hero-card-link" href="/hero/violetta-vane/" aria-label="비올레타베인 상세 보기"><article class="hero-card"><div class="card-visual"><img src="./infernal-blast-hq-18-violetta-vane.webp" alt="비올레타베인 영웅 카드" loading="lazy"><div class="collection-value-badge cv-40" aria-label="수집가치 4 / 5.0"><span class="collection-value-mini-label">수집</span><strong>4.0</strong></div></div><div class="card-body"><div class="card-topline"><span class="tag legendary">전설</span></div><h3>비올레타베인</h3><p class="en">Violetta Vane</p><p class="meta">마법사 · 연옥</p></div></article></a>
+<a class="hero-card-link" href="/hero/pierre/" aria-label="피에르 상세 보기"><article class="hero-card"><div class="card-visual"><img src="./cursed-cult-hq-26-pierre.webp" alt="피에르 영웅 카드" loading="lazy"><div class="collection-value-badge cv-40" aria-label="수집가치 4 / 5.0"><span class="collection-value-mini-label">수집</span><strong>4.0</strong></div></div><div class="card-body"><div class="card-topline"><span class="tag legendary">전설</span></div><h3>피에르</h3><p class="en">Pierre</p><p class="meta">마법사 · 저주신교</p></div></article></a>
 </div>
-      <button id="loadMoreHeroes" class="load-more-heroes" type="button">더 보기 · 20/258명</button>
+      <button id="loadMoreHeroes" class="load-more-heroes" type="button">더 보기 · 20/259명</button>
 
       <div id="emptyState" class="empty" hidden>
         <strong>검색 결과가 없습니다.</strong>
@@ -775,7 +652,7 @@
       </div>
 
       <div id="dataNote" class="data-note">
-        고유 영웅 258명 등록 완료 · 한국명과 영문명을 함께 검색할 수 있습니다.
+        고유 영웅 259명 등록 완료 · 한국명과 영문명을 함께 검색할 수 있습니다.
       </div>
       <div id="artifactProgressNote" class="data-note artifact-progress-note">
         추천 아티팩트 등록 영웅 253명 · 한·영 이름 완전 매칭 253명 · 한국명만 확인 0명 · 영문명만 확인 0명
@@ -828,7 +705,7 @@
     </div>
   </div>
 
-  <script src="/app.js?v=2.14.116" defer></script>
+  <script src="/app.js?v=2.14.117" defer></script>
 
 <a class="ww-summon-float" href="/summon/" aria-label="오늘의 소환 운명 시험 열기">
   <span class="ww-summon-float-crystal" aria-hidden="true"></span>

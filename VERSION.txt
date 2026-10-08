@@ -1,10 +1,15 @@
-Version: v2.14.116
-Base: v2.14.115
-Date: 2026-10-08 (Asia/Seoul)
-Change: Oakenvar gear name corrected from 강철 의지 (Unshaken Will) to 강철 의지 (Tempered Will)
-Existing icon: gear-icon-tempered-will-v214114.webp
-Included files: _worker.js, heroes.json, app.js, index.html, README.md, VERSION.txt (6)
-Preserved: Korean names, recommended sets, options, artifacts, awakening, hero dates/order, detailed/compact view, v2.14.115 English artifact names and unrelated functionality
-Validation: current GitHub baseline parity, JS syntax, 258-hero data comparison, Worker/JSON consistency, correct icon references, detail/data/home routes and ZIP integrity passed
-Browser visual validation: not performed
-Deployment: not deployed; patch ZIP only
+PATCH_VERSION=v2.14.117
+BASE_VERSION=v2.14.116
+PATCH_NAME=amelia-new-hero
+CREATED_DATE=2026-10-08
+TIMEZONE=Asia/Seoul
+BASE_REPOSITORY=namangamkor/watcher-of-realms-kr-heroes
+BASE_COMMIT=1f86abe1c510619a65491496ebbce59bb35b84ec
+HERO_COUNT=259
+FACTION_COUNT=11
+NEW_HERO=amelia-ainsworth
+NEW_FACTION=grey-blades
+INCLUDED_FILE_COUNT=9
+STATUS=PATCH_READY
+DEPLOYMENT=NOT_DEPLOYED
+CHANGE=아멜리아 신규 영주 등록; 황혼 그림자의 칼날 진영 필터; 새 WebP 초상화; 스킬·추격 연계 효과·각성 A1~A5; 홈·목록 최신 활동 정렬; sitemap 추가
