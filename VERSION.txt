@@ -1,12 +1,10 @@
-Version: v2.14.115
-Base: v2.14.114
+Version: v2.14.116
+Base: v2.14.115
 Date: 2026-10-08 (Asia/Seoul)
-Change: user-confirmed English artifact names for Evie Frye and Ezio della Notte
-Evie Frye: M1877 "Thunderer"
-Ezio della Notte: Heart of Darkness
-Artifact stats: registered 253, complete 253, Korean-only 0, English-only 0
+Change: Oakenvar gear name corrected from 강철 의지 (Unshaken Will) to 강철 의지 (Tempered Will)
+Existing icon: gear-icon-tempered-will-v214114.webp
 Included files: _worker.js, heroes.json, app.js, index.html, README.md, VERSION.txt (6)
-Preserved: Korean names, recommendation data, images, hero order, detailed/compact view and unrelated functionality
-Validation: current GitHub baseline parity, JS syntax, Worker/JSON consistency, actual app DOM stats, single data fetch, view/order, routes and ZIP integrity passed
+Preserved: Korean names, recommended sets, options, artifacts, awakening, hero dates/order, detailed/compact view, v2.14.115 English artifact names and unrelated functionality
+Validation: current GitHub baseline parity, JS syntax, 258-hero data comparison, Worker/JSON consistency, correct icon references, detail/data/home routes and ZIP integrity passed
 Browser visual validation: not performed
 Deployment: not deployed; patch ZIP only
