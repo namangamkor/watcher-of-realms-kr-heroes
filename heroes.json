@@ -17,7 +17,7 @@
         "factionEn": "The Grey Blades",
         "lord": false,
         "sortOrder": 2,
-        "portrait": "./grey-blades-hq-02-garroq-v214119.webp"
+        "portrait": "./grey-blades-hq-02-garroq-v214121.webp"
       },
       {
         "faction": "star-piercers",
@@ -25,7 +25,7 @@
         "factionEn": "Star Piercers",
         "lord": false,
         "sortOrder": 47,
-        "portrait": "./grey-blades-hq-02-garroq-v214119.webp"
+        "portrait": "./grey-blades-hq-02-garroq-v214121.webp"
       }
     ],
     "collectionValue": null,
