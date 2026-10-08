@@ -1,11 +1,11 @@
-const CACHE_NAME = "namangam-wor-v21421-banner-review-pulse";
+const CACHE_NAME = "namangam-wor-v214122-home-list-consistency";
 
 const CORE_ASSETS = [
   "/beginner-guide-nav.css?v=2.14.16",
   "/hero-activity.css?v=2.14.15",
-  "/styles.css?v=2.13.4m",
-  "/app.js?v=2.14.21",
-  "/heroes.json?v=2.13.4",
+  "/styles.css?v=2.14.113",
+  "/home-layout.css?v=2.14.122",
+  "/app.js?v=2.14.122",
   "/gear-presets.js?v=2.11.45c",
   "/gear-presets.json",
   "/manifest.webmanifest",
@@ -49,8 +49,9 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
 
+  // Hero data and activity are dynamic Worker responses; keep them on the network.
   // Never store comments, moderation results, or authentication responses offline.
-  if (url.pathname.startsWith("/api/comments") || url.pathname === "/api/recent-updates" || url.pathname.startsWith("/admin/") || url.pathname.startsWith("/cdn-cgi/access/")) {
+  if (url.pathname === "/heroes.json" || url.pathname.startsWith("/api/comments") || url.pathname === "/api/recent-updates" || url.pathname.startsWith("/admin/") || url.pathname.startsWith("/cdn-cgi/access/")) {
     event.respondWith(fetch(request, { cache: "no-store" }));
     return;
   }
@@ -68,7 +69,8 @@ self.addEventListener("fetch", (event) => {
     url.pathname.endsWith("/comments.css") ||
     url.pathname.endsWith("/app.js") ||
     url.pathname.endsWith("/styles.css") ||
-    url.pathname.endsWith("/heroes.json") ||
+    url.pathname.endsWith("/home-layout.css") ||
+    url.pathname.endsWith("/hero-activity.css") ||
     url.pathname.endsWith("/gear-presets.js") ||
     url.pathname.endsWith("/gear-presets.json") ||
     url.pathname.endsWith("/manifest.webmanifest");

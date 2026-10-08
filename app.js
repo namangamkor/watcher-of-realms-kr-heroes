@@ -1,6 +1,7 @@
+// v2.14.122: stable initial roster and synchronized cache updates.
 // v2.14.12: owner-confirmed update priority. First 46 are explicitly ordered.
 // Remaining heroes retain source-data order; no release/update dates are inferred.
-// Read the initial Worker-rendered order instead of maintaining a separate hero ID list.
+// Use the same baseline as the Worker when activity timestamps are equal.
 const heroDisplayOrder = ["garroq","amelia-ainsworth","rosalia","oakenvar","beirasia","ezio-della-notte","evie-frye","bayek","eivor-varinsdottir","kassandra","ezio-auditore","cainan","jezebelle","vera","lulu","clarissa","gu-shi","su-yue","janus-grismore","oren","solaris","dane","graves-greybeard","gul-drak","akirastar","violetta-vane","gretchen","guan-yu","sergei","pierre","ruen-hollow","khadgrim","aedrin","rivenhald","leikan","lady-mina","count-dracula","dr-van-helsing","kane","eirlys","sythra","ne-zha","erlang-shen","draelyn","valara","astrael","moriden","nerissa","nastya","numera","abomination","abyss","admiral-claw","aeon","aeris","ai","ain","ajax","alaura","alistair","anai","anora","apsan","aracha","ardea","ardeth","ares","arrogance","artemis","atrox","aurelius-gale","autumn","aveline","aylin","azhor","azzoth","baron","beatrix","beelzebub","boreas","borut","brienne","brokkir","brunor","calista","calypso","camille","captain-reve","carnelian","carosa","cassiel","cerberus","constance","corven","crach","cutter","cyclone","cyrene","cyrus","daemon","dagna","dahlia","dalyn","dassomi","decimus","deimos","demi","diaochan","dolores","drayga","drogo","durza","edith","elddr","eliza","elowyn","elukas","elysia","eona","esme","estrid","eunomia","ezareth","ezryn","faelin","falcia","fenris","ferssi","filippa","ghan","gisele","glacius","gluttony","gonkba","greed","gwendolyn","harpun","hatssut","helga","hex","hollow","idril","imani","ingrid","init","iovar","isolde","janqhar","jeera","jorge","kaede","kai","kalina","khamet","kigiri","kineza","king-harz","knight-arlott","komodo","kria","krodor","lady-alexandra","laseer","laurel","laya","liam","lightlocke","lili","livian","lord-phineas","lu-bu","lucius","lugaru","luneria","lust","lynx","lyra","magda","magmus","malrik","malvira","marri","maul","maw","meriel","midan","morene","morrigan","myca","nauvras","nazeem","niro","nisalt","nissandei","nocturne","nyx","olague","orim","osiren","pelagios","praetus","pyros","raiden","raizan","razaak","regulus","rex","rhox","rork","rygar","sadie","salazar","sargak","scorch","selene","selkath","serephina","setram","shamir","silas","solcadens","soleil","sorzus","sun-wukong","talin","talula","tazira","thallen","theowin","thunkles","titus","torodor","trusk","twinfiend","twyla","uredin","valderon","valeriya","valkyra","vargus","varro-draccus","velisse","venoma","vierna","vixera","vlad-draculea","vladov","volka","voltus","vorn","voroth","vortex","wrath","xaris","xasny","xena","ymiret","yuri","zelus","zilitu"];
 const heroDisplayRank = new Map(heroDisplayOrder.map((id, index) => [id, index]));
 let heroActivity = new Map();
@@ -68,9 +69,8 @@ function setHeroListView(view, remember = false) {
 }
 
 setHeroListView(document.documentElement.dataset.heroView);
-if (heroViewControls) heroViewControls.hidden = false;
 heroViewButtons.forEach((button) => {
-  button.addEventListener("click", () => setHeroListView(button.dataset.heroView, true));
+  button.onclick = () => setHeroListView(button.dataset.heroView, true);
 });
 
 const emptyState = document.querySelector("#emptyState");
@@ -529,6 +529,23 @@ function updateSearchHeader(query, resultCount) {
   }
 }
 
+// Keep unchanged cards (and their loaded images) across startup and pagination.
+// The Worker uses the same markup, so hydration does not replace the initial grid.
+function renderHeroCards(markup) {
+  const template = document.createElement("template");
+  template.innerHTML = markup;
+  const existing = new Map(Array.from(heroGrid.children, node => [node.getAttribute("href"), node]));
+  const cards = Array.from(template.content.children, node => {
+    const current = existing.get(node.getAttribute("href"));
+    return current?.isEqualNode(node) ? current : node;
+  });
+  cards.forEach((node, index) => {
+    const current = heroGrid.children[index];
+    if (node !== current) heroGrid.insertBefore(node, current || null);
+  });
+  while (heroGrid.children.length > cards.length) heroGrid.lastElementChild.remove();
+}
+
 function render() {
   if (!heroes.length) return;
   const query = searchInput.value.trim();
@@ -549,9 +566,9 @@ function render() {
 
     updateSearchHeader(query, filtered.length);
 
-    heroGrid.innerHTML = filtered.slice(0, visibleLimit)
+    renderHeroCards(filtered.slice(0, visibleLimit)
       .map((hero) => card(hero, getPrimaryMembership(hero), true))
-      .join("");
+      .join(""));
 
     emptyState.hidden = filtered.length !== 0;
     updatePage(filtered.length);
@@ -570,9 +587,9 @@ function render() {
 
     updateAllHeroesHeader(filtered.length);
 
-    heroGrid.innerHTML = filtered.slice(0, visibleLimit)
+    renderHeroCards(filtered.slice(0, visibleLimit)
       .map((hero) => card(hero, getPrimaryMembership(hero), true))
-      .join("");
+      .join(""));
 
     emptyState.hidden = filtered.length !== 0;
     updatePage(filtered.length);
@@ -597,9 +614,9 @@ function render() {
 
   updateFactionHeader(meta);
 
-  heroGrid.innerHTML = filtered.slice(0, visibleLimit)
+  renderHeroCards(filtered.slice(0, visibleLimit)
     .map(({ hero, membership }) => card(hero, membership, false))
-    .join("");
+    .join(""));
 
   emptyState.hidden = filtered.length !== 0;
   updatePage(filtered.length);
@@ -655,16 +672,23 @@ function renderRecentUpdates(items) {
   if (fragment.childNodes.length) recentUpdateList.replaceChildren(fragment);
 }
 
+// Preserve the server's activity/order if the subsequent API request fails.
+let initialHeroActivity = [];
+try {
+  const snapshot = JSON.parse(document.querySelector("#heroActivitySnapshot")?.textContent || "{}");
+  if (Array.isArray(snapshot.heroActivity)) initialHeroActivity = snapshot.heroActivity;
+} catch (error) { console.warn("Initial hero activity could not be read", error); }
+
 // Keep the server-rendered cards visible until both sources are ready.
 // A partial render with heroes.json but no activity briefly restores the old order.
-const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.121", { cache: "no-store" })
+const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.122", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("recent updates load failed");
     return response.json();
   })
   .catch((error) => { console.warn(error); return null; });
 
-const heroesPromise = fetch("./heroes.json?v=2.14.121", { cache: "no-store" })
+const heroesPromise = fetch("./heroes.json?v=2.14.122", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
@@ -677,9 +701,7 @@ Promise.all([heroesPromise, recentUpdatesPromise])
     const combined = [...editorial, ...(updates?.updates || [])];
     const distinct = [...new Map(combined.map(item=>[item.id,item])).values()].sort((a,b)=>b.timestamp-a.timestamp);
     if (distinct.length) renderRecentUpdates(distinct);
-    if (updates) {
-      applyHeroActivity(updates.heroActivity);
-    }
+    applyHeroActivity(updates?.heroActivity || initialHeroActivity);
     syncFactionTotalsFromHeroes();
     updateArtifactProgressNote();
     render();
@@ -1010,7 +1032,7 @@ if (backToTopButton) {
 // Register service worker
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
-    navigator.serviceWorker.register("/sw.js").catch((error) => {
+    navigator.serviceWorker.register("/sw.js", { updateViaCache: "none" }).catch((error) => {
       console.error("Service worker registration failed:", error);
     });
   });

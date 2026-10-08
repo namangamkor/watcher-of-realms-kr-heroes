@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ko">
 <head>
-  <meta name="worwiki-patch-version" content="2.14.121">
+  <meta name="worwiki-patch-version" content="2.14.122">
   <meta charset="UTF-8" />
   <!-- gear-route-rescue -->
   <script>
@@ -90,7 +90,7 @@
 }
   </script>
 <link rel="stylesheet" href="/hero-activity.css?v=2.14.15">
-  <link rel="stylesheet" href="/home-layout.css?v=2.14.120" />
+  <link rel="stylesheet" href="/home-layout.css?v=2.14.122" />
 </head>
 <body>
   <header class="topbar">
@@ -383,7 +383,7 @@
 </div>
       </div>
 
-      <div id="heroViewControls" class="hero-view-controls" role="group" aria-label="영웅 목록 보기 방식" hidden>
+      <div id="heroViewControls" class="hero-view-controls" role="group" aria-label="영웅 목록 보기 방식">
         <span class="hero-view-label">보기</span>
         <div class="hero-view-toggle">
           <button class="hero-view-button" type="button" data-hero-view="detailed" aria-controls="heroGrid" aria-pressed="true">
@@ -397,257 +397,666 @@
         </div>
       </div>
 
+<script>
+(function () {
+  var buttons = document.querySelectorAll("#heroViewControls [data-hero-view]");
+  function setView(view, remember) {
+    var mode = view === "compact" ? "compact" : "detailed";
+    document.documentElement.dataset.heroView = mode;
+    buttons.forEach(function (button) {
+      button.setAttribute("aria-pressed", String(button.dataset.heroView === mode));
+    });
+    if (remember) {
+      try { localStorage.setItem("worwiki.heroView", mode); } catch (error) {}
+    }
+  }
+  setView(document.documentElement.dataset.heroView, false);
+  buttons.forEach(function (button) {
+    button.onclick = function () { setView(button.dataset.heroView, true); };
+  });
+})();
+</script>
+
       <div id="heroGrid" class="hero-grid" aria-live="polite">
-<a class="hero-card-link" href="/hero/garroq/" aria-label="가로크 상세 보기"><article class="hero-card"><div class="card-visual"><img src="./grey-blades-hq-02-garroq-v214121.webp" alt="가로크 영웅 카드" loading="lazy"></div><div class="card-body"><div class="card-topline"><span class="tag legendary">전설</span></div><h3>가로크</h3><p class="en">Garroq</p><p class="meta">전사 · 황혼 그림자의 칼날</p></div></article></a>
-<a class="hero-card-link" href="/hero/amelia-ainsworth/" aria-label="아멜리아 (Amelia Ainsworth) 상세 보기">
+
+    <a class="hero-card-link" href="/hero/garroq/" aria-label="가로크 (Garroq) 상세 보기">
     <article class="hero-card">
-      <div class="card-visual"><img src="./grey-blades-hq-01-amelia-ainsworth-v214117.webp" alt="아멜리아 (Amelia Ainsworth) 영웅 카드" loading="eager"></div>
+      <div class="card-visual">
+        <img src="./grey-blades-hq-02-garroq-v214121.webp" alt="가로크 (Garroq) 영웅 카드" loading="lazy">
+        
+      </div>
       <div class="card-body">
-        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-08T00:40:00.000Z">10.8</time></span>
-        <div class="card-topline"><span class="tag lord">영주</span><span class="tag legendary">전설</span></div>
-        <h3>아멜리아</h3><p class="en">Amelia Ainsworth</p><p class="meta">궁수 · 황혼 그림자의 칼날</p>
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-08T01:24:19.000Z">10.8</time></span>
+        <div class="card-topline">
+          
+          <span class="tag legendary">전설</span>
+          <span class="tag dual" title="황혼 그림자의 칼날 · 관성의 화살">이중 진영</span>
+        </div>
+        <h3>가로크</h3>
+        <p class="en">Garroq</p>
+        <p class="meta">전사 · 황혼 그림자의 칼날 · 관성의 화살</p>
+        
       </div>
     </article>
-  </a>
-<a class="hero-card-link" href="/hero/valara/" aria-label="발레리아 상세 보기"><article class="hero-card"><div class="card-visual"><img src="./valara-dual-faction-v214108.webp" alt="발레리아 영웅 카드" loading="lazy"><div class="collection-value-badge cv-50" aria-label="수집가치 5 / 5.0"><span class="collection-value-mini-label">수집</span><strong>5.0</strong></div></div><div class="card-body"><div class="card-topline"><span class="tag legendary">전설</span></div><h3>발레리아</h3><p class="en">Valara</p><p class="meta">전술마스터 · 비법회</p></div></article></a>
-<a class="hero-card-link" href="/hero/cainan/" aria-label="카이난 (Cainan) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./watch-guard-hq-27-cainan.webp" alt="카이난 (Cainan) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-50" title="수집가치 5.0 / 5.0 · 최우선급" aria-label="수집가치 5.0 / 5.0 · 최우선급"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5 7.4 11 12 5l4.6 6L20 7.5l-1.7 10.2H5.7L4 7.5Z"/><path d="M7 20h10"/></svg></span><span class="collection-value-mini-label">수집</span><strong>5.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
-        
-        <span class="tag legendary">전설</span>
-        <span class="tag dual" title="파수꾼 소대 · 연옥">이중 진영</span>
-      </div>
-      <h3>카이난</h3>
-      <p class="en">Cainan</p>
-      <p class="meta">전술마스터 · 파수꾼 소대 · 연옥</p>
-      <div class="content-tags"><span class="content-tag abyss" title="Abyss 추천 영웅">심연</span></div>
-    </div>
-  </article>
-</a>
-<a class="hero-card-link" href="/hero/lulu/" aria-label="루루 (Lulu) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./north-throne-hq-26-lulu.webp" alt="루루 (Lulu) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-30" title="수집가치 3.0 / 5.0 · 보통" aria-label="수집가치 3.0 / 5.0 · 보통"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 7 4v10l-7 4-7-4V7l7-4Z"/><circle cx="12" cy="12" r="2.2"/></svg></span><span class="collection-value-mini-label">수집</span><strong>3.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
-        
-        <span class="tag legendary">전설</span>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/amelia-ainsworth/" aria-label="아멜리아 (Amelia Ainsworth) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./grey-blades-hq-01-amelia-ainsworth-v214117.webp" alt="아멜리아 (Amelia Ainsworth) 영웅 카드" loading="lazy">
         
       </div>
-      <h3>루루</h3>
-      <p class="en">Lulu</p>
-      <p class="meta">전술마스터 · 북쪽 경계 왕좌</p>
-      
-    </div>
-  </article>
-</a>
-<a class="hero-card-link" href="/hero/su-yue/" aria-label="소설백 (Su Yue) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./north-throne-hq-36-su-yue.webp" alt="소설백 (Su Yue) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span><span class="collection-value-mini-label">수집</span><strong>4.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
-        
-        <span class="tag legendary">전설</span>
-        <span class="tag dual" title="북쪽 경계 왕좌 · 최고 중재자">이중 진영</span>
-      </div>
-      <h3>소설백</h3>
-      <p class="en">Su Yue</p>
-      <p class="meta">전술마스터 · 북쪽 경계 왕좌 · 최고 중재자</p>
-      
-    </div>
-  </article>
-</a>
-<a class="hero-card-link" href="/hero/guan-yu/" aria-label="관우 상세 보기"><article class="hero-card"><div class="card-visual"><img src="./watch-guard-hq-21-guan-yu.webp" alt="관우 영웅 카드" loading="lazy"><div class="collection-value-badge cv-40" aria-label="수집가치 4 / 5.0"><span class="collection-value-mini-label">수집</span><strong>4.0</strong></div></div><div class="card-body"><div class="card-topline"><span class="tag legendary">전설</span></div><h3>관우</h3><p class="en">Guan Yu</p><p class="meta">전술마스터 · 파수꾼 소대</p></div></article></a>
-<a class="hero-card-link" href="/hero/moriden/" aria-label="모리던 상세 보기"><article class="hero-card"><div class="card-visual"><img src="./nightmare-council-hq-27-moriden.webp" alt="모리던 영웅 카드" loading="lazy"><div class="collection-value-badge cv-40" aria-label="수집가치 4 / 5.0"><span class="collection-value-mini-label">수집</span><strong>4.0</strong></div></div><div class="card-body"><div class="card-topline"><span class="tag legendary">전설</span></div><h3>모리던</h3><p class="en">Moriden</p><p class="meta">전술마스터 · 악몽 의회</p></div></article></a>
-<a class="hero-card-link" href="/hero/vlad-draculea/" aria-label="블라드3세 상세 보기"><article class="hero-card"><div class="card-visual"><img src="./cursed-cult-hq-29-vlad-draculea.webp" alt="블라드3세 영웅 카드" loading="lazy"><div class="collection-value-badge cv-20" aria-label="수집가치 2 / 5.0"><span class="collection-value-mini-label">수집</span><strong>2.0</strong></div></div><div class="card-body"><div class="card-topline"><span class="tag legendary">전설</span></div><h3>블라드3세</h3><p class="en">Vlad Draculea</p><p class="meta">전술마스터 · 저주신교</p></div></article></a>
-<a class="hero-card-link" href="/hero/rosalia/" data-ww-updated-priority="1790460303" style="--ww-update-order:-1000" aria-label="로살리아 (Rosalia) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./cursed-cult-hq-30-rosalia-v21469.webp" alt="로살리아 (Rosalia) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span><span class="collection-value-mini-label">수집</span><strong>4.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
-        
-        <span class="tag legendary">전설</span>
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-08T01:12:31.000Z">10.8</time></span>
+        <div class="card-topline">
+          <span class="tag lord">영주</span>
+          <span class="tag legendary">전설</span>
+          
+        </div>
+        <h3>아멜리아</h3>
+        <p class="en">Amelia Ainsworth</p>
+        <p class="meta">궁수 · 황혼 그림자의 칼날</p>
         
       </div>
-      <h3>로살리아</h3>
-      <p class="en">Rosalia</p>
-      <p class="meta">전사 · 저주신교</p>
-      <div class="content-tags"><span class="content-tag arena-aoe" title="Arena AoE 추천 영웅">아레나광역</span></div>
-    </div>
-  </article>
-</a>
-<a class="hero-card-link" href="/hero/ezio-della-notte/" aria-label="어둠의 에지오 (Ezio della Notte) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./chaos-dominion-hq-28-ezio-della-notte.webp" alt="어둠의 에지오 (Ezio della Notte) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span><span class="collection-value-mini-label">수집</span><strong>4.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
+    </article>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/valara/" aria-label="발레리아 (Valara) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./valara-dual-faction-v214108.webp" alt="발레리아 (Valara) 영웅 카드" loading="lazy">
         
-        <span class="tag legendary">전설</span>
-        <span class="tag dual" title="혼돈 정복자 · 관성의 화살">이중 진영</span>
+    <div class="collection-value-badge cv-50" title="수집가치 5.0 / 5.0 · 최우선급" aria-label="수집가치 5.0 / 5.0 · 최우선급">
+      <span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5 7.4 11 12 5l4.6 6L20 7.5l-1.7 10.2H5.7L4 7.5Z"/><path d="M7 20h10"/></svg></span>
+      <span class="collection-value-mini-label">수집</span>
+      <strong>5.0</strong>
+    </div>
+  
       </div>
-      <h3>어둠의 에지오</h3>
-      <p class="en">Ezio della Notte</p>
-      <p class="meta">전사 · 혼돈 정복자 · 관성의 화살</p>
-      <div class="content-tags"><span class="content-tag arena-air" title="Arena Air 추천 영웅">아레나공중</span></div>
-    </div>
-  </article>
-</a>
-<a class="hero-card-link" href="/hero/evie-frye/" aria-label="이비 프라이 (Evie Frye) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./star-piercers-hq-46-evie-frye-v21480.webp" alt="이비 프라이 (Evie Frye) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span><span class="collection-value-mini-label">수집</span><strong>4.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
-        
-        <span class="tag legendary">전설</span>
-        
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-06T15:54:01.000Z">10.7</time></span>
+        <div class="card-topline">
+          
+          <span class="tag legendary">전설</span>
+          <span class="tag dual" title="비법회 · 최고 중재자">이중 진영</span>
+        </div>
+        <h3>발레리아</h3>
+        <p class="en">Valara</p>
+        <p class="meta">전술마스터 · 비법회 · 최고 중재자</p>
+        <div class="content-tags"><span class="content-tag arena-air" title="Arena Air 추천 영웅">아레나공중</span><span class="content-tag arena-aoe" title="Arena AoE 추천 영웅">아레나광역</span></div>
       </div>
-      <h3>이비 프라이</h3>
-      <p class="en">Evie Frye</p>
-      <p class="meta">궁수 · 관성의 화살</p>
-      
-    </div>
-  </article>
-</a>
-<a class="hero-card-link" href="/hero/bayek/" aria-label="바예크 (Bayek) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./bayek-dual-faction-v21486.webp" alt="바예크 (Bayek) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span><span class="collection-value-mini-label">수집</span><strong>4.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
+    </article>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/cainan/" aria-label="카이난 (Cainan) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./watch-guard-hq-27-cainan.webp" alt="카이난 (Cainan) 영웅 카드" loading="lazy">
         
-        <span class="tag legendary">전설</span>
-        <span class="tag dual" title="악몽 의회 · 관성의 화살">이중 진영</span>
+    <div class="collection-value-badge cv-50" title="수집가치 5.0 / 5.0 · 최우선급" aria-label="수집가치 5.0 / 5.0 · 최우선급">
+      <span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5 7.4 11 12 5l4.6 6L20 7.5l-1.7 10.2H5.7L4 7.5Z"/><path d="M7 20h10"/></svg></span>
+      <span class="collection-value-mini-label">수집</span>
+      <strong>5.0</strong>
+    </div>
+  
       </div>
-      <h3>바예크</h3>
-      <p class="en">Bayek</p>
-      <p class="meta">궁수 · 악몽 의회 · 관성의 화살</p>
-      
-    </div>
-  </article>
-</a>
-<a class="hero-card-link" href="/hero/eivor-varinsdottir/" aria-label="에이보르 (Eivor Varinsdottir) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./watch-guard-hq-24-eivor-varinsdottir.webp" alt="에이보르 (Eivor Varinsdottir) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span><span class="collection-value-mini-label">수집</span><strong>4.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-06T15:04:41.000Z">10.7</time></span>
+        <div class="card-topline">
+          
+          <span class="tag legendary">전설</span>
+          <span class="tag dual" title="파수꾼 소대 · 연옥">이중 진영</span>
+        </div>
+        <h3>카이난</h3>
+        <p class="en">Cainan</p>
+        <p class="meta">전술마스터 · 파수꾼 소대 · 연옥</p>
+        <div class="content-tags"><span class="content-tag abyss" title="Abyss 추천 영웅">심연</span><span class="content-tag fallen-twins" title="Fallen Twins 추천 영웅">타천의쌍둥이</span></div>
+      </div>
+    </article>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/lulu/" aria-label="루루 (Lulu) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./north-throne-hq-26-lulu.webp" alt="루루 (Lulu) 영웅 카드" loading="lazy">
         
-        <span class="tag legendary">전설</span>
-        <span class="tag dual" title="파수꾼 소대 · 북쪽 경계 왕좌">이중 진영</span>
+    <div class="collection-value-badge cv-30" title="수집가치 3.0 / 5.0 · 보통" aria-label="수집가치 3.0 / 5.0 · 보통">
+      <span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 7 4v10l-7 4-7-4V7l7-4Z"/><circle cx="12" cy="12" r="2.2"/></svg></span>
+      <span class="collection-value-mini-label">수집</span>
+      <strong>3.0</strong>
+    </div>
+  
       </div>
-      <h3>에이보르</h3>
-      <p class="en">Eivor Varinsdottir</p>
-      <p class="meta">전사 · 파수꾼 소대 · 북쪽 경계 왕좌</p>
-      
-    </div>
-  </article>
-</a>
-<a class="hero-card-link" href="/hero/kassandra/" aria-label="카산드라 (Kassandra) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./watch-guard-hq-25-kassandra.webp" alt="카산드라 (Kassandra) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-50" title="수집가치 5.0 / 5.0 · 최우선급" aria-label="수집가치 5.0 / 5.0 · 최우선급"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5 7.4 11 12 5l4.6 6L20 7.5l-1.7 10.2H5.7L4 7.5Z"/><path d="M7 20h10"/></svg></span><span class="collection-value-mini-label">수집</span><strong>5.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
-        
-        <span class="tag legendary">전설</span>
-        <span class="tag dual" title="파수꾼 소대 · 최고 중재자">이중 진영</span>
-      </div>
-      <h3>카산드라</h3>
-      <p class="en">Kassandra</p>
-      <p class="meta">전사 · 파수꾼 소대 · 최고 중재자</p>
-      <div class="content-tags"><span class="content-tag abyss" title="Abyss 추천 영웅">심연</span></div>
-    </div>
-  </article>
-</a>
-<a class="hero-card-link" href="/hero/ezio-auditore/" aria-label="에지오 아디토레 (Ezio Auditore) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./watch-guard-hq-23-ezio-auditore.webp" alt="에지오 아디토레 (Ezio Auditore) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span><span class="collection-value-mini-label">수집</span><strong>4.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
-        
-        <span class="tag legendary">전설</span>
-        <span class="tag dual" title="파수꾼 소대 · 최고 중재자">이중 진영</span>
-      </div>
-      <h3>에지오 아디토레</h3>
-      <p class="en">Ezio Auditore</p>
-      <p class="meta">전술마스터 · 파수꾼 소대 · 최고 중재자</p>
-      <div class="content-tags"><span class="content-tag abyss" title="Abyss 추천 영웅">심연</span></div>
-    </div>
-  </article>
-</a>
-<a class="hero-card-link" href="/hero/jezebelle/" aria-label="지제벨 (Jezebelle) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./chaos-dominion-hq-03-jezebelle.webp" alt="지제벨 (Jezebelle) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-50" title="수집가치 5.0 / 5.0 · 최우선급" aria-label="수집가치 5.0 / 5.0 · 최우선급"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5 7.4 11 12 5l4.6 6L20 7.5l-1.7 10.2H5.7L4 7.5Z"/><path d="M7 20h10"/></svg></span><span class="collection-value-mini-label">수집</span><strong>5.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
-        <span class="tag lord">영주</span>
-        <span class="tag legendary">전설</span>
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-06T15:04:41.000Z">10.7</time></span>
+        <div class="card-topline">
+          
+          <span class="tag legendary">전설</span>
+          
+        </div>
+        <h3>루루</h3>
+        <p class="en">Lulu</p>
+        <p class="meta">전술마스터 · 북쪽 경계 왕좌</p>
         
       </div>
-      <h3>지제벨</h3>
-      <p class="en">Jezebelle</p>
-      <p class="meta">궁수 · 혼돈 정복자</p>
-      <div class="content-tags"><span class="content-tag arena-air" title="Arena Air 추천 영웅">아레나공중</span></div>
-    </div>
-  </article>
-</a>
-<a class="hero-card-link" href="/hero/gu-shi/" aria-label="고결 (Gu Shi) 상세 보기">
-  <article class="hero-card">
-    <div class="card-visual">
-      <img src="./infernal-blast-hq-24-gu-shi.webp" alt="고결 (Gu Shi) 영웅 카드" loading="lazy">
-      <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치"><span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span><span class="collection-value-mini-label">수집</span><strong>4.0</strong></div>
-    </div>
-    <div class="card-body">
-      <div class="card-topline">
+    </article>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/su-yue/" aria-label="소설백 (Su Yue) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./north-throne-hq-36-su-yue.webp" alt="소설백 (Su Yue) 영웅 카드" loading="lazy">
         
-        <span class="tag legendary">전설</span>
-        <span class="tag dual" title="연옥 · 관성의 화살">이중 진영</span>
-      </div>
-      <h3>고결</h3>
-      <p class="en">Gu Shi</p>
-      <p class="meta">궁수 · 연옥 · 관성의 화살</p>
-      
+    <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치">
+      <span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span>
+      <span class="collection-value-mini-label">수집</span>
+      <strong>4.0</strong>
     </div>
-  </article>
-</a>
-<a class="hero-card-link" href="/hero/akirastar/" aria-label="아키라 상세 보기"><article class="hero-card"><div class="card-visual"><img src="./north-throne-hq-23-akirastar.webp" alt="아키라 영웅 카드" loading="lazy"><div class="collection-value-badge cv-30" aria-label="수집가치 3 / 5.0"><span class="collection-value-mini-label">수집</span><strong>3.0</strong></div></div><div class="card-body"><div class="card-topline"><span class="tag legendary">전설</span></div><h3>아키라</h3><p class="en">AkiraStar</p><p class="meta">궁수 · 북쪽 경계 왕좌</p></div></article></a>
-<a class="hero-card-link" href="/hero/violetta-vane/" aria-label="비올레타베인 상세 보기"><article class="hero-card"><div class="card-visual"><img src="./infernal-blast-hq-18-violetta-vane.webp" alt="비올레타베인 영웅 카드" loading="lazy"><div class="collection-value-badge cv-40" aria-label="수집가치 4 / 5.0"><span class="collection-value-mini-label">수집</span><strong>4.0</strong></div></div><div class="card-body"><div class="card-topline"><span class="tag legendary">전설</span></div><h3>비올레타베인</h3><p class="en">Violetta Vane</p><p class="meta">마법사 · 연옥</p></div></article></a>
-<a class="hero-card-link" href="/hero/pierre/" aria-label="피에르 상세 보기"><article class="hero-card"><div class="card-visual"><img src="./cursed-cult-hq-26-pierre.webp" alt="피에르 영웅 카드" loading="lazy"><div class="collection-value-badge cv-40" aria-label="수집가치 4 / 5.0"><span class="collection-value-mini-label">수집</span><strong>4.0</strong></div></div><div class="card-body"><div class="card-topline"><span class="tag legendary">전설</span></div><h3>피에르</h3><p class="en">Pierre</p><p class="meta">마법사 · 저주신교</p></div></article></a>
-<a class="hero-card-link" href="/hero/khadgrim/" aria-label="카드그림 상세 보기"><article class="hero-card"><div class="card-visual"><img src="./north-throne-hq-22-khadgrim.webp" alt="카드그림 영웅 카드" loading="lazy"><div class="collection-value-badge cv-50" aria-label="수집가치 5 / 5.0"><span class="collection-value-mini-label">수집</span><strong>5.0</strong></div></div><div class="card-body"><div class="card-topline"><span class="tag legendary">전설</span></div><h3>카드그림</h3><p class="en">Khadgrim</p><p class="meta">수호자 · 북쪽 경계 왕좌</p></div></article></a>
-<a class="hero-card-link" href="/hero/aedrin/" aria-label="에드린 상세 보기"><article class="hero-card"><div class="card-visual"><img src="./north-throne-hq-33-aedrin.webp" alt="에드린 영웅 카드" loading="lazy"><div class="collection-value-badge cv-30" aria-label="수집가치 3 / 5.0"><span class="collection-value-mini-label">수집</span><strong>3.0</strong></div></div><div class="card-body"><div class="card-topline"><span class="tag legendary">전설</span></div><h3>에드린</h3><p class="en">Aedrin</p><p class="meta">전사 · 북쪽 경계 왕좌</p></div></article></a>
-<a class="hero-card-link" href="/hero/rivenhald/" aria-label="레이븐홀드 상세 보기"><article class="hero-card"><div class="card-visual"><img src="./north-throne-hq-03-rivenhald.webp" alt="레이븐홀드 영웅 카드" loading="lazy"><div class="collection-value-badge cv-50" aria-label="수집가치 5 / 5.0"><span class="collection-value-mini-label">수집</span><strong>5.0</strong></div></div><div class="card-body"><div class="card-topline"><span class="tag legendary">전설</span></div><h3>레이븐홀드</h3><p class="en">Rivenhald</p><p class="meta">전술마스터 · 북쪽 경계 왕좌</p></div></article></a>
+  
+      </div>
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-06T15:04:41.000Z">10.7</time></span>
+        <div class="card-topline">
+          
+          <span class="tag legendary">전설</span>
+          <span class="tag dual" title="북쪽 경계 왕좌 · 최고 중재자">이중 진영</span>
+        </div>
+        <h3>소설백</h3>
+        <p class="en">Su Yue</p>
+        <p class="meta">전술마스터 · 북쪽 경계 왕좌 · 최고 중재자</p>
+        
+      </div>
+    </article>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/guan-yu/" aria-label="관우 (Guan Yu) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./watch-guard-hq-21-guan-yu.webp" alt="관우 (Guan Yu) 영웅 카드" loading="lazy">
+        
+    <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치">
+      <span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span>
+      <span class="collection-value-mini-label">수집</span>
+      <strong>4.0</strong>
+    </div>
+  
+      </div>
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-06T15:04:41.000Z">10.7</time></span>
+        <div class="card-topline">
+          
+          <span class="tag legendary">전설</span>
+          <span class="tag dual" title="파수꾼 소대 · 북쪽 경계 왕좌">이중 진영</span>
+        </div>
+        <h3>관우</h3>
+        <p class="en">Guan Yu</p>
+        <p class="meta">전술마스터 · 파수꾼 소대 · 북쪽 경계 왕좌</p>
+        
+      </div>
+    </article>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/moriden/" aria-label="모리던 (Moriden) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./nightmare-council-hq-27-moriden.webp" alt="모리던 (Moriden) 영웅 카드" loading="lazy">
+        
+    <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치">
+      <span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span>
+      <span class="collection-value-mini-label">수집</span>
+      <strong>4.0</strong>
+    </div>
+  
+      </div>
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-06T15:04:41.000Z">10.7</time></span>
+        <div class="card-topline">
+          
+          <span class="tag legendary">전설</span>
+          <span class="tag dual" title="악몽 의회 · 비법회">이중 진영</span>
+        </div>
+        <h3>모리던</h3>
+        <p class="en">Moriden</p>
+        <p class="meta">전술마스터 · 악몽 의회 · 비법회</p>
+        <div class="content-tags"><span class="content-tag abyss" title="Abyss 추천 영웅">심연</span></div>
+      </div>
+    </article>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/vlad-draculea/" aria-label="블라드3세 (Vlad Draculea) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./cursed-cult-hq-29-vlad-draculea.webp" alt="블라드3세 (Vlad Draculea) 영웅 카드" loading="lazy">
+        
+    <div class="collection-value-badge cv-20" title="수집가치 2.0 / 5.0 · 낮은 편" aria-label="수집가치 2.0 / 5.0 · 낮은 편">
+      <span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 19 6v5c0 4.3-2.6 7.5-7 9.6C7.6 18.5 5 15.3 5 11V6l7-3Z"/><path d="M8.5 12h7"/></svg></span>
+      <span class="collection-value-mini-label">수집</span>
+      <strong>2.0</strong>
+    </div>
+  
+      </div>
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-06T15:04:41.000Z">10.7</time></span>
+        <div class="card-topline">
+          
+          <span class="tag legendary">전설</span>
+          
+        </div>
+        <h3>블라드3세</h3>
+        <p class="en">Vlad Draculea</p>
+        <p class="meta">전술마스터 · 저주신교</p>
+        
+      </div>
+    </article>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/rosalia/" aria-label="로살리아 (Rosalia) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./cursed-cult-hq-30-rosalia-v21469.webp" alt="로살리아 (Rosalia) 영웅 카드" loading="lazy">
+        
+    <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치">
+      <span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span>
+      <span class="collection-value-mini-label">수집</span>
+      <strong>4.0</strong>
+    </div>
+  
+      </div>
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-06T14:50:00.000Z">10.6</time></span>
+        <div class="card-topline">
+          
+          <span class="tag legendary">전설</span>
+          
+        </div>
+        <h3>로살리아</h3>
+        <p class="en">Rosalia</p>
+        <p class="meta">전사 · 저주신교</p>
+        <div class="content-tags"><span class="content-tag arena-aoe" title="Arena AoE 추천 영웅">아레나광역</span></div>
+      </div>
+    </article>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/ezio-della-notte/" aria-label="어둠의 에지오 (Ezio della Notte) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./chaos-dominion-hq-28-ezio-della-notte.webp" alt="어둠의 에지오 (Ezio della Notte) 영웅 카드" loading="lazy">
+        
+    <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치">
+      <span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span>
+      <span class="collection-value-mini-label">수집</span>
+      <strong>4.0</strong>
+    </div>
+  
+      </div>
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-06T14:50:00.000Z">10.6</time></span>
+        <div class="card-topline">
+          
+          <span class="tag legendary">전설</span>
+          <span class="tag dual" title="혼돈 정복자 · 관성의 화살">이중 진영</span>
+        </div>
+        <h3>어둠의 에지오</h3>
+        <p class="en">Ezio della Notte</p>
+        <p class="meta">전사 · 혼돈 정복자 · 관성의 화살</p>
+        <div class="content-tags"><span class="content-tag arena-air" title="Arena Air 추천 영웅">아레나공중</span></div>
+      </div>
+    </article>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/evie-frye/" aria-label="이비 프라이 (Evie Frye) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./star-piercers-hq-46-evie-frye-v21480.webp" alt="이비 프라이 (Evie Frye) 영웅 카드" loading="lazy">
+        
+    <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치">
+      <span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span>
+      <span class="collection-value-mini-label">수집</span>
+      <strong>4.0</strong>
+    </div>
+  
+      </div>
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-06T14:50:00.000Z">10.6</time></span>
+        <div class="card-topline">
+          
+          <span class="tag legendary">전설</span>
+          
+        </div>
+        <h3>이비 프라이</h3>
+        <p class="en">Evie Frye</p>
+        <p class="meta">궁수 · 관성의 화살</p>
+        
+      </div>
+    </article>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/bayek/" aria-label="바예크 (Bayek) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./bayek-dual-faction-v21486.webp" alt="바예크 (Bayek) 영웅 카드" loading="lazy">
+        
+    <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치">
+      <span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span>
+      <span class="collection-value-mini-label">수집</span>
+      <strong>4.0</strong>
+    </div>
+  
+      </div>
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-06T14:50:00.000Z">10.6</time></span>
+        <div class="card-topline">
+          
+          <span class="tag legendary">전설</span>
+          <span class="tag dual" title="악몽 의회 · 관성의 화살">이중 진영</span>
+        </div>
+        <h3>바예크</h3>
+        <p class="en">Bayek</p>
+        <p class="meta">궁수 · 악몽 의회 · 관성의 화살</p>
+        
+      </div>
+    </article>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/eivor-varinsdottir/" aria-label="에이보르 (Eivor Varinsdottir) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./watch-guard-hq-24-eivor-varinsdottir.webp" alt="에이보르 (Eivor Varinsdottir) 영웅 카드" loading="lazy">
+        
+    <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치">
+      <span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span>
+      <span class="collection-value-mini-label">수집</span>
+      <strong>4.0</strong>
+    </div>
+  
+      </div>
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-06T14:50:00.000Z">10.6</time></span>
+        <div class="card-topline">
+          
+          <span class="tag legendary">전설</span>
+          <span class="tag dual" title="파수꾼 소대 · 북쪽 경계 왕좌">이중 진영</span>
+        </div>
+        <h3>에이보르</h3>
+        <p class="en">Eivor Varinsdottir</p>
+        <p class="meta">전사 · 파수꾼 소대 · 북쪽 경계 왕좌</p>
+        
+      </div>
+    </article>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/kassandra/" aria-label="카산드라 (Kassandra) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./watch-guard-hq-25-kassandra.webp" alt="카산드라 (Kassandra) 영웅 카드" loading="lazy">
+        
+    <div class="collection-value-badge cv-50" title="수집가치 5.0 / 5.0 · 최우선급" aria-label="수집가치 5.0 / 5.0 · 최우선급">
+      <span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5 7.4 11 12 5l4.6 6L20 7.5l-1.7 10.2H5.7L4 7.5Z"/><path d="M7 20h10"/></svg></span>
+      <span class="collection-value-mini-label">수집</span>
+      <strong>5.0</strong>
+    </div>
+  
+      </div>
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-06T14:50:00.000Z">10.6</time></span>
+        <div class="card-topline">
+          
+          <span class="tag legendary">전설</span>
+          <span class="tag dual" title="파수꾼 소대 · 최고 중재자">이중 진영</span>
+        </div>
+        <h3>카산드라</h3>
+        <p class="en">Kassandra</p>
+        <p class="meta">전사 · 파수꾼 소대 · 최고 중재자</p>
+        <div class="content-tags"><span class="content-tag abyss" title="Abyss 추천 영웅">심연</span></div>
+      </div>
+    </article>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/ezio-auditore/" aria-label="에지오 아디토레 (Ezio Auditore) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./watch-guard-hq-23-ezio-auditore.webp" alt="에지오 아디토레 (Ezio Auditore) 영웅 카드" loading="lazy">
+        
+    <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치">
+      <span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span>
+      <span class="collection-value-mini-label">수집</span>
+      <strong>4.0</strong>
+    </div>
+  
+      </div>
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-06T14:50:00.000Z">10.6</time></span>
+        <div class="card-topline">
+          
+          <span class="tag legendary">전설</span>
+          <span class="tag dual" title="파수꾼 소대 · 최고 중재자">이중 진영</span>
+        </div>
+        <h3>에지오 아디토레</h3>
+        <p class="en">Ezio Auditore</p>
+        <p class="meta">전술마스터 · 파수꾼 소대 · 최고 중재자</p>
+        <div class="content-tags"><span class="content-tag abyss" title="Abyss 추천 영웅">심연</span></div>
+      </div>
+    </article>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/jezebelle/" aria-label="지제벨 (Jezebelle) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./chaos-dominion-hq-03-jezebelle.webp" alt="지제벨 (Jezebelle) 영웅 카드" loading="lazy">
+        
+    <div class="collection-value-badge cv-50" title="수집가치 5.0 / 5.0 · 최우선급" aria-label="수집가치 5.0 / 5.0 · 최우선급">
+      <span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5 7.4 11 12 5l4.6 6L20 7.5l-1.7 10.2H5.7L4 7.5Z"/><path d="M7 20h10"/></svg></span>
+      <span class="collection-value-mini-label">수집</span>
+      <strong>5.0</strong>
+    </div>
+  
+      </div>
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-06T14:50:00.000Z">10.6</time></span>
+        <div class="card-topline">
+          <span class="tag lord">영주</span>
+          <span class="tag legendary">전설</span>
+          
+        </div>
+        <h3>지제벨</h3>
+        <p class="en">Jezebelle</p>
+        <p class="meta">궁수 · 혼돈 정복자</p>
+        <div class="content-tags"><span class="content-tag arena-air" title="Arena Air 추천 영웅">아레나공중</span></div>
+      </div>
+    </article>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/gu-shi/" aria-label="고결 (Gu Shi) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./infernal-blast-hq-24-gu-shi.webp" alt="고결 (Gu Shi) 영웅 카드" loading="lazy">
+        
+    <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치">
+      <span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span>
+      <span class="collection-value-mini-label">수집</span>
+      <strong>4.0</strong>
+    </div>
+  
+      </div>
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-06T14:50:00.000Z">10.6</time></span>
+        <div class="card-topline">
+          
+          <span class="tag legendary">전설</span>
+          <span class="tag dual" title="연옥 · 관성의 화살">이중 진영</span>
+        </div>
+        <h3>고결</h3>
+        <p class="en">Gu Shi</p>
+        <p class="meta">궁수 · 연옥 · 관성의 화살</p>
+        
+      </div>
+    </article>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/akirastar/" aria-label="아키라 (AkiraStar) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./north-throne-hq-23-akirastar.webp" alt="아키라 (AkiraStar) 영웅 카드" loading="lazy">
+        
+    <div class="collection-value-badge cv-30" title="수집가치 3.0 / 5.0 · 보통" aria-label="수집가치 3.0 / 5.0 · 보통">
+      <span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 7 4v10l-7 4-7-4V7l7-4Z"/><circle cx="12" cy="12" r="2.2"/></svg></span>
+      <span class="collection-value-mini-label">수집</span>
+      <strong>3.0</strong>
+    </div>
+  
+      </div>
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-06T14:50:00.000Z">10.6</time></span>
+        <div class="card-topline">
+          
+          <span class="tag legendary">전설</span>
+          <span class="tag dual" title="북쪽 경계 왕좌 · 관성의 화살">이중 진영</span>
+        </div>
+        <h3>아키라</h3>
+        <p class="en">AkiraStar</p>
+        <p class="meta">궁수 · 북쪽 경계 왕좌 · 관성의 화살</p>
+        
+      </div>
+    </article>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/violetta-vane/" aria-label="비올레타베인 (Violetta Vane) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./infernal-blast-hq-18-violetta-vane.webp" alt="비올레타베인 (Violetta Vane) 영웅 카드" loading="lazy">
+        
+    <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치">
+      <span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span>
+      <span class="collection-value-mini-label">수집</span>
+      <strong>4.0</strong>
+    </div>
+  
+      </div>
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-06T14:50:00.000Z">10.6</time></span>
+        <div class="card-topline">
+          
+          <span class="tag legendary">전설</span>
+          
+        </div>
+        <h3>비올레타베인</h3>
+        <p class="en">Violetta Vane</p>
+        <p class="meta">마법사 · 연옥</p>
+        <div class="content-tags"><span class="content-tag fallen-twins" title="Fallen Twins 추천 영웅">타천의쌍둥이</span></div>
+      </div>
+    </article>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/pierre/" aria-label="피에르 (Pierre) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./cursed-cult-hq-26-pierre.webp" alt="피에르 (Pierre) 영웅 카드" loading="lazy">
+        
+    <div class="collection-value-badge cv-40" title="수집가치 4.0 / 5.0 · 높은 가치" aria-label="수집가치 4.0 / 5.0 · 높은 가치">
+      <span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 6 4-6"/><circle cx="12" cy="14.5" r="5.5"/><path d="m12 11.4 1 2 2.2.3-1.6 1.5.4 2.2-2-1.1-2 1.1.4-2.2-1.6-1.5 2.2-.3 1-2Z"/></svg></span>
+      <span class="collection-value-mini-label">수집</span>
+      <strong>4.0</strong>
+    </div>
+  
+      </div>
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-06T14:50:00.000Z">10.6</time></span>
+        <div class="card-topline">
+          
+          <span class="tag legendary">전설</span>
+          <span class="tag dual" title="저주신교 · 혼돈 정복자">이중 진영</span>
+        </div>
+        <h3>피에르</h3>
+        <p class="en">Pierre</p>
+        <p class="meta">마법사 · 저주신교 · 혼돈 정복자</p>
+        <div class="content-tags"><span class="content-tag arena-aoe" title="Arena AoE 추천 영웅">아레나광역</span></div>
+      </div>
+    </article>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/khadgrim/" aria-label="카드그림 (Khadgrim) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./north-throne-hq-22-khadgrim.webp" alt="카드그림 (Khadgrim) 영웅 카드" loading="lazy">
+        
+    <div class="collection-value-badge cv-50" title="수집가치 5.0 / 5.0 · 최우선급" aria-label="수집가치 5.0 / 5.0 · 최우선급">
+      <span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5 7.4 11 12 5l4.6 6L20 7.5l-1.7 10.2H5.7L4 7.5Z"/><path d="M7 20h10"/></svg></span>
+      <span class="collection-value-mini-label">수집</span>
+      <strong>5.0</strong>
+    </div>
+  
+      </div>
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-06T14:50:00.000Z">10.6</time></span>
+        <div class="card-topline">
+          
+          <span class="tag legendary">전설</span>
+          <span class="tag dual" title="북쪽 경계 왕좌 · 최고 중재자">이중 진영</span>
+        </div>
+        <h3>카드그림</h3>
+        <p class="en">Khadgrim</p>
+        <p class="meta">수호자 · 북쪽 경계 왕좌 · 최고 중재자</p>
+        <div class="content-tags"><span class="content-tag arena-single" title="Arena Single Target 추천 영웅">아레나단일</span><span class="content-tag fallen-twins" title="Fallen Twins 추천 영웅">타천의쌍둥이</span></div>
+      </div>
+    </article>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/aedrin/" aria-label="에드린 (Aedrin) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./north-throne-hq-33-aedrin.webp" alt="에드린 (Aedrin) 영웅 카드" loading="lazy">
+        
+    <div class="collection-value-badge cv-30" title="수집가치 3.0 / 5.0 · 보통" aria-label="수집가치 3.0 / 5.0 · 보통">
+      <span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 7 4v10l-7 4-7-4V7l7-4Z"/><circle cx="12" cy="12" r="2.2"/></svg></span>
+      <span class="collection-value-mini-label">수집</span>
+      <strong>3.0</strong>
+    </div>
+  
+      </div>
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-06T14:50:00.000Z">10.6</time></span>
+        <div class="card-topline">
+          
+          <span class="tag legendary">전설</span>
+          
+        </div>
+        <h3>에드린</h3>
+        <p class="en">Aedrin</p>
+        <p class="meta">전사 · 북쪽 경계 왕좌</p>
+        
+      </div>
+    </article>
+    </a>
+  
+    <a class="hero-card-link" href="/hero/rivenhald/" aria-label="레이븐홀드 (Rivenhald) 상세 보기">
+    <article class="hero-card">
+      <div class="card-visual">
+        <img src="./north-throne-hq-03-rivenhald.webp" alt="레이븐홀드 (Rivenhald) 영웅 카드" loading="lazy">
+        
+    <div class="collection-value-badge cv-50" title="수집가치 5.0 / 5.0 · 최우선급" aria-label="수집가치 5.0 / 5.0 · 최우선급">
+      <span class="collection-value-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5 7.4 11 12 5l4.6 6L20 7.5l-1.7 10.2H5.7L4 7.5Z"/><path d="M7 20h10"/></svg></span>
+      <span class="collection-value-mini-label">수집</span>
+      <strong>5.0</strong>
+    </div>
+  
+      </div>
+      <div class="card-body">
+        <span class="hero-activity-badge" title="영웅 정보 업데이트"><span>정보 업데이트</span> · <time datetime="2026-10-06T14:50:00.000Z">10.6</time></span>
+        <div class="card-topline">
+          <span class="tag lord">영주</span>
+          <span class="tag legendary">전설</span>
+          
+        </div>
+        <h3>레이븐홀드</h3>
+        <p class="en">Rivenhald</p>
+        <p class="meta">전술마스터 · 북쪽 경계 왕좌</p>
+        <div class="content-tags"><span class="content-tag fallen-twins" title="Fallen Twins 추천 영웅">타천의쌍둥이</span></div>
+      </div>
+    </article>
+    </a>
+  
 </div>
+<script id="heroActivitySnapshot" type="application/json">{"heroActivity":[{"heroId":"rosalia","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"oakenvar","infoUpdatedAt":1790460302,"reviewPublishedAt":0},{"heroId":"beirasia","infoUpdatedAt":1790460301,"reviewPublishedAt":0},{"heroId":"garroq","infoUpdatedAt":1791422659,"reviewPublishedAt":0},{"heroId":"amelia-ainsworth","infoUpdatedAt":1791421951,"reviewPublishedAt":0},{"heroId":"abomination","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"aedrin","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"ain","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"ajax","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"akirastar","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"alaura","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"anora","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"apsan","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"aracha","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"arrogance","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"aurelius-gale","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"aylin","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"azhor","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"bayek","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"beatrix","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"beelzebub","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"boreas","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"brokkir","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"cainan","infoUpdatedAt":1791299081,"reviewPublishedAt":0},{"heroId":"calista","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"calypso","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"captain-reve","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"cerberus","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"constance","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"count-dracula","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"crach","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"dahlia","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"dassomi","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"diaochan","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"dr-van-helsing","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"eivor-varinsdottir","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"erlang-shen","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"evie-frye","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"ezio-auditore","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"ezio-della-notte","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"ezryn","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"falcia","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"greed","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"gu-shi","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"guan-yu","infoUpdatedAt":1791299081,"reviewPublishedAt":0},{"heroId":"hatssut","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"helga","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"hex","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"iovar","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"janus-grismore","infoUpdatedAt":1791197092,"reviewPublishedAt":0},{"heroId":"jezebelle","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"kaede","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"kane","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"kassandra","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"khadgrim","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"khamet","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"kigiri","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"kineza","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"lady-alexandra","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"lady-mina","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"laseer","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"laya","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"livian","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"lord-phineas","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"lu-bu","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"lulu","infoUpdatedAt":1791299081,"reviewPublishedAt":0},{"heroId":"lust","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"magmus","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"malvira","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"moriden","infoUpdatedAt":1791299081,"reviewPublishedAt":0},{"heroId":"morrigan","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"ne-zha","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"nocturne","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"nyx","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"pierre","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"razaak","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"regulus","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"rivenhald","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"sadie","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"salazar","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"selene","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"setram","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"shamir","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"silas","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"su-yue","infoUpdatedAt":1791299081,"reviewPublishedAt":0},{"heroId":"sun-wukong","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"talin","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"talula","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"theowin","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"trusk","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"twinfiend","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"valara","infoUpdatedAt":1791302041,"reviewPublishedAt":0},{"heroId":"valderon","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"valeriya","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"valkyra","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"vierna","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"violetta-vane","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"vlad-draculea","infoUpdatedAt":1791299081,"reviewPublishedAt":0},{"heroId":"volka","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"vorn","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"voroth","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"wrath","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"yuri","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"zelus","infoUpdatedAt":1791298200,"reviewPublishedAt":0},{"heroId":"zilitu","infoUpdatedAt":1791298200,"reviewPublishedAt":0}]}</script>
       <button id="loadMoreHeroes" class="load-more-heroes" type="button">더 보기 · 24/260명</button>
 
       <div id="emptyState" class="empty" hidden>
@@ -709,7 +1118,7 @@
     </div>
   </div>
 
-  <script src="/app.js?v=2.14.121" defer></script>
+  <script src="/app.js?v=2.14.122" defer></script>
 
 <a class="ww-summon-float" href="/summon/" aria-label="오늘의 소환 운명 시험 열기">
   <span class="ww-summon-float-crystal" aria-hidden="true"></span>
