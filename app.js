@@ -76,7 +76,7 @@ heroViewButtons.forEach((button) => {
 const emptyState = document.querySelector("#emptyState");
 const visibleCount = document.querySelector("#visibleCount");
 const loadMoreHeroes = document.querySelector("#loadMoreHeroes");
-const HERO_PAGE_SIZE = 20;
+const HERO_PAGE_SIZE = 24;
 let visibleLimit = HERO_PAGE_SIZE;
 function updatePage(total) {
   visibleCount.textContent = Math.min(visibleLimit, total);
@@ -657,14 +657,14 @@ function renderRecentUpdates(items) {
 
 // Keep the server-rendered cards visible until both sources are ready.
 // A partial render with heroes.json but no activity briefly restores the old order.
-const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.119", { cache: "no-store" })
+const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.120", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("recent updates load failed");
     return response.json();
   })
   .catch((error) => { console.warn(error); return null; });
 
-const heroesPromise = fetch("./heroes.json?v=2.14.119", { cache: "no-store" })
+const heroesPromise = fetch("./heroes.json?v=2.14.120", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();

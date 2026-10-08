@@ -1,4 +1,4 @@
-/* v2.14.113: homepage presentation; loaded after shared styles.css. */
+/* v2.14.120: homepage presentation; loaded after shared styles.css. */
 
 /* v2.14.19 compact creator banner and persistent list controls */
 .creator-banner.creator-banner-scribe{display:grid!important;grid-template-columns:64px minmax(220px,.9fr) minmax(390px,1.4fr)!important;gap:16px!important;align-items:center!important;padding:18px 22px!important}
@@ -166,4 +166,15 @@ html[data-hero-view="compact"] #heroGrid .collection-value-badge strong { font-s
   html[data-hero-view="compact"] #heroGrid .card-body { padding:7px 4px; }
   html[data-hero-view="compact"] #heroGrid .collection-value-icon { width:12px; height:12px; }
   html[data-hero-view="compact"] #heroGrid .collection-value-badge strong { font-size:10px; }
+}
+
+/* v2.14.120: keep mobile trait buttons complete and clear of list controls. */
+@media(max-width:620px) {
+  #traitFilters .trait-button-rail {
+    flex-wrap:wrap; overflow:visible; padding-bottom:0;
+  }
+  .roster-integrated .filters { margin-bottom:20px; }
+  .hero-view-controls { margin-bottom:16px; }
+  #heroGrid > .hero-card-link { min-width:0; }
+  #heroGrid .card-visual > img { min-width:0!important; max-width:100%!important; }
 }
