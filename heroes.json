@@ -1,5 +1,135 @@
 [
   {
+    "id": "garroq",
+    "nameKr": "가로크",
+    "nameEn": "Garroq",
+    "aliases": [],
+    "class": "전사",
+    "rarity": "전설",
+    "factions": [
+      "grey-blades",
+      "star-piercers"
+    ],
+    "memberships": [
+      {
+        "faction": "grey-blades",
+        "factionKr": "황혼 그림자의 칼날",
+        "factionEn": "The Grey Blades",
+        "lord": false,
+        "sortOrder": 2,
+        "portrait": "./grey-blades-hq-02-garroq-v214119.webp"
+      },
+      {
+        "faction": "star-piercers",
+        "factionKr": "관성의 화살",
+        "factionEn": "Star Piercers",
+        "lord": false,
+        "sortOrder": 47,
+        "portrait": "./grey-blades-hq-02-garroq-v214119.webp"
+      }
+    ],
+    "collectionValue": null,
+    "videos": [],
+    "traits": [
+      "듀얼 대상 공격",
+      "방어 무시",
+      "치유 금지",
+      "공중 유닛 공격 가능",
+      "광역 물리 공격"
+    ],
+    "traitsSource": "skill-summary",
+    "recommendedArtifact": {
+      "nameKr": "잔금",
+      "nameEn": "House Cut",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "사용자 제공 가로크 전용 아티팩트 게임 내 스크린샷; https://fastidious.gg/heroes/garroq",
+      "reviewedAt": "2026-10-08",
+      "recommendationBasis": "게임 내 공식명·전용 여부·Lv.6 효과 확인. 전용 우선 기준."
+    },
+    "exclusiveArtifact": {
+      "nameKr": "잔금",
+      "nameEn": "House Cut",
+      "krVerified": true,
+      "kind": "exclusive",
+      "source": "사용자 제공 가로크 전용 아티팩트 게임 내 스크린샷; https://fastidious.gg/heroes/garroq",
+      "reviewedAt": "2026-10-08",
+      "recommendationBasis": "게임 내 공식명·전용 여부·Lv.6 효과 확인. 전용 우선 기준."
+    },
+    "genericArtifactAlternative": {
+      "nameKr": "격노의 분출자",
+      "nameEn": "Hate's Contagion",
+      "kind": "general",
+      "krVerified": true,
+      "reason": "전투 도끼의 광역 피해를 보강하는 범용 대안입니다.",
+      "condition": "추가 광역 피해 중첩은 적 3명 이상을 동시에 공격할 때 쌓입니다.",
+      "source": "https://fastidious.gg/heroes/garroq",
+      "sourceArtifact": "https://fastidious.gg/artifacts",
+      "reviewedAt": "2026-10-08",
+      "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보. 장착 클래스와 발동 조건 확인.",
+      "roleId": 1
+    },
+    "details": {
+      "updated": "2026-10-08",
+      "verifiedIntro": "황혼 그림자의 칼날과 관성의 화살에 속한 전설 전사입니다. 근접에서는 전투 도끼, 원거리에서는 투척 단검을 사용하며, 포위 사냥 표식이 있는 적 최대 2명을 거리에 관계없이 추격합니다. 궁극기 어둠의 날개 포위 학살로 적의 방어력을 50% 무시하고 치유 금지를 부여합니다. 포위 사냥 부여·갱신으로 분노를 회복하며, 차징 상한에서 궁극기를 사용하면 연속 2회 추격해 집중 화력을 높일 수 있습니다.",
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. Fastidious의 가로크 엔드게임 1순위 조합입니다. 일반 공격의 치명타로 피해 증가 중첩을 쌓아 추격과 궁극기 화력을 함께 보강합니다. 공격력과 치명타율을 확보하고, 공격 속도·치명타 피해·분노 회복으로 공격과 궁극기 순환을 보완합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해, 분노 회복.",
+        "source": "2026-10-08 Fastidious 가로크 End Game 및 Stage 3 추천 확인. SimiPRO 재앙 드래곤 후보와 세트 효과 교차 확인.",
+        "sources": [
+          "https://fastidious.gg/heroes/garroq",
+          "https://simipro.gg/heroes/garroq"
+        ]
+      },
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "게임 내 스크린샷",
+          "text": "재능의 추격 피해 증가 효과 최대 스택 수가 1 증가합니다. 자신이 디버프 상태의 적에게 추가로 8%의 피해를 입힙니다."
+        },
+        {
+          "level": "A2",
+          "grade": "게임 내 스크린샷",
+          "text": "공격력 +300."
+        },
+        {
+          "level": "A3",
+          "grade": "게임 내 스크린샷",
+          "text": "어둠의 날개 포위 학살이 대상에게 명중한 후, 대상 주변의 다른 적에게 바운스되어 기존 피해의 35%만큼 피해를 입힙니다."
+        },
+        {
+          "level": "A4",
+          "grade": "게임 내 스크린샷",
+          "text": "관통 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "게임 내 스크린샷",
+          "text": "어둠의 날개 포위 학살 시전 후 15초 이내 또는 차징 시전 후 30초 이내에는 어떤 무기로 공격하든 전투 도끼와 투척 단검의 모든 특성을 동시에 가집니다."
+        }
+      ],
+      "artifact": {
+        "name": "잔금",
+        "label": "추천 아티팩트",
+        "text": "제공된 게임 화면 Lv.6 기준: 피해가 35% 증가합니다. 추격을 발동한 후 자신의 관통이 5% 상승하며 15초간 지속됩니다. 최대 3회까지 중첩됩니다.",
+        "source": "사용자 제공 가로크 전용 아티팩트 스크린샷 (Lv.6)"
+      },
+      "note": "소개·각성·전용 아티팩트의 한국명과 효과는 사용자 제공 게임 내 스크린샷 기준입니다. 추천 장비와 범용 아티팩트는 Fastidious의 영웅별 추천을 참고했습니다. 영웅 특성은 제공된 스킬 설명을 바탕으로 분류했습니다."
+    },
+    "infoUpdatedAt": "2026-10-08T10:24:19+09:00",
+    "updateHistory": [
+      {
+        "id": "hero-garroq-new-20261008",
+        "kind": "new-hero",
+        "kindLabel": "신규영웅등록",
+        "message": "신규 영웅·추천 장비·전용 아티팩트·각성 A1~A5 등록",
+        "shortMessage": "신규 영웅·추천 정보 등록",
+        "updatedAt": "2026-10-08T10:24:19+09:00"
+      }
+    ]
+  },
+  {
     "id": "amelia-ainsworth",
     "nameKr": "아멜리아",
     "nameEn": "Amelia Ainsworth",

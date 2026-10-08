@@ -1044,4 +1044,10 @@
     <loc>https://worwiki.kr/hero/amelia-ainsworth/</loc>
     <lastmod>2026-10-08</lastmod>
   </url>
+  <url>
+    <loc>https://worwiki.kr/hero/garroq/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
