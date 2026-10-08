@@ -35,8 +35,7 @@
     "details": {
       "updated": "2026-10-08",
       "verifiedIntro": "황혼 그림자의 칼날 소속 전설 영주 궁수입니다. 포위 사냥 표식이 있는 적 최대 2명을 거리에 관계없이 추격하며, 아군의 추격 스킬 발동과 표식 부여·갱신으로 얼룩진 세은을 쌓습니다. 궁극기로 추격 피해와 공중 피해를 높이고, 영주 스킬로 진영의 추격 피해 및 스킬 순환을 강화합니다.",
-      "note": "사용자 제공 게임 내 스크린샷 기준. 스킬 수치는 첨부 화면의 최대 레벨 설명을 반영했습니다. 영웅 특성은 제공된 스킬 설명을 바탕으로 분류했습니다.",
-      "fullSkillInfo": true,
+      "note": "소개·각성은 사용자 제공 게임 내 스크린샷 기준입니다. 추천 장비는 제공된 스킬 구조와 해외 후보 자료를 바탕으로 조합한 범용 세팅이며, 추천 아티팩트는 해외 영웅별 공개 추천을 참고했습니다.",
       "skills": [
         {
           "name": "황혼 그림자의 검 III",
@@ -94,29 +93,6 @@
           ]
         }
       ],
-      "skillEffects": [
-        {
-          "name": "얼룩진 세은",
-          "type": "궁극기 강화 스택",
-          "paragraphs": [
-            "궁극기 사용 시 소모되어 궁극기 효과를 강화합니다. A1 각성에서 중첩 상한이 60스택으로 증가합니다."
-          ]
-        },
-        {
-          "name": "포위 사냥",
-          "type": "추격 표식",
-          "paragraphs": [
-            "소지자가 받는 추격 피해가 30% 상승합니다."
-          ]
-        },
-        {
-          "name": "방어 감소",
-          "type": "디버프",
-          "paragraphs": [
-            "첨부 툴팁 기준 방어 -20%, 10초간 지속됩니다. 동일 유형 효과 중 가장 높은 효과만 적용됩니다."
-          ]
-        }
-      ],
       "awakening": [
         {
           "level": "A1",
@@ -143,19 +119,39 @@
           "grade": "게임 내 스크린샷",
           "text": "암막의 합주가 제공하는 공격력 보너스가 7%로 증가하고, 지속 시간이 10초로 연장됩니다."
         }
-      ]
+      ],
+      "gear": {
+        "name": "전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트",
+        "label": "추천 장비 세트",
+        "text": "범용 추천: 전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 공격력을 확보하면서 궁극기 사용에 따른 피해 증가를 쌓는 세팅입니다. 궁극기를 여러 차례 사용하는 전투에서 추격과 궁극기 피해를 함께 보강하는 방향으로 운용합니다. 권장 옵션: 공격력 보너스, 치명타율, 치명타 피해, 분노 회복, 공격 속도.",
+        "source": "2026-10-08: 사용자 제공 스킬·각성, SimiPRO 아멜리아 영혼의 비밀 후보, AllClash 전쟁의 주인 후보를 바탕으로 조합한 범용 세팅. 최종 장비 순위가 아닌 운용 기준 선택.",
+        "sources": [
+          "https://simipro.gg/heroes/amelia-ainsworth",
+          "https://www.allclash.com/best-build-for-amelia-ainsworth-in-watcher-of-realms-gear-stat-prio-artifact-awaken-prio/"
+        ]
+      }
     },
-    "infoUpdatedAt": "2026-10-08T09:40:00+09:00",
+    "infoUpdatedAt": "2026-10-08T10:12:31+09:00",
     "updateHistory": [
       {
         "id": "hero-amelia-new-20261008",
         "kind": "new-hero",
         "kindLabel": "신규영웅등록",
-        "message": "신규 영주·스킬·각성 A1~A5 등록",
-        "shortMessage": "신규 영주·스킬·각성 등록",
-        "updatedAt": "2026-10-08T09:40:00+09:00"
+        "message": "신규 영주·추천 장비·아티팩트·각성 A1~A5 등록",
+        "shortMessage": "신규 영주·추천 정보 등록",
+        "updatedAt": "2026-10-08T10:12:31+09:00"
       }
-    ]
+    ],
+    "recommendedArtifact": {
+      "nameKr": "망령술사의 손가락",
+      "nameEn": "Blightcaller's Claw",
+      "krVerified": true,
+      "kind": "general",
+      "source": "https://www.allclash.com/best-build-for-amelia-ainsworth-in-watcher-of-realms-gear-stat-prio-artifact-awaken-prio/",
+      "reviewedAt": "2026-10-08",
+      "recommendationBasis": "AllClash 아멜리아 공개 추천. 한국 공식명·아이콘은 기존 위키 검증 데이터 사용.",
+      "roleId": 3
+    }
   },
   {
     "id": "abomination",
