@@ -1,4 +1,4 @@
-# worwiki v2.14.124 최종 장비 추천 교정
+# worwiki v2.14.125 최종 장비 추천 교정
 
 기준: v2.14.123. 상태: 패치 제작 완료, 사이트 배포 미실행.
 
@@ -26,3 +26,10 @@ README.md와 VERSION.txt는 작업 기록이다.
 ## 검증
 영웅 수 260 유지. 지정 5명 외 변경 없음. Worker HEROES와 JSON 전체 일치. Worker 문법과 상세페이지 렌더링 검증.
 END 프리셋 20개는 변경하지 않았다.
+
+## 아이콘 수정
+혈염드래곤혈통의 장비명 정규화 키와 실제 이미지 파일을 추가했다.
+이미지 원본: https://fastidious.gg/storage/sets/87mz4L0o7DlwYlyvSXUcVB2ORl233DOFF4kbaRij.webp
+gear-icon-drakefire-v214125.webp를 반드시 사이트 루트에 함께 업로드한다.
+v2.14.124의 5명 교정을 포함하므로 v2.14.123 또는 v2.14.124 위에 적용할 수 있다.
+app.js는 별도 아이콘 매핑이 없어 변경하지 않았다.
