@@ -1,4 +1,4 @@
-Version: 2.14.132
-Base: 2.14.131
-Change: Visible gear-presets page version
+Version: 2.14.133
+Base: 2.14.132
+Change: Synchronize Worker embedded preset hub with redesigned HTML
 Deployment: NOT DEPLOYED
