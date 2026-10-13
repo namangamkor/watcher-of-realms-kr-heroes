@@ -6333,7 +6333,15 @@
         "공격 속도",
         "치명타율",
         "치명타 피해"
-      ]
+      ],
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "label": "추천 장비 세트",
+        "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 2026-10-13 나만겜 운영자 지정 최종 조합입니다.",
+        "source": "2026-10-13 사용자 지정: 악의 복수 + 재앙 드래곤. 기존 추천 장비 미등록 상태에서 추가.",
+        "sources": [],
+        "reviewedAt": "2026-10-13"
+      }
     },
     "recommendedArtifact": {
       "nameKr": "난폭한 마스크",
@@ -6343,7 +6351,18 @@
       "source": "https://fastidious.gg/heroes/decimus",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
-    }
+    },
+    "infoUpdatedAt": "2026-10-13T17:19:06+09:00",
+    "updateHistory": [
+      {
+        "id": "gear-final-20261013-decimus",
+        "kind": "info",
+        "kindLabel": "장비 추천 교정",
+        "message": "최종 추천 장비 재점검 및 교정",
+        "shortMessage": "최종 추천 장비 교정",
+        "updatedAt": "2026-10-13T17:19:06+09:00"
+      }
+    ]
   },
   {
     "id": "deimos",
@@ -7142,10 +7161,15 @@
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 SimiPRO) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "아군의 HP를 일부 희생시키는 대신 공격 속도·분노 회복·피해 감소를 크게 끌어올리는 고위험 지원형 마법사. HP가 낮아진 아군일수록 강한 피해 감소를 제공해 위험 구간을 버티게 만들고, 궁극기로 팀 전체의 공격 템포를 폭발적으로 높인다. 직접 딜보다 조합 전체의 화력과 생존을 동시에 조정하는 역할이 핵심이다.",
       "gear": {
-        "name": "질풍 (Whirlwind) 세트 + 마력 (Mana Spring) 세트",
+        "name": "전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 질풍 (Whirlwind) 세트 + 마력 (Mana Spring) 세트. 두르가는 직접 딜보다 공격 속도·분노·영감 지원 가치가 커서 질풍 + 마력으로 궁극기 회전을 최우선합니다. 권장 옵션: 공격 속도, 분노 회복, HP 보너스, 방어력 보너스.",
-        "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 공격력 기반 영감 지원과 궁극기 회전을 함께 챙기는 조합입니다. 권장 옵션: 공격력 보너스, 공격력, 공격 속도, 분노 회복, HP 보너스.",
+        "source": "2026-10-13 재점검: Fastidious 상세 Stage 3와 Prospector 현재 End Game 빌드의 공통 조합. Fastidious Gear Recommendations의 왼쪽 1순위는 Drakefire로 달라, 자료 간 차이를 명시하고 공통 확인 조합을 적용했습니다.",
+        "sources": [
+          "https://fastidious.gg/heroes/durza",
+          "https://prospector.gg/hero/durza/"
+        ],
+        "reviewedAt": "2026-10-13"
       }
     },
     "traits": [
@@ -7161,7 +7185,18 @@
       "source": "https://fastidious.gg/heroes/durza",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
-    }
+    },
+    "infoUpdatedAt": "2026-10-13T17:19:06+09:00",
+    "updateHistory": [
+      {
+        "id": "gear-final-20261013-durza",
+        "kind": "info",
+        "kindLabel": "장비 추천 교정",
+        "message": "최종 추천 장비 재점검 및 교정",
+        "shortMessage": "최종 추천 장비 교정",
+        "updatedAt": "2026-10-13T17:19:06+09:00"
+      }
+    ]
   },
   {
     "id": "edith",
@@ -7786,10 +7821,12 @@
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 SimiPRO) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "단일 대상을 꾸준히 느리게 만들 수 있는 기본형 레어 궁수. 일반 공격부터 둔화를 걸고 궁극기로 주변까지 느리게 만들어 적의 진입 속도를 늦추는 데 도움을 준다. 화력 자체는 높지 않아 초중반 제어 보조나 특정 길목을 늦추는 용도로 보는 편이 적당하다.",
       "gear": {
-        "name": "전쟁의 주인 (Warlord) 세트 + 마력 (Mana Spring) 세트",
+        "name": "전쟁의 주인 (Warlord) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 마력 (Mana Spring) 세트. 레어 영웅이지만 최고 활용 기준에서는 감속과 궁극기 순환을 위해 공격 속도와 분노 회복을 우선합니다. 권장 옵션: 공격 속도, 분노 회복, HP 보너스, 방어력 보너스.",
-        "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 재앙 드래곤 (Cataclysm) 세트. 2026-10-13 나만겜 운영자 지정 최종 조합입니다.",
+        "source": "2026-10-13 사용자 지정: 전쟁의 주인 + 재앙 드래곤. 해외 자료 검증으로 확정한 조합이 아닙니다.",
+        "sources": [],
+        "reviewedAt": "2026-10-13"
       }
     },
     "traits": [
@@ -7803,7 +7840,18 @@
       "source": "https://fastidious.gg/heroes/elukas",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
-    }
+    },
+    "infoUpdatedAt": "2026-10-13T17:19:06+09:00",
+    "updateHistory": [
+      {
+        "id": "gear-final-20261013-elukas",
+        "kind": "info",
+        "kindLabel": "장비 추천 교정",
+        "message": "최종 추천 장비 재점검 및 교정",
+        "shortMessage": "최종 추천 장비 교정",
+        "updatedAt": "2026-10-13T17:19:06+09:00"
+      }
+    ]
   },
   {
     "id": "elysia",
@@ -13814,10 +13862,12 @@
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite, Watcher of Realms Wiki 및 SimiPRO) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "치유 불가와 둔화를 중심으로 적의 회복과 이동을 동시에 묶는 제어형 광역 마법사. 공격으로 Sand Erosion을 쌓고 궁극기로 넓은 범위에 강한 피해와 치유 차단을 부여하며, 중첩이 쌓인 적은 점점 더 느려진다. 회복형 적이나 한 구역에 오래 묶어야 하는 전투에서 특히 활용도가 높다.",
       "gear": {
-        "name": "질풍 (Whirlwind) 세트 + 성스러운 날개 (Wings of Grace) 세트",
+        "name": "전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 질풍 (Whirlwind) 세트 + 성스러운 날개 (Wings of Grace) 세트. 레이저는 딜보다 안티힐 유지와 궁극기 회전이 핵심이라 질풍을 유지하고 성스러운 날개로 파티 지원을 더합니다. 권장 옵션: 공격 속도, 분노 회복, HP 보너스, 방어력 보너스.",
-        "source": "2026-09-17 저주신교 엔드게임 전수검수: Fastidious.gg 중심, Prospector.gg 및 WoR Wiki 보조 교차검증"
+        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 치유 금지 유지와 궁극기 회전, 파티 지원을 중심으로 운용합니다. 권장 옵션: 공격 속도, 분노 회복, HP 보너스, 방어력 보너스.",
+        "source": "2026-10-13 사용자 지정: 전쟁의 주인 + 성스러운 날개.",
+        "sources": [],
+        "reviewedAt": "2026-10-13"
       }
     },
     "traits": [
@@ -13847,8 +13897,16 @@
       "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
       "roleId": 2
     },
-    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "infoUpdatedAt": "2026-10-13T17:19:06+09:00",
     "updateHistory": [
+      {
+        "id": "gear-final-20261013-laseer",
+        "kind": "info",
+        "kindLabel": "장비 추천 교정",
+        "message": "최종 추천 장비 재점검 및 교정",
+        "shortMessage": "최종 추천 장비 교정",
+        "updatedAt": "2026-10-13T17:19:06+09:00"
+      },
       {
         "id": "generic-artifact-20261006-laseer",
         "kind": "info",
@@ -18871,10 +18929,14 @@
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "실드·영감·회복을 묶어 북쪽 경계 왕좌 전체를 강화하는 전설 전술마스터 영주. 공격 범위 안의 아군에게 영감을 부여하고 실드가 있는 아군의 최대 HP를 높이며, 영주 효과로 진영 전체에 주기적인 실드와 추가 강화 스택을 제공한다. 직접 딜보다 파티의 공격력과 생존을 동시에 끌어올리는 진영 핵심 지원가다.",
       "gear": {
-        "name": "전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트",
+        "name": "혈염드래곤혈통 (Drakefire) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 전쟁의 주인 (Warlord) 세트 + 성스러운 날개 (Wings of Grace) 세트. 지원형 영주로서 공격 속도와 분노 순환을 확보하고 성스러운 날개로 파티 공격 지원을 강화합니다. 권장 옵션: 공격 속도, 공격력 보너스, 치유 효과, 분노 회복.",
-        "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
+        "text": "최종 추천: 혈염드래곤혈통 (Drakefire) 세트 + 성스러운 날개 (Wings of Grace) 세트. 공격력 기반 영감·치유와 궁극기 순환을 함께 챙깁니다. 권장 옵션: 공격력 보너스, 공격력, 분노 회복, 공격 속도, HP 보너스.",
+        "source": "2026-10-13 Fastidious 현재 Gear Recommendations 1순위 및 상세 Stage 3에서 혈염드래곤혈통 + 성스러운 날개 확인. 기존 전쟁의 주인은 같은 자료의 2순위로 분류되어 대표 추천을 교정했습니다.",
+        "sources": [
+          "https://fastidious.gg/heroes/rivenhald"
+        ],
+        "reviewedAt": "2026-10-13"
       }
     },
     "traits": [
@@ -18908,8 +18970,16 @@
       "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
       "roleId": 6
     },
-    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "infoUpdatedAt": "2026-10-13T17:19:06+09:00",
     "updateHistory": [
+      {
+        "id": "gear-final-20261013-rivenhald",
+        "kind": "info",
+        "kindLabel": "장비 추천 교정",
+        "message": "최종 추천 장비 재점검 및 교정",
+        "shortMessage": "최종 추천 장비 교정",
+        "updatedAt": "2026-10-13T17:19:06+09:00"
+      },
       {
         "id": "generic-artifact-20261006-rivenhald",
         "kind": "info",
