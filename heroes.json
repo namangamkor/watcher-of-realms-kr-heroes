@@ -18700,14 +18700,17 @@
           "text": "모든 피해 감소 +5%."
         }
       ],
-      "updated": "2026-09",
+      "updated": "2026-10",
       "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "보호막과 기절을 갖춘 기본형 레어 수호자. 주기적으로 큰 보호막을 얻어 생존을 확보하고, 방패 공격과 궁극기로 앞쪽 적을 기절시키거나 공격력을 낮춰 전열 부담을 줄인다. 초반 탱커로 쓰기 쉬우며 이후에는 상위 수호자가 갖춰질수록 역할이 줄어드는 타입이다.",
       "gear": {
-        "name": "불굴의 용사 (Immortal Warrior) 세트 + 강철 의지 (Tempered Will) 세트",
+        "name": "성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 불굴의 용사 (Immortal Warrior) 세트 + 강철 의지 (Tempered Will) 세트. 엔드게임 탱킹에서 HP와 전열 유지력을 우선하는 조합으로 교정했습니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, 분노 회복.",
-        "source": "2026-09-18 파수꾼 소대 추천 장비 재전수검수: Prospector.gg End Game + Fastidious.gg 교차검증"
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 강철 의지 (Tempered Will) 세트. 렉스는 딜보다 전열 생존이 우선이므로 HP와 방어력을 중심으로 세팅합니다. 권장 옵션: HP 보너스, 방어력 보너스, 공격 속도, HP, 방어력.",
+        "source": "2026-10-13 END 장비 기준 재검수 + Fastidious Rex End Game/After GR-21의 성흔의 수호 1순위 확인",
+        "sources": [
+          "https://fastidious.gg/heroes/rex"
+        ]
       }
     },
     "traits": [
@@ -18967,14 +18970,14 @@
           "text": "특성 범위 내 아군이 궁극기를 사용하면 최대 HP +4%. 최대 +20%."
         }
       ],
-      "updated": "2026-09",
+      "updated": "2026-10",
       "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
       "verifiedIntro": "최대 HP 기반 피해와 실드 지원을 결합한 에픽 전사형 영주. 주변 아군이 궁극기를 사용할 때 실드를 제공하고 자신에게는 더 강한 실드를 부여해, 진영의 궁극기 회전에 맞춰 전열을 보호한다. 개인 화력보다 북쪽 경계 왕좌 조합의 실드 유지와 생존 보조에 초점이 맞춰져 있다.",
       "gear": {
-        "name": "불굴의 용사 (Immortal Warrior) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "name": "성흔의 수호 (Astral Guardian) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "최종 추천: 불굴의 용사 (Immortal Warrior) 세트 + 재앙 드래곤 (Cataclysm) 세트. HP 기반 딜러라 불굴의 용사로 체력을 확보하면서 재앙 드래곤으로 피해를 증폭합니다. 권장 옵션: HP 보너스, 치명타율, 공격 속도, 치명타 피해.",
-        "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
+        "text": "최종 추천: 성흔의 수호 (Astral Guardian) 세트 + 재앙 드래곤 (Cataclysm) 세트. HP 기반 피해 구조를 유지하면서 왼쪽 2세트는 성흔의 수호로 구성하고, 재앙 드래곤으로 최종 피해를 보강합니다. 권장 옵션: HP 보너스, 치명타율, 공격 속도, 치명타 피해.",
+        "source": "2026-10-13 END 장비 기준 재검수: 성흔의 수호 + 재앙 드래곤으로 교정"
       }
     },
     "traits": [
