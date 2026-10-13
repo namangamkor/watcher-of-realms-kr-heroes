@@ -7,7 +7,7 @@
   <script>
 (function(){
   var p=location.pathname;
-  if(p==='/gear-presets' || p==='/gear-presets/') { location.replace('/gear-presets-v4'); return; }
+  
   var m=p.match(/^\/gear-presets\/namangam(4\d{2})\/?$/);
   if(m){ location.replace('/gear-preset-'+Number(m[1])); }
 })();
@@ -104,10 +104,10 @@
       </div>
       <div class="topbar-actions">
         <span class="creator-mini">NAMANGAM ARCHIVE</span>
-        <a class="gear-nav-link" href="/gear-presets-v4" aria-label="나만겜 장비 프리셋 4.0">
+        <a class="gear-nav-link" href="/gear-presets" aria-label="나만겜 장비 프리셋 4.0">
           <span class="gear-nav-icon" aria-hidden="true">⚙</span>
           <span class="gear-nav-text">장비 프리셋</span>
-          <b>V4.0</b>
+          
         </a>
         <button id="installAppButton" class="install-app-button" type="button" aria-label="폰에 위키 추가" title="폰에 위키 추가">
           <span class="install-phone">▣</span>
@@ -1081,7 +1081,7 @@
         <small>게임 내 이미지·명칭 등 관련 권리는 각 권리자에게 있습니다.</small>
       </div>
       <div class="footer-actions">
-        <a class="gear-nav-link" href="/gear-presets-v4"><span class="gear-nav-icon" aria-hidden="true">⚙</span><span>장비 프리셋 V4.0</span></a>
+        <a class="gear-nav-link" href="/gear-presets"><span class="gear-nav-icon" aria-hidden="true">⚙</span><span>장비 프리셋</span></a>
         <a
           class="footer-report"
           href="https://forms.gle/PQcn3dTva7Pc7bY68"
