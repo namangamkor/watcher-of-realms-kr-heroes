@@ -28,8 +28,15 @@
         "portrait": "./grey-blades-hq-02-garroq-v214121.webp"
       }
     ],
-    "collectionValue": null,
-    "videos": [],
+    "collectionValue": 4,
+    "videos": [
+      {
+        "youtubeId": "940RdMBMhnQ",
+        "title": "가로크 관련 나만겜 영상",
+        "url": "https://youtu.be/940RdMBMhnQ",
+        "label": "나만겜 가로크 영상"
+      }
+    ],
     "traits": [
       "듀얼 대상 공격",
       "방어 무시",
@@ -70,7 +77,7 @@
       "roleId": 1
     },
     "details": {
-      "updated": "2026-10-08",
+      "updated": "2026-10-14",
       "verifiedIntro": "황혼 그림자의 칼날과 관성의 화살에 속한 전설 전사입니다. 근접에서는 전투 도끼, 원거리에서는 투척 단검을 사용하며, 포위 사냥 표식이 있는 적 최대 2명을 거리에 관계없이 추격합니다. 궁극기 어둠의 날개 포위 학살로 적의 방어력을 50% 무시하고 치유 금지를 부여합니다. 포위 사냥 부여·갱신으로 분노를 회복하며, 차징 상한에서 궁극기를 사용하면 연속 2회 추격해 집중 화력을 높일 수 있습니다.",
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
@@ -115,9 +122,9 @@
         "text": "제공된 게임 화면 Lv.6 기준: 피해가 35% 증가합니다. 추격을 발동한 후 자신의 관통이 5% 상승하며 15초간 지속됩니다. 최대 3회까지 중첩됩니다.",
         "source": "사용자 제공 가로크 전용 아티팩트 스크린샷 (Lv.6)"
       },
-      "note": "소개·각성·전용 아티팩트의 한국명과 효과는 사용자 제공 게임 내 스크린샷 기준입니다. 추천 장비와 범용 아티팩트는 Fastidious의 영웅별 추천을 참고했습니다. 영웅 특성은 제공된 스킬 설명을 바탕으로 분류했습니다."
+      "note": "소개·각성·전용 아티팩트의 한국명과 효과는 사용자 제공 게임 내 스크린샷 기준입니다. 추천 장비와 범용 아티팩트는 Fastidious의 영웅별 추천을 참고했습니다. 영웅 특성은 제공된 스킬 설명을 바탕으로 분류했습니다. 수집가치 4(높은 가치): 황혼 그림자의 칼날 진영 핵심 딜러. 치유 금지·방어 무시·듀얼 대상 추격 제공. 2026-10-14 해외 평가와 사용자 운용 판단을 종합한 잠정 평가입니다."
     },
-    "infoUpdatedAt": "2026-10-08T10:24:19+09:00",
+    "infoUpdatedAt": "2026-10-14T12:32:20+09:00",
     "updateHistory": [
       {
         "id": "hero-garroq-new-20261008",
@@ -126,8 +133,16 @@
         "message": "신규 영웅·추천 장비·전용 아티팩트·각성 A1~A5 등록",
         "shortMessage": "신규 영웅·추천 정보 등록",
         "updatedAt": "2026-10-08T10:24:19+09:00"
+      },
+      {
+        "id": "hero-garroq-20261014-v214137",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "관련 영상·수집가치 업데이트",
+        "updatedAt": "2026-10-14T12:32:20+09:00"
       }
-    ]
+    ],
+    "collectionValueReason": "황혼 그림자의 칼날 진영 핵심 딜러. 치유 금지·방어 무시·듀얼 대상 추격 제공"
   },
   {
     "id": "amelia-ainsworth",
@@ -152,8 +167,15 @@
         "portrait": "./grey-blades-hq-01-amelia-ainsworth-v214117.webp"
       }
     ],
-    "collectionValue": null,
-    "videos": [],
+    "collectionValue": 4,
+    "videos": [
+      {
+        "youtubeId": "Z-Ygp5MCQCE",
+        "title": "아멜리아 관련 나만겜 영상",
+        "url": "https://youtu.be/Z-Ygp5MCQCE",
+        "label": "나만겜 아멜리아 영상"
+      }
+    ],
     "traits": [
       "듀얼 대상 공격",
       "공중 유닛 공격 가능",
@@ -163,9 +185,9 @@
     ],
     "traitsSource": "skill-summary",
     "details": {
-      "updated": "2026-10-08",
+      "updated": "2026-10-14",
       "verifiedIntro": "황혼 그림자의 칼날 소속 전설 영주 궁수입니다. 포위 사냥 표식이 있는 적 최대 2명을 거리에 관계없이 추격하며, 아군의 추격 스킬 발동과 표식 부여·갱신으로 얼룩진 세은을 쌓습니다. 궁극기로 추격 피해와 공중 피해를 높이고, 영주 스킬로 진영의 추격 피해 및 스킬 순환을 강화합니다.",
-      "note": "소개·각성은 사용자 제공 게임 내 스크린샷 기준입니다. 추천 장비는 제공된 스킬 구조와 해외 후보 자료를 바탕으로 조합한 범용 세팅이며, 추천 아티팩트는 해외 영웅별 공개 추천을 참고했습니다.",
+      "note": "소개·각성은 사용자 제공 게임 내 스크린샷 기준입니다. 추천 장비는 제공된 스킬 구조와 해외 후보 자료를 바탕으로 조합한 범용 세팅이며, 추천 아티팩트는 해외 영웅별 공개 추천을 참고했습니다. 수집가치 4(높은 가치): 추격 조합 전체의 피해와 스킬 순환을 강화하는 핵심 영주. 2026-10-14 해외 평가와 사용자 운용 판단을 종합한 잠정 평가입니다.",
       "skills": [
         {
           "name": "황혼 그림자의 검 III",
@@ -251,17 +273,17 @@
         }
       ],
       "gear": {
-        "name": "전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트",
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트 / 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
-        "text": "범용 추천: 전쟁의 주인 (Warlord) 세트 + 영혼의 비밀 (Soulbound Arcana) 세트. 공격력을 확보하면서 궁극기 사용에 따른 피해 증가를 쌓는 세팅입니다. 궁극기를 여러 차례 사용하는 전투에서 추격과 궁극기 피해를 함께 보강하는 방향으로 운용합니다. 권장 옵션: 공격력 보너스, 치명타율, 치명타 피해, 분노 회복, 공격 속도.",
-        "source": "2026-10-08: 사용자 제공 스킬·각성, SimiPRO 아멜리아 영혼의 비밀 후보, AllClash 전쟁의 주인 후보를 바탕으로 조합한 범용 세팅. 최종 장비 순위가 아닌 운용 기준 선택.",
+        "text": "주 장비 기본 추천: 악의 복수. 전쟁의 주인은 악의 복수가 부족하거나 보유 장비 옵션이 더 좋을 때 대체합니다. 악세서리는 영혼의 비밀 또는 재앙 드래곤 중 한 세트를 선택합니다. 영혼의 비밀은 궁극기 사용에 따른 피해 증가가 영구 유지되어 장기전에 안정적입니다. 재앙 드래곤은 일반 공격 치명타로 쌓는 피해 증가를 활용하며, 궁극기 중 중첩 유지 여부를 확인해 선택합니다. 지옥의비명은 궁극기 집중 폭딜과 빠른 재사용 운용의 비교 후보입니다. 악세서리 단독 1순위는 동일 수준의 옵션으로 실측 후 판단합니다. 권장 옵션: 공격력 보너스, 치명타율, 치명타 피해, 분노 회복, 공격 속도.",
+        "source": "2026-10-14: 사용자와 합의한 추천 수정. 해외 아멜리아 가이드의 영혼의 비밀·재앙 드래곤 후보 및 세트 발동 조건 반영.",
         "sources": [
-          "https://simipro.gg/heroes/amelia-ainsworth",
+          "https://hellhades.com/watcher-of-realms/article/amelia-ainsworth-joins-watcher-of-realms/",
           "https://www.allclash.com/best-build-for-amelia-ainsworth-in-watcher-of-realms-gear-stat-prio-artifact-awaken-prio/"
         ]
       }
     },
-    "infoUpdatedAt": "2026-10-08T10:12:31+09:00",
+    "infoUpdatedAt": "2026-10-14T12:32:20+09:00",
     "updateHistory": [
       {
         "id": "hero-amelia-new-20261008",
@@ -270,6 +292,13 @@
         "message": "신규 영주·추천 장비·아티팩트·각성 A1~A5 등록",
         "shortMessage": "신규 영주·추천 정보 등록",
         "updatedAt": "2026-10-08T10:12:31+09:00"
+      },
+      {
+        "id": "hero-amelia-ainsworth-20261014-v214137",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "장비추천·영상·수집가치 업데이트",
+        "updatedAt": "2026-10-14T12:32:20+09:00"
       }
     ],
     "recommendedArtifact": {
@@ -281,7 +310,8 @@
       "reviewedAt": "2026-10-08",
       "recommendationBasis": "AllClash 아멜리아 공개 추천. 한국 공식명·아이콘은 기존 위키 검증 데이터 사용.",
       "roleId": 3
-    }
+    },
+    "collectionValueReason": "추격 조합 전체의 피해와 스킬 순환을 강화하는 핵심 영주"
   },
   {
     "id": "abomination",

@@ -1,3 +1,4 @@
+// v2.14.137: Amelia gear, two videos, collection values and activity sync.
 // v2.14.136: Beirasia portrait and related video update.
 // v2.14.122: stable initial roster and synchronized cache updates.
 // v2.14.12: owner-confirmed update priority. First 46 are explicitly ordered.
@@ -689,7 +690,7 @@ const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.122", { cache: "n
   })
   .catch((error) => { console.warn(error); return null; });
 
-const heroesPromise = fetch("./heroes.json?v=2.14.136", { cache: "no-store" })
+const heroesPromise = fetch("./heroes.json?v=2.14.137", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
