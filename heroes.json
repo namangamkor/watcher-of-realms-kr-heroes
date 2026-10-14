@@ -25112,11 +25112,18 @@
         "factionEn": "Nightmare Council",
         "lord": true,
         "sortOrder": 40,
-        "portrait": "./nightmare-council-hq-40-beirasia-v21468.webp"
+        "portrait": "./nightmare-council-hq-40-beirasia-v214136.webp"
       }
     ],
     "collectionValue": 3,
-    "videos": [],
+    "videos": [
+      {
+        "youtubeId": "RsHPUU76oBs",
+        "title": "베이라시아 관련 나만겜 영상",
+        "url": "https://youtu.be/RsHPUU76oBs",
+        "label": "나만겜 베이라시아 영상"
+      }
+    ],
     "details": {
       "awakening": [
         {
