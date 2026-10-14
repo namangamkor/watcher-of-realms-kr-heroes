@@ -1,3 +1,4 @@
+// v2.14.139: six home quick links; floating artifact button removed.
 // v2.14.137: Amelia gear, two videos, collection values and activity sync.
 // v2.14.136: Beirasia portrait and related video update.
 // v2.14.122: stable initial roster and synchronized cache updates.
@@ -690,7 +691,7 @@ const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.122", { cache: "n
   })
   .catch((error) => { console.warn(error); return null; });
 
-const heroesPromise = fetch("./heroes.json?v=2.14.138", { cache: "no-store" })
+const heroesPromise = fetch("./heroes.json?v=2.14.139", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
