@@ -1,5 +1,147 @@
 [
   {
+    "id": "rorkesh",
+    "nameKr": "로케쉬",
+    "nameEn": "Rorkesh",
+    "aliases": [
+      "뒷골목의 괴룡",
+      "뒷골목의 괴룡 로케쉬"
+    ],
+    "class": "궁수",
+    "rarity": "전설",
+    "factions": [
+      "grey-blades"
+    ],
+    "memberships": [
+      {
+        "faction": "grey-blades",
+        "factionKr": "황혼 그림자의 칼날",
+        "factionEn": "The Grey Blades",
+        "lord": false,
+        "sortOrder": 3,
+        "portrait": "./grey-blades-hq-03-rorkesh-v214143.webp"
+      }
+    ],
+    "collectionValue": null,
+    "collectionValueReason": "신규 영웅으로 실전 검증 후 평가 예정입니다.",
+    "videos": [],
+    "contentTags": [],
+    "traits": [
+      "단일 물리 공격",
+      "소환",
+      "방어 무시",
+      "듀얼 대상 공격",
+      "공중 유닛 공격 가능"
+    ],
+    "traitsSource": "in-game-screenshot",
+    "recommendedArtifact": {
+      "nameKr": "망령술사의 손가락",
+      "nameEn": "Blightcaller's Claw",
+      "krVerified": true,
+      "kind": "general",
+      "roleId": 3,
+      "source": "https://www.allclash.com/best-build-for-rorkesh-in-watcher-of-realms-gear-stat-prio-artifact-awaken-prio/",
+      "reviewedAt": "2026-10-17",
+      "recommendationBasis": "AllClash 로케쉬 공개 추천. 한국명과 아이콘은 기존 위키의 검증된 한영 매칭을 사용합니다."
+    },
+    "details": {
+      "updated": "2026-10-17",
+      "verifiedIntro": "황혼 그림자의 칼날 소속 전설 궁수입니다. 자신의 속성과 공격 범위를 계승하고 스킬을 복제하는 사냥터 부관을 소환합니다. 일반 공격으로 부관의 지속 시간을 늘리거나 다음 보충 시간을 줄이고, 자동 궁극기 교차 화선으로 자신과 부관이 각각 범위 내 적 2명에게 방어를 무시하는 추격 피해와 포위 사냥을 부여합니다. 부관이 배치되어 있는 동안 아군 1명에게 피해 증가와 관통 상승을 제공하는 딜러 겸 지원 영웅입니다.",
+      "showSkills": true,
+      "skillLevelNote": "제공된 게임 화면의 최대 스킬 레벨 기준입니다. 각성 효과는 아래 A1~A5에서 별도로 확인하세요.",
+      "skills": [
+        {
+          "name": "재능 · 사냥터 부관",
+          "type": "소환",
+          "paragraphs": [
+            "출전 시 25초간 지속되는 사냥터 부관 1개를 사용할 수 있으며, 50초마다 1개를 보충합니다. 사냥터 부관은 비늘을 떨치는 중탄의 패시브 효과를 지닙니다.",
+            "부관은 소환자의 속성과 공격 범위를 100% 계승하고 영웅의 스킬을 복제해 사용합니다. 일반 공격은 범위 내 적 1명에게 140%의 물리 피해를 입히며, 필드에는 최대 1개만 존재할 수 있습니다."
+          ]
+        },
+        {
+          "name": "물리 공격",
+          "type": "일반 공격",
+          "paragraphs": [
+            "범위 내 적 1명에게 140%의 피해를 입힙니다. 전장에 사냥터 부관이 있으면 부관의 지속 시간이 2초 늘어나고, 없으면 다음 부관을 획득하기까지의 시간이 2초 줄어듭니다."
+          ]
+        },
+        {
+          "name": "교차 화선",
+          "type": "자동 궁극기 · 추격 스킬",
+          "paragraphs": [
+            "분노 소모 350 · 지속 시간 2초. 자신과 사냥터 부관이 각각 자신의 공격 범위 내 적 2명에게 방어를 무시하는 800%의 추격 피해를 입히고 포위 사냥을 부여합니다.",
+            "이어서 자신과 사냥터 부관은 공중 피해 증가 40%를 10초간 획득합니다. 포위 사냥은 10초간 대상이 받는 추격 피해를 30% 높입니다."
+          ]
+        },
+        {
+          "name": "비늘을 떨치는 중탄",
+          "type": "패시브",
+          "paragraphs": [
+            "일반 공격 시 50% 확률로 대상에게 300%의 추가 피해를 입히고 물리 취약을 부여합니다. 궁극기 공격 시에는 위 효과가 모두 적용됩니다.",
+            "물리 취약: 받는 물리 피해 +20%. 같은 유형의 효과는 가장 높은 효과만 적용됩니다."
+          ]
+        },
+        {
+          "name": "친위대 전령",
+          "type": "패시브 · 아군 강화",
+          "paragraphs": [
+            "사냥터 부관 배치 후 필드에서 공격력이 가장 높은 아군 영웅 1명에게 지속적으로 피해 증가와 관통 상승을 부여합니다. 같은 진영, 같은 소대의 아군 영웅에게 우선 부여합니다.",
+            "최대 스킬 레벨 기준 피해 증가 +25%, 관통 상승으로 방어 및 마법 저항 10%를 무시합니다. 같은 유형의 효과는 가장 높은 효과만 적용됩니다."
+          ]
+        }
+      ],
+      "gear": {
+        "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
+        "label": "추천 장비 세트",
+        "text": "기본 추천은 악의 복수 + 재앙 드래곤입니다. 해외 로케쉬 공개 빌드의 장비던전 22~24단계 조합을 참고한 범용 후보입니다. 궁극기를 반복 사용하는 장기전에서는 영혼의 비밀도 비교할 수 있습니다. 공격 속도는 일반 공격을 통한 사냥터 부관 유지·보충을 돕고, 분노 회복은 궁극기 순환을 보완합니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해, 분노 회복.",
+        "source": "2026-10-17 AllClash 공개 로케쉬 빌드 및 SimiPRO 후보 확인. 실측 최적 조합을 확정한 평가는 아닙니다.",
+        "sources": [
+          "https://www.allclash.com/best-build-for-rorkesh-in-watcher-of-realms-gear-stat-prio-artifact-awaken-prio/",
+          "https://simipro.gg/heroes/rorkesh"
+        ]
+      },
+      "awakening": [
+        {
+          "level": "A1",
+          "grade": "게임 내 스크린샷",
+          "text": "아군의 추격 스킬이 발동하면 자신의 다음 궁극기 피해 배율이 300% 증가합니다."
+        },
+        {
+          "level": "A2",
+          "grade": "게임 내 스크린샷",
+          "text": "공격력 +300."
+        },
+        {
+          "level": "A3",
+          "grade": "게임 내 스크린샷",
+          "text": "자신이 궁극기를 시전한 후 자신의 HP를 15% 회복합니다."
+        },
+        {
+          "level": "A4",
+          "grade": "게임 내 스크린샷",
+          "text": "관통 +8%."
+        },
+        {
+          "level": "A5",
+          "grade": "게임 내 스크린샷",
+          "text": "사냥터 부관의 지속 시간이 5초 증가하며, 속성 계승이 115%로 상승합니다."
+        }
+      ],
+      "note": "영웅 특성·스킬·각성의 한국어 명칭과 수치는 제공된 한국 서버 게임 화면을 기준으로 정리했습니다. 추천 장비·아티팩트는 해외 공개 빌드를 참고한 범용 후보이며, 수집가치는 실전 검증 후 평가합니다."
+    },
+    "infoUpdatedAt": "2026-10-17T22:31:44+09:00",
+    "updateHistory": [
+      {
+        "id": "hero-rorkesh-new-20261017",
+        "kind": "new-hero",
+        "kindLabel": "신규영웅등록",
+        "message": "신규 전설 궁수·스킬·각성 A1~A5·추천 정보 등록",
+        "shortMessage": "로케쉬 신규 등록",
+        "updatedAt": "2026-10-17T22:31:44+09:00"
+      }
+    ]
+  },
+  {
     "id": "garroq",
     "nameKr": "가로크",
     "nameEn": "Garroq",

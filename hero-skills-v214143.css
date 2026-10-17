@@ -1,0 +1,11 @@
+/* Optional hero skill section, enabled only by details.showSkills. */
+.detail-skills-section{scroll-margin-top:24px}
+.detail-skill-note{color:#b5c0ce;line-height:1.7;margin:0 0 16px;font-size:15px}
+.detail-skill-list{display:grid;gap:14px;min-width:0}
+.detail-skill-card{border:1px solid #354154;border-radius:16px;padding:22px;background:rgba(20,28,41,.72);min-width:0}
+.detail-skill-heading{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;margin-bottom:12px}
+.detail-skill-heading h3{color:#f3db9d;font-size:20px;line-height:1.45;margin:0;word-break:keep-all;overflow-wrap:anywhere}
+.detail-skill-heading span{font-size:13px;color:#bac6d8}
+.detail-skill-card p{margin:0 0 10px;line-height:1.85;font-size:16px;color:#e0e6ee;word-break:keep-all;overflow-wrap:anywhere}
+.detail-skill-card p:last-child{margin-bottom:0}
+@media(max-width:640px){.detail-skill-card{padding:18px 16px;border-radius:13px}.detail-skill-heading h3{font-size:18px}.detail-skill-card p{font-size:16px;line-height:1.8}.detail-skill-note{font-size:14px}}
