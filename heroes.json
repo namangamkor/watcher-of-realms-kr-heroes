@@ -24,7 +24,14 @@
     ],
     "collectionValue": 3.0,
     "collectionValueReason": "수집가치 3.0 · 나만겜 확정 평가",
-    "videos": [],
+    "videos": [
+      {
+        "youtubeId": "Mss7h1seHCo",
+        "title": "로케쉬 관련 나만겜 영상",
+        "url": "https://youtu.be/Mss7h1seHCo",
+        "label": "나만겜 로케쉬 영상"
+      }
+    ],
     "contentTags": [],
     "traits": [
       "단일 물리 공격",
@@ -129,7 +136,7 @@
       ],
       "note": "영웅 특성·스킬·각성의 한국어 명칭과 수치는 제공된 한국 서버 게임 화면을 기준으로 정리했습니다. 추천 장비·아티팩트는 해외 공개 빌드를 참고한 범용 후보이며, 수집가치는 2026-10-17 나만겜 확정 평가 3.0을 반영했습니다."
     },
-    "infoUpdatedAt": "2026-10-17T23:37:20+09:00",
+    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
     "updateHistory": [
       {
         "id": "hero-rorkesh-new-20261017",
@@ -146,6 +153,14 @@
         "message": "수집가치 3.0 확정 반영",
         "shortMessage": "수집가치 3.0 확정",
         "updatedAt": "2026-10-17T23:37:20+09:00"
+      },
+      {
+        "id": "hero-video-20261017-rorkesh",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "관련 나만겜 영상 추가",
+        "shortMessage": "관련 영상 추가",
+        "updatedAt": "2026-10-17T23:41:57+09:00"
       }
     ],
     "collectionValueReviewedAt": "2026-10-17"
@@ -3292,7 +3307,14 @@
       }
     ],
     "collectionValue": 3,
-    "videos": [],
+    "videos": [
+      {
+        "youtubeId": "RsHPUU76oBs",
+        "title": "바론 관련 나만겜 영상",
+        "url": "https://youtu.be/RsHPUU76oBs",
+        "label": "나만겜 바론 영상"
+      }
+    ],
     "details": {
       "awakening": [
         {
@@ -3342,7 +3364,18 @@
       "source": "https://fastidious.gg/heroes/baron",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
-    }
+    },
+    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
+    "updateHistory": [
+      {
+        "id": "hero-video-20261017-baron",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "관련 나만겜 영상 추가",
+        "shortMessage": "관련 영상 추가",
+        "updatedAt": "2026-10-17T23:41:57+09:00"
+      }
+    ]
   },
   {
     "id": "bayek",
@@ -4038,6 +4071,12 @@
     },
     "videos": [
       {
+        "youtubeId": "tSQBYq7jy3A",
+        "title": "브로켈 관련 나만겜 영상",
+        "url": "https://youtu.be/tSQBYq7jy3A",
+        "label": "나만겜 브로켈 영상"
+      },
+      {
         "youtubeId": "DdzidwGAvxE",
         "title": "전설 영웅 관련 나만겜 영상 모음",
         "url": "https://youtu.be/DdzidwGAvxE",
@@ -4109,7 +4148,7 @@
       "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
       "roleId": 4
     },
-    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
     "updateHistory": [
       {
         "id": "generic-artifact-20261006-brokkir",
@@ -4118,6 +4157,14 @@
         "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
         "shortMessage": "범용 아티팩트 대안 추가",
         "updatedAt": "2026-10-06T23:50:00+09:00"
+      },
+      {
+        "id": "hero-video-20261017-brokkir",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "관련 나만겜 영상 추가",
+        "shortMessage": "관련 영상 추가",
+        "updatedAt": "2026-10-17T23:41:57+09:00"
       }
     ]
   },
@@ -7076,6 +7123,12 @@
     "collectionValue": 5,
     "videos": [
       {
+        "youtubeId": "tSQBYq7jy3A",
+        "title": "드레린 관련 나만겜 영상",
+        "url": "https://youtu.be/tSQBYq7jy3A",
+        "label": "나만겜 드레린 영상"
+      },
+      {
         "youtubeId": "yCGxmIAa04M",
         "title": "드레린 포함 실전 플레이 영상",
         "url": "https://youtu.be/yCGxmIAa04M",
@@ -7132,7 +7185,18 @@
       "source": "https://fastidious.gg/heroes/draelyn",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
-    }
+    },
+    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
+    "updateHistory": [
+      {
+        "id": "hero-video-20261017-draelyn",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "관련 나만겜 영상 추가",
+        "shortMessage": "관련 영상 추가",
+        "updatedAt": "2026-10-17T23:41:57+09:00"
+      }
+    ]
   },
   {
     "id": "drayga",
@@ -7499,6 +7563,12 @@
     "collectionValue": 5,
     "videos": [
       {
+        "youtubeId": "tSQBYq7jy3A",
+        "title": "에일리스 관련 나만겜 영상",
+        "url": "https://youtu.be/tSQBYq7jy3A",
+        "label": "나만겜 에일리스 영상"
+      },
+      {
         "youtubeId": "DdzidwGAvxE",
         "title": "전설 영웅 관련 나만겜 영상 모음",
         "url": "https://youtu.be/DdzidwGAvxE",
@@ -7556,7 +7626,18 @@
       "source": "https://fastidious.gg/heroes/eirlys",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
-    }
+    },
+    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
+    "updateHistory": [
+      {
+        "id": "hero-video-20261017-eirlys",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "관련 나만겜 영상 추가",
+        "shortMessage": "관련 영상 추가",
+        "updatedAt": "2026-10-17T23:41:57+09:00"
+      }
+    ]
   },
   {
     "id": "eivor-varinsdottir",
@@ -8055,7 +8136,14 @@
       }
     ],
     "collectionValue": 3,
-    "videos": [],
+    "videos": [
+      {
+        "youtubeId": "RsHPUU76oBs",
+        "title": "에릴시아 관련 나만겜 영상",
+        "url": "https://youtu.be/RsHPUU76oBs",
+        "label": "나만겜 에릴시아 영상"
+      }
+    ],
     "details": {
       "awakening": [
         {
@@ -8109,7 +8197,18 @@
       "source": "https://fastidious.gg/heroes/elysia",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
-    }
+    },
+    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
+    "updateHistory": [
+      {
+        "id": "hero-video-20261017-elysia",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "관련 나만겜 영상 추가",
+        "shortMessage": "관련 영상 추가",
+        "updatedAt": "2026-10-17T23:41:57+09:00"
+      }
+    ]
   },
   {
     "id": "eona",
@@ -8419,7 +8518,14 @@
       }
     ],
     "collectionValue": 3,
-    "videos": [],
+    "videos": [
+      {
+        "youtubeId": "RsHPUU76oBs",
+        "title": "이스트리드 관련 나만겜 영상",
+        "url": "https://youtu.be/RsHPUU76oBs",
+        "label": "나만겜 이스트리드 영상"
+      }
+    ],
     "details": {
       "awakening": [
         {
@@ -8470,7 +8576,18 @@
       "source": "https://fastidious.gg/heroes/estrid",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
-    }
+    },
+    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
+    "updateHistory": [
+      {
+        "id": "hero-video-20261017-estrid",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "관련 나만겜 영상 추가",
+        "shortMessage": "관련 영상 추가",
+        "updatedAt": "2026-10-17T23:41:57+09:00"
+      }
+    ]
   },
   {
     "id": "eunomia",
@@ -10478,6 +10595,12 @@
     },
     "videos": [
       {
+        "youtubeId": "tSQBYq7jy3A",
+        "title": "관우 관련 나만겜 영상",
+        "url": "https://youtu.be/tSQBYq7jy3A",
+        "label": "나만겜 관우 영상"
+      },
+      {
         "youtubeId": "DdzidwGAvxE",
         "title": "전설 영웅 관련 나만겜 영상 모음",
         "url": "https://youtu.be/DdzidwGAvxE",
@@ -10550,7 +10673,7 @@
       "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
       "roleId": 6
     },
-    "infoUpdatedAt": "2026-10-07T00:04:41+09:00",
+    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
     "updateHistory": [
       {
         "id": "generic-artifact-20261006-guan-yu",
@@ -10559,6 +10682,14 @@
         "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
         "shortMessage": "범용 아티팩트 대안 추가",
         "updatedAt": "2026-10-07T00:04:41+09:00"
+      },
+      {
+        "id": "hero-video-20261017-guan-yu",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "관련 나만겜 영상 추가",
+        "shortMessage": "관련 영상 추가",
+        "updatedAt": "2026-10-17T23:41:57+09:00"
       }
     ]
   },
@@ -11187,7 +11318,14 @@
       }
     ],
     "collectionValue": 4,
-    "videos": [],
+    "videos": [
+      {
+        "youtubeId": "RsHPUU76oBs",
+        "title": "할로우 관련 나만겜 영상",
+        "url": "https://youtu.be/RsHPUU76oBs",
+        "label": "나만겜 할로우 영상"
+      }
+    ],
     "details": {
       "awakening": [
         {
@@ -11239,7 +11377,18 @@
       "source": "https://fastidious.gg/heroes/hollow",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
-    }
+    },
+    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
+    "updateHistory": [
+      {
+        "id": "hero-video-20261017-hollow",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "관련 나만겜 영상 추가",
+        "shortMessage": "관련 영상 추가",
+        "updatedAt": "2026-10-17T23:41:57+09:00"
+      }
+    ]
   },
   {
     "id": "idril",
@@ -11331,6 +11480,12 @@
     ],
     "videos": [
       {
+        "youtubeId": "RsHPUU76oBs",
+        "title": "가드리엘 관련 나만겜 영상",
+        "url": "https://youtu.be/RsHPUU76oBs",
+        "label": "나만겜 가드리엘 영상"
+      },
+      {
         "youtubeId": "yhbWqMwssUM",
         "title": "신규 시련 SQ1-1, SQ1-2, SQ1-3 완벽 공략! 그대로 따라하세요",
         "url": "https://youtu.be/yhbWqMwssUM",
@@ -11352,7 +11507,18 @@
       "source": "https://fastidious.gg/heroes/idril",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
-    }
+    },
+    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
+    "updateHistory": [
+      {
+        "id": "hero-video-20261017-idril",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "관련 나만겜 영상 추가",
+        "shortMessage": "관련 영상 추가",
+        "updatedAt": "2026-10-17T23:41:57+09:00"
+      }
+    ]
   },
   {
     "id": "imani",
@@ -11656,6 +11822,12 @@
     },
     "videos": [
       {
+        "youtubeId": "tSQBYq7jy3A",
+        "title": "이보엘 관련 나만겜 영상",
+        "url": "https://youtu.be/tSQBYq7jy3A",
+        "label": "나만겜 이보엘 영상"
+      },
+      {
         "youtubeId": "jjmfUwF1am8",
         "title": "전설 영웅 관련 나만겜 영상 모음",
         "url": "https://www.youtube.com/watch?v=jjmfUwF1am8",
@@ -11728,7 +11900,7 @@
       "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
       "roleId": 3
     },
-    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
     "updateHistory": [
       {
         "id": "generic-artifact-20261006-iovar",
@@ -11737,6 +11909,14 @@
         "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
         "shortMessage": "범용 아티팩트 대안 추가",
         "updatedAt": "2026-10-06T23:50:00+09:00"
+      },
+      {
+        "id": "hero-video-20261017-iovar",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "관련 나만겜 영상 추가",
+        "shortMessage": "관련 영상 추가",
+        "updatedAt": "2026-10-17T23:41:57+09:00"
       }
     ]
   },
@@ -11761,7 +11941,14 @@
       }
     ],
     "collectionValue": 4,
-    "videos": [],
+    "videos": [
+      {
+        "youtubeId": "RsHPUU76oBs",
+        "title": "이졸데 관련 나만겜 영상",
+        "url": "https://youtu.be/RsHPUU76oBs",
+        "label": "나만겜 이졸데 영상"
+      }
+    ],
     "details": {
       "awakening": [
         {
@@ -11812,7 +11999,18 @@
       "source": "https://fastidious.gg/heroes/isolde",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
-    }
+    },
+    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
+    "updateHistory": [
+      {
+        "id": "hero-video-20261017-isolde",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "관련 나만겜 영상 추가",
+        "shortMessage": "관련 영상 추가",
+        "updatedAt": "2026-10-17T23:41:57+09:00"
+      }
+    ]
   },
   {
     "id": "janqhar",
@@ -14209,6 +14407,12 @@
     },
     "videos": [
       {
+        "youtubeId": "tSQBYq7jy3A",
+        "title": "라야 관련 나만겜 영상",
+        "url": "https://youtu.be/tSQBYq7jy3A",
+        "label": "나만겜 라야 영상"
+      },
+      {
         "youtubeId": "yCGxmIAa04M",
         "title": "라야 포함 실전 플레이 영상",
         "url": "https://youtu.be/yCGxmIAa04M",
@@ -14279,7 +14483,7 @@
       "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
       "roleId": 5
     },
-    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
     "updateHistory": [
       {
         "id": "generic-artifact-20261006-laya",
@@ -14288,6 +14492,14 @@
         "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
         "shortMessage": "범용 아티팩트 대안 추가",
         "updatedAt": "2026-10-06T23:50:00+09:00"
+      },
+      {
+        "id": "hero-video-20261017-laya",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "관련 나만겜 영상 추가",
+        "shortMessage": "관련 영상 추가",
+        "updatedAt": "2026-10-17T23:41:57+09:00"
       }
     ]
   },
@@ -15265,7 +15477,14 @@
       }
     ],
     "collectionValue": 3,
-    "videos": [],
+    "videos": [
+      {
+        "youtubeId": "RsHPUU76oBs",
+        "title": "루나레아 관련 나만겜 영상",
+        "url": "https://youtu.be/RsHPUU76oBs",
+        "label": "나만겜 루나레아 영상"
+      }
+    ],
     "details": {
       "awakening": [
         {
@@ -15318,7 +15537,18 @@
       "source": "https://fastidious.gg/heroes/luneria",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
-    }
+    },
+    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
+    "updateHistory": [
+      {
+        "id": "hero-video-20261017-luneria",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "관련 나만겜 영상 추가",
+        "shortMessage": "관련 영상 추가",
+        "updatedAt": "2026-10-17T23:41:57+09:00"
+      }
+    ]
   },
   {
     "id": "lust",
@@ -16250,7 +16480,14 @@
       }
     ],
     "collectionValue": 2,
-    "videos": [],
+    "videos": [
+      {
+        "youtubeId": "RsHPUU76oBs",
+        "title": "메리엘 관련 나만겜 영상",
+        "url": "https://youtu.be/RsHPUU76oBs",
+        "label": "나만겜 메리엘 영상"
+      }
+    ],
     "details": {
       "awakening": [
         {
@@ -16300,7 +16537,18 @@
       "source": "https://fastidious.gg/heroes/meriel",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
-    }
+    },
+    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
+    "updateHistory": [
+      {
+        "id": "hero-video-20261017-meriel",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "관련 나만겜 영상 추가",
+        "shortMessage": "관련 영상 추가",
+        "updatedAt": "2026-10-17T23:41:57+09:00"
+      }
+    ]
   },
   {
     "id": "midan",
@@ -17073,6 +17321,12 @@
     },
     "videos": [
       {
+        "youtubeId": "tSQBYq7jy3A",
+        "title": "나타 관련 나만겜 영상",
+        "url": "https://youtu.be/tSQBYq7jy3A",
+        "label": "나만겜 나타 영상"
+      },
+      {
         "youtubeId": "DdzidwGAvxE",
         "title": "전설 영웅 관련 나만겜 영상 모음",
         "url": "https://youtu.be/DdzidwGAvxE",
@@ -17146,7 +17400,7 @@
       "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
       "roleId": 1
     },
-    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
     "updateHistory": [
       {
         "id": "generic-artifact-20261006-ne-zha",
@@ -17155,6 +17409,14 @@
         "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
         "shortMessage": "범용 아티팩트 대안 추가",
         "updatedAt": "2026-10-06T23:50:00+09:00"
+      },
+      {
+        "id": "hero-video-20261017-ne-zha",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "관련 나만겜 영상 추가",
+        "shortMessage": "관련 영상 추가",
+        "updatedAt": "2026-10-17T23:41:57+09:00"
       }
     ]
   },
@@ -17836,7 +18098,14 @@
       }
     ],
     "collectionValue": 4,
-    "videos": [],
+    "videos": [
+      {
+        "youtubeId": "RsHPUU76oBs",
+        "title": "오라그 관련 나만겜 영상",
+        "url": "https://youtu.be/RsHPUU76oBs",
+        "label": "나만겜 오라그 영상"
+      }
+    ],
     "details": {
       "awakening": [
         {
@@ -17886,7 +18155,18 @@
       "source": "https://fastidious.gg/heroes/olague",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
-    }
+    },
+    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
+    "updateHistory": [
+      {
+        "id": "hero-video-20261017-olague",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "관련 나만겜 영상 추가",
+        "shortMessage": "관련 영상 추가",
+        "updatedAt": "2026-10-17T23:41:57+09:00"
+      }
+    ]
   },
   {
     "id": "oren",
@@ -20572,6 +20852,12 @@
     },
     "videos": [
       {
+        "youtubeId": "tSQBYq7jy3A",
+        "title": "세라스 관련 나만겜 영상",
+        "url": "https://youtu.be/tSQBYq7jy3A",
+        "label": "나만겜 세라스 영상"
+      },
+      {
         "youtubeId": "jjmfUwF1am8",
         "title": "전설 영웅 관련 나만겜 영상 모음",
         "url": "https://www.youtube.com/watch?v=jjmfUwF1am8",
@@ -20644,7 +20930,7 @@
       "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
       "roleId": 3
     },
-    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
     "updateHistory": [
       {
         "id": "generic-artifact-20261006-silas",
@@ -20653,6 +20939,14 @@
         "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
         "shortMessage": "범용 아티팩트 대안 추가",
         "updatedAt": "2026-10-06T23:50:00+09:00"
+      },
+      {
+        "id": "hero-video-20261017-silas",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "관련 나만겜 영상 추가",
+        "shortMessage": "관련 영상 추가",
+        "updatedAt": "2026-10-17T23:41:57+09:00"
       }
     ]
   },
@@ -21386,6 +21680,12 @@
     },
     "videos": [
       {
+        "youtubeId": "tSQBYq7jy3A",
+        "title": "타린 관련 나만겜 영상",
+        "url": "https://youtu.be/tSQBYq7jy3A",
+        "label": "나만겜 타린 영상"
+      },
+      {
         "youtubeId": "DdzidwGAvxE",
         "title": "전설 영웅 관련 나만겜 영상 모음",
         "url": "https://youtu.be/DdzidwGAvxE",
@@ -21458,7 +21758,7 @@
       "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
       "roleId": 3
     },
-    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
+    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
     "updateHistory": [
       {
         "id": "generic-artifact-20261006-talin",
@@ -21467,6 +21767,14 @@
         "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
         "shortMessage": "범용 아티팩트 대안 추가",
         "updatedAt": "2026-10-06T23:50:00+09:00"
+      },
+      {
+        "id": "hero-video-20261017-talin",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "관련 나만겜 영상 추가",
+        "shortMessage": "관련 영상 추가",
+        "updatedAt": "2026-10-17T23:41:57+09:00"
       }
     ]
   },
@@ -22540,6 +22848,12 @@
     },
     "videos": [
       {
+        "youtubeId": "tSQBYq7jy3A",
+        "title": "발레리아 관련 나만겜 영상",
+        "url": "https://youtu.be/tSQBYq7jy3A",
+        "label": "나만겜 발레리아 영상"
+      },
+      {
         "youtubeId": "QD-9nY7m0l0",
         "title": "발레리아 관련 나만겜 영상",
         "url": "https://youtu.be/QD-9nY7m0l0",
@@ -22620,7 +22934,7 @@
       "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
       "roleId": 6
     },
-    "infoUpdatedAt": "2026-10-07T00:54:01+09:00",
+    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
     "updateHistory": [
       {
         "id": "generic-artifact-20261006-valara",
@@ -22637,6 +22951,14 @@
         "message": "최고 중재자·비법회 대표 이미지 교체",
         "shortMessage": "대표 이미지 교체",
         "updatedAt": "2026-10-07T00:54:01+09:00"
+      },
+      {
+        "id": "hero-video-20261017-valara",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "관련 나만겜 영상 추가",
+        "shortMessage": "관련 영상 추가",
+        "updatedAt": "2026-10-17T23:41:57+09:00"
       }
     ]
   },
