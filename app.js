@@ -1,3 +1,4 @@
+// v2.14.143 revision 2026-10-17 23:37 KST: owner-confirmed Rorkesh collection value 3.0.
 // v2.14.143: Rorkesh registration; synchronized Worker, roster and activity.
 // v2.14.139: six home quick links; floating artifact button removed.
 // v2.14.137: Amelia gear, two videos, collection values and activity sync.
