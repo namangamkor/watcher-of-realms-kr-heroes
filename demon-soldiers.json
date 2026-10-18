@@ -1,0 +1,1797 @@
+{
+  "schemaVersion": 1,
+  "version": "2.14.145",
+  "updatedAt": "2026-10-18",
+  "scope": "사용자가 제공한 한국 서버 게임 화면 48종",
+  "koreanSource": "한국 서버 마법병사 속성 화면",
+  "gradeBasis": "각 항목에 표시한 촬영 레벨의 화면 등급이며 실전 전투력 순위가 아님",
+  "items": [
+    {
+      "id": "slaughter",
+      "nameKr": "슬로터",
+      "nameEn": "Slaughter",
+      "englishStatus": "matched",
+      "rarity": "captain",
+      "rarityKr": "마법 장군",
+      "family": "chaos",
+      "familyKr": "혼돈 생물",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 1,
+      "energy": 9,
+      "quantity": 1,
+      "deploymentLimit": 3,
+      "grades": {
+        "attack": "S",
+        "hp": "SSS",
+        "defense": "B",
+        "magicResistance": "B",
+        "speed": "B"
+      },
+      "featuredSkill": {
+        "nameKr": "환생",
+        "type": "passive"
+      },
+      "roles": [
+        "공격",
+        "생존"
+      ],
+      "introductionKr": "환생 후에도 성장을 이어가는 공격형 마법 장군입니다. 아군의 엄호나 치유로 생존 시간을 확보하는 것이 중요합니다.",
+      "image": "/demon-slaughter-v214145.webp",
+      "screenshotFile": "01-1000059056.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/slaughter"
+      ]
+    },
+    {
+      "id": "scalekin-champion",
+      "nameKr": "스케일킨 챔피언",
+      "nameEn": "Scalekin Champion",
+      "englishStatus": "matched",
+      "rarity": "captain",
+      "rarityKr": "마법 장군",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "heavy",
+      "armorKr": "중갑",
+      "screenshotLevel": 2,
+      "energy": 5,
+      "quantity": 1,
+      "deploymentLimit": 3,
+      "grades": {
+        "attack": "S",
+        "hp": "SSS",
+        "defense": "A",
+        "magicResistance": "A",
+        "speed": "A"
+      },
+      "featuredSkill": {
+        "nameKr": "흡혈의 축복",
+        "type": "ultimate-auto"
+      },
+      "roles": [
+        "지원",
+        "공격"
+      ],
+      "introductionKr": "흡혈 효과로 아군의 능력을 강화하는 마법 장군입니다. 자체 공격력과 생존 능력도 갖춰 전선을 함께 압박할 수 있습니다.",
+      "image": "/demon-scalekin-champion-v214145.webp",
+      "screenshotFile": "02-1000059057.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/scalekin-champion"
+      ]
+    },
+    {
+      "id": "maw",
+      "nameKr": "마우",
+      "nameEn": "Maw",
+      "englishStatus": "matched",
+      "rarity": "captain",
+      "rarityKr": "마법 장군",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 3,
+      "energy": 9,
+      "quantity": 1,
+      "deploymentLimit": 4,
+      "grades": {
+        "attack": "SS",
+        "hp": "SSS",
+        "defense": "A",
+        "magicResistance": "A",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "파멸의 투창",
+        "type": "ultimate-auto"
+      },
+      "roles": [
+        "공격",
+        "생존"
+      ],
+      "introductionKr": "강력한 폭발 스킬을 사용하지만 효과를 발휘할 때까지 살아남아야 합니다. 엄호와 치유를 제공하는 유닛과 조합하는 것이 좋습니다.",
+      "image": "/demon-maw-v214145.webp",
+      "screenshotFile": "03-1000059058.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/maw"
+      ]
+    },
+    {
+      "id": "countess-mariath",
+      "nameKr": "마리아스 여백작",
+      "nameEn": "Countess Mariath",
+      "englishStatus": "matched",
+      "rarity": "captain",
+      "rarityKr": "마법 장군",
+      "family": "bloodspring",
+      "familyKr": "혈원 생물",
+      "armor": "light",
+      "armorKr": "경갑",
+      "screenshotLevel": 2,
+      "energy": 7,
+      "quantity": 1,
+      "deploymentLimit": 3,
+      "grades": {
+        "attack": "A",
+        "hp": "SSS",
+        "defense": "C",
+        "magicResistance": "C",
+        "speed": "B"
+      },
+      "featuredSkill": {
+        "nameKr": "혈원 결계",
+        "type": "ultimate-manual"
+      },
+      "roles": [
+        "지원",
+        "생존"
+      ],
+      "introductionKr": "전투 상황에 맞춰 서로 다른 형태를 선택할 수 있는 마법 장군입니다. 다른 마법병사가 오래 버틸 수 있도록 생존 환경을 제공합니다.",
+      "image": "/demon-countess-mariath-v214145.webp",
+      "screenshotFile": "04-1000059059.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/countess-mariath"
+      ]
+    },
+    {
+      "id": "glacius",
+      "nameKr": "그레시우스",
+      "nameEn": "Glacius",
+      "englishStatus": "matched",
+      "rarity": "captain",
+      "rarityKr": "마법 장군",
+      "family": "frostbourne",
+      "familyKr": "빙원 생물",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 2,
+      "energy": 6,
+      "quantity": 1,
+      "deploymentLimit": 3,
+      "grades": {
+        "attack": "B",
+        "hp": "SSS",
+        "defense": "S",
+        "magicResistance": "S",
+        "speed": "B"
+      },
+      "featuredSkill": {
+        "nameKr": "겨울 영역",
+        "type": "ultimate-auto"
+      },
+      "roles": [
+        "제어",
+        "지원"
+      ],
+      "introductionKr": "적 영웅에게 안정적으로 강추위를 부여하는 제어·지원형 마법 장군입니다. 빙원 생물 특성을 가진 마법병사의 생존 능력도 높입니다.",
+      "image": "/demon-glacius-v214145.webp",
+      "screenshotFile": "05-1000059060.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/glacius"
+      ]
+    },
+    {
+      "id": "lightning-guard",
+      "nameKr": "번개 수비병",
+      "nameEn": "Lightning Guard",
+      "englishStatus": "matched",
+      "rarity": "legendary",
+      "rarityKr": "레전더리",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "light",
+      "armorKr": "경갑",
+      "screenshotLevel": 6,
+      "energy": 5,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "S",
+        "hp": "A",
+        "defense": "C",
+        "magicResistance": "C",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "HP 강화",
+        "type": "passive"
+      },
+      "roles": [
+        "공격",
+        "비행"
+      ],
+      "introductionKr": "공중에서 번개 공격을 사용하는 비행 마법병사입니다. 주변의 적을 함께 공격해 범위 마법 피해를 입힙니다.",
+      "image": "/demon-lightning-guard-v214145.webp",
+      "screenshotFile": "06-1000059061.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/lightning-guard"
+      ]
+    },
+    {
+      "id": "book-keeper",
+      "nameKr": "북키퍼",
+      "nameEn": "Book Keeper",
+      "englishStatus": "matched",
+      "rarity": "legendary",
+      "rarityKr": "레전더리",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "light",
+      "armorKr": "경갑",
+      "screenshotLevel": 6,
+      "energy": 5,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "A",
+        "hp": "A",
+        "defense": "C",
+        "magicResistance": "A",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "스플래시 마법구",
+        "type": "passive"
+      },
+      "roles": [
+        "공격",
+        "원거리"
+      ],
+      "introductionKr": "대상 주변까지 함께 공격하는 원거리 범위 마법 딜러입니다. 한곳에 밀집한 적을 상대할 때 효과적입니다.",
+      "image": "/demon-book-keeper-v214145.webp",
+      "screenshotFile": "07-1000059062.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/book-keeper"
+      ]
+    },
+    {
+      "id": "frozen-cleric",
+      "nameKr": "서리 사제",
+      "nameEn": "Frozen Cleric",
+      "englishStatus": "matched",
+      "rarity": "legendary",
+      "rarityKr": "레전더리",
+      "family": "frostbourne",
+      "familyKr": "빙원 생물",
+      "armor": "light",
+      "armorKr": "경갑",
+      "screenshotLevel": 4,
+      "energy": 5,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "C",
+        "hp": "A",
+        "defense": "C",
+        "magicResistance": "A",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "서리침식의 일격",
+        "type": "passive"
+      },
+      "roles": [
+        "제어",
+        "지원"
+      ],
+      "introductionKr": "적 영웅에게 강추위를 안정적으로 부여하는 제어형 마법병사입니다. 강추위를 활용하는 빙원 조합의 제어를 담당합니다.",
+      "image": "/demon-frozen-cleric-v214145.webp",
+      "screenshotFile": "08-1000059063.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons"
+      ]
+    },
+    {
+      "id": "grotesque-fiend",
+      "nameKr": "열등한 악마",
+      "nameEn": "Grotesque Fiend",
+      "englishStatus": "matched",
+      "rarity": "legendary",
+      "rarityKr": "레전더리",
+      "family": "chaos",
+      "familyKr": "혼돈 생물",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 6,
+      "energy": 6,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "B",
+        "hp": "S",
+        "defense": "C",
+        "magicResistance": "C",
+        "speed": "B"
+      },
+      "featuredSkill": {
+        "nameKr": "탐식 성장",
+        "type": "passive"
+      },
+      "roles": [
+        "공격",
+        "생존"
+      ],
+      "introductionKr": "주변의 다른 마법병사가 사망하면 공격력과 HP 보너스를 얻습니다. 전투 중 지속적으로 성장하는 공격형 마법병사입니다.",
+      "image": "/demon-grotesque-fiend-v214145.webp",
+      "screenshotFile": "09-1000059064.jpg",
+      "englishSources": [
+        "https://watcher-of-realms.fandom.com/wiki/Grotesque_Fiend"
+      ]
+    },
+    {
+      "id": "giant-golem",
+      "nameKr": "자이언트 골렘",
+      "nameEn": "Giant Golem",
+      "englishStatus": "matched",
+      "rarity": "legendary",
+      "rarityKr": "레전더리",
+      "family": "stonekin",
+      "familyKr": "거암 생물",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 3,
+      "energy": 5,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "A",
+        "hp": "A",
+        "defense": "A",
+        "magicResistance": "C",
+        "speed": "B"
+      },
+      "featuredSkill": {
+        "nameKr": "쇄석 파편",
+        "type": "passive"
+      },
+      "roles": [
+        "공격",
+        "원거리",
+        "제어"
+      ],
+      "introductionKr": "일정 수준의 제어 능력을 갖춘 원거리 물리 딜러입니다. 자신과 가장 가까운 플랫폼 위의 대상을 우선 공격합니다.",
+      "image": "/demon-giant-golem-v214145.webp",
+      "screenshotFile": "01-1000059065.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/giant-golem"
+      ]
+    },
+    {
+      "id": "knight-of-destruction",
+      "nameKr": "파멸 나이트",
+      "nameEn": "Knight of Destruction",
+      "englishStatus": "matched",
+      "rarity": "legendary",
+      "rarityKr": "레전더리",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 6,
+      "energy": 6,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "S",
+        "hp": "S",
+        "defense": "A",
+        "magicResistance": "A",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "공격력 강화",
+        "type": "passive"
+      },
+      "roles": [
+        "방어",
+        "공격"
+      ],
+      "introductionKr": "매우 높은 HP를 바탕으로 마법·물리 피해를 받아낼 수 있습니다. 전선에서 버티면서 공격에 참여하는 마법병사입니다.",
+      "image": "/demon-knight-of-destruction-v214145.webp",
+      "screenshotFile": "02-1000059066.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/knight-of-destruction"
+      ]
+    },
+    {
+      "id": "bloodmend-rats",
+      "nameKr": "블러드스웜",
+      "nameEn": "Bloodmend Rats",
+      "englishStatus": "matched",
+      "rarity": "legendary",
+      "rarityKr": "레전더리",
+      "family": "chaos",
+      "familyKr": "혼돈 생물",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 3,
+      "energy": 4,
+      "quantity": 3,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "B",
+        "hp": "C",
+        "defense": "C",
+        "magicResistance": "C",
+        "speed": "B"
+      },
+      "featuredSkill": {
+        "nameKr": "피의 치유",
+        "type": "passive"
+      },
+      "roles": [
+        "지원",
+        "다수"
+      ],
+      "introductionKr": "여러 개체가 함께 등장하며, 사망할 때 주변 마법병사를 치유합니다. 아군의 생존을 돕는 다수 개체 유닛입니다.",
+      "image": "/demon-bloodmend-rats-v214145.webp",
+      "screenshotFile": "03-1000059067.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/bloodmend-rats"
+      ]
+    },
+    {
+      "id": "the-fool",
+      "nameKr": "우매한 자",
+      "nameEn": "The Fool",
+      "englishStatus": "matched",
+      "rarity": "legendary",
+      "rarityKr": "레전더리",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "light",
+      "armorKr": "경갑",
+      "screenshotLevel": 5,
+      "energy": 5,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "B",
+        "hp": "A",
+        "defense": "C",
+        "magicResistance": "A",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "가호술",
+        "type": "auto"
+      },
+      "roles": [
+        "지원",
+        "보호막"
+      ],
+      "introductionKr": "주변의 지면 아군 마법병사에게 주기적으로 실드를 부여합니다. HP가 높은 마법병사와 함께 사용하면 효과적입니다.",
+      "image": "/demon-the-fool-v214145.webp",
+      "screenshotFile": "04-1000059068.jpg",
+      "englishSources": [
+        "https://watcher-of-realms.fandom.com/wiki/The_Fool"
+      ]
+    },
+    {
+      "id": "uncommon-destroyer",
+      "nameKr": "중급 파멸자",
+      "nameEn": "Uncommon Destroyer",
+      "englishStatus": "matched",
+      "rarity": "legendary",
+      "rarityKr": "레전더리",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "heavy",
+      "armorKr": "중갑",
+      "screenshotLevel": 5,
+      "energy": 7,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "S",
+        "hp": "A",
+        "defense": "S",
+        "magicResistance": "C",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "강철 껍데기 I",
+        "type": "passive"
+      },
+      "roles": [
+        "공격",
+        "방어"
+      ],
+      "introductionKr": "대상 주변의 지면 유닛에 큰 범위 피해를 입힙니다. 물리 방어력이 높지만 마법 피해에는 취약합니다.",
+      "image": "/demon-uncommon-destroyer-v214145.webp",
+      "screenshotFile": "05-1000059069.jpg",
+      "englishSources": [
+        "https://watcher-of-realms.fandom.com/wiki/Uncommon_Destroyer"
+      ]
+    },
+    {
+      "id": "frost-canid",
+      "nameKr": "서리 하이에나",
+      "nameEn": "Frost Canid",
+      "englishStatus": "matched",
+      "rarity": "legendary",
+      "rarityKr": "레전더리",
+      "family": "frostbourne",
+      "familyKr": "빙원 생물",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 4,
+      "energy": 5,
+      "quantity": 2,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "C",
+        "hp": "B",
+        "defense": "C",
+        "magicResistance": "C",
+        "speed": "S"
+      },
+      "featuredSkill": {
+        "nameKr": "혹한의 손길",
+        "type": "passive"
+      },
+      "roles": [
+        "기동",
+        "제어"
+      ],
+      "introductionKr": "이동 속도가 매우 빠르며 적 영웅에게 강추위를 부여할 수 있습니다. 빠른 진입과 빙원 조합의 제어를 함께 맡습니다.",
+      "image": "/demon-frost-canid-v214145.webp",
+      "screenshotFile": "06-1000059070.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/frost-canid"
+      ]
+    },
+    {
+      "id": "emberfire-templar",
+      "nameKr": "파멸의 성당 수비병",
+      "nameEn": "Emberfire Templar",
+      "englishStatus": "matched",
+      "rarity": "legendary",
+      "rarityKr": "레전더리",
+      "family": "chaos",
+      "familyKr": "혼돈 생물",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 4,
+      "energy": 6,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "D",
+        "hp": "S",
+        "defense": "B",
+        "magicResistance": "B",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "파멸의 불길",
+        "type": "passive"
+      },
+      "roles": [
+        "방어",
+        "지속 피해"
+      ],
+      "introductionKr": "생존 능력이 높은 마법병사입니다. 피해를 받을 때 일정 확률로 적 영웅에게 화상을 부여합니다.",
+      "image": "/demon-emberfire-templar-v214145.webp",
+      "screenshotFile": "07-1000059071.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/emberfire-templar"
+      ]
+    },
+    {
+      "id": "frost-guardian",
+      "nameKr": "서리 수비병",
+      "nameEn": "Frost Guardian",
+      "englishStatus": "matched",
+      "rarity": "legendary",
+      "rarityKr": "레전더리",
+      "family": "frostbourne",
+      "familyKr": "빙원 생물",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 4,
+      "energy": 6,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "B",
+        "hp": "S",
+        "defense": "A",
+        "magicResistance": "A",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "서리의 침식",
+        "type": "passive"
+      },
+      "roles": [
+        "방어",
+        "제어"
+      ],
+      "introductionKr": "생존 능력이 높은 빙원 마법병사입니다. 피해를 받을 때 일정 확률로 적 영웅에게 강추위를 부여합니다.",
+      "image": "/demon-frost-guardian-v214145.webp",
+      "screenshotFile": "08-1000059072.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons"
+      ]
+    },
+    {
+      "id": "demon-9073",
+      "nameKr": "폭발 좀비",
+      "nameEn": null,
+      "englishStatus": "pending",
+      "rarity": "legendary",
+      "rarityKr": "레전더리",
+      "family": "bloodspring",
+      "familyKr": "혈원 생물",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 2,
+      "energy": 5,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "C",
+        "hp": "A",
+        "defense": "B",
+        "magicResistance": "B",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "부식의 손길",
+        "type": "passive"
+      },
+      "roles": [
+        "지원",
+        "약화"
+      ],
+      "introductionKr": "적 영웅의 생존 능력을 낮추는 지원형 마법병사입니다. 수호자와 힐러 영웅을 제압하는 데 도움을 줍니다.",
+      "image": "/demon-demon-9073-v214145.webp",
+      "screenshotFile": "09-1000059073.jpg",
+      "englishSources": []
+    },
+    {
+      "id": "baron-salem",
+      "nameKr": "세일럼 남작",
+      "nameEn": "Baron Salem",
+      "englishStatus": "matched",
+      "rarity": "legendary",
+      "rarityKr": "레전더리",
+      "family": "bloodspring",
+      "familyKr": "혈원 생물",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 2,
+      "energy": 6,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "C",
+        "hp": "SSS",
+        "defense": "D",
+        "magicResistance": "D",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "고통 연결",
+        "type": "passive"
+      },
+      "roles": [
+        "지원",
+        "생존"
+      ],
+      "introductionKr": "자체 생존 능력이 높으며 다른 마법병사의 생존 능력도 끌어올립니다. 아군이 오래 버티도록 돕는 혈원 마법병사입니다.",
+      "image": "/demon-baron-salem-v214145.webp",
+      "screenshotFile": "01-1000059074.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/baron-salem"
+      ]
+    },
+    {
+      "id": "specter-skeleton-archer",
+      "nameKr": "유령 스켈레톤 궁수",
+      "nameEn": "Specter Skeleton Archer",
+      "englishStatus": "matched",
+      "rarity": "legendary",
+      "rarityKr": "레전더리",
+      "family": "bloodspring",
+      "familyKr": "혈원 생물",
+      "armor": "light",
+      "armorKr": "경갑",
+      "screenshotLevel": 2,
+      "energy": 5,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "S",
+        "hp": "A",
+        "defense": "D",
+        "magicResistance": "D",
+        "speed": "B"
+      },
+      "featuredSkill": {
+        "nameKr": "보복",
+        "type": "passive"
+      },
+      "roles": [
+        "공격",
+        "반격",
+        "약화"
+      ],
+      "introductionKr": "자신을 처음 공격한 영웅에게 직접 피해로 반격합니다. 적 영웅의 공격력을 낮추는 지원 능력도 갖추고 있습니다.",
+      "image": "/demon-specter-skeleton-archer-v214145.webp",
+      "screenshotFile": "02-1000059075.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/specter-skeleton-archer"
+      ]
+    },
+    {
+      "id": "twisted-sycophant",
+      "nameKr": "비뚤어진 추종자",
+      "nameEn": "Twisted Sycophant",
+      "englishStatus": "matched",
+      "rarity": "legendary",
+      "rarityKr": "레전더리",
+      "family": "bloodspring",
+      "familyKr": "혈원 생물",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 2,
+      "energy": 5,
+      "quantity": 3,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "C",
+        "hp": "A",
+        "defense": "D",
+        "magicResistance": "D",
+        "speed": "B"
+      },
+      "featuredSkill": {
+        "nameKr": "피의 보루",
+        "type": "passive"
+      },
+      "roles": [
+        "생존",
+        "다수"
+      ],
+      "introductionKr": "여러 개체가 함께 등장하며 일정 수준의 생존 능력을 갖춥니다. 광역 공격 피해가 높은 적 라인업에 대응할 수 있습니다.",
+      "image": "/demon-twisted-sycophant-v214145.webp",
+      "screenshotFile": "03-1000059076.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/twisted-sycophant"
+      ]
+    },
+    {
+      "id": "suicide",
+      "nameKr": "폭발충",
+      "nameEn": "Suicide",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 7,
+      "energy": 3,
+      "quantity": 2,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "A",
+        "hp": "D",
+        "defense": "D",
+        "magicResistance": "D",
+        "speed": "B"
+      },
+      "featuredSkill": {
+        "nameKr": "산성 자폭",
+        "type": "passive"
+      },
+      "roles": [
+        "공격",
+        "다수"
+      ],
+      "introductionKr": "적에게 부딪쳐 자폭하며 범위 마법 피해를 입힙니다. 목표에 도달하도록 아군의 엄호를 제공해야 효과적입니다.",
+      "image": "/demon-suicide-v214145.webp",
+      "screenshotFile": "04-1000059077.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons"
+      ]
+    },
+    {
+      "id": "murkling-menace",
+      "nameKr": "뒤틀린 혀",
+      "nameEn": "Murkling Menace",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "light",
+      "armorKr": "경갑",
+      "screenshotLevel": 6,
+      "energy": 5,
+      "quantity": 2,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "B",
+        "hp": "A",
+        "defense": "B",
+        "magicResistance": "B",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "속도 강화",
+        "type": "passive"
+      },
+      "roles": [
+        "비행",
+        "기동"
+      ],
+      "introductionKr": "일정 수준의 공격력을 갖춘 비행 유닛입니다. 전투 중 제 역할을 할 수 있도록 다른 아군의 엄호가 필요합니다.",
+      "image": "/demon-murkling-menace-v214145.webp",
+      "screenshotFile": "05-1000059078.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/murkling-menace"
+      ]
+    },
+    {
+      "id": "stitched-carrion",
+      "nameKr": "봉합된 육체",
+      "nameEn": "Stitched Carrion",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 6,
+      "energy": 4,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "A",
+        "hp": "A",
+        "defense": "A",
+        "magicResistance": "A",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "HP 강화",
+        "type": "passive"
+      },
+      "roles": [
+        "방어",
+        "생존"
+      ],
+      "introductionKr": "비교적 높은 HP를 바탕으로 일정량의 마법·물리 피해를 받아낼 수 있는 마법병사입니다.",
+      "image": "/demon-stitched-carrion-v214145.webp",
+      "screenshotFile": "06-1000059079.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons"
+      ]
+    },
+    {
+      "id": "infernal-cleric",
+      "nameKr": "연옥 제사장",
+      "nameEn": "Infernal Cleric",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "chaos",
+      "familyKr": "혼돈 생물",
+      "armor": "light",
+      "armorKr": "경갑",
+      "screenshotLevel": 6,
+      "energy": 3,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "C",
+        "hp": "A",
+        "defense": "C",
+        "magicResistance": "A",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "아르카나 장막",
+        "type": "passive"
+      },
+      "roles": [
+        "지원",
+        "마법 저항"
+      ],
+      "introductionKr": "주변의 다른 마법병사가 마법 피해를 견디도록 돕는 지원형 유닛입니다. 아군의 마법 피해 저항 능력을 높입니다.",
+      "image": "/demon-infernal-cleric-v214145.webp",
+      "screenshotFile": "07-1000059080.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/infernal-cleric"
+      ]
+    },
+    {
+      "id": "frostbourne-scholar",
+      "nameKr": "빙혈 학자",
+      "nameEn": "Frostbourne Scholar",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "frostbourne",
+      "familyKr": "빙원 생물",
+      "armor": "light",
+      "armorKr": "경갑",
+      "screenshotLevel": 6,
+      "energy": 3,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "C",
+        "hp": "B",
+        "defense": "C",
+        "magicResistance": "B",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "가호술",
+        "type": "auto"
+      },
+      "roles": [
+        "지원",
+        "보호막"
+      ],
+      "introductionKr": "주변의 지면 아군에게 주기적으로 실드를 부여합니다. HP가 높은 마법병사와 잘 맞고, 빙원 생물 특성을 가진 아군은 추가 보너스를 받습니다.",
+      "image": "/demon-frostbourne-scholar-v214145.webp",
+      "screenshotFile": "08-1000059081.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/frostbourne-scholar"
+      ],
+      "aliasesEn": [
+        "Frostborne Scholar"
+      ]
+    },
+    {
+      "id": "soulbone-archer",
+      "nameKr": "스켈레톤 레인저",
+      "nameEn": "Soulbone Archer",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 6,
+      "energy": 4,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "A",
+        "hp": "B",
+        "defense": "B",
+        "magicResistance": "B",
+        "speed": "B"
+      },
+      "featuredSkill": {
+        "nameKr": "우수한 궁술",
+        "type": "passive"
+      },
+      "roles": [
+        "공격",
+        "원거리"
+      ],
+      "introductionKr": "초원거리에서 플랫폼 위의 대상을 공격하는 물리 딜러입니다. 공격 능력이 준수하지만 수호자 영웅을 상대할 수는 없습니다.",
+      "image": "/demon-soulbone-archer-v214145.webp",
+      "screenshotFile": "09-1000059082.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/soulbone-archer"
+      ]
+    },
+    {
+      "id": "frozen-drifter",
+      "nameKr": "프로즌 레인저",
+      "nameEn": "Frozen Drifter",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "frostbourne",
+      "familyKr": "빙원 생물",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 6,
+      "energy": 4,
+      "quantity": 2,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "A",
+        "hp": "A",
+        "defense": "C",
+        "magicResistance": "C",
+        "speed": "B"
+      },
+      "featuredSkill": {
+        "nameKr": "혹한의 손길",
+        "type": "passive"
+      },
+      "roles": [
+        "공격",
+        "제어"
+      ],
+      "introductionKr": "물리 공격력이 비교적 높지만 공격을 받으면 취약합니다. 공격 대상에게 낮은 확률로 강추위를 부여합니다.",
+      "image": "/demon-frozen-drifter-v214145.webp",
+      "screenshotFile": "01-1000059083.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/frozen-drifter"
+      ]
+    },
+    {
+      "id": "golden-guard",
+      "nameKr": "골든 가드",
+      "nameEn": "Golden Guard",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "stonekin",
+      "familyKr": "거암 생물",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 5,
+      "energy": 6,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "C",
+        "hp": "B",
+        "defense": "B",
+        "magicResistance": "B",
+        "speed": "B"
+      },
+      "featuredSkill": {
+        "nameKr": "반석 돌진",
+        "type": "auto"
+      },
+      "roles": [
+        "공격",
+        "돌진"
+      ],
+      "introductionKr": "가속하며 적에게 돌진해 부딪친 대상에게 고정 피해를 입히는 마법병사입니다.",
+      "image": "/demon-golden-guard-v214145.webp",
+      "screenshotFile": "02-1000059084.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons"
+      ]
+    },
+    {
+      "id": "batwings-banshee",
+      "nameKr": "배트윙 밴시",
+      "nameEn": "Batwings Banshee",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "bloodspring",
+      "familyKr": "혈원 생물",
+      "armor": "light",
+      "armorKr": "경갑",
+      "screenshotLevel": 6,
+      "energy": 5,
+      "quantity": 2,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "D",
+        "hp": "S",
+        "defense": "D",
+        "magicResistance": "D",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "죽음의 울음",
+        "type": "passive"
+      },
+      "roles": [
+        "비행",
+        "지원",
+        "약화"
+      ],
+      "introductionKr": "적 영웅의 공격력을 낮출 수 있는 비행 지원 유닛입니다. 아군의 전투를 보조하는 역할을 맡습니다.",
+      "image": "/demon-batwings-banshee-v214145.webp",
+      "screenshotFile": "03-1000059085.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/batwings-banshee"
+      ]
+    },
+    {
+      "id": "shadowcaster",
+      "nameKr": "워록",
+      "nameEn": "Shadowcaster",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "light",
+      "armorKr": "경갑",
+      "screenshotLevel": 8,
+      "energy": 4,
+      "quantity": 2,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "S",
+        "hp": "B",
+        "defense": "B",
+        "magicResistance": "A",
+        "speed": "B"
+      },
+      "featuredSkill": {
+        "nameKr": "무기 인챈트",
+        "type": "auto"
+      },
+      "roles": [
+        "공격",
+        "마법"
+      ],
+      "introductionKr": "근접전에서 마법 피해를 입혀 수호자 영웅을 상대하는 데 유용합니다. 방어력이 약하므로 아군의 엄호가 필요합니다.",
+      "image": "/demon-shadowcaster-v214145.webp",
+      "screenshotFile": "04-1000059086.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/shadowcaster"
+      ]
+    },
+    {
+      "id": "axe-slaughterer",
+      "nameKr": "도끼 버처",
+      "nameEn": "Axe Slaughterer",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 6,
+      "energy": 6,
+      "quantity": 2,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "SS",
+        "hp": "A",
+        "defense": "B",
+        "magicResistance": "B",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "제어 저항 강화",
+        "type": "passive"
+      },
+      "roles": [
+        "공격",
+        "물리"
+      ],
+      "introductionKr": "물리 공격력이 매우 높습니다. 수호자 마법병사와 조합하면 전사 영웅을 빠르게 처치하는 데 도움을 줍니다.",
+      "image": "/demon-axe-slaughterer-v214145.webp",
+      "screenshotFile": "05-1000059087.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/axe-slaughterer"
+      ]
+    },
+    {
+      "id": "chaos-shaman",
+      "nameKr": "혼돈 샤먼",
+      "nameEn": "Chaos Shaman",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "chaos",
+      "familyKr": "혼돈 생물",
+      "armor": "light",
+      "armorKr": "경갑",
+      "screenshotLevel": 5,
+      "energy": 3,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "B",
+        "hp": "B",
+        "defense": "C",
+        "magicResistance": "A",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "소각 명령",
+        "type": "auto"
+      },
+      "roles": [
+        "지원",
+        "공격 강화"
+      ],
+      "introductionKr": "주변의 지면 아군에게 주기적으로 일반 공격 강화 효과를 부여합니다. 혼돈 생물 특성을 가진 마법병사에게는 추가 보너스가 있습니다.",
+      "image": "/demon-chaos-shaman-v214145.webp",
+      "screenshotFile": "06-1000059088.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/chaos-shaman"
+      ]
+    },
+    {
+      "id": "white-tower-s-scholar",
+      "nameKr": "백탑 학자",
+      "nameEn": "White Tower's Scholar",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "light",
+      "armorKr": "경갑",
+      "screenshotLevel": 6,
+      "energy": 4,
+      "quantity": 2,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "B",
+        "hp": "C",
+        "defense": "C",
+        "magicResistance": "A",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "HP 강화",
+        "type": "passive"
+      },
+      "roles": [
+        "공격",
+        "원거리",
+        "마법"
+      ],
+      "introductionKr": "원거리에서 마법 피해를 입힙니다. 플랫폼 위의 적뿐 아니라 수호자 영웅에게도 피해를 줄 수 있습니다.",
+      "image": "/demon-white-tower-s-scholar-v214145.webp",
+      "screenshotFile": "07-1000059089.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/white-towers-scholar"
+      ]
+    },
+    {
+      "id": "high-order-abyssal-beholder",
+      "nameKr": "고급 심연의 눈",
+      "nameEn": "High-order Abyssal Beholder",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "chaos",
+      "familyKr": "혼돈 생물",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 6,
+      "energy": 5,
+      "quantity": 5,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "B",
+        "hp": "C",
+        "defense": "C",
+        "magicResistance": "C",
+        "speed": "B"
+      },
+      "featuredSkill": {
+        "nameKr": "HP 강화",
+        "type": "passive"
+      },
+      "roles": [
+        "공격",
+        "다수",
+        "기동"
+      ],
+      "introductionKr": "많은 개체가 한 번에 영혼 코어를 공격해 큰 피해를 줄 수 있습니다. 비교적 약하기 때문에 아군의 엄호가 필요합니다.",
+      "image": "/demon-high-order-abyssal-beholder-v214145.webp",
+      "screenshotFile": "08-1000059090.jpg",
+      "englishSources": [
+        "https://watcher-of-realms.fandom.com/wiki/High-order_Abyssal_Beholder",
+        "https://danheilman.com/demon-gallery/"
+      ],
+      "aliasesEn": [
+        "Abyssal Beholder"
+      ]
+    },
+    {
+      "id": "adag-s-follower",
+      "nameKr": "아달그의 신도",
+      "nameEn": "Adag's Follower",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "light",
+      "armorKr": "경갑",
+      "screenshotLevel": 6,
+      "energy": 4,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "B",
+        "hp": "C",
+        "defense": "C",
+        "magicResistance": "A",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "추격의 손길",
+        "type": "passive"
+      },
+      "roles": [
+        "지원",
+        "공격"
+      ],
+      "introductionKr": "저비용 마법병사를 많이 사용하는 조합을 보조합니다. 생존 능력이 높은 적 영웅을 빠르게 처치하는 데 도움을 줍니다.",
+      "image": "/demon-adag-s-follower-v214145.webp",
+      "screenshotFile": "09-1000059091.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/adags-follower"
+      ]
+    },
+    {
+      "id": "scourge",
+      "nameKr": "스커지",
+      "nameEn": "Scourge",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 7,
+      "energy": 4,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "A",
+        "hp": "A",
+        "defense": "B",
+        "magicResistance": "B",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "역병",
+        "type": "passive"
+      },
+      "roles": [
+        "공격",
+        "지속 피해"
+      ],
+      "introductionKr": "자신 주변의 대상에게 지속적으로 피해를 입힙니다. 공격을 이어갈 수 있도록 다른 아군의 엄호가 필요합니다.",
+      "image": "/demon-scourge-v214145.webp",
+      "screenshotFile": "01-1000059092.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons"
+      ]
+    },
+    {
+      "id": "scalekin-warrior",
+      "nameKr": "스케일킨 용사",
+      "nameEn": "Scalekin Warrior",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 6,
+      "energy": 4,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "B",
+        "hp": "B",
+        "defense": "C",
+        "magicResistance": "C",
+        "speed": "B"
+      },
+      "featuredSkill": {
+        "nameKr": "습격의 아우라",
+        "type": "passive"
+      },
+      "roles": [
+        "지원",
+        "기동"
+      ],
+      "introductionKr": "전장에 있는 모든 지면 마법병사의 이동 속도를 높입니다. 고속 마법병사는 강화 대상에서 제외됩니다.",
+      "image": "/demon-scalekin-warrior-v214145.webp",
+      "screenshotFile": "02-1000059093.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/scalekin-warrior"
+      ]
+    },
+    {
+      "id": "fallen-templar",
+      "nameKr": "타락한 성당 수비병",
+      "nameEn": "Fallen Templar",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "heavy",
+      "armorKr": "중갑",
+      "screenshotLevel": 6,
+      "energy": 5,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "C",
+        "hp": "S",
+        "defense": "SS",
+        "magicResistance": "B",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "HP 강화",
+        "type": "passive"
+      },
+      "roles": [
+        "방어",
+        "물리"
+      ],
+      "introductionKr": "물리 방어력이 매우 높아 아군의 전진을 엄호할 수 있습니다. 마법 피해에는 비교적 취약합니다.",
+      "image": "/demon-fallen-templar-v214145.webp",
+      "screenshotFile": "03-1000059094.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/fallen-templar"
+      ]
+    },
+    {
+      "id": "necromancer",
+      "nameKr": "망령 목사",
+      "nameEn": "Necromancer",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "light",
+      "armorKr": "경갑",
+      "screenshotLevel": 6,
+      "energy": 5,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "C",
+        "hp": "A",
+        "defense": "B",
+        "magicResistance": "B",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "시체 소환",
+        "type": "auto"
+      },
+      "roles": [
+        "지원",
+        "소환"
+      ],
+      "introductionKr": "스켈레톤 전사를 지속적으로 소환합니다. 수비는 강하지만 공격이 약한 적 라인업을 상대할 때 유용합니다.",
+      "image": "/demon-necromancer-v214145.webp",
+      "screenshotFile": "04-1000059095.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/necromancer"
+      ]
+    },
+    {
+      "id": "imperial-pharaoh-guard",
+      "nameKr": "파라오의 금위군",
+      "nameEn": "Imperial Pharaoh Guard",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "light",
+      "armorKr": "경갑",
+      "screenshotLevel": 6,
+      "energy": 5,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "C",
+        "hp": "S",
+        "defense": "B",
+        "magicResistance": "SS",
+        "speed": "B"
+      },
+      "featuredSkill": {
+        "nameKr": "HP 강화",
+        "type": "passive"
+      },
+      "roles": [
+        "방어",
+        "마법 저항"
+      ],
+      "introductionKr": "마법 피해를 막는 데 특화된 방어 유닛입니다. 마법사 영웅을 상대하는 역할도 수행합니다.",
+      "image": "/demon-imperial-pharaoh-guard-v214145.webp",
+      "screenshotFile": "05-1000059096.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/imperial-pharaoh-guard"
+      ]
+    },
+    {
+      "id": "scalekin-shaman",
+      "nameKr": "스케일킨 샤먼",
+      "nameEn": "Scalekin Shaman",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "light",
+      "armorKr": "경갑",
+      "screenshotLevel": 6,
+      "energy": 3,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "C",
+        "hp": "A",
+        "defense": "B",
+        "magicResistance": "A",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "치유의 오라",
+        "type": "passive"
+      },
+      "roles": [
+        "지원",
+        "치유"
+      ],
+      "introductionKr": "주변의 아군 유닛을 주기적으로 치유합니다. 비용이 낮고 여러 개체가 등장하는 마법병사와 조합하면 효과적입니다.",
+      "image": "/demon-scalekin-shaman-v214145.webp",
+      "screenshotFile": "06-1000059097.jpg",
+      "englishSources": [
+        "https://watcher-of-realms.fandom.com/wiki/Scalekin_Shaman"
+      ]
+    },
+    {
+      "id": "garnet-guard",
+      "nameKr": "가넷 수비병",
+      "nameEn": "Garnet Guard",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "stonekin",
+      "familyKr": "거암 생물",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 6,
+      "energy": 4,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "B",
+        "hp": "B",
+        "defense": "A",
+        "magicResistance": "C",
+        "speed": "B"
+      },
+      "featuredSkill": {
+        "nameKr": "저격",
+        "type": "passive"
+      },
+      "roles": [
+        "공격",
+        "원거리"
+      ],
+      "introductionKr": "자신에게 가장 가까운 플랫폼 위의 대상을 우선 공격하는 원거리 물리 딜러입니다. 수호자 영웅을 상대할 수는 없습니다.",
+      "image": "/demon-garnet-guard-v214145.webp",
+      "screenshotFile": "07-1000059098.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/garnet-guard"
+      ]
+    },
+    {
+      "id": "ghoul-hound",
+      "nameKr": "구울견",
+      "nameEn": "Ghoul Hound",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 6,
+      "energy": 5,
+      "quantity": 3,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "A",
+        "hp": "B",
+        "defense": "C",
+        "magicResistance": "C",
+        "speed": "S"
+      },
+      "featuredSkill": {
+        "nameKr": "고속 질주",
+        "type": "passive"
+      },
+      "roles": [
+        "기동",
+        "다수"
+      ],
+      "introductionKr": "이동 속도가 매우 빠릅니다. 다른 근접전 유닛과 함께 보내면 적의 영혼 코어를 기습할 수 있습니다.",
+      "image": "/demon-ghoul-hound-v214145.webp",
+      "screenshotFile": "08-1000059099.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons"
+      ]
+    },
+    {
+      "id": "pharaoh-s-guard",
+      "nameKr": "파라오의 수비병",
+      "nameEn": "Pharaoh's Guard",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "neutral",
+      "familyKr": "특성 미표기",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 3,
+      "energy": 6,
+      "quantity": 2,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "S",
+        "hp": "A",
+        "defense": "B",
+        "magicResistance": "B",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "취약의 각인",
+        "type": "passive"
+      },
+      "roles": [
+        "공격",
+        "약화"
+      ],
+      "introductionKr": "적 영웅에게 디버프를 부여하는 근접 딜러입니다. 수호자 영웅을 효과적으로 제압하는 데 도움을 줍니다.",
+      "image": "/demon-pharaoh-s-guard-v214145.webp",
+      "screenshotFile": "09-1000059100.jpg",
+      "englishSources": [
+        "https://watcher-of-realms.fandom.com/wiki/Pharaoh%27s_Guard"
+      ]
+    },
+    {
+      "id": "frozen-raider",
+      "nameKr": "서리 투창수",
+      "nameEn": "Frozen Raider",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "frostbourne",
+      "familyKr": "빙원 생물",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 5,
+      "energy": 4,
+      "quantity": 2,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "B",
+        "hp": "C",
+        "defense": "B",
+        "magicResistance": "B",
+        "speed": "B"
+      },
+      "featuredSkill": {
+        "nameKr": "겨울의 이빨",
+        "type": "passive"
+      },
+      "roles": [
+        "공격",
+        "원거리"
+      ],
+      "introductionKr": "강추위 또는 빙결 상태인 영웅에게 추가 피해를 입히는 원거리 물리 딜러입니다.",
+      "image": "/demon-frozen-raider-v214145.webp",
+      "screenshotFile": "01-1000059101.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons/frozen-raider"
+      ]
+    },
+    {
+      "id": "tormented-banshee",
+      "nameKr": "고통받는 밴시",
+      "nameEn": "Tormented Banshee",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "bloodspring",
+      "familyKr": "혈원 생물",
+      "armor": "light",
+      "armorKr": "경갑",
+      "screenshotLevel": 4,
+      "energy": 6,
+      "quantity": 2,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "D",
+        "hp": "B",
+        "defense": "D",
+        "magicResistance": "D",
+        "speed": "B"
+      },
+      "featuredSkill": {
+        "nameKr": "배트윙 은신",
+        "type": "passive"
+      },
+      "roles": [
+        "기동",
+        "은신"
+      ],
+      "introductionKr": "은신 능력을 활용하는 마법병사입니다. 적절한 시점에 투입하면 적의 영혼 코어를 기습할 수 있습니다.",
+      "image": "/demon-tormented-banshee-v214145.webp",
+      "screenshotFile": "02-1000059102.jpg",
+      "englishSources": [
+        "https://fastidious.gg/demons"
+      ]
+    },
+    {
+      "id": "doomripper",
+      "nameKr": "분쇄마",
+      "nameEn": "Doomripper",
+      "englishStatus": "matched",
+      "rarity": "epic",
+      "rarityKr": "에픽",
+      "family": "chaos",
+      "familyKr": "혼돈 생물",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 1,
+      "energy": 5,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "B",
+        "hp": "S",
+        "defense": "B",
+        "magicResistance": "B",
+        "speed": "B"
+      },
+      "featuredSkill": {
+        "nameKr": "분쇄의 일격",
+        "type": "passive"
+      },
+      "roles": [
+        "방어",
+        "제어"
+      ],
+      "introductionKr": "일정 수준의 생존 능력을 갖추고 있으며, 적의 지면 영웅에게 기절을 부여할 수 있습니다.",
+      "image": "/demon-doomripper-v214145.webp",
+      "screenshotFile": "03-1000059103.jpg",
+      "englishSources": [
+        "https://watcher-of-realms.fandom.com/wiki/Doomripper",
+        "https://prospector.gg/watcher-of-realms-patch-notes-april-22-2026/"
+      ]
+    }
+  ]
+}
