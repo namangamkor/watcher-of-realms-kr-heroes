@@ -1,8 +1,9 @@
 Version: 2.14.145
 Base: 2.14.144
 Updated: 2026-10-18 Asia/Seoul
-Change: Demon soldier introduction page, 48 screenshot-based entries, 47 English names matched, 1 English name pending
-Pending English name: 폭발 좀비
+Revision: 2026-10-18 Blasting Corpse English-name correction
+Change: Demon soldier introduction page, 48 screenshot-based entries, 48 English names linked
+Correction: 폭발 좀비 = Blasting Corpse; pending labels removed
 Hero data: 261 heroes retained, including Rorkesh collection value 3.0 and v2.14.144 related videos
 Files: 65
 Deployment: NOT DEPLOYED

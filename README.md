@@ -3,7 +3,8 @@
 - 현재 패치 버전: **v2.14.145**
 - 기준 버전: **v2.14.144** 영웅 관련 영상 업데이트
 - 작업일: 2026-10-18 (Asia/Seoul)
-- 제작 상태: 완료 — 소개 48종, 영문명 확인 47종 / 확인 보류 1종
+- 제작 상태: 완료 — 소개·영문명 연결 48종
+- 수정 내역: 2026-10-18 폭발 좀비의 영문명을 Blasting Corpse로 등록하고 보류 표시 제거
 - GitHub 적용 및 실제 사이트 배포: **미실행 / 미확인**
 
 ## 변경사항
@@ -37,8 +38,9 @@
 | 서리 투창수 | Frozen Raider |
 | 연옥 제사장 | Infernal Cleric |
 | 열등한 악마 | Grotesque Fiend |
+| 폭발 좀비 | Blasting Corpse |
 
-**폭발 좀비는 동일 개체의 영문명을 확인하지 못했습니다.** 해당 항목은 한국어 이름과 화면 정보로 등록하고 “영문명 확인 중”으로 표시했습니다. 임의 번역을 영문명으로 확정하지 않았습니다.
+**폭발 좀비 = Blasting Corpse**로 연결했습니다. 사용자가 확인해 제공한 [Blasting Corpse 자료](https://watcher-of-realms.fandom.com/wiki/Blasting_Corpse)를 연결하고, 카드·영문 검색·구조화 데이터에서 보류 표시를 제거했습니다. 현재 등록한 48종 모두 영문명이 있습니다. 기존 카드의 고유 링크와 이미지 경로는 유지합니다.
 
 고급 심연의 눈은 `High-order Abyssal Beholder`로 표시하며, 해외 자료에서 쓰는 `Abyssal Beholder`로도 검색됩니다. 빙혈 학자는 `Frostbourne Scholar`로 표시하고 `Frostborne Scholar` 검색도 지원합니다.
 

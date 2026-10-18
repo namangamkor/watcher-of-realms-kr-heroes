@@ -639,8 +639,8 @@
     {
       "id": "demon-9073",
       "nameKr": "폭발 좀비",
-      "nameEn": null,
-      "englishStatus": "pending",
+      "nameEn": "Blasting Corpse",
+      "englishStatus": "matched",
       "rarity": "legendary",
       "rarityKr": "레전더리",
       "family": "bloodspring",
@@ -669,7 +669,10 @@
       "introductionKr": "적 영웅의 생존 능력을 낮추는 지원형 마법병사입니다. 수호자와 힐러 영웅을 제압하는 데 도움을 줍니다.",
       "image": "/demon-demon-9073-v214145.webp",
       "screenshotFile": "09-1000059073.jpg",
-      "englishSources": []
+      "englishSources": [
+        "https://watcher-of-realms.fandom.com/wiki/Blasting_Corpse"
+      ],
+      "englishNameBasis": "user-confirmed-link"
     },
     {
       "id": "baron-salem",
