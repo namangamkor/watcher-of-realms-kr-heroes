@@ -1,5 +1,6 @@
 (function (root) {
   'use strict';
+  const BUNDLE_VERSION = '2.14.146';
   const normalize = value => String(value || '').normalize('NFKC').toLocaleLowerCase().replace(/[^\p{L}\p{N}]/gu, '');
   function matches(item, state) {
     if (state.rarity && item.rarity !== state.rarity) return false;
@@ -19,7 +20,7 @@
     }
     return a.order - b.order;
   }
-  if (typeof module !== 'undefined' && module.exports) module.exports = { normalize, matches, compare };
+  if (typeof module !== 'undefined' && module.exports) module.exports = { normalize, matches, compare, version: BUNDLE_VERSION };
   if (typeof document === 'undefined') return;
   const dataNode = document.getElementById('demonData');
   const form = document.getElementById('demonFilters');
@@ -96,6 +97,7 @@
   document.querySelectorAll('[data-reset-demons]').forEach(button => button.addEventListener('click', reset));
   window.addEventListener('hashchange', revealHash);
   window.addEventListener('popstate', restore);
+  form.dataset.bundleVersion = BUNDLE_VERSION;
   form.hidden = false;
   restore();
 })(typeof globalThis === 'undefined' ? this : globalThis);
