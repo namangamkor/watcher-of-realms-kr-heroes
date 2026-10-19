@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2.14.155",
+  "version": "2.14.156",
   "updatedAt": "2026-10-19",
   "scope": "사용자가 제공한 한국 서버 게임 화면 53종",
   "koreanSource": "한국 서버 마법병사 속성 화면",
@@ -473,8 +473,6 @@
           "mar-fiend"
         ],
         "relatedIds": [
-          "bloodmend-rats",
-          "high-order-abyssal-beholder",
           "the-fool"
         ],
         "label": "육성 추천"
@@ -597,20 +595,7 @@
       "introductionKr": "여러 개체가 함께 등장하며, 사망할 때 주변 마법병사를 치유합니다. 아군의 생존을 돕는 다수 개체 유닛입니다.",
       "image": "/demon-bloodmend-rats-v214145.webp",
       "screenshotFile": "03-1000059067.jpg",
-      "englishSources": [],
-      "recommendation": {
-        "kind": "combo",
-        "reason": "열등한 악마 중심의 전형적인 공격 편성에 함께 포함되는 병사입니다.",
-        "condition": "열등한 악마 조합용",
-        "evidence": "3월 실전 댓글은 열등한 악마·블러드스웜·고급 심연의 눈·우매한 자에 슬로터나 구울견 등을 더하는 편성을 제시합니다. 개별 성능 순위보다 조합 채용 근거입니다.",
-        "sourceIds": [
-          "mar-fiend"
-        ],
-        "relatedIds": [
-          "grotesque-fiend"
-        ],
-        "label": "조합 추천"
-      }
+      "englishSources": []
     },
     {
       "id": "the-fool",
@@ -652,7 +637,7 @@
         "kind": "combo",
         "reason": "열등한 악마와 보조 병사를 함께 쓰는 공격 편성에 포함됩니다.",
         "condition": "열등한 악마 조합용",
-        "evidence": "3월 실전 댓글이 제시한 열등한 악마 중심 편성에 포함됩니다. 블러드스웜·고급 심연의 눈 등과 함께 사용하는 조합 추천입니다.",
+        "evidence": "3월 실전 댓글이 제시한 열등한 악마 중심 공격 편성에 포함됩니다. 조합 채용 기록을 근거로 한 추천입니다.",
         "sourceIds": [
           "mar-fiend"
         ],
@@ -1106,18 +1091,7 @@
         "https://wornuts.com/en/odyssey?item=88062&s=smasher-guard"
       ],
       "englishNameBasis": "source-image-and-description-match",
-      "raritySource": "korean-screenshot",
-      "recommendation": {
-        "kind": "conditional",
-        "reason": "낮은 등급에서 탱커 뒤 딜러를 제거하는 용도로 언급됩니다.",
-        "condition": "낮은 길드 등급에서 검토 · 성능에 대한 반론도 있음",
-        "evidence": "8월 댓글에는 낮은 등급에서 후열 딜러를 잡는 데 도움이 된다는 의견이 있습니다. 같은 글의 다른 작성자는 실전 성능이 아쉽다고 평가해 조건부로 표시했습니다.",
-        "sourceIds": [
-          "aug-stonekin"
-        ],
-        "relatedIds": [],
-        "label": "조건부 추천"
-      }
+      "raritySource": "korean-screenshot"
     },
     {
       "id": "blood-hexer",
@@ -1560,7 +1534,19 @@
       "introductionKr": "근접전에서 마법 피해를 입혀 수호자 영웅을 상대하는 데 유용합니다. 방어력이 약하므로 아군의 엄호가 필요합니다.",
       "image": "/demon-shadowcaster-v214145.webp",
       "screenshotFile": "04-1000059086.jpg",
-      "englishSources": []
+      "englishSources": [],
+      "recommendation": {
+        "kind": "growth",
+        "label": "육성 추천",
+        "reason": "근접 마법 피해로 수호자 영웅을 상대하는 공격 병사로 추천합니다.",
+        "condition": "수호자 영웅 상대 공략 · 아군 병사의 엄호를 받으며 운용",
+        "evidence": "사용자가 최종 추천 10종에 포함하도록 확정한 병사입니다. 기존 한국 서버 게임 화면의 소개에서 근접 마법 피해로 수호자 상대에 유용하며, 방어력이 약해 아군의 엄호가 필요하다는 역할 설명을 확인했습니다. 사용자 확정 목록과 게임 내 역할 설명을 반영한 추천입니다.",
+        "sourceIds": [
+          "warlock-user-confirmed"
+        ],
+        "relatedIds": [],
+        "basisType": "user-confirmed-game-description"
+      }
     },
     {
       "id": "axe-slaughterer",
@@ -1708,20 +1694,7 @@
       ],
       "aliasesEn": [
         "Abyssal Beholder"
-      ],
-      "recommendation": {
-        "kind": "combo",
-        "reason": "열등한 악마 공격 편성의 보조 병사로 함께 언급됩니다.",
-        "condition": "열등한 악마 조합용",
-        "evidence": "3월 실전 댓글에서 열등한 악마·블러드스웜·우매한 자와 함께 제시된 병사입니다. 개별 성능 순위보다 조합 채용 근거로 표시했습니다.",
-        "sourceIds": [
-          "mar-fiend"
-        ],
-        "relatedIds": [
-          "grotesque-fiend"
-        ],
-        "label": "조합 추천"
-      }
+      ]
     },
     {
       "id": "adag-s-follower",
@@ -2221,7 +2194,7 @@
   "recommendationMeta": {
     "scopeKr": "길드전 공격",
     "reviewedAt": "2026-10-19",
-    "count": 12,
+    "count": 10,
     "categories": [
       {
         "kind": "growth",
@@ -2240,7 +2213,7 @@
         "label": "조건부 추천"
       }
     ],
-    "basisKr": "2026년 해외 커뮤니티 실전 의견과 사용자 제공 게임 화면을 바탕으로 한 편집 추천입니다.",
+    "basisKr": "사용자 확정 추천 목록과 기존 해외 커뮤니티 실전 의견·한국 서버 게임 화면을 반영한 편집 추천입니다.",
     "updateNotice": {
       "date": "2026-10-16",
       "titleKr": "마법병사 밸런스 조정 예고",
@@ -2252,7 +2225,7 @@
       "affectedRecommendationIds": [
         "slaughter"
       ],
-      "noteKr": "추천 12종 중 직접 조정 대상은 슬로터 1종입니다. 이번 개편 예고의 적용 후 성능은 별도 검증이 필요합니다."
+      "noteKr": "추천 10종 중 직접 조정 대상은 슬로터 1종입니다. 이번 개편 예고의 적용 후 성능은 별도 검증이 필요합니다."
     }
   },
   "recommendationSources": {
@@ -2297,6 +2270,13 @@
       "reviewedAt": "2026-10-19",
       "screenshotFile": "07-1000059062.jpg",
       "evidenceType": "provided-game-screenshot"
+    },
+    "warlock-user-confirmed": {
+      "titleKr": "사용자 확정 추천 목록 · 워록 게임 화면",
+      "platform": "사용자 확정·게임 화면",
+      "reviewedAt": "2026-10-19",
+      "screenshotFile": "04-1000059086.jpg",
+      "evidenceType": "user-confirmed-game-screenshot"
     }
   },
   "guildWarPreview": {
@@ -2357,6 +2337,6 @@
       ],
       "noteKr": "소환수의 능력치와 배치 비용은 제공 자료만으로 확인되지 않았습니다."
     },
-    "recommendationNoteKr": "추천 12종 중 직접 조정 대상은 슬로터 1종입니다. 이번 개편 예고의 적용 후 성능은 별도 검증이 필요합니다."
+    "recommendationNoteKr": "추천 10종 중 직접 조정 대상은 슬로터 1종입니다. 이번 개편 예고의 적용 후 성능은 별도 검증이 필요합니다."
   }
 }
