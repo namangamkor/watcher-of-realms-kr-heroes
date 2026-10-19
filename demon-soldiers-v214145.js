@@ -1,6 +1,6 @@
 (function (root) {
   'use strict';
-  const BUNDLE_VERSION = '2.14.153';
+  const BUNDLE_VERSION = '2.14.154';
   const normalize = value => String(value || '').normalize('NFKC').toLocaleLowerCase().replace(/[^\p{L}\p{N}]/gu, '');
   function matches(item, state) {
     if (state.recommended && !item.recommendation) return false;
@@ -9,7 +9,8 @@
     if (state.armor && item.armor !== state.armor) return false;
     if (state.role && !item.roles.includes(state.role)) return false;
     const terms = String(state.q || '').trim().split(/\s+/).map(normalize).filter(Boolean);
-    const haystack = normalize([item.nameKr, item.nameEn, ...(item.aliasesEn || []), item.familyKr, item.armorKr, ...item.roles, item.introductionKr, item.featuredSkill.nameKr, item.recommendation?.label, item.recommendation?.reason, item.recommendation?.condition].join(' '));
+    // Search this soldier's own identity and features. Recommendation prose may name other soldiers.
+    const haystack = normalize([item.nameKr, item.nameEn, ...(item.aliasesEn || []), item.familyKr, item.armorKr, ...item.roles, item.introductionKr, item.featuredSkill.nameKr, item.recommendation?.label].join(' '));
     return terms.every(term => haystack.includes(term));
   }
   function compare(a, b, sort) {
