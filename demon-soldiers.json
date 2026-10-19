@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2.14.148",
+  "version": "2.14.149",
   "updatedAt": "2026-10-19",
   "scope": "사용자가 제공한 한국 서버 게임 화면 53종",
   "koreanSource": "한국 서버 마법병사 속성 화면",
@@ -39,9 +39,21 @@
       "introductionKr": "환생 후에도 성장을 이어가는 공격형 마법 장군입니다. 아군의 엄호나 치유로 생존 시간을 확보하는 것이 중요합니다.",
       "image": "/demon-slaughter-v214145.webp",
       "screenshotFile": "01-1000059056.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/slaughter"
-      ]
+      "englishSources": [],
+      "recommendation": {
+        "kind": "combo",
+        "reason": "열등한 악마와 보조 병사를 활용하는 공격 편성에 추천됩니다.",
+        "condition": "보유 장군과 계정 성장도 고려",
+        "evidence": "9월 장군 선택 질문에서는 해당 계정의 마우 대비 슬로터를 추천하며 열등한 악마와 먹이 병사를 붙이는 운영을 권합니다. 최신 장군 전체의 우열로 확대하지 않았습니다.",
+        "sourceIds": [
+          "sep-captains",
+          "mar-fiend"
+        ],
+        "relatedIds": [
+          "grotesque-fiend"
+        ],
+        "label": "조합 추천"
+      }
     },
     {
       "id": "scalekin-champion",
@@ -76,9 +88,7 @@
       "introductionKr": "흡혈 효과로 아군의 능력을 강화하는 마법 장군입니다. 자체 공격력과 생존 능력도 갖춰 전선을 함께 압박할 수 있습니다.",
       "image": "/demon-scalekin-champion-v214145.webp",
       "screenshotFile": "02-1000059057.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/scalekin-champion"
-      ]
+      "englishSources": []
     },
     {
       "id": "maw",
@@ -113,9 +123,7 @@
       "introductionKr": "강력한 폭발 스킬을 사용하지만 효과를 발휘할 때까지 살아남아야 합니다. 엄호와 치유를 제공하는 유닛과 조합하는 것이 좋습니다.",
       "image": "/demon-maw-v214145.webp",
       "screenshotFile": "03-1000059058.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/maw"
-      ]
+      "englishSources": []
     },
     {
       "id": "countess-mariath",
@@ -150,9 +158,22 @@
       "introductionKr": "전투 상황에 맞춰 서로 다른 형태를 선택할 수 있는 마법 장군입니다. 다른 마법병사가 오래 버틸 수 있도록 생존 환경을 제공합니다.",
       "image": "/demon-countess-mariath-v214145.webp",
       "screenshotFile": "04-1000059059.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/countess-mariath"
-      ]
+      "englishSources": [],
+      "recommendation": {
+        "kind": "captain",
+        "reason": "상대 피해 유형에 맞춘 생존 보조와 돌파 운영이 좋은 평가를 받았습니다.",
+        "condition": "상대의 물리·마법 피해 구성에 맞춰 형태와 투입 시점 선택",
+        "evidence": "1월에는 피해 유형이 한쪽으로 치우친 방어 편성 상대의 돌파 운영을 높게 평가했습니다. 9월 장군 선택 논의에서도 메타 장군으로 언급됐습니다.",
+        "sourceIds": [
+          "jan-captains",
+          "sep-captains"
+        ],
+        "relatedIds": [
+          "grotesque-fiend",
+          "ghoul-hound"
+        ],
+        "label": "장군 추천"
+      }
     },
     {
       "id": "glacius",
@@ -187,9 +208,21 @@
       "introductionKr": "적 영웅에게 안정적으로 강추위를 부여하는 제어·지원형 마법 장군입니다. 빙원 생물 특성을 가진 마법병사의 생존 능력도 높입니다.",
       "image": "/demon-glacius-v214145.webp",
       "screenshotFile": "05-1000059060.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/glacius"
-      ]
+      "englishSources": [],
+      "recommendation": {
+        "kind": "captain",
+        "reason": "자체 공격과 열등한 악마의 전선 돌파를 함께 지원하는 장군으로 언급됩니다.",
+        "condition": "3레벨부터 검토 · 군중제어에 막히는지 확인",
+        "evidence": "7월 의견은 그레시우스 공격과 열등한 악마의 돌파 보조를 흔한 운영으로 설명하며 3레벨의 중요성을 짚습니다. 9월에도 메타 장군으로 언급됐습니다.",
+        "sourceIds": [
+          "jul-growth",
+          "sep-captains"
+        ],
+        "relatedIds": [
+          "grotesque-fiend"
+        ],
+        "label": "장군 추천"
+      }
     },
     {
       "id": "wasteland-titan",
@@ -228,7 +261,20 @@
         "https://wornuts.com/en/odyssey?item=88060&s=wasteland-titan"
       ],
       "englishNameBasis": "source-image-and-description-match",
-      "raritySource": "korean-screenshot"
+      "raritySource": "korean-screenshot",
+      "recommendation": {
+        "kind": "captain",
+        "reason": "광역 제어를 활용하는 장군으로 호평을 받았고, 메타 후보로 언급됐습니다.",
+        "condition": "거암 병사 조합과 함께 검토",
+        "evidence": "9월 장군 선택 논의에서 그레시우스·마리아스 여백작과 함께 메타 장군으로 꼽혔습니다. 다른 답변도 광역 기절 운영을 좋게 평가했습니다.",
+        "sourceIds": [
+          "sep-captains"
+        ],
+        "relatedIds": [
+          "giant-golem"
+        ],
+        "label": "장군 추천"
+      }
     },
     {
       "id": "lightning-guard",
@@ -263,9 +309,7 @@
       "introductionKr": "공중에서 번개 공격을 사용하는 비행 마법병사입니다. 주변의 적을 함께 공격해 범위 마법 피해를 입힙니다.",
       "image": "/demon-lightning-guard-v214145.webp",
       "screenshotFile": "06-1000059061.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/lightning-guard"
-      ]
+      "englishSources": []
     },
     {
       "id": "book-keeper",
@@ -300,9 +344,7 @@
       "introductionKr": "대상 주변까지 함께 공격하는 원거리 범위 마법 딜러입니다. 한곳에 밀집한 적을 상대할 때 효과적입니다.",
       "image": "/demon-book-keeper-v214145.webp",
       "screenshotFile": "07-1000059062.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/book-keeper"
-      ]
+      "englishSources": []
     },
     {
       "id": "frozen-cleric",
@@ -337,9 +379,7 @@
       "introductionKr": "적 영웅에게 강추위를 안정적으로 부여하는 제어형 마법병사입니다. 강추위를 활용하는 빙원 조합의 제어를 담당합니다.",
       "image": "/demon-frozen-cleric-v214145.webp",
       "screenshotFile": "08-1000059063.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons"
-      ]
+      "englishSources": []
     },
     {
       "id": "grotesque-fiend",
@@ -376,7 +416,23 @@
       "screenshotFile": "09-1000059064.jpg",
       "englishSources": [
         "https://watcher-of-realms.fandom.com/wiki/Grotesque_Fiend"
-      ]
+      ],
+      "recommendation": {
+        "kind": "growth",
+        "reason": "공격 조합의 중심으로 반복 언급되며, 먼저 육성할 병사로 추천됩니다.",
+        "condition": "육성 목표 7레벨 · 연계 영웅 전투력과 보조 병사 고려",
+        "evidence": "7월 의견은 열등한 악마와 에픽 개들을 먼저 7레벨까지 육성하도록 권합니다. 3월에도 열등한 악마 중심의 전형적인 공격 편성이 제시됐습니다.",
+        "sourceIds": [
+          "jul-growth",
+          "mar-fiend"
+        ],
+        "relatedIds": [
+          "bloodmend-rats",
+          "high-order-abyssal-beholder",
+          "the-fool"
+        ],
+        "label": "육성 추천"
+      }
     },
     {
       "id": "giant-golem",
@@ -412,9 +468,20 @@
       "introductionKr": "일정 수준의 제어 능력을 갖춘 원거리 물리 딜러입니다. 자신과 가장 가까운 플랫폼 위의 대상을 우선 공격합니다.",
       "image": "/demon-giant-golem-v214145.webp",
       "screenshotFile": "01-1000059065.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/giant-golem"
-      ]
+      "englishSources": [],
+      "recommendation": {
+        "kind": "conditional",
+        "reason": "공격속도 감소로 방어 편성을 흔드는 활용에 호평이 있습니다.",
+        "condition": "사막 타이탄 보유 · 플래티넘 1~2 개인 테스트 의견",
+        "evidence": "8월 작성자는 사막 타이탄을 보유한 상태에서 신규 병사 중 가장 좋게 느껴졌다고 평가했습니다. 테스트 범위가 제한적이며 장군 미보유 시 성능은 확인하지 못했다고 밝혔습니다.",
+        "sourceIds": [
+          "aug-stonekin"
+        ],
+        "relatedIds": [
+          "wasteland-titan"
+        ],
+        "label": "조건부 추천"
+      }
     },
     {
       "id": "knight-of-destruction",
@@ -449,9 +516,7 @@
       "introductionKr": "매우 높은 HP를 바탕으로 마법·물리 피해를 받아낼 수 있습니다. 전선에서 버티면서 공격에 참여하는 마법병사입니다.",
       "image": "/demon-knight-of-destruction-v214145.webp",
       "screenshotFile": "02-1000059066.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/knight-of-destruction"
-      ]
+      "englishSources": []
     },
     {
       "id": "bloodmend-rats",
@@ -486,9 +551,20 @@
       "introductionKr": "여러 개체가 함께 등장하며, 사망할 때 주변 마법병사를 치유합니다. 아군의 생존을 돕는 다수 개체 유닛입니다.",
       "image": "/demon-bloodmend-rats-v214145.webp",
       "screenshotFile": "03-1000059067.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/bloodmend-rats"
-      ]
+      "englishSources": [],
+      "recommendation": {
+        "kind": "combo",
+        "reason": "열등한 악마 중심의 전형적인 공격 편성에 함께 포함되는 병사입니다.",
+        "condition": "열등한 악마 조합용",
+        "evidence": "3월 실전 댓글은 열등한 악마·블러드스웜·고급 심연의 눈·우매한 자에 슬로터나 구울견 등을 더하는 편성을 제시합니다. 개별 성능 순위보다 조합 채용 근거입니다.",
+        "sourceIds": [
+          "mar-fiend"
+        ],
+        "relatedIds": [
+          "grotesque-fiend"
+        ],
+        "label": "조합 추천"
+      }
     },
     {
       "id": "the-fool",
@@ -525,7 +601,20 @@
       "screenshotFile": "04-1000059068.jpg",
       "englishSources": [
         "https://watcher-of-realms.fandom.com/wiki/The_Fool"
-      ]
+      ],
+      "recommendation": {
+        "kind": "combo",
+        "reason": "열등한 악마와 보조 병사를 함께 쓰는 공격 편성에 포함됩니다.",
+        "condition": "열등한 악마 조합용",
+        "evidence": "3월 실전 댓글이 제시한 열등한 악마 중심 편성에 포함됩니다. 블러드스웜·고급 심연의 눈 등과 함께 사용하는 조합 추천입니다.",
+        "sourceIds": [
+          "mar-fiend"
+        ],
+        "relatedIds": [
+          "grotesque-fiend"
+        ],
+        "label": "조합 추천"
+      }
     },
     {
       "id": "uncommon-destroyer",
@@ -597,9 +686,7 @@
       "introductionKr": "이동 속도가 매우 빠르며 적 영웅에게 강추위를 부여할 수 있습니다. 빠른 진입과 빙원 조합의 제어를 함께 맡습니다.",
       "image": "/demon-frost-canid-v214145.webp",
       "screenshotFile": "06-1000059070.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/frost-canid"
-      ]
+      "englishSources": []
     },
     {
       "id": "emberfire-templar",
@@ -634,9 +721,7 @@
       "introductionKr": "생존 능력이 높은 마법병사입니다. 피해를 받을 때 일정 확률로 적 영웅에게 화상을 부여합니다.",
       "image": "/demon-emberfire-templar-v214145.webp",
       "screenshotFile": "07-1000059071.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/emberfire-templar"
-      ]
+      "englishSources": []
     },
     {
       "id": "frost-guardian",
@@ -671,9 +756,7 @@
       "introductionKr": "생존 능력이 높은 빙원 마법병사입니다. 피해를 받을 때 일정 확률로 적 영웅에게 강추위를 부여합니다.",
       "image": "/demon-frost-guardian-v214145.webp",
       "screenshotFile": "08-1000059072.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons"
-      ]
+      "englishSources": []
     },
     {
       "id": "demon-9073",
@@ -746,9 +829,7 @@
       "introductionKr": "자체 생존 능력이 높으며 다른 마법병사의 생존 능력도 끌어올립니다. 아군이 오래 버티도록 돕는 혈원 마법병사입니다.",
       "image": "/demon-baron-salem-v214145.webp",
       "screenshotFile": "01-1000059074.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/baron-salem"
-      ]
+      "englishSources": []
     },
     {
       "id": "specter-skeleton-archer",
@@ -784,9 +865,7 @@
       "introductionKr": "자신을 처음 공격한 영웅에게 직접 피해로 반격합니다. 적 영웅의 공격력을 낮추는 지원 능력도 갖추고 있습니다.",
       "image": "/demon-specter-skeleton-archer-v214145.webp",
       "screenshotFile": "02-1000059075.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/specter-skeleton-archer"
-      ]
+      "englishSources": []
     },
     {
       "id": "twisted-sycophant",
@@ -821,9 +900,7 @@
       "introductionKr": "여러 개체가 함께 등장하며 일정 수준의 생존 능력을 갖춥니다. 광역 공격 피해가 높은 적 라인업에 대응할 수 있습니다.",
       "image": "/demon-twisted-sycophant-v214145.webp",
       "screenshotFile": "03-1000059076.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/twisted-sycophant"
-      ]
+      "englishSources": []
     },
     {
       "id": "boulder-ravager",
@@ -901,7 +978,18 @@
         "https://wornuts.com/en/odyssey?item=88062&s=smasher-guard"
       ],
       "englishNameBasis": "source-image-and-description-match",
-      "raritySource": "korean-screenshot"
+      "raritySource": "korean-screenshot",
+      "recommendation": {
+        "kind": "conditional",
+        "reason": "낮은 등급에서 탱커 뒤 딜러를 제거하는 용도로 언급됩니다.",
+        "condition": "낮은 길드 등급에서 검토 · 성능에 대한 반론도 있음",
+        "evidence": "8월 댓글에는 낮은 등급에서 후열 딜러를 잡는 데 도움이 된다는 의견이 있습니다. 같은 글의 다른 작성자는 실전 성능이 아쉽다고 평가해 조건부로 표시했습니다.",
+        "sourceIds": [
+          "aug-stonekin"
+        ],
+        "relatedIds": [],
+        "label": "조건부 추천"
+      }
     },
     {
       "id": "blood-hexer",
@@ -1012,9 +1100,7 @@
       "introductionKr": "적에게 부딪쳐 자폭하며 범위 마법 피해를 입힙니다. 목표에 도달하도록 아군의 엄호를 제공해야 효과적입니다.",
       "image": "/demon-suicide-v214145.webp",
       "screenshotFile": "04-1000059077.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons"
-      ]
+      "englishSources": []
     },
     {
       "id": "murkling-menace",
@@ -1049,9 +1135,7 @@
       "introductionKr": "일정 수준의 공격력을 갖춘 비행 유닛입니다. 전투 중 제 역할을 할 수 있도록 다른 아군의 엄호가 필요합니다.",
       "image": "/demon-murkling-menace-v214145.webp",
       "screenshotFile": "05-1000059078.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/murkling-menace"
-      ]
+      "englishSources": []
     },
     {
       "id": "stitched-carrion",
@@ -1086,9 +1170,7 @@
       "introductionKr": "비교적 높은 HP를 바탕으로 일정량의 마법·물리 피해를 받아낼 수 있는 마법병사입니다.",
       "image": "/demon-stitched-carrion-v214145.webp",
       "screenshotFile": "06-1000059079.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons"
-      ]
+      "englishSources": []
     },
     {
       "id": "infernal-cleric",
@@ -1123,9 +1205,7 @@
       "introductionKr": "주변의 다른 마법병사가 마법 피해를 견디도록 돕는 지원형 유닛입니다. 아군의 마법 피해 저항 능력을 높입니다.",
       "image": "/demon-infernal-cleric-v214145.webp",
       "screenshotFile": "07-1000059080.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/infernal-cleric"
-      ]
+      "englishSources": []
     },
     {
       "id": "frostbourne-scholar",
@@ -1160,9 +1240,7 @@
       "introductionKr": "주변의 지면 아군에게 주기적으로 실드를 부여합니다. HP가 높은 마법병사와 잘 맞고, 빙원 생물 특성을 가진 아군은 추가 보너스를 받습니다.",
       "image": "/demon-frostbourne-scholar-v214145.webp",
       "screenshotFile": "08-1000059081.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/frostbourne-scholar"
-      ],
+      "englishSources": [],
       "aliasesEn": [
         "Frostborne Scholar"
       ]
@@ -1200,9 +1278,7 @@
       "introductionKr": "초원거리에서 플랫폼 위의 대상을 공격하는 물리 딜러입니다. 공격 능력이 준수하지만 수호자 영웅을 상대할 수는 없습니다.",
       "image": "/demon-soulbone-archer-v214145.webp",
       "screenshotFile": "09-1000059082.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/soulbone-archer"
-      ]
+      "englishSources": []
     },
     {
       "id": "frozen-drifter",
@@ -1237,9 +1313,7 @@
       "introductionKr": "물리 공격력이 비교적 높지만 공격을 받으면 취약합니다. 공격 대상에게 낮은 확률로 강추위를 부여합니다.",
       "image": "/demon-frozen-drifter-v214145.webp",
       "screenshotFile": "01-1000059083.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/frozen-drifter"
-      ]
+      "englishSources": []
     },
     {
       "id": "golden-guard",
@@ -1274,9 +1348,7 @@
       "introductionKr": "가속하며 적에게 돌진해 부딪친 대상에게 고정 피해를 입히는 마법병사입니다.",
       "image": "/demon-golden-guard-v214145.webp",
       "screenshotFile": "02-1000059084.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons"
-      ]
+      "englishSources": []
     },
     {
       "id": "batwings-banshee",
@@ -1312,9 +1384,7 @@
       "introductionKr": "적 영웅의 공격력을 낮출 수 있는 비행 지원 유닛입니다. 아군의 전투를 보조하는 역할을 맡습니다.",
       "image": "/demon-batwings-banshee-v214145.webp",
       "screenshotFile": "03-1000059085.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/batwings-banshee"
-      ]
+      "englishSources": []
     },
     {
       "id": "shadowcaster",
@@ -1349,9 +1419,7 @@
       "introductionKr": "근접전에서 마법 피해를 입혀 수호자 영웅을 상대하는 데 유용합니다. 방어력이 약하므로 아군의 엄호가 필요합니다.",
       "image": "/demon-shadowcaster-v214145.webp",
       "screenshotFile": "04-1000059086.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/shadowcaster"
-      ]
+      "englishSources": []
     },
     {
       "id": "axe-slaughterer",
@@ -1386,9 +1454,7 @@
       "introductionKr": "물리 공격력이 매우 높습니다. 수호자 마법병사와 조합하면 전사 영웅을 빠르게 처치하는 데 도움을 줍니다.",
       "image": "/demon-axe-slaughterer-v214145.webp",
       "screenshotFile": "05-1000059087.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/axe-slaughterer"
-      ]
+      "englishSources": []
     },
     {
       "id": "chaos-shaman",
@@ -1423,9 +1489,7 @@
       "introductionKr": "주변의 지면 아군에게 주기적으로 일반 공격 강화 효과를 부여합니다. 혼돈 생물 특성을 가진 마법병사에게는 추가 보너스가 있습니다.",
       "image": "/demon-chaos-shaman-v214145.webp",
       "screenshotFile": "06-1000059088.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/chaos-shaman"
-      ]
+      "englishSources": []
     },
     {
       "id": "white-tower-s-scholar",
@@ -1461,9 +1525,7 @@
       "introductionKr": "원거리에서 마법 피해를 입힙니다. 플랫폼 위의 적뿐 아니라 수호자 영웅에게도 피해를 줄 수 있습니다.",
       "image": "/demon-white-tower-s-scholar-v214145.webp",
       "screenshotFile": "07-1000059089.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/white-towers-scholar"
-      ]
+      "englishSources": []
     },
     {
       "id": "high-order-abyssal-beholder",
@@ -1505,7 +1567,20 @@
       ],
       "aliasesEn": [
         "Abyssal Beholder"
-      ]
+      ],
+      "recommendation": {
+        "kind": "combo",
+        "reason": "열등한 악마 공격 편성의 보조 병사로 함께 언급됩니다.",
+        "condition": "열등한 악마 조합용",
+        "evidence": "3월 실전 댓글에서 열등한 악마·블러드스웜·우매한 자와 함께 제시된 병사입니다. 개별 성능 순위보다 조합 채용 근거로 표시했습니다.",
+        "sourceIds": [
+          "mar-fiend"
+        ],
+        "relatedIds": [
+          "grotesque-fiend"
+        ],
+        "label": "조합 추천"
+      }
     },
     {
       "id": "adag-s-follower",
@@ -1540,9 +1615,7 @@
       "introductionKr": "저비용 마법병사를 많이 사용하는 조합을 보조합니다. 생존 능력이 높은 적 영웅을 빠르게 처치하는 데 도움을 줍니다.",
       "image": "/demon-adag-s-follower-v214145.webp",
       "screenshotFile": "09-1000059091.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/adags-follower"
-      ]
+      "englishSources": []
     },
     {
       "id": "scourge",
@@ -1577,9 +1650,7 @@
       "introductionKr": "자신 주변의 대상에게 지속적으로 피해를 입힙니다. 공격을 이어갈 수 있도록 다른 아군의 엄호가 필요합니다.",
       "image": "/demon-scourge-v214145.webp",
       "screenshotFile": "01-1000059092.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons"
-      ]
+      "englishSources": []
     },
     {
       "id": "scalekin-warrior",
@@ -1614,9 +1685,7 @@
       "introductionKr": "전장에 있는 모든 지면 마법병사의 이동 속도를 높입니다. 고속 마법병사는 강화 대상에서 제외됩니다.",
       "image": "/demon-scalekin-warrior-v214145.webp",
       "screenshotFile": "02-1000059093.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/scalekin-warrior"
-      ]
+      "englishSources": []
     },
     {
       "id": "fallen-templar",
@@ -1651,9 +1720,7 @@
       "introductionKr": "물리 방어력이 매우 높아 아군의 전진을 엄호할 수 있습니다. 마법 피해에는 비교적 취약합니다.",
       "image": "/demon-fallen-templar-v214145.webp",
       "screenshotFile": "03-1000059094.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/fallen-templar"
-      ]
+      "englishSources": []
     },
     {
       "id": "necromancer",
@@ -1688,9 +1755,7 @@
       "introductionKr": "스켈레톤 전사를 지속적으로 소환합니다. 수비는 강하지만 공격이 약한 적 라인업을 상대할 때 유용합니다.",
       "image": "/demon-necromancer-v214145.webp",
       "screenshotFile": "04-1000059095.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/necromancer"
-      ]
+      "englishSources": []
     },
     {
       "id": "imperial-pharaoh-guard",
@@ -1725,9 +1790,7 @@
       "introductionKr": "마법 피해를 막는 데 특화된 방어 유닛입니다. 마법사 영웅을 상대하는 역할도 수행합니다.",
       "image": "/demon-imperial-pharaoh-guard-v214145.webp",
       "screenshotFile": "05-1000059096.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/imperial-pharaoh-guard"
-      ]
+      "englishSources": []
     },
     {
       "id": "scalekin-shaman",
@@ -1799,9 +1862,7 @@
       "introductionKr": "자신에게 가장 가까운 플랫폼 위의 대상을 우선 공격하는 원거리 물리 딜러입니다. 수호자 영웅을 상대할 수는 없습니다.",
       "image": "/demon-garnet-guard-v214145.webp",
       "screenshotFile": "07-1000059098.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/garnet-guard"
-      ]
+      "englishSources": []
     },
     {
       "id": "ghoul-hound",
@@ -1836,9 +1897,20 @@
       "introductionKr": "이동 속도가 매우 빠릅니다. 다른 근접전 유닛과 함께 보내면 적의 영혼 코어를 기습할 수 있습니다.",
       "image": "/demon-ghoul-hound-v214145.webp",
       "screenshotFile": "08-1000059099.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons"
-      ]
+      "englishSources": [],
+      "recommendation": {
+        "kind": "growth",
+        "reason": "빠른 돌파용 에픽 병사로, 열등한 악마와 함께 우선 육성할 후보입니다.",
+        "condition": "육성 목표 7레벨 · 상대 방어 편성과 투입 타이밍 고려",
+        "evidence": "7월 답변은 에픽 개들을 열등한 악마와 함께 먼저 7레벨까지 육성하도록 권합니다. 원문의 표현을 에픽 병사 구울견에 연결한 해석입니다.",
+        "sourceIds": [
+          "jul-growth"
+        ],
+        "relatedIds": [
+          "grotesque-fiend"
+        ],
+        "label": "육성 추천"
+      }
     },
     {
       "id": "pharaoh-s-guard",
@@ -1910,9 +1982,7 @@
       "introductionKr": "강추위 또는 빙결 상태인 영웅에게 추가 피해를 입히는 원거리 물리 딜러입니다.",
       "image": "/demon-frozen-raider-v214145.webp",
       "screenshotFile": "01-1000059101.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons/frozen-raider"
-      ]
+      "englishSources": []
     },
     {
       "id": "tormented-banshee",
@@ -1947,9 +2017,7 @@
       "introductionKr": "은신 능력을 활용하는 마법병사입니다. 적절한 시점에 투입하면 적의 영혼 코어를 기습할 수 있습니다.",
       "image": "/demon-tormented-banshee-v214145.webp",
       "screenshotFile": "02-1000059102.jpg",
-      "englishSources": [
-        "https://fastidious.gg/demons"
-      ]
+      "englishSources": []
     },
     {
       "id": "doomripper",
@@ -1989,5 +2057,71 @@
         "https://prospector.gg/watcher-of-realms-patch-notes-april-22-2026/"
       ]
     }
-  ]
+  ],
+  "recommendationMeta": {
+    "scopeKr": "길드전 공격",
+    "reviewedAt": "2026-10-19",
+    "count": 11,
+    "categories": [
+      {
+        "kind": "growth",
+        "label": "육성 추천"
+      },
+      {
+        "kind": "captain",
+        "label": "장군 추천"
+      },
+      {
+        "kind": "combo",
+        "label": "조합 추천"
+      },
+      {
+        "kind": "conditional",
+        "label": "조건부 추천"
+      }
+    ],
+    "basisKr": "2026년 해외 커뮤니티의 실전 의견을 정리한 편집 추천입니다.",
+    "updateNotice": {
+      "date": "2026-10-16",
+      "titleKr": "마법병사 밸런스 조정 예고",
+      "url": "https://www.reddit.com/r/WatcherofRealmsGame/comments/1x7qezm/guild_war_update_preview_ii/"
+    }
+  },
+  "recommendationSources": {
+    "jul-growth": {
+      "titleKr": "마법병사 육성 순서와 공격 조합",
+      "platform": "Reddit",
+      "postDate": "2026-07-02",
+      "opinionDate": "2026-07-03",
+      "url": "https://www.reddit.com/r/WatcherofRealmsGame/comments/1uldcq5/demon_soldier_tier_list_best_team_compositions/"
+    },
+    "jan-captains": {
+      "titleKr": "장군 선택과 마리아스 여백작 운영",
+      "platform": "Reddit",
+      "postDate": "2026-01-19",
+      "opinionDate": "2026-01-19",
+      "url": "https://www.reddit.com/r/WatcherofRealmsGame/comments/1qh85qu/which_demonic_captain_will_you_choose/"
+    },
+    "sep-captains": {
+      "titleKr": "장군 선택과 현재 메타 논의",
+      "platform": "Reddit",
+      "postDate": "2026-09-24",
+      "opinionDate": "2026-09-24",
+      "url": "https://www.reddit.com/r/WatcherofRealmsGame/comments/1worvhy/who_is_the_better_captain/"
+    },
+    "mar-fiend": {
+      "titleKr": "열등한 악마 공격 편성에 대한 실전 의견",
+      "platform": "Reddit",
+      "postDate": "2026-03-21",
+      "opinionDate": "2026-03-22",
+      "url": "https://www.reddit.com/r/WatcherofRealmsGame/comments/1s02nxp/gvg_defense_tower_best_defensive_demon_soldier/"
+    },
+    "aug-stonekin": {
+      "titleKr": "신규 마법병사 선택과 거암 조합 테스트",
+      "platform": "Reddit",
+      "postDate": "2026-08-27",
+      "opinionDate": "2026-08-27",
+      "url": "https://www.reddit.com/r/WatcherofRealmsGame/comments/1w02do4/need_help_choosing_a_new_demon_soldier/"
+    }
+  }
 }
