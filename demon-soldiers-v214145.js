@@ -1,6 +1,6 @@
 (function (root) {
   'use strict';
-  const BUNDLE_VERSION = '2.14.149';
+  const BUNDLE_VERSION = '2.14.150';
   const normalize = value => String(value || '').normalize('NFKC').toLocaleLowerCase().replace(/[^\p{L}\p{N}]/gu, '');
   function matches(item, state) {
     if (state.recommended && !item.recommendation) return false;
@@ -53,7 +53,7 @@
       if (value && !(key === 'sort' && value === 'default')) url.searchParams.set(key, value);
       else url.searchParams.delete(key);
     }
-    const selected = cards.get(decodeHash(url.hash));
+    const selected = cards.get(decodeHash(url.hash).replace(/--preview$/, ''));
     if (selected && selected.hidden) url.hash = '';
     try { history.replaceState(null, '', url); } catch (_) {}
   }
@@ -81,12 +81,19 @@
   }
   function decodeHash(hash) { try { return decodeURIComponent(hash.replace(/^#/, '')); } catch (_) { return ''; } }
   function revealHash() {
-    const card = cards.get(decodeHash(location.hash));
+    const ident = decodeHash(location.hash);
+    if (ident === 'guildWarPreview') {
+      const overview = document.getElementById('guildWarPreview');
+      if (overview) overview.open = true;
+      return;
+    }
+    const preview = ident.endsWith('--preview');
+    const card = cards.get(preview ? ident.slice(0, -9) : ident);
     if (!card) return;
     if (card.hidden) { form.reset(); setRarity(''); setRecommended(false); render(); }
-    const details = card.querySelector('.demon-details');
+    const details = card.querySelector(preview ? '.balance-preview' : '.demon-details');
     if (details) details.open = true;
-    requestAnimationFrame(() => card.scrollIntoView({ block: 'start', behavior: 'auto' }));
+    requestAnimationFrame(() => (preview && details ? details : card).scrollIntoView({ block: 'start', behavior: 'auto' }));
   }
   function restore() {
     const params = new URL(location.href).searchParams;

@@ -1,10 +1,12 @@
-Version: 2.14.149
-Base: 2.14.148
+Version: 2.14.150
+Base: 2.14.149
 Updated: 2026-10-19 Asia/Seoul
-Change: Add recommendation badges, reasons, conditions, evidence and recommended filter
-Recommendation scope: Guild War attack / 2026 community opinions
-Recommended demons: 11 (2 growth, 3 captain, 4 composition, 2 conditional)
-Demon soldiers: 53 (6 captains, 20 legendary, 27 epic)
+Change: Match 7 announced balance changes to existing Korean demon entries and recommendations
+Game patch status: KOREAN SERVER APPLICATION UNCONFIRMED
+Demon soldiers: 53
+Recommended demons: 11
+Announced balance changes: 7
+Recommendation intersection: Slaughter only
 Heroes: 261
 Required set: _worker.js + app.js + heroes.json
 Files: 10

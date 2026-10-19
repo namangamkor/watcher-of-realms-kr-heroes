@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2.14.149",
+  "version": "2.14.150",
   "updatedAt": "2026-10-19",
   "scope": "사용자가 제공한 한국 서버 게임 화면 53종",
   "koreanSource": "한국 서버 마법병사 속성 화면",
@@ -53,6 +53,40 @@
           "grotesque-fiend"
         ],
         "label": "조합 추천"
+      },
+      "balancePreview": {
+        "previewId": "guild-war-2026-10",
+        "status": "application-unconfirmed",
+        "effectKr": "부활 효과·배치 효율",
+        "changes": [
+          {
+            "labelKr": "에너지",
+            "before": "9",
+            "after": "7"
+          },
+          {
+            "labelKr": "부활 후 피해량 증가",
+            "before": "+20%",
+            "after": "+30%"
+          },
+          {
+            "labelKr": "부활 후 HP 증가",
+            "before": "+50%",
+            "after": "+60%"
+          },
+          {
+            "labelKr": "부활 후 받는 피해",
+            "before": "물리·마법 피해 +10%",
+            "after": "받는 피해 증가 삭제"
+          },
+          {
+            "labelKr": "기본 공격력",
+            "before": "기존 값",
+            "after": "증가 · 증가량 미공개"
+          }
+        ],
+        "unchangedKr": "사망 시 1회 부활과 HP 100% 회복은 유지됩니다.",
+        "reviewKr": "배치 비용과 부활 후 공격·생존 효과가 함께 개선되는 예고입니다. 기존 조합 추천을 유지하며, 다른 장군과의 우선순위는 적용 후 재평가할 항목입니다."
       }
     },
     {
@@ -794,7 +828,30 @@
       "englishSources": [
         "https://watcher-of-realms.fandom.com/wiki/Blasting_Corpse"
       ],
-      "englishNameBasis": "user-confirmed-link"
+      "englishNameBasis": "user-confirmed-link",
+      "balancePreview": {
+        "previewId": "guild-war-2026-10",
+        "status": "application-unconfirmed",
+        "effectKr": "사망 폭발의 저주 부여",
+        "changes": [
+          {
+            "labelKr": "저주 중첩",
+            "before": "3중첩",
+            "after": "2중첩"
+          },
+          {
+            "labelKr": "저주 지속시간",
+            "before": "15초",
+            "after": "영구 지속"
+          },
+          {
+            "labelKr": "기본 HP",
+            "before": "기존 값",
+            "after": "증가 · 증가량 미공개"
+          }
+        ],
+        "reviewKr": "한 번에 부여하는 중첩은 줄지만 저주가 영구 지속되는 변경입니다. 장기전에서의 누적 운영과 투입 순서를 다시 확인할 후보입니다."
+      }
     },
     {
       "id": "baron-salem",
@@ -829,7 +886,25 @@
       "introductionKr": "자체 생존 능력이 높으며 다른 마법병사의 생존 능력도 끌어올립니다. 아군이 오래 버티도록 돕는 혈원 마법병사입니다.",
       "image": "/demon-baron-salem-v214145.webp",
       "screenshotFile": "01-1000059074.jpg",
-      "englishSources": []
+      "englishSources": [],
+      "balancePreview": {
+        "previewId": "guild-war-2026-10",
+        "status": "application-unconfirmed",
+        "effectKr": "사망 시 주변 아군 회복",
+        "changes": [
+          {
+            "labelKr": "자신의 최대 HP 기준 회복",
+            "before": "3%",
+            "after": "4%"
+          },
+          {
+            "labelKr": "기본 HP",
+            "before": "기존 값",
+            "after": "증가 · 증가량 미공개"
+          }
+        ],
+        "reviewKr": "회복 비율과 기본 HP가 함께 늘어나는 예고입니다. 주변 아군 병사의 생존을 보조하는 편성에서 활용도를 재검토할 수 있습니다."
+      }
     },
     {
       "id": "specter-skeleton-archer",
@@ -865,7 +940,30 @@
       "introductionKr": "자신을 처음 공격한 영웅에게 직접 피해로 반격합니다. 적 영웅의 공격력을 낮추는 지원 능력도 갖추고 있습니다.",
       "image": "/demon-specter-skeleton-archer-v214145.webp",
       "screenshotFile": "02-1000059075.jpg",
-      "englishSources": []
+      "englishSources": [],
+      "balancePreview": {
+        "previewId": "guild-war-2026-10",
+        "status": "application-unconfirmed",
+        "effectKr": "기본 공격의 저주 부여",
+        "changes": [
+          {
+            "labelKr": "저주 중첩",
+            "before": "2중첩",
+            "after": "1중첩"
+          },
+          {
+            "labelKr": "저주 지속시간",
+            "before": "15초",
+            "after": "영구 지속"
+          },
+          {
+            "labelKr": "기본 HP",
+            "before": "기존 값",
+            "after": "증가 · 증가량 미공개"
+          }
+        ],
+        "reviewKr": "공격당 중첩은 줄고 지속시간은 늘어납니다. 기본 공격을 이어가며 저주를 누적하는 운영과 생존 시간이 재검토 포인트입니다."
+      }
     },
     {
       "id": "twisted-sycophant",
@@ -900,7 +998,25 @@
       "introductionKr": "여러 개체가 함께 등장하며 일정 수준의 생존 능력을 갖춥니다. 광역 공격 피해가 높은 적 라인업에 대응할 수 있습니다.",
       "image": "/demon-twisted-sycophant-v214145.webp",
       "screenshotFile": "03-1000059076.jpg",
-      "englishSources": []
+      "englishSources": [],
+      "balancePreview": {
+        "previewId": "guild-war-2026-10",
+        "status": "application-unconfirmed",
+        "effectKr": "한 번에 받는 피해 상한",
+        "changes": [
+          {
+            "labelKr": "최대 HP 기준 피해 상한",
+            "before": "20%",
+            "after": "15%"
+          },
+          {
+            "labelKr": "기본 HP",
+            "before": "기존 값",
+            "after": "증가 · 증가량 미공개"
+          }
+        ],
+        "reviewKr": "한 번의 공격으로 받는 피해 상한이 낮아지고 기본 HP가 증가하는 예고입니다. 큰 단일 피해를 버티는 능력과 생존 보조 조합을 재검토할 후보입니다."
+      }
     },
     {
       "id": "boulder-ravager",
@@ -1065,7 +1181,20 @@
         "https://watcher-of-realms.fandom.com/wiki/Ice_Vermin"
       ],
       "englishNameBasis": "source-image-and-description-match",
-      "raritySource": "korean-screenshot"
+      "raritySource": "korean-screenshot",
+      "balancePreview": {
+        "previewId": "guild-war-2026-10",
+        "status": "application-unconfirmed",
+        "effectKr": "병사 수량",
+        "changes": [
+          {
+            "labelKr": "수량",
+            "before": "2",
+            "after": "3"
+          }
+        ],
+        "reviewKr": "예고 수량은 50% 증가합니다. 강추위 부여와 병사 투입 효율에 미치는 영향을 적용 후 확인할 후보입니다."
+      }
     },
     {
       "id": "suicide",
@@ -2017,7 +2146,26 @@
       "introductionKr": "은신 능력을 활용하는 마법병사입니다. 적절한 시점에 투입하면 적의 영혼 코어를 기습할 수 있습니다.",
       "image": "/demon-tormented-banshee-v214145.webp",
       "screenshotFile": "02-1000059102.jpg",
-      "englishSources": []
+      "englishSources": [],
+      "balancePreview": {
+        "previewId": "guild-war-2026-10",
+        "status": "application-unconfirmed",
+        "effectKr": "은신 발동 조건",
+        "changes": [
+          {
+            "labelKr": "은신 발동 HP",
+            "before": "20% 미만",
+            "after": "25% 미만"
+          },
+          {
+            "labelKr": "기본 HP",
+            "before": "기존 값",
+            "after": "증가 · 증가량 미공개"
+          }
+        ],
+        "unchangedKr": "은신 지속시간 6초는 유지됩니다.",
+        "reviewKr": "은신 발동 조건과 기본 HP가 개선되는 예고입니다. 방어선을 지나 영혼 코어에 접근하는 운영을 재검토할 후보입니다."
+      }
     },
     {
       "id": "doomripper",
@@ -2085,6 +2233,14 @@
       "date": "2026-10-16",
       "titleKr": "마법병사 밸런스 조정 예고",
       "url": "https://www.reddit.com/r/WatcherofRealmsGame/comments/1x7qezm/guild_war_update_preview_ii/"
+    },
+    "balanceReview": {
+      "previewId": "guild-war-2026-10",
+      "reviewedAt": "2026-10-19",
+      "affectedRecommendationIds": [
+        "slaughter"
+      ],
+      "noteKr": "기존 추천 11종 중 직접 조정 대상은 슬로터 1종입니다. 추천 근거는 개편 전 실전 의견이며, 이번 예고의 적용 후 성능은 별도 검증이 필요합니다."
     }
   },
   "recommendationSources": {
@@ -2123,5 +2279,65 @@
       "opinionDate": "2026-08-27",
       "url": "https://www.reddit.com/r/WatcherofRealmsGame/comments/1w02do4/need_help_choosing_a_new_demon_soldier/"
     }
+  },
+  "guildWarPreview": {
+    "id": "guild-war-2026-10",
+    "titleKr": "길드전 개편 예고",
+    "reviewedAt": "2026-10-19",
+    "status": "application-unconfirmed",
+    "statusKr": "한국 서버 적용일 미확인",
+    "sourceKr": "사용자가 제공한 해외 공식 안내 이미지 번역 인계서",
+    "sourceNoteKr": "병사 이름은 기존 한국 서버 게임 화면 표기를 유지하며, 변경 효과는 제공된 안내문 번역을 기준으로 정리했습니다.",
+    "sourceUrls": [
+      {
+        "titleKr": "길드전 개편 예고 I",
+        "url": "https://www.reddit.com/r/WatcherofRealmsGame/comments/1x6ilds/guild_war_update_preview_i/"
+      },
+      {
+        "titleKr": "길드전 개편 예고 II",
+        "url": "https://www.reddit.com/r/WatcherofRealmsGame/comments/1x7qezm/guild_war_update_preview_ii/"
+      }
+    ],
+    "affectedIds": [
+      "slaughter",
+      "demon-9073",
+      "specter-skeleton-archer",
+      "baron-salem",
+      "tormented-banshee",
+      "ice-vermin",
+      "twisted-sycophant"
+    ],
+    "curse": {
+      "nameEn": "Mortal Curse",
+      "changes": [
+        {
+          "labelKr": "중첩당 피해량 감소",
+          "before": "10%",
+          "after": "10% 유지"
+        },
+        {
+          "labelKr": "최대 중첩",
+          "before": "8중첩",
+          "after": "8중첩 유지"
+        },
+        {
+          "labelKr": "지속시간",
+          "before": "15초",
+          "after": "영구 지속"
+        }
+      ],
+      "noteKr": "폭발 좀비와 유령 스켈레톤 궁수는 저주 부여 중첩도 함께 감소합니다. 실제 중첩 계산 방식과 해제 가능 여부는 추가 확인이 필요합니다."
+    },
+    "summons": {
+      "rulesKr": [
+        "소환수를 배치하는 영웅은 길드전에서도 허용된 타일에 소환수를 배치할 수 있습니다.",
+        "하나의 타일에는 영웅 또는 소환수 하나만 배치할 수 있습니다.",
+        "전장에 배치하는 소환수는 최대 5개입니다.",
+        "여러 소환수를 가진 영웅도 영웅당 동시에 배치할 수 있는 소환수는 1개입니다.",
+        "Solaris Skyre의 타로 카드에서는 Frozen Gale만 배치할 수 있습니다."
+      ],
+      "noteKr": "소환수의 능력치와 배치 비용은 제공 자료만으로 확인되지 않았습니다."
+    },
+    "recommendationNoteKr": "기존 추천 11종 중 직접 조정 대상은 슬로터 1종입니다. 추천 근거는 개편 전 실전 의견이며, 이번 예고의 적용 후 성능은 별도 검증이 필요합니다."
   }
 }
