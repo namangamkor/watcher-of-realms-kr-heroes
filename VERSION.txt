@@ -1,7 +1,7 @@
-Version: 2.14.154
-Base: 2.14.153
+Version: 2.14.155
+Base: 2.14.154
 Updated: 2026-10-19 Asia/Seoul
-Change: Exclude other-soldier references in recommendation prose from keyword search
+Change: Preserve first summary click after search by avoiding duplicate change rendering and unnecessary card moves
 Demon soldiers: 53
 Recommended demons: 12
 Balance previews: 7
@@ -11,4 +11,5 @@ Files: 10
 WebP files: 0
 Deployment: NOT DEPLOYED
 Functional QA: PASSED
-Desktop and mobile Chromium QA: PASSED
+Desktop mouse and mobile touch QA: PASSED
+First-click cases: 8 PASSED

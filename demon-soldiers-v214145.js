@@ -1,6 +1,6 @@
 (function (root) {
   'use strict';
-  const BUNDLE_VERSION = '2.14.154';
+  const BUNDLE_VERSION = '2.14.155';
   const normalize = value => String(value || '').normalize('NFKC').toLocaleLowerCase().replace(/[^\p{L}\p{N}]/gu, '');
   function matches(item, state) {
     if (state.recommended && !item.recommendation) return false;
@@ -68,7 +68,12 @@
       group.hidden = members.length === 0;
       group.querySelector('[data-group-count]').textContent = String(members.length);
       const grid = group.querySelector('.demon-grid');
-      members.forEach(item => { const card = cards.get(item.id); if (card) grid.appendChild(card); });
+      const orderedCards = members.map(item => cards.get(item.id)).filter(Boolean);
+      const currentCards = [...grid.children].filter(card => !card.hidden);
+      // Keep an unchanged card in place so focus and a pending pointer click survive rendering.
+      if (orderedCards.some((card, index) => card !== currentCards[index])) {
+        orderedCards.forEach(card => grid.appendChild(card));
+      }
     });
     resultCount.textContent = (recommended ? '추천 ' : '') + visible.length + '종 / 전체 ' + items.length + '종';
     empty.hidden = visible.length !== 0;
@@ -109,7 +114,8 @@
   }
   buttons.forEach(button => button.addEventListener('click', () => { setRarity(button.dataset.rarity); render(); }));
   form.addEventListener('input', event => { if (event.target === controls.q) render(); });
-  form.addEventListener('change', () => render());
+  // Search already renders on input; its blur-time change must not interrupt a summary click.
+  form.addEventListener('change', event => { if (event.target !== controls.q) render(); });
   form.addEventListener('submit', event => { event.preventDefault(); render(); });
   document.querySelectorAll('[data-reset-demons]').forEach(button => button.addEventListener('click', reset));
   window.addEventListener('hashchange', revealHash);
