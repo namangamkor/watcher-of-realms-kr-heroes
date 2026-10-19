@@ -1,13 +1,13 @@
-Version: 2.14.152
-Base: 2.14.151 (also compatible with 2.14.150)
+Version: 2.14.153
+Base: 2.14.152
 Updated: 2026-10-19 Asia/Seoul
-Change: Replace demon catalog title art with the approved five-character ensemble
+Change: Add Book Keeper as a conditional recommendation for clustered defenses
 Demon soldiers: 53
-Recommended demons: 11
+Recommended demons: 12
 Balance previews: 7
 Heroes: 261
 Required set: _worker.js + app.js + heroes.json
-Files: 11
-WebP files: 1 (new title ensemble only)
+Files: 10
+WebP files: 0
 Deployment: NOT VERIFIED
 Browser visual QA: NOT PERFORMED

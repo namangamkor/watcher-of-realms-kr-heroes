@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2.14.152",
+  "version": "2.14.153",
   "updatedAt": "2026-10-19",
   "scope": "사용자가 제공한 한국 서버 게임 화면 53종",
   "koreanSource": "한국 서버 마법병사 속성 화면",
@@ -378,7 +378,19 @@
       "introductionKr": "대상 주변까지 함께 공격하는 원거리 범위 마법 딜러입니다. 한곳에 밀집한 적을 상대할 때 효과적입니다.",
       "image": "/demon-book-keeper-v214145.webp",
       "screenshotFile": "07-1000059062.jpg",
-      "englishSources": []
+      "englishSources": [],
+      "recommendation": {
+        "kind": "conditional",
+        "label": "조건부 추천",
+        "reason": "대상과 주변 적을 함께 공격하는 범위 마법 딜러로, 적이 밀집한 방어 배치 공략에 추천합니다.",
+        "condition": "적이 밀집한 방어 배치 · 전방 병사로 보호하며 투입",
+        "evidence": "사용자가 제공한 6레벨 게임 화면에서 대상 주변까지 피해를 입히며 밀집한 적에 효과적이라는 설명을 확인했습니다. 게임 내 역할 설명을 근거로 범위 마법 피해를 활용하는 공략용으로 선정한 편집 추천입니다.",
+        "sourceIds": [
+          "book-keeper-game-screen"
+        ],
+        "relatedIds": [],
+        "basisType": "game-description-editorial"
+      }
     },
     {
       "id": "frozen-cleric",
@@ -2209,7 +2221,7 @@
   "recommendationMeta": {
     "scopeKr": "길드전 공격",
     "reviewedAt": "2026-10-19",
-    "count": 11,
+    "count": 12,
     "categories": [
       {
         "kind": "growth",
@@ -2228,7 +2240,7 @@
         "label": "조건부 추천"
       }
     ],
-    "basisKr": "2026년 해외 커뮤니티의 실전 의견을 정리한 편집 추천입니다.",
+    "basisKr": "2026년 해외 커뮤니티 실전 의견과 사용자 제공 게임 화면을 바탕으로 한 편집 추천입니다.",
     "updateNotice": {
       "date": "2026-10-16",
       "titleKr": "마법병사 밸런스 조정 예고",
@@ -2240,7 +2252,7 @@
       "affectedRecommendationIds": [
         "slaughter"
       ],
-      "noteKr": "기존 추천 11종 중 직접 조정 대상은 슬로터 1종입니다. 추천 근거는 개편 전 실전 의견이며, 이번 예고의 적용 후 성능은 별도 검증이 필요합니다."
+      "noteKr": "추천 12종 중 직접 조정 대상은 슬로터 1종입니다. 이번 개편 예고의 적용 후 성능은 별도 검증이 필요합니다."
     }
   },
   "recommendationSources": {
@@ -2278,6 +2290,13 @@
       "postDate": "2026-08-27",
       "opinionDate": "2026-08-27",
       "url": "https://www.reddit.com/r/WatcherofRealmsGame/comments/1w02do4/need_help_choosing_a_new_demon_soldier/"
+    },
+    "book-keeper-game-screen": {
+      "titleKr": "사용자 제공 북키퍼 게임 화면 · 6레벨",
+      "platform": "게임 화면",
+      "reviewedAt": "2026-10-19",
+      "screenshotFile": "07-1000059062.jpg",
+      "evidenceType": "provided-game-screenshot"
     }
   },
   "guildWarPreview": {
@@ -2338,6 +2357,6 @@
       ],
       "noteKr": "소환수의 능력치와 배치 비용은 제공 자료만으로 확인되지 않았습니다."
     },
-    "recommendationNoteKr": "기존 추천 11종 중 직접 조정 대상은 슬로터 1종입니다. 추천 근거는 개편 전 실전 의견이며, 이번 예고의 적용 후 성능은 별도 검증이 필요합니다."
+    "recommendationNoteKr": "추천 12종 중 직접 조정 대상은 슬로터 1종입니다. 이번 개편 예고의 적용 후 성능은 별도 검증이 필요합니다."
   }
 }
