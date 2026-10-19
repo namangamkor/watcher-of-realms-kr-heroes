@@ -1,13 +1,13 @@
-Version: 2.14.151
-Base: 2.14.150
+Version: 2.14.152
+Base: 2.14.151 (also compatible with 2.14.150)
 Updated: 2026-10-19 Asia/Seoul
-Change: Replace catalog introduction image with owner-supplied Demon Soldier category art
+Change: Replace demon catalog title art with the approved five-character ensemble
 Demon soldiers: 53
 Recommended demons: 11
 Balance previews: 7
 Heroes: 261
 Required set: _worker.js + app.js + heroes.json
 Files: 11
-WebP files: 1 (new category cover only)
+WebP files: 1 (new title ensemble only)
 Deployment: NOT VERIFIED
 Browser visual QA: NOT PERFORMED
