@@ -1,8 +1,9 @@
-Version: 2.14.146
-Base: 2.14.145
-Updated: 2026-10-18 Asia/Seoul
-Change: Synchronize all list entry points and JS versions; authoritative 261-hero JSON response; 48 demon soldiers including Blasting Corpse
+Version: 2.14.148
+Base: 2.14.147
+Updated: 2026-10-19 Asia/Seoul
+Change: Add Wasteland Titan, Boulder Ravager, Smasher Guard, Blood Hexer and Ice Vermin
+Demon soldiers: 53 (6 captains, 20 legendary, 27 epic)
 Required set: _worker.js + app.js + heroes.json
-Files: 9
-WebP files: 0
+Files: 14
+WebP files: 5 (new entries only)
 Deployment: NOT VERIFIED

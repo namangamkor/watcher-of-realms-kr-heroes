@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "2.14.146",
-  "updatedAt": "2026-10-18",
-  "scope": "사용자가 제공한 한국 서버 게임 화면 48종",
+  "version": "2.14.148",
+  "updatedAt": "2026-10-19",
+  "scope": "사용자가 제공한 한국 서버 게임 화면 53종",
   "koreanSource": "한국 서버 마법병사 속성 화면",
   "gradeBasis": "각 항목에 표시한 촬영 레벨의 화면 등급이며 실전 전투력 순위가 아님",
   "items": [
@@ -190,6 +190,45 @@
       "englishSources": [
         "https://fastidious.gg/demons/glacius"
       ]
+    },
+    {
+      "id": "wasteland-titan",
+      "nameKr": "사막 타이탄",
+      "nameEn": "Wasteland Titan",
+      "englishStatus": "matched",
+      "rarity": "captain",
+      "rarityKr": "마법 장군",
+      "family": "stonekin",
+      "familyKr": "거암 생물",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 1,
+      "energy": 8,
+      "quantity": 1,
+      "deploymentLimit": 3,
+      "grades": {
+        "attack": "B",
+        "hp": "SSS",
+        "defense": "A",
+        "magicResistance": "A",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "황야의 지진",
+        "type": "auto"
+      },
+      "roles": [
+        "제어",
+        "생존"
+      ],
+      "introductionKr": "뛰어난 생존 능력을 갖춘 제어형 마법 장군입니다. 적 영웅 전체에게 제어 효과를 부여할 수 있습니다.",
+      "image": "/demon-wasteland-titan-v214148.webp",
+      "screenshotFile": "01-1000059117.jpg",
+      "englishSources": [
+        "https://wornuts.com/en/odyssey?item=88060&s=wasteland-titan"
+      ],
+      "englishNameBasis": "source-image-and-description-match",
+      "raritySource": "korean-screenshot"
     },
     {
       "id": "lightning-guard",
@@ -785,6 +824,160 @@
       "englishSources": [
         "https://fastidious.gg/demons/twisted-sycophant"
       ]
+    },
+    {
+      "id": "boulder-ravager",
+      "nameKr": "거암 파멸자",
+      "nameEn": "Boulder Ravager",
+      "englishStatus": "matched",
+      "rarity": "legendary",
+      "rarityKr": "레전더리",
+      "family": "stonekin",
+      "familyKr": "거암 생물",
+      "armor": "heavy",
+      "armorKr": "중갑",
+      "screenshotLevel": 1,
+      "energy": 7,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "SSS",
+        "hp": "SS",
+        "defense": "A",
+        "magicResistance": "B",
+        "speed": "D"
+      },
+      "featuredSkill": {
+        "nameKr": "압도적 타격",
+        "type": "passive"
+      },
+      "roles": [
+        "공격",
+        "제어"
+      ],
+      "introductionKr": "행동 속도와 공격 속도는 느리지만 한 번의 피해량이 매우 높습니다. 공격 대상에게 컨트롤 효과를 부여할 수 있습니다.",
+      "image": "/demon-boulder-ravager-v214148.webp",
+      "screenshotFile": "02-1000059118.jpg",
+      "englishSources": [
+        "https://wornuts.com/en/odyssey?item=88063&s=boulder-ravager"
+      ],
+      "englishNameBasis": "source-image-and-description-match",
+      "raritySource": "korean-screenshot"
+    },
+    {
+      "id": "smasher-guard",
+      "nameKr": "망치 수비병",
+      "nameEn": "Smasher Guard",
+      "englishStatus": "matched",
+      "rarity": "legendary",
+      "rarityKr": "레전더리",
+      "family": "stonekin",
+      "familyKr": "거암 생물",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 1,
+      "energy": 7,
+      "quantity": 1,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "A",
+        "hp": "A",
+        "defense": "B",
+        "magicResistance": "B",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "지연 스매시",
+        "type": "passive"
+      },
+      "roles": [
+        "공격",
+        "제어"
+      ],
+      "introductionKr": "컨트롤 능력을 가진 지면 전사입니다. 좁은 범위 안의 적 지면 영웅에게 컨트롤 효과를 부여할 수 있습니다.",
+      "image": "/demon-smasher-guard-v214148.webp",
+      "screenshotFile": "03-1000059119.jpg",
+      "englishSources": [
+        "https://wornuts.com/en/odyssey?item=88062&s=smasher-guard"
+      ],
+      "englishNameBasis": "source-image-and-description-match",
+      "raritySource": "korean-screenshot"
+    },
+    {
+      "id": "blood-hexer",
+      "nameKr": "블러드 커서",
+      "nameEn": "Blood Hexer",
+      "englishStatus": "matched",
+      "rarity": "legendary",
+      "rarityKr": "레전더리",
+      "family": "bloodspring",
+      "familyKr": "혈원 생물",
+      "armor": "light",
+      "armorKr": "경갑",
+      "screenshotLevel": 1,
+      "energy": 6,
+      "quantity": 2,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "A",
+        "hp": "A",
+        "defense": "C",
+        "magicResistance": "S",
+        "speed": "C"
+      },
+      "featuredSkill": {
+        "nameKr": "피의 침식의 일격",
+        "type": "passive"
+      },
+      "roles": [
+        "공격"
+      ],
+      "introductionKr": "근접 마법 피해를 입히며, 실드 효과를 가진 적 영웅에게 매우 높은 피해를 입힐 수 있습니다. 생존력이 약해 아군의 엄호가 필요합니다.",
+      "image": "/demon-blood-hexer-v214148.webp",
+      "screenshotFile": "04-1000059120.jpg",
+      "englishSources": [
+        "https://wornuts.com/en/odyssey?item=88058&s=blood-hexer"
+      ],
+      "englishNameBasis": "source-image-and-description-match",
+      "raritySource": "korean-screenshot"
+    },
+    {
+      "id": "ice-vermin",
+      "nameKr": "서리 폭발충",
+      "nameEn": "Ice Vermin",
+      "englishStatus": "matched",
+      "rarity": "legendary",
+      "rarityKr": "레전더리",
+      "family": "frostbourne",
+      "familyKr": "빙원 생물",
+      "armor": "common",
+      "armorKr": "일반",
+      "screenshotLevel": 1,
+      "energy": 3,
+      "quantity": 2,
+      "deploymentLimit": null,
+      "grades": {
+        "attack": "C",
+        "hp": "D",
+        "defense": "D",
+        "magicResistance": "D",
+        "speed": "B"
+      },
+      "featuredSkill": {
+        "nameKr": "서리침식의 폭발",
+        "type": "passive"
+      },
+      "roles": [
+        "제어"
+      ],
+      "introductionKr": "적 영웅에게 부딪혀 자폭하는 제어형 마법병사입니다. 적 영웅에게 안정적으로 강추위를 부여합니다.",
+      "image": "/demon-ice-vermin-v214148.webp",
+      "screenshotFile": "05-1000059121.jpg",
+      "englishSources": [
+        "https://watcher-of-realms.fandom.com/wiki/Ice_Vermin"
+      ],
+      "englishNameBasis": "source-image-and-description-match",
+      "raritySource": "korean-screenshot"
     },
     {
       "id": "suicide",

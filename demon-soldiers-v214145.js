@@ -1,6 +1,6 @@
 (function (root) {
   'use strict';
-  const BUNDLE_VERSION = '2.14.146';
+  const BUNDLE_VERSION = '2.14.148';
   const normalize = value => String(value || '').normalize('NFKC').toLocaleLowerCase().replace(/[^\p{L}\p{N}]/gu, '');
   function matches(item, state) {
     if (state.rarity && item.rarity !== state.rarity) return false;
