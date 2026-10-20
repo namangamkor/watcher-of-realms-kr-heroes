@@ -1,5 +1,5 @@
-// v2.14.159: synchronize Gwendolyn in-game skills, awakenings and related-video removal.
-// v2.14.159: synchronize homepage data requests with the Worker release.
+// v2.14.160: preserve first hero-card click while Korean IME input is active.
+// v2.14.160: synchronize homepage data requests with the Worker release.
 // v2.14.143 revision 2026-10-17 23:37 KST: owner-confirmed Rorkesh collection value 3.0.
 // v2.14.143: Rorkesh registration; synchronized Worker, roster and activity.
 // v2.14.139: six home quick links; floating artifact button removed.
@@ -59,6 +59,18 @@ function compareHeroUpdateOrder(a, b) {
 const searchInput = document.querySelector("#searchInput");
 const clearSearch = document.querySelector("#clearSearch");
 const heroGrid = document.querySelector("#heroGrid");
+
+// Committing Korean IME text on blur can scroll the input into view between
+// mousedown and mouseup, moving the card away from the pointer. Keep focus
+// stable until the anchor's ordinary click navigation has run.
+heroGrid.addEventListener("mousedown", (event) => {
+  if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey ||
+      event.altKey || document.activeElement !== searchInput) return;
+  const link = event.target instanceof Element
+    ? event.target.closest("a.hero-card-link")
+    : null;
+  if (link && heroGrid.contains(link)) event.preventDefault();
+}, true);
 const HERO_VIEW_STORAGE_KEY = "worwiki.heroView";
 const heroViewControls = document.querySelector("#heroViewControls");
 const heroViewButtons = document.querySelectorAll(".hero-view-button[data-hero-view]");
@@ -688,14 +700,14 @@ try {
 
 // Keep the server-rendered cards visible until both sources are ready.
 // A partial render with heroes.json but no activity briefly restores the old order.
-const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.159", { cache: "no-store" })
+const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.160", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("recent updates load failed");
     return response.json();
   })
   .catch((error) => { console.warn(error); return null; });
 
-const heroesPromise = fetch("./heroes.json?v=2.14.159", { cache: "no-store" })
+const heroesPromise = fetch("./heroes.json?v=2.14.160", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
