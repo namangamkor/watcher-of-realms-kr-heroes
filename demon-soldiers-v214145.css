@@ -103,5 +103,5 @@
 @media(max-width:540px){.guild-war-preview>summary{gap:8px;padding-inline:12px;flex-wrap:wrap}.preview-summary-copy{flex-basis:calc(100% - 30px)}.preview-status{order:3}.guild-war-preview-body{padding-inline:12px}.preview-table{font-size:11px}.preview-soldier-links a{font-size:11px}.balance-preview>summary{font-size:12px}}
 @media(max-width:380px){.balance-preview-badge{font-size:10px;padding-inline:7px}}
 
-/* v2.14.156 · 2026-10-19 · supplied category cover */
+/* v2.14.157 · 2026-10-19 · supplied category cover */
 .intro-art.category-art img{height:auto;max-height:280px;object-fit:contain;mask-image:none;-webkit-mask-image:none}

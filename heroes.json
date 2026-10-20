@@ -10801,10 +10801,10 @@
         "factionEn": "North Throne",
         "lord": false,
         "sortOrder": 12,
-        "portrait": "./north-throne-hq-12-gwendolyn.webp"
+        "portrait": "./north-throne-hq-12-gwendolyn-v214157.webp"
       }
     ],
-    "collectionValue": 3,
+    "collectionValue": 4.0,
     "videos": [
       {
         "youtubeId": "DdzidwGAvxE",
@@ -10867,6 +10867,19 @@
     },
     "contentTags": [
       "fallen-twins"
+    ],
+    "collectionValueReason": "장비지하성 3·타천의 쌍둥이 던전에서의 활용도 상승.",
+    "collectionValueReviewedAt": "2026-10-20",
+    "infoUpdatedAt": "2026-10-20T10:57:54+09:00",
+    "updateHistory": [
+      {
+        "id": "hero-gwendolyn-image-value-20261020",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "영웅 이미지 교체 · 수집가치 3.0→4.0 상향 (장비지하성 3·타천의 쌍둥이 던전에서의 활용도 상승)",
+        "shortMessage": "이미지 교체 · 수집가치 4.0",
+        "updatedAt": "2026-10-20T10:57:54+09:00"
+      }
     ]
   },
   {
