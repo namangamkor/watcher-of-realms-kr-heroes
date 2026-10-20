@@ -1,17 +1,25 @@
-Version: 2.14.158
-Base: 2.14.157
+Version: 2.14.159
+Base: 2.14.158
 Updated: 2026-10-20 Asia/Seoul
-Change: Remove Gwendolyn-only image fit override; restore shared card image sizing
+Source: 9 user-supplied Korean in-game Gwendolyn screenshots
+Change: Gwendolyn skills/talent + A1-A5 correction + related-video removal
 Required set: _worker.js + app.js + heroes.json
-Heroes: 261 PRESERVED
+Heroes: 261
+Changed heroes: gwendolyn (1)
+Other heroes: 260 PRESERVED
+Skill and talent cards: 5
+Awakenings: A1-A5 (5)
+Removed related videos: 1 (Gwendolyn only)
 Gwendolyn collection value: 4.0 PRESERVED
-Gwendolyn portrait: north-throne-hq-12-gwendolyn-v214157.webp (unchanged)
+Portrait: north-throne-hq-12-gwendolyn-v214157.webp (unchanged)
+Shared portrait sizing: v2.14.158 fix PRESERVED
 Demon soldiers: 53 PRESERVED
 Recommended demons: 10 PRESERVED
 Preserved fixes: v2.14.154 Korean search + v2.14.155 first summary click
-Files: 11
+Files: 12
 WebP files: 1 (unchanged)
-Desktop and mobile card-size comparison: PASSED
+Source/data/render QA: PASSED
+Desktop and mobile browser QA: PASSED
 JavaScript syntax: PASSED
 ZIP integrity: PASSED
 Deployment: NOT DEPLOYED

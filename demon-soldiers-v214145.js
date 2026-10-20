@@ -1,6 +1,6 @@
 (function (root) {
   'use strict';
-  const BUNDLE_VERSION = '2.14.158';
+  const BUNDLE_VERSION = '2.14.159';
   const normalize = value => String(value || '').normalize('NFKC').toLocaleLowerCase().replace(/[^\p{L}\p{N}]/gu, '');
   function matches(item, state) {
     if (state.recommended && !item.recommendation) return false;
