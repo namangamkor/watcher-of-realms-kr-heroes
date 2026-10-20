@@ -1,23 +1,17 @@
-Version: 2.14.157
-Base: 2.14.156
+Version: 2.14.158
+Base: 2.14.157
 Updated: 2026-10-20 Asia/Seoul
-Change: Gwendolyn supplied portrait replacement; collection value 3.0 to 4.0
-Reason: Higher usefulness in Gear Dungeon 3 and Fallen Twins dungeon (owner-confirmed)
+Change: Remove Gwendolyn-only image fit override; restore shared card image sizing
 Required set: _worker.js + app.js + heroes.json
-Heroes: 261
-Changed heroes: gwendolyn (1)
-Other heroes: 260 PRESERVED
-Portrait: north-throne-hq-12-gwendolyn-v214157.webp
-Portrait dimensions: 600 x 895
-Portrait bytes: 201218 (unchanged source)
-Portrait SHA-256: 3c854238a3a8c351dd0c48e9cc9c6b2eb3194bba9be665a86c554c081a537fa8
+Heroes: 261 PRESERVED
+Gwendolyn collection value: 4.0 PRESERVED
+Gwendolyn portrait: north-throne-hq-12-gwendolyn-v214157.webp (unchanged)
 Demon soldiers: 53 PRESERVED
 Recommended demons: 10 PRESERVED
 Preserved fixes: v2.14.154 Korean search + v2.14.155 first summary click
 Files: 11
-WebP files: 1
-Functional QA: PASSED (7 checks)
-Desktop and mobile browser QA: PASSED for changed hero
+WebP files: 1 (unchanged)
+Desktop and mobile card-size comparison: PASSED
 JavaScript syntax: PASSED
 ZIP integrity: PASSED
 Deployment: NOT DEPLOYED
