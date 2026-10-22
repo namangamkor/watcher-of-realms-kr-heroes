@@ -8517,7 +8517,7 @@
         "portrait": "./north-throne-hq-45-estrid.webp"
       }
     ],
-    "collectionValue": 3,
+    "collectionValue": 4.0,
     "videos": [
       {
         "youtubeId": "RsHPUU76oBs",
@@ -8577,7 +8577,7 @@
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
     },
-    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
+    "infoUpdatedAt": "2026-10-22T15:39:26+09:00",
     "updateHistory": [
       {
         "id": "hero-video-20261017-estrid",
@@ -8586,8 +8586,18 @@
         "message": "관련 나만겜 영상 추가",
         "shortMessage": "관련 영상 추가",
         "updatedAt": "2026-10-17T23:41:57+09:00"
+      },
+      {
+        "id": "hero-estrid-value-20261022",
+        "kind": "info",
+        "kindLabel": "정보 업데이트",
+        "message": "수집가치 3.0→4.0 상향 (타이탄 초월·장비지하성 2에서 현역으로 사용 가능)",
+        "shortMessage": "수집가치 3.0→4.0 상향",
+        "updatedAt": "2026-10-22T15:39:26+09:00"
       }
-    ]
+    ],
+    "collectionValueReason": "타이탄 초월·장비지하성 2에서 현역으로 사용 가능.",
+    "collectionValueReviewedAt": "2026-10-22"
   },
   {
     "id": "eunomia",
