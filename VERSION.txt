@@ -1,19 +1,22 @@
-Version: 2.14.161
-Base: 2.14.160
+Version: 2.14.162
+Base: 2.14.161
 Updated: 2026-10-22 Asia/Seoul
-Change: Estrid collection value 3.0 to 4.0
-Reason: 타이탄 초월·장비지하성 2에서 현역으로 사용 가능.
-Source: Owner-confirmed rating and reason
+Change: Add Lightning Guard (번개 수비병) to recommended demon soldiers
+Added ID: lightning-guard
+Rarity: legendary
+Role: flying
+Recommendation basis: Owner-confirmed addition + existing catalogue role description
+Demon soldiers: 53 PRESERVED
+Recommended demons: 11 (10 retained + 1 added)
 Required set: _worker.js + app.js + heroes.json
-Changed heroes: estrid (1)
-Heroes: 261
-Other heroes: 260 PRESERVED
-Files: 6
+Hero data: 261 PRESERVED
+Estrid collection value: 4.0 PRESERVED
+Gwendolyn updates and existing first-click fixes: PRESERVED
+Files: 7
 Images: 0
-Separate demon files: 0
-Extra CSS files: 0
-Validation: Data and actual Worker rendering PASSED
-Existing first-click fix: PRESERVED
+Extra CSS/JS: 0
+Unchanged required files: app.js and heroes.json from v2.14.161
+Validation: Worker/static/JSON/inline data and existing client filter functions PASSED
 JavaScript syntax: PASSED
 ZIP integrity: PASSED
 Deployment: NOT DEPLOYED

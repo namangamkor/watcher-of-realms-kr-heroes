@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": "2.14.159",
-  "updatedAt": "2026-10-19",
+  "version": "2.14.162",
+  "updatedAt": "2026-10-22",
   "scope": "사용자가 제공한 한국 서버 게임 화면 53종",
   "koreanSource": "한국 서버 마법병사 속성 화면",
   "gradeBasis": "각 항목에 표시한 촬영 레벨의 화면 등급이며 실전 전투력 순위가 아님",
@@ -343,7 +343,19 @@
       "introductionKr": "공중에서 번개 공격을 사용하는 비행 마법병사입니다. 주변의 적을 함께 공격해 범위 마법 피해를 입힙니다.",
       "image": "/demon-lightning-guard-v214145.webp",
       "screenshotFile": "06-1000059061.jpg",
-      "englishSources": []
+      "englishSources": [],
+      "recommendation": {
+        "kind": "growth",
+        "label": "육성 추천",
+        "reason": "공중에서 번개 공격으로 주변 적에게 범위 마법 피해를 입히는 레전더리 비행 병사로 추천합니다.",
+        "condition": "비행 병사와 범위 마법 공격이 필요한 길드전 공격 편성",
+        "evidence": "사용자가 2026-10-22에 추천 추가를 확정한 병사입니다. 기존 도감의 한국 서버 게임 화면 기반 소개에 공중에서 번개 공격을 사용하고 주변 적을 함께 공격해 범위 마법 피해를 입히는 역할이 등록되어 있습니다. 사용자 확정과 기존 도감의 역할 설명을 반영한 추천입니다.",
+        "sourceIds": [
+          "lightning-guard-user-confirmed"
+        ],
+        "relatedIds": [],
+        "basisType": "user-confirmed-game-description"
+      }
     },
     {
       "id": "book-keeper",
@@ -2193,8 +2205,8 @@
   ],
   "recommendationMeta": {
     "scopeKr": "길드전 공격",
-    "reviewedAt": "2026-10-19",
-    "count": 10,
+    "reviewedAt": "2026-10-22",
+    "count": 11,
     "categories": [
       {
         "kind": "growth",
@@ -2225,7 +2237,7 @@
       "affectedRecommendationIds": [
         "slaughter"
       ],
-      "noteKr": "추천 10종 중 직접 조정 대상은 슬로터 1종입니다. 이번 개편 예고의 적용 후 성능은 별도 검증이 필요합니다."
+      "noteKr": "추천 11종 중 직접 조정 대상은 슬로터 1종입니다. 이번 개편 예고의 적용 후 성능은 별도 검증이 필요합니다."
     }
   },
   "recommendationSources": {
@@ -2277,6 +2289,13 @@
       "reviewedAt": "2026-10-19",
       "screenshotFile": "04-1000059086.jpg",
       "evidenceType": "user-confirmed-game-screenshot"
+    },
+    "lightning-guard-user-confirmed": {
+      "titleKr": "사용자 확정 추천 추가 · 번개 수비병",
+      "platform": "사용자 확정·기존 도감",
+      "reviewedAt": "2026-10-22",
+      "screenshotFile": "06-1000059061.jpg",
+      "evidenceType": "user-confirmed-existing-game-description"
     }
   },
   "guildWarPreview": {
@@ -2337,6 +2356,6 @@
       ],
       "noteKr": "소환수의 능력치와 배치 비용은 제공 자료만으로 확인되지 않았습니다."
     },
-    "recommendationNoteKr": "추천 10종 중 직접 조정 대상은 슬로터 1종입니다. 이번 개편 예고의 적용 후 성능은 별도 검증이 필요합니다."
+    "recommendationNoteKr": "추천 11종 중 직접 조정 대상은 슬로터 1종입니다. 이번 개편 예고의 적용 후 성능은 별도 검증이 필요합니다."
   }
 }
