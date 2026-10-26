@@ -1,3 +1,4 @@
+// v2.14.166: Estrid and Valara portrait update; synchronized image data and cache requests.
 // v2.14.161: Estrid collection value 4.0, owner-provided reason and activity sync.
 // v2.14.161: preserve first hero-card click while Korean IME input is active.
 // v2.14.161: synchronize homepage data requests with the Worker release.
@@ -701,14 +702,14 @@ try {
 
 // Keep the server-rendered cards visible until both sources are ready.
 // A partial render with heroes.json but no activity briefly restores the old order.
-const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.161", { cache: "no-store" })
+const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.166", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("recent updates load failed");
     return response.json();
   })
   .catch((error) => { console.warn(error); return null; });
 
-const heroesPromise = fetch("./heroes.json?v=2.14.161", { cache: "no-store" })
+const heroesPromise = fetch("./heroes.json?v=2.14.166", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();

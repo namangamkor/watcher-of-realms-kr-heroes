@@ -8514,7 +8514,7 @@
         "factionEn": "North Throne",
         "lord": false,
         "sortOrder": 45,
-        "portrait": "./north-throne-hq-45-estrid.webp"
+        "portrait": "./north-throne-hq-45-estrid-v214166.webp"
       }
     ],
     "collectionValue": 4.0,
@@ -8577,7 +8577,7 @@
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
     },
-    "infoUpdatedAt": "2026-10-22T15:39:26+09:00",
+    "infoUpdatedAt": "2026-10-26T15:54:22+09:00",
     "updateHistory": [
       {
         "id": "hero-video-20261017-estrid",
@@ -8594,6 +8594,14 @@
         "message": "수집가치 3.0→4.0 상향 (타이탄 초월·장비지하성 2에서 현역으로 사용 가능)",
         "shortMessage": "수집가치 3.0→4.0 상향",
         "updatedAt": "2026-10-22T15:39:26+09:00"
+      },
+      {
+        "id": "hero-estrid-image-20261026",
+        "kind": "image-update",
+        "kindLabel": "이미지업데이트",
+        "message": "영웅 초상 이미지 교체",
+        "shortMessage": "초상 이미지 교체",
+        "updatedAt": "2026-10-26T15:54:22+09:00"
       }
     ],
     "collectionValueReason": "타이탄 초월·장비지하성 2에서 현역으로 사용 가능.",
@@ -22898,7 +22906,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 16,
-        "portrait": "./valara-dual-faction-v214108.webp"
+        "portrait": "./valara-dual-faction-v214166.webp"
       },
       {
         "faction": "supreme-arbiters",
@@ -22906,7 +22914,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 8,
-        "portrait": "./valara-dual-faction-v214108.webp"
+        "portrait": "./valara-dual-faction-v214166.webp"
       }
     ],
     "contentTags": [
@@ -23011,7 +23019,7 @@
       "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
       "roleId": 6
     },
-    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
+    "infoUpdatedAt": "2026-10-26T15:54:22+09:00",
     "updateHistory": [
       {
         "id": "generic-artifact-20261006-valara",
@@ -23036,6 +23044,14 @@
         "message": "관련 나만겜 영상 추가",
         "shortMessage": "관련 영상 추가",
         "updatedAt": "2026-10-17T23:41:57+09:00"
+      },
+      {
+        "id": "hero-valara-image-20261026",
+        "kind": "image-update",
+        "kindLabel": "이미지업데이트",
+        "message": "영웅 초상 이미지 교체",
+        "shortMessage": "초상 이미지 교체",
+        "updatedAt": "2026-10-26T15:54:22+09:00"
       }
     ]
   },
