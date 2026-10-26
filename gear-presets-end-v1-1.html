@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="worwiki-patch-version" content="2.14.163">
+<meta name="worwiki-patch-version" content="2.14.164">
 <title>END 1.1 장비 프리셋 46개 · 깡공·깡체·깡방 추가 | 나만겜 워처 위키</title>
 <meta name="description" content="나만겜 END 1.1 장비 프리셋. 깡공·깡체·깡방과 치율 충족형·무공속 조합을 포함한 46개 규칙의 세트, 주옵, 부옵, 필수 속성을 한 표에서 확인하세요.">
 <meta name="theme-color" content="#0b1420">
@@ -22,6 +22,8 @@
 @media(max-width:760px){.nav{padding:16px}.brand{font-size:16px}.nav-links{gap:12px}.nav-links a{font-size:12px}main{padding:28px 16px 48px}.lead{font-size:15px}.stat{padding:0 20px}.stat strong{font-size:23px}.overview,.condition-grid{grid-template-columns:1fr;gap:16px}.note{padding:17px}.overview{margin:24px 0}.input-guide{padding:22px 0}.toolbar{padding:12px;gap:10px}.search-field{flex-basis:100%;min-width:0}.field input{width:100%}.results{font-size:12px}.table-wrap{max-height:72vh}table{min-width:1304px;font-size:12px}th,td{padding:12px 9px}th:first-child,td:first-child{width:38px}th:nth-child(2),td:nth-child(2){left:38px;width:174px}.rule-name{font-size:12px}.rule-label{display:block}.table-title h2,h2{font-size:22px}.actions{gap:14px}.condition{padding:16px 0}.conditions{margin-top:28px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{body{background:white;color:#111;font-size:10pt}header,.toolbar,.actions,.copy-name,.status,.bottom-links,footer{display:none!important}main{padding:0;max-width:none}.overview{break-inside:avoid}.table-wrap{max-height:none;overflow:visible;border-color:#bbb}table{min-width:0;font-size:7pt;table-layout:auto}th,td{position:static!important;background:white!important;color:#111!important;padding:5px;border-color:#bbb}th:nth-child(2),td:nth-child(2){width:auto}.rule-name,.mandatory{color:#111}.table-help{display:none}tbody tr[hidden]{display:table-row!important}thead{display:table-header-group}.note{background:#f3f3f3}.note p,.note li,.condition p,.input-guide p{color:#333}.stat strong,.note strong{color:#111}}
+
+.share-panel{max-width:1010px;margin:28px 0 30px;padding:24px;border:1px solid #786345;border-radius:10px;background:#142235}.share-panel p{color:var(--muted);margin:8px 0 14px}.share-panel label{display:block;color:var(--gold);font-size:13px;margin:18px 0 8px}.share-code-row{display:flex;gap:10px;max-width:540px}.share-code-row input{min-width:0;flex:1;border:1px solid #61718a;border-radius:6px;background:#091522;color:#f1d49e;padding:10px 14px;font:700 24px/1.4 ui-monospace,Consolas,monospace}.share-code-row button{border:1px solid var(--gold);background:var(--gold);color:#172131;border-radius:6px;padding:10px 18px;min-height:48px;font-weight:750;white-space:nowrap}.share-code-row button:hover{background:#f8dfb6}.share-warning{font-size:13px;border-left:3px solid #c69761;padding:10px 14px;background:#28211d}.share-warning strong{color:#f2cf9b}@media(max-width:760px){.share-panel{padding:18px}.share-code-row{gap:8px}.share-code-row input{font-size:22px;padding:10px}.share-code-row button{padding:10px 13px;font-size:14px}}@media print{.share-panel{background:white;border-color:#aaa}.share-code-row input{background:white;color:#111}.share-code-row button{display:none}.share-warning{background:#f3f3f3}}
 </style>
 </head>
 <body>
@@ -35,9 +37,16 @@
 <div class="stats" aria-label="규칙 수"><div class="stat"><strong>46개</strong><span>전체 규칙</span></div><div class="stat"><strong>20개</strong><span>2종 세트</span></div><div class="stat"><strong>26개</strong><span>3종 세트</span></div><div class="stat"><strong>4개</strong><span>50개 한도 내 여유</span></div></div>
 <div class="actions"><a class="primary" href="#rules">46개 통합 입력표 보기 ↓</a><a class="sub-link" href="/gear-presets-end">기존 END 1.0 보기 →</a></div>
 </section>
+<section class="share-panel" aria-labelledby="share-title">
+<h2 id="share-title">END 1.1 프리셋 가져오기</h2>
+<p>공유 코드를 복사한 뒤 게임 내 <strong>추천 설정 → 프리셋 정리 → 프리셋 가져오기</strong>에서 입력하세요.</p>
+<label for="end11-share-code">나만겜 END 1.1 · 46개 규칙 공유 코드</label>
+<div class="share-code-row"><input id="end11-share-code" value="NjA5MjI=" readonly spellcheck="false" aria-label="END 1.1 공유 코드"><button id="copy-share-code" type="button">코드 복사</button></div>
+<p class="share-warning"><strong>가져오기 전 기존 프리셋을 공유 코드로 보관하세요.</strong><br>가져오면 현재 프리셋이 완전히 덮어써지며 되돌릴 수 없습니다.</p>
+</section>
 <div class="overview">
 <section class="note" aria-labelledby="update-title"><h2 id="update-title">1.1에서 정리한 내용</h2><ol><li><strong>깡공·깡체·깡방, 치율 충족형과 무공속 조합</strong>을 추가했습니다.</li><li>16·17번의 직접 획득 세트에 <strong>혈염드래곤혈통</strong>을 포함했습니다.</li><li>중복된 18번 <code>E1209_회전버퍼갑옷</code>과 24번 <code>E1313_치유탱커체보</code>를 제외했습니다.</li></ol></section>
-<section class="note" aria-labelledby="use-title"><h2 id="use-title">최종 착용은 전체 세팅으로 판단</h2><p>이 표는 <strong>부옵의 종류를 선별하는 수집 기준</strong>입니다. 강화 수치와 영웅 전체 능력치를 확인해 착용하세요. 치율 충족형과 무공속 장비는 아래 사용 조건이 맞을 때 남기는 후보입니다.</p><p style="margin-top:12px">1.1 공유 코드는 아직 등록되지 않았습니다. 현재는 아래 통합표를 기준으로 직접 설정하세요.</p></section>
+<section class="note" aria-labelledby="use-title"><h2 id="use-title">최종 착용은 전체 세팅으로 판단</h2><p>이 표는 <strong>부옵의 종류를 선별하는 수집 기준</strong>입니다. 강화 수치와 영웅 전체 능력치를 확인해 착용하세요. 치율 충족형과 무공속 장비는 아래 사용 조건이 맞을 때 남기는 후보입니다.</p><p style="margin-top:12px">위 공유 코드로 46개 규칙을 가져오고, 아래 통합표에서 세트와 주옵·부옵 조건을 확인하세요.</p></section>
 </div>
 <section class="input-guide" aria-labelledby="input-title"><h2 id="input-title">표를 보고 입력하는 방법</h2><p><strong>후보 중 총 4개</strong>를 요구하며, 필수 부옵은 모두 포함합니다. ‘전부’는 해당 행의 부옵 후보 4개를 모두 선택한다는 뜻입니다. 예를 들어 17번은 공보·공격력·분회가 필수이고, 마지막 한 자리는 HP보 또는 공속입니다.</p><p class="legend"><strong>공보</strong> = 공격력 보너스 · <strong>HP보·체보</strong> = HP 보너스 · <strong>방보</strong> = 방어 보너스 · <strong>치율</strong> = 치명타율 · <strong>치피</strong> = 치명타 피해 · <strong>공속</strong> = 공격 속도 · <strong>분회</strong> = 분노 회복 효율</p><p>표의 공격력·HP·방어력은 고정 수치입니다. ‘2종세트 전체’는 무기 주옵 공격력과 갑옷 주옵 HP를 뜻합니다. 직접 획득 세트와 탈변용 T1을 함께 선택하고, 목걸이·무기·갑옷 전용 표기를 확인하세요.</p></section>
 <section id="rules" aria-labelledby="rules-title">
@@ -146,6 +155,10 @@
     let copied=false;try{copied=document.execCommand('copy')}catch(error){}
     input.remove();if(previous instanceof HTMLElement)previous.focus({preventScroll:true});return copied;
   }
+  document.getElementById('copy-share-code').addEventListener('click',async()=>{
+    const code=document.getElementById('end11-share-code').value;
+    showStatus(await copyText(code)?'END 1.1 공유 코드 복사 완료':'복사하지 못했습니다. 코드 입력란을 길게 눌러 복사해 주세요.');
+  });
   document.querySelector('tbody').addEventListener('click',async event=>{
     const button=event.target.closest('button[data-copy]');if(!button)return;
     const value=button.dataset.copy;
