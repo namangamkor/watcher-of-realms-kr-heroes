@@ -1,20 +1,11 @@
-Version: 2.14.166
-Base: 2.14.165
-Updated: 2026-10-26 Asia/Seoul
-Change: Replace Estrid and Valara portraits with owner-supplied WebP images
-Estrid: north-throne-hq-45-estrid-v214166.webp
-Valara (Tactician): valara-dual-faction-v214166.webp, both factions updated
+Version: 2.14.167
+Base: 2.14.166
+Updated: 2026-10-29 Asia/Seoul
+Change: Eirlys Korean official skill names, skill details, awakening corrections, trait update and activity ordering
 Required set: _worker.js + app.js + heroes.json
-Home synchronization: index.html and embedded HOME_INDEX_HTML
-Hero data: 261 total, 2 image updates, other 259 unchanged
-Estrid collection value: 4.0 PRESERVED
-Valara collection value: 5.0 PRESERVED
-Skills / gear / artifacts / existing hero histories: PRESERVED
-Valeriya fighter: PRESERVED
-END 1.0 / END 1.1 / share code / hub background: PRESERVED
-Files: 8
-New images: 2
-Unrelated images: 0
-Source / data / route / syntax / ZIP QA: PASSED
-Actual browser layout QA: NOT RUN
+Homepage sync: index.html + embedded HOME_INDEX_HTML
+Hero data: 261 total; only Eirlys changed; all other 260 preserved
+Eirlys collection value: 5.0 PRESERVED
+A3 percentage values: overseas reference; screenshot does not show numbers
+Other heroes / gear presets / artifacts / image assets: PRESERVED
 Deployment: NOT DEPLOYED
