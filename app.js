@@ -1,8 +1,9 @@
-// v2.14.170: Akira selected WebP portrait in both factions and details; synchronized hero data/cache.
-// v2.14.170: Akira Korean-server skills/awakenings, home activity synchronization.
-// v2.14.170: Eirlys portrait file update, all faction views and cache-safe static card.
-// v2.14.170: Eirlys Korean skill/awakening revision and hero activity synchronization.
-// v2.14.170: Estrid and Valara portrait update; synchronized image data and cache requests.
+// v2.14.171: Mobile-friendly collapsible skill cards on hero detail pages; data and hero portraits unchanged.
+// v2.14.171: Akira selected WebP portrait in both factions and details; synchronized hero data/cache.
+// v2.14.171: Akira Korean-server skills/awakenings, home activity synchronization.
+// v2.14.171: Eirlys portrait file update, all faction views and cache-safe static card.
+// v2.14.171: Eirlys Korean skill/awakening revision and hero activity synchronization.
+// v2.14.171: Estrid and Valara portrait update; synchronized image data and cache requests.
 // v2.14.161: Estrid collection value 4.0, owner-provided reason and activity sync.
 // v2.14.161: preserve first hero-card click while Korean IME input is active.
 // v2.14.161: synchronize homepage data requests with the Worker release.
@@ -706,14 +707,14 @@ try {
 
 // Keep the server-rendered cards visible until both sources are ready.
 // A partial render with heroes.json but no activity briefly restores the old order.
-const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.170", { cache: "no-store" })
+const recentUpdatesPromise = fetch("/api/recent-updates?v=2.14.171", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("recent updates load failed");
     return response.json();
   })
   .catch((error) => { console.warn(error); return null; });
 
-const heroesPromise = fetch("./heroes.json?v=2.14.170", { cache: "no-store" })
+const heroesPromise = fetch("./heroes.json?v=2.14.171", { cache: "no-store" })
   .then((response) => {
     if (!response.ok) throw new Error("heroes.json load failed");
     return response.json();
