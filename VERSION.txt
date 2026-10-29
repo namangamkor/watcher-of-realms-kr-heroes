@@ -1,10 +1,9 @@
-Version: 2.14.171
-Base: 2.14.170
-Updated: 2026-10-29T22:46:13+09:00
-Change: Hero-detail skills accordion (collapsed by default, toggle using summary)
-Scope: All heroes with details.showSkills = true
-Hero data: 261 heroes preserved verbatim
-Other hero data, images, awakenings, gears, artifacts, collection values: PRESERVED
+Version: 2.14.172
+Base: 2.14.171
+Updated: 2026-10-29 22:50 KST
+Change: Remove misaligned chevron from collapsed skill cards; right-align text-only toggle
+Behavior: Collapsed default; entire summary clickable; text switches 펼쳐보기 / 접기
 Required set: _worker.js + app.js + heroes.json + index.html
-Assets: akira-portrait-v214170.webp [UNCHANGED], eirlys-portrait-v214168.webp [UNCHANGED]
+Data: 261 heroes unchanged
+Assets: Akira and Eirlys portraits unchanged
 Deployment: NOT DEPLOYED
