@@ -1355,7 +1355,7 @@
         "factionEn": "North Throne",
         "lord": false,
         "sortOrder": 23,
-        "portrait": "./north-throne-hq-23-akirastar.webp"
+        "portrait": "./akira-portrait-v214170.webp"
       },
       {
         "faction": "star-piercers",
@@ -1363,7 +1363,7 @@
         "factionEn": "Star Piercers",
         "lord": false,
         "sortOrder": 18,
-        "portrait": "./star-piercers-hq-18-akirastar.webp"
+        "portrait": "./akira-portrait-v214170.webp"
       }
     ],
     "collectionValue": 3,
@@ -1503,8 +1503,16 @@
       "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
       "roleId": 3
     },
-    "infoUpdatedAt": "2026-10-29T22:24:52+09:00",
+    "infoUpdatedAt": "2026-10-29T22:37:18+09:00",
     "updateHistory": [
+      {
+        "id": "hero-akira-portrait-20261029-v214170",
+        "kind": "image",
+        "kindLabel": "이미지 업데이트",
+        "message": "아키라 사용자 확정 나만겜 스타일 초상 교체 (WebP 600×900). 북쪽 경계 왕좌·관성의 화살 두 진영과 상세페이지에 동일 적용.",
+        "shortMessage": "아키라 초상 이미지 교체",
+        "updatedAt": "2026-10-29T22:37:18+09:00"
+      },
       {
         "id": "akira-kr-skills-awakenings-20261029",
         "kind": "info",
