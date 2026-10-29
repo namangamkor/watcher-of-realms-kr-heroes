@@ -7543,7 +7543,7 @@
         "factionEn": "Watch Guard",
         "lord": false,
         "sortOrder": 8,
-        "portrait": "./watch-guard-hq-08-eirlys.webp"
+        "portrait": "./eirlys-portrait-v214168.webp"
       },
       {
         "faction": "north-throne",
@@ -7551,7 +7551,7 @@
         "factionEn": "North Throne",
         "lord": false,
         "sortOrder": 15,
-        "portrait": "./north-throne-hq-15-eirlys.webp"
+        "portrait": "./eirlys-portrait-v214168.webp"
       }
     ],
     "contentTags": [
@@ -7690,7 +7690,7 @@
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
     },
-    "infoUpdatedAt": "2026-10-29T21:33:00+09:00",
+    "infoUpdatedAt": "2026-10-29T22:13:54+09:00",
     "updateHistory": [
       {
         "id": "hero-video-20261017-eirlys",
@@ -7707,6 +7707,14 @@
         "message": "에일리스 한국 공식 스킬명·효과·각성 A1~A5 검수 및 상세 스킬 추가",
         "shortMessage": "한국 공식 스킬·각성 정정",
         "updatedAt": "2026-10-29T21:33:00+09:00"
+      },
+      {
+        "id": "eirlys-new-portrait-20261029-v214168",
+        "kind": "image",
+        "kindLabel": "이미지 업데이트",
+        "message": "에일리스 사용자 제공 나만겜 스타일 초상 이미지로 교체 (WebP, 600×900). 파수꾼 소대·북쪽 경계 왕좌 양쪽 진영 카드 동일 적용",
+        "shortMessage": "에일리스 이미지 교체",
+        "updatedAt": "2026-10-29T22:13:54+09:00"
       }
     ]
   },
