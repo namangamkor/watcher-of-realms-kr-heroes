@@ -1378,10 +1378,10 @@
     },
     "videos": [
       {
-        "youtubeId": "DdzidwGAvxE",
-        "title": "전설 영웅 관련 나만겜 영상 모음",
-        "url": "https://youtu.be/DdzidwGAvxE",
-        "label": "나만겜 전설 영웅 영상"
+        "youtubeId": "xDdsj00BbGE",
+        "title": "아키라 설명회｜200회 확정 소환·스킬·각성·추천 장비·활용처",
+        "url": "https://youtu.be/xDdsj00BbGE",
+        "label": "나만겜 아키라 설명회"
       }
     ],
     "details": {
@@ -1503,8 +1503,16 @@
       "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
       "roleId": 3
     },
-    "infoUpdatedAt": "2026-10-29T22:37:18+09:00",
+    "infoUpdatedAt": "2026-10-29T22:55:22+09:00",
     "updateHistory": [
+      {
+        "id": "akirastar-related-video-20261029-v214173",
+        "kind": "info",
+        "kindLabel": "영웅 업데이트",
+        "message": "아키라 관련영상을 기존 공통 영상에서 나만겜 아키라 설명회(https://youtu.be/xDdsj00BbGE)로 교체",
+        "shortMessage": "아키라 관련영상 교체",
+        "updatedAt": "2026-10-29T22:55:22+09:00"
+      },
       {
         "id": "hero-akira-portrait-20261029-v214170",
         "kind": "image",
