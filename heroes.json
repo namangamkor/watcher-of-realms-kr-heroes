@@ -1355,7 +1355,7 @@
         "factionEn": "North Throne",
         "lord": false,
         "sortOrder": 23,
-        "portrait": "./akira-portrait-v214170.webp"
+        "portrait": "./north-throne-hq-23-akirastar.webp"
       },
       {
         "faction": "star-piercers",
@@ -1363,7 +1363,7 @@
         "factionEn": "Star Piercers",
         "lord": false,
         "sortOrder": 18,
-        "portrait": "./akira-portrait-v214170.webp"
+        "portrait": "./star-piercers-hq-18-akirastar.webp"
       }
     ],
     "collectionValue": 3,
@@ -1378,102 +1378,49 @@
     },
     "videos": [
       {
-        "youtubeId": "xDdsj00BbGE",
-        "title": "아키라 설명회｜200회 확정 소환·스킬·각성·추천 장비·활용처",
-        "url": "https://youtu.be/xDdsj00BbGE",
-        "label": "나만겜 아키라 설명회"
+        "youtubeId": "DdzidwGAvxE",
+        "title": "전설 영웅 관련 나만겜 영상 모음",
+        "url": "https://youtu.be/DdzidwGAvxE",
+        "label": "나만겜 전설 영웅 영상"
       }
     ],
     "details": {
       "awakening": [
         {
           "level": "A1",
-          "grade": "한국 서버 게임 화면",
-          "text": "팬텀이 전장에 입장하면 즉시 에너지 과부하 상태에 진입한다."
+          "grade": "해외 DB 확인",
+          "text": "Phantom 배치 시 즉시 Core Release 상태에 진입한다."
         },
         {
           "level": "A2",
-          "grade": "한국 서버 게임 화면",
+          "grade": "해외 DB 확인",
           "text": "공격력 +300."
         },
         {
           "level": "A3",
-          "grade": "한국 서버 게임 화면",
-          "text": "궁극기 지속 기간 동안 일반 공격 2회마다 다음 일반 공격 피해의 무작위 타격 횟수가 추가로 3회 증가한다."
+          "grade": "해외 DB 확인",
+          "text": "궁극기 지속 중 일반 공격 2회마다 다음 일반 공격이 추가 피해를 3회 더 입힌다."
         },
         {
           "level": "A4",
-          "grade": "한국 서버 게임 화면",
+          "grade": "해외 DB 확인",
           "text": "관통 +8%."
         },
         {
           "level": "A5",
-          "grade": "한국 서버 게임 화면",
-          "text": "카오스 미사일이 피해를 입힐 때마다 최대 5명의 적에게 가하는 범위 피해로 변경된다. ※ 한국 서버 각성 화면에서는 동일 스킬을 ‘혼란 미사일’로 표기한다."
+          "grade": "해외 DB 확인",
+          "text": "Missile Barrage가 동시에 최대 5명의 적에게 광역 피해를 입힌다."
         }
       ],
-      "updated": "2026-10-29",
-      "note": "스킬·재능과 각성 A1~A5는 2026-10-29 사용자가 제공한 한국 서버 게임 내 스크린샷 기준으로 정정했습니다. 각성 화면의 ‘혼란 미사일’은 스킬 화면의 ‘카오스 미사일’을 가리킵니다. 추천 장비·아티팩트와 수집가치는 기존 평가를 유지했습니다.",
-      "verifiedIntro": "베라의 여동생이자 세트라무의 손에서 성장한 기계 기술자. 팬텀을 배치해 본체와 함께 광역 물리 공격을 펼치는 장거리 궁수로, 강추위를 3중첩해 빙결을 부여하고 에너지 과부하·카오스 미사일로 다수의 적을 공격한다. 팬텀의 본체 보호 효과와 프리즘 역장의 분노 회복도 활용할 수 있다.",
+      "updated": "2026-09",
+      "note": "각성 효과는 해외 영웅 DB(Prospector's Digsite 및 Watcher of Realms Wiki) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "환영을 소환해 본체와 함께 범위 공격을 이어가는 대공 특화 궁수. 적 처치로 환영 재사용 시간을 줄이고, 본체와 환영이 함께 겨울의 물림과 빙결을 누적해 적을 묶으면서 화력을 끌어올린다. 사거리 확장과 분노 회복까지 갖춰 다수의 공중 적이 이어지는 전투에서 특히 운용 가치가 높다.",
       "gear": {
         "name": "악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트",
         "label": "추천 장비 세트",
         "text": "최종 추천: 악의 복수 (Wicked Vengeance) 세트 + 재앙 드래곤 (Cataclysm) 세트. 고품질 재앙 드래곤의 중첩을 안정적으로 유지하는 엔드게임 세팅입니다. 권장 옵션: 공격력 보너스, 치명타율, 공격 속도, 치명타 피해.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
-      },
-      "showSkills": true,
-      "skillLevelNote": "2026-10-29 한국 서버 최대 스킬 레벨 및 각성 도감 화면 기준입니다. 스킬의 기본 수치와 강화(Lv.2~Lv.5)를 구분했습니다.",
-      "skills": [
-        {
-          "name": "팬텀",
-          "type": "재능 · 추가 배치",
-          "paragraphs": [
-            "아키라를 배치하면 즉시 팬텀 1개를 획득하며, 이후 60초마다 1개씩 다시 획득할 수 있습니다. 아키라 자신이나 팬텀이 적을 처치할 때마다 팬텀의 재사용 대기시간이 1초 감소하며, 다음 팬텀 획득 전까지 최대 30초 감소시킬 수 있습니다. 팬텀은 전장에 최대 1개만 존재할 수 있습니다.",
-            "팬텀의 초기 출전 비용은 12이며, 카드 구역에서 3초마다 1pt씩 감소해 최소 5pt가 됩니다. 배치 시 본체의 속성과 일반 공격을 100% 계승하고, 15초 후 자동으로 사라집니다.",
-            "팬텀이 전장에 입장하면 팬텀과 본체의 공격력이 15% 증가합니다. 적에게 피해를 입힐 때 10% 확률로 5초간 강추위를 부여합니다. 본체의 궁극기 지속 시간에는 팬텀도 카오스 미사일을 발동할 수 있습니다.",
-            "본체가 사망 위기에 처하면 팬텀이 즉시 제거되며 본체가 3초간 피해 면역 상태가 됩니다."
-          ]
-        },
-        {
-          "name": "강추위 · 빙결",
-          "type": "상태 효과 · 제어",
-          "paragraphs": [
-            "강추위는 대상 이동속도를 25% 감소시키고 최대 3중첩됩니다. 동일 유형의 감속 효과가 중복될 경우 가장 높은 효과만 적용됩니다. 강추위가 3중첩되면 대상이 2초간 빙결되어 행동할 수 없습니다."
-          ]
-        },
-        {
-          "name": "에너지 과부하",
-          "type": "수동 궁극기 · 15초",
-          "paragraphs": [
-            "궁극기 지속 기간 동안 자신의 공격 간격을 40% 감소시킵니다. 일반 공격 시 강추위 또는 빙결 상태의 적에게 가하는 피해가 100% 증가하고 피해 범위가 넓어지며 공격 대상이 3명 증가합니다.",
-            "궁극기 소모는 기본 700이며 최종 500입니다. Lv.2/Lv.4: 공격 간격 감소 효과 +5%씩(최대 50%). Lv.3/Lv.5: 스킬 소모 -100씩."
-          ]
-        },
-        {
-          "name": "범위 물리 공격",
-          "type": "일반 공격 · 광역 물리",
-          "paragraphs": [
-            "공격 범위 내 적에게 무작위로 3회, 매회 50%의 범위 물리 피해를 입힙니다. 각 타격은 최대 5명의 적에게 적용됩니다.",
-            "스킬 강화: Lv.2 피해 +2%, Lv.3 피해 +3%, Lv.4 피해 +2%, Lv.5 피해 +3%."
-          ]
-        },
-        {
-          "name": "카오스 미사일",
-          "type": "패시브 · 궁극기 연계",
-          "paragraphs": [
-            "궁극기 지속 기간 동안 공격 범위 내 무작위 적에게 지속적으로 30%의 피해를 입힙니다. 강추위 또는 빙결 상태의 적에게는 피해가 2배가 되며, 공격 범위 안의 적이 많을수록 발동 빈도가 높아집니다.",
-            "스킬 강화: Lv.2/Lv.3/Lv.4 피해 +2%씩, Lv.5 피해 +4%. 각성 A5 달성 시 최대 5명의 적에게 범위 피해를 주는 방식으로 변경됩니다."
-          ]
-        },
-        {
-          "name": "프리즘 역장",
-          "type": "패시브 · 분노 회복",
-          "paragraphs": [
-            "아키라는 매 공격 시 자신의 분노를 1% 회복합니다. 자신에게 실드가 적용되어 있다면 매 공격마다 분노를 추가로 1% 회복하고 주변 아군에게 분노 회복 효과를 부여합니다.",
-            "스킬 강화: Lv.2/Lv.3/Lv.4 자신 및 주변 아군의 분노 추가 회복 +0.1%씩, Lv.5 +0.2%."
-          ]
-        }
-      ]
+      }
     },
     "traits": [
       "광역 물리 공격",
@@ -1503,32 +1450,8 @@
       "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
       "roleId": 3
     },
-    "infoUpdatedAt": "2026-10-29T22:55:22+09:00",
+    "infoUpdatedAt": "2026-10-06T23:50:00+09:00",
     "updateHistory": [
-      {
-        "id": "akirastar-related-video-20261029-v214173",
-        "kind": "info",
-        "kindLabel": "영웅 업데이트",
-        "message": "아키라 관련영상을 기존 공통 영상에서 나만겜 아키라 설명회(https://youtu.be/xDdsj00BbGE)로 교체",
-        "shortMessage": "아키라 관련영상 교체",
-        "updatedAt": "2026-10-29T22:55:22+09:00"
-      },
-      {
-        "id": "hero-akira-portrait-20261029-v214170",
-        "kind": "image",
-        "kindLabel": "이미지 업데이트",
-        "message": "아키라 사용자 확정 나만겜 스타일 초상 교체 (WebP 600×900). 북쪽 경계 왕좌·관성의 화살 두 진영과 상세페이지에 동일 적용.",
-        "shortMessage": "아키라 초상 이미지 교체",
-        "updatedAt": "2026-10-29T22:37:18+09:00"
-      },
-      {
-        "id": "akira-kr-skills-awakenings-20261029",
-        "kind": "info",
-        "kindLabel": "정보 업데이트",
-        "message": "한국 서버 공식 스킬 6개 항목·각성 A1~A5 정정",
-        "shortMessage": "한국 공식 스킬·각성 정정",
-        "updatedAt": "2026-10-29T22:24:52+09:00"
-      },
       {
         "id": "generic-artifact-20261006-akirastar",
         "kind": "info",
@@ -1536,6 +1459,18 @@
         "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
         "shortMessage": "범용 아티팩트 대안 추가",
         "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ],
+    "summonHistory": [
+      {
+        "id": "2026-10-29-akira-guaranteed",
+        "startDate": "2026-10-29",
+        "endDate": null,
+        "type": "guaranteed",
+        "guaranteePulls": 200,
+        "source": "사용자 제공 소환 일정 (2026-10~11 대화)",
+        "recordedAt": "2026-11-02",
+        "companions": []
       }
     ]
   },
@@ -7620,7 +7555,7 @@
         "factionEn": "Watch Guard",
         "lord": false,
         "sortOrder": 8,
-        "portrait": "./eirlys-portrait-v214168.webp"
+        "portrait": "./watch-guard-hq-08-eirlys.webp"
       },
       {
         "faction": "north-throne",
@@ -7628,7 +7563,7 @@
         "factionEn": "North Throne",
         "lord": false,
         "sortOrder": 15,
-        "portrait": "./eirlys-portrait-v214168.webp"
+        "portrait": "./north-throne-hq-15-eirlys.webp"
       }
     ],
     "contentTags": [
@@ -7656,107 +7591,44 @@
       "awakening": [
         {
           "level": "A1",
-          "grade": "한국 서버 스크린샷",
-          "text": "일반 공격과 유합의 기도로 발생하는 직접적인 치유가 고요한 숨결을 보유한 모든 아군에게 15%의 추가 치유를 1회 부여한다."
+          "grade": "해외 DB 확인",
+          "text": "일반 공격과 치유 기도의 직접 치유가 평온의 숨결이 있는 모든 아군에게 추가 치유 1회를 적용한다."
         },
         {
           "level": "A2",
-          "grade": "한국 서버 스크린샷",
+          "grade": "해외 DB 확인",
           "text": "치유 효과 +8."
         },
         {
           "level": "A3",
-          "grade": "한국 서버 화면 효과 확인 / 수치는 해외 DB 참고",
-          "text": "유합의 기도가 대상의 HP 75% 미만에서 치유를 발동하면 고요한 숨결을 보유한 모든 아군에게 피해 증가를 부여한다. 유합의 기도 지속시간이 종료되거나 초기화되어 치유가 발동할 때도 고요한 숨결 보유 아군에게 피해 증가를 부여한다. ※ 기존 해외 DB는 각각 피해 +50% / +30%, 10초로 표기하지만 첨부한 한국 서버 화면에는 수치가 표시되지 않는다."
+          "grade": "해외 DB 확인",
+          "text": "치유 기도가 대상 HP 75% 미만에서 발동하면 평온의 숨결이 있는 모든 아군에게 10초간 피해 +50%를 부여한다. 자연 종료 또는 갱신으로 발동하면 10초간 피해 +30%를 부여한다."
         },
         {
           "level": "A4",
-          "grade": "한국 서버 스크린샷",
-          "text": "자연 분노 회복 +1."
+          "grade": "해외 DB 확인",
+          "text": "자동 분노 회복 +1."
         },
         {
           "level": "A5",
-          "grade": "한국 서버 스크린샷",
-          "text": "평온한 성역 발동 시 자신의 공격 간격이 35% 감소하며 15초간 지속된다."
+          "grade": "해외 DB 확인",
+          "text": "빛의 성역이 발동하면 15초간 공격 간격이 35% 감소한다."
         }
       ],
-      "updated": "2026-10-29",
-      "note": "스킬명·스킬 효과 및 각성 A1~A5는 2026-10-29 사용자가 제공한 한국 서버 게임 화면 기준으로 정정했습니다. A3의 피해 증가 수치(50%/30%, 각 10초)는 기존 해외 DB 참고값이며 첨부 한국 서버 화면에는 수치가 노출되지 않아 확정 수치로 취급하지 않습니다. 추천 장비·아티팩트는 기존 등록 평가를 유지합니다.",
-      "verifiedIntro": "고요한 숨결(10초, 최대 2명)로 물리·마법 피해를 각각 25% 감소시키는 단일 치유형 보호 힐러. 유합의 기도로 체력이 떨어진 아군에게 긴급 치유를 제공하고, 평온한 성역으로 치명 피해를 방지한다. 푸른 은총의 분노 회복 지원과 A3의 피해 증가 효과까지 갖춰 핵심 아군 보호와 궁극기 순환에 강점이 있다.",
+      "updated": "2026-09",
+      "note": "각성 효과는 Watcher of Realms Wiki(Fandom) 기준으로 확인 후 한국어 번역했습니다. 한국 서버 공식 문구와 표현이 다를 수 있습니다.",
+      "verifiedIntro": "회복·피해 감소·분노 지원·치명 피해 방지를 한 번에 제공하는 보호형 힐러. 치유한 아군에게 물리·마법 피해 감소를 부여하고 분노 회복을 가속하며, 위험한 순간에는 아군 1명이 치명 피해를 버티도록 보호한다. 단순 회복량보다 파티 전체의 생존과 궁극기 회전을 동시에 끌어올리는 것이 핵심이다.",
       "gear": {
         "name": "빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트",
         "label": "추천 장비 세트",
         "text": "최종 추천: 빛의 은혜 (Light's Grace) 세트 + 성스러운 날개 (Wings of Grace) 세트. 치유·분노 회복과 동시에 성스러운 날개로 핵심 딜러의 공격력을 지원하는 최종 세팅입니다. 권장 옵션: 공격 속도, 공격력 보너스, 치유 효과, 분노 회복.",
         "source": "2026-09-17 북쪽 경계 왕좌 엔드게임 재검수: Fastidious.gg + Prospector.gg 중심, 영웅별 자료 교차검증"
-      },
-      "showSkills": true,
-      "skillLevelNote": "한국 서버 스크린샷 기준. 별도 표기가 없는 치유 수치는 첨부 화면에 표시된 스킬 설명을 따릅니다.",
-      "skills": [
-        {
-          "name": "고요한 숨결",
-          "type": "재능 · 10초",
-          "paragraphs": [
-            "에일리스가 아군을 치유하면 해당 아군에게 고요한 숨결을 부여한다. 효과를 받은 아군은 물리 피해 감소 +25%와 마법 피해 감소 +25%를 얻는다. 같은 유형의 피해 감소 효과가 여러 개라면 가장 높은 효과만 적용된다.",
-            "고요한 숨결은 10초 동안 유지되며 필드에 동시에 최대 2명의 아군에게 존재할 수 있다. 제거할 수 없는 상태다.",
-            "고요한 숨결을 보유한 아군을 치유할 때 치유 보너스가 추가로 30% 상승하며, 에일리스 자신은 분노를 추가로 2% 회복한다."
-          ]
-        },
-        {
-          "name": "자비의 은총",
-          "type": "궁극기 · 자동",
-          "paragraphs": [
-            "공격 범위 내 아군 중 현재 HP 비율이 가장 낮은 1명에게 유합의 기도를 부여한다.",
-            "스킬 강화: Lv.2/Lv.4 유합의 기도 치유 배율 +50%씩, Lv.3/Lv.5 스킬 소모 -50씩 (한국 서버 화면 표기)."
-          ]
-        },
-        {
-          "name": "유합의 기도",
-          "type": "자비의 은총으로 부여되는 상태 · 10초",
-          "paragraphs": [
-            "대상의 HP가 75% 이하로 감소하면 즉시 발동해 시전자 공격력의 400%만큼 치유하고 해당 상태를 제거한다.",
-            "지속시간이 종료되거나 상태가 초기화될 때 시전자 공격력의 200%만큼 치유한다. 유합의 기도는 제거할 수 없는 상태다."
-          ]
-        },
-        {
-          "name": "단일 치유",
-          "type": "일반 공격",
-          "paragraphs": [
-            "공격 범위 내 아군 1명에게 공격력 기반 치유를 제공한다. 화면에 표시된 기본 치유 배율은 120%다.",
-            "스킬 강화: Lv.2~Lv.5 각 레벨마다 치유 배율 +5%."
-          ]
-        },
-        {
-          "name": "평온한 성역",
-          "type": "패시브 · 치명 피해 방지",
-          "paragraphs": [
-            "일반 공격 범위 내 아군 1명이 치명 피해를 1회 면역할 수 있다.",
-            "효과를 발동한 아군이 고요한 숨결을 보유하고 있다면 동시에 모든 피해 면역 효과를 얻는다. 최대 스킬 레벨에서 피해 면역은 5초간 유지되며 해당 효과는 50초마다 최대 1회 발동한다."
-          ]
-        },
-        {
-          "name": "푸른 은총",
-          "type": "패시브 · 분노 회복",
-          "paragraphs": [
-            "에일리스가 필드에 있는 동안 필드의 아군은 1초마다 추가 분노 1%를 회복한다.",
-            "고요한 숨결을 보유한 아군은 1초마다 추가 분노 2%를 회복한다 (한국 서버 화면 표기).",
-            "스킬 강화: Lv.2/Lv.3/Lv.4 회복량 +0.1%씩, Lv.5 회복량 +0.2%."
-          ]
-        },
-        {
-          "name": "첫눈의 약속",
-          "type": "시너지 스킬 · 패시브",
-          "paragraphs": [
-            "도감에서 뿔의 군주 레이븐홀드를 활성화하면 사용할 수 있다.",
-            "유합의 기도로 치유가 발동할 때 에일리스의 공격 속도가 100 증가하며 5초간 지속된다."
-          ]
-        }
-      ]
+      }
     },
     "traits": [
       "단일 치유",
       "아군 보호",
-      "아군 버프",
-      "분노 회복"
+      "아군 버프"
     ],
     "recommendedArtifact": {
       "nameKr": "황금 풍뎅이",
@@ -7767,7 +7639,7 @@
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
     },
-    "infoUpdatedAt": "2026-10-29T22:13:54+09:00",
+    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
     "updateHistory": [
       {
         "id": "hero-video-20261017-eirlys",
@@ -7776,22 +7648,20 @@
         "message": "관련 나만겜 영상 추가",
         "shortMessage": "관련 영상 추가",
         "updatedAt": "2026-10-17T23:41:57+09:00"
-      },
+      }
+    ],
+    "summonHistory": [
       {
-        "id": "eirlys-kr-skill-awakening-20261029",
-        "kind": "info",
-        "kindLabel": "정보 업데이트",
-        "message": "에일리스 한국 공식 스킬명·효과·각성 A1~A5 검수 및 상세 스킬 추가",
-        "shortMessage": "한국 공식 스킬·각성 정정",
-        "updatedAt": "2026-10-29T21:33:00+09:00"
-      },
-      {
-        "id": "eirlys-new-portrait-20261029-v214168",
-        "kind": "image",
-        "kindLabel": "이미지 업데이트",
-        "message": "에일리스 사용자 제공 나만겜 스타일 초상 이미지로 교체 (WebP, 600×900). 파수꾼 소대·북쪽 경계 왕좌 양쪽 진영 카드 동일 적용",
-        "shortMessage": "에일리스 이미지 교체",
-        "updatedAt": "2026-10-29T22:13:54+09:00"
+        "id": "2026-10-30-vera-eirlys",
+        "startDate": "2026-10-30",
+        "endDate": null,
+        "type": "regular",
+        "guaranteePulls": null,
+        "source": "사용자 제공 소환 일정 (2026-10~11 대화)",
+        "recordedAt": "2026-11-02",
+        "companions": [
+          "베라"
+        ]
       }
     ]
   },
@@ -8670,7 +8540,7 @@
         "factionEn": "North Throne",
         "lord": false,
         "sortOrder": 45,
-        "portrait": "./north-throne-hq-45-estrid-v214166.webp"
+        "portrait": "./north-throne-hq-45-estrid.webp"
       }
     ],
     "collectionValue": 4.0,
@@ -8733,7 +8603,7 @@
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
     },
-    "infoUpdatedAt": "2026-10-26T15:54:22+09:00",
+    "infoUpdatedAt": "2026-10-22T15:39:26+09:00",
     "updateHistory": [
       {
         "id": "hero-video-20261017-estrid",
@@ -8750,14 +8620,6 @@
         "message": "수집가치 3.0→4.0 상향 (타이탄 초월·장비지하성 2에서 현역으로 사용 가능)",
         "shortMessage": "수집가치 3.0→4.0 상향",
         "updatedAt": "2026-10-22T15:39:26+09:00"
-      },
-      {
-        "id": "hero-estrid-image-20261026",
-        "kind": "image-update",
-        "kindLabel": "이미지업데이트",
-        "message": "영웅 초상 이미지 교체",
-        "shortMessage": "초상 이미지 교체",
-        "updatedAt": "2026-10-26T15:54:22+09:00"
       }
     ],
     "collectionValueReason": "타이탄 초월·장비지하성 2에서 현역으로 사용 가능.",
@@ -15695,6 +15557,20 @@
         "shortMessage": "범용 아티팩트 대안 추가",
         "updatedAt": "2026-10-07T00:04:41+09:00"
       }
+    ],
+    "summonHistory": [
+      {
+        "id": "2026-10-23-nerissa-lulu",
+        "startDate": "2026-10-23",
+        "endDate": "2026-10-25",
+        "type": "regular",
+        "guaranteePulls": null,
+        "source": "사용자 제공 소환 일정 (2026-10~11 대화)",
+        "recordedAt": "2026-11-02",
+        "companions": [
+          "네리사"
+        ]
+      }
     ]
   },
   {
@@ -17746,7 +17622,21 @@
       "source": "https://fastidious.gg/heroes/nerissa",
       "reviewedAt": "2026-10-01",
       "recommendationBasis": "Fastidious 영웅별 1순위"
-    }
+    },
+    "summonHistory": [
+      {
+        "id": "2026-10-23-nerissa-lulu",
+        "startDate": "2026-10-23",
+        "endDate": "2026-10-25",
+        "type": "regular",
+        "guaranteePulls": null,
+        "source": "사용자 제공 소환 일정 (2026-10~11 대화)",
+        "recordedAt": "2026-11-02",
+        "companions": [
+          "루루"
+        ]
+      }
+    ]
   },
   {
     "id": "niro",
@@ -19689,6 +19579,20 @@
         "message": "전용 미보유 시 범용 아티팩트 대안과 조건 추가",
         "shortMessage": "범용 아티팩트 대안 추가",
         "updatedAt": "2026-10-06T23:50:00+09:00"
+      }
+    ],
+    "summonHistory": [
+      {
+        "id": "2026-10-31-rivenhald-valara",
+        "startDate": "2026-10-31",
+        "endDate": null,
+        "type": "ancient",
+        "guaranteePulls": null,
+        "source": "사용자 제공 소환 일정 (2026-10~11 대화)",
+        "recordedAt": "2026-11-02",
+        "companions": [
+          "발레리아"
+        ]
       }
     ]
   },
@@ -23062,7 +22966,7 @@
         "factionEn": "Esoteria Order",
         "lord": false,
         "sortOrder": 16,
-        "portrait": "./valara-dual-faction-v214166.webp"
+        "portrait": "./valara-dual-faction-v214108.webp"
       },
       {
         "faction": "supreme-arbiters",
@@ -23070,7 +22974,7 @@
         "factionEn": "Supreme Arbiters",
         "lord": false,
         "sortOrder": 8,
-        "portrait": "./valara-dual-faction-v214166.webp"
+        "portrait": "./valara-dual-faction-v214108.webp"
       }
     ],
     "contentTags": [
@@ -23175,7 +23079,7 @@
       "recommendationBasis": "영웅별 추천에서 전용 아티팩트를 제외한 첫 범용 후보; 효과·장착 클래스 확인",
       "roleId": 6
     },
-    "infoUpdatedAt": "2026-10-26T15:54:22+09:00",
+    "infoUpdatedAt": "2026-10-17T23:41:57+09:00",
     "updateHistory": [
       {
         "id": "generic-artifact-20261006-valara",
@@ -23200,14 +23104,20 @@
         "message": "관련 나만겜 영상 추가",
         "shortMessage": "관련 영상 추가",
         "updatedAt": "2026-10-17T23:41:57+09:00"
-      },
+      }
+    ],
+    "summonHistory": [
       {
-        "id": "hero-valara-image-20261026",
-        "kind": "image-update",
-        "kindLabel": "이미지업데이트",
-        "message": "영웅 초상 이미지 교체",
-        "shortMessage": "초상 이미지 교체",
-        "updatedAt": "2026-10-26T15:54:22+09:00"
+        "id": "2026-10-31-rivenhald-valara",
+        "startDate": "2026-10-31",
+        "endDate": null,
+        "type": "ancient",
+        "guaranteePulls": null,
+        "source": "사용자 제공 소환 일정 (2026-10~11 대화)",
+        "recordedAt": "2026-11-02",
+        "companions": [
+          "레이븐홀드"
+        ]
       }
     ]
   },
@@ -23961,6 +23871,20 @@
       "단일 물리 공격",
       "방어 무시",
       "공중 유닛 공격 가능"
+    ],
+    "summonHistory": [
+      {
+        "id": "2026-10-30-vera-eirlys",
+        "startDate": "2026-10-30",
+        "endDate": null,
+        "type": "regular",
+        "guaranteePulls": null,
+        "source": "사용자 제공 소환 일정 (2026-10~11 대화)",
+        "recordedAt": "2026-11-02",
+        "companions": [
+          "에일리스"
+        ]
+      }
     ]
   },
   {
