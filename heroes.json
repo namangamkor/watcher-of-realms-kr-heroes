@@ -1465,12 +1465,14 @@
       {
         "id": "2026-10-29-akira-guaranteed",
         "startDate": "2026-10-29",
-        "endDate": null,
+        "endDate": "2026-11-02",
         "type": "guaranteed",
         "guaranteePulls": 200,
-        "source": "사용자 제공 소환 일정 (2026-10~11 대화)",
+        "source": "게임 내 이벤트 캘린더 스크린샷 (2026-11-02 사용자 제공)",
         "recordedAt": "2026-11-02",
-        "companions": []
+        "companions": [],
+        "bannerName": "팬텀 소환",
+        "rateUpMultiplier": 20
       }
     ]
   },
@@ -7654,14 +7656,16 @@
       {
         "id": "2026-10-30-vera-eirlys",
         "startDate": "2026-10-30",
-        "endDate": null,
+        "endDate": "2026-11-02",
         "type": "regular",
         "guaranteePulls": null,
-        "source": "사용자 제공 소환 일정 (2026-10~11 대화)",
+        "source": "게임 내 이벤트 캘린더 스크린샷 (2026-11-02 사용자 제공)",
         "recordedAt": "2026-11-02",
         "companions": [
           "베라"
-        ]
+        ],
+        "bannerName": "특정 스피릿 소환",
+        "rateUpMultiplier": 20
       }
     ]
   },
@@ -19585,14 +19589,16 @@
       {
         "id": "2026-10-31-rivenhald-valara",
         "startDate": "2026-10-31",
-        "endDate": null,
+        "endDate": "2026-11-02",
         "type": "ancient",
         "guaranteePulls": null,
-        "source": "사용자 제공 소환 일정 (2026-10~11 대화)",
+        "source": "게임 내 이벤트 캘린더 스크린샷 (2026-11-02 사용자 제공)",
         "recordedAt": "2026-11-02",
         "companions": [
           "발레리아"
-        ]
+        ],
+        "bannerName": "특정 고대 소환",
+        "rateUpMultiplier": 20
       }
     ]
   },
@@ -23110,14 +23116,16 @@
       {
         "id": "2026-10-31-rivenhald-valara",
         "startDate": "2026-10-31",
-        "endDate": null,
+        "endDate": "2026-11-02",
         "type": "ancient",
         "guaranteePulls": null,
-        "source": "사용자 제공 소환 일정 (2026-10~11 대화)",
+        "source": "게임 내 이벤트 캘린더 스크린샷 (2026-11-02 사용자 제공)",
         "recordedAt": "2026-11-02",
         "companions": [
           "레이븐홀드"
-        ]
+        ],
+        "bannerName": "특정 고대 소환",
+        "rateUpMultiplier": 20
       }
     ]
   },
@@ -23876,14 +23884,16 @@
       {
         "id": "2026-10-30-vera-eirlys",
         "startDate": "2026-10-30",
-        "endDate": null,
+        "endDate": "2026-11-02",
         "type": "regular",
         "guaranteePulls": null,
-        "source": "사용자 제공 소환 일정 (2026-10~11 대화)",
+        "source": "게임 내 이벤트 캘린더 스크린샷 (2026-11-02 사용자 제공)",
         "recordedAt": "2026-11-02",
         "companions": [
           "에일리스"
-        ]
+        ],
+        "bannerName": "특정 스피릿 소환",
+        "rateUpMultiplier": 20
       }
     ]
   },
