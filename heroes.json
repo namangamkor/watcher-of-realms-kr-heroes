@@ -13694,6 +13694,16 @@
         "shortMessage": "범용 아티팩트 대안 추가",
         "updatedAt": "2026-10-06T23:50:00+09:00"
       }
+    ],
+    "summonHistory": [
+      {
+        "id": "2026-11-26-kigiri-guaranteed",
+        "startDate": "2026-11-26",
+        "endDate": "2026-11-30",
+        "type": "guaranteed",
+        "guaranteePulls": 200,
+        "source": "사용자 제공 소환 일정 (2026-11-28)"
+      }
     ]
   },
   {
@@ -26543,6 +26553,14 @@
         ],
         "source": "사용자 제공 소환 일정 (2026-11-28)"
       }
+    ],
+    "videos": [
+      {
+        "youtubeId": "9vAgBHGNYrY",
+        "title": "에테리온 관련 나만겜 영상",
+        "url": "https://youtu.be/9vAgBHGNYrY",
+        "label": "나만겜 에테리온 영상"
+      }
     ]
   },
   {
@@ -26561,10 +26579,10 @@
         "factionEn": "Infernal Blast",
         "lord": true,
         "sortOrder": 34,
-        "portrait": "./melisara-portrait-v214189.webp"
+        "portrait": "./melisara-portrait-v214191.webp"
       }
     ],
-    "portrait": "./melisara-portrait-v214189.webp",
+    "portrait": "./melisara-portrait-v214191.webp",
     "collectionValue": 4,
     "contentTags": [],
     "details": {
@@ -26733,6 +26751,14 @@
           "그레첸"
         ],
         "source": "사용자 제공 소환 일정 (2026-11-28)"
+      }
+    ],
+    "videos": [
+      {
+        "youtubeId": "KRiR5PkKAJ8",
+        "title": "멜리사라 관련 나만겜 영상",
+        "url": "https://youtu.be/KRiR5PkKAJ8",
+        "label": "나만겜 멜리사라 영상"
       }
     ]
   }
